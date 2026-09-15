@@ -1,0 +1,196 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --nav-h: 64px;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Public Sans', sans-serif;
+  }
+}
+
+/* Material Symbols Outlined Icon Font */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+/* FAQ Accordion Transitions */
+.faq-item {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  position: relative;
+  overflow: hidden;
+}
+.dark .faq-item {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(12px);
+}
+.faq-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(to bottom, #0056b2, #7c3aed);
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 0 2px 2px 0;
+}
+.faq-item:hover::before,
+.faq-item.faq-open::before {
+  transform: scaleY(1);
+}
+.faq-item:hover,
+.faq-item.faq-open {
+  border-color: rgba(0, 86, 178, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 86, 178, 0.08), 0 2px 8px rgba(0, 0, 0, 0.06);
+  transform: translateX(4px);
+}
+.dark .faq-item:hover,
+.dark .faq-item.faq-open {
+  background: rgba(0, 86, 178, 0.06);
+  border-color: rgba(0, 86, 178, 0.25);
+  box-shadow: 0 8px 40px rgba(0, 86, 178, 0.12), 0 0 0 1px rgba(124, 58, 237, 0.1);
+}
+.faq-answer {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.4s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.3s ease;
+  opacity: 0;
+}
+.faq-answer.faq-answer-open {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+.faq-answer-inner {
+  overflow: hidden;
+}
+.faq-icon {
+  transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1), color 0.3s ease, background 0.3s ease;
+  background: rgba(0, 86, 178, 0.08);
+  border: 1px solid rgba(0, 86, 178, 0.12);
+}
+.faq-item:hover .faq-icon {
+  background: rgba(0, 86, 178, 0.15);
+  border-color: rgba(0, 86, 178, 0.3);
+}
+.faq-icon-open {
+  transform: rotate(180deg) !important;
+  background: rgba(0, 86, 178, 0.2) !important;
+  border-color: rgba(0, 86, 178, 0.4) !important;
+  color: #0056b2 !important;
+}
+.faq-question {
+  transition: color 0.3s ease;
+}
+.faq-item:hover .faq-question {
+  color: #0056b2;
+}
+.dark .faq-item:hover .faq-question {
+  color: #60a5fa;
+}
+.faq-number {
+  transition: all 0.3s ease;
+  opacity: 0.3;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+.faq-item:hover .faq-number,
+.faq-item.faq-open .faq-number {
+  opacity: 1;
+  color: #0056b2;
+}
+
+/* Capability Cards */
+.cap-card {
+  transition: all 0.35s cubic-bezier(0.23, 1, 0.32, 1);
+  position: relative;
+  overflow: hidden;
+}
+.cap-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.10), 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+.cap-card .cap-glow-bar {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 6px;
+  border-radius: 0 0 1rem 1rem;
+  opacity: 0.85;
+  transition: height 0.35s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.35s ease;
+}
+.cap-card:hover .cap-glow-bar {
+  height: 10px;
+  opacity: 1;
+}
+.cap-card .cap-glow-bloom {
+  position: absolute;
+  bottom: -30px; left: 10%; right: 10%;
+  height: 60px;
+  border-radius: 50%;
+  filter: blur(24px);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+.cap-card:hover .cap-glow-bloom {
+  opacity: 0.35;
+}
+.cap-icon-badge {
+  transition: all 0.35s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.cap-card:hover .cap-icon-badge {
+  transform: scale(1.1) rotate(3deg);
+}
+.cap-card:hover .cap-title {
+  color: #1e40af !important;
+}
+.dark .cap-card:hover .cap-title {
+  color: #60a5fa !important;
+}
+.cap-desc {
+  transition: color 0.35s ease;
+}
+.cap-card:hover .cap-desc {
+  color: #334155 !important;
+}
+.dark .cap-card:hover .cap-desc {
+  color: #e2e8f0 !important;
+}
+.cap-tag {
+  transition: all 0.35s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* Glass Card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.dark .glass-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
