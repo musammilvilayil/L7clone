@@ -6,6 +6,41 @@ interface HeaderProps {
   setDarkMode: (val: boolean | ((prev: boolean) => boolean)) => void;
 }
 
+interface NavItem {
+  label: string;
+  href: string;
+}
+
+const NAV_LINKS: NavItem[] = [
+  { label: 'Who we are', href: '#about' },
+  { label: 'What we think', href: '#products' },
+  { label: 'Corporate Training', href: '#training' },
+  { label: 'Contact Us', href: '#contact' },
+];
+
+const SERVICE_ITEMS = [
+  {
+    title: 'Digital Experience',
+    desc: 'Modern composable platforms & web apps',
+    href: '#capabilities',
+  },
+  {
+    title: 'Applied AI Hyperautomation',
+    desc: 'Autonomous agents & LLM workflows',
+    href: '#capabilities',
+  },
+  {
+    title: 'Technology Strategy',
+    desc: 'Architecture consulting & roadmaps',
+    href: '#capabilities',
+  },
+  {
+    title: 'Custom Developments',
+    desc: 'Tailored business software solutions',
+    href: '#capabilities',
+  },
+];
+
 interface PortalSwitcherProps {
   activeSegment: 'education' | 'it';
   onSelect: (val: 'education' | 'it') => void;
@@ -81,7 +116,6 @@ export const Header: React.FC<HeaderProps> = ({ darkMode, setDarkMode }) => {
 
   return (
     <header className="sticky top-0 z-50 w-full flex flex-col transition-all duration-300">
-      {/* Fixed Navigation Bar */}
       <nav
         aria-label="Main navigation"
         className={`fixed top-0 left-0 right-0 z-50 h-16 transition-all duration-300 ${
@@ -91,8 +125,7 @@ export const Header: React.FC<HeaderProps> = ({ darkMode, setDarkMode }) => {
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between">
-          {/* Brand Logo */}
-          <a href="#" className="flex items-center gap-2.5 group">
+          <a href="#" className="flex items-center gap-2.5">
             <img
               src="/images/logos/logo-primary.webp"
               alt="Ladder7"
@@ -113,7 +146,7 @@ export const Header: React.FC<HeaderProps> = ({ darkMode, setDarkMode }) => {
             />
           </a>
 
-          {/* Center Navigation Links (Desktop) */}
+          {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-8">
             <a
               href="#about"
@@ -122,7 +155,7 @@ export const Header: React.FC<HeaderProps> = ({ darkMode, setDarkMode }) => {
               Who we are
             </a>
 
-            {/* What we do Dropdown */}
+            {/* Services Dropdown */}
             <div
               className="relative"
               onMouseEnter={() => setWhatWeDoOpen(true)}
@@ -141,88 +174,46 @@ export const Header: React.FC<HeaderProps> = ({ darkMode, setDarkMode }) => {
                 />
               </button>
 
-              {/* Mega / Dropdown Menu */}
               {whatWeDoOpen && (
                 <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-72 p-3 bg-white dark:bg-[#131f2c] rounded-2xl shadow-2xl border border-slate-100 dark:border-white/10 animate-fadeInDown z-50">
                   <div className="space-y-1">
-                    <a
-                      href="#capabilities"
-                      className="block p-2.5 rounded-xl hover:bg-slate-50 dark:hover:bg-white/5 transition-colors group"
-                    >
-                      <div className="text-xs font-bold text-slate-900 dark:text-white group-hover:text-primary dark:group-hover:text-blue-400">
-                        Digital Experience
-                      </div>
-                      <div className="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">
-                        Modern composable platforms & web apps
-                      </div>
-                    </a>
-                    <a
-                      href="#capabilities"
-                      className="block p-2.5 rounded-xl hover:bg-slate-50 dark:hover:bg-white/5 transition-colors group"
-                    >
-                      <div className="text-xs font-bold text-slate-900 dark:text-white group-hover:text-primary dark:group-hover:text-blue-400">
-                        Applied AI Hyperautomation
-                      </div>
-                      <div className="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">
-                        Autonomous agents & LLM workflows
-                      </div>
-                    </a>
-                    <a
-                      href="#capabilities"
-                      className="block p-2.5 rounded-xl hover:bg-slate-50 dark:hover:bg-white/5 transition-colors group"
-                    >
-                      <div className="text-xs font-bold text-slate-900 dark:text-white group-hover:text-primary dark:group-hover:text-blue-400">
-                        Technology Strategy
-                      </div>
-                      <div className="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">
-                        Architecture consulting & roadmaps
-                      </div>
-                    </a>
-                    <a
-                      href="#capabilities"
-                      className="block p-2.5 rounded-xl hover:bg-slate-50 dark:hover:bg-white/5 transition-colors group"
-                    >
-                      <div className="text-xs font-bold text-slate-900 dark:text-white group-hover:text-primary dark:group-hover:text-blue-400">
-                        Custom Developments
-                      </div>
-                      <div className="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">
-                        Tailored business software solutions
-                      </div>
-                    </a>
+                    {SERVICE_ITEMS.map((service) => (
+                      <a
+                        key={service.title}
+                        href={service.href}
+                        className="block p-2.5 rounded-xl hover:bg-slate-50 dark:hover:bg-white/5 transition-colors group"
+                      >
+                        <div className="text-xs font-bold text-slate-900 dark:text-white group-hover:text-primary dark:group-hover:text-blue-400">
+                          {service.title}
+                        </div>
+                        <div className="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">
+                          {service.desc}
+                        </div>
+                      </a>
+                    ))}
                   </div>
                 </div>
               )}
             </div>
 
-            <a
-              href="#products"
-              className="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-blue-400 transition-colors py-1.5"
-            >
-              What we think
-            </a>
-            <a
-              href="#training"
-              className="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-blue-400 transition-colors py-1.5"
-            >
-              Corporate Training
-            </a>
-            <a
-              href="#contact"
-              className="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-blue-400 transition-colors py-1.5"
-            >
-              Contact Us
-            </a>
+            {NAV_LINKS.slice(1).map((item) => (
+              <a
+                key={item.label}
+                href={item.href}
+                className="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-blue-400 transition-colors py-1.5"
+              >
+                {item.label}
+              </a>
+            ))}
           </div>
 
           {/* Right Action Controls */}
           <div className="flex items-center gap-3 sm:gap-4">
-            {/* Education / IT Switcher (Desktop) */}
             <PortalSwitcher
               activeSegment={activeSegment}
               onSelect={setActiveSegment}
             />
 
-            {/* Dark / Light Mode Toggle */}
             <button
               type="button"
               onClick={() => setDarkMode((prev) => !prev)}
@@ -233,7 +224,6 @@ export const Header: React.FC<HeaderProps> = ({ darkMode, setDarkMode }) => {
               {darkMode ? <Sun className="w-4 h-4 text-amber-400" /> : <Moon className="w-4 h-4" />}
             </button>
 
-            {/* Mobile Hamburger Button */}
             <button
               type="button"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -246,7 +236,6 @@ export const Header: React.FC<HeaderProps> = ({ darkMode, setDarkMode }) => {
         </div>
       </nav>
 
-      {/* Spacer to prevent content jump under fixed navbar */}
       <div className="h-16 w-full" aria-hidden="true" />
 
       {/* Mobile Drawer */}
@@ -288,7 +277,6 @@ export const Header: React.FC<HeaderProps> = ({ darkMode, setDarkMode }) => {
             Contact Us
           </a>
 
-          {/* Education / IT Switcher (Mobile Drawer Bottom) */}
           <div className="mt-4 pt-4 border-t border-slate-100 dark:border-white/10">
             <PortalSwitcher
               activeSegment={activeSegment}

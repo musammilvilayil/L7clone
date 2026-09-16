@@ -7,7 +7,6 @@ export const AdvisorCTA: React.FC = () => {
         className="max-w-5xl mx-auto rounded-3xl px-8 py-16 text-center relative overflow-hidden shadow-2xl"
         style={{ backgroundColor: 'rgb(0, 86, 178)' }}
       >
-        {/* Diagonal Stripe Background Texture */}
         <div
           className="absolute inset-0 opacity-20 pointer-events-none"
           style={{
@@ -29,7 +28,6 @@ export const AdvisorCTA: React.FC = () => {
             href="mailto:info@ladder7.in"
             className="group relative bg-white px-6 py-3.5 sm:px-8 sm:py-4 rounded-xl font-bold text-sm sm:text-base md:text-lg shadow-lg transition-all duration-300 inline-flex items-center justify-center gap-2 sm:gap-3 mx-auto overflow-hidden hover:-translate-y-0.5 hover:shadow-xl hover:shadow-white/20 text-[#0056b2]"
           >
-            {/* Shimmer Light Bar */}
             <span className="absolute inset-0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 bg-gradient-to-r from-transparent via-white/50 to-transparent skew-x-12 pointer-events-none" />
             <span className="relative z-10">Start Your Revenue Engine Today</span>
             <span className="material-symbols-outlined relative z-10 transition-all duration-300 group-hover:translate-x-1">

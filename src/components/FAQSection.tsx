@@ -10,7 +10,6 @@ export const FAQSection: React.FC = () => {
 
   return (
     <section className="py-24 bg-slate-50 dark:bg-[#0f1923] relative overflow-hidden border-t border-slate-200/60 dark:border-white/5">
-      {/* Background Ambient Blur */}
       <div className="absolute inset-0 pointer-events-none">
         <div
           className="absolute top-1/4 left-0 w-72 h-72 rounded-full blur-[100px] opacity-[0.06]"
@@ -23,7 +22,6 @@ export const FAQSection: React.FC = () => {
       </div>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        {/* Title */}
         <div className="text-center mb-10 sm:mb-12">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 dark:text-white">
             FAQ
@@ -34,7 +32,6 @@ export const FAQSection: React.FC = () => {
           />
         </div>
 
-        {/* Accordion List */}
         <div className="space-y-3">
           {FAQS.map((faq) => {
             const isOpen = openId === faq.id;

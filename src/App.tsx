@@ -32,34 +32,18 @@ export const App: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white dark:bg-[#0f1923] text-slate-900 dark:text-slate-100 flex flex-col font-sans selection:bg-blue-600 selection:text-white transition-colors duration-300">
-      {/* Navigation Header */}
       <Header darkMode={darkMode} setDarkMode={setDarkMode} />
 
-      {/* Main Content Sections */}
       <main id="main-content" className="flex-1 w-full overflow-x-hidden">
-        {/* 1. Hero Carousel */}
         <HeroSlider />
-
-        {/* 2. Top Products Suite Showcase */}
         <ProductsShowcase />
-
-        {/* 3. Market & Audience Journey */}
         <JourneySection />
-
-        {/* 4. Strategic Capabilities Pillars */}
         <Capabilities />
-
-        {/* 5. Value Propositions */}
         <WhyLadder7 />
-
-        {/* 6. Advisor & Strategy Consultation Banner */}
         <AdvisorCTA />
-
-        {/* 7. Frequently Asked Questions Accordion */}
         <FAQSection />
       </main>
 
-      {/* Footer */}
       <Footer darkMode={darkMode} />
     </div>
   );

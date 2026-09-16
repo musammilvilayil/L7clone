@@ -35,7 +35,6 @@ export const ProductsShowcase: React.FC = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        {/* Section Heading */}
         <div className="max-w-3xl mx-auto mb-16 text-center">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 leading-tight text-slate-900 dark:text-white">
             Intelligent Products for Every Corner of Your Business
@@ -45,13 +44,11 @@ export const ProductsShowcase: React.FC = () => {
           </p>
         </div>
 
-        {/* Carousel Showcase Card */}
         <div
           className="relative rounded-[2.5rem] p-4 sm:p-8 lg:p-10 bg-white border border-slate-100 dark:bg-white/[0.03] dark:border-white/10 dark:backdrop-blur-xl shadow-[0_4px_24px_rgba(0,0,0,0.06)] dark:shadow-2xl"
           role="region"
           aria-label="Ladder7 product suite"
         >
-          {/* Navigation Arrows */}
           <button
             type="button"
             onClick={prevProduct}
@@ -70,9 +67,7 @@ export const ProductsShowcase: React.FC = () => {
             <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" />
           </button>
 
-          {/* Product Detail Grid */}
           <div className="grid lg:grid-cols-2 gap-12 items-center px-6 sm:px-12 lg:px-10">
-            {/* Left Info Column */}
             <div className="lg:min-h-[440px] flex flex-col justify-center">
               <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-3 text-slate-900 dark:text-white transition-all">
                 {currentProduct.name}
@@ -84,7 +79,6 @@ export const ProductsShowcase: React.FC = () => {
                 {currentProduct.description}
               </p>
 
-              {/* Bullet Features */}
               <ul className="space-y-3 mb-8">
                 {currentProduct.features.map((feature, i) => (
                   <li key={i} className="flex items-start gap-3">
@@ -101,7 +95,6 @@ export const ProductsShowcase: React.FC = () => {
                 ))}
               </ul>
 
-              {/* Action Buttons */}
               <div className="flex flex-wrap items-center gap-4">
                 <a
                   href="#contact"
@@ -120,9 +113,7 @@ export const ProductsShowcase: React.FC = () => {
               </div>
             </div>
 
-            {/* Right Visual Column */}
             <div className="relative">
-              {/* Ambient Glow */}
               <div
                 className="absolute -inset-4 blur-2xl rounded-full opacity-25"
                 style={{ backgroundColor: 'rgb(0, 86, 178)' }}
@@ -138,9 +129,7 @@ export const ProductsShowcase: React.FC = () => {
             </div>
           </div>
 
-          {/* Bottom Tabs / Indicators */}
           <div className="flex justify-center items-center gap-3 mt-8 pt-6 border-t border-slate-200 dark:border-white/10">
-            {/* Play/Pause */}
             <button
               type="button"
               onClick={() => setIsPlaying(!isPlaying)}
@@ -154,7 +143,6 @@ export const ProductsShowcase: React.FC = () => {
               )}
             </button>
 
-            {/* Tab indicator pills */}
             {PRODUCTS.map((prod, idx) => (
               <button
                 key={prod.id}

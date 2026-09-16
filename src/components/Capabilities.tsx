@@ -38,38 +38,37 @@ export const Capabilities: React.FC = () => {
           </a>
         </div>
 
-        {/* 4 Cards Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {CAPABILITIES.map((cap) => (
             <div
               key={cap.id}
-              className="cap-card group rounded-2xl p-8 flex flex-col items-center text-center cursor-pointer bg-white border border-slate-100 dark:bg-white/[0.04] dark:border-white/[0.08] shadow-[0_4px_24px_rgba(0,0,0,0.06),inset_0_1px_0_rgba(255,255,255,0.9)] dark:shadow-none"
+              className="group relative rounded-2xl p-8 flex flex-col items-center text-center cursor-pointer bg-white border border-slate-100 dark:bg-white/[0.04] dark:border-white/[0.08] shadow-[0_4px_24px_rgba(0,0,0,0.06),inset_0_1px_0_rgba(255,255,255,0.9)] dark:shadow-none transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl overflow-hidden"
             >
-              {/* Animated Glow Bar */}
+              {/* Bottom Glow Bar */}
               <div
-                className="cap-glow-bar"
+                className="absolute bottom-0 inset-x-0 h-1.5 group-hover:h-2.5 rounded-b-2xl opacity-85 transition-all duration-300"
                 style={{ background: cap.glowBarColor }}
               />
-              {/* Ambient Glow Bloom */}
+              {/* Glow Bloom */}
               <div
-                className="cap-glow-bloom"
+                className="absolute -bottom-8 inset-x-8 h-14 rounded-full blur-2xl opacity-0 group-hover:opacity-30 transition-opacity duration-400 pointer-events-none"
                 style={{ background: cap.glowBloomColor }}
               />
 
               {/* Icon Badge */}
-              <div className="cap-icon-badge w-16 h-16 rounded-2xl flex items-center justify-center mb-6 relative z-10 bg-slate-50 border border-slate-200 dark:bg-white/[0.06] dark:border-white/10 shadow-[inset_0_1px_0_rgba(255,255,255,0.9),0_4px_12px_rgba(0,0,0,0.06)]">
+              <div className="w-16 h-16 rounded-2xl flex items-center justify-center mb-6 relative z-10 bg-slate-50 border border-slate-200 dark:bg-white/[0.06] dark:border-white/10 shadow-[inset_0_1px_0_rgba(255,255,255,0.9),0_4px_12px_rgba(0,0,0,0.06)] transition-transform duration-300 group-hover:scale-110 group-hover:rotate-3">
                 <span className="material-symbols-outlined text-3xl" style={{ color: 'rgb(0, 86, 178)' }}>
                   {cap.icon}
                 </span>
               </div>
 
               {/* Title */}
-              <h4 className="cap-title text-xl font-bold mb-4 relative z-10 text-slate-900 dark:text-white transition-colors duration-300 min-h-[56px] flex items-center justify-center">
+              <h4 className="text-xl font-bold mb-4 relative z-10 text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300 min-h-[56px] flex items-center justify-center">
                 {cap.title}
               </h4>
 
               {/* Description */}
-              <p className="cap-desc text-sm leading-relaxed mb-6 relative z-10 text-slate-600 dark:text-slate-300">
+              <p className="text-sm leading-relaxed mb-6 relative z-10 text-slate-600 dark:text-slate-300">
                 {cap.description}
               </p>
 
@@ -78,7 +77,7 @@ export const Capabilities: React.FC = () => {
                 {cap.tags.map((tag, i) => (
                   <span
                     key={i}
-                    className="cap-tag px-2.5 py-1 rounded-md text-[10px] font-bold uppercase bg-slate-100 border border-slate-200 text-slate-600 dark:bg-white/[0.05] dark:border-white/[0.08] dark:text-slate-300 transition-colors"
+                    className="px-2.5 py-1 rounded-md text-[10px] font-bold uppercase bg-slate-100 border border-slate-200 text-slate-600 dark:bg-white/[0.05] dark:border-white/[0.08] dark:text-slate-300 transition-colors"
                   >
                     {tag}
                   </span>

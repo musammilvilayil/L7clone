@@ -40,27 +40,23 @@ export const JourneySection: React.FC = () => {
         {AUDIENCES.map((item) => (
           <div
             key={item.id}
-            className="glass-card group relative p-8 sm:p-10 rounded-2xl flex flex-col justify-between border-l-4 overflow-hidden cursor-pointer transition-all duration-500 hover:shadow-[0_20px_60px_rgba(0,0,0,0.12)] dark:hover:shadow-[0_20px_60px_rgba(0,0,0,0.4)]"
+            className="group relative p-8 sm:p-10 rounded-2xl flex flex-col justify-between border-l-4 overflow-hidden cursor-pointer transition-all duration-500 bg-white/80 dark:bg-white/[0.03] backdrop-blur-md border border-slate-200/60 dark:border-white/10 hover:shadow-[0_20px_60px_rgba(0,0,0,0.12)] dark:hover:shadow-[0_20px_60px_rgba(0,0,0,0.4)]"
             style={{ borderLeftColor: 'rgb(0, 86, 178)' }}
           >
-            {/* Top animated line */}
             <div
               className="absolute top-0 left-0 h-[2px] w-0 group-hover:w-full transition-all duration-700 ease-out"
               style={{ backgroundColor: 'rgb(0, 86, 178)' }}
             />
-            {/* Ambient blur circle */}
             <div
               className="absolute -top-16 -right-16 w-48 h-48 rounded-full blur-3xl opacity-0 group-hover:opacity-25 transition-opacity duration-700 pointer-events-none"
               style={{ backgroundColor: 'rgb(0, 86, 178)' }}
             />
-            {/* Bottom animated line */}
             <div
               className="absolute bottom-0 left-0 h-[2px] w-0 group-hover:w-full transition-all duration-700 ease-out delay-100"
               style={{ backgroundColor: 'rgb(0, 86, 178)' }}
             />
 
             <div>
-              {/* Icon */}
               <div
                 className="inline-flex items-center justify-center w-14 h-14 rounded-xl mb-6 transition-all duration-500 group-hover:scale-110 group-hover:rotate-3"
                 style={{
