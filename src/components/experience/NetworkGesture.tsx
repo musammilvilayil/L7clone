@@ -100,17 +100,6 @@ const WELCOME_HAND: Stroke[] = [
   { id:'mesh-one', secondary:true, d:'M118 240 Q161 222 217 241 M128 264 Q174 252 229 260 M151 288 Q188 284 224 281' },
   { id:'mesh-two', secondary:true, d:'M137 222 C138 246 148 278 161 312 M174 215 C179 239 185 278 190 314 M202 228 L210 260 L219 290' },
 ];
-const CONFIDENT_HAND: Stroke[] = [
-  { id:'thumb-up', d:'M129 234 C119 214 120 182 123 154 L128 101 C128 78 137 69 150 72 C165 75 168 87 165 103 L159 176 C176 182 196 190 210 202' },
-  { id:'index-fold', d:'M210 202 C235 187 246 195 252 206 C255 213 253 222 246 228' },
-  { id:'middle-fold', d:'M246 228 C266 223 272 235 268 246 C266 254 259 260 251 262' },
-  { id:'ring-fold', d:'M251 262 C268 267 265 284 253 290 C248 292 240 292 234 291' },
-  { id:'little-fold', d:'M234 291 C241 305 233 316 216 318 L158 316' },
-  { id:'palm-wrist', d:'M158 316 C137 311 122 299 107 280 C96 265 96 249 107 241 C114 236 123 235 129 234' },
-  { id:'crease-one', secondary:true, d:'M130 254 C159 245 193 249 224 260 M143 283 C165 278 194 284 227 295' },
-  { id:'crease-two', secondary:true, d:'M158 195 C166 223 171 253 172 307 M186 218 L199 255 L211 309' },
-  { id:'thumb-joint', secondary:true, d:'M124 146 Q142 153 160 148' },
-];
 const HANDS: Record<Exclude<GestureVariant, 'contact'>, Stroke[]> = {
   hero: OPEN_HAND, thinking: THINK_HAND, about: WELCOME_HAND, digital: BUILD_HAND,
   automation: POINT_HAND, strategy: THINK_HAND, development: PINCH_HAND,
@@ -129,8 +118,6 @@ const POSITION: Record<Exclude<GestureVariant, 'contact'>, Config> = {
   faq: { rotation: 0, scale: .93, offsetX: 0, offsetY: 30 },
 };
 
-
-type SvgMotionRef = SVGElement & { dataset: DOMStringMap };
 
 /**
  * An SVG rig with scroll-scrubbed formation, articulation, interaction, and departure.
@@ -265,6 +252,7 @@ export function NetworkGesture({ gesture, className = '' }: { gesture: GestureVa
   useEffect(() => {
     const root = dock.current;
     if (!root) return;
+    const mount: HTMLDivElement = root;
     const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
     const mobile = window.matchMedia('(max-width: 550px)');
     const network = navigator as Navigator & { connection?: { saveData?: boolean }, deviceMemory?: number };
@@ -290,12 +278,11 @@ export function NetworkGesture({ gesture, className = '' }: { gesture: GestureVa
       // Hero must be recognizable immediately, even before any scroll.
       const p = reduced ? .70 : progress;
       const arrival = reduced ? 1 : ease(isHero ? -.10 : .00, isHero ? .23 : .23, p);
-      const formation = reduced ? 1 : ease(isHero ? -.10 : .035, isHero ? .27 : .42, p);
       const actionPhase = reduced ? 1 : ease(.31, .76, p);
       const departure = reduced ? 1 : 1 - ease(.89, 1, p);
       const breathe = reduced ? 0 : Math.sin(Math.PI * ease(.18,.88,p));
-      root.dataset.phase = reduced ? 'rest' : p < .33 ? 'form' : p < .82 ? 'act' : 'release';
-      root.dataset.progress = p.toFixed(3);
+      mount.dataset.phase = reduced ? 'rest' : p < .33 ? 'form' : p < .82 ? 'act' : 'release';
+      mount.dataset.progress = p.toFixed(3);
       const opacity = arrival * departure;
       if (body) body.style.opacity = opacity.toFixed(3);
       if (setting && rig) {
@@ -369,7 +356,7 @@ export function NetworkGesture({ gesture, className = '' }: { gesture: GestureVa
         if (wire) paintPaths(wire, reduced ? 1 : ease(.49,.69,p));
       }
       // Keep the purely decorative layer inert for mouse, touch, keyboard.
-      root.style.pointerEvents = 'none';
+      mount.style.pointerEvents = 'none';
     }
     const calculate = () => {
       raf = 0;
