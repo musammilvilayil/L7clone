@@ -497,3 +497,24 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
   .cin-hero-orbit {display:none}
   .cin-hero-baseline {bottom:24px}
 }
+
+
+/* Mobile film grammar: headline → recognizable palm → story + CTA → photo.
+   display:contents deliberately promotes the existing accessible DOM children
+   into one grid; desktop retains its two-column editorial composition. */
+@media(max-width:600px) {
+  .cin-hero .cin-hero-grid {display:grid;grid-template-columns:minmax(0,1fr);gap:16px;align-items:start}
+  .cin-hero .cin-hero-main,.cin-hero .cin-hero-canvas {display:contents}
+  .cin-hero .cin-kicker {order:1}
+  .cin-hero #hero-title {order:2}
+  .cin-hero .cin-hero-hand {order:3;height:clamp(210px,64vw,270px);width:min(100%,305px);margin:0 auto}
+  .cin-hero .cin-hero-message {order:4;gap:17px}
+  .cin-hero .cin-hero-image {order:5;margin-top:14px}
+  .cin-hero .cin-scroll-invite {order:6;margin-top:11px}
+  .cin-hero .cin-hero-orbit {display:none}
+}
+@media(max-width:355px) {
+  .cin-hero .cin-hero-grid {gap:12px}
+  .cin-hero #hero-title {font-size:clamp(36px,11vw,43px)}
+  .cin-hero .cin-hero-hand {height:205px}
+}
