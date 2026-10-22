@@ -6,7 +6,7 @@ const baseURL = process.env.TEST_URL || 'http://127.0.0.1:4173';
 const browser = await chromium.launch({ headless: true, args: ['--no-sandbox'] });
 await mkdir('screenshots', { recursive: true });
 const failures = [];
-const sections = ['top', 'thinking', 'about', 'capabilities', 'products', 'why-ladder7', 'faq', 'contact'];
+const sections = ['top', 'thinking', 'about', 'capabilities', 'products', 'engineering', 'why-ladder7', 'faq', 'contact'];
 
 async function photograph(page, name, selector) {
   await page.locator(selector).evaluate(el => {
@@ -29,6 +29,9 @@ async function assertLayout(page, width) {
       const visual = dock.getBoundingClientRect();
       for (const el of protectedNodes) {
         if (dock.contains(el) || !el.closest('section') || el.closest('section') !== dock.closest('section')) continue;
+        // Intentional photo-backed services/engineering scene: line art sits over a photo,
+        // but must never sit over words, buttons or live product screenshots.
+        if (el.tagName === 'IMG' && el.closest('.cin-services-stage, .cin-engineering-photo')) continue;
         const css = getComputedStyle(el);
         if (css.display === 'none' || css.visibility === 'hidden' || el.closest('[hidden]')) continue;
         const text = el.getBoundingClientRect();
@@ -66,14 +69,14 @@ async function checkAssets(page) {
 }
 
 try {
-  for (const [width, height] of [[1440,900], [1024,768], [768,1024], [390,844], [360,780]]) {
+  for (const [width, height] of [[1440,900], [1920,1080], [1024,768], [768,1024], [430,932], [390,844], [375,812], [360,780], [320,700]]) {
     const page = await browser.newPage({ viewport:{width,height}, deviceScaleFactor:1 });
     page.on('pageerror', error => failures.push(`${width}px: ${error.message}`));
     await page.goto(baseURL, { waitUntil:'networkidle' });
     assert.equal(await page.locator('h1').count(),1,`Duplicate H1 at ${width}px`);
     assert.equal(await page.locator('.network-experience').count(),0,'Legacy fixed background still mounted');
-    assert.equal(await page.locator('.gesture-dock').count(),8,'Missing section-local gesture dock');
-    assert.equal(await page.locator('main .scene').count(),8);
+    assert.equal(await page.locator('.gesture-dock').count(),9,'Missing section-local gesture dock');
+    assert.equal(await page.locator('main .scene').count(),9);
 
     for (const id of sections) {
       assert.equal(await page.locator(`#${id}`).count(),1,`Missing section ${id}`);
@@ -124,12 +127,28 @@ try {
       await page.locator('.service-line').nth(1).locator('button').click();
       assert.equal(await page.locator('.service-line').nth(1).locator('button').getAttribute('aria-expanded'),'true');
       assert.equal(await page.locator('#capabilities .gesture-dock').getAttribute('data-variant'),'automation');
+      // Every service keeps its copy and its corresponding story gesture.
+      for (const [i,name] of [[0,'digital'],[1,'automation'],[2,'strategy'],[3,'development']]) {
+        const control=page.locator('.service-line').nth(i).locator('button');
+        await control.click();
+        assert.equal(await control.getAttribute('aria-expanded'),'true');
+        assert.equal(await page.locator('#capabilities .gesture-dock').getAttribute('data-variant'),name);
+        assert.equal(await page.locator('.service-line').nth(i).locator('ul li').count(),4);
+      }
+
 
       const productTab = page.getByRole('tab',{name:/L7 Nexus/});
       await productTab.click();
       assert.equal(await page.locator('#product-panel h3').innerText(),'L7 Nexus');
       await productTab.press('ArrowDown');
       assert.equal(await page.locator('#product-panel h3').innerText(),'L7 Insights');
+
+      for (const productName of ['Site 360','L7 Nexus','L7 Insights','Outreach Engine','Infinite Insights']) {
+        await page.getByRole('tab',{name:new RegExp(productName)}).click();
+        assert.equal(await page.locator('#product-panel h3').innerText(),productName);
+        const image=page.locator('#product-panel .cin-product-frame img');
+        assert.ok(await image.evaluate(img=>img.complete && img.naturalWidth>0),'Product image missing: '+productName);
+      }
 
       const faq = page.locator('.faq-entry').nth(1);
       await faq.locator('button').click();
@@ -188,7 +207,7 @@ try {
       assert.equal(await page.locator('#products .product-visual .product-gesture').count(),1,
         'Product gesture must live with its real image in an independent dock');
     }
-    if (width <= 390) {
+    if (width <= 430) {
       await page.evaluate(() => {
         document.documentElement.style.scrollBehavior='auto';
         window.scrollTo(0,0);
