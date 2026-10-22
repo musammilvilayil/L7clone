@@ -72,12 +72,19 @@ const PINCH_HAND: Stroke[] = [
   { id:'knuckle-net',secondary:true,d:'M137 227 L157 250 L187 244 L208 262 L237 239 M156 251 L173 287 L208 262' },
 ];
 const THINK_HAND: Stroke[] = [
-  { id:'wrist',d:'M99 310 C101 281 108 262 127 247 C145 234 166 232 187 233 C212 232 236 250 239 277 L244 314' },
-  { id:'index',d:'M126 247 C110 229 91 215 73 201 C55 185 50 175 58 164 C67 152 81 156 96 168 L151 208' },
-  { id:'finger-fold',d:'M151 208 C170 201 182 186 194 175 C208 162 220 163 227 173 C234 182 230 192 220 202 L196 226' },
-  { id:'thumb',d:'M187 233 C176 216 167 201 160 186 C154 169 159 156 171 153 C184 150 191 160 195 174' },
-  { id:'palm',secondary:true,d:'M120 270 C153 255 198 264 227 279 M135 292 C164 284 205 296 230 294' },
-  { id:'depth',secondary:true,d:'M151 208 C159 228 168 244 183 267 M176 234 L207 274 L229 250' },
+  // The index stands beside the face while the other fingers curl into a
+  // compact, supportive palm. This is deliberately NOT a two-finger V sign.
+  { id:'wrist-left', d:'M116 332 C108 308 105 279 108 257 C111 235 122 226 141 219' },
+  { id:'index-rise', d:'M141 219 C133 205 124 184 117 162 C111 145 116 132 129 130 C140 128 149 138 154 153 L170 192' },
+  { id:'index-vertical', d:'M170 192 C167 159 166 126 171 108 C174 94 185 89 195 94 C209 100 210 113 206 131 L198 202' },
+  { id:'middle-fold', d:'M198 202 C208 190 223 181 233 186 C245 190 249 201 241 213 L223 230' },
+  { id:'ring-fold', d:'M223 230 C237 227 249 233 251 244 C252 257 241 267 229 270' },
+  { id:'palm-outer', d:'M229 270 C240 290 232 318 218 334' },
+  { id:'wrist-base', d:'M218 334 C183 345 145 343 116 332' },
+  { id:'thumb-rest', d:'M141 219 C149 234 168 248 184 258 C195 263 205 261 210 253' },
+  { id:'knuckle-crease', secondary:true, d:'M150 273 C174 267 205 277 229 293 M149 302 C177 298 203 306 220 316' },
+  { id:'index-joint', secondary:true, d:'M169 162 Q186 170 204 162 M172 134 Q186 142 207 134' },
+  { id:'palm-mesh', secondary:true, d:'M142 245 C167 256 188 286 195 336 M170 244 L182 268 L217 298 M145 280 L178 300 L189 327' },
 ];
 const BUILD_HAND: Stroke[] = [
   { id:'wrist',d:'M90 310 C94 286 101 267 111 258 C124 245 141 241 164 244' },
@@ -107,7 +114,7 @@ const HANDS: Record<Exclude<GestureVariant, 'contact'>, Stroke[]> = {
 };
 const POSITION: Record<Exclude<GestureVariant, 'contact'>, Config> = {
   hero: { rotation: -9, scale: .94, offsetX: 8, offsetY: 0 },
-  thinking: { rotation: 18, scale: .94, offsetX: 0, offsetY: -7 },
+  thinking: { rotation: -13, scale: 1.04, offsetX: 5, offsetY: -9 },
   about: { rotation: -25, scale: .95, offsetX: -7, offsetY: 13, node:[268,182] },
   digital: { rotation: 13, scale: 1, offsetX: 5, offsetY: 0, node:[268,182] },
   automation: { rotation: -18, scale: .99, offsetX: 0, offsetY: 0, node:[144,62] },
