@@ -210,14 +210,13 @@ export function NetworkGesture({ gesture, className = '' }: { gesture: GestureVa
   useEffect(() => {
     const root = dock.current;
     if (!root) return;
-    const section = root.closest('section') ?? root;
     const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
     let raf = 0;
     let active = false;
     const calculate = () => {
       raf = 0;
       if (!active) return;
-      const rect = section.getBoundingClientRect();
+      const rect = root.getBoundingClientRect();
       const progress = clamp((window.innerHeight - rect.top) / (window.innerHeight + rect.height));
       setState(previous =>
         Math.abs(previous.progress - progress) < .004 && previous.reduced === preference.matches
@@ -228,7 +227,7 @@ export function NetworkGesture({ gesture, className = '' }: { gesture: GestureVa
       active = entries.some(entry => entry.isIntersecting);
       if (active) schedule();
     }, { rootMargin: '160px 0px 160px 0px' });
-    observer.observe(section);
+    observer.observe(root);
     const onPreference = () => {
       if (preference.matches) setState({ progress: .75, reduced: true });
       else schedule();
