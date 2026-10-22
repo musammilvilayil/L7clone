@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 
 /**
  * Every gesture owns a real illustration dock in its section.
@@ -114,7 +114,7 @@ const CONFIDENT_HAND: Stroke[] = [
 const HANDS: Record<Exclude<GestureVariant, 'contact'>, Stroke[]> = {
   hero: OPEN_HAND, thinking: THINK_HAND, about: WELCOME_HAND, digital: BUILD_HAND,
   automation: POINT_HAND, strategy: THINK_HAND, development: PINCH_HAND,
-  products: POINT_HAND, why: CONFIDENT_HAND, faq: OPEN_HAND,
+  products: POINT_HAND, why: OPEN_HAND, faq: OPEN_HAND,
 };
 const POSITION: Record<Exclude<GestureVariant, 'contact'>, Config> = {
   hero: { rotation: -9, scale: .94, offsetX: 8, offsetY: 0 },
@@ -125,180 +125,295 @@ const POSITION: Record<Exclude<GestureVariant, 'contact'>, Config> = {
   strategy: { rotation: 12, scale: 1, offsetX: 0, offsetY: 0 },
   development: { rotation: -14, scale: 1, offsetX: 0, offsetY: 2, node:[192,142] },
   products: { rotation: 57, scale: .93, offsetX: 12, offsetY: -9, node:[144,62] },
-  why: { rotation: 13, scale: .9, offsetX: -6, offsetY: 4 },
+  why: { rotation: 24, scale: .95, offsetX: -9, offsetY: 4 },
   faq: { rotation: 0, scale: .93, offsetX: 0, offsetY: 30 },
 };
 
-function WireHand({ gesture, progress, reduced, mirrored = false }: {
-  gesture: Exclude<GestureVariant, 'contact'>;
-  progress: number;
-  reduced: boolean;
-  mirrored?: boolean;
-}) {
+
+type SvgMotionRef = SVGElement & { dataset: DOMStringMap };
+
+/**
+ * An SVG rig with scroll-scrubbed formation, articulation, interaction, and departure.
+ * All per-frame updates happen on SVG nodes, not in React render/state.
+ */
+function WireHand({ gesture }: { gesture: Exclude<GestureVariant, 'contact'> }) {
   const lines = HANDS[gesture];
   const setting = POSITION[gesture];
-  const enter = reduced ? 1 : ease(.025, gesture === 'faq' ? .37 : .29, progress);
-  const exit = reduced ? 1 : 1 - ease(.82, .99, progress);
-  const visibility = reduced ? 1 : ease(.005, .06, progress) * exit;
-  // Geometry travels gently after it forms, then returns to rest during exit.
-  // The motion is scroll-scrubbed, reversible, and entirely disabled for reduced motion.
-  const action = reduced ? 0 : Math.sin(Math.PI * ease(.16, .87, progress));
-  const lift = -10 * action;
-  const tilt = (gesture === 'faq' ? 0 : gesture === 'thinking' ? -5 : gesture === 'automation' ? 5 : 3) * action;
-  const position = `translate(${setting.offsetX} ${setting.offsetY + lift}) translate(180 180) scale(${setting.scale}) rotate(${setting.rotation + tilt}) translate(-180 -180)`;
-  const gestureDraw = (line: Stroke) => {
-    if (reduced) return 1;
-    if (gesture !== 'faq') return ease(.035 + (line.secondary ? .10 : 0), line.secondary ? .43 : .28, progress);
-    const stage = line.stage ?? 7;
-    return ease(.025 + stage * .025, .105 + stage * .034, progress);
-  };
-
+  const isFaq = gesture === 'faq';
+  const openPalm = gesture === 'hero' || gesture === 'faq' || gesture === 'why' || gesture === 'about';
   return (
-    <g transform={mirrored ? 'translate(360 0) scale(-1 1)' : undefined} opacity={visibility}>
-      <g transform={position} fill="none" strokeLinecap="round" strokeLinejoin="round">
-        {lines.map(line => {
-          const draw = gestureDraw(line);
-          return (
-            <g key={line.id} data-stroke={line.id}>
-              <path d={line.d} stroke="var(--gesture-depth, #194878)" strokeWidth={line.secondary ? 1.15 : 2.8}
-                transform="translate(5.5 5.8)" opacity={.28 * enter} pathLength={1}
-                strokeDasharray="1" strokeDashoffset={1 - draw}/>
-              <path d={line.d} stroke={line.secondary ? 'var(--gesture-inner, #5d9ecc)' : 'var(--gesture-stroke, #8fcbff)'}
-                strokeWidth={line.secondary ? 1.2 : 2.2} opacity={line.secondary ? .50 : 1}
-                pathLength={1} strokeDasharray="1" strokeDashoffset={1 - draw} />
-            </g>
-          );
-        })}
-        {setting.node && gesture !== 'faq' && (
-          <g opacity={reduced ? 1 : ease(.38,.62,progress)}>
-            <circle cx={setting.node[0]} cy={setting.node[1]} r="7" fill="none" stroke="var(--gesture-stroke, #8fcbff)" strokeWidth="1.2"/>
-            <circle cx={setting.node[0]} cy={setting.node[1]} r="2" fill="var(--gesture-stroke, #8fcbff)"/>
+    <g data-gesture-body="" data-kind={gesture}>
+      <g data-hand-rig=""
+        transform={'translate(' + setting.offsetX + ' ' + setting.offsetY + ') translate(180 180) rotate(' + setting.rotation + ') scale(' + setting.scale + ') translate(-180 -180)'}
+        fill="none" strokeLinecap="round" strokeLinejoin="round">
+        {lines.map((line, index) => (
+          <g key={line.id} data-stroke={line.id} data-stage={isFaq ? (line.stage ?? 7) : (line.secondary ? 2 : index < 2 ? 0 : 1)}
+            data-articulate={openPalm && ['thumb','index','middle','ring','little'].includes(line.id) ? line.id : undefined}
+            data-secondary={line.secondary ? 'true' : undefined}>
+            <path d={line.d} stroke="var(--gesture-depth,#1b528a)" strokeWidth={line.secondary ? 1.7 : 4.3}
+              transform="translate(5 6)" opacity={line.secondary ? .18 : .40} pathLength={1}
+              strokeDasharray="1" strokeDashoffset="0"/>
+            <path d={line.d} stroke={line.secondary ? 'var(--gesture-inner,#68a5d3)' : 'var(--gesture-stroke,#a7dcff)'}
+              strokeWidth={line.secondary ? 1.15 : 2.35} opacity={line.secondary ? .68 : 1}
+              pathLength={1} strokeDasharray="1" strokeDashoffset="0"/>
+          </g>
+        ))}
+        {/* The two nodes belong to the services hand, not to the scene background. */}
+        {['digital','automation','strategy','development'].includes(gesture) && (
+          <g data-gesture-action="" opacity="0" stroke="var(--gesture-stroke,#a7dcff)" fill="none">
+            <path data-action-wire="" d={'M' + ((setting.node?.[0] ?? 218) - 43) + ' ' + (setting.node?.[1] ?? 176) +
+              ' Q' + ((setting.node?.[0] ?? 218) - 17) + ' ' + ((setting.node?.[1] ?? 176) - 34) +
+              ' ' + (setting.node?.[0] ?? 218) + ' ' + (setting.node?.[1] ?? 176)}
+              strokeWidth="1.5" pathLength={1} strokeDasharray="1" strokeDashoffset="0"/>
+            <circle cx={(setting.node?.[0] ?? 218) - 43} cy={setting.node?.[1] ?? 176} r="7" strokeWidth="1.2"/>
+            <circle cx={setting.node?.[0] ?? 218} cy={setting.node?.[1] ?? 176} r="7" strokeWidth="1.2"/>
+            <circle data-touch-point="" cx={setting.node?.[0] ?? 218} cy={setting.node?.[1] ?? 176} r="2.9" fill="var(--gesture-stroke,#a7dcff)" stroke="none"/>
+          </g>
+        )}
+        {gesture === 'products' && (
+          <g data-product-action="" opacity="0" stroke="var(--gesture-stroke,#a7dcff)" fill="none">
+            <circle cx="144" cy="62" r="16" strokeWidth="1.2" strokeDasharray="3 5"/>
+            <circle cx="144" cy="62" r="6" strokeWidth="1.5"/>
+            <path d="M144 27 V40 M144 84 V97" strokeWidth="1.2"/>
           </g>
         )}
       </g>
-      {gesture === 'faq' && (
-        <g stroke="var(--gesture-stroke, #8fcbff)" strokeWidth="2" fill="none"
-          opacity={reduced ? 1 : ease(.27, .34, progress)}>
-          <path d="M150 47 C139 27 146 10 167 10 C185 10 197 26 184 40 L171 51 L171 59"
-            pathLength={1} strokeDasharray="1" strokeDashoffset={1 - (reduced ? 1 : ease(.28,.40,progress))}/>
-          <circle cx="171" cy="69" r="2.6" fill="var(--gesture-stroke, #8fcbff)" stroke="none"
-            opacity={reduced ? 1 : ease(.35,.43,progress)}/>
+      {isFaq && (
+        <g data-question="" stroke="var(--gesture-stroke,#a7dcff)" strokeWidth="2.15" fill="none"
+          strokeLinecap="round" strokeLinejoin="round">
+          <path data-question-path="" d="M269 65 C253 43 257 22 278 17 C299 12 312 31 300 49 L289 62 L289 71"
+            pathLength={1} strokeDasharray="1" strokeDashoffset="0"/>
+          <circle data-question-dot="" cx="289" cy="82" r="2.7" fill="var(--gesture-stroke,#a7dcff)" stroke="none"/>
         </g>
       )}
     </g>
   );
 }
 
-/** A deliberate human-to-human fingertip connection, not two open palms piled together. */
-function PairHands({ progress, reduced }: { progress: number; reduced: boolean }) {
-  const reveal = reduced ? 1 : ease(.06, .55, progress);
-  const slide = (1 - reveal) * 65;
-  const visibility = reduced ? 1 : ease(.02, .1, progress) * (1 - ease(.96, 1, progress));
-  const lineProgress = reduced ? 1 : ease(.08, .54, progress);
-  const fingers = [
-    // Forearm and straight index meet the opposite index at the central interaction node.
-    'M12 216 C76 214 122 210 169 204 C200 200 217 189 240 184 C274 176 315 162 347 161 C359 161 364 166 364 174 C364 181 355 186 343 188 L307 195',
-    'M307 195 C291 199 275 205 262 210',
-    // Distinct small folded fingers; deliberately no crab-claw arcs.
-    'M262 210 C277 214 285 221 283 230 C281 239 271 242 256 240',
-    'M256 240 C272 248 275 258 266 266 C258 273 244 269 232 263',
-    'M232 263 C243 275 240 286 228 290 C217 293 204 287 194 282',
-    'M194 282 C158 284 126 282 92 281 C62 281 35 281 12 282',
-    // Short thumb supports the pointing posture.
-    'M169 204 C183 216 195 224 212 231 C223 235 233 233 238 227',
-  ];
-  const mesh = [
-    'M124 210 C143 234 147 262 152 280',
-    'M162 205 C174 227 180 256 184 282',
-    'M198 191 C211 212 220 243 226 287',
-    'M153 227 Q201 221 263 213',
-    'M160 247 Q201 243 254 241',
-    'M166 270 Q195 267 233 264',
-    'M244 184 Q277 185 301 175',
-  ];
+/** The same two anatomically distinct reaching hands approach the contact point from either side. */
+const REACH_STROKES = [
+  'M12 216 C76 214 122 210 169 204 C200 200 217 189 240 184 C274 176 315 162 347 161 C359 161 364 166 364 174 C364 181 355 186 343 188 L307 195',
+  'M307 195 C291 199 275 205 262 210',
+  'M262 210 C277 214 285 221 283 230 C281 239 271 242 256 240',
+  'M256 240 C272 248 275 258 266 266 C258 273 244 269 232 263',
+  'M232 263 C243 275 240 286 228 290 C217 293 204 287 194 282',
+  'M194 282 C158 284 126 282 92 281 C62 281 35 281 12 282',
+  'M169 204 C183 216 195 224 212 231 C223 235 233 233 238 227',
+];
+const REACH_CONTOURS = [
+  'M124 210 C143 234 147 262 152 280',
+  'M162 205 C174 227 180 256 184 282',
+  'M198 191 C211 212 220 243 226 287',
+  'M153 227 Q201 221 263 213',
+  'M160 247 Q201 243 254 241',
+  'M166 270 Q195 267 233 264',
+];
+
+function PairHands() {
   return (
-    <g opacity={visibility} fill="none" strokeLinecap="round" strokeLinejoin="round">
-      {[false, true].map(mirror => (
-        <g key={mirror ? 'right-connecting-hand' : 'left-connecting-hand'}
-          transform={mirror ? `translate(${760 + slide} 0) scale(-1 1)` : `translate(${-slide} 0)`}>
-          {fingers.map((d, i) => (
-            <g key={i}>
-              <path d={d} stroke="var(--gesture-depth,#1b528a)" strokeWidth="3.1"
-                transform="translate(0 4)" opacity=".45"
-                pathLength={1} strokeDasharray="1" strokeDashoffset={1-lineProgress} />
-              <path d={d} stroke="var(--gesture-stroke,#8fcbff)" strokeWidth="2.1"
-                pathLength={1} strokeDasharray="1" strokeDashoffset={1-lineProgress}/>
+    <g data-contact-scene="" fill="none" strokeLinecap="round" strokeLinejoin="round">
+      {[false,true].map(right => (
+        <g key={right ? 'right-hand' : 'left-hand'} data-reach={right ? 'right' : 'left'}
+          transform={right ? 'translate(760 0) scale(-1 1)' : 'translate(0 0)'}>
+          {REACH_STROKES.map((d,i) => (
+            <g key={i} data-reach-stroke="" data-reach-stage={i < 2 ? 0 : i < 6 ? 1 : 2}>
+              <path d={d} stroke="var(--gesture-depth,#1b528a)" strokeWidth="4"
+                transform="translate(0 4)" opacity=".43" pathLength={1}
+                strokeDasharray="1" strokeDashoffset="0"/>
+              <path d={d} stroke="var(--gesture-stroke,#a7dcff)" strokeWidth="2.25"
+                pathLength={1} strokeDasharray="1" strokeDashoffset="0"/>
             </g>
           ))}
-          {mesh.map((d, i) => (
-            <path key={i} d={d} stroke="var(--gesture-inner,#68a5d3)" opacity=".55" strokeWidth=".95"
-              pathLength={1} strokeDasharray="1"
-              strokeDashoffset={1 - (reduced ? 1 : ease(.24,.69,progress))}/>
+          {REACH_CONTOURS.map((d,i) => (
+            <path key={i} data-reach-contour="" d={d} stroke="var(--gesture-inner,#68a5d3)"
+              strokeWidth="1" opacity=".62" pathLength={1} strokeDasharray="1" strokeDashoffset="0"/>
           ))}
         </g>
       ))}
-      <g opacity={reduced ? 1 : ease(.2,.36,progress)}>
-        <path d="M365 172 Q380 166 395 172" stroke="var(--gesture-stroke,#8fcbff)"
-          strokeWidth="1.6" pathLength={1} strokeDasharray="1"
-          strokeDashoffset={1-(reduced ? 1 : ease(.2,.39,progress))}/>
-        <circle cx="380" cy="169" r="11" stroke="var(--gesture-stroke,#8fcbff)" strokeWidth=".9" opacity=".65"/>
-        <circle cx="380" cy="169" r="4.5" fill="var(--gesture-stroke,#8fcbff)" stroke="none"/>
-        <path d="M378 144 V135 M382 194 V203 M351 169 H344 M416 169 H409"
-          stroke="var(--gesture-stroke,#8fcbff)" strokeWidth="1" opacity=".55"/>
+      <g data-contact-connection="" opacity="0" stroke="var(--gesture-stroke,#a7dcff)" strokeWidth="1.4">
+        <path d="M364 173 Q380 162 396 173" fill="none" data-connection-wire=""
+          pathLength={1} strokeDasharray="1" strokeDashoffset="0"/>
+        <circle cx="380" cy="168" r="9" fill="none"/>
+        <circle cx="380" cy="168" r="3.1" fill="var(--gesture-stroke,#a7dcff)" stroke="none"/>
       </g>
     </g>
   );
 }
 
+const ARTICULATION_PIVOTS: Record<string, [number,number,number]> = {
+  thumb: [92, 207, -23],
+  index: [133, 175, -13],
+  middle: [167, 177, -6],
+  ring: [198, 179, 8],
+  little: [239, 185, 17],
+};
+
+function paintPaths(group: Element, completion: number) {
+  const value = String(1 - clamp(completion));
+  group.querySelectorAll<SVGPathElement>('path[pathLength="1"]').forEach(path => {
+    path.style.strokeDashoffset = value;
+  });
+}
+
+/**
+ * Progress is derived from the dock's viewport intersection. Only active docks
+ * read layout and only SVG attributes/styles are mutated, so there are zero
+ * scroll-driven React re-renders.
+ */
 export function NetworkGesture({ gesture, className = '' }: { gesture: GestureVariant; className?: string }) {
   const dock = useRef<HTMLDivElement>(null);
-  const [state, setState] = useState({ progress: 0, reduced: false });
   useEffect(() => {
     const root = dock.current;
     if (!root) return;
     const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const mobile = window.matchMedia('(max-width: 550px)');
+    const network = navigator as Navigator & { connection?: { saveData?: boolean }, deviceMemory?: number };
+    const simplified = () => mobile.matches || network.connection?.saveData === true || (network.deviceMemory !== undefined && network.deviceMemory <= 2);
+    const body = root.querySelector<SVGGElement>('[data-gesture-body]');
+    const rig = root.querySelector<SVGGElement>('[data-hand-rig]');
+    const reach = root.querySelectorAll<SVGGElement>('[data-reach]');
+    const bodyLines = root.querySelectorAll<SVGGElement>('[data-stroke]');
+    const reachLines = root.querySelectorAll<SVGGElement>('[data-reach-stroke]');
+    const contourLines = root.querySelectorAll<SVGPathElement>('[data-reach-contour]');
+    const question = root.querySelector<SVGGElement>('[data-question]');
+    const action = root.querySelector<SVGGElement>('[data-gesture-action]');
+    const productAction = root.querySelector<SVGGElement>('[data-product-action]');
+    const connection = root.querySelector<SVGGElement>('[data-contact-connection]');
+    const setting = gesture === 'contact' ? null : POSITION[gesture];
+    const isHero = gesture === 'hero';
+    const isFaq = gesture === 'faq';
     let raf = 0;
     let active = false;
+    let lastValue = -1;
+
+    function render(progress: number, reduced: boolean) {
+      // Hero must be recognizable immediately, even before any scroll.
+      const p = reduced ? .70 : progress;
+      const arrival = reduced ? 1 : ease(isHero ? -.10 : .00, isHero ? .23 : .23, p);
+      const formation = reduced ? 1 : ease(isHero ? -.10 : .035, isHero ? .27 : .42, p);
+      const actionPhase = reduced ? 1 : ease(.31, .76, p);
+      const departure = reduced ? 1 : 1 - ease(.89, 1, p);
+      const breathe = reduced ? 0 : Math.sin(Math.PI * ease(.18,.88,p));
+      root.dataset.phase = reduced ? 'rest' : p < .33 ? 'form' : p < .82 ? 'act' : 'release';
+      root.dataset.progress = p.toFixed(3);
+      const opacity = arrival * departure;
+      if (body) body.style.opacity = opacity.toFixed(3);
+      if (setting && rig) {
+        const fromLeft = gesture === 'about' ? -42 : gesture === 'thinking' ? 25 : 0;
+        const fromRight = isHero ? 22 : gesture === 'products' ? 35 : 0;
+        const horizontal = (fromLeft + fromRight) * (1 - arrival) + (gesture === 'products' ? -13 : gesture === 'digital' || gesture === 'automation' ? -11 : 0) * actionPhase;
+        const vertical = (1-arrival) * 16 - (reduced ? 0 : 14 * breathe);
+        const rotation = setting.rotation + (reduced ? 0 : (gesture === 'faq' ? 0 : gesture === 'thinking' ? -10 : gesture === 'about' ? -8 : gesture === 'products' ? -12 : 5) * breathe);
+        const magnitude = setting.scale * (1 + .055 * breathe);
+        rig.setAttribute('transform', 'translate(' + (setting.offsetX + horizontal).toFixed(2) + ' ' +
+          (setting.offsetY + vertical).toFixed(2) + ') translate(180 180) rotate(' +
+          rotation.toFixed(2) + ') scale(' + magnitude.toFixed(3) + ') translate(-180 -180)');
+      }
+      for (const line of bodyLines) {
+        const stage = Number(line.dataset.stage ?? 1);
+        const internal = line.dataset.secondary === 'true';
+        const phase = isFaq
+          ? ease(.01 + stage*.039, .115 + stage*.042, p)
+          : ease(.025 + stage*.044, .19 + stage*.088, p);
+        const done = reduced ? 1 : phase;
+        paintPaths(line, done);
+        // Open, extend, or fold each digit separately relative to its MCP pivot.
+        const pivot = line.dataset.articulate && ARTICULATION_PIVOTS[line.dataset.articulate];
+        if (pivot) {
+          const [x,y,degrees] = pivot;
+          const flex = (1 - (reduced ? 1 : ease(isFaq ? .12 : .055, isFaq ? .57 : .46, p))) * degrees;
+          const spread = reduced ? 0 : (line.dataset.articulate === 'thumb' ? -7 : line.dataset.articulate === 'little' ? 6 : 0) * breathe;
+          line.setAttribute('transform', 'rotate(' + (flex+spread).toFixed(2) + ' ' + x + ' ' + y + ')');
+        }
+        // Fine internal contours can be removed on low power/mobile without changing silhouettes.
+        line.style.display = simplified() && internal && !isFaq ? 'none' : '';
+      }
+      if (question) {
+        question.style.opacity = (reduced ? 1 : ease(.31,.42,p) * departure).toFixed(3);
+        const mark = question.querySelector('[data-question-path]');
+        if (mark) paintPaths(mark, reduced ? 1 : ease(.33,.50,p)); // last phase, not simultaneously with palm
+        const dot = question.querySelector<SVGElement>('[data-question-dot]');
+        if (dot) dot.style.opacity = String(reduced ? 1 : ease(.46,.53,p));
+      }
+      if (action) {
+        action.style.opacity = String(reduced ? 1 : ease(.39,.60,p) * departure);
+        const wire = action.querySelector('[data-action-wire]');
+        if (wire) paintPaths(wire, reduced ? 1 : ease(.40,.69,p));
+        const node = action.querySelector<SVGElement>('[data-touch-point]');
+        if (node) node.style.transform = 'scale(' + (1 + .6 * (reduced ? 0 : Math.sin(Math.PI * actionPhase))) + ')';
+      }
+      if (productAction) {
+        productAction.style.opacity = String(reduced ? 1 : ease(.36,.60,p) * departure);
+        productAction.style.transform = 'translate(0 ' + (reduced ? 0 : -7 * breathe).toFixed(2) + 'px)';
+      }
+      for (const hand of reach) {
+        const right = hand.dataset.reach === 'right';
+        const move = reduced ? 0 : (1-ease(.09,.67,p)) * 70;
+        const touch = reduced ? 0 : -7 * breathe;
+        hand.setAttribute('transform',
+          right ? 'translate(' + (760+move).toFixed(2) + ' ' + touch.toFixed(2) + ') scale(-1 1)'
+                : 'translate(' + (-move).toFixed(2) + ' ' + touch.toFixed(2) + ')');
+        hand.style.opacity = opacity.toFixed(3);
+      }
+      for (const line of reachLines) {
+        const stage = Number(line.dataset.reachStage ?? 1);
+        paintPaths(line, reduced ? 1 : ease(.035+stage*.085, .39+stage*.082,p));
+      }
+      for (const line of contourLines) {
+        if (simplified()) { line.style.display = 'none'; continue; }
+        paintPaths(line, reduced ? 1 : ease(.27,.65,p));
+      }
+      if (connection) {
+        connection.style.opacity = String(reduced ? 1 : ease(.52,.68,p) * departure);
+        const wire = connection.querySelector('[data-connection-wire]');
+        if (wire) paintPaths(wire, reduced ? 1 : ease(.49,.69,p));
+      }
+      // Keep the purely decorative layer inert for mouse, touch, keyboard.
+      root.style.pointerEvents = 'none';
+    }
     const calculate = () => {
       raf = 0;
       if (!active) return;
       const rect = root.getBoundingClientRect();
-      const progress = clamp((window.innerHeight - rect.top) / (window.innerHeight + rect.height));
-      setState(previous =>
-        Math.abs(previous.progress - progress) < .004 && previous.reduced === preference.matches
-          ? previous : { progress, reduced: preference.matches });
+      const value = clamp((window.innerHeight - rect.top) / (window.innerHeight + rect.height));
+      if (Math.abs(value - lastValue) < .002 && !preference.matches) return;
+      lastValue = value;
+      render(value, preference.matches);
     };
-    const schedule = () => { if (active && !raf) raf = window.requestAnimationFrame(calculate); };
+    const schedule = () => {
+      if (active && !raf) raf = window.requestAnimationFrame(calculate);
+    };
+    // Progress is measured only for nearby artwork; no continuous idle loop.
     const observer = new IntersectionObserver(entries => {
       active = entries.some(entry => entry.isIntersecting);
       if (active) schedule();
-    }, { rootMargin: '160px 0px 160px 0px' });
+    }, { rootMargin:'120px 0px 120px 0px' });
     observer.observe(root);
-    const onPreference = () => {
-      if (preference.matches) setState({ progress: .75, reduced: true });
-      else schedule();
-    };
-    if (preference.matches) setState({ progress: .75, reduced: true });
-    window.addEventListener('scroll', schedule, { passive: true });
-    window.addEventListener('resize', schedule);
+    const onPreference = () => { lastValue = -1; render(.70, preference.matches); schedule(); };
+    const onResize = () => { lastValue=-1; schedule(); };
+    if (preference.matches) render(.70, true);
+    else if (isHero) render(.22,false); // no empty hero flash on hydration
+    window.addEventListener('scroll', schedule, { passive:true });
+    window.addEventListener('resize', onResize, { passive:true });
     preference.addEventListener('change', onPreference);
+    mobile.addEventListener('change', onResize);
     return () => {
       if (raf) window.cancelAnimationFrame(raf);
       observer.disconnect();
       window.removeEventListener('scroll', schedule);
-      window.removeEventListener('resize', schedule);
+      window.removeEventListener('resize', onResize);
       preference.removeEventListener('change', onPreference);
+      mobile.removeEventListener('change', onResize);
     };
   }, [gesture]);
 
   return (
-    <div className={`gesture-dock gesture-${gesture} ${className}`} data-variant={gesture} ref={dock} aria-hidden="true">
+    <div className={'gesture-dock gesture-' + gesture + ' ' + className}
+      ref={dock} data-variant={gesture} aria-hidden="true">
       <svg className="gesture-svg" viewBox={gesture === 'contact' ? '0 0 760 360' : '0 0 360 390'}
         preserveAspectRatio="xMidYMid meet" focusable="false">
-        <title>{gesture === 'faq' ? 'Five-finger wireframe hand and question mark' : 'Ladder7 wireframe hand illustration'}</title>
-        {gesture === 'contact'
-          ? <PairHands progress={state.progress} reduced={state.reduced}/>
-          : <WireHand gesture={gesture} progress={state.progress} reduced={state.reduced}/>}
+        <title>{gesture === 'faq' ? 'Five fingers and a line-drawn question mark' : 'Ladder7 cinematic wireframe gesture'}</title>
+        {gesture === 'contact' ? <PairHands/> : <WireHand gesture={gesture}/>}
       </svg>
     </div>
   );
