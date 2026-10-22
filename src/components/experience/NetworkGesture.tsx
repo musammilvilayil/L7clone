@@ -237,8 +237,11 @@ function PairHands({ progress, reduced }: { progress: number; reduced: boolean }
           ))}
         </g>
       ))}
-      <g opacity={reduced ? 1 : ease(.5,.72,progress)}>
-        <circle cx="380" cy="169" r="11" stroke="var(--gesture-stroke,#8fcbff)" strokeWidth=".8" opacity=".55"/>
+      <g opacity={reduced ? 1 : ease(.2,.36,progress)}>
+        <path d="M365 172 Q380 166 395 172" stroke="var(--gesture-stroke,#8fcbff)"
+          strokeWidth="1.6" pathLength={1} strokeDasharray="1"
+          strokeDashoffset={1-(reduced ? 1 : ease(.2,.39,progress))}/>
+        <circle cx="380" cy="169" r="11" stroke="var(--gesture-stroke,#8fcbff)" strokeWidth=".9" opacity=".65"/>
         <circle cx="380" cy="169" r="4.5" fill="var(--gesture-stroke,#8fcbff)" stroke="none"/>
         <path d="M378 144 V135 M382 194 V203 M351 169 H344 M416 169 H409"
           stroke="var(--gesture-stroke,#8fcbff)" strokeWidth="1" opacity=".55"/>
