@@ -122,7 +122,7 @@ function WireHand({ gesture, progress, reduced, mirrored = false }: {
     if (reduced) return 1;
     if (gesture !== 'faq') return ease(.06 + (line.secondary ? .13 : 0), line.secondary ? .52 : .36, progress);
     const stage = line.stage ?? 7;
-    return ease(.055 + stage * .078, .20 + stage * .078, progress);
+    return ease(.035 + stage * .048, .12 + stage * .054, progress);
   };
 
   return (
@@ -131,7 +131,7 @@ function WireHand({ gesture, progress, reduced, mirrored = false }: {
         {lines.map(line => {
           const draw = gestureDraw(line);
           return (
-            <g key={line.id}>
+            <g key={line.id} data-stroke={line.id}>
               <path d={line.d} stroke="var(--gesture-depth, #194878)" strokeWidth={line.secondary ? 1.15 : 2.8}
                 transform="translate(5.5 5.8)" opacity={.28 * enter} pathLength={1}
                 strokeDasharray="1" strokeDashoffset={1 - draw}/>
@@ -150,11 +150,11 @@ function WireHand({ gesture, progress, reduced, mirrored = false }: {
       </g>
       {gesture === 'faq' && (
         <g stroke="var(--gesture-stroke, #8fcbff)" strokeWidth="2" fill="none"
-          opacity={reduced ? 1 : ease(.7, .81, progress)}>
+          opacity={reduced ? 1 : ease(.47, .55, progress)}>
           <path d="M150 47 C139 27 146 10 167 10 C185 10 197 26 184 40 L171 51 L171 59"
-            pathLength={1} strokeDasharray="1" strokeDashoffset={1 - (reduced ? 1 : ease(.71,.92,progress))}/>
+            pathLength={1} strokeDasharray="1" strokeDashoffset={1 - (reduced ? 1 : ease(.48,.64,progress))}/>
           <circle cx="171" cy="69" r="2.6" fill="var(--gesture-stroke, #8fcbff)" stroke="none"
-            opacity={reduced ? 1 : ease(.87,.94,progress)}/>
+            opacity={reduced ? 1 : ease(.60,.69,progress)}/>
         </g>
       )}
     </g>
@@ -166,13 +166,13 @@ function PairHands({ progress, reduced }: { progress: number; reduced: boolean }
   const opacity = reduced ? 1 : ease(.02,.16,progress) * (1-ease(.85,.98,progress));
   return (
     <g opacity={opacity}>
-      <g transform={`translate(${-58 + enter * 35} 17) scale(.82) rotate(-38 180 180)`}>
+      <g transform={`translate(${60 + enter * 75} 17) scale(.82) rotate(-38 180 180)`}>
         <WireHand gesture="about" progress={progress} reduced={reduced}/>
       </g>
-      <g transform={`translate(${785 - enter * 35} 17) scale(-.82 .82) rotate(-38 180 180)`}>
+      <g transform={`translate(${700 - enter * 75} 17) scale(-.82 .82) rotate(-38 180 180)`}>
         <WireHand gesture="about" progress={progress} reduced={reduced}/>
       </g>
-      <path d="M365 183 Q380 171 395 183" stroke="var(--gesture-stroke,#8fcbff)"
+      <path d="M351 183 Q380 159 409 183" stroke="var(--gesture-stroke,#8fcbff)"
         strokeWidth="1.3" fill="none" opacity={reduced ? 1 : ease(.4,.6,progress)}
         pathLength={1} strokeDasharray="1" strokeDashoffset={1-enter}/>
       <circle cx="380" cy="177" r="3.3" fill="var(--gesture-stroke,#8fcbff)"
@@ -224,7 +224,7 @@ export function NetworkGesture({ gesture, className = '' }: { gesture: GestureVa
   }, [gesture]);
 
   return (
-    <div className={`gesture-dock gesture-${gesture} ${className}`} ref={dock} aria-hidden="true">
+    <div className={`gesture-dock gesture-${gesture} ${className}`} data-variant={gesture} ref={dock} aria-hidden="true">
       <svg className="gesture-svg" viewBox={gesture === 'contact' ? '0 0 760 360' : '0 0 360 390'}
         preserveAspectRatio="xMidYMid meet" focusable="false">
         <title>{gesture === 'faq' ? 'Five-finger wireframe hand and question mark' : 'Ladder7 wireframe hand illustration'}</title>
