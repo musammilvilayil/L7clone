@@ -296,7 +296,6 @@ function Engineering() {
         <p>{slide.description}</p>
         <a href="#contact" className="cin-btn cin-btn-ghost">{slide.primaryCta} <ArrowUpRight size={19}/></a>
       </div>
-      <div className="cin-engineering-art"><NetworkGesture gesture="strategy"/></div>
       <span className="cin-engineering-side" aria-hidden="true">DESIGNED TO CONNECT</span>
     </div>
   </section>;

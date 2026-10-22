@@ -61,59 +61,114 @@ const OPEN_HAND: Stroke[] = [
   { id: 'volar-arch', stage: 7, secondary: true, d: 'M103 224 C111 241 118 251 123 277 C148 285 178 287 209 277' },
   { id: 'wrist-core', stage: 7, secondary: true, d: 'M129 296 Q165 310 206 299' },
 ];
-
-/** Purpose-built silhouettes, not 10 rotations of the same open hand. */
-const POINT_HAND: Stroke[] = [
-  { id:'index', d:'M143 285 C133 272 128 256 127 239 L124 105 C123 80 130 68 143 68 C159 68 167 80 167 102 L169 193' },
-  { id:'knuckles', d:'M169 193 C177 169 198 165 208 180 C215 168 233 167 244 178 C254 189 252 204 251 212' },
-  { id:'outside', d:'M251 212 C259 225 256 246 246 264 L239 310' },
-  { id:'wrist', d:'M143 285 C163 305 199 315 239 310' },
-  { id:'thumb', d:'M133 231 C113 211 89 196 75 203 C61 212 65 227 78 238 C97 253 110 272 143 285' },
-  { id:'folds-1', secondary:true, d:'M173 201 C185 214 194 218 209 217 M210 190 C220 204 232 208 246 206' },
-  { id:'folds-2', secondary:true, d:'M157 267 C182 275 214 276 243 260 M160 294 C187 295 209 298 237 294' },
-  { id:'index-joints', secondary:true, d:'M126 152 C140 161 151 159 169 153 M128 122 C142 129 154 128 167 121' },
-  { id:'mesh', secondary:true, d:'M158 238 C184 242 209 246 251 239 M173 214 L189 267 L206 224 L220 270 L240 225' },
-];
-const PINCH_HAND: Stroke[] = [
-  { id:'wrist-left',d:'M125 318 C119 299 108 270 110 254' },
-  { id:'index',d:'M110 254 C98 224 96 190 117 165 C133 146 153 129 180 122 C201 118 207 126 207 138 C207 150 199 157 179 159 C165 162 154 170 150 185' },
-  { id:'thumb',d:'M150 185 C166 195 181 205 190 215 C202 226 197 242 183 245 C167 248 150 236 137 225' },
-  { id:'fingers',d:'M183 245 C202 224 223 205 240 208 C254 211 257 226 247 236 L227 257 C246 243 261 249 265 260 C269 272 255 282 245 288 L228 315' },
-  { id:'wrist-right',d:'M228 315 C193 321 157 324 125 318' },
-  { id:'pinch-folds',secondary:true,d:'M124 268 C151 276 181 281 215 272 M139 295 C167 303 194 302 227 299 M145 200 Q161 211 172 218' },
-  { id:'knuckle-net',secondary:true,d:'M137 227 L157 250 L187 244 L208 262 L237 239 M156 251 L173 287 L208 262' },
-];
 const THINK_HAND: Stroke[] = [
-  // Hand under chin: the index is folded and meets the profile at the jaw.
-  // There is deliberately no upright lone digit or V-sign silhouette.
-  { id:'wrist-left', d:'M91 336 C94 303 102 283 126 266' },
-  { id:'support-index', d:'M126 266 C124 239 135 221 157 214 C175 207 195 202 212 190 C229 177 243 176 249 187 C255 198 247 208 232 219 L203 242' },
-  { id:'folded-middle', d:'M203 242 C224 219 239 219 247 229 C255 240 247 253 233 262 L212 276' },
-  { id:'folded-ring', d:'M212 276 C227 264 240 268 243 281 C245 292 233 302 217 304' },
-  { id:'folded-little', d:'M217 304 C225 320 217 333 207 339' },
-  { id:'wrist-right', d:'M207 339 C168 347 129 350 91 336' },
-  { id:'thumb-under-chin', d:'M126 266 C137 252 152 250 162 258 C174 268 184 275 199 281' },
-  // Minimal human profile gives the hand a thoughtful purpose, and stays
-  // inside the same reserved gesture dock (not across heading typography).
-  { id:'profile-contour', secondary:true, d:'M274 62 C300 67 308 93 307 111 C306 129 295 145 289 158 C291 167 301 174 298 181 C292 190 281 190 275 192 C273 203 268 213 254 219 C240 222 234 221 232 219' },
-  { id:'profile-neck', secondary:true, d:'M269 220 C281 244 278 262 272 276' },
-  { id:'profile-eye', secondary:true, d:'M279 164 C285 161 292 160 297 161' },
-  { id:'palm-crease', secondary:true, d:'M131 281 C153 278 179 282 211 297 M139 308 Q171 310 211 323' },
-  { id:'knuckle-mesh', secondary:true, d:'M153 214 Q166 239 172 280 M193 209 Q204 240 215 270' },
+  // Iconic contemplative gesture: thumb horizontally cradling the jawline/chin
+  // while the index finger rests gracefully upward along the cheek, with curled fist.
+  { id: 'wrist-left', stage: 0, d: 'M126 332 C128 300 126 274 124 250' },
+  { id: 'wrist-right', stage: 0, d: 'M222 332 C220 302 226 276 234 252' },
+  { id: 'wrist-base', stage: 0, d: 'M126 332 C156 340 192 340 222 332' },
+  // Thumb cradles the underside of the chin horizontally
+  { id: 'thumb-chin', stage: 1, d: 'M124 250 C116 236 112 216 122 202 C134 188 156 188 184 196 L208 208' },
+  // Index finger extends along cheek/temple with gentle thoughtful inward curve at tip
+  { id: 'index-finger', stage: 2, d: 'M138 200 L138 98 C138 72 150 60 166 60 C180 60 190 72 188 98 L184 198' },
+  // Curled middle, ring, pinky form the supportive fist resting under chin
+  { id: 'folded-middle', stage: 3, d: 'M184 198 C204 190 224 194 230 208 C234 220 224 230 206 232 L182 234' },
+  { id: 'folded-ring', stage: 4, d: 'M182 234 C200 234 216 238 220 250 C224 260 214 268 198 268 L172 268' },
+  { id: 'folded-pinky', stage: 5, d: 'M172 268 C188 268 202 274 204 284 C206 294 194 300 180 300 L162 298 L234 252' },
+  // Anatomical creases & dorsal volume
+  { id: 'index-ridge', stage: 6, secondary: true, d: 'M164 64 L164 198' },
+  { id: 'index-joint-1', stage: 6, secondary: true, d: 'M138 126 Q164 132 187 126' },
+  { id: 'index-joint-2', stage: 6, secondary: true, d: 'M138 162 Q164 168 185 162' },
+  { id: 'thumb-cradle-ridge', stage: 6, secondary: true, d: 'M122 202 Q156 194 196 204' },
+  { id: 'thenar-crease', stage: 6, secondary: true, d: 'M132 240 C144 264 152 290 158 320' },
+  { id: 'fist-wire-1', stage: 6, secondary: true, d: 'M128 270 Q164 262 222 266' },
+  { id: 'fist-wire-2', stage: 6, secondary: true, d: 'M126 298 Q164 292 218 294' },
 ];
-const BUILD_HAND: Stroke[] = [
-  { id:'wrist',d:'M90 310 C94 286 101 267 111 258 C124 245 141 241 164 244' },
-  { id:'extended-index',d:'M164 244 C179 226 208 203 233 182 C246 171 261 173 268 184 C275 195 270 205 256 216 L208 258' },
-  { id:'middle',d:'M208 258 C227 244 245 243 254 252 C264 263 260 275 247 284 L223 303' },
-  { id:'outer',d:'M223 303 C194 317 147 323 90 310' },
-  { id:'thumb',d:'M111 258 C104 234 99 206 111 197 C120 190 131 193 138 203 L164 244' },
-  { id:'mesh',secondary:true,d:'M118 280 L161 261 L189 292 L218 269 M138 203 L161 261 M153 307 L189 292 L209 303' },
-  { id:'crease',secondary:true,d:'M111 293 Q155 303 209 289' },
+
+const CAPABILITY_HAND: Stroke[] = [
+  // Digital capability connection gesture: hand bridging toward network hub
+  { id: 'wrist-left', stage: 0, d: 'M115 322 C120 292 125 266 132 244' },
+  { id: 'wrist-right', stage: 0, d: 'M215 326 C210 296 214 272 224 248' },
+  { id: 'wrist-bottom', stage: 0, d: 'M115 322 C145 332 185 334 215 326' },
+  { id: 'thumb', stage: 1, d: 'M132 244 C116 230 100 214 92 198 C82 182 90 172 104 174 C118 176 134 194 154 218 L170 236' },
+  { id: 'index-connect', stage: 2, d: 'M170 236 L230 166 C240 154 252 156 258 166 C264 176 256 186 244 196 L198 248' },
+  { id: 'folded-middle', stage: 3, d: 'M198 248 C216 240 230 242 234 252 C238 262 228 270 212 272 L188 274' },
+  { id: 'folded-ring', stage: 4, d: 'M188 274 C204 274 216 278 220 288 C222 296 212 302 198 302 L176 300' },
+  { id: 'folded-pinky', stage: 5, d: 'M176 300 L224 248' },
+  { id: 'index-joint', stage: 6, secondary: true, d: 'M200 196 Q220 204 238 194' },
+  { id: 'thumb-joint', stage: 6, secondary: true, d: 'M100 182 Q118 196 140 210' },
+  { id: 'palm-contour', stage: 6, secondary: true, d: 'M140 246 Q176 240 222 246' },
+  { id: 'palm-wire', stage: 6, secondary: true, d: 'M128 278 Q170 272 216 276' },
+  { id: 'knuckle-net', stage: 6, secondary: true, d: 'M154 218 L180 244 L212 234 L232 250' },
 ];
+
+const TOUCH_HAND: Stroke[] = [
+  // Intentional product interaction touch/tap gesture: index finger pressing down on capacitive surface
+  { id: 'wrist-left', stage: 0, d: 'M126 324 C130 294 132 268 136 242' },
+  { id: 'wrist-right', stage: 0, d: 'M226 320 C222 292 226 268 236 244' },
+  { id: 'wrist-base', stage: 0, d: 'M126 324 C156 332 194 330 226 320' },
+  { id: 'thumb-poise', stage: 1, d: 'M136 242 C120 228 104 212 96 196 C88 182 94 172 106 174 C118 176 133 190 152 212 L166 232' },
+  { id: 'touch-index', stage: 2, d: 'M166 232 L172 118 C172 94 182 84 194 84 C206 84 216 94 214 118 L210 212' },
+  { id: 'curl-middle', stage: 3, d: 'M210 212 C226 206 238 210 242 222 C246 234 236 242 220 244 L196 246' },
+  { id: 'curl-ring', stage: 4, d: 'M196 246 C212 246 224 250 226 260 C228 268 218 276 204 276 L182 276' },
+  { id: 'curl-pinky', stage: 5, d: 'M182 276 C196 276 206 280 208 288 C210 296 200 302 186 302 L168 300 L236 244' },
+  { id: 'index-distal', stage: 6, secondary: true, d: 'M172 142 Q193 149 213 142' },
+  { id: 'index-proximal', stage: 6, secondary: true, d: 'M169 180 Q192 186 211 180' },
+  { id: 'index-axis', stage: 6, secondary: true, d: 'M194 88 L194 212' },
+  { id: 'thumb-mesh', stage: 6, secondary: true, d: 'M102 182 Q120 196 142 210' },
+  { id: 'palm-wire-1', stage: 6, secondary: true, d: 'M140 258 Q176 250 226 254' },
+  { id: 'palm-wire-2', stage: 6, secondary: true, d: 'M132 286 Q172 280 220 282' },
+];
+
+const THUMBS_UP_HAND: Stroke[] = [
+  // Bold, unmistakable thumbs-up approval gesture: thumb extended upright, fingers curled in a firm fist
+  { id: 'wrist-left', stage: 0, d: 'M126 332 C128 302 128 276 130 252' },
+  { id: 'wrist-right', stage: 0, d: 'M226 326 C224 298 228 274 236 252' },
+  { id: 'wrist-bottom', stage: 0, d: 'M126 332 C156 340 196 338 226 326' },
+  // Upright confident thumb
+  { id: 'thumb-upright', stage: 1, d: 'M130 252 C116 230 108 192 108 155 C108 110 118 68 142 68 C162 68 172 90 170 125 L162 180' },
+  // Four horizontally curled fingers forming the front of the fist
+  { id: 'fist-index', stage: 2, d: 'M162 180 C180 174 210 176 220 192 C226 204 216 214 196 216 L164 216' },
+  { id: 'fist-middle', stage: 3, d: 'M164 216 C184 216 210 220 216 232 C220 242 210 250 190 250 L160 250' },
+  { id: 'fist-ring', stage: 4, d: 'M160 250 C180 250 204 254 208 266 C212 276 202 282 182 282 L154 282' },
+  { id: 'fist-pinky', stage: 5, d: 'M154 282 C174 282 196 286 198 296 C200 304 190 310 174 310 L146 306 L236 252' },
+  // Thumb joints, knuckles, and anatomical contours
+  { id: 'thumb-joint', stage: 6, secondary: true, d: 'M110 146 Q136 152 165 146' },
+  { id: 'thumb-tip-contour', stage: 6, secondary: true, d: 'M124 80 Q142 74 158 82' },
+  { id: 'thumb-ridge', stage: 6, secondary: true, d: 'M142 72 L142 180' },
+  { id: 'thenar-crease', stage: 6, secondary: true, d: 'M132 254 C142 274 148 298 150 320' },
+  { id: 'knuckle-line-1', stage: 6, secondary: true, d: 'M164 196 Q190 200 216 194' },
+  { id: 'knuckle-line-2', stage: 6, secondary: true, d: 'M164 232 Q190 236 214 232' },
+  { id: 'fist-mesh-1', stage: 6, secondary: true, d: 'M138 268 Q170 260 228 264' },
+  { id: 'fist-mesh-2', stage: 6, secondary: true, d: 'M134 296 Q170 290 222 292' },
+];
+
+const QUESTION_HAND: Stroke[] = [
+  // Expressive inquiry & doubt gesture: index finger arcing into an inquiring question hook,
+  // expressing curiosity and doubt without confusing arbitrary symbols
+  { id: 'wrist-left', stage: 0, d: 'M132 328 C134 298 132 272 130 248' },
+  { id: 'wrist-right', stage: 0, d: 'M224 328 C222 298 226 274 234 252' },
+  { id: 'wrist-bottom', stage: 0, d: 'M132 328 C162 336 194 336 224 328' },
+  { id: 'thumb-curious', stage: 1, d: 'M130 248 C112 234 94 218 88 202 C80 188 86 178 98 178 C112 178 126 190 144 212 L160 232' },
+  // Index finger rises and curves forward into a distinct question-mark hook of curiosity/doubt
+  { id: 'question-hook', stage: 2, d: 'M160 232 L160 134 C160 92 184 72 212 78 C232 82 242 100 234 118 C224 136 198 148 190 172 L190 214' },
+  { id: 'folded-middle', stage: 3, d: 'M190 214 C210 208 226 212 230 224 C234 234 224 242 208 244 L186 246' },
+  { id: 'folded-ring', stage: 4, d: 'M186 246 C202 246 216 250 218 260 C220 270 210 276 196 276 L176 276' },
+  { id: 'folded-pinky', stage: 5, d: 'M176 276 C190 276 202 282 204 290 C206 298 194 304 180 304 L164 302 L234 252' },
+  // Inner contours expressing the inquisitive hook
+  { id: 'hook-inner-arc', stage: 6, secondary: true, d: 'M182 130 C182 102 196 90 214 94 C226 96 230 108 224 118 C216 130 198 140 192 158' },
+  { id: 'hook-base-joint', stage: 6, secondary: true, d: 'M160 156 Q176 162 192 156' },
+  { id: 'thumb-joint', stage: 6, secondary: true, d: 'M94 186 Q112 200 134 214' },
+  { id: 'knuckle-arc', stage: 6, secondary: true, d: 'M160 232 Q180 222 198 222 Q218 226 232 236' },
+  { id: 'thenar-crease', stage: 6, secondary: true, d: 'M136 242 C146 266 152 292 156 318' },
+  { id: 'palm-wire-1', stage: 6, secondary: true, d: 'M132 274 Q166 266 222 270' },
+  { id: 'palm-wire-2', stage: 6, secondary: true, d: 'M130 298 Q166 292 218 294' },
+];
+
 const WELCOME_HAND: Stroke[] = [
   { id:'wrist-left', d:'M119 316 C113 291 103 269 98 249' },
   { id:'wrist-right', d:'M237 314 C231 290 235 270 242 247' },
-  { id:'palm-edge', d:'M98 249 C83 236 68 229 55 217 C42 205 45 192 56 187 C67 182 80 189 92 197 L122 219' },
+  { id:'thumb', d:'M98 249 C83 236 68 229 55 217 C42 205 45 192 56 187 C67 182 80 189 92 197 L122 219' },
   { id:'index', d:'M122 219 C119 193 109 167 106 144 C103 127 110 118 121 118 C133 118 139 127 140 145 L148 200' },
   { id:'middle', d:'M148 200 C141 170 133 131 134 113 C135 97 144 88 155 91 C168 95 171 107 172 120 L178 199' },
   { id:'ring', d:'M178 199 C180 168 182 139 186 125 C191 111 203 107 211 116 C220 126 218 139 215 151 L206 211' },
@@ -122,24 +177,32 @@ const WELCOME_HAND: Stroke[] = [
   { id:'mesh-one', secondary:true, d:'M118 240 Q161 222 217 241 M128 264 Q174 252 229 260 M151 288 Q188 284 224 281' },
   { id:'mesh-two', secondary:true, d:'M137 222 C138 246 148 278 161 312 M174 215 C179 239 185 278 190 314 M202 228 L210 260 L219 290' },
 ];
+
 const HANDS: Record<Exclude<GestureVariant, 'contact'>, Stroke[]> = {
-  hero: OPEN_HAND, thinking: THINK_HAND, about: WELCOME_HAND, digital: BUILD_HAND,
-  automation: POINT_HAND, strategy: THINK_HAND, development: PINCH_HAND,
-  products: POINT_HAND, why: OPEN_HAND, faq: OPEN_HAND,
-};
-const POSITION: Record<Exclude<GestureVariant, 'contact'>, Config> = {
-  hero: { rotation: -9, scale: .94, offsetX: 8, offsetY: 0 },
-  thinking: { rotation: 3, scale: 1.08, offsetX: 0, offsetY: -7 },
-  about: { rotation: -25, scale: .95, offsetX: -7, offsetY: 13, node:[268,182] },
-  digital: { rotation: 13, scale: 1, offsetX: 5, offsetY: 0, node:[268,182] },
-  automation: { rotation: -18, scale: .99, offsetX: 0, offsetY: 0, node:[144,62] },
-  strategy: { rotation: 12, scale: 1, offsetX: 0, offsetY: 0 },
-  development: { rotation: -14, scale: 1, offsetX: 0, offsetY: 2, node:[192,142] },
-  products: { rotation: 57, scale: .93, offsetX: 12, offsetY: -9, node:[144,62] },
-  why: { rotation: 24, scale: .95, offsetX: -9, offsetY: 4 },
-  faq: { rotation: 0, scale: .93, offsetX: 0, offsetY: 30 },
+  hero: OPEN_HAND,
+  thinking: THINK_HAND,
+  about: WELCOME_HAND,
+  digital: CAPABILITY_HAND,
+  automation: CAPABILITY_HAND,
+  strategy: CAPABILITY_HAND,
+  development: CAPABILITY_HAND,
+  products: TOUCH_HAND,
+  why: THUMBS_UP_HAND,
+  faq: QUESTION_HAND,
 };
 
+const POSITION: Record<Exclude<GestureVariant, 'contact'>, Config> = {
+  hero: { rotation: -9, scale: .94, offsetX: 8, offsetY: 0 },
+  thinking: { rotation: -6, scale: 1.05, offsetX: 0, offsetY: 0 },
+  about: { rotation: -18, scale: .95, offsetX: -5, offsetY: 10, node:[268,182] },
+  digital: { rotation: 8, scale: 1.02, offsetX: -6, offsetY: 0, node:[256,168] },
+  automation: { rotation: 8, scale: 1.02, offsetX: -6, offsetY: 0, node:[256,168] },
+  strategy: { rotation: 8, scale: 1.02, offsetX: -6, offsetY: 0, node:[256,168] },
+  development: { rotation: 8, scale: 1.02, offsetX: -6, offsetY: 0, node:[256,168] },
+  products: { rotation: -10, scale: 1.02, offsetX: 0, offsetY: 0, node:[196,88] },
+  why: { rotation: 0, scale: 1.02, offsetX: 0, offsetY: 6 },
+  faq: { rotation: 8, scale: 1.02, offsetX: 0, offsetY: 4 },
+};
 
 /**
  * An SVG rig with scroll-scrubbed formation, articulation, interaction, and departure.
@@ -148,15 +211,14 @@ const POSITION: Record<Exclude<GestureVariant, 'contact'>, Config> = {
 function WireHand({ gesture }: { gesture: Exclude<GestureVariant, 'contact'> }) {
   const lines = HANDS[gesture];
   const setting = POSITION[gesture];
-  const isFaq = gesture === 'faq';
-  const openPalm = gesture === 'hero' || gesture === 'faq' || gesture === 'why' || gesture === 'about';
+  const openPalm = gesture === 'hero' || gesture === 'about';
   return (
     <g data-gesture-body="" data-kind={gesture}>
       <g data-hand-rig=""
         transform={'translate(' + setting.offsetX + ' ' + setting.offsetY + ') translate(180 180) rotate(' + setting.rotation + ') scale(' + setting.scale + ') translate(-180 -180)'}
         fill="none" strokeLinecap="round" strokeLinejoin="round">
         {lines.map((line, index) => (
-          <g key={line.id} data-stroke={line.id} data-stage={isFaq ? (line.stage ?? 7) : (line.secondary ? 2 : index < 2 ? 0 : 1)}
+          <g key={line.id} data-stroke={line.id} data-stage={line.stage ?? (line.secondary ? 6 : index < 3 ? 0 : 1)}
             data-articulate={openPalm && ['thumb','index','middle','ring','little'].includes(line.id) ? line.id : undefined}
             data-secondary={line.secondary ? 'true' : undefined}>
             <path d={line.d} stroke="var(--gesture-depth,#1b528a)" strokeWidth={line.secondary ? 1.7 : 4.3}
@@ -167,34 +229,42 @@ function WireHand({ gesture }: { gesture: Exclude<GestureVariant, 'contact'> }) 
               pathLength={1} strokeDasharray="1" strokeDashoffset="0"/>
           </g>
         ))}
-        {/* The two nodes belong to the services hand, not to the scene background. */}
-        {['digital','automation','strategy','development'].includes(gesture) && (
-          <g data-gesture-action="" opacity="0" stroke="var(--gesture-stroke,#a7dcff)" fill="none">
-            <path data-action-wire="" d={'M' + ((setting.node?.[0] ?? 218) - 43) + ' ' + (setting.node?.[1] ?? 176) +
-              ' Q' + ((setting.node?.[0] ?? 218) - 17) + ' ' + ((setting.node?.[1] ?? 176) - 34) +
-              ' ' + (setting.node?.[0] ?? 218) + ' ' + (setting.node?.[1] ?? 176)}
-              strokeWidth="1.5" pathLength={1} strokeDasharray="1" strokeDashoffset="0"/>
-            <circle cx={(setting.node?.[0] ?? 218) - 43} cy={setting.node?.[1] ?? 176} r="7" strokeWidth="1.2"/>
-            <circle cx={setting.node?.[0] ?? 218} cy={setting.node?.[1] ?? 176} r="7" strokeWidth="1.2"/>
-            <circle data-touch-point="" cx={setting.node?.[0] ?? 218} cy={setting.node?.[1] ?? 176} r="2.9" fill="var(--gesture-stroke,#a7dcff)" stroke="none"/>
+        {/* A quiet face profile gives the Vision hand an unambiguous “thinking” read. */}
+        {gesture === 'thinking' && (
+      <g data-thought-profile="" transform="translate(-48 0)" fill="none" stroke="var(--gesture-inner,#68a5d3)" strokeLinecap="round" strokeLinejoin="round" opacity=".72">
+            <path d="M266 54 C306 64 323 99 316 135 C311 159 297 174 287 187 C286 204 277 220 258 229 C239 235 221 229 208 215" strokeWidth="2" />
+            <path d="M273 143 C286 139 296 141 303 146 M276 174 C286 177 295 176 301 171" strokeWidth="1.2" opacity=".72" />
+            <path d="M254 229 C267 251 269 274 258 298" strokeWidth="1.35" opacity=".6" />
+            <circle cx="281" cy="117" r="2.7" fill="var(--gesture-stroke,#a7dcff)" stroke="none" />
           </g>
         )}
+        {/* Capability connection node & data link */}
+        {['digital','automation','strategy','development'].includes(gesture) && (
+          <g data-gesture-action="" opacity="0" stroke="var(--gesture-stroke,#a7dcff)" fill="none">
+            <path data-action-wire="" d="M256 168 Q284 144 310 152"
+              strokeWidth="1.6" pathLength={1} strokeDasharray="1" strokeDashoffset="0"/>
+            <circle cx="256" cy="168" r="6" strokeWidth="1.4"/>
+            <circle cx="310" cy="152" r="8" strokeWidth="1.4"/>
+            <circle data-touch-point="" cx="310" cy="152" r="3.2" fill="var(--gesture-stroke,#a7dcff)" stroke="none"/>
+          </g>
+        )}
+        {/* Product touch & ripple action */}
         {gesture === 'products' && (
           <g data-product-action="" opacity="0" stroke="var(--gesture-stroke,#a7dcff)" fill="none">
-            <circle cx="144" cy="62" r="16" strokeWidth="1.2" strokeDasharray="3 5"/>
-            <circle cx="144" cy="62" r="6" strokeWidth="1.5"/>
-            <path d="M144 27 V40 M144 84 V97" strokeWidth="1.2"/>
+            <circle cx="196" cy="88" r="36" strokeWidth="1" strokeDasharray="3 6" opacity="0.42"/>
+            <circle cx="196" cy="88" r="23" strokeWidth="1.2" strokeDasharray="2 4" opacity="0.7"/>
+            <circle cx="196" cy="88" r="10" strokeWidth="1.7"/>
+            <circle cx="196" cy="88" r="3.2" fill="var(--gesture-stroke,#a7dcff)" stroke="none"/>
+          </g>
+        )}
+        {/* Keep the FAQ’s doubt cue literal as well as gestural: an open inquiry plus a question mark. */}
+        {gesture === 'faq' && (
+          <g data-question-symbol="" fill="none" stroke="var(--gesture-stroke,#a7dcff)" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M267 61 C285 39 318 48 321 75 C323 96 304 105 291 118 C283 126 282 136 282 146" strokeWidth="3.3" />
+            <circle cx="282" cy="169" r="4.5" fill="var(--gesture-stroke,#a7dcff)" stroke="none" />
           </g>
         )}
       </g>
-      {isFaq && (
-        <g data-question="" stroke="var(--gesture-stroke,#a7dcff)" strokeWidth="2.15" fill="none"
-          strokeLinecap="round" strokeLinejoin="round">
-          <path data-question-path="" d="M269 65 C253 43 257 22 278 17 C299 12 312 31 300 49 L289 62 L289 71"
-            pathLength={1} strokeDasharray="1" strokeDashoffset="0"/>
-          <circle data-question-dot="" cx="289" cy="82" r="2.7" fill="var(--gesture-stroke,#a7dcff)" stroke="none"/>
-        </g>
-      )}
     </g>
   );
 }
@@ -285,13 +355,11 @@ export function NetworkGesture({ gesture, className = '' }: { gesture: GestureVa
     const bodyLines = root.querySelectorAll<SVGGElement>('[data-stroke]');
     const reachLines = root.querySelectorAll<SVGGElement>('[data-reach-stroke]');
     const contourLines = root.querySelectorAll<SVGPathElement>('[data-reach-contour]');
-    const question = root.querySelector<SVGGElement>('[data-question]');
     const action = root.querySelector<SVGGElement>('[data-gesture-action]');
     const productAction = root.querySelector<SVGGElement>('[data-product-action]');
     const connection = root.querySelector<SVGGElement>('[data-contact-connection]');
     const setting = gesture === 'contact' ? null : POSITION[gesture];
     const isHero = gesture === 'hero';
-    const isFaq = gesture === 'faq';
     let raf = 0;
     let active = false;
     let lastValue = -1;
@@ -303,6 +371,7 @@ export function NetworkGesture({ gesture, className = '' }: { gesture: GestureVa
       const actionPhase = reduced ? 1 : ease(.31, .76, p);
       const departure = reduced ? 1 : 1 - ease(.89, 1, p);
       const breathe = reduced ? 0 : Math.sin(Math.PI * ease(.18,.88,p));
+      const aboutFold = gesture === 'about' ? (reduced ? 0 : ease(.28, .84, p)) : 0;
       mount.dataset.phase = reduced ? 'rest' : p < .33 ? 'form' : p < .82 ? 'act' : 'release';
       mount.dataset.progress = p.toFixed(3);
       const opacity = arrival * departure;
@@ -310,10 +379,13 @@ export function NetworkGesture({ gesture, className = '' }: { gesture: GestureVa
       if (setting && rig) {
         const fromLeft = gesture === 'about' ? -42 : gesture === 'thinking' ? 25 : 0;
         const fromRight = isHero ? 22 : gesture === 'products' ? 35 : 0;
-        const horizontal = (fromLeft + fromRight) * (1 - arrival) + (gesture === 'products' ? -13 : gesture === 'digital' || gesture === 'automation' ? -11 : 0) * actionPhase;
-        const vertical = (1-arrival) * 16 - (reduced ? 0 : 14 * breathe);
-        const rotation = setting.rotation + (reduced ? 0 : (gesture === 'faq' ? 0 : gesture === 'thinking' ? -10 : gesture === 'about' ? -8 : gesture === 'products' ? -12 : 5) * breathe);
-        const magnitude = setting.scale * (1 + .055 * breathe);
+        const horizontal = (fromLeft + fromRight) * (1 - arrival) +
+          (gesture === 'products' ? -12 : ['digital','automation','strategy','development'].includes(gesture) ? -10 : 0) * actionPhase +
+          (gesture === 'about' ? 30 * aboutFold : 0);
+        const vertical = (1-arrival) * 16 - (reduced ? 0 : 14 * breathe) + (gesture === 'about' ? 10 * aboutFold : 0);
+        const rotation = setting.rotation +
+          (reduced ? 0 : (gesture === 'faq' ? 3 : gesture === 'thinking' ? -5 : gesture === 'about' ? (-5 + 16 * aboutFold) : gesture === 'products' ? -7 : 3) * (breathe || 1));
+        const magnitude = setting.scale * (1 + .055 * breathe) * (gesture === 'about' ? (1 - 0.08 * aboutFold) : 1);
         rig.setAttribute('transform', 'translate(' + (setting.offsetX + horizontal).toFixed(2) + ' ' +
           (setting.offsetY + vertical).toFixed(2) + ') translate(180 180) rotate(' +
           rotation.toFixed(2) + ') scale(' + magnitude.toFixed(3) + ') translate(-180 -180)');
@@ -321,15 +393,11 @@ export function NetworkGesture({ gesture, className = '' }: { gesture: GestureVa
       for (const line of bodyLines) {
         const stage = Number(line.dataset.stage ?? 1);
         const internal = line.dataset.secondary === 'true';
-        const phase = isFaq
-          ? ease(.01 + stage*.039, .115 + stage*.042, p)
-          : ease(.025 + stage*.044, .19 + stage*.088, p);
-        // On leaving a chapter, stroke geometry unspools in reverse rather
-        // than fading an unchanged SVG silhouette to zero.
+        const phase = ease(.02 + stage*.038, .16 + stage*.078, p);
         const unwindStart = isHero ? .90 : .84;
         const unwindEnd = isHero ? .995 : .985;
         const release = reduced ? 1 : 1 - ease(
-          unwindStart + (isFaq ? (7-stage)*.008 : (2-Math.min(2,stage))*.018),
+          unwindStart + (2-Math.min(2,stage))*.018,
           unwindEnd, p);
         const done = reduced ? 1 : phase * release;
         paintPaths(line, done);
@@ -337,19 +405,22 @@ export function NetworkGesture({ gesture, className = '' }: { gesture: GestureVa
         const pivot = line.dataset.articulate && ARTICULATION_PIVOTS[line.dataset.articulate];
         if (pivot) {
           const [x,y,degrees] = pivot;
-          const flex = (1 - (reduced ? 1 : ease(isFaq ? .12 : .055, isFaq ? .57 : .46, p))) * degrees;
-          const spread = reduced ? 0 : (line.dataset.articulate === 'thumb' ? -7 : line.dataset.articulate === 'little' ? 6 : 0) * breathe;
-          line.setAttribute('transform', 'rotate(' + (flex+spread).toFixed(2) + ' ' + x + ' ' + y + ')');
+          if (gesture === 'about') {
+            const digit = line.dataset.articulate;
+            const foldAngle = digit === 'thumb' ? (24 * aboutFold)
+              : digit === 'index' ? (28 * aboutFold)
+              : digit === 'middle' ? (20 * aboutFold)
+              : digit === 'ring' ? (-18 * aboutFold)
+              : (-30 * aboutFold);
+            const foldScaleY = 1 - 0.22 * aboutFold;
+            line.setAttribute('transform', 'translate(' + x + ' ' + y + ') rotate(' + foldAngle.toFixed(2) + ') scale(1 ' + foldScaleY.toFixed(3) + ') translate(' + (-x) + ' ' + (-y) + ')');
+          } else {
+            const flex = (1 - (reduced ? 1 : ease(.055, .46, p))) * degrees;
+            const spread = reduced ? 0 : (line.dataset.articulate === 'thumb' ? -7 : line.dataset.articulate === 'little' ? 6 : 0) * breathe;
+            line.setAttribute('transform', 'rotate(' + (flex+spread).toFixed(2) + ' ' + x + ' ' + y + ')');
+          }
         }
-        // Fine internal contours can be removed on low power/mobile without changing silhouettes.
-        line.style.display = simplified() && internal && !isFaq && !line.dataset.stroke?.startsWith('profile-') ? 'none' : '';
-      }
-      if (question) {
-        question.style.opacity = (reduced ? 1 : ease(.25,.32,p) * departure).toFixed(3);
-        const mark = question.querySelector('[data-question-path]');
-        if (mark) paintPaths(mark, reduced ? 1 : ease(.26,.39,p)); // visible when all five digits are on-screen
-        const dot = question.querySelector<SVGElement>('[data-question-dot]');
-        if (dot) dot.style.opacity = String(reduced ? 1 : ease(.33,.39,p));
+        line.style.display = simplified() && internal && !line.dataset.stroke?.startsWith('profile-') ? 'none' : '';
       }
       if (action) {
         action.style.opacity = String(reduced ? 1 : ease(.39,.60,p) * departure);
@@ -436,7 +507,7 @@ export function NetworkGesture({ gesture, className = '' }: { gesture: GestureVa
       ref={dock} data-variant={gesture} aria-hidden="true">
       <svg className="gesture-svg" viewBox={gesture === 'contact' ? '0 0 760 360' : '0 0 360 390'}
         preserveAspectRatio="xMidYMid meet" focusable="false">
-        <title>{gesture === 'faq' ? 'Five fingers and a line-drawn question mark' : 'Ladder7 cinematic wireframe gesture'}</title>
+        <title>{gesture === 'faq' ? 'Wireframe hand gesture expressing inquiry and questioning' : 'Ladder7 cinematic wireframe gesture'}</title>
         {gesture === 'contact' ? <PairHands/> : <WireHand gesture={gesture}/>}
       </svg>
     </div>

@@ -65,7 +65,7 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
 }
 .cin-site .gesture-dock {position:relative;display:block;width:100%;height:100%;overflow:hidden;pointer-events:none!important;contain:layout style}
 .cin-site .gesture-dock * {pointer-events:none!important}
-.cin-site .gesture-svg {width:100%;height:100%;display:block;overflow:hidden;filter:drop-shadow(0 13px 24px rgba(45,122,200,.16))}
+.cin-site .gesture-svg {width:100%;height:100%;display:block;overflow:hidden;filter:drop-shadow(0 13px 24px rgba(45,122,200,.16)) drop-shadow(0 0 13px rgba(74,177,255,.18))}
 .cin-site .gesture-dock[data-phase="act"] [data-gesture-action] {filter:drop-shadow(0 0 7px rgba(121,199,255,.25))}
 
 /* A persistent yet restrained navigation film strip. */
@@ -98,7 +98,7 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
 .cin-rail a:hover .cin-rail-name,.cin-rail a.is-current .cin-rail-name {width:63px;opacity:1}
 .cin-rail a.is-current .cin-rail-marker {border-color:var(--accent);color:var(--accent)}
 
-.cin-hero {min-height:100svh;display:flex;align-items:center;padding-top:calc(var(--header-h) + 44px);padding-bottom:72px;background:radial-gradient(ellipse 55% 70% at 83% 45%,rgba(0,86,178,.22),transparent 72%),var(--deep)}
+.cin-hero {min-height:100svh;min-height:100dvh;box-sizing:border-box;display:flex;align-items:center;padding-top:calc(var(--header-h) + 44px);padding-bottom:72px;background:radial-gradient(ellipse 55% 70% at 83% 45%,rgba(0,86,178,.22),transparent 72%),var(--deep)}
 .cin-hero-ambient {position:absolute;inset:0;z-index:-1;opacity:.4;pointer-events:none;background:linear-gradient(105deg,transparent 48%,rgba(75,138,210,.12) 52%,transparent 64%)}
 .cin-hero-grid {display:grid;grid-template-columns:minmax(0,1.01fr) minmax(0,.99fr);gap:clamp(35px,5vw,92px);align-items:center}
 .cin-hero-main {display:flex;flex-direction:column;align-items:flex-start;gap:clamp(26px,3.6vw,48px);position:relative;z-index:2}
@@ -124,7 +124,7 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
 .cin-vision-intro {margin-bottom:clamp(24px,3.5vh,48px)}
 .cin-vision-heading {display:grid;grid-template-columns:minmax(0,1.2fr) minmax(270px,.6fr);gap:clamp(20px,6vw,92px);align-items:center}
 .cin-vision-heading h2 {font-size:clamp(54px,7vw,122px);letter-spacing:-.073em}
-.cin-vision-drawing {height:clamp(280px,30vw,440px);min-width:0}
+.cin-vision-drawing {height:clamp(310px,33vw,475px);min-width:0;background:radial-gradient(circle at 72% 31%,rgba(49,157,255,.13),transparent 44%);border-radius:50%}
 .cin-vision-stories {display:grid;grid-template-columns:minmax(160px,.38fr) minmax(0,1fr);gap:clamp(36px,7vw,132px)}
 .cin-vision-rail {position:sticky;top:calc(var(--header-h) + 45px);height:240px;display:flex;flex-direction:column;gap:22px}
 .cin-vision-rail span {color:var(--accent);font-size:10px;letter-spacing:.14em}
@@ -140,8 +140,8 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
 .cin-perspective-copy p {margin-block:19px 25px;color:var(--muted);line-height:1.8;font-size:clamp(13px,1vw,16px)}
 
 /* 03 - Human-centered mission: giant line-art and typographic statement */
-.cin-about {padding-block:clamp(105px,13vw,190px);background:linear-gradient(155deg,var(--surface),var(--page) 70%)}
-.cin-about-composition {display:grid;grid-template-columns:minmax(310px,.8fr) minmax(0,1.2fr);align-items:center;gap:clamp(30px,7vw,120px);margin-block:clamp(35px,7vw,100px)}
+.cin-about {padding-block:clamp(55px,6.5vh,90px);background:linear-gradient(155deg,var(--surface),var(--page) 70%)}
+.cin-about-composition {display:grid;grid-template-columns:minmax(310px,.8fr) minmax(0,1.2fr);align-items:center;gap:clamp(30px,7vw,120px);margin-block:clamp(25px,3.5vh,50px) clamp(35px,4.5vh,65px)}
 .cin-about-gesture {height:clamp(380px,42vw,610px);min-width:0}
 .cin-about-message h2 {font-size:clamp(52px,6.25vw,106px);margin:25px 0 32px}
 .cin-about-message p {max-width:690px;color:var(--muted);font-size:clamp(14px,1.17vw,18px);line-height:1.95}
@@ -153,8 +153,8 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
 .cin-audiences article>svg {position:absolute;top:47px;right:35px;color:var(--accent)}
 
 /* 04 - Service chapters: accordion on the left, visual theatre to the right */
-.cin-services {padding-block:clamp(105px,12vw,186px);background:var(--deep)}
-.cin-services-intro {display:flex;align-items:end;justify-content:space-between;gap:40px;margin-bottom:clamp(50px,6vw,98px)}
+.cin-services {padding-block:clamp(55px,6.5vh,90px);background:var(--deep)}
+.cin-services-intro {display:flex;align-items:end;justify-content:space-between;gap:40px;margin-bottom:clamp(28px,3.8vh,50px)}
 .cin-services-intro h2 {font-size:clamp(65px,7.5vw,127px);margin:20px 0 28px}
 .cin-services-intro p:not(.cin-kicker) {max-width:610px;color:var(--muted);font-size:clamp(14px,1.15vw,17px)}
 .cin-services-theatre {display:grid;grid-template-columns:minmax(0,1.01fr) minmax(0,.99fr);align-items:start;gap:clamp(30px,5vw,82px)}
@@ -175,15 +175,15 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
 .cin-service-image img {width:100%;height:100%;object-fit:cover;filter:saturate(.75) brightness(.7)}
 .cin-service-image::after {content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(3,18,38,.06) 0%,rgba(3,18,38,.72) 90%)}
 .cin-services-watermark {position:absolute;z-index:1;left:23px;top:8px;font:500 clamp(96px,12vw,192px)/1 'Space Grotesk';letter-spacing:-.1em;color:rgba(255,255,255,.16)}
-.cin-services-gesture {position:absolute;z-index:2;width:min(67%,430px);height:clamp(285px,29vw,425px);top:17%;right:6%;pointer-events:none}
+.cin-services-gesture {position:absolute;z-index:2;top:clamp(12px,2vw,24px);right:clamp(10px,2vw,28px);width:min(76%,430px);height:min(68%,430px);background:radial-gradient(circle at 78% 28%,rgba(68,178,255,.24),transparent 15%),radial-gradient(circle at 70% 38%,rgba(0,86,178,.18),transparent 48%);pointer-events:none}
 .cin-stage-caption {position:absolute;z-index:3;bottom:28px;left:32px;right:32px;display:flex;flex-direction:column;gap:8px;color:#fff}
 .cin-stage-caption span {font-size:10px;letter-spacing:.12em;opacity:.7}
 .cin-stage-caption strong {font:500 clamp(26px,2.5vw,38px)/1.06 'Space Grotesk';max-width:480px}
 @keyframes cin-image-enter {from{opacity:.45;transform:scale(1.045)}to{opacity:1;transform:scale(1)}}
 
 /* 05 - Full product stage inspired by product-editorial reveals, not copied assets */
-.cin-products {padding-block:clamp(115px,13vw,205px);background:radial-gradient(ellipse 60% 45% at 40% 60%,rgba(0,86,178,.09),transparent 85%),var(--page)}
-.cin-products-intro {display:grid;grid-template-columns:1.45fr .55fr;gap:clamp(30px,5vw,88px);align-items:end;margin:25px 0 clamp(55px,6vw,95px)}
+.cin-products {padding-block:clamp(55px,6.5vh,90px);background:radial-gradient(ellipse 60% 45% at 40% 60%,rgba(0,86,178,.09),transparent 85%),var(--page)}
+.cin-products-intro {display:grid;grid-template-columns:1.45fr .55fr;gap:clamp(30px,5vw,88px);align-items:end;margin:18px 0 clamp(24px,3.2vh,44px)}
 .cin-products-intro h2 {font-size:clamp(56px,6.7vw,118px);line-height:1.01}
 .cin-products-intro p {font-size:clamp(14px,1.2vw,17px);line-height:1.9;color:var(--muted);padding-bottom:7px}
 .cin-product-tabs {display:flex;overflow-x:auto;max-width:100%;border-top:1px solid var(--line);border-bottom:1px solid var(--line);scrollbar-width:thin;scrollbar-color:var(--line) transparent}
@@ -192,13 +192,13 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
 .cin-product-tabs button[aria-selected="true"] {background:var(--primary);color:#fff}
 .cin-product-tabs button span {font-size:10px;letter-spacing:.12em;opacity:.7}
 .cin-product-tabs button strong {font:500 clamp(16px,1.4vw,22px)/1.15 'Space Grotesk'}
-.cin-product-stage {display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(30px,5vw,90px);align-items:start;padding-top:clamp(35px,5vw,85px);animation:cin-image-enter .4s both}
+.cin-product-stage {display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(30px,5vw,90px);align-items:start;padding-top:clamp(20px,2.8vh,40px);animation:cin-image-enter .4s both}
 .cin-product-display {padding:13px;border:1px solid var(--line);background:var(--surface);border-radius:10px;overflow:hidden;position:relative;min-width:0}
 .cin-product-topbar {display:flex;justify-content:space-between;gap:10px;font-size:10px;letter-spacing:.14em;padding:9px 9px 18px;color:var(--muted)}
 .cin-product-frame {border-radius:6px;overflow:hidden;aspect-ratio:1.35;background:var(--panel);border:1px solid var(--line)}
 .cin-product-frame img {width:100%;height:100%;object-fit:contain;transition:transform .65s}
 .cin-product-display:hover .cin-product-frame img {transform:scale(1.04)}
-.cin-product-gesture {height:clamp(180px,18vw,270px);width:min(100%,320px);margin:14px auto 3px}
+.cin-product-gesture {height:clamp(220px,22vw,335px);width:min(100%,390px);margin:4px auto -8px;background:radial-gradient(circle at 52% 20%,rgba(69,178,255,.17),transparent 34%)}
 .cin-product-display-label {display:block;font-size:9px;letter-spacing:.14em;color:var(--quiet);padding:3px 9px 14px}
 .cin-product-information {padding-block:clamp(15px,3vw,50px)}
 .cin-product-information h3 {font-size:clamp(58px,6.4vw,108px);margin:12px 0 14px}
@@ -214,41 +214,41 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
 .cin-product-pagination small {font-size:11px;color:var(--muted)}
 
 /* 06 - Engineering interlude; actual Ladder7 media, no invented business facts. */
-.cin-engineering {position:relative;min-height:clamp(700px,85svh,1050px);display:flex;align-items:center;overflow:hidden;background:#020e1e}
+.cin-engineering {position:relative;min-height:100svh;min-height:100dvh;box-sizing:border-box;padding-top:var(--header-h);padding-bottom:clamp(24px,3vh,48px);display:flex;align-items:center;overflow:hidden;background:#020e1e}
 .cin-engineering-photo {position:absolute;inset:0;overflow:hidden;pointer-events:none}
 .cin-engineering-photo img {width:100%;height:100%;object-fit:cover;filter:saturate(.65) brightness(.35);transform:scale(calc(1.04 + var(--chapter-depth,0)*.015))}
 .cin-engineering-photo::after {content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(2,10,23,.97) 5%,rgba(2,10,23,.60) 60%,rgba(2,10,23,.42))}
-.cin-engineering-content {position:relative;min-height:680px;padding-block:clamp(110px,12vw,175px);display:grid;grid-template-columns:minmax(0,1.2fr) minmax(230px,.7fr);grid-template-rows:auto 1fr;column-gap:70px;align-items:center;color:#fff}
+.cin-engineering-content {position:relative;min-height:clamp(520px,65vh,720px);padding-block:clamp(30px,4vh,60px);display:grid;grid-template-columns:minmax(0,1.2fr) minmax(230px,.7fr);grid-template-rows:auto 1fr;column-gap:70px;align-items:center;color:#fff}
 .cin-engineering-content .cin-kicker {grid-column:1/-1;color:#b9d4ee}
 .cin-engineering-copy {margin-top:40px}
 .cin-engineering-copy h2 {font-size:clamp(55px,7.2vw,120px);margin:19px 0 30px}
 .cin-engineering-copy h2 em {display:block;color:#8fcbff}
 .cin-engineering-copy p {max-width:670px;color:#c8d6e5;line-height:1.85;margin-bottom:29px;font-size:clamp(14px,1.2vw,18px)}
-.cin-engineering-art {height:410px;min-width:0}
+.cin-engineering-art {display:none!important}
 .cin-engineering-content .cin-btn-ghost {color:white;border-color:rgba(255,255,255,.28)}
 .cin-engineering-side {position:absolute;bottom:34px;right:clamp(20px,5vw,100px);font-size:10px;letter-spacing:.17em;color:#c2d6ee}
 
 /* 07 - Proof without invented metrics */
-.cin-why {padding-block:clamp(105px,12vw,190px);background:var(--surface)}
-.cin-why-top {display:grid;grid-template-columns:minmax(0,1.12fr) minmax(280px,.72fr);align-items:center;gap:clamp(25px,5vw,90px);margin:30px 0 clamp(60px,8vw,125px)}
+.cin-why {padding-block:clamp(55px,6.5vh,90px);background:var(--surface)}
+.cin-why-top {display:grid;grid-template-columns:minmax(0,1.12fr) minmax(280px,.72fr);align-items:center;gap:clamp(25px,5vw,90px);margin:20px 0 clamp(28px,3.8vh,50px)}
 .cin-why-top h2 {font-size:clamp(62px,7vw,116px)}
 .cin-why-art {display:grid;grid-template-columns:1fr;gap:12px;align-items:center;min-width:0}
 .cin-why-art .gesture-dock {height:clamp(250px,29vw,405px)}
 .cin-why-art img {width:100%;max-height:210px;object-fit:cover;border:1px solid var(--line);border-radius:6px}
 .cin-value-list {display:grid;grid-template-columns:1fr;border-top:1px solid var(--line)}
-.cin-value-list article {display:grid;grid-template-columns:minmax(110px,.25fr) minmax(0,.85fr) minmax(220px,.85fr) 24px;gap:clamp(20px,4vw,70px);padding:clamp(38px,4.4vw,80px) 0;border-bottom:1px solid var(--line);align-items:start}
+.cin-value-list article {display:grid;grid-template-columns:minmax(110px,.25fr) minmax(0,.85fr) minmax(220px,.85fr) 24px;gap:clamp(20px,4vw,70px);padding:clamp(26px,3.2vh,46px) 0;border-bottom:1px solid var(--line);align-items:start}
 .cin-value-index {font-size:10px;color:var(--accent);font-weight:700;letter-spacing:.1em}
 .cin-value-list h3 {font-size:clamp(30px,3.6vw,62px)}
 .cin-value-list p {font-size:13px;line-height:1.9;color:var(--muted);max-width:500px}
 .cin-value-list article>svg {color:var(--accent);margin-top:3px}
 
 /* 08 - Editorial FAQ and a dedicated line-drawn five-finger palm */
-.cin-faq {padding-block:clamp(105px,12vw,185px);background:var(--page)}
+.cin-faq {padding-block:clamp(55px,6.5vh,90px);background:var(--page)}
 .cin-faq-grid {display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(35px,7vw,118px);align-items:start}
 .cin-faq-intro h2 {font-size:clamp(53px,5.4vw,95px);margin-top:30px}
-.cin-faq-hand {height:clamp(385px,36vw,530px);max-width:500px;margin:25px auto 0}
+.cin-faq-hand {height:clamp(410px,38vw,555px);max-width:530px;margin:25px auto 0;background:radial-gradient(circle at 72% 20%,rgba(58,170,255,.14),transparent 35%)}
 .cin-faq-caption {text-align:center;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.11em}
-.cin-faq-list {padding-top:clamp(72px,10vw,162px)}
+.cin-faq-list {padding-top:clamp(20px,3vh,45px)}
 .cin-faq-item {border-bottom:1px solid var(--line)}
 .cin-faq-item:first-child {border-top:1px solid var(--line)}
 .cin-faq-item h3 {margin:0;font-family:'Public Sans';letter-spacing:0}
@@ -261,7 +261,7 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
 .cin-faq-item [role="region"] p {font-size:14px;line-height:1.9;color:var(--muted);max-width:650px}
 
 /* 09 - Finale: human connection and the strongest genuine CTA */
-.cin-finale {padding-block:clamp(120px,15vw,245px);background:radial-gradient(ellipse 65% 55% at 50% 60%,rgba(0,86,178,.23),transparent 78%),var(--deep)}
+.cin-finale {min-height:100svh;min-height:100dvh;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding-block:clamp(55px,6.5vh,90px);background:radial-gradient(ellipse 65% 55% at 50% 60%,rgba(0,86,178,.23),transparent 78%),var(--deep)}
 .cin-finale-inner {text-align:center;display:flex;flex-direction:column;align-items:center}
 .cin-finale h2 {font-size:clamp(63px,8.5vw,150px);max-width:1350px;margin:32px auto 0}
 .cin-finale h2 em {display:block;background:var(--gradient);background-clip:text;-webkit-background-clip:text;color:transparent}
@@ -537,544 +537,62 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
   .cin-engineering-art {height:210px;margin:12px auto 0}
 }
 
+@media(min-width:1600px) {
+  .cin-hero h1 {font-size:clamp(100px,6.5vw,125px)}
+  .cin-vision-heading h2 {font-size:130px}
+}
+
 /* ==========================================================================
-   DESKTOP VIEWPORT ALIGNMENT & 100VH SECTION CALIBRATION (Desktop >= 1025px)
-   Each main section fits within one complete viewport (100vh / 100dvh).
-   Top aligns with top of screen, bottom aligns with bottom of screen.
-   Header space (--header-h) is accounted for with content vertically centered.
-   Free, natural scrolling is preserved (no snap, no auto-centering).
+   DESKTOP SECTION HEIGHT & LAYOUT OPTIMIZATION (min-width: 1025px)
+   Maintains 100% of the original large editorial typography, photography,
+   components, and visual scale. Eliminates dead whitespace naturally.
+   Uses min-height: 100dvh with vertical centering for single-screen scenes,
+   and allows natural content height for multi-card/expanded scenes.
    ========================================================================== */
 @media (min-width: 1025px) {
-  /* 01. Hero Scene (#top) */
+  .cin-about,.cin-services,.cin-products,.cin-why,.cin-faq {
+    min-height:100dvh;
+    box-sizing:border-box;
+    display:flex;
+    align-items:center;
+  }
+  .cin-about>.cin-wrap,.cin-services>.cin-wrap,.cin-products>.cin-wrap,.cin-why>.cin-wrap,.cin-faq>.cin-wrap {width:100%}
   .cin-hero {
-    height: 100vh;
-    height: 100dvh;
-    min-height: 100vh;
-    max-height: 100vh;
+    min-height: 100dvh;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: var(--header-h);
-    padding-bottom: clamp(14px, 2vh, 26px);
-    overflow: hidden;
-  }
-  .cin-hero-grid {
     align-items: center;
-    gap: clamp(28px, 4vw, 70px);
-  }
-  .cin-hero-main {
-    gap: clamp(12px, 1.8vh, 28px);
-  }
-  .cin-hero h1 {
-    font-size: clamp(36px, 4vw, 72px);
-    line-height: 1.0;
-    max-width: 760px;
-  }
-  .cin-hero h1 em {
-    margin-top: clamp(4px, 0.8vh, 10px);
-  }
-  .cin-hero-message {
-    gap: clamp(10px, 1.5vh, 20px);
-    max-width: 480px;
-  }
-  .cin-hero-message p {
-    font-size: clamp(12px, 0.95vw, 15px);
-    line-height: 1.6;
-  }
-  .cin-hero-canvas {
-    min-height: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-  }
-  .cin-hero-hand {
-    height: clamp(170px, 24vh, 280px);
-    width: min(100%, 410px);
-    margin: 0 auto clamp(4px, 1vh, 12px);
-    transform: translateX(8%);
-  }
-  .cin-hero-image img {
-    height: clamp(130px, 16vh, 200px);
-  }
-  .cin-hero-image figcaption {
-    padding: clamp(5px, 0.8vh, 9px) 6px 3px;
-    font-size: 8.5px;
-  }
-  .cin-hero-baseline {
-    bottom: clamp(6px, 1.2vh, 14px);
+    padding-top: calc(var(--header-h) + 16px);
+    padding-bottom: clamp(30px, 4vh, 52px);
   }
 
-  /* 02. Vision / Thinking Scene (#thinking) - Content-heavy: allow natural scroll height with trimmed padding */
-  .cin-vision {
-    padding-block: clamp(36px, 4.5vh, 60px);
-  }
-  .cin-vision-intro {
-    margin-bottom: clamp(20px, 3vh, 40px);
-  }
-  .cin-vision-heading h2 {
-    font-size: clamp(40px, 4.5vw, 80px);
-  }
-  .cin-vision-drawing {
-    height: clamp(160px, 22vh, 280px);
-  }
-  .cin-vision-rail {
-    top: calc(var(--header-h) + 24px);
-    height: 180px;
-    gap: 14px;
-  }
-  .cin-vision-rail strong {
-    font-size: clamp(22px, 2.2vw, 34px);
-  }
-  .cin-vision-stack {
-    gap: clamp(20px, 3vh, 40px);
-  }
-  .cin-perspective {
-    padding: clamp(16px, 2.2vh, 28px);
-    gap: 16px;
-  }
-  .cin-perspective-image {
-    aspect-ratio: 16/7;
-    max-height: clamp(160px, 22vh, 260px);
-  }
-  .cin-perspective-copy h3 {
-    font-size: clamp(24px, 3vw, 44px);
-  }
-  .cin-perspective-copy p {
-    margin-block: 8px 14px;
-    font-size: clamp(12px, 0.95vw, 15px);
-    line-height: 1.6;
-  }
-
-  /* 03. About Scene (#about) */
-  .cin-about {
-    height: 100vh;
-    height: 100dvh;
-    min-height: 100vh;
-    max-height: 100vh;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: var(--header-h);
-    padding-bottom: clamp(10px, 1.8vh, 22px);
-    overflow: hidden;
-  }
-  .cin-about-composition {
-    margin-block: clamp(6px, 1.4vh, 18px);
-    gap: clamp(20px, 4vw, 60px);
-    align-items: center;
-  }
-  .cin-about-gesture {
-    height: clamp(150px, 22vh, 250px);
-  }
-  .cin-about-message h2 {
-    font-size: clamp(26px, 3vw, 50px);
-    margin: clamp(4px, 0.8vh, 12px) 0 clamp(6px, 1vh, 14px);
-    line-height: 1.05;
-  }
-  .cin-about-message p {
-    font-size: clamp(12px, 0.9vw, 14.5px);
-    line-height: 1.6;
-    max-width: 620px;
-  }
-  .cin-audiences article {
-    padding: clamp(8px, 1.4vh, 18px) clamp(14px, 2.2vw, 36px) clamp(8px, 1.4vh, 18px) 0;
-  }
-  .cin-audiences article+article {
-    padding-left: clamp(14px, 2.2vw, 36px);
-  }
-  .cin-audiences h3 {
-    font-size: clamp(17px, 1.7vw, 26px);
-    margin: clamp(4px, 0.7vh, 8px) 0;
-  }
-  .cin-audiences p {
-    font-size: clamp(11px, 0.8vw, 12.5px);
-    line-height: 1.55;
-  }
-  .cin-audiences article>svg {
-    top: clamp(8px, 1.4vh, 18px);
-    right: 16px;
-    width: 18px;
-    height: 18px;
-  }
-
-  /* 04. Capabilities / Services Scene (#capabilities) */
-  .cin-services {
-    height: 100vh;
-    height: 100dvh;
-    min-height: 100vh;
-    max-height: 100vh;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: var(--header-h);
-    padding-bottom: clamp(10px, 1.8vh, 22px);
-    overflow: hidden;
-  }
-  .cin-services-intro {
-    margin-bottom: clamp(8px, 1.3vh, 18px);
-    gap: 20px;
-    align-items: flex-end;
-  }
-  .cin-services-intro h2 {
-    font-size: clamp(30px, 3.5vw, 58px);
-    margin: clamp(3px, 0.6vh, 8px) 0;
-    line-height: 1.02;
-  }
-  .cin-services-intro p:not(.cin-kicker) {
-    font-size: clamp(11.5px, 0.9vw, 14.5px);
-    line-height: 1.55;
-    max-width: 520px;
-  }
-  .cin-services-theatre {
-    gap: clamp(20px, 3vw, 48px);
-    align-items: stretch;
-  }
-  .cin-service-row>button {
-    padding: clamp(6px, 1vh, 12px) 10px;
-    gap: 10px;
-  }
-  .cin-service-num {
-    font-size: 9.5px;
-    padding-top: 2px;
-  }
-  .cin-service-name {
-    font-size: clamp(16px, 1.5vw, 24px);
-  }
-  .cin-service-details {
-    padding: 0 14px clamp(6px, 1vh, 14px) 32px;
-  }
-  .cin-service-details p {
-    font-size: clamp(11px, 0.8vw, 12.5px);
-    line-height: 1.55;
-  }
-  .cin-service-details ul {
-    margin: clamp(4px, 0.7vh, 9px) 0;
-    gap: 5px;
-  }
-  .cin-service-details li {
-    padding: 3px 7px;
-    font-size: 8.5px;
-  }
-  .cin-service-details a {
-    font-size: 10.5px;
-    padding-bottom: 3px;
-  }
-  .cin-services-stage {
-    position: relative;
-    top: auto;
-    height: 100%;
-    min-height: clamp(240px, 35vh, 400px);
-    max-height: clamp(300px, 45vh, 480px);
-    border-radius: 10px;
-  }
-  .cin-services-watermark {
-    font-size: clamp(56px, 7.5vw, 105px);
-  }
-  .cin-services-gesture {
-    height: clamp(150px, 23vh, 260px);
-    width: min(65%, 320px);
-    top: 8%;
-  }
-  .cin-stage-caption {
-    bottom: clamp(12px, 1.8vh, 20px);
-    left: 18px;
-    right: 18px;
-    gap: 3px;
-  }
-  .cin-stage-caption strong {
-    font-size: clamp(16px, 1.6vw, 22px);
-  }
-
-  /* 05. Products Scene (#products) */
-  .cin-products {
-    height: 100vh;
-    height: 100dvh;
-    min-height: 100vh;
-    max-height: 100vh;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: var(--header-h);
-    padding-bottom: clamp(8px, 1.5vh, 18px);
-    overflow: hidden;
-  }
-  .cin-products-intro {
-    margin: 0 0 clamp(6px, 1vh, 14px);
-    gap: clamp(16px, 2.5vw, 36px);
-    align-items: flex-end;
-  }
-  .cin-products-intro h2 {
-    font-size: clamp(28px, 3.2vw, 52px);
-    line-height: 1.02;
-  }
-  .cin-products-intro p {
-    font-size: clamp(11.5px, 0.85vw, 13.5px);
-    line-height: 1.55;
-    padding-bottom: 2px;
-  }
-  .cin-product-tabs button {
-    padding: clamp(5px, 0.8vh, 10px) 12px;
-    gap: 2px;
-    min-width: 120px;
-  }
-  .cin-product-tabs button span {
-    font-size: 8.5px;
-  }
-  .cin-product-tabs button strong {
-    font-size: clamp(12px, 1vw, 16px);
-  }
-  .cin-product-stage {
-    padding-top: clamp(6px, 1.1vh, 14px);
-    gap: clamp(20px, 3vw, 48px);
-    align-items: center;
-  }
-  .cin-product-display {
-    padding: 8px;
-    border-radius: 8px;
-  }
-  .cin-product-topbar {
-    padding: 3px 5px 6px;
-    font-size: 8.5px;
-  }
-  .cin-product-frame {
-    max-height: clamp(110px, 15vh, 185px);
-    aspect-ratio: 16/9;
-  }
-  .cin-product-gesture {
-    height: clamp(48px, 7.5vh, 85px);
-    margin: 4px auto 2px;
-  }
-  .cin-product-display-label {
-    padding: 2px 5px 5px;
-    font-size: 7.5px;
-  }
-  .cin-product-information {
-    padding-block: 0;
-  }
-  .cin-product-information h3 {
-    font-size: clamp(24px, 2.8vw, 44px);
-    margin: 3px 0 5px;
-    line-height: 1.05;
-  }
-  .cin-product-tagline {
-    font-size: clamp(12px, 1vw, 15px);
-  }
-  .cin-product-description {
-    margin-top: 6px;
-    font-size: clamp(11px, 0.8vw, 12.5px);
-    line-height: 1.55;
-  }
-  .cin-features {
-    margin: clamp(6px, 1vh, 12px) 0;
-  }
-  .cin-features li {
-    padding: clamp(3px, 0.5vh, 6px) 0;
-    font-size: clamp(10.5px, 0.8vw, 12px);
-    gap: 7px;
-  }
-  .cin-product-pagination {
-    margin-top: clamp(6px, 1vh, 14px);
-    gap: 12px;
-  }
-  .cin-product-pagination button {
-    width: 30px;
-    height: 30px;
-  }
-
-  /* 06. Engineering Scene (#engineering) */
   .cin-engineering {
-    height: 100vh;
-    height: 100dvh;
-    min-height: 100vh;
-    max-height: 100vh;
+    min-height: 100dvh;
     box-sizing: border-box;
     display: flex;
     align-items: center;
     padding-top: var(--header-h);
-    padding-bottom: clamp(14px, 2vh, 24px);
-    overflow: hidden;
-  }
-  .cin-engineering-content {
-    min-height: 0;
-    padding-block: 0;
-    grid-template-rows: auto auto;
-    align-items: center;
-  }
-  .cin-engineering-copy {
-    margin-top: clamp(6px, 1.2vh, 16px);
-  }
-  .cin-engineering-copy h2 {
-    font-size: clamp(30px, 3.6vw, 62px);
-    margin: clamp(6px, 1vh, 14px) 0;
-    line-height: 1.04;
-  }
-  .cin-engineering-copy p {
-    font-size: clamp(11.5px, 0.95vw, 14.5px);
-    line-height: 1.6;
-    margin-bottom: clamp(12px, 1.8vh, 20px);
-    max-width: 600px;
-  }
-  .cin-engineering-art {
-    height: clamp(140px, 18vh, 220px);
-    width: clamp(190px, 18vw, 300px);
-    bottom: clamp(24px, 4vh, 48px);
-  }
-  .cin-engineering-side {
-    bottom: clamp(14px, 1.8vh, 24px);
+    padding-bottom: clamp(30px, 4vh, 52px);
   }
 
-  /* 07. Why Ladder7 Scene (#why-ladder7) */
-  .cin-why {
-    height: 100vh;
-    height: 100dvh;
-    min-height: 100vh;
-    max-height: 100vh;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: var(--header-h);
-    padding-bottom: clamp(8px, 1.5vh, 18px);
-    overflow: hidden;
-  }
-  .cin-why-top {
-    margin: 0 0 clamp(8px, 1.4vh, 18px);
-    gap: clamp(18px, 3vw, 44px);
-    align-items: center;
-  }
-  .cin-why-top h2 {
-    font-size: clamp(28px, 3.2vw, 54px);
-    line-height: 1.02;
-  }
-  .cin-why-art {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    align-items: center;
-  }
-  .cin-why-art .gesture-dock {
-    height: clamp(65px, 10vh, 125px);
-  }
-  .cin-why-art img {
-    max-height: clamp(65px, 10vh, 125px);
-  }
-  .cin-value-list article {
-    padding: clamp(6px, 1.1vh, 14px) 0;
-    gap: clamp(12px, 2.2vw, 32px);
-    align-items: center;
-  }
-  .cin-value-list h3 {
-    font-size: clamp(18px, 1.9vw, 30px);
-  }
-  .cin-value-list p {
-    font-size: clamp(10.5px, 0.8vw, 12.5px);
-    line-height: 1.55;
-    max-width: 480px;
-  }
-
-  /* 08. FAQ Scene (#faq) */
-  .cin-faq {
-    height: 100vh;
-    height: 100dvh;
-    min-height: 100vh;
-    max-height: 100vh;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: var(--header-h);
-    padding-bottom: clamp(8px, 1.5vh, 18px);
-    overflow: hidden;
-  }
-  .cin-faq-grid {
-    gap: clamp(20px, 3.5vw, 56px);
-    align-items: center;
-  }
-  .cin-faq-intro h2 {
-    font-size: clamp(28px, 3.2vw, 50px);
-    margin-top: clamp(6px, 1vh, 14px);
-    line-height: 1.04;
-  }
-  .cin-faq-hand {
-    height: clamp(140px, 20vh, 240px);
-    max-width: 340px;
-    margin: clamp(6px, 1vh, 12px) auto 0;
-  }
-  .cin-faq-caption {
-    font-size: 9.5px;
-    margin-top: 3px;
-  }
-  .cin-faq-list {
-    padding-top: 0;
-  }
-  .cin-faq-item button {
-    padding: clamp(6px, 1.1vh, 13px) 0;
-    gap: 10px;
-  }
-  .cin-faq-item button span {
-    font-size: 8.5px;
-    padding-top: 3px;
-  }
-  .cin-faq-item button strong {
-    font-size: clamp(14px, 1.3vw, 20px);
-  }
-  .cin-faq-item [role="region"] {
-    padding: 0 14px clamp(5px, 0.8vh, 10px) 20px;
-  }
-  .cin-faq-item [role="region"] p {
-    font-size: clamp(10.5px, 0.8vw, 12.5px);
-    line-height: 1.55;
-  }
-
-  /* 09. Finale Scene (#contact) */
   .cin-finale {
-    height: 100vh;
-    height: 100dvh;
-    min-height: 100vh;
-    max-height: 100vh;
+    min-height: 100dvh;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: var(--header-h);
-    padding-bottom: clamp(12px, 2vh, 24px);
-    overflow: hidden;
+    padding-top: calc(var(--header-h) + 16px);
+    padding-bottom: clamp(30px, 4vh, 52px);
   }
-  .cin-finale-inner {
-    max-width: 1000px;
-    margin: 0 auto;
+
+  .cin-services-stage {
+    position: sticky;
+    top: calc(var(--header-h) + 36px);
+    height: clamp(520px, 42vw, 660px);
   }
-  .cin-finale h2 {
-    font-size: clamp(30px, 3.8vw, 66px);
-    margin: clamp(4px, 0.8vh, 14px) auto 0;
-    line-height: 1.04;
-  }
-  .cin-finale-hands {
-    height: clamp(80px, 13vh, 150px);
-    max-width: 720px;
-    margin: clamp(3px, 0.6vh, 10px) auto clamp(6px, 1.2vh, 16px);
-  }
-  .cin-finale-inner>p:not(.cin-kicker) {
-    font-size: clamp(11.5px, 0.95vw, 14.5px);
-    line-height: 1.55;
-    margin-bottom: clamp(10px, 1.5vh, 20px);
-    max-width: 660px;
-  }
-  .cin-finale-btn {
-    font-size: 11.5px;
-    padding: clamp(9px, 1.2vh, 14px) 22px;
-  }
-  .cin-finale-contact {
-    margin-top: clamp(10px, 1.5vh, 20px);
-    gap: clamp(14px, 2.2vw, 28px);
-  }
-  .cin-finale-contact a {
-    font-size: 10.5px;
-    padding-bottom: 4px;
+
+  .cin-vision-rail {
+    position: sticky;
+    top: calc(var(--header-h) + 36px);
   }
 }
