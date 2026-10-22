@@ -4,9 +4,11 @@ An original creative redesign of [Ladder7 Nextstep Solutions](https://www.ladder
 
 ## Visual idea
 
-**Connected lines → hand gesture → digital interaction → connected lines.** A fixed SVG network moves through the website and interpolates polyline geometry towards recognizable wireframe hand gestures. The positions, perspectives, and formations change with native scrolling, including reverse scrolling. FAQ renders a front-facing palm with thumb, index, middle, ring and little fingers composed as separate path groups. Contact introduces two mirrored outlines.
+**Connected lines → distinctive hand gesture → meaningful interaction → next gesture.** Each major section reserves a dedicated illustration dock beside or between its actual content. There is no permanent fixed background network. Gesture paths are drawn progressively on native scroll and reverse naturally when scrolling upward. No random lines extend across the page.
 
-The experience does **not** depend on Three.js or animation plugins, which keeps the page smaller and allows a static reduced-motion alternative. Hand geometry, transformation timing, and spatial positions are centralized in `src/components/experience/NetworkGesture.tsx`.
+The visuals include an open-palm hero, thoughtful thinking pose, welcoming hand for About, service-specific engineering / pointing / thinking / pinching states, product touch, confident thumb-up, a front-facing five-finger FAQ gesture, and two approaching contact hands. FAQ sequentially draws wrist, palm, thumb, index, middle, ring, little finger, internal contour lines, then a hand-drawn question mark.
+
+The lightweight SVG approach avoids adding Three.js or GSAP. Motion uses IntersectionObserver plus one requestAnimationFrame scroll sampler for active illustration docks, cleaned up on unmount; reduced-motion shows a complete static figure. Geometry and choreography live in `src/components/experience/NetworkGesture.tsx`; illustrations cannot capture pointer events.
 
 ## Requirements
 
@@ -34,7 +36,7 @@ npm run preview
 
 The build command runs the TypeScript compiler before bundling. GitHub Actions:
 - `.github/workflows/validate.yml`: dependency installation, typecheck/build, lint
-- `.github/workflows/browser-qa.yml`: Playwright browser smoke with screenshot artifacts on dev pushes, covering major desktop/mobile interactions and reduced-motion rendering
+- `.github/workflows/browser-qa.yml`: Playwright smoke with screenshot artifacts at **1440, 1024, 768, 390, 360px**; verifies no overlap or horizontal overflow, original images, interactive controls, five FAQ fingers, unique section gestures and reduced-motion
 
 To run browser smoke locally, install `playwright` as a temporary dev dependency and browser binaries, start `npm run preview`, then run `node scripts/browser-smoke.mjs`.
 
@@ -46,7 +48,7 @@ src/
   CreativeApp.tsx                # sections, nav, accessibility, interactions
   creative.css                   # responsive editorial design and brand tokens
   components/experience/
-    NetworkGesture.tsx           # scroll scene engine + polylines
+    NetworkGesture.tsx           # local scroll sampler and distinct hand contour geometry
   data/
     heroSlides.ts                # authoritative original hero text
     capabilitiesData.ts          # original four service capabilities
@@ -84,6 +86,6 @@ The source project is a homepage with hash links. All main navigation destinatio
 - The original footer links to Blogs/Careers/Privacy Policy are placeholder fragment links, not standalone pages.
 - The source contains just one product preview asset reused across all products; a different authenticated preview is not fabricated.
 - The local teammate directory `D:\\l7\\l7` could not be accessed remotely.
-- Visual and performance QA should be confirmed on target devices before publishing.
+- CI browser screenshots provide automated visual evidence, but aesthetic assessment on real devices is still required before publishing.\n- The supplied GitHub Codespaces preview requires GitHub sign-in from an external browser and could not be independently visually audited there.
 
 **Never merge to `main` until reviewed by the project team.**
