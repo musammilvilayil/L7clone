@@ -88,6 +88,20 @@ try {
     await photograph(page,`${width}-footer`,'#footer');
     await assertLayout(page,width);
     await checkAssets(page);
+    // Typography must survive Tailwind's reset; previously these headings
+    // rendered at inherited 16px despite looking correctly marked up.
+    for (const id of ['services-title','products-title','why-title']) {
+      const px = await page.locator('#'+id).evaluate(el => parseFloat(getComputedStyle(el).fontSize));
+      assert.ok(px >= 40, `Undersized section heading #${id}: ${px}px at ${width}px`);
+    }
+    const gestureSafety = await page.locator('.gesture-dock').evaluateAll(docks =>
+      docks.every(dock => {
+        const svg = dock.querySelector('svg');
+        return getComputedStyle(dock).pointerEvents === 'none' &&
+          getComputedStyle(dock).overflow === 'hidden' &&
+          !!svg && getComputedStyle(svg).overflow === 'hidden';
+      }));
+    assert.ok(gestureSafety,`Artwork may paint or intercept interaction outside its dock at ${width}px`);
 
     if (width === 1440) {
       const hashes = await page.locator('a[href^="#"]').evaluateAll(links =>
