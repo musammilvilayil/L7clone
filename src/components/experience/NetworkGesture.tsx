@@ -337,9 +337,11 @@ export function NetworkGesture({ gesture, className = '' }: { gesture: GestureVa
         const right = hand.dataset.reach === 'right';
         const move = reduced ? 0 : (1-ease(.09,.67,p)) * 70;
         const touch = reduced ? 0 : -7 * breathe;
+        // Both fingertips actually meet at the center, rather than hovering apart.
+        const approach = reduced ? 15 : 15 * ease(.43,.77,p);
         hand.setAttribute('transform',
-          right ? 'translate(' + (760+move).toFixed(2) + ' ' + touch.toFixed(2) + ') scale(-1 1)'
-                : 'translate(' + (-move).toFixed(2) + ' ' + touch.toFixed(2) + ')');
+          right ? 'translate(' + (760+move-approach).toFixed(2) + ' ' + touch.toFixed(2) + ') scale(-1 1)'
+                : 'translate(' + (-move+approach).toFixed(2) + ' ' + touch.toFixed(2) + ')');
         hand.style.opacity = opacity.toFixed(3);
       }
       for (const line of reachLines) {
