@@ -459,3 +459,7 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
   .cin-site [data-cin-reveal] {opacity:1!important;transform:none!important}
   .cin-site .gesture-svg {filter:none}
 }
+
+/* Actual browser QA: preserve a visible gap between the interactive gesture dock and the meaningful product/hero imagery. */
+.cin-hero-hand{margin-bottom:12px}
+.cin-product-gesture{margin-top:14px}
