@@ -9,7 +9,10 @@ const failures = [];
 const sections = ['top', 'thinking', 'about', 'capabilities', 'products', 'why-ladder7', 'faq', 'contact'];
 
 async function photograph(page, name, selector) {
-  await page.locator(selector).scrollIntoViewIfNeeded();
+  await page.locator(selector).evaluate(el => {
+    document.documentElement.style.scrollBehavior='auto';
+    window.scrollTo(0, Math.max(0, window.scrollY + el.getBoundingClientRect().top - 88));
+  });
   await page.waitForTimeout(240);
   await page.screenshot({ path: `screenshots/${name}.png`, animations: 'disabled' });
 }
@@ -150,6 +153,11 @@ try {
         'Product gesture must live with its real image in an independent dock');
     }
     if (width <= 390) {
+      await page.evaluate(() => {
+        document.documentElement.style.scrollBehavior='auto';
+        window.scrollTo(0,0);
+      });
+      await page.waitForTimeout(160);
       const hero = await page.locator('#top .gesture-hero').boundingBox();
       assert.ok(hero && hero.y < height - 25 && hero.y + hero.height > 60,
         `Hero palm must visibly appear in the initial mobile viewport at ${width}px: ${JSON.stringify(hero)}`);
