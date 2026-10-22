@@ -60,7 +60,7 @@ The browser regression script at `scripts/browser-smoke.mjs` exercises **1440 ×
 - Accessible responsive menu behavior, reduced-motion static hand and JavaScript runtime errors
 - Per-section screenshots exported in a downloadable GitHub Actions artifact
 
-A successful preceding run is [browser QA at commit `6b5a014`](https://github.com/musammilvilayil/L7clone/actions/runs/39824792353). The same commit's Dev Validation run passed TypeScript/build/lint. The next CSS-only changes remove external decorative guide lines; verify the newest dev run before stating that final commit passed all checks.
+**Final application code verification:** browser QA passed at commit [`7fd3953`](https://github.com/musammilvilayil/L7clone/actions/runs/39825007484), including five viewport screenshots and the generated [screenshot artifact](https://github.com/musammilvilayil/L7clone/actions/runs/39825007484/artifacts/12446875516). The same commit passed [TypeScript/build/lint](https://github.com/musammilvilayil/L7clone/actions/runs/39825007474). The subsequent documentation-only commit [`cf9123c`](https://github.com/musammilvilayil/L7clone/actions/runs/39825120309) also passed TypeScript/build/lint. These checks verify automated criteria; subjective visual quality still needs human screenshot review.
 
 ## 5. External preview limitation and remaining reviews
 
