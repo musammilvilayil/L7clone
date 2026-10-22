@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
 import { ArrowDown, ArrowLeft, ArrowRight, ArrowUpRight, Check, ChevronDown, Menu, Moon, Plus, Sun, X } from 'lucide-react';
 import { HERO_SLIDES } from './data/heroSlides';
 import { CAPABILITIES } from './data/capabilitiesData';
@@ -36,7 +36,7 @@ const VALUE_PILLARS = [
   },
   {
     title: 'Security and Compliance Built In',
-    description: "Every website, AI model, and data integration we build is privacy-first by design — aligned with GDPR, India's DPDP Act, UAE AI Policy, and Singapore's PDPA — so your business is protected in every market we operate.",
+    description: "Every website, AI model, and data integration we build is privacy-first by design — aligned with GDPR, India's DPDP Act, UAE AI Policy, and Singapore's PDPA — so your business is protected in every market you operate.",
   },
 ];
 
@@ -47,7 +47,7 @@ const SOCIAL = [
   { label: 'WhatsApp', url: "https://wa.me/918137979401?text=Hi%2C%20I'd%20like%20to%20know%20more%20about%20Ladder7." },
 ];
 
-function ChapterLabel({ number, children }: { number: string; children: React.ReactNode }) {
+function ChapterLabel({ number, children }: { number: string; children: ReactNode }) {
   return <p className="cin-kicker"><span>{number}</span><i aria-hidden="true" />{children}</p>;
 }
 
