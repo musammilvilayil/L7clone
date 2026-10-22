@@ -1,197 +1,236 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
-type Point = [number, number];
-type Gesture = 'hero' | 'thinking' | 'discovery' | 'services' | 'products' | 'why' | 'faq' | 'contact';
-type Scene = { gesture: Gesture; progress: number; reduced: boolean; mobile: boolean };
-type Stroke = { id: string; points: Point[]; step?: number };
+/**
+ * Every gesture owns a real illustration dock in its section.
+ * No fixed canvas, no globally persistent random-line background, and no content overlap.
+ */
+export type GestureVariant =
+  | 'hero' | 'thinking' | 'about'
+  | 'digital' | 'automation' | 'strategy' | 'development'
+  | 'products' | 'why' | 'faq' | 'contact';
 
-const clamp = (n: number) => Math.max(0, Math.min(1, n));
-const ease = (a: number, b: number, t: number) => {
-  const v = clamp((t - a) / (b - a));
-  return v * v * (3 - 2 * v);
+type Stroke = {
+  id: string;
+  d: string;
+  stage?: number;
+  secondary?: boolean;
 };
-const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
 
-/** One front-facing anatomical construction, separated so each finger can grow individually. */
-const HAND: Stroke[] = [
-  { id: 'wrist-left', points: [[40, 95], [40, 87], [38, 82], [33, 75], [30, 68]] },
-  { id: 'wrist-right', points: [[69, 95], [68, 86], [70, 79], [78, 65], [79, 58]] },
-  { id: 'palm-arc', points: [[30, 68], [35, 60], [43, 52], [54, 49], [65, 49], [74, 54], [79, 58]] },
-  { id: 'thumb', step: 0, points: [[32, 70], [22, 64], [14, 58], [11, 52], [15, 48], [22, 50], [36, 60]] },
-  { id: 'index', step: 1, points: [[40, 52], [38, 39], [38, 22], [40, 13], [45, 11], [49, 16], [49, 48]] },
-  { id: 'middle', step: 2, points: [[49, 48], [49, 25], [50, 9], [54, 5], [59, 8], [61, 24], [61, 48]] },
-  { id: 'ring', step: 3, points: [[61, 48], [62, 24], [65, 12], [69, 11], [73, 16], [74, 30], [72, 53]] },
-  { id: 'little', step: 4, points: [[72, 53], [75, 36], [80, 29], [84, 30], [87, 36], [86, 47], [79, 58]] },
-  { id: 'palm-fold', points: [[34, 70], [42, 65], [52, 64], [63, 67], [72, 65]] },
-  { id: 'thenar', points: [[36, 62], [43, 71], [46, 81], [44, 89]] },
-  { id: 'knuckles', points: [[39, 54], [46, 51], [53, 52], [61, 52], [72, 56]] },
-  { id: 'lifeline', points: [[46, 69], [51, 74], [58, 79], [64, 81]] },
-  // Cross-contours form a spatial wire mesh without filling the palm surface.
-  { id: 'palm-contour-high', points: [[35, 62], [44, 59], [53, 58], [64, 59], [74, 62]] },
-  { id: 'palm-contour-mid', points: [[36, 69], [45, 67], [55, 67], [65, 69], [72, 69]] },
-  { id: 'palm-contour-low', points: [[40, 76], [48, 77], [56, 78], [65, 77], [71, 75]] },
-  { id: 'palm-contour-base', points: [[41, 84], [49, 85], [57, 84], [66, 83], [69, 82]] },
-  { id: 'palm-longitude-left', points: [[46, 53], [45, 61], [44, 69], [45, 79], [46, 90]] },
-  { id: 'palm-longitude-middle', points: [[56, 51], [54, 62], [56, 72], [57, 81], [57, 91]] },
-  { id: 'palm-longitude-right', points: [[65, 52], [66, 61], [67, 72], [67, 82], [66, 90]] },
-  { id: 'index-joint', step: 1, points: [[39, 31], [42, 33], [46, 31], [48, 30]] },
-  { id: 'middle-joint', step: 2, points: [[50, 27], [54, 29], [58, 27], [60, 26]] },
-  { id: 'ring-joint', step: 3, points: [[63, 31], [66, 33], [70, 32], [73, 31]] },
-  { id: 'little-joint', step: 4, points: [[76, 41], [80, 43], [84, 42], [86, 41]] },
+type Config = { rotation: number; scale: number; offsetX: number; offsetY: number; node?: [number, number] };
+
+const clamp = (x: number) => Math.max(0, Math.min(1, x));
+const ease = (a: number, b: number, t: number) => {
+  const x = clamp((t - a) / Math.max(.0001, b - a));
+  return x * x * (3 - 2 * x);
+};
+
+/** Eight sequential groups for the front-facing, five-finger FAQ illustration. */
+const OPEN_HAND: Stroke[] = [
+  { id: 'wrist-left', stage: 0, d: 'M107 317 C109 298 109 284 104 262 C101 251 94 234 89 219' },
+  { id: 'wrist-right', stage: 0, d: 'M225 316 C226 294 228 272 234 253 C241 233 250 222 253 206' },
+  { id: 'palm-bottom', stage: 1, d: 'M107 317 C145 326 191 328 225 316' },
+  { id: 'palm-left', stage: 1, d: 'M89 219 C105 205 115 190 123 176' },
+  { id: 'palm-right', stage: 1, d: 'M213 177 C233 192 242 201 253 206' },
+  { id: 'thumb', stage: 2, d: 'M89 219 C80 207 67 196 47 188 C29 180 24 166 32 156 C41 145 55 147 67 156 L118 197' },
+  { id: 'index', stage: 3, d: 'M123 176 C119 153 116 119 117 100 C117 82 125 74 136 76 C147 78 149 87 149 102 L151 176' },
+  { id: 'middle', stage: 4, d: 'M151 176 C150 139 150 85 152 68 C153 51 162 44 173 46 C186 49 188 60 187 76 L183 176' },
+  { id: 'ring', stage: 5, d: 'M183 176 C187 140 194 104 197 91 C201 77 210 74 220 80 C231 86 232 99 227 112 L213 177' },
+  { id: 'little', stage: 6, d: 'M213 177 C225 154 235 135 246 131 C257 126 267 134 267 146 C268 157 261 170 253 206' },
+  { id: 'palm-arch', stage: 7, secondary: true, d: 'M111 209 C138 194 178 191 216 203' },
+  { id: 'palm-crease', stage: 7, secondary: true, d: 'M111 230 C140 219 177 222 209 236' },
+  { id: 'palm-contour', stage: 7, secondary: true, d: 'M119 261 C150 250 190 258 218 268' },
+  { id: 'lifeline', stage: 7, secondary: true, d: 'M119 199 C135 225 141 240 146 264 C149 279 151 291 158 300' },
+  { id: 'knuckle-bridges', stage: 7, secondary: true, d: 'M133 191 Q147 185 162 189 Q177 183 192 191 Q203 191 214 196' },
+  { id: 'longitude-one', stage: 7, secondary: true, d: 'M136 204 C137 231 137 264 143 303' },
+  { id: 'longitude-two', stage: 7, secondary: true, d: 'M166 196 C165 232 171 267 175 312' },
+  { id: 'longitude-three', stage: 7, secondary: true, d: 'M194 202 C190 235 200 263 202 304' },
+  { id: 'index-joint', stage: 7, secondary: true, d: 'M119 136 Q135 141 149 137' },
+  { id: 'middle-joint', stage: 7, secondary: true, d: 'M151 119 Q168 125 185 120' },
+  { id: 'ring-joint', stage: 7, secondary: true, d: 'M193 133 Q208 143 223 136' },
+  { id: 'little-joint', stage: 7, secondary: true, d: 'M229 160 Q244 169 260 163' },
 ];
 
-const SCENE_POS: Record<Gesture, { x: number; y: number; s: number; r: number }> = {
-  hero: { x: 495, y: 68, s: 4.5, r: -13 },
-  thinking: { x: 590, y: 110, s: 3.3, r: 30 },
-  discovery: { x: 530, y: 75, s: 4.15, r: -24 },
-  services: { x: 540, y: 120, s: 3.6, r: 13 },
-  products: { x: 535, y: 115, s: 3.7, r: -23 },
-  why: { x: 470, y: 125, s: 3.8, r: 24 },
-  faq: { x: 95, y: 84, s: 4.45, r: 0 },
-  contact: { x: 140, y: 135, s: 3.4, r: -58 },
+/** Purpose-built silhouettes, not 10 rotations of the same open hand. */
+const POINT_HAND: Stroke[] = [
+  { id:'index', d:'M143 285 C133 272 128 256 127 239 L124 105 C123 80 130 68 143 68 C159 68 167 80 167 102 L169 193' },
+  { id:'knuckles', d:'M169 193 C177 169 198 165 208 180 C215 168 233 167 244 178 C254 189 252 204 251 212' },
+  { id:'outside', d:'M251 212 C259 225 256 246 246 264 L239 310' },
+  { id:'wrist', d:'M143 285 C163 305 199 315 239 310' },
+  { id:'thumb', d:'M133 231 C113 211 89 196 75 203 C61 212 65 227 78 238 C97 253 110 272 143 285' },
+  { id:'folds-1', secondary:true, d:'M173 201 C185 214 194 218 209 217 M210 190 C220 204 232 208 246 206' },
+  { id:'folds-2', secondary:true, d:'M157 267 C182 275 214 276 243 260 M160 294 C187 295 209 298 237 294' },
+  { id:'index-joints', secondary:true, d:'M126 152 C140 161 151 159 169 153 M128 122 C142 129 154 128 167 121' },
+  { id:'mesh', secondary:true, d:'M158 238 C184 242 209 246 251 239 M173 214 L189 267 L206 224 L220 270 L240 225' },
+];
+const PINCH_HAND: Stroke[] = [
+  { id:'wrist-left',d:'M125 318 C119 299 108 270 110 254' },
+  { id:'index',d:'M110 254 C98 224 96 190 117 165 C133 146 153 129 180 122 C201 118 207 126 207 138 C207 150 199 157 179 159 C165 162 154 170 150 185' },
+  { id:'thumb',d:'M150 185 C166 195 181 205 190 215 C202 226 197 242 183 245 C167 248 150 236 137 225' },
+  { id:'fingers',d:'M183 245 C202 224 223 205 240 208 C254 211 257 226 247 236 L227 257 C246 243 261 249 265 260 C269 272 255 282 245 288 L228 315' },
+  { id:'wrist-right',d:'M228 315 C193 321 157 324 125 318' },
+  { id:'pinch-folds',secondary:true,d:'M124 268 C151 276 181 281 215 272 M139 295 C167 303 194 302 227 299 M145 200 Q161 211 172 218' },
+  { id:'knuckle-net',secondary:true,d:'M137 227 L157 250 L187 244 L208 262 L237 239 M156 251 L173 287 L208 262' },
+];
+const THINK_HAND: Stroke[] = [
+  { id:'wrist',d:'M99 310 C101 281 108 262 127 247 C145 234 166 232 187 233 C212 232 236 250 239 277 L244 314' },
+  { id:'index',d:'M126 247 C110 229 91 215 73 201 C55 185 50 175 58 164 C67 152 81 156 96 168 L151 208' },
+  { id:'finger-fold',d:'M151 208 C170 201 182 186 194 175 C208 162 220 163 227 173 C234 182 230 192 220 202 L196 226' },
+  { id:'thumb',d:'M187 233 C176 216 167 201 160 186 C154 169 159 156 171 153 C184 150 191 160 195 174' },
+  { id:'palm',secondary:true,d:'M120 270 C153 255 198 264 227 279 M135 292 C164 284 205 296 230 294' },
+  { id:'depth',secondary:true,d:'M151 208 C159 228 168 244 183 267 M176 234 L207 274 L229 250' },
+];
+const BUILD_HAND: Stroke[] = [
+  { id:'wrist',d:'M90 310 C94 286 101 267 111 258 C124 245 141 241 164 244' },
+  { id:'extended-index',d:'M164 244 C179 226 208 203 233 182 C246 171 261 173 268 184 C275 195 270 205 256 216 L208 258' },
+  { id:'middle',d:'M208 258 C227 244 245 243 254 252 C264 263 260 275 247 284 L223 303' },
+  { id:'outer',d:'M223 303 C194 317 147 323 90 310' },
+  { id:'thumb',d:'M111 258 C104 234 99 206 111 197 C120 190 131 193 138 203 L164 244' },
+  { id:'mesh',secondary:true,d:'M118 280 L161 261 L189 292 L218 269 M138 203 L161 261 M153 307 L189 292 L209 303' },
+  { id:'crease',secondary:true,d:'M111 293 Q155 303 209 289' },
+];
+const HANDS: Record<Exclude<GestureVariant, 'contact'>, Stroke[]> = {
+  hero: OPEN_HAND, thinking: THINK_HAND, about: BUILD_HAND, digital: BUILD_HAND,
+  automation: POINT_HAND, strategy: THINK_HAND, development: PINCH_HAND,
+  products: POINT_HAND, why: OPEN_HAND, faq: OPEN_HAND,
+};
+const POSITION: Record<Exclude<GestureVariant, 'contact'>, Config> = {
+  hero: { rotation: -9, scale: .94, offsetX: 8, offsetY: 0 },
+  thinking: { rotation: 18, scale: .94, offsetX: 0, offsetY: -7 },
+  about: { rotation: -25, scale: .95, offsetX: -7, offsetY: 13, node:[268,182] },
+  digital: { rotation: 13, scale: 1, offsetX: 5, offsetY: 0, node:[268,182] },
+  automation: { rotation: -18, scale: .99, offsetX: 0, offsetY: 0, node:[144,62] },
+  strategy: { rotation: 12, scale: 1, offsetX: 0, offsetY: 0 },
+  development: { rotation: -14, scale: 1, offsetX: 0, offsetY: 2, node:[192,142] },
+  products: { rotation: 57, scale: .93, offsetX: 12, offsetY: -9, node:[144,62] },
+  why: { rotation: 13, scale: .9, offsetX: -6, offsetY: 4 },
+  faq: { rotation: 0, scale: .93, offsetX: 0, offsetY: 30 },
 };
 
-function pointForGesture([x, y]: Point, gesture: Gesture, step?: number): Point {
-  if (gesture === 'thinking') {
-    return [x - y * 0.055, y + (step !== undefined && step > 1 ? 10 : 0)];
-  }
-  if (gesture === 'discovery' || gesture === 'products' || gesture === 'services') {
-    // Raised index remains extended; other fingers fold towards the palm.
-    const fold = step !== undefined && step !== 1;
-    return [x + (fold ? (54 - x) * 0.23 : 0), y + (fold ? 23 : 0)];
-  }
-  return [x, y];
-}
-
-function networkPoint(i: number, j: number, total: number): Point {
-  const x = 7 + j * (90 / Math.max(1, total - 1)) + Math.sin(i * 1.87 + j * 0.71) * 9;
-  const y = 12 + (i * 13) % 79 + Math.cos(i * 1.25 + j * 0.65) * 13;
-  return [x, y];
-}
-
-// Actual shared vertices make this a connected network rather than unrelated line segments.
-const NETWORK_NODES = Array.from({ length: 66 }, (_, i) => ({
-  x: 45 + (i % 11) * 94 + Math.sin(i * 2.37) * 17,
-  y: 45 + Math.floor(i / 11) * 114 + Math.cos(i * 1.93) * 17,
-}));
-const BACKGROUND_LINES = NETWORK_NODES.flatMap((node, i) =>
-  [i % 11 < 10 ? i + 1 : -1, i < 55 ? i + 11 : -1]
-    .filter(next => next >= 0)
-    .map((next, j) => ({ id: i * 2 + j, x: node.x, y: node.y, x2: NETWORK_NODES[next].x, y2: NETWORK_NODES[next].y }))
-);
-
-export function NetworkGesture() {
-  const [scene, setScene] = useState<Scene>({ gesture: 'hero', progress: 0.38, reduced: false, mobile: false });
-
-  useEffect(() => {
-    const media = window.matchMedia('(prefers-reduced-motion: reduce)');
-    let raf = 0;
-    const update = () => {
-      raf = 0;
-      const nodes = Array.from(document.querySelectorAll<HTMLElement>('[data-gesture]'));
-      const center = window.innerHeight * 0.52;
-      let selected: HTMLElement | undefined;
-      let distance = Number.POSITIVE_INFINITY;
-      for (const node of nodes) {
-        const rect = node.getBoundingClientRect();
-        const d = Math.abs((rect.top + rect.bottom) / 2 - center);
-        if (d < distance) { selected = node; distance = d; }
-      }
-      if (!selected) return;
-      const rect = selected.getBoundingClientRect();
-      const progress = clamp((window.innerHeight - rect.top) / (window.innerHeight + rect.height));
-      const gesture = (selected.dataset.gesture || 'hero') as Gesture;
-      setScene(previous => previous.gesture === gesture && Math.abs(previous.progress - progress) < .003 && previous.reduced === media.matches && previous.mobile === (window.innerWidth < 680)
-        ? previous : { gesture, progress, reduced: media.matches, mobile: window.innerWidth < 680 });
-    };
-    const schedule = () => { if (!raf) raf = window.requestAnimationFrame(update); };
-    schedule();
-    window.addEventListener('scroll', schedule, { passive: true });
-    window.addEventListener('resize', schedule);
-    media.addEventListener('change', schedule);
-    return () => {
-      if (raf) window.cancelAnimationFrame(raf);
-      window.removeEventListener('scroll', schedule);
-      window.removeEventListener('resize', schedule);
-      media.removeEventListener('change', schedule);
-    };
-  }, []);
-
-  const { gesture, progress, reduced, mobile } = scene;
-  const layout = mobile
-    ? { ...SCENE_POS[gesture], x: gesture === 'contact' ? 240 : 325, y: 125, s: gesture === 'contact' ? 2.7 : 3.05 }
-    : SCENE_POS[gesture];
-  const strength = reduced ? 1 : gesture === 'faq'
-    ? ease(0.04, 0.28, progress)
-    : ease(0.02, 0.20, progress) * (1 - ease(0.83, 0.99, progress));
-  const backgroundFade = 0.23 + (1 - strength) * 0.14;
-
-  const paths = useMemo(() => HAND.map((line, i) => {
-    const fingerStrength = line.step === undefined || gesture !== 'faq' || reduced
-      ? strength
-      : ease(0.25 + line.step * 0.115, 0.37 + line.step * 0.115, progress);
-    const t = gesture === 'faq' ? Math.min(strength, fingerStrength) : strength;
-    const points = line.points.map((point, j) => {
-      const start = networkPoint(i, j, line.points.length);
-      const end = pointForGesture(point, gesture, line.step);
-      return [lerp(start[0], end[0], t), lerp(start[1], end[1], t)] as Point;
-    });
-    return { ...line, points, t };
-  }), [gesture, progress, reduced, strength]);
+function WireHand({ gesture, progress, reduced, mirrored = false }: {
+  gesture: Exclude<GestureVariant, 'contact'>;
+  progress: number;
+  reduced: boolean;
+  mirrored?: boolean;
+}) {
+  const lines = HANDS[gesture];
+  const setting = POSITION[gesture];
+  const enter = reduced ? 1 : ease(.045, gesture === 'faq' ? .72 : .35, progress);
+  const exit = reduced ? 1 : 1 - ease(.82, .99, progress);
+  const visibility = reduced ? 1 : ease(.005, .08, progress) * exit;
+  const position = `translate(${setting.offsetX} ${setting.offsetY}) translate(180 180) scale(${setting.scale}) rotate(${setting.rotation}) translate(-180 -180)`;
+  const gestureDraw = (line: Stroke) => {
+    if (reduced) return 1;
+    if (gesture !== 'faq') return ease(.06 + (line.secondary ? .13 : 0), line.secondary ? .52 : .36, progress);
+    const stage = line.stage ?? 7;
+    return ease(.055 + stage * .078, .20 + stage * .078, progress);
+  };
 
   return (
-    <div className="network-experience" aria-hidden="true">
-      <svg viewBox="0 0 1000 660" preserveAspectRatio="xMidYMid slice" role="presentation">
-        <defs>
-          <linearGradient id="networkStroke" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0%" stopColor="#0056b2" />
-            <stop offset="55%" stopColor="#69b8ff" />
-            <stop offset="100%" stopColor="#0056b2" />
-          </linearGradient>
-          <filter id="wireSoft"><feGaussianBlur stdDeviation="1.3" /></filter>
-        </defs>
-        <g stroke="#327bbf" strokeWidth=".7" opacity={backgroundFade} fill="none">
-          {BACKGROUND_LINES.filter((_, i) => !mobile || i % 3 === 0).map(line => (
+    <g transform={mirrored ? 'translate(360 0) scale(-1 1)' : undefined} opacity={visibility}>
+      <g transform={position} fill="none" strokeLinecap="round" strokeLinejoin="round">
+        {lines.map(line => {
+          const draw = gestureDraw(line);
+          return (
             <g key={line.id}>
-              <path d={`M ${line.x} ${line.y} Q ${(line.x + line.x2) / 2} ${(line.y + line.y2) / 2 - 9} ${line.x2} ${line.y2}`} />
-              <circle cx={line.x} cy={line.y} r="1.5" fill="#65adf0" stroke="none" />
+              <path d={line.d} stroke="var(--gesture-depth, #194878)" strokeWidth={line.secondary ? 1.15 : 2.8}
+                transform="translate(5.5 5.8)" opacity={.28 * enter} pathLength={1}
+                strokeDasharray="1" strokeDashoffset={1 - draw}/>
+              <path d={line.d} stroke={line.secondary ? 'var(--gesture-inner, #5d9ecc)' : 'var(--gesture-stroke, #8fcbff)'}
+                strokeWidth={line.secondary ? 1.2 : 2.2} opacity={line.secondary ? .50 : 1}
+                pathLength={1} strokeDasharray="1" strokeDashoffset={1 - draw} />
             </g>
-          ))}
-        </g>
-        <g transform={`translate(${layout.x} ${layout.y}) scale(${layout.s}) rotate(${layout.r} 55 52)`}
-          fill="none" strokeLinecap="round" strokeLinejoin="round">
-          {paths.map((line, index) => {
-            const points = line.points.map(p => p.map(n => n.toFixed(2)).join(',')).join(' ');
-            return (
-              <g key={line.id}>
-                <polyline points={points} stroke="#0056b2" strokeWidth="1.15"
-                  opacity={0.20 + strength * .42} transform="translate(1.8 2.4)" />
-                <polyline points={points} stroke="url(#networkStroke)" strokeWidth=".58"
-                  opacity={0.62 + strength * .38} />
-                {index < 8 && <polyline points={points} stroke="#8dcfff" strokeWidth=".3"
-                  opacity={strength * .6} transform="translate(-.65 -.4)" />}
-              </g>
-            );
-          })}
-          {gesture === 'faq' && (
-            <g opacity={reduced ? 1 : ease(0.82, 0.97, progress)} fill="none"
-              stroke="url(#networkStroke)" strokeWidth=".48">
-              <path d="M 50 -5 C 42 -17 48 -30 59 -28 C 70 -27 74 -17 67 -11 L 58 -3 L 58 1" pathLength={1} strokeDasharray="1" strokeDashoffset={1 - (reduced ? 1 : ease(0.83, 0.98, progress))} />
-              <circle cx="58" cy="8" r="1.7" fill="#69b8ff" stroke="none" opacity={reduced ? 1 : ease(0.94, 1, progress)} />
-              <path d="M 44 -17 L 51 -21 L 62 -25 L 69 -19" strokeWidth=".18" />
-            </g>
-          )}
-        </g>
-        {gesture === 'contact' && (
-          <g transform="translate(1000 0) scale(-1 1)" fill="none" stroke="url(#networkStroke)"
-            strokeWidth="1.4" opacity={strength * .85}>
-            <g transform={`translate(${layout.x} ${layout.y}) scale(${layout.s}) rotate(${layout.r} 55 52)`}>
-              {paths.slice(0, 8).map(line => (
-                <polyline key={line.id} points={line.points.map(p => p.join(',')).join(' ')} />
-              ))}
-            </g>
+          );
+        })}
+        {setting.node && gesture !== 'faq' && (
+          <g opacity={reduced ? 1 : ease(.38,.62,progress)}>
+            <circle cx={setting.node[0]} cy={setting.node[1]} r="7" fill="none" stroke="var(--gesture-stroke, #8fcbff)" strokeWidth="1.2"/>
+            <circle cx={setting.node[0]} cy={setting.node[1]} r="2" fill="var(--gesture-stroke, #8fcbff)"/>
           </g>
         )}
+      </g>
+      {gesture === 'faq' && (
+        <g stroke="var(--gesture-stroke, #8fcbff)" strokeWidth="2" fill="none"
+          opacity={reduced ? 1 : ease(.7, .81, progress)}>
+          <path d="M150 47 C139 27 146 10 167 10 C185 10 197 26 184 40 L171 51 L171 59"
+            pathLength={1} strokeDasharray="1" strokeDashoffset={1 - (reduced ? 1 : ease(.71,.92,progress))}/>
+          <circle cx="171" cy="69" r="2.6" fill="var(--gesture-stroke, #8fcbff)" stroke="none"
+            opacity={reduced ? 1 : ease(.87,.94,progress)}/>
+        </g>
+      )}
+    </g>
+  );
+}
+
+function PairHands({ progress, reduced }: { progress: number; reduced: boolean }) {
+  const enter = reduced ? 1 : ease(.08,.37,progress);
+  const opacity = reduced ? 1 : ease(.02,.16,progress) * (1-ease(.85,.98,progress));
+  return (
+    <g opacity={opacity}>
+      <g transform={`translate(${-58 + enter * 35} 17) scale(.82) rotate(-38 180 180)`}>
+        <WireHand gesture="about" progress={progress} reduced={reduced}/>
+      </g>
+      <g transform={`translate(${785 - enter * 35} 17) scale(-.82 .82) rotate(-38 180 180)`}>
+        <WireHand gesture="about" progress={progress} reduced={reduced}/>
+      </g>
+      <path d="M365 183 Q380 171 395 183" stroke="var(--gesture-stroke,#8fcbff)"
+        strokeWidth="1.3" fill="none" opacity={reduced ? 1 : ease(.4,.6,progress)}
+        pathLength={1} strokeDasharray="1" strokeDashoffset={1-enter}/>
+      <circle cx="380" cy="177" r="3.3" fill="var(--gesture-stroke,#8fcbff)"
+        opacity={reduced ? 1 : ease(.52,.72,progress)}/>
+    </g>
+  );
+}
+
+export function NetworkGesture({ gesture, className = '' }: { gesture: GestureVariant; className?: string }) {
+  const dock = useRef<HTMLDivElement>(null);
+  const [state, setState] = useState({ progress: 0, reduced: false });
+  useEffect(() => {
+    const root = dock.current;
+    if (!root) return;
+    const section = root.closest('section') ?? root;
+    const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let raf = 0;
+    let active = false;
+    const calculate = () => {
+      raf = 0;
+      if (!active) return;
+      const rect = section.getBoundingClientRect();
+      const progress = clamp((window.innerHeight - rect.top) / (window.innerHeight + rect.height));
+      setState(previous =>
+        Math.abs(previous.progress - progress) < .004 && previous.reduced === preference.matches
+          ? previous : { progress, reduced: preference.matches });
+    };
+    const schedule = () => { if (active && !raf) raf = window.requestAnimationFrame(calculate); };
+    const observer = new IntersectionObserver(entries => {
+      active = entries.some(entry => entry.isIntersecting);
+      if (active) schedule();
+    }, { rootMargin: '160px 0px 160px 0px' });
+    observer.observe(section);
+    const onPreference = () => {
+      if (preference.matches) setState({ progress: .75, reduced: true });
+      else schedule();
+    };
+    if (preference.matches) setState({ progress: .75, reduced: true });
+    window.addEventListener('scroll', schedule, { passive: true });
+    window.addEventListener('resize', schedule);
+    preference.addEventListener('change', onPreference);
+    return () => {
+      if (raf) window.cancelAnimationFrame(raf);
+      observer.disconnect();
+      window.removeEventListener('scroll', schedule);
+      window.removeEventListener('resize', schedule);
+      preference.removeEventListener('change', onPreference);
+    };
+  }, [gesture]);
+
+  return (
+    <div className={`gesture-dock gesture-${gesture} ${className}`} ref={dock} aria-hidden="true">
+      <svg className="gesture-svg" viewBox={gesture === 'contact' ? '0 0 760 360' : '0 0 360 390'}
+        preserveAspectRatio="xMidYMid meet" focusable="false">
+        <title>{gesture === 'faq' ? 'Five-finger wireframe hand and question mark' : 'Ladder7 wireframe hand illustration'}</title>
+        {gesture === 'contact'
+          ? <PairHands progress={state.progress} reduced={state.reduced}/>
+          : <WireHand gesture={gesture} progress={state.progress} reduced={state.reduced}/>}
       </svg>
     </div>
   );
