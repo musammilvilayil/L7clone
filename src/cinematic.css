@@ -122,9 +122,9 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
 /* 02 - Editorial scroll-linked vision chapters. Rail is sticky only on desktop. */
 .cin-vision {padding-block:clamp(45px,5vh,70px);background:var(--page)}
 .cin-vision-intro {margin-bottom:clamp(24px,3.5vh,48px)}
-.cin-vision-heading {display:grid;grid-template-columns:minmax(0,1.2fr) minmax(270px,.6fr);gap:clamp(20px,6vw,92px);align-items:center}
+.cin-vision-heading {max-width:1100px}
 .cin-vision-heading h2 {font-size:clamp(54px,7vw,122px);letter-spacing:-.073em}
-.cin-vision-drawing {height:clamp(310px,33vw,475px);min-width:0;background:radial-gradient(circle at 72% 31%,rgba(49,157,255,.13),transparent 44%);border-radius:50%}
+.cin-vision-drawing {display:none}
 .cin-vision-stories {display:grid;grid-template-columns:minmax(160px,.38fr) minmax(0,1fr);gap:clamp(36px,7vw,132px)}
 .cin-vision-rail {position:sticky;top:calc(var(--header-h) + 45px);height:240px;display:flex;flex-direction:column;gap:22px}
 .cin-vision-rail span {color:var(--accent);font-size:10px;letter-spacing:.14em}
@@ -175,7 +175,7 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
 .cin-service-image img {width:100%;height:100%;object-fit:cover;filter:saturate(.75) brightness(.7)}
 .cin-service-image::after {content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(3,18,38,.06) 0%,rgba(3,18,38,.72) 90%)}
 .cin-services-watermark {position:absolute;z-index:1;left:23px;top:8px;font:500 clamp(96px,12vw,192px)/1 'Space Grotesk';letter-spacing:-.1em;color:rgba(255,255,255,.16)}
-.cin-services-gesture {position:absolute;z-index:2;top:clamp(12px,2vw,24px);right:clamp(10px,2vw,28px);width:min(76%,430px);height:min(68%,430px);background:radial-gradient(circle at 78% 28%,rgba(68,178,255,.24),transparent 15%),radial-gradient(circle at 70% 38%,rgba(0,86,178,.18),transparent 48%);pointer-events:none}
+.cin-services-gesture {display:none}
 .cin-stage-caption {position:absolute;z-index:3;bottom:28px;left:32px;right:32px;display:flex;flex-direction:column;gap:8px;color:#fff}
 .cin-stage-caption span {font-size:10px;letter-spacing:.12em;opacity:.7}
 .cin-stage-caption strong {font:500 clamp(26px,2.5vw,38px)/1.06 'Space Grotesk';max-width:480px}
@@ -195,10 +195,10 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
 .cin-product-stage {display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(30px,5vw,90px);align-items:start;padding-top:clamp(20px,2.8vh,40px);animation:cin-image-enter .4s both}
 .cin-product-display {padding:13px;border:1px solid var(--line);background:var(--surface);border-radius:10px;overflow:hidden;position:relative;min-width:0}
 .cin-product-topbar {display:flex;justify-content:space-between;gap:10px;font-size:10px;letter-spacing:.14em;padding:9px 9px 18px;color:var(--muted)}
-.cin-product-frame {border-radius:6px;overflow:hidden;aspect-ratio:1.35;background:var(--panel);border:1px solid var(--line)}
+.cin-product-frame {border-radius:6px;overflow:hidden;aspect-ratio:1.45;background:var(--panel);border:1px solid var(--line);box-shadow:0 12px 30px rgba(0,0,0,.08)}
 .cin-product-frame img {width:100%;height:100%;object-fit:contain;transition:transform .65s}
 .cin-product-display:hover .cin-product-frame img {transform:scale(1.04)}
-.cin-product-gesture {height:clamp(220px,22vw,335px);width:min(100%,390px);margin:4px auto -8px;background:radial-gradient(circle at 52% 20%,rgba(69,178,255,.17),transparent 34%)}
+.cin-product-gesture {display:none}
 .cin-product-display-label {display:block;font-size:9px;letter-spacing:.14em;color:var(--quiet);padding:3px 9px 14px}
 .cin-product-information {padding-block:clamp(15px,3vw,50px)}
 .cin-product-information h3 {font-size:clamp(58px,6.4vw,108px);margin:12px 0 14px}
@@ -232,9 +232,9 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
 .cin-why {padding-block:clamp(55px,6.5vh,90px);background:var(--surface)}
 .cin-why-top {display:grid;grid-template-columns:minmax(0,1.12fr) minmax(280px,.72fr);align-items:center;gap:clamp(25px,5vw,90px);margin:20px 0 clamp(28px,3.8vh,50px)}
 .cin-why-top h2 {font-size:clamp(62px,7vw,116px)}
-.cin-why-art {display:grid;grid-template-columns:1fr;gap:12px;align-items:center;min-width:0}
-.cin-why-art .gesture-dock {height:clamp(250px,29vw,405px)}
-.cin-why-art img {width:100%;max-height:210px;object-fit:cover;border:1px solid var(--line);border-radius:6px}
+.cin-why-art {display:flex;align-items:center;justify-content:flex-end;min-width:0}
+.cin-why-art .gesture-dock {display:none}
+.cin-why-art img {width:100%;max-height:260px;object-fit:cover;border:1px solid var(--line);border-radius:6px;box-shadow:0 16px 40px rgba(0,0,0,.12)}
 .cin-value-list {display:grid;grid-template-columns:1fr;border-top:1px solid var(--line)}
 .cin-value-list article {display:grid;grid-template-columns:minmax(110px,.25fr) minmax(0,.85fr) minmax(220px,.85fr) 24px;gap:clamp(20px,4vw,70px);padding:clamp(26px,3.2vh,46px) 0;border-bottom:1px solid var(--line);align-items:start}
 .cin-value-index {font-size:10px;color:var(--accent);font-weight:700;letter-spacing:.1em}
@@ -244,11 +244,11 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
 
 /* 08 - Editorial FAQ and a dedicated line-drawn five-finger palm */
 .cin-faq {padding-block:clamp(55px,6.5vh,90px);background:var(--page)}
-.cin-faq-grid {display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(35px,7vw,118px);align-items:start}
-.cin-faq-intro h2 {font-size:clamp(53px,5.4vw,95px);margin-top:30px}
-.cin-faq-hand {height:clamp(410px,38vw,555px);max-width:530px;margin:25px auto 0;background:radial-gradient(circle at 72% 20%,rgba(58,170,255,.14),transparent 35%)}
-.cin-faq-caption {text-align:center;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.11em}
-.cin-faq-list {padding-top:clamp(20px,3vh,45px)}
+.cin-faq-grid {display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(35px,7vw,118px);align-items:start}
+.cin-faq-intro {position:sticky;top:calc(var(--header-h) + 40px)} .cin-faq-intro h2 {font-size:clamp(53px,5.4vw,95px);margin:25px 0 20px}
+.cin-faq-hand {display:none}
+.cin-faq-caption {font-size:clamp(14px,1.1vw,17px);line-height:1.8;color:var(--muted);max-width:480px}
+.cin-faq-list {padding-top:0}
 .cin-faq-item {border-bottom:1px solid var(--line)}
 .cin-faq-item:first-child {border-top:1px solid var(--line)}
 .cin-faq-item h3 {margin:0;font-family:'Public Sans';letter-spacing:0}
@@ -322,9 +322,9 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
   .cin-hero-canvas {min-height:0;display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:center}
   .cin-hero-hand {width:100%;height:350px;margin:0;transform:none}
   .cin-hero-image img {height:230px}.cin-hero-orbit {display:none}
-  .cin-vision-heading {grid-template-columns:1fr .55fr}
+  .cin-vision-heading {max-width:100%}
   .cin-vision-heading h2 {font-size:clamp(48px,6.5vw,72px)}
-  .cin-vision-drawing {height:310px}
+  .cin-vision-drawing {display:none}
   .cin-vision-stories {grid-template-columns:1fr}.cin-vision-rail {position:static;height:auto}
   .cin-vision-line {display:none}.cin-vision-rail strong {max-width:700px}
   .cin-vision-stack {display:grid;grid-template-columns:1fr 1fr;align-items:start}
@@ -333,7 +333,7 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
   .cin-about-gesture {height:350px}
   .cin-about-message h2 {font-size:clamp(43px,5.5vw,65px)}
   .cin-services-theatre {grid-template-columns:1fr}.cin-services-stage {position:relative;top:auto;height:500px}
-  .cin-services-gesture {height:350px;width:58%}
+  .cin-services-gesture {display:none}
   .cin-products-intro h2 {font-size:clamp(53px,7vw,85px)}
   .cin-product-stage {grid-template-columns:1fr;gap:20px}
   .cin-product-display {max-width:780px;width:100%}
@@ -342,13 +342,13 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
   .cin-engineering-art {height:340px}
   .cin-why-top {grid-template-columns:1fr 1fr}
   .cin-why-top h2 {font-size:clamp(53px,6.5vw,80px)}
-  .cin-why-art .gesture-dock {height:300px}
+  .cin-why-art .gesture-dock {display:none}
   .cin-value-list article {grid-template-columns:110px 1fr;gap:16px 30px}
   .cin-value-list article p {grid-column:2}
   .cin-value-list article svg {display:none}
-  .cin-faq-grid {grid-template-columns:1fr 1.05fr;gap:24px}
+  .cin-faq-grid {grid-template-columns:1fr 1.05fr;gap:24px}.cin-faq-intro {position:static}
   .cin-faq-intro h2 {font-size:clamp(44px,5.5vw,66px)}
-  .cin-faq-hand {height:320px}.cin-faq-list {padding-top:70px}
+  .cin-faq-hand {display:none}.cin-faq-list {padding-top:20px}
   .cin-footer-grid {grid-template-columns:repeat(2,1fr);gap:50px}
 }
 @media(max-width:600px) {
@@ -371,9 +371,9 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
   .cin-actions {gap:9px}.cin-btn {width:100%;min-height:51px;padding:13px 16px}
   .cin-scroll-invite {margin-top:3px}
   .cin-vision,.cin-about,.cin-services,.cin-products,.cin-why,.cin-faq {padding-block:95px}
-  .cin-vision-heading {grid-template-columns:1fr;gap:2px}
+  .cin-vision-heading {max-width:100%}
   .cin-vision-heading h2 {font-size:clamp(45px,10.5vw,63px)}
-  .cin-vision-drawing {height:265px;max-width:330px;margin:auto}
+  .cin-vision-drawing {display:none}
   .cin-vision-intro {margin-bottom:45px}
   .cin-vision-stories {gap:25px}
   .cin-vision-rail strong {font-size:32px}
@@ -396,7 +396,7 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
   .cin-service-name {font-size:clamp(22px,5.8vw,30px)}
   .cin-service-details {padding-left:33px}
   .cin-services-stage {height:clamp(390px,110vw,540px)}
-  .cin-services-gesture {width:78%;height:310px;top:10%;right:10%}
+  .cin-services-gesture {display:none}
   .cin-services-watermark {font-size:115px}
   .cin-stage-caption {left:21px;right:21px;bottom:20px}
   .cin-products-intro {margin-block:21px 36px}
@@ -404,7 +404,7 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
   .cin-product-tabs {margin-inline:-22px;padding-inline:22px}
   .cin-product-tabs button {min-width:148px;padding:17px 14px}
   .cin-product-stage {padding-top:28px}
-  .cin-product-gesture {height:170px}
+  .cin-product-gesture {display:none}
   .cin-product-information h3 {font-size:clamp(54px,12vw,82px)}
   .cin-engineering {min-height:0}
   .cin-engineering-content {padding-block:95px;min-height:690px;grid-template-columns:1fr;gap:8px}
@@ -413,15 +413,15 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
   .cin-engineering-side {display:none}
   .cin-why-top {grid-template-columns:1fr;gap:24px;margin-bottom:65px}
   .cin-why-top h2 {font-size:clamp(53px,11vw,78px)}
-  .cin-why-art {grid-template-columns:1fr 1fr;gap:9px}
-  .cin-why-art .gesture-dock {height:185px}
-  .cin-why-art img {height:175px;object-fit:contain}
+  .cin-why-art {display:flex;justify-content:center}
+  .cin-why-art .gesture-dock {display:none}
+  .cin-why-art img {height:175px;object-fit:cover;width:100%}
   .cin-value-list article {grid-template-columns:1fr;gap:17px;padding:32px 0}
   .cin-value-list article p {grid-column:1}
   .cin-value-list h3 {font-size:clamp(31px,8vw,46px)}
   .cin-faq-grid {grid-template-columns:1fr;gap:27px}
   .cin-faq-intro h2 {font-size:clamp(50px,10.7vw,69px);margin-top:26px}
-  .cin-faq-hand {height:345px;max-width:340px;margin-top:5px}
+  .cin-faq-hand {display:none}
   .cin-faq-list {padding-top:0}
   .cin-faq-item button strong {font-size:clamp(20px,5.8vw,28px)}
   .cin-finale {padding-block:105px}
@@ -456,7 +456,7 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
 
 /* Actual browser QA: preserve a visible gap between the interactive gesture dock and the meaningful product/hero imagery. */
 .cin-hero-hand{margin-bottom:12px}
-.cin-product-gesture{margin-top:14px}
+/* cin-product-gesture removed */
 
 /* Mobile cinematic opening: reveal the human gesture in the initial viewport,
    without moving it behind copy or removing the original business image. */

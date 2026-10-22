@@ -143,7 +143,6 @@ function Vision() {
       <ChapterLabel number="02 / 09">New perspectives / The vision</ChapterLabel>
       <div className="cin-vision-heading">
         <h2 id="thinking-title" data-cin-reveal>Complexity is real.<br/><em>The next step is clear.</em></h2>
-        <div className="cin-vision-drawing"><NetworkGesture gesture="thinking" /></div>
       </div>
     </div>
     <div className="cin-vision-stories cin-wrap">
@@ -187,7 +186,6 @@ function About() {
   </section>;
 }
 
-const SERVICE_GESTURES=['digital','automation','strategy','development'] as const;
 const SERVICE_IMAGES=[
   '/images/hero/hero-digital-engineering.png',
   '/images/hero/hero-intelligent-automation.webp',
@@ -223,7 +221,6 @@ function Services() {
         <div className="cin-services-stage">
           <div className="cin-service-image" key={cap.id}><img src={SERVICE_IMAGES[active]} alt={cap.title+' — Ladder7 engineering visual'} loading="lazy" /></div>
           <span className="cin-services-watermark" aria-hidden="true">0{active+1}</span>
-          <div className="cin-services-gesture"><NetworkGesture gesture={SERVICE_GESTURES[active]} className="services-art"/></div>
           <div className="cin-stage-caption"><span>CAPABILITY / 0{active+1} OF 04</span><strong>{cap.title}</strong></div>
         </div>
       </div>
@@ -259,7 +256,6 @@ function Products() {
         <div className="cin-product-display product-visual">
           <div className="cin-product-topbar" aria-hidden="true"><span>LADDER7 / DIGITAL PRODUCT</span><span>0{selected+1} / 0{PRODUCTS.length}</span></div>
           <div className="cin-product-frame"><img loading="lazy" width="740" height="580" src={product.image} alt={'Original Ladder7 product showcase visual for '+product.name}/></div>
-          <div className="cin-product-gesture"><NetworkGesture gesture="products" className="product-gesture"/></div>
           <span className="cin-product-display-label">LADDER7 / PRODUCT ECOSYSTEM</span>
         </div>
         <div className="cin-product-information">
@@ -307,7 +303,7 @@ function Why() {
       <ChapterLabel number="07 / 09">Why Ladder7</ChapterLabel>
       <div className="cin-why-top">
         <h2 id="why-title" data-cin-reveal>Why Innovators<br/><em>Partner With Ladder7</em></h2>
-        <div className="cin-why-art"><NetworkGesture gesture="why"/>
+        <div className="cin-why-art">
           <img src="/images/hero/hero-digital-engineering.png" loading="lazy" width="5583" height="3722" alt="Digital engineering imagery from Ladder7"/>
         </div>
       </div>
@@ -330,8 +326,7 @@ function FAQ() {
       <div className="cin-faq-intro">
         <ChapterLabel number="08 / 09">Your questions, answered</ChapterLabel>
         <h2 id="faq-title" data-cin-reveal>Better questions.<br/><em>Clearer next steps.</em></h2>
-        <div className="cin-faq-hand"><NetworkGesture gesture="faq"/></div>
-        <p className="cin-faq-caption">A connection begins with a question.</p>
+        <p className="cin-faq-caption">Everything you need to know about partnering with Ladder7 to build and scale your revenue engine.</p>
       </div>
       <div className="cin-faq-list">
         {FAQS.map((item,i)=><article key={item.id} className={'faq-entry cin-faq-item'+(openId===item.id?' is-open':'')}>
