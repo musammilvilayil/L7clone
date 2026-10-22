@@ -137,15 +137,15 @@ function WireHand({ gesture, progress, reduced, mirrored = false }: {
 }) {
   const lines = HANDS[gesture];
   const setting = POSITION[gesture];
-  const enter = reduced ? 1 : ease(.045, gesture === 'faq' ? .72 : .35, progress);
+  const enter = reduced ? 1 : ease(.025, gesture === 'faq' ? .37 : .29, progress);
   const exit = reduced ? 1 : 1 - ease(.82, .99, progress);
-  const visibility = reduced ? 1 : ease(.005, .08, progress) * exit;
+  const visibility = reduced ? 1 : ease(.005, .06, progress) * exit;
   const position = `translate(${setting.offsetX} ${setting.offsetY}) translate(180 180) scale(${setting.scale}) rotate(${setting.rotation}) translate(-180 -180)`;
   const gestureDraw = (line: Stroke) => {
     if (reduced) return 1;
-    if (gesture !== 'faq') return ease(.06 + (line.secondary ? .13 : 0), line.secondary ? .52 : .36, progress);
+    if (gesture !== 'faq') return ease(.035 + (line.secondary ? .10 : 0), line.secondary ? .43 : .28, progress);
     const stage = line.stage ?? 7;
-    return ease(.035 + stage * .048, .12 + stage * .054, progress);
+    return ease(.025 + stage * .025, .105 + stage * .034, progress);
   };
 
   return (
@@ -173,11 +173,11 @@ function WireHand({ gesture, progress, reduced, mirrored = false }: {
       </g>
       {gesture === 'faq' && (
         <g stroke="var(--gesture-stroke, #8fcbff)" strokeWidth="2" fill="none"
-          opacity={reduced ? 1 : ease(.47, .55, progress)}>
+          opacity={reduced ? 1 : ease(.27, .34, progress)}>
           <path d="M150 47 C139 27 146 10 167 10 C185 10 197 26 184 40 L171 51 L171 59"
-            pathLength={1} strokeDasharray="1" strokeDashoffset={1 - (reduced ? 1 : ease(.48,.64,progress))}/>
+            pathLength={1} strokeDasharray="1" strokeDashoffset={1 - (reduced ? 1 : ease(.28,.40,progress))}/>
           <circle cx="171" cy="69" r="2.6" fill="var(--gesture-stroke, #8fcbff)" stroke="none"
-            opacity={reduced ? 1 : ease(.60,.69,progress)}/>
+            opacity={reduced ? 1 : ease(.35,.43,progress)}/>
         </g>
       )}
     </g>
@@ -188,7 +188,7 @@ function WireHand({ gesture, progress, reduced, mirrored = false }: {
 function PairHands({ progress, reduced }: { progress: number; reduced: boolean }) {
   const reveal = reduced ? 1 : ease(.06, .55, progress);
   const slide = (1 - reveal) * 65;
-  const visibility = reduced ? 1 : ease(.03, .17, progress) * (1 - ease(.92, 1, progress));
+  const visibility = reduced ? 1 : ease(.02, .1, progress) * (1 - ease(.96, 1, progress));
   const lineProgress = reduced ? 1 : ease(.08, .54, progress);
   const fingers = [
     // A long, outstretched index finger creates a clear focal point.
