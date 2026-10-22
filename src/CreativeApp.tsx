@@ -109,7 +109,7 @@ function Hero() {
         </div>
         <a className="scroll-cue" href="#thinking"><ArrowDown size={16} /> Explore the experience</a>
       </div>
-      <div className="hero-axis" aria-hidden="true">01 — CONNECTING POSSIBILITY</div>
+      <div className="hero-axis" aria-hidden="true">LADDER7 / NEXTSTEP SOLUTIONS</div>
     </section>
   );
 }
@@ -123,9 +123,9 @@ function Thinking() {
           <h2 id="thinking-title">Complexity is real.<br/><span className="muted-title">The next step is clear.</span></h2>
         </div>
         <div className="perspective-list">
-          {HERO_SLIDES.slice(1).map((slide, index) => (
+          {HERO_SLIDES.slice(1).map((slide) => (
             <article key={slide.id} className="perspective">
-              <div className="perspective-index">0{index + 2} / {slide.badge}</div>
+              <div className="perspective-index">{slide.badge}</div>
               <div className="perspective-copy">
                 <h3>{slide.title}<span>{slide.titleHighlight}</span></h3>
                 <p>{slide.description}</p>
