@@ -46,7 +46,7 @@ Browser smoke contains assertions for:
 - mobile menu, theme toggle, anchor and contact links, reduced-motion complete hand;
 - browser page errors, screenshot exports and scroll film capture.
 
-**Actual port 5174:** The Codespaces preview URL was independently inspected in earlier browser sessions; it served Ladder7. During this latest round its **exact updated Git commit could not be verified** using the available chat browser connection. Pushes to GitHub do not automatically update a running Codespace working tree.
+**Actual port 5174:** An independent interactive browser inspection of the supplied Codespaces preview confirmed that the live page **still serves the older eight-section layout** (no nine-chapter rail or Engineering interlude), so the new design has **not yet been synchronized into that Codespace**. The GitHub `dev` branch and its compiled CI browser preview do contain the redesign. A Codespace `git pull` (after safeguarding local work) and Vite restart are necessary before judging this live preview.
 
 ## Visual evidence
 
