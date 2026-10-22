@@ -646,3 +646,14 @@ h2 em, h1 em { font-style: normal; color: var(--accent); }
   .contact-section h2 { font-size:clamp(2.5rem,9.2vw,4rem); }
   .footer-columns a,.footer-columns span { font-size:13px; }
 }
+
+/* Screenshot audit: lettering must never run through line-art fingertips or wrists. */
+.faq-intro .gesture-faq { margin-bottom:38px; }
+.faq-visual-label { margin-top:24px !important; position:relative; z-index:2; }
+.contact-section .gesture-contact { margin-bottom:62px; }
+.contact-section .contact-description { position:relative; z-index:2; }
+@media(max-width:550px) {
+  .faq-intro .gesture-faq { margin-bottom:35px; }
+  .faq-visual-label { margin-top:16px !important; }
+  .contact-section .gesture-contact { margin-bottom:45px; }
+}
