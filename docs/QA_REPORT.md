@@ -92,3 +92,27 @@ Avoid switching or pulling over uncommitted changes without saving them first.
 - Playwright verifies functional and visual boundaries at static scroll positions plus reversible transforms. No independent FPS/performance trace or device-lab touch testing was performed.
 - Visual judgment is subjective; the verified screenshots are supplied for stakeholder approval.
 - The linked Codespaces port may require the manual sync above before it shows the final source revision.
+
+
+## F. Completion refinement (23 October 2026)
+
+After the original cinematic implementation, the following gaps were found by reviewing real Chromium screenshots and frame-by-frame recordings:
+
+- Open-palm hands needed richer anatomical detail. Added ten carefully bounded internal strokes: dorsal finger ridges, distal-joint arcs, palm arch and wrist contours. These remain inside each fingertip/palm and are de-emphasized on small or low-powered devices.
+- Previous section departure primarily faded a full hand. Now individual outlines and contour strokes **unspool in reverse** during the exit stage. Reverse scrolling reconstructs them; reduced-motion remains fully static.
+- The Thinking silhouette could be mistaken for one aggressively raised finger. Replaced it with a chin-supporting hand and small, contained human side-profile so the visual actually communicates thoughtful problem solving.
+- At 360px, the FAQ's line question mark had not finished drawing when its five-finger hand was already clearly visible. Advanced its drawing and dot stages, retaining a natural progressive entrance but making a complete **?** readable at typical mobile capture positions.
+- SVG services touch-point scaling used the default transform origin; fixed local SVG `transformBox` and `transformOrigin` for a stable, deliberate pulse.
+- Strengthened browser QA: switched to light theme and back, verified `mailto:` and `tel:` CTAs, and recorded a real Chrome-based full forward-and-reverse page scroll to `ladder7-scroll-choreography.webm`.
+
+### Final verification
+
+- **Final functional source commit:** `4aacc38005760b646a3f9a579487f4c3927872e9` (`dev`).
+- **Source typecheck, production build and lint:** [passed](https://github.com/musammilvilayil/L7clone/actions/runs/39838548844).
+- **Five viewport browser QA, interactive checks, screenshots and motion video:** [passed](https://github.com/musammilvilayil/L7clone/actions/runs/39838548808).
+- **Evidence artifact:** [50 PNG screenshots plus full-scroll video](https://github.com/musammilvilayil/L7clone/actions/runs/39838548808/artifacts/12452885213).
+- **Main branch:** unchanged (`45dbbf44f72cd8ee504b3473efc33909bf411f18`).
+
+**Source/runtime boundary:** The external port 5174 is a running Codespaces workspace, not an automatic deployment from `dev`. The page was accessible, but the final source SHA could not be established from the preview alone. Pull `dev` in that Codespace (after safeguarding any local changes), restart its Vite server and hard-refresh the preview to inspect this exact build. The GitHub browser QA **did** run the compiled final source across all five specified sizes.
+
+**Honest technical scope:** This is optimized, dimensional anatomical **SVG wireframe choreography** with actual per-finger transforms, not a GLTF skeletal hand or a WebGL skinned mesh. There is no claim of a photorealistic 3D asset, or physical device-lab FPS certification.
