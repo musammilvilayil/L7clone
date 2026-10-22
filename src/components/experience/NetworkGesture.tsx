@@ -88,10 +88,33 @@ const BUILD_HAND: Stroke[] = [
   { id:'mesh',secondary:true,d:'M118 280 L161 261 L189 292 L218 269 M138 203 L161 261 M153 307 L189 292 L209 303' },
   { id:'crease',secondary:true,d:'M111 293 Q155 303 209 289' },
 ];
+const WELCOME_HAND: Stroke[] = [
+  { id:'wrist-left', d:'M119 316 C113 291 103 269 98 249' },
+  { id:'wrist-right', d:'M237 314 C231 290 235 270 242 247' },
+  { id:'palm-edge', d:'M98 249 C83 236 68 229 55 217 C42 205 45 192 56 187 C67 182 80 189 92 197 L122 219' },
+  { id:'index', d:'M122 219 C119 193 109 167 106 144 C103 127 110 118 121 118 C133 118 139 127 140 145 L148 200' },
+  { id:'middle', d:'M148 200 C141 170 133 131 134 113 C135 97 144 88 155 91 C168 95 171 107 172 120 L178 199' },
+  { id:'ring', d:'M178 199 C180 168 182 139 186 125 C191 111 203 107 211 116 C220 126 218 139 215 151 L206 211' },
+  { id:'little', d:'M206 211 C224 190 234 180 245 178 C258 178 266 189 261 201 L242 247' },
+  { id:'palm-base', d:'M98 249 C115 288 133 306 161 317 C187 326 216 322 237 314' },
+  { id:'mesh-one', secondary:true, d:'M118 240 Q161 222 217 241 M128 264 Q174 252 229 260 M151 288 Q188 284 224 281' },
+  { id:'mesh-two', secondary:true, d:'M137 222 C138 246 148 278 161 312 M174 215 C179 239 185 278 190 314 M202 228 L210 260 L219 290' },
+];
+const CONFIDENT_HAND: Stroke[] = [
+  { id:'thumb-up', d:'M129 234 C119 214 120 182 123 154 L128 101 C128 78 137 69 150 72 C165 75 168 87 165 103 L159 176 C176 182 196 190 210 202' },
+  { id:'index-fold', d:'M210 202 C235 187 246 195 252 206 C255 213 253 222 246 228' },
+  { id:'middle-fold', d:'M246 228 C266 223 272 235 268 246 C266 254 259 260 251 262' },
+  { id:'ring-fold', d:'M251 262 C268 267 265 284 253 290 C248 292 240 292 234 291' },
+  { id:'little-fold', d:'M234 291 C241 305 233 316 216 318 L158 316' },
+  { id:'palm-wrist', d:'M158 316 C137 311 122 299 107 280 C96 265 96 249 107 241 C114 236 123 235 129 234' },
+  { id:'crease-one', secondary:true, d:'M130 254 C159 245 193 249 224 260 M143 283 C165 278 194 284 227 295' },
+  { id:'crease-two', secondary:true, d:'M158 195 C166 223 171 253 172 307 M186 218 L199 255 L211 309' },
+  { id:'thumb-joint', secondary:true, d:'M124 146 Q142 153 160 148' },
+];
 const HANDS: Record<Exclude<GestureVariant, 'contact'>, Stroke[]> = {
-  hero: OPEN_HAND, thinking: THINK_HAND, about: BUILD_HAND, digital: BUILD_HAND,
+  hero: OPEN_HAND, thinking: THINK_HAND, about: WELCOME_HAND, digital: BUILD_HAND,
   automation: POINT_HAND, strategy: THINK_HAND, development: PINCH_HAND,
-  products: POINT_HAND, why: OPEN_HAND, faq: OPEN_HAND,
+  products: POINT_HAND, why: CONFIDENT_HAND, faq: OPEN_HAND,
 };
 const POSITION: Record<Exclude<GestureVariant, 'contact'>, Config> = {
   hero: { rotation: -9, scale: .94, offsetX: 8, offsetY: 0 },
