@@ -10,6 +10,11 @@ on:
       - '.github/workflows/browser-qa.yml'
   workflow_dispatch:
 
+# Superseded design commits should not compete to install Chromium on runners.
+concurrency:
+  group: ladder7-browser-${{ github.ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: read
 
@@ -27,7 +32,9 @@ jobs:
       - name: Install browser automation runtime
         run: |
           npm install --no-save --no-package-lock playwright@1.56.1
-          npx playwright install --with-deps chromium
+          # Hosted Ubuntu runners already include the shared libraries used by Chromium.
+          # Avoid a full apt dependency install for every preview-only QA run.
+          npx playwright install chromium
       - run: npm run build
       - name: Start production preview
         run: |

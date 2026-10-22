@@ -1,46 +1,21 @@
 import assert from 'node:assert/strict';
 import { mkdir } from 'node:fs/promises';
-let chromium;
-try {
-  const p = await import('playwright');
-  chromium = p.chromium;
-} catch {
-  const p = await import('playwright-core');
-  chromium = p.chromium;
-}
-import fs from 'node:fs';
+import { chromium } from 'playwright';
 
-const baseURL = process.env.TEST_URL || 'http://127.0.0.1:5173';
-
-const chromeCandidates = [
-  process.env.CHROME_PATH,
-  'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
-  'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe',
-  '/usr/bin/google-chrome',
-  '/usr/bin/chromium-browser',
-  '/usr/bin/chromium'
-].filter(Boolean);
-
-let executablePath = chromeCandidates.find(p => fs.existsSync(p));
-
-const browser = await chromium.launch({
-  executablePath,
-  headless: true,
-  args: ['--no-sandbox', '--disable-setuid-sandbox']
-});
-
+const baseURL = process.env.TEST_URL || 'http://127.0.0.1:4173';
+const browser = await chromium.launch({ headless: true, args: ['--no-sandbox'] });
 await mkdir('screenshots', { recursive: true });
-await mkdir('docs/screenshots', { recursive: true });
 const failures = [];
-const sections = ['top', 'thinking', 'about', 'capabilities', 'products', 'why-ladder7', 'faq', 'contact'];
+const sections = ['top', 'thinking', 'about', 'capabilities', 'products', 'engineering', 'why-ladder7', 'faq', 'contact'];
 
 async function photograph(page, name, selector) {
-  await page.locator(selector).scrollIntoViewIfNeeded();
-  await page.waitForTimeout(200);
-  await page.screenshot({ path: `screenshots/${name}.png` });
-  await page.screenshot({ path: `docs/screenshots/${name}.png` });
+  await page.locator(selector).evaluate(el => {
+    document.documentElement.style.scrollBehavior='auto';
+    window.scrollTo(0, Math.max(0, window.scrollY + el.getBoundingClientRect().top - 88));
+  });
+  await page.waitForTimeout(240);
+  await page.screenshot({ path: `screenshots/${name}.png`, animations: 'disabled' });
 }
-
 async function assertLayout(page, width) {
   const result = await page.evaluate(() => {
     const extents = {
@@ -54,15 +29,18 @@ async function assertLayout(page, width) {
       const visual = dock.getBoundingClientRect();
       for (const el of protectedNodes) {
         if (dock.contains(el) || !el.closest('section') || el.closest('section') !== dock.closest('section')) continue;
+        // Intentional photo-backed services/engineering scene: line art sits over a photo,
+        // but must never sit over words, buttons or live product screenshots.
+        if (el.tagName === 'IMG' && el.closest('.cin-services-stage, .cin-engineering-photo')) continue;
         const css = getComputedStyle(el);
         if (css.display === 'none' || css.visibility === 'hidden' || el.closest('[hidden]')) continue;
         const text = el.getBoundingClientRect();
         const dx = Math.min(visual.right, text.right) - Math.max(visual.left, text.left);
         const dy = Math.min(visual.bottom, text.bottom) - Math.max(visual.top, text.top);
         if (dx > 5 && dy > 5) collisions.push({
-          scene: dock.dataset.scene || dock.dataset.variant,
+          scene: dock.dataset.variant,
           tag: el.tagName,
-          copy: (el.textContent || el.getAttribute('alt') || '').slice(0, 45),
+          copy: (el.textContent || el.getAttribute('alt') || '').slice(0,45),
           xOverlap: Math.round(dx), yOverlap: Math.round(dy),
         });
       }
@@ -71,9 +49,8 @@ async function assertLayout(page, width) {
   });
   assert.ok(result.html <= result.viewport + 2, `HTML horizontal overflow at ${width}px: ${JSON.stringify(result)}`);
   assert.ok(result.body <= result.viewport + 2, `Body horizontal overflow at ${width}px: ${JSON.stringify(result)}`);
-  assert.deepEqual(result.collisions, [], `Gesture dock interferes with content at ${width}px: ${JSON.stringify(result.collisions)}`);
+  assert.deepEqual(result.collisions, [], `Gesture interferes with content at ${width}px: ${JSON.stringify(result.collisions)}`);
 }
-
 async function checkAssets(page) {
   await page.locator('img').evaluateAll(async images => {
     await Promise.all(images.map(img => {
@@ -92,76 +69,199 @@ async function checkAssets(page) {
 }
 
 try {
-  for (const [width, height] of [[1440, 900], [1024, 768], [768, 1024], [390, 844], [360, 780]]) {
-    const page = await browser.newPage({ viewport: { width, height }, deviceScaleFactor: 1 });
+  for (const [width, height] of [[1440,900], [1920,1080], [1024,768], [768,1024], [430,932], [390,844], [375,812], [360,780], [320,700]]) {
+    const page = await browser.newPage({ viewport:{width,height}, deviceScaleFactor:1 });
     page.on('pageerror', error => failures.push(`${width}px: ${error.message}`));
-    await page.goto(baseURL, { waitUntil: 'networkidle' });
-
-    assert.equal(await page.locator('h1').count(), 1, `Duplicate H1 at ${width}px`);
-    assert.equal(await page.locator('.gesture-stage').count(), 1, 'Missing continuous gesture canvas stage');
-    assert.equal(await page.locator('.gesture-dock').count(), 8, 'Missing gesture anchors');
-    assert.equal(await page.locator('main .scene').count(), 8);
+    await page.goto(baseURL, { waitUntil:'networkidle' });
+    assert.equal(await page.locator('h1').count(),1,`Duplicate H1 at ${width}px`);
+    assert.equal(await page.locator('.network-experience').count(),0,'Legacy fixed background still mounted');
+    assert.equal(await page.locator('.gesture-dock').count(),9,'Missing section-local gesture dock');
+    assert.equal(await page.locator('main .scene').count(),9);
 
     for (const id of sections) {
-      assert.equal(await page.locator(`#${id}`).count(), 1, `Missing section ${id}`);
-      await photograph(page, `smoke-${width}-${id}`, `#${id}`);
-      const dock = page.locator(`#${id} .gesture-dock`);
-      assert.equal(await dock.count(), 1, `Missing gesture dock for ${id} at ${width}`);
+      assert.equal(await page.locator(`#${id}`).count(),1,`Missing section ${id}`);
+      await photograph(page, `${width}-${id}`,`#${id}`);
+      if (id !== 'top') {
+        const dock = page.locator(`#${id} .gesture-dock`);
+        assert.equal(await dock.count(),1,`Missing unique gesture for ${id} at ${width}`);
+        assert.ok(await dock.locator('svg path').count() >= 4,`Empty SVG in ${id} at ${width}`);
+      }
     }
-
     await page.locator('#training').scrollIntoViewIfNeeded();
-    await photograph(page, `smoke-${width}-footer`, '#footer');
-    await assertLayout(page, width);
+    await photograph(page,`${width}-footer`,'#footer');
+    await assertLayout(page,width);
     await checkAssets(page);
+    // Typography must survive Tailwind's reset; previously these headings
+    // rendered at inherited 16px despite looking correctly marked up.
+    for (const id of ['services-title','products-title','why-title']) {
+      const px = await page.locator('#'+id).evaluate(el => parseFloat(getComputedStyle(el).fontSize));
+      assert.ok(px >= 40, `Undersized section heading #${id}: ${px}px at ${width}px`);
+    }
+    const gestureSafety = await page.locator('.gesture-dock').evaluateAll(docks =>
+      docks.every(dock => {
+        const svg = dock.querySelector('svg');
+        return getComputedStyle(dock).pointerEvents === 'none' &&
+          getComputedStyle(dock).overflow === 'hidden' &&
+          !!svg && getComputedStyle(svg).overflow === 'hidden';
+      }));
+    assert.ok(gestureSafety,`Artwork may paint or intercept interaction outside its dock at ${width}px`);
 
     if (width === 1440) {
       const hashes = await page.locator('a[href^="#"]').evaluateAll(links =>
         links.map(link => link.getAttribute('href')).filter(href => href && href !== '#'));
-      for (const hash of hashes) assert.equal(await page.locator(hash).count(), 1, `Broken anchor: ${hash}`);
+      for (const hash of hashes) assert.equal(await page.locator(hash).count(),1,`Broken anchor: ${hash}`);
 
-      // Service switching
-      assert.equal(await page.locator('#capabilities .gesture-dock').getAttribute('data-scene'), 'connect');
+      // Contrast modes and navigational controls must survive the animation rig.
+      await page.getByRole('button',{name:'Switch to light theme'}).click();
+      assert.equal(await page.locator('html').getAttribute('data-theme'),'light');
+      await photograph(page,'1440-light-mode-hero','#top');
+      await page.getByRole('button',{name:'Switch to dark theme'}).click();
+      assert.equal(await page.locator('html').getAttribute('data-theme'),'dark');
+      for (const [href,count] of [['mailto:info@ladder7.in',1],['tel:+918137979401',1]]) {
+        assert.ok((await page.locator(`a[href="${href}"]`).count()) >= count,
+          `Missing clickable contact destination: ${href}`);
+      }
+
+      const initialVariant = await page.locator('#capabilities .gesture-dock').getAttribute('data-variant');
+      assert.equal(initialVariant,'digital');
       await page.locator('.service-line').nth(1).locator('button').click();
-      assert.equal(await page.locator('.service-line').nth(1).locator('button').getAttribute('aria-expanded'), 'true');
-      assert.equal(await page.locator('#capabilities .gesture-dock').getAttribute('data-scene'), 'point');
+      assert.equal(await page.locator('.service-line').nth(1).locator('button').getAttribute('aria-expanded'),'true');
+      assert.equal(await page.locator('#capabilities .gesture-dock').getAttribute('data-variant'),'automation');
+      // Every service keeps its copy and its corresponding story gesture.
+      for (const [i,name] of [[0,'digital'],[1,'automation'],[2,'strategy'],[3,'development']]) {
+        const control=page.locator('.service-line').nth(i).locator('button');
+        await control.click();
+        assert.equal(await control.getAttribute('aria-expanded'),'true');
+        assert.equal(await page.locator('#capabilities .gesture-dock').getAttribute('data-variant'),name);
+        assert.equal(await page.locator('.service-line').nth(i).locator('ul li').count(),4);
+      }
 
-      // Product switching
-      const productTab = page.getByRole('tab', { name: /L7 Nexus/ });
+
+      const productTab = page.getByRole('tab',{name:/L7 Nexus/});
       await productTab.click();
-      assert.equal(await page.locator('#product-panel h3').innerText(), 'L7 Nexus');
-      const prodImg = await page.locator('#product-panel img').getAttribute('src');
-      assert.ok(prodImg.includes('nexushome.jpeg'), `Expected authentic screenshot for L7 Nexus, got ${prodImg}`);
+      assert.equal(await page.locator('#product-panel h3').innerText(),'L7 Nexus');
+      await productTab.press('ArrowDown');
+      assert.equal(await page.locator('#product-panel h3').innerText(),'L7 Insights');
 
-      // FAQ accordion
+      for (const productName of ['Site 360','L7 Nexus','L7 Insights','Outreach Engine','Infinite Insights']) {
+        await page.getByRole('tab',{name:new RegExp(productName)}).click();
+        assert.equal(await page.locator('#product-panel h3').innerText(),productName);
+        const image=page.locator('#product-panel .cin-product-frame img');
+        assert.ok(await image.evaluate(img=>img.complete && img.naturalWidth>0),'Product image missing: '+productName);
+      }
+
       const faq = page.locator('.faq-entry').nth(1);
       await faq.locator('button').click();
-      assert.equal(await faq.locator('button').getAttribute('aria-expanded'), 'true');
-      assert.equal(await faq.locator('[role="region"]').isVisible(), true);
-      assert.equal(await page.locator('.faq-entry').count(), 3);
-    }
+      assert.equal(await faq.locator('button').getAttribute('aria-expanded'),'true');
+      assert.equal(await faq.locator('[role="region"]').isVisible(),true);
+      assert.equal(await page.locator('.faq-entry').count(),3);
 
-    if (width <= 390) {
-      await page.getByRole('button', { name: 'Open menu' }).click();
-      assert.equal(await page.getByRole('navigation', { name: 'Mobile navigation' }).isVisible(), true);
-      await page.getByRole('navigation', { name: 'Mobile navigation' }).getByRole('link', { name: /Contact Us/ }).click();
-      assert.equal(await page.getByRole('button', { name: 'Open menu' }).getAttribute('aria-expanded'), 'false');
+      const fingers = ['thumb','index','middle','ring','little'];
+      for (const finger of fingers) {
+        assert.equal(await page.locator(`#faq [data-stroke="${finger}"]`).count(),1,`FAQ missing ${finger}`);
+      }
+      assert.equal(await page.locator('#faq [data-question-path]').count(),1,'Missing line-constructed question mark');
+      await photograph(page,'1440-faq-expanded','#faq');
+      // Scroll-scrubbing must be continuous and reversible, not an opacity-only image swap.
+      const faqDock = page.locator('#faq .gesture-dock');
+      await faqDock.scrollIntoViewIfNeeded();
+      const sceneBefore = await faqDock.evaluate(el => ({
+        progress:Number(el.dataset.progress),
+        hand:el.querySelector('[data-hand-rig]')?.getAttribute('transform'),
+        stage:el.querySelector('[data-stroke="middle"] path:last-child')?.style.strokeDashoffset,
+      }));
+      await page.evaluate(() => {
+        document.documentElement.style.scrollBehavior='auto';
+        window.scrollBy(0,190);
+      });
+      await page.waitForTimeout(140);
+      const sceneForward = await faqDock.evaluate(el => ({
+        progress:Number(el.dataset.progress),
+        hand:el.querySelector('[data-hand-rig]')?.getAttribute('transform'),
+        stage:el.querySelector('[data-stroke="middle"] path:last-child')?.style.strokeDashoffset,
+      }));
+      await page.evaluate(() => window.scrollBy(0,-190));
+      await page.waitForTimeout(140);
+      const sceneReverse = await faqDock.evaluate(el => ({
+        progress:Number(el.dataset.progress),
+        hand:el.querySelector('[data-hand-rig]')?.getAttribute('transform'),
+        stage:el.querySelector('[data-stroke="middle"] path:last-child')?.style.strokeDashoffset,
+      }));
+      assert.ok(sceneForward.progress > sceneBefore.progress + .01,
+        `FAQ not scroll-driven: ${JSON.stringify({sceneBefore,sceneForward})}`);
+      assert.ok(sceneReverse.progress < sceneForward.progress - .01,
+        `FAQ not reversible: ${JSON.stringify({sceneForward,sceneReverse})}`);
+      assert.notEqual(sceneForward.hand,sceneBefore.hand,'FAQ hand rig must move as it forms');
+      await photograph(page,'1440-faq-reverse','#faq');
+      // Capture the actual contact action, not only the beginning of its
+      // section when the hands are intentionally still approaching.
+      const contactDock = page.locator('#contact .gesture-dock');
+      await contactDock.evaluate(el => {
+        document.documentElement.style.scrollBehavior='auto';
+        window.scrollTo(0,Math.max(0,window.scrollY+el.getBoundingClientRect().top-80));
+      });
+      await page.waitForTimeout(160);
+      const contactProgress = Number(await contactDock.getAttribute('data-progress'));
+      assert.ok(contactProgress > .50,`Contact joining phase did not activate: ${contactProgress}`);
+      await page.screenshot({path:'screenshots/1440-contact-connection.png',animations:'disabled'});
+      assert.equal(await page.locator('#products .product-visual .product-gesture').count(),1,
+        'Product gesture must live with its real image in an independent dock');
     }
-
+    if (width <= 430) {
+      await page.evaluate(() => {
+        document.documentElement.style.scrollBehavior='auto';
+        window.scrollTo(0,0);
+      });
+      await page.waitForTimeout(160);
+      const hero = await page.locator('#top .gesture-hero').boundingBox();
+      assert.ok(hero && hero.y < height - 25 && hero.y + hero.height > 60,
+        `Hero palm must visibly appear in the initial mobile viewport at ${width}px: ${JSON.stringify(hero)}`);
+      await page.getByRole('button',{name:'Open menu'}).click();
+      assert.equal(await page.getByRole('navigation',{name:'Mobile navigation'}).isVisible(),true);
+      await page.getByRole('navigation',{name:'Mobile navigation'}).getByRole('link',{name:/Contact Us/}).click();
+      assert.equal(await page.getByRole('button',{name:'Open menu'}).getAttribute('aria-expanded'),'false');
+    }
     await page.close();
-    console.log(`PASS: ${width}px continuous 3D gesture system, assets, no overlaps, no horizontal overflow`);
+    console.log(`PASS: ${width}px section gestures, assets, no overlaps, no horizontal overflow and screenshot coverage`);
   }
 
-  // Reduced motion check
-  const page = await browser.newPage({ reducedMotion: 'reduce', viewport: { width: 1440, height: 900 } });
-  page.on('pageerror', error => failures.push(`reduced-motion: ${error.message}`));
-  await page.goto(baseURL, { waitUntil: 'networkidle' });
-  const hasCanvas = await page.locator('.gesture-stage').count();
-  assert.equal(hasCanvas, 1, 'Canvas stage must be mounted under reduced motion');
-  await photograph(page, 'smoke-reduced-motion-hero', '#top');
-  await page.close();
+  // Save a real browser recording of the continuous, reversible choreography.
+  // Frames are captured from the compiled site; this is not a CSS mock-up.
+  const cinema = await browser.newContext({
+    viewport:{ width:1280,height:760 },
+    reducedMotion:'no-preference',
+    recordVideo:{ dir:'screenshots',size:{width:1280,height:760} },
+  });
+  const film = await cinema.newPage();
+  await film.goto(baseURL,{waitUntil:'networkidle'});
+  await film.evaluate(() => { document.documentElement.style.scrollBehavior='auto'; window.scrollTo(0,0); });
+  const total = await film.evaluate(() => document.documentElement.scrollHeight - window.innerHeight);
+  const frames = 135;
+  for (let i=0; i<=frames; i++) {
+    const t=i/frames;
+    const travel=t < .5 ? (t*2) : (2-t*2);
+    const distance=total * travel;
+    await film.evaluate(y => window.scrollTo(0,y),distance);
+    await film.waitForTimeout(75);
+  }
+  await film.close();
+  await film.video().saveAs('screenshots/ladder7-scroll-choreography.webm');
+  await cinema.close();
 
-  assert.deepEqual(failures, [], 'Critical page errors');
-  console.log('PASS: All browser smoke tests passed cleanly!');
+  const page = await browser.newPage({ reducedMotion:'reduce', viewport:{width:1440,height:900} });
+  page.on('pageerror', error => failures.push(`reduced-motion: ${error.message}`));
+  await page.goto(baseURL,{waitUntil:'networkidle'});
+  await page.locator('#top .gesture-hero').scrollIntoViewIfNeeded();
+  await page.waitForTimeout(80);
+  const offset = await page.locator('#top [data-stroke="index"] path').first().evaluate(el => el.style.strokeDashoffset);
+  assert.equal(offset,'0','Reduced-motion hand must be fully illustrated');
+  assert.equal(await page.locator('#top .gesture-hero').getAttribute('data-phase'),'rest',
+    'Reduced motion should not articulate the hand');
+  await photograph(page,'reduced-motion-hero','#top');
+  await page.close();
+  assert.deepEqual(failures,[],'Critical page errors');
+  console.log('PASS: navigation, service switching, product tabs, FAQ fingers, responsive visual docks, images, reduced-motion and console checks.');
+  console.log('Screenshots saved to screenshots/ and uploaded as GitHub Actions artifact.');
 } finally {
   await browser.close();
 }
