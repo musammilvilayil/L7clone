@@ -658,8 +658,236 @@ h2 em, h1 em { font-style: normal; color: var(--accent); }
   .contact-section .gesture-contact { margin-bottom:45px; }
 }
 
-/* V3: single fixed gesture stage (canvas) driven by scroll; docks are empty layout anchors. */
+/* Single fixed gesture stage (canvas) driven by scroll; docks are empty layout anchors. */
 .gesture-stage { position:fixed; inset:0; width:100vw; height:100vh; z-index:4; pointer-events:none; }
 .site-header { z-index:50; }
 .gesture-dock::after { display:none; }
+
+
+/* ==============================================================
+   V4 · Cinematic choreography (content is always above the artwork)
+   ==============================================================
+   Motion is driven by SVG transforms / strokes, never by large fixed
+   canvases or particle layers. The following are placement constraints.
+*/
+.gesture-dock { contain: layout style; pointer-events:none !important; }
+.gesture-dock, .gesture-dock * { pointer-events:none !important; }
+.gesture-svg { overflow:visible; filter:drop-shadow(0 14px 19px rgba(18,109,197,.17)); }
+.gesture-dock [data-gesture-body], .gesture-dock [data-contact-scene] { will-change: opacity; }
+.gesture-dock [data-hand-rig] { will-change: transform; }
+.gesture-dock [data-secondary="true"] { opacity:.83; }
+.gesture-dock[data-phase="act"] [data-gesture-action] { filter:drop-shadow(0 0 6px rgba(65,151,221,.24)); }
+
+/* Hero is an editorial 3-row left column beside an intentionally
+   reserved, full-height art column; its image remains the original. */
+.hero { min-height:min(900px,100svh); padding-block:calc(var(--nav-height) + 36px) clamp(55px,5vw,84px); }
+.hero .hero-content {
+  display:grid;
+  grid-template-columns:minmax(0,1.09fr) minmax(345px,.91fr);
+  grid-template-areas:"intro art" "message art" "cue art";
+  grid-template-rows:auto auto 1fr;
+  align-items:start;
+  align-content:center;
+  row-gap:clamp(20px,2.7vw,36px);
+  column-gap:clamp(32px,5vw,86px);
+}
+.hero-copy { grid-area:intro; align-self:end; }
+.hero .eyebrow { margin-bottom:clamp(22px,3.1vw,45px); }
+.hero h1 { font-size:clamp(3.05rem,5.3vw,6.85rem); letter-spacing:-.061em; line-height:1.02; }
+.hero-bottom.hero-message {
+  grid-area:message; align-self:start; margin:0;
+  display:flex; flex-direction:column; gap:clamp(19px,2vw,27px);
+}
+.hero-bottom.hero-message>p { max-width:550px; font-size:clamp(14px,1.2vw,17px); line-height:1.7; }
+.hero .hero-explore { grid-area:cue; align-self:start; margin:3px 0 0; }
+.hero .hero-art {
+  grid-area:art; grid-template-rows:minmax(295px,1fr) auto;
+  align-self:center; width:100%; gap:clamp(24px,3vw,42px); min-width:0;
+}
+.hero-art .gesture-dock { height:clamp(310px,32vw,465px); }
+.hero-art-image { align-self:start; width:100%; max-width:100%; }
+.hero-art-image img { object-fit:contain; height:clamp(175px,17vw,245px); }
+
+/* Chapter alternation: thoughtful arrival on left, welcoming palm from
+   left, tactile engineering actions to the right. The other sections
+   deliberately preserve their visual positions. */
+.thinking-section .split-intro {
+  grid-template-columns:minmax(285px,.78fr) minmax(0,1.22fr);
+  gap:clamp(30px,5vw,88px); align-items:center; margin-bottom:clamp(40px,5vw,80px);
+}
+.thinking-section .split-intro .gesture-dock {
+  width:100%; height:clamp(335px,37vw,520px);
+  justify-self:start; transform:none;
+}
+.thinking-section .split-intro>div:not(.gesture-dock) { align-self:center; min-width:0; }
+.thinking-section .split-intro h2 { font-size:clamp(2.75rem,5vw,6.1rem); }
+
+.about-lead {
+  grid-template-columns:minmax(295px,.82fr) minmax(0,1.18fr);
+  gap:clamp(25px,5vw,80px); align-items:center;
+}
+.about-lead .gesture-dock { width:100%; height:clamp(340px,37vw,515px); transform:none; }
+.about-lead .about-copy { grid-column:2; }
+
+/* Screenshot + separated touch interaction: neither artwork nor ray
+   passes across the screenshot content. */
+.product-content { align-items:start; }
+.product-visual {
+  display:flex; flex-direction:column; align-items:stretch;
+  padding:8px; border-radius:10px;
+}
+.product-visual img { width:100%; aspect-ratio:16/11; max-height:420px; object-fit:contain; }
+.product-visual .image-caption {
+  position:relative; display:block; inset:auto; align-self:flex-start;
+  margin:14px 8px 0; padding:5px 7px;
+}
+.product-visual .product-gesture {
+  align-self:center; flex:none;
+  height:clamp(150px,16vw,218px);
+  width:min(100%,320px); max-width:320px;
+  margin:0 auto; padding:0;
+  transform:translateY(-5px);
+}
+.why-art .gesture-dock { height:315px; }
+.why-art { grid-template-rows:315px auto; }
+.faq-intro .gesture-faq { width:min(100%,470px); margin:10px auto 38px; height:clamp(390px,36vw,495px); }
+.faq-visual-label { margin-top:12px !important; }
+.contact-section .gesture-contact { height:clamp(225px,23vw,330px); margin:12px auto 64px; }
+
+/* Design degrades geometrically, not by putting gestures behind copy. */
+@media(max-width:1150px) {
+  .hero .hero-content { grid-template-columns:minmax(0,1.03fr) minmax(305px,.97fr); gap:22px 25px; }
+  .hero h1 { font-size:clamp(2.75rem,5.1vw,5.1rem); }
+  .hero-art .gesture-dock { height:360px; }
+  .thinking-section .split-intro { grid-template-columns:.9fr 1.1fr; gap:20px; }
+  .about-lead { grid-template-columns:.84fr 1.16fr; gap:24px; }
+}
+@media(max-width:800px) {
+  .hero { min-height:0; padding-bottom:68px; }
+  .hero .hero-content { grid-template-columns:1fr; grid-template-areas:"intro" "art" "message" "cue"; grid-template-rows:auto; gap:30px; }
+  .hero h1 { font-size:clamp(3.15rem,8vw,5.7rem); }
+  .hero .hero-art { grid-template-columns:.95fr 1.05fr; grid-template-rows:auto; gap:20px; }
+  .hero-art .gesture-dock { height:310px; }
+  .hero .hero-explore { margin-top:0; }
+  .thinking-section .split-intro { grid-template-columns:.85fr 1.15fr; }
+  .thinking-section .split-intro .gesture-dock { height:320px; }
+  .about-lead { grid-template-columns:.82fr 1.18fr; }
+  .about-lead .gesture-dock { height:315px; }
+  .product-visual .product-gesture { height:195px; }
+  .faq-intro .gesture-faq { height:360px; }
+}
+@media(max-width:550px) {
+  .hero { padding-top:calc(var(--nav-height) + 34px); }
+  .hero .hero-content {
+    /* The hand is now in the first screen, between the heading and CTA. */
+    grid-template-columns:1fr;
+    grid-template-areas:"intro" "gesture" "message" "photo" "cue";
+    row-gap:15px;
+  }
+  .hero .eyebrow { margin-bottom:24px; }
+  .hero h1 { font-size:clamp(2.65rem,11vw,4.25rem); letter-spacing:-.058em; line-height:1.02; }
+  .hero-art { display:contents !important; }
+  .hero-art .gesture-dock {
+    grid-area:gesture; justify-self:center;
+    height:clamp(184px,52vw,245px);
+    width:min(100%,315px); margin:0 auto;
+    padding:0;
+  }
+  .hero-bottom.hero-message { gap:14px; }
+  .hero-bottom.hero-message > p { font-size:14px; line-height:1.62; }
+  .hero-actions { gap:8px; }
+  .hero-actions .action { min-height:46px; padding:11px 15px; }
+  .hero-art-image {
+    grid-area:photo; margin-top:38px; padding:6px;
+    width:100%; max-width:100%;
+  }
+  .hero-art-image::before { top:-21px; }
+  .hero-art-image img { height:clamp(150px,43vw,205px); }
+  .hero .hero-explore { margin-top:8px; }
+  .thinking-section .split-intro {
+    display:grid; grid-template-columns:1fr; gap:3px;
+  }
+  .thinking-section .split-intro .gesture-dock {
+    height:245px; width:min(100%,320px);
+    justify-self:start; margin:0 0 2px;
+  }
+  .thinking-section .split-intro>div:not(.gesture-dock) { width:100%; }
+  .thinking-section .split-intro h2 { font-size:clamp(2.7rem,10vw,4rem); }
+  .about-lead { grid-template-columns:1fr; gap:2px; }
+  .about-lead .gesture-dock { max-width:320px; height:220px; justify-self:start; }
+  .about-lead .about-copy { grid-column:auto; }
+  .services-layout .services-art { width:min(100%,340px); height:245px; }
+  .product-visual img { max-height:290px; }
+  .product-visual .product-gesture { height:160px; max-width:260px; }
+  .why-art { grid-template-columns:1fr 1fr; grid-template-rows:auto; }
+  .why-art .gesture-dock { height:180px; }
+  .faq-intro .gesture-faq { height:310px; margin:9px auto 38px; }
+  .faq-visual-label { margin-top:12px !important; }
+  .contact-section .gesture-contact { height:180px; margin:12px auto 44px; }
+}
+@media(prefers-reduced-motion:reduce) {
+  .gesture-svg { filter:none; }
+  .gesture-dock [data-hand-rig] { will-change:auto; }
+}
+
+
+/* V4 QA: bound actual SVG painting to its dedicated cell. The prior
+   overflow:visible could put fingertips over subsequent copy even when
+   the dock's CSS rectangle passed the collision test. */
+.gesture-dock { overflow:hidden; }
+.gesture-svg { overflow:hidden; }
+.hero-art .gesture-dock { overflow:hidden; }
+.thinking-section .split-intro .gesture-dock,
+.about-lead .gesture-dock,
+.services-layout .services-art,
+.why-art .gesture-dock,
+.faq-intro .gesture-faq,
+.contact-section .gesture-contact { overflow:hidden; }
+.why-art { grid-template-rows:290px auto; gap:70px; }
+.why-art .gesture-dock { height:290px; }
+.contact-section .gesture-contact { padding:3px 0; }
+@media(max-width:800px) {
+  .why-art { grid-template-rows:250px auto; gap:48px; }
+  .why-art .gesture-dock { height:250px; }
+}
+@media(max-width:550px) {
+  .hero-art .gesture-dock { height:clamp(255px,70vw,286px); }
+  .about-lead .gesture-dock { height:295px; max-width:340px; }
+  .thinking-section .split-intro .gesture-dock { height:270px; }
+  .services-layout .services-art { height:270px; }
+  .why-art { grid-template-rows:auto; gap:14px; }
+  .why-art .gesture-dock { height:190px; }
+  .faq-intro .gesture-faq { height:325px; }
+}
+
+
+/* Correct the global reset-specific typography: these three headings
+   previously inherited body-size text on both desktop and mobile. */
+.services-section #services-title,
+.products-section #products-title,
+.why-section #why-title {
+  font-family:'Space Grotesk','Public Sans',sans-serif;
+  font-size:clamp(3.15rem,6.15vw,7.05rem);
+  font-weight:500;
+  letter-spacing:-.063em;
+  line-height:1.035;
+  margin-block:0 30px;
+  max-width:100%;
+  overflow-wrap:normal;
+}
+.why-section #why-title { font-size:clamp(3.3rem,5.8vw,6.8rem); }
+.services-section #services-title em,
+.products-section #products-title em,
+.why-section #why-title em { display:inline; color:var(--accent); }
+@media(max-width:800px) {
+  .services-section #services-title,
+  .products-section #products-title,
+  .why-section #why-title { font-size:clamp(2.65rem,7.4vw,4.5rem); }
+}
+@media(max-width:550px) {
+  .services-section #services-title,
+  .products-section #products-title,
+  .why-section #why-title { font-size:clamp(2.65rem,10vw,3.9rem); line-height:1.07; margin-bottom:24px; }
+  .services-section .section-heading-row { gap:22px; }
+}
 

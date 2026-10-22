@@ -104,15 +104,15 @@ function Hero() {
             <span className="vertical-aside">ENGINEERING THE NEXT STEP</span>
             <h1 id="hero-title">{slide.title}<em>{slide.titleHighlight}</em></h1>
           </div>
-          <div className="hero-bottom">
-            <p>{slide.description}</p>
-            <div className="hero-actions">
-              <a className="action action-primary" href="#contact">{slide.primaryCta}<ArrowUpRight size={19} /></a>
-              <a className="action action-outline" href="#capabilities">{slide.secondaryCta}<ArrowRight size={19} /></a>
-            </div>
-          </div>
-          <a className="scroll-cue" href="#thinking"><ArrowDown size={16} /> Explore the experience</a>
         </div>
+        <div className="hero-bottom hero-message">
+          <p>{slide.description}</p>
+          <div className="hero-actions">
+            <a className="action action-primary" href="#contact">{slide.primaryCta}<ArrowUpRight size={19} /></a>
+            <a className="action action-outline" href="#capabilities">{slide.secondaryCta}<ArrowRight size={19} /></a>
+          </div>
+        </div>
+        <a className="scroll-cue hero-explore" href="#thinking"><ArrowDown size={16} /> Explore the experience</a>
         <div className="hero-art" aria-label="Ladder7 digital engineering imagery">
           <GestureAnchor scene="open" className="gesture-hero" />
           <figure className="hero-art-image">
@@ -130,11 +130,11 @@ function Thinking() {
     <section className="scene thinking-section" id="thinking" aria-labelledby="thinking-title">
       <div className="content-width">
         <div className="section-intro split-intro">
+          <GestureAnchor scene="think" className="gesture-thinking" />
           <div>
             <p className="eyebrow"><span className="eyebrow-line"/> New perspectives</p>
             <h2 id="thinking-title">Complexity is real.<br/><span className="muted-title">The next step is clear.</span></h2>
           </div>
-          <GestureAnchor scene="think" className="gesture-thinking" />
         </div>
         <div className="perspective-list">
           {HERO_SLIDES.slice(1).map((slide) => (
@@ -161,11 +161,11 @@ function About() {
       <div className="content-width">
         <p className="eyebrow"><span className="eyebrow-line" /> Who we are</p>
         <div className="about-lead">
+          <GestureAnchor scene="raise" className="gesture-about" />
           <div className="about-copy">
             <h2 id="about-title">Every Business. Every Market. <em>One Goal — Revenue.</em></h2>
             <p>We build intelligent digital systems for organisations ready to turn their online presence into their most powerful sales asset. At Ladder7 Nextstep Solutions, we believe every business — regardless of size — deserves a digital presence that actively generates revenue. We act as the strategic delivery partner for growth-focused organisations, translating digital ambition into measurable business outcomes.</p>
           </div>
-          <GestureAnchor scene="raise" className="gesture-about" />
         </div>
         <div className="audience-list">
           {AUDIENCES.map((item, index) => (

@@ -48,6 +48,18 @@ const OPEN_HAND: Stroke[] = [
   { id: 'middle-joint', stage: 7, secondary: true, d: 'M151 119 Q168 125 185 120' },
   { id: 'ring-joint', stage: 7, secondary: true, d: 'M193 133 Q208 143 223 136' },
   { id: 'little-joint', stage: 7, secondary: true, d: 'M229 160 Q244 169 260 163' },
+  // Anatomical volume: dorsal ridges and layered joint contours stay inside
+  // the finger silhouettes, never extending random wires into the background.
+  { id: 'thumb-ridge', stage: 7, secondary: true, d: 'M43 166 C53 164 75 180 96 205' },
+  { id: 'index-ridge', stage: 7, secondary: true, d: 'M135 91 C133 112 135 145 139 178' },
+  { id: 'middle-ridge', stage: 7, secondary: true, d: 'M170 63 C168 99 169 139 169 178' },
+  { id: 'ring-ridge', stage: 7, secondary: true, d: 'M213 97 C207 120 201 156 199 185' },
+  { id: 'little-ridge', stage: 7, secondary: true, d: 'M254 147 C244 159 236 184 228 199' },
+  { id: 'index-distal', stage: 7, secondary: true, d: 'M121 109 Q135 117 146 110' },
+  { id: 'middle-distal', stage: 7, secondary: true, d: 'M155 84 Q170 91 183 85' },
+  { id: 'ring-distal', stage: 7, secondary: true, d: 'M198 118 Q212 125 225 120' },
+  { id: 'volar-arch', stage: 7, secondary: true, d: 'M103 224 C111 241 118 251 123 277 C148 285 178 287 209 277' },
+  { id: 'wrist-core', stage: 7, secondary: true, d: 'M129 296 Q165 310 206 299' },
 ];
 
 /** Purpose-built silhouettes, not 10 rotations of the same open hand. */
@@ -72,12 +84,22 @@ const PINCH_HAND: Stroke[] = [
   { id:'knuckle-net',secondary:true,d:'M137 227 L157 250 L187 244 L208 262 L237 239 M156 251 L173 287 L208 262' },
 ];
 const THINK_HAND: Stroke[] = [
-  { id:'wrist',d:'M99 310 C101 281 108 262 127 247 C145 234 166 232 187 233 C212 232 236 250 239 277 L244 314' },
-  { id:'index',d:'M126 247 C110 229 91 215 73 201 C55 185 50 175 58 164 C67 152 81 156 96 168 L151 208' },
-  { id:'finger-fold',d:'M151 208 C170 201 182 186 194 175 C208 162 220 163 227 173 C234 182 230 192 220 202 L196 226' },
-  { id:'thumb',d:'M187 233 C176 216 167 201 160 186 C154 169 159 156 171 153 C184 150 191 160 195 174' },
-  { id:'palm',secondary:true,d:'M120 270 C153 255 198 264 227 279 M135 292 C164 284 205 296 230 294' },
-  { id:'depth',secondary:true,d:'M151 208 C159 228 168 244 183 267 M176 234 L207 274 L229 250' },
+  // Hand under chin: the index is folded and meets the profile at the jaw.
+  // There is deliberately no upright lone digit or V-sign silhouette.
+  { id:'wrist-left', d:'M91 336 C94 303 102 283 126 266' },
+  { id:'support-index', d:'M126 266 C124 239 135 221 157 214 C175 207 195 202 212 190 C229 177 243 176 249 187 C255 198 247 208 232 219 L203 242' },
+  { id:'folded-middle', d:'M203 242 C224 219 239 219 247 229 C255 240 247 253 233 262 L212 276' },
+  { id:'folded-ring', d:'M212 276 C227 264 240 268 243 281 C245 292 233 302 217 304' },
+  { id:'folded-little', d:'M217 304 C225 320 217 333 207 339' },
+  { id:'wrist-right', d:'M207 339 C168 347 129 350 91 336' },
+  { id:'thumb-under-chin', d:'M126 266 C137 252 152 250 162 258 C174 268 184 275 199 281' },
+  // Minimal human profile gives the hand a thoughtful purpose, and stays
+  // inside the same reserved gesture dock (not across heading typography).
+  { id:'profile-contour', secondary:true, d:'M274 62 C300 67 308 93 307 111 C306 129 295 145 289 158 C291 167 301 174 298 181 C292 190 281 190 275 192 C273 203 268 213 254 219 C240 222 234 221 232 219' },
+  { id:'profile-neck', secondary:true, d:'M269 220 C281 244 278 262 272 276' },
+  { id:'profile-eye', secondary:true, d:'M279 164 C285 161 292 160 297 161' },
+  { id:'palm-crease', secondary:true, d:'M131 281 C153 278 179 282 211 297 M139 308 Q171 310 211 323' },
+  { id:'knuckle-mesh', secondary:true, d:'M153 214 Q166 239 172 280 M193 209 Q204 240 215 270' },
 ];
 const BUILD_HAND: Stroke[] = [
   { id:'wrist',d:'M90 310 C94 286 101 267 111 258 C124 245 141 241 164 244' },
@@ -107,7 +129,7 @@ const HANDS: Record<Exclude<GestureVariant, 'contact'>, Stroke[]> = {
 };
 const POSITION: Record<Exclude<GestureVariant, 'contact'>, Config> = {
   hero: { rotation: -9, scale: .94, offsetX: 8, offsetY: 0 },
-  thinking: { rotation: 18, scale: .94, offsetX: 0, offsetY: -7 },
+  thinking: { rotation: 3, scale: 1.08, offsetX: 0, offsetY: -7 },
   about: { rotation: -25, scale: .95, offsetX: -7, offsetY: 13, node:[268,182] },
   digital: { rotation: 13, scale: 1, offsetX: 5, offsetY: 0, node:[268,182] },
   automation: { rotation: -18, scale: .99, offsetX: 0, offsetY: 0, node:[144,62] },
@@ -302,7 +324,14 @@ export function NetworkGesture({ gesture, className = '' }: { gesture: GestureVa
         const phase = isFaq
           ? ease(.01 + stage*.039, .115 + stage*.042, p)
           : ease(.025 + stage*.044, .19 + stage*.088, p);
-        const done = reduced ? 1 : phase;
+        // On leaving a chapter, stroke geometry unspools in reverse rather
+        // than fading an unchanged SVG silhouette to zero.
+        const unwindStart = isHero ? .90 : .84;
+        const unwindEnd = isHero ? .995 : .985;
+        const release = reduced ? 1 : 1 - ease(
+          unwindStart + (isFaq ? (7-stage)*.008 : (2-Math.min(2,stage))*.018),
+          unwindEnd, p);
+        const done = reduced ? 1 : phase * release;
         paintPaths(line, done);
         // Open, extend, or fold each digit separately relative to its MCP pivot.
         const pivot = line.dataset.articulate && ARTICULATION_PIVOTS[line.dataset.articulate];
@@ -313,21 +342,25 @@ export function NetworkGesture({ gesture, className = '' }: { gesture: GestureVa
           line.setAttribute('transform', 'rotate(' + (flex+spread).toFixed(2) + ' ' + x + ' ' + y + ')');
         }
         // Fine internal contours can be removed on low power/mobile without changing silhouettes.
-        line.style.display = simplified() && internal && !isFaq ? 'none' : '';
+        line.style.display = simplified() && internal && !isFaq && !line.dataset.stroke?.startsWith('profile-') ? 'none' : '';
       }
       if (question) {
-        question.style.opacity = (reduced ? 1 : ease(.31,.42,p) * departure).toFixed(3);
+        question.style.opacity = (reduced ? 1 : ease(.25,.32,p) * departure).toFixed(3);
         const mark = question.querySelector('[data-question-path]');
-        if (mark) paintPaths(mark, reduced ? 1 : ease(.33,.50,p)); // last phase, not simultaneously with palm
+        if (mark) paintPaths(mark, reduced ? 1 : ease(.26,.39,p)); // visible when all five digits are on-screen
         const dot = question.querySelector<SVGElement>('[data-question-dot]');
-        if (dot) dot.style.opacity = String(reduced ? 1 : ease(.46,.53,p));
+        if (dot) dot.style.opacity = String(reduced ? 1 : ease(.33,.39,p));
       }
       if (action) {
         action.style.opacity = String(reduced ? 1 : ease(.39,.60,p) * departure);
         const wire = action.querySelector('[data-action-wire]');
-        if (wire) paintPaths(wire, reduced ? 1 : ease(.40,.69,p));
+        if (wire) paintPaths(wire, reduced ? 1 : ease(.40,.69,p)*(1-ease(.88,.99,p)));
         const node = action.querySelector<SVGElement>('[data-touch-point]');
-        if (node) node.style.transform = 'scale(' + (1 + .6 * (reduced ? 0 : Math.sin(Math.PI * actionPhase))) + ')';
+        if (node) {
+          node.style.transformBox = 'fill-box';
+          node.style.transformOrigin = 'center';
+          node.style.transform = 'scale(' + (1 + .25 * (reduced ? 0 : Math.sin(Math.PI * actionPhase))) + ')';
+        }
       }
       if (productAction) {
         productAction.style.opacity = String(reduced ? 1 : ease(.36,.60,p) * departure);
@@ -337,23 +370,27 @@ export function NetworkGesture({ gesture, className = '' }: { gesture: GestureVa
         const right = hand.dataset.reach === 'right';
         const move = reduced ? 0 : (1-ease(.09,.67,p)) * 70;
         const touch = reduced ? 0 : -7 * breathe;
+        // Both fingertips actually meet at the center, rather than hovering apart.
+        const approach = reduced ? 15 : 15 * ease(.43,.77,p);
         hand.setAttribute('transform',
-          right ? 'translate(' + (760+move).toFixed(2) + ' ' + touch.toFixed(2) + ') scale(-1 1)'
-                : 'translate(' + (-move).toFixed(2) + ' ' + touch.toFixed(2) + ')');
+          right ? 'translate(' + (760+move-approach).toFixed(2) + ' ' + touch.toFixed(2) + ') scale(-1 1)'
+                : 'translate(' + (-move+approach).toFixed(2) + ' ' + touch.toFixed(2) + ')');
         hand.style.opacity = opacity.toFixed(3);
       }
       for (const line of reachLines) {
         const stage = Number(line.dataset.reachStage ?? 1);
-        paintPaths(line, reduced ? 1 : ease(.035+stage*.085, .39+stage*.082,p));
+        const form = ease(.035+stage*.085, .39+stage*.082,p);
+        const release = 1-ease(.83+stage*.017,.994,p);
+        paintPaths(line, reduced ? 1 : form*release);
       }
       for (const line of contourLines) {
         if (simplified()) { line.style.display = 'none'; continue; }
-        paintPaths(line, reduced ? 1 : ease(.27,.65,p));
+        paintPaths(line, reduced ? 1 : ease(.27,.65,p)*(1-ease(.86,.99,p)));
       }
       if (connection) {
         connection.style.opacity = String(reduced ? 1 : ease(.52,.68,p) * departure);
         const wire = connection.querySelector('[data-connection-wire]');
-        if (wire) paintPaths(wire, reduced ? 1 : ease(.49,.69,p));
+        if (wire) paintPaths(wire, reduced ? 1 : ease(.49,.69,p)*(1-ease(.88,.99,p)));
       }
       // Keep the purely decorative layer inert for mouse, touch, keyboard.
       mount.style.pointerEvents = 'none';
