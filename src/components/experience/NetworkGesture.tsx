@@ -184,22 +184,61 @@ function WireHand({ gesture, progress, reduced, mirrored = false }: {
   );
 }
 
+/** A deliberate human-to-human fingertip connection, not two open palms piled together. */
 function PairHands({ progress, reduced }: { progress: number; reduced: boolean }) {
-  const enter = reduced ? 1 : ease(.08,.37,progress);
-  const opacity = reduced ? 1 : ease(.02,.16,progress) * (1-ease(.85,.98,progress));
+  const reveal = reduced ? 1 : ease(.06, .55, progress);
+  const slide = (1 - reveal) * 65;
+  const visibility = reduced ? 1 : ease(.03, .17, progress) * (1 - ease(.92, 1, progress));
+  const lineProgress = reduced ? 1 : ease(.08, .54, progress);
+  const fingers = [
+    // A long, outstretched index finger creates a clear focal point.
+    'M8 222 C68 220 120 210 165 196 C195 188 216 175 243 171 C276 166 305 159 350 154 C365 153 375 160 375 170 C375 180 367 185 355 187 L304 195',
+    // The underside runs through folded knuckles rather than a second fan of fingers.
+    'M304 195 C286 205 272 215 265 222 C282 226 294 232 293 244 C291 258 279 262 257 259',
+    'M257 259 C273 271 271 283 261 290 C248 298 231 289 211 285',
+    'M211 285 C227 301 215 314 195 306 C184 301 177 298 157 294',
+    // Continuous forearm and wrist.
+    'M157 294 C107 275 58 274 8 280',
+    // Thumb pressed slightly upward beneath the extended index.
+    'M174 195 C193 211 217 222 234 225 C248 226 252 214 246 203 C241 193 224 185 212 180',
+  ];
+  const mesh = [
+    'M126 211 C144 241 146 268 157 294',
+    'M161 196 C177 226 188 262 195 306',
+    'M198 184 C212 210 224 244 238 284',
+    'M165 230 Q216 224 265 222',
+    'M164 254 Q207 251 257 259',
+    'M171 276 Q201 277 228 284',
+    'M242 171 Q266 178 289 176',
+    'M304 164 Q330 169 350 167',
+  ];
   return (
-    <g opacity={opacity}>
-      <g transform={`translate(${60 + enter * 75} 17) scale(.82) rotate(-38 180 180)`}>
-        <WireHand gesture="about" progress={progress} reduced={reduced}/>
+    <g opacity={visibility} fill="none" strokeLinecap="round" strokeLinejoin="round">
+      {[false, true].map(mirror => (
+        <g key={mirror ? 'right-connecting-hand' : 'left-connecting-hand'}
+          transform={mirror ? `translate(${760 + slide} 0) scale(-1 1)` : `translate(${-slide} 0)`}>
+          {fingers.map((d, i) => (
+            <g key={i}>
+              <path d={d} stroke="var(--gesture-depth,#1b528a)" strokeWidth="3.1"
+                transform="translate(0 4)" opacity=".45"
+                pathLength={1} strokeDasharray="1" strokeDashoffset={1-lineProgress} />
+              <path d={d} stroke="var(--gesture-stroke,#8fcbff)" strokeWidth="2.1"
+                pathLength={1} strokeDasharray="1" strokeDashoffset={1-lineProgress}/>
+            </g>
+          ))}
+          {mesh.map((d, i) => (
+            <path key={i} d={d} stroke="var(--gesture-inner,#68a5d3)" opacity=".55" strokeWidth=".95"
+              pathLength={1} strokeDasharray="1"
+              strokeDashoffset={1 - (reduced ? 1 : ease(.24,.69,progress))}/>
+          ))}
+        </g>
+      ))}
+      <g opacity={reduced ? 1 : ease(.5,.72,progress)}>
+        <circle cx="380" cy="169" r="11" stroke="var(--gesture-stroke,#8fcbff)" strokeWidth=".8" opacity=".55"/>
+        <circle cx="380" cy="169" r="4.5" fill="var(--gesture-stroke,#8fcbff)" stroke="none"/>
+        <path d="M378 144 V135 M382 194 V203 M351 169 H344 M416 169 H409"
+          stroke="var(--gesture-stroke,#8fcbff)" strokeWidth="1" opacity=".55"/>
       </g>
-      <g transform={`translate(${700 - enter * 75} 17) scale(-.82 .82) rotate(-38 180 180)`}>
-        <WireHand gesture="about" progress={progress} reduced={reduced}/>
-      </g>
-      <path d="M351 183 Q380 159 409 183" stroke="var(--gesture-stroke,#8fcbff)"
-        strokeWidth="1.3" fill="none" opacity={reduced ? 1 : ease(.4,.6,progress)}
-        pathLength={1} strokeDasharray="1" strokeDashoffset={1-enter}/>
-      <circle cx="380" cy="177" r="3.3" fill="var(--gesture-stroke,#8fcbff)"
-        opacity={reduced ? 1 : ease(.52,.72,progress)}/>
     </g>
   );
 }
