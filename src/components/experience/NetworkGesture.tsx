@@ -191,26 +191,25 @@ function PairHands({ progress, reduced }: { progress: number; reduced: boolean }
   const visibility = reduced ? 1 : ease(.02, .1, progress) * (1 - ease(.96, 1, progress));
   const lineProgress = reduced ? 1 : ease(.08, .54, progress);
   const fingers = [
-    // A long, outstretched index finger creates a clear focal point.
-    'M8 222 C68 220 120 210 165 196 C195 188 216 175 243 171 C276 166 305 159 350 154 C365 153 375 160 375 170 C375 180 367 185 355 187 L304 195',
-    // The underside runs through folded knuckles rather than a second fan of fingers.
-    'M304 195 C286 205 272 215 265 222 C282 226 294 232 293 244 C291 258 279 262 257 259',
-    'M257 259 C273 271 271 283 261 290 C248 298 231 289 211 285',
-    'M211 285 C227 301 215 314 195 306 C184 301 177 298 157 294',
-    // Continuous forearm and wrist.
-    'M157 294 C107 275 58 274 8 280',
-    // Thumb pressed slightly upward beneath the extended index.
-    'M174 195 C193 211 217 222 234 225 C248 226 252 214 246 203 C241 193 224 185 212 180',
+    // Forearm and straight index meet the opposite index at the central interaction node.
+    'M12 216 C76 214 122 210 169 204 C200 200 217 189 240 184 C274 176 315 162 347 161 C359 161 364 166 364 174 C364 181 355 186 343 188 L307 195',
+    'M307 195 C291 199 275 205 262 210',
+    // Distinct small folded fingers; deliberately no crab-claw arcs.
+    'M262 210 C277 214 285 221 283 230 C281 239 271 242 256 240',
+    'M256 240 C272 248 275 258 266 266 C258 273 244 269 232 263',
+    'M232 263 C243 275 240 286 228 290 C217 293 204 287 194 282',
+    'M194 282 C158 284 126 282 92 281 C62 281 35 281 12 282',
+    // Short thumb supports the pointing posture.
+    'M169 204 C183 216 195 224 212 231 C223 235 233 233 238 227',
   ];
   const mesh = [
-    'M126 211 C144 241 146 268 157 294',
-    'M161 196 C177 226 188 262 195 306',
-    'M198 184 C212 210 224 244 238 284',
-    'M165 230 Q216 224 265 222',
-    'M164 254 Q207 251 257 259',
-    'M171 276 Q201 277 228 284',
-    'M242 171 Q266 178 289 176',
-    'M304 164 Q330 169 350 167',
+    'M124 210 C143 234 147 262 152 280',
+    'M162 205 C174 227 180 256 184 282',
+    'M198 191 C211 212 220 243 226 287',
+    'M153 227 Q201 221 263 213',
+    'M160 247 Q201 243 254 241',
+    'M166 270 Q195 267 233 264',
+    'M244 184 Q277 185 301 175',
   ];
   return (
     <g opacity={visibility} fill="none" strokeLinecap="round" strokeLinejoin="round">
