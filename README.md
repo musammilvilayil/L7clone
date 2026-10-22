@@ -1,91 +1,84 @@
-# Ladder7 — Connected Lines Experience
+# Ladder7 — Cinematic Storytelling Experience
 
-An original creative redesign of [Ladder7 Nextstep Solutions](https://www.ladder7.in/) built as a single responsive, scroll-driven editorial experience. This work lives **only on `dev`**; `main` is the read-only original.
+Complete visual redesign of the [Ladder7 Nextstep Solutions](https://www.ladder7.in/) single-page website. This work lives on **`dev` only**; `main` remains untouched and read-only for original content.
 
-## Visual idea
+## What the website now does
 
-**Connected lines → distinctive hand gesture → meaningful interaction → next gesture.** Each major section reserves a dedicated illustration dock beside or between its actual content. There is no permanent fixed background network. Gesture paths are drawn progressively on native scroll and reverse naturally when scrolling upward. No random lines extend across the page.
+Nine connected editorial chapters preserve Ladder7's existing content and contacts while introducing an art-directed scroll narrative:
 
-The visuals include an open-palm hero, thoughtful thinking pose, welcoming hand for About, service-specific engineering / pointing / thinking / pinching states, product touch, confident thumb-up, a front-facing five-finger FAQ gesture, and two approaching contact hands. FAQ sequentially draws wrist, palm, thumb, index, middle, ring, little finger, internal contour lines, then a hand-drawn question mark.
+1. Opening — cinematic AI hero, original image, hand and live CTA.
+2. Vision — sticky chapter rail with three full original narrative/image panels.
+3. Who we are — welcoming gesture, mission and the two original customer segments.
+4. Services — four interactive service chapters and large image-backed hand-gesture theatre.
+5. Products — five accessible product tabs, original screenshots, separate touch gesture, detail rail and keyboard controls.
+6. Engineering — full-bleed original engineering image, existing business messaging, illustrative instrument panel.
+7. Why Ladder7 — editorial value pillars and real imagery; no fabricated statistics.
+8. FAQ — sequential five-digit hand anatomy and fully accessible original answers.
+9. Finale — two hands connecting, original CTA, direct telephone/email links, education/training strip and full footer.
 
-The lightweight SVG approach avoids adding Three.js or GSAP. Motion uses IntersectionObserver plus one requestAnimationFrame scroll sampler for active illustration docks, cleaned up on unmount; reduced-motion shows a complete static figure. Geometry and choreography live in `src/components/experience/NetworkGesture.tsx`; illustrations cannot capture pointer events.
+The design uses brand blue `#0056b2`, original dark-blue palette, original copy and media. No reference site code, models or artwork was copied.
 
-## Requirements
+## Run locally
 
-- Node.js 22.12+ (recommended: Node 22 LTS)
-- npm
-- Browsers with modern SVG/CSS support
-
-## Run
+Node.js 22 LTS and npm required.
 
 ```bash
-git checkout dev
+git switch dev
 npm ci
-npm run dev
+npm run dev -- --host 0.0.0.0 --port 5174
 ```
 
-Visit the local Vite URL shown in the terminal.
+The live user preview is `https://bug-free-lamp-g4qxg9r47qgpcwgq-5174.app.github.dev/`. GitHub commits **do not automatically update a running Codespaces checkout**. If its local branch is behind, first inspect `git status`, save your changes, then `git pull --ff-only origin dev` and restart Vite.
 
-## Production checks
+## Build and QA
 
 ```bash
-npm run lint
 npm run build
+npm run lint
 npm run preview
 ```
 
-The build command runs the TypeScript compiler before bundling. GitHub Actions:
-- `.github/workflows/validate.yml`: dependency installation, typecheck/build, lint
-- `.github/workflows/browser-qa.yml`: Playwright smoke with screenshot artifacts at **1440, 1024, 768, 390, 360px**; verifies no overlap or horizontal overflow, original images, interactive controls, five FAQ fingers, unique section gestures and reduced-motion
+GitHub Actions on `dev`:
+- `.github/workflows/validate.yml`: Node 22, pinned npm dependencies, TypeScript/Vite production build and lint.
+- `.github/workflows/browser-qa.yml`: Playwright real Chromium smoke at **320, 360, 375, 390, 430, 768, 1024, 1440 and 1920px**; scene rendering, no overflow, accessible interactions, copied business assets, theme, reduced-motion, scroll progress, FAQ anatomy, screen captures and video.
 
-To run browser smoke locally, install `playwright` as a temporary dev dependency and browser binaries, start `npm run preview`, then run `node scripts/browser-smoke.mjs`.
+The browser action uploads screenshot/video artifacts. For exact **current run status and remaining limitations**, see [docs/QA_REPORT.md](docs/QA_REPORT.md) rather than assuming a queued run succeeded.
 
 ## Architecture
 
 ```text
 src/
-  App.tsx                        # activates creative app
-  CreativeApp.tsx                # sections, nav, accessibility, interactions
-  creative.css                   # responsive editorial design and brand tokens
+  App.tsx                                 active cinematic entrypoint
+  CinematicApp.tsx                        new nine-chapter site and working controls
+  cinematic.css                           brand-aware responsive cinematic design
   components/experience/
-    NetworkGesture.tsx           # local scroll sampler and distinct hand contour geometry
+    useScrollDirector.ts                  chapter progress, reveal observer, scroll depth
+    NetworkGesture.tsx                    2.5D SVG hands and scroll-scrubbed joint animation
   data/
-    heroSlides.ts                # authoritative original hero text
-    capabilitiesData.ts          # original four service capabilities
-    productsData.ts              # five products and complete features
-    faqData.ts                   # original FAQ copy
-  components/                   # legacy originals preserved as reference
-docs/
-  CONTENT_MAP.md                 # exact origin-to-redesign mapping
-  ASSET_MANIFEST.md              # unique image source, dimensions, usage
-  QA_REPORT.md                   # completed checks and blockers
+    heroSlides.ts                         original four hero narratives/media
+    capabilitiesData.ts                   original four services and descriptions
+    productsData.ts                       original five products and feature lists
+    faqData.ts                            original Q&A
+  CreativeApp.tsx, creative.css           previous dev design retained for rollback
 scripts/
-  browser-smoke.mjs              # browser interaction regression script
+  browser-smoke.mjs                       regression + visual artifact pipeline
+docs/
+  CINEMATIC_REDESIGN.md                   reference audit, licenses, design reasoning
+  QA_REPORT.md                            actual outcomes, known limitations
 ```
 
-## Content and branding
+This is a deliberately selective native implementation: `IntersectionObserver`, RAF and CSS transforms provide scroll choreography without adding GSAP, Lenis or heavy Three.js bundles. No rigged 3D hand GLTF assets existed in the reference project; original custom SVG contour hands provide reversibility and reduced-motion fallbacks without mobile WebGL. The implementation does **not** claim real 3D hand meshes or use a library it doesn't import.
 
-The primary brand blue is **`#0056b2`**, hover **`#004494`**, dark surfaces **`#0f1923`** and **`#031226`**. Original headlines, descriptions, FAQ answers, product details, company locations, phone, and email are retained. The new layout uses original categorized assets under `public/images`. No old file or binary asset is deleted.
+## Accessibility and content guarantees
 
-The source project is a homepage with hash links. All main navigation destinations now exist; no fictional inner pages, case studies, performance metrics, or forms have been added.
+- Semantic document landmarks and headings, skip link, readable original business content.
+- Responsive mobile navigation with `aria-expanded`, Escape-to-close and inert collapsed drawer.
+- Keyboard operable service accordion, product tablist with arrows/Home/End, FAQ panel relationships.
+- Visible focus, original images with meaningful alt text, no gestures over controls.
+- Mobile-tailored opening; small-screen modes remove expensive inner SVG details.
+- `prefers-reduced-motion` renders full readable content and static complete hand geometry.
+- Contact CTAs use working `mailto:` and `tel:` URLs; no fictitious contact form.
+- Existing Blogs/Careers/Privacy footer anchors are inherited from original content. No fictional links added.
+- The source includes one product screenshot used for five products; product-specific data is changed, but nonexistent screenshots are not invented.
 
-## Accessibility
-
-- Accessible skip link, semantic headings and a logical reading order
-- Fully keyboard-usable product tabs (including arrow keys)
-- FAQ and service disclosures with `aria-expanded` and stable panel relationships
-- Mobile navigation with proper expanded state, Escape handling, and inert closed drawer
-- Visible focus indicators and image alt text
-- User-selectable dark/light interface (dark by default)
-- Native scroll, no scroll trapping
-- `prefers-reduced-motion` disables decorative animation and produces a static geometry fallback
-
-## Known constraints
-
-- Source had no configured contact-form backend: CTA uses real `mailto:` and `tel:` links.
-- The original footer links to Blogs/Careers/Privacy Policy are placeholder fragment links, not standalone pages.
-- The source contains just one product preview asset reused across all products; a different authenticated preview is not fabricated.
-- The local teammate directory `D:\\l7\\l7` could not be accessed remotely.
-- CI browser screenshots provide automated visual evidence, but aesthetic assessment on real devices is still required before publishing.\n- The supplied GitHub Codespaces preview requires GitHub sign-in from an external browser and could not be independently visually audited there.
-
-**Never merge to `main` until reviewed by the project team.**
+**Release caution:** Do not merge `dev` into `main` until the team reviews the Codespaces preview at the exact latest commit and confirms the final browser QA run.
