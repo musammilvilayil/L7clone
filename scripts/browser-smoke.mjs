@@ -113,10 +113,46 @@ try {
       for (const finger of fingers) {
         assert.equal(await page.locator(`#faq [data-stroke="${finger}"]`).count(),1,`FAQ missing ${finger}`);
       }
-      assert.equal(await page.locator('#faq .gesture-dock svg path[d^="M150 47"]').count(),1,'Missing line-constructed question mark');
+      assert.equal(await page.locator('#faq [data-question-path]').count(),1,'Missing line-constructed question mark');
       await photograph(page,'1440-faq-expanded','#faq');
+      // Scroll-scrubbing must be continuous and reversible, not an opacity-only image swap.
+      const faqDock = page.locator('#faq .gesture-dock');
+      await faqDock.scrollIntoViewIfNeeded();
+      const sceneBefore = await faqDock.evaluate(el => ({
+        progress:Number(el.dataset.progress),
+        hand:el.querySelector('[data-hand-rig]')?.getAttribute('transform'),
+        stage:el.querySelector('[data-stroke="middle"] path:last-child')?.style.strokeDashoffset,
+      }));
+      await page.evaluate(() => {
+        document.documentElement.style.scrollBehavior='auto';
+        window.scrollBy(0,190);
+      });
+      await page.waitForTimeout(140);
+      const sceneForward = await faqDock.evaluate(el => ({
+        progress:Number(el.dataset.progress),
+        hand:el.querySelector('[data-hand-rig]')?.getAttribute('transform'),
+        stage:el.querySelector('[data-stroke="middle"] path:last-child')?.style.strokeDashoffset,
+      }));
+      await page.evaluate(() => window.scrollBy(0,-190));
+      await page.waitForTimeout(140);
+      const sceneReverse = await faqDock.evaluate(el => ({
+        progress:Number(el.dataset.progress),
+        hand:el.querySelector('[data-hand-rig]')?.getAttribute('transform'),
+        stage:el.querySelector('[data-stroke="middle"] path:last-child')?.style.strokeDashoffset,
+      }));
+      assert.ok(sceneForward.progress > sceneBefore.progress + .01,
+        `FAQ not scroll-driven: ${JSON.stringify({sceneBefore,sceneForward})}`);
+      assert.ok(sceneReverse.progress < sceneForward.progress - .01,
+        `FAQ not reversible: ${JSON.stringify({sceneForward,sceneReverse})}`);
+      assert.notEqual(sceneForward.hand,sceneBefore.hand,'FAQ hand rig must move as it forms');
+      await photograph(page,'1440-faq-reverse','#faq');
+      assert.equal(await page.locator('#products .product-visual .product-gesture').count(),1,
+        'Product gesture must live with its real image in an independent dock');
     }
     if (width <= 390) {
+      const hero = await page.locator('#top .gesture-hero').boundingBox();
+      assert.ok(hero && hero.y < height - 25 && hero.y + hero.height > 60,
+        `Hero palm must visibly appear in the initial mobile viewport at ${width}px: ${JSON.stringify(hero)}`);
       await page.getByRole('button',{name:'Open menu'}).click();
       assert.equal(await page.getByRole('navigation',{name:'Mobile navigation'}).isVisible(),true);
       await page.getByRole('navigation',{name:'Mobile navigation'}).getByRole('link',{name:/Contact Us/}).click();
@@ -129,8 +165,12 @@ try {
   const page = await browser.newPage({ reducedMotion:'reduce', viewport:{width:1440,height:900} });
   page.on('pageerror', error => failures.push(`reduced-motion: ${error.message}`));
   await page.goto(baseURL,{waitUntil:'networkidle'});
-  const offset = await page.locator('#top [data-stroke="index"] path').first().getAttribute('stroke-dashoffset');
+  await page.locator('#top .gesture-hero').scrollIntoViewIfNeeded();
+  await page.waitForTimeout(80);
+  const offset = await page.locator('#top [data-stroke="index"] path').first().evaluate(el => el.style.strokeDashoffset);
   assert.equal(offset,'0','Reduced-motion hand must be fully illustrated');
+  assert.equal(await page.locator('#top .gesture-hero').getAttribute('data-phase'),'rest',
+    'Reduced motion should not articulate the hand');
   await photograph(page,'reduced-motion-hero','#top');
   await page.close();
   assert.deepEqual(failures,[],'Critical page errors');
