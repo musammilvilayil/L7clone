@@ -26,6 +26,18 @@ const HAND: Stroke[] = [
   { id: 'thenar', points: [[36, 62], [43, 71], [46, 81], [44, 89]] },
   { id: 'knuckles', points: [[39, 54], [46, 51], [53, 52], [61, 52], [72, 56]] },
   { id: 'lifeline', points: [[46, 69], [51, 74], [58, 79], [64, 81]] },
+  // Cross-contours form a spatial wire mesh without filling the palm surface.
+  { id: 'palm-contour-high', points: [[35, 62], [44, 59], [53, 58], [64, 59], [74, 62]] },
+  { id: 'palm-contour-mid', points: [[36, 69], [45, 67], [55, 67], [65, 69], [72, 69]] },
+  { id: 'palm-contour-low', points: [[40, 76], [48, 77], [56, 78], [65, 77], [71, 75]] },
+  { id: 'palm-contour-base', points: [[41, 84], [49, 85], [57, 84], [66, 83], [69, 82]] },
+  { id: 'palm-longitude-left', points: [[46, 53], [45, 61], [44, 69], [45, 79], [46, 90]] },
+  { id: 'palm-longitude-middle', points: [[56, 51], [54, 62], [56, 72], [57, 81], [57, 91]] },
+  { id: 'palm-longitude-right', points: [[65, 52], [66, 61], [67, 72], [67, 82], [66, 90]] },
+  { id: 'index-joint', step: 1, points: [[39, 31], [42, 33], [46, 31], [48, 30]] },
+  { id: 'middle-joint', step: 2, points: [[50, 27], [54, 29], [58, 27], [60, 26]] },
+  { id: 'ring-joint', step: 3, points: [[63, 31], [66, 33], [70, 32], [73, 31]] },
+  { id: 'little-joint', step: 4, points: [[76, 41], [80, 43], [84, 42], [86, 41]] },
 ];
 
 const SCENE_POS: Record<Gesture, { x: number; y: number; s: number; r: number }> = {
@@ -57,13 +69,16 @@ function networkPoint(i: number, j: number, total: number): Point {
   return [x, y];
 }
 
-const BACKGROUND_LINES = Array.from({ length: 43 }, (_, i) => {
-  const x = (i * 163 + 81) % 1000;
-  const y = (i * 113 + 63) % 660;
-  const x2 = (x + 120 + (i % 5) * 49) % 1000;
-  const y2 = (y + 48 + (i % 3) * 61) % 660;
-  return { id: i, x, y, x2, y2 };
-});
+// Actual shared vertices make this a connected network rather than unrelated line segments.
+const NETWORK_NODES = Array.from({ length: 66 }, (_, i) => ({
+  x: 45 + (i % 11) * 94 + Math.sin(i * 2.37) * 17,
+  y: 45 + Math.floor(i / 11) * 114 + Math.cos(i * 1.93) * 17,
+}));
+const BACKGROUND_LINES = NETWORK_NODES.flatMap((node, i) =>
+  [i % 11 < 10 ? i + 1 : -1, i < 55 ? i + 11 : -1]
+    .filter(next => next >= 0)
+    .map((next, j) => ({ id: i * 2 + j, x: node.x, y: node.y, x2: NETWORK_NODES[next].x, y2: NETWORK_NODES[next].y }))
+);
 
 export function NetworkGesture() {
   const [scene, setScene] = useState<Scene>({ gesture: 'hero', progress: 0.38, reduced: false, mobile: false });
@@ -136,10 +151,10 @@ export function NetworkGesture() {
           <filter id="wireSoft"><feGaussianBlur stdDeviation="1.3" /></filter>
         </defs>
         <g stroke="#327bbf" strokeWidth=".7" opacity={backgroundFade} fill="none">
-          {BACKGROUND_LINES.map(line => (
+          {BACKGROUND_LINES.filter((_, i) => !mobile || i % 3 === 0).map(line => (
             <g key={line.id}>
-              <path d={`M ${line.x} ${line.y} Q ${(line.x + line.x2) / 2} ${line.y - 35} ${line.x2} ${line.y2}`} />
-              <circle cx={line.x} cy={line.y} r="2.1" fill="#65adf0" stroke="none" />
+              <path d={`M ${line.x} ${line.y} Q ${(line.x + line.x2) / 2} ${(line.y + line.y2) / 2 - 9} ${line.x2} ${line.y2}`} />
+              <circle cx={line.x} cy={line.y} r="1.5" fill="#65adf0" stroke="none" />
             </g>
           ))}
         </g>
