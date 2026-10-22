@@ -531,3 +531,6 @@ h2 em, h1 em { font-style: normal; color: var(--accent); }
 @media (prefers-reduced-motion: reduce) {
   .gesture-svg { filter:none; }
 }
+
+/* No decorative external network rails: all strokes stay within their hand illustration. */
+.gesture-dock::after { display:none; }
