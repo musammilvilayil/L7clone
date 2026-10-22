@@ -1,4 +1,4 @@
-import CreativeApp from './CreativeApp';
-import './creative.css';
+import CinematicApp from './CinematicApp';
+import './cinematic.css';
 
-export default CreativeApp;
+export default CinematicApp;
