@@ -84,19 +84,22 @@ const PINCH_HAND: Stroke[] = [
   { id:'knuckle-net',secondary:true,d:'M137 227 L157 250 L187 244 L208 262 L237 239 M156 251 L173 287 L208 262' },
 ];
 const THINK_HAND: Stroke[] = [
-  // The index stands beside the face while the other fingers curl into a
-  // compact, supportive palm. This is deliberately NOT a two-finger V sign.
-  { id:'wrist-left', d:'M116 332 C108 308 105 279 108 257 C111 235 122 226 141 219' },
-  { id:'folded-finger', d:'M141 219 C127 215 113 205 110 190 C108 175 117 169 129 173 C141 177 154 188 170 192' },
-  { id:'index-vertical', d:'M170 192 C167 159 166 126 171 108 C174 94 185 89 195 94 C209 100 210 113 206 131 L198 202' },
-  { id:'middle-fold', d:'M198 202 C208 190 223 181 233 186 C245 190 249 201 241 213 L223 230' },
-  { id:'ring-fold', d:'M223 230 C237 227 249 233 251 244 C252 257 241 267 229 270' },
-  { id:'palm-outer', d:'M229 270 C240 290 232 318 218 334' },
-  { id:'wrist-base', d:'M218 334 C183 345 145 343 116 332' },
-  { id:'thumb-rest', d:'M141 219 C149 234 168 248 184 258 C195 263 205 261 210 253' },
-  { id:'knuckle-crease', secondary:true, d:'M150 273 C174 267 205 277 229 293 M149 302 C177 298 203 306 220 316' },
-  { id:'index-joint', secondary:true, d:'M169 162 Q186 170 204 162 M172 134 Q186 142 207 134' },
-  { id:'palm-mesh', secondary:true, d:'M142 245 C167 256 188 286 195 336 M170 244 L182 268 L217 298 M145 280 L178 300 L189 327' },
+  // Hand under chin: the index is folded and meets the profile at the jaw.
+  // There is deliberately no upright lone digit or V-sign silhouette.
+  { id:'wrist-left', d:'M91 336 C94 303 102 283 126 266' },
+  { id:'support-index', d:'M126 266 C124 239 135 221 157 214 C175 207 195 202 212 190 C229 177 243 176 249 187 C255 198 247 208 232 219 L203 242' },
+  { id:'folded-middle', d:'M203 242 C224 219 239 219 247 229 C255 240 247 253 233 262 L212 276' },
+  { id:'folded-ring', d:'M212 276 C227 264 240 268 243 281 C245 292 233 302 217 304' },
+  { id:'folded-little', d:'M217 304 C225 320 217 333 207 339' },
+  { id:'wrist-right', d:'M207 339 C168 347 129 350 91 336' },
+  { id:'thumb-under-chin', d:'M126 266 C137 252 152 250 162 258 C174 268 184 275 199 281' },
+  // Minimal human profile gives the hand a thoughtful purpose, and stays
+  // inside the same reserved gesture dock (not across heading typography).
+  { id:'profile-contour', secondary:true, d:'M274 62 C300 67 308 93 307 111 C306 129 295 145 289 158 C291 167 301 174 298 181 C292 190 281 190 275 192 C273 203 268 213 254 219 C240 222 234 221 232 219' },
+  { id:'profile-neck', secondary:true, d:'M269 220 C281 244 278 262 272 276' },
+  { id:'profile-eye', secondary:true, d:'M279 164 C285 161 292 160 297 161' },
+  { id:'palm-crease', secondary:true, d:'M131 281 C153 278 179 282 211 297 M139 308 Q171 310 211 323' },
+  { id:'knuckle-mesh', secondary:true, d:'M153 214 Q166 239 172 280 M193 209 Q204 240 215 270' },
 ];
 const BUILD_HAND: Stroke[] = [
   { id:'wrist',d:'M90 310 C94 286 101 267 111 258 C124 245 141 241 164 244' },
@@ -339,14 +342,14 @@ export function NetworkGesture({ gesture, className = '' }: { gesture: GestureVa
           line.setAttribute('transform', 'rotate(' + (flex+spread).toFixed(2) + ' ' + x + ' ' + y + ')');
         }
         // Fine internal contours can be removed on low power/mobile without changing silhouettes.
-        line.style.display = simplified() && internal && !isFaq ? 'none' : '';
+        line.style.display = simplified() && internal && !isFaq && !line.dataset.stroke?.startsWith('profile-') ? 'none' : '';
       }
       if (question) {
-        question.style.opacity = (reduced ? 1 : ease(.31,.42,p) * departure).toFixed(3);
+        question.style.opacity = (reduced ? 1 : ease(.25,.32,p) * departure).toFixed(3);
         const mark = question.querySelector('[data-question-path]');
-        if (mark) paintPaths(mark, reduced ? 1 : ease(.33,.50,p)); // last phase, not simultaneously with palm
+        if (mark) paintPaths(mark, reduced ? 1 : ease(.26,.39,p)); // visible when all five digits are on-screen
         const dot = question.querySelector<SVGElement>('[data-question-dot]');
-        if (dot) dot.style.opacity = String(reduced ? 1 : ease(.46,.53,p));
+        if (dot) dot.style.opacity = String(reduced ? 1 : ease(.33,.39,p));
       }
       if (action) {
         action.style.opacity = String(reduced ? 1 : ease(.39,.60,p) * departure);
