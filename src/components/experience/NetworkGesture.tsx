@@ -48,6 +48,18 @@ const OPEN_HAND: Stroke[] = [
   { id: 'middle-joint', stage: 7, secondary: true, d: 'M151 119 Q168 125 185 120' },
   { id: 'ring-joint', stage: 7, secondary: true, d: 'M193 133 Q208 143 223 136' },
   { id: 'little-joint', stage: 7, secondary: true, d: 'M229 160 Q244 169 260 163' },
+  // Anatomical volume: dorsal ridges and layered joint contours stay inside
+  // the finger silhouettes, never extending random wires into the background.
+  { id: 'thumb-ridge', stage: 7, secondary: true, d: 'M43 166 C53 164 75 180 96 205' },
+  { id: 'index-ridge', stage: 7, secondary: true, d: 'M135 91 C133 112 135 145 139 178' },
+  { id: 'middle-ridge', stage: 7, secondary: true, d: 'M170 63 C168 99 169 139 169 178' },
+  { id: 'ring-ridge', stage: 7, secondary: true, d: 'M213 97 C207 120 201 156 199 185' },
+  { id: 'little-ridge', stage: 7, secondary: true, d: 'M254 147 C244 159 236 184 228 199' },
+  { id: 'index-distal', stage: 7, secondary: true, d: 'M121 109 Q135 117 146 110' },
+  { id: 'middle-distal', stage: 7, secondary: true, d: 'M155 84 Q170 91 183 85' },
+  { id: 'ring-distal', stage: 7, secondary: true, d: 'M198 118 Q212 125 225 120' },
+  { id: 'volar-arch', stage: 7, secondary: true, d: 'M103 224 C111 241 118 251 123 277 C148 285 178 287 209 277' },
+  { id: 'wrist-core', stage: 7, secondary: true, d: 'M129 296 Q165 310 206 299' },
 ];
 
 /** Purpose-built silhouettes, not 10 rotations of the same open hand. */
@@ -309,7 +321,14 @@ export function NetworkGesture({ gesture, className = '' }: { gesture: GestureVa
         const phase = isFaq
           ? ease(.01 + stage*.039, .115 + stage*.042, p)
           : ease(.025 + stage*.044, .19 + stage*.088, p);
-        const done = reduced ? 1 : phase;
+        // On leaving a chapter, stroke geometry unspools in reverse rather
+        // than fading an unchanged SVG silhouette to zero.
+        const unwindStart = isHero ? .90 : .84;
+        const unwindEnd = isHero ? .995 : .985;
+        const release = reduced ? 1 : 1 - ease(
+          unwindStart + (isFaq ? (7-stage)*.008 : (2-Math.min(2,stage))*.018),
+          unwindEnd, p);
+        const done = reduced ? 1 : phase * release;
         paintPaths(line, done);
         // Open, extend, or fold each digit separately relative to its MCP pivot.
         const pivot = line.dataset.articulate && ARTICULATION_PIVOTS[line.dataset.articulate];
@@ -332,9 +351,13 @@ export function NetworkGesture({ gesture, className = '' }: { gesture: GestureVa
       if (action) {
         action.style.opacity = String(reduced ? 1 : ease(.39,.60,p) * departure);
         const wire = action.querySelector('[data-action-wire]');
-        if (wire) paintPaths(wire, reduced ? 1 : ease(.40,.69,p));
+        if (wire) paintPaths(wire, reduced ? 1 : ease(.40,.69,p)*(1-ease(.88,.99,p)));
         const node = action.querySelector<SVGElement>('[data-touch-point]');
-        if (node) node.style.transform = 'scale(' + (1 + .6 * (reduced ? 0 : Math.sin(Math.PI * actionPhase))) + ')';
+        if (node) {
+          node.style.transformBox = 'fill-box';
+          node.style.transformOrigin = 'center';
+          node.style.transform = 'scale(' + (1 + .25 * (reduced ? 0 : Math.sin(Math.PI * actionPhase))) + ')';
+        }
       }
       if (productAction) {
         productAction.style.opacity = String(reduced ? 1 : ease(.36,.60,p) * departure);
@@ -353,16 +376,18 @@ export function NetworkGesture({ gesture, className = '' }: { gesture: GestureVa
       }
       for (const line of reachLines) {
         const stage = Number(line.dataset.reachStage ?? 1);
-        paintPaths(line, reduced ? 1 : ease(.035+stage*.085, .39+stage*.082,p));
+        const form = ease(.035+stage*.085, .39+stage*.082,p);
+        const release = 1-ease(.83+stage*.017,.994,p);
+        paintPaths(line, reduced ? 1 : form*release);
       }
       for (const line of contourLines) {
         if (simplified()) { line.style.display = 'none'; continue; }
-        paintPaths(line, reduced ? 1 : ease(.27,.65,p));
+        paintPaths(line, reduced ? 1 : ease(.27,.65,p)*(1-ease(.86,.99,p)));
       }
       if (connection) {
         connection.style.opacity = String(reduced ? 1 : ease(.52,.68,p) * departure);
         const wire = connection.querySelector('[data-connection-wire]');
-        if (wire) paintPaths(wire, reduced ? 1 : ease(.49,.69,p));
+        if (wire) paintPaths(wire, reduced ? 1 : ease(.49,.69,p)*(1-ease(.88,.99,p)));
       }
       // Keep the purely decorative layer inert for mouse, touch, keyboard.
       mount.style.pointerEvents = 'none';
