@@ -163,6 +163,17 @@ try {
         `FAQ not reversible: ${JSON.stringify({sceneForward,sceneReverse})}`);
       assert.notEqual(sceneForward.hand,sceneBefore.hand,'FAQ hand rig must move as it forms');
       await photograph(page,'1440-faq-reverse','#faq');
+      // Capture the actual contact action, not only the beginning of its
+      // section when the hands are intentionally still approaching.
+      const contactDock = page.locator('#contact .gesture-dock');
+      await contactDock.evaluate(el => {
+        document.documentElement.style.scrollBehavior='auto';
+        window.scrollTo(0,Math.max(0,window.scrollY+el.getBoundingClientRect().top-80));
+      });
+      await page.waitForTimeout(160);
+      const contactProgress = Number(await contactDock.getAttribute('data-progress'));
+      assert.ok(contactProgress > .50,`Contact joining phase did not activate: ${contactProgress}`);
+      await page.screenshot({path:'screenshots/1440-contact-connection.png',animations:'disabled'});
       assert.equal(await page.locator('#products .product-visual .product-gesture').count(),1,
         'Product gesture must live with its real image in an independent dock');
     }
