@@ -1,75 +1,94 @@
-# Ladder7 — Visual rebuild, corrections and QA ledger
+# LADDER7 — Cinematic Gesture Experience · Final Implementation & QA
 
-Branch: `dev` only. `main` remains read-only at the audit baseline `45dbbf4`.
+**Date:** 22 October 2026
+**Repository:** [musammilvilayil/L7clone](https://github.com/musammilvilayil/L7clone)
+**Target branch:** `dev` only
+**Source baseline for this refinement:** `e47bc3a`
+**Validated functional source:** `6d2698c`
+**Read-only main head:** `45dbbf44f72cd8ee504b3473efc33909bf411f18` (unchanged)
 
-## 1. Defects traced to source
+## A. Defects identified from code and actual render captures
 
-1. A single fixed, full-window `.network-experience` SVG rendered random connecting paths permanently behind unrelated sections.
-2. Most pages reused one `HAND` polyline array, mostly changing rotation/translation. Silhouettes and hand positioning were not meaningfully section-specific.
-3. A single `SCENE_POS` mapping positioned hand geometry in a viewport coordinate system without allocating content-free illustration columns, making readability and image composition fragile.
-4. Scroll stage progression was tied to long section boundaries: an illustration at a section's top could remain half-drawn after it had moved away.
-5. SVG paths were fine but lacked strong silhouette contours; the FAQ sequence was distributed too late through its scroll cycle.
-6. Original hero media was significantly darkened as an atmospheric background, not shown in a dedicated image region.
-7. Product imagery was cropped with `object-fit:cover`, making screenshot details less accessible.
+1. The former `NetworkGesture` called React `setState` for every active scroll frame, unnecessarily re-rendering SVG stroke arrays.
+2. Most hand paths completed in nearly the same phase. Aside from small whole-group transforms, hands did not visibly articulate or perform interactions.
+3. The thinking silhouette could be mistaken for a V sign; the contact silhouettes looked separate until the end of their scroll phase.
+4. On a 390px hero capture, the open-palm wrist extended into the next paragraph. About had artwork painting beyond its reserved dock and into text.
+5. The original global `h2` rule was insufficiently specific under the current CSS reset; Services, Products and Why headers appeared close to 16px in captured renders.
+6. The Why Ladder7 SVG used to paint into its adjacent preserved image region.
+7. Product screenshot and its point gesture were visually distant; the hand did not have a dedicated screenshot-adjacent visual cell.
+8. The browser smoke test inspected the *dock rectangle* but not CSS SVG overflow and missed artwork extending beyond it.
 
-These findings are **verified by the versioned code**, not claimed as a direct visual observation of the protected Codespaces URL.
+## B. Source changes
 
-## 2. Fixes implemented
+### Animation architecture — `src/components/experience/NetworkGesture.tsx`
 
-- Rebuilt `src/components/experience/NetworkGesture.tsx` as an isolated `<NetworkGesture gesture="..."/>` component with hand drawing based on its OWN visible dock rectangle.
-- Removed the fixed global visual and random backdrop network entirely.
-- Added distinct SVG contour datasets for open palm, thinking, welcoming, engineering/building, pointing, pinching, and confident/thumb-up gestures.
-- Service selection updates the visual to Digital Engineering, AI Automation, Strategy, or Development gesture.
-- FAQ: separate wrist/palm/thumb/index/middle/ring/little strokes; fine internal line work; genuine line-path question mark. Sequence fits into the on-screen illustration duration.
-- Contact uses two hands emerging from opposite sides, plus one short connection path.
-- Illustrated scenes use native scrolling, IntersectionObserver, requestAnimationFrame, reversible progress, passive listeners and clean disposal.
-- Dedicated responsive gesture docks in hero, thinking, about, services, product detail, why, FAQ and contact. All are `pointer-events:none` and separate from images/text.
-- Original hero and product images now use visible editorial placements and `object-fit:contain` to avoid screenshot cropping.
-- Removed residual decorative line rails outside hand illustrations.
-- Preserved source-provided headings, descriptions, FAQs, contact details, brand hex colors, and image files.
+- Retained per-section `NetworkGesture` as decorative, pointer-inert SVG in each section's own dock.
+- Replaced render-on-scroll React state with direct SVG transform and path stroke updates; no animation-frame React re-renders.
+- Uses viewport-relative, reversible progress with passive scroll/resize handlers, `IntersectionObserver`, requestAnimationFrame and cleanup.
+- Four phases: progressive formation; articulated action with controlled translate, scale and yaw; completion; elegant scroll-driven release.
+- Fingers rotate around individual local joint pivots. Shadow offset lines create restrained pseudo-dimensional depth without WebGL or random external paths.
+- Hero is pre-formed partially on first render, so it is legible without requiring the visitor to scroll.
+- Core services show nodes with a deliberate hand-to-node wire; product gesture shows a screenshot-adjacent touch target, not a line crossing the image.
+- Contact hands approach symmetrically and fingertip geometry converges on a central point.
+- `prefers-reduced-motion` renders fully formed static illustrations. Small screens, Save-Data and low-memory devices simplify nonessential inner contours.
 
-## 3. Gesture-to-section map
+### Content-safe art direction — `src/CreativeApp.tsx`, `src/creative.css`
 
-| Section | Gesture | Composition |
-|---|---|---|
-| Hero | Open palm | Dedicated right column above hero visual |
-| Thinking / Perspectives | Thinking / folded hand | Opposite the section introduction, before editorial image rows |
-| Who We Are | Welcoming hand | Separate right-side illustration space, above audience content |
-| Services — Digital | Engineering / connecting hand | Responsive service illustration column |
-| Services — Applied AI | Pointing hand | Replaces illustration when corresponding service is selected |
-| Services — Strategy | Thinking hand | Replaces illustration on selection |
-| Services — Custom Development | Pinching hand | Replaces illustration on selection |
-| Products | Rotated touch/point gesture | Separate visual beneath selected product details, not on product screenshot |
-| Why Ladder7 | Confident/thumb-up silhouette | Independent illustration dock before authentic engineering photo |
-| FAQ | Front-facing, five-finger palm and question mark | Left side of split layout; on mobile above the questions |
-| Contact | Two approaching hands | Full dedicated band between headline and CTA copy |
+- The hero now consists of separate headline, CTA/copy, scroll cue, and art slots. At narrow widths the order is headline → gesture → value proposition/CTAs → original hero image.
+- Thinking and Who We Are gestures are placed on the left; Services and Why retain allocated right-side visuals.
+- Product gesture moved next to the actual product screenshot, with distinct non-overlapping image and interactive hand areas.
+- Fixed three sections' heading typography, image cropping, surrounding whitespace and element stacking.
+- `overflow:hidden` on gesture docks **and on their SVG** ensures hands cannot paint over adjacent content. All remain `pointer-events:none`.
+- Original Ladder7 copy, media, design palette, navigation, service accordion, product tabs, FAQ accordion, contact information and footer links remain intact.
 
-## 4. Automated validation
+### FAQ: ordered anatomy
 
-Workflows:
-- [Dev TypeScript/build/lint](https://github.com/musammilvilayil/L7clone/actions/workflows/validate.yml)
-- [Browser QA and screenshot artifacts](https://github.com/musammilvilayil/L7clone/actions/workflows/browser-qa.yml)
+The forward animation forms **wrist → palm → thumb → index → middle → ring → little finger → internal contours → drawn question mark**, and reverses under upward scroll. Every digit has its own SVG `data-stroke` identifier and the question mark is a path/circle separate from the palm contour.
 
-The browser regression script at `scripts/browser-smoke.mjs` exercises **1440 × 900, 1024 × 768, 768 × 1024, 390 × 844, and 360 × 780** resolutions and checks:
-- All eight main sections and their gestures
-- No legacy fixed network
-- Zero bounding-box overlaps between gesture docks and section headings, paragraphs, buttons, links or pictures
-- No horizontal body/HTML overflow
-- No broken original image assets
-- Service state changes, product tab keyboard navigation, FAQ expansion and all five finger groups
-- Accessible responsive menu behavior, reduced-motion static hand and JavaScript runtime errors
-- Per-section screenshots exported in a downloadable GitHub Actions artifact
+## C. Verification performed on the source commit
 
-**Final application code verification:** browser QA passed at commit [`7fd3953`](https://github.com/musammilvilayil/L7clone/actions/runs/39825007484), including five viewport screenshots and the generated [screenshot artifact](https://github.com/musammilvilayil/L7clone/actions/runs/39825007484/artifacts/12446875516). The same commit passed [TypeScript/build/lint](https://github.com/musammilvilayil/L7clone/actions/runs/39825007474). The subsequent documentation-only commit [`cf9123c`](https://github.com/musammilvilayil/L7clone/actions/runs/39825120309) also passed TypeScript/build/lint. These checks verify automated criteria; subjective visual quality still needs human screenshot review.
+| Check | Result | Evidence |
+| --- | --- | --- |
+| TypeScript production build and lint | PASS | [Dev Validation](https://github.com/musammilvilayil/L7clone/actions/runs/39834845232) |
+| Playwright browser smoke | PASS | [Browser QA](https://github.com/musammilvilayil/L7clone/actions/runs/39834845277) |
+| 1440×900 desktop | PASS | Browser QA screenshots |
+| 1024×768 small desktop | PASS | Browser QA screenshots |
+| 768×1024 tablet | PASS | Browser QA screenshots |
+| 390×844 mobile | PASS | Browser QA screenshots |
+| 360×780 narrow mobile | PASS | Browser QA screenshots |
+| Scroll progress changes, forward and reverse | PASS | Browser smoke rig-transform/progress assertions |
+| FAQ five digits + question-mark path | PASS | Browser smoke DOM assertions |
+| Services selection and hand changes | PASS | Browser smoke |
+| Product tab selection + keyboard arrow control | PASS | Browser smoke |
+| FAQ expanded answer | PASS | Browser smoke |
+| Mobile menu open and close via navigation | PASS | Browser smoke |
+| Image loading, anchors, console page errors | PASS | Browser smoke |
+| No horizontal overflow or dock/text bounding collisions | PASS | Browser smoke |
+| SVG clipping and pointer safety | PASS | Browser smoke |
+| Contact gesture during active joining phase | PASS | `1440-contact-connection.png` capture |
+| Reduced-motion full illustration | PASS | Browser smoke |
 
-## 5. External preview limitation and remaining reviews
+**49 QA screenshot files** cover sections at five viewport sizes, with extra expanded FAQ, reversed FAQ, connected-hands, and reduced-motion captures. They are attached to the Browser QA workflow as artifact `ladder7-visual-QA`. Screenshots are from the actual compiled Vite app in headless Chromium, not Photoshop mockups.
 
-The Codespaces URL `https://bug-free-lamp-g4qxg9r47qgpcwgq-5173.app.github.dev/` redirects an unauthenticated external browser to GitHub login. Direct visual inspection and screenshots of that instance could not be performed. An existing connected browser tab did provide page text, but **not** image-level inspection or interaction control.
+## D. Codespaces preview limitation
 
-Automated Playwright screenshots from GitHub Actions are available in its uploaded `ladder7-visual-QA` artifact. These confirm rendered page test execution; they are not a substitute for an art director manually viewing each image.
+The [port 5174 Codespaces preview](https://bug-free-lamp-g4qxg9r47qgpcwgq-5174.app.github.dev/) was opened and examined separately in a browser automation session. It serves Ladder7 and key content, but that independent browser session did **not** establish that it was serving source SHA `6d2698c`: the scene-local left-side hand placements and final choreography could not be confirmed. Pushing to GitHub `dev` does **not** automatically synchronize an already-running Codespace working tree.
 
-Further checks before production deployment: authenticated preview on real devices, manual visual inspection of hands and type, color/contrast audit, automated accessibility scanning and screen-reader testing, Lighthouse performance/Core Web Vitals, external link checks, and contact mail-client handoff.
+To inspect this exact new build on port 5174, first check local modifications, pull `dev` and restart the Vite dev server:
 
-The original site has no configured contact form endpoint and reuses one product screenshot for five products; neither is fabricated. The legacy Privacy Policy/Blogs/Careers destinations remain source placeholder anchors, not invented new pages.
+```bash
+git status
+git switch dev
+git pull --ff-only origin dev
+npm ci
+npm run dev -- --host 0.0.0.0 --port 5174
+```
 
-Do not merge to `main` without review.
+Avoid switching or pulling over uncommitted changes without saving them first.
+
+## E. Remaining honest limitations
+
+- These are **dimensional SVG line-art hands**, not fully rigged 3D skinned meshes. Full anatomically realistic finger deformation or a 3D GLTF/WebGL hand would require a dedicated design asset pipeline and performance budget.
+- Playwright verifies functional and visual boundaries at static scroll positions plus reversible transforms. No independent FPS/performance trace or device-lab touch testing was performed.
+- Visual judgment is subjective; the verified screenshots are supplied for stakeholder approval.
+- The linked Codespaces port may require the manual sync above before it shows the final source revision.
