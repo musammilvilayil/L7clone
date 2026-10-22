@@ -92,35 +92,45 @@ function Header({ light, setLight }: { light: boolean; setLight: (value: boolean
 function Hero() {
   const slide = HERO_SLIDES[0];
   return (
-    <section className="hero scene" id="top" data-gesture="hero" aria-labelledby="hero-title">
-      <div className="hero-image" aria-hidden="true"><img src={slide.image} alt="" fetchPriority="high" /></div>
+    <section className="hero scene" id="top" aria-labelledby="hero-title">
       <div className="hero-content content-width">
-        <p className="eyebrow"><span className="eyebrow-line" /> {slide.badge} / Ladder7 Nextstep Solutions</p>
-        <div className="hero-heading-wrap">
-          <span className="vertical-aside">ENGINEERING THE NEXT STEP</span>
-          <h1 id="hero-title">{slide.title}<em>{slide.titleHighlight}</em></h1>
-        </div>
-        <div className="hero-bottom">
-          <p>{slide.description}</p>
-          <div className="hero-actions">
-            <a className="action action-primary" href="#contact">{slide.primaryCta}<ArrowUpRight size={19} /></a>
-            <a className="action action-outline" href="#capabilities">{slide.secondaryCta}<ArrowRight size={19} /></a>
+        <div className="hero-copy">
+          <p className="eyebrow"><span className="eyebrow-line" /> {slide.badge} / Ladder7 Nextstep Solutions</p>
+          <div className="hero-heading-wrap">
+            <span className="vertical-aside">ENGINEERING THE NEXT STEP</span>
+            <h1 id="hero-title">{slide.title}<em>{slide.titleHighlight}</em></h1>
           </div>
+          <div className="hero-bottom">
+            <p>{slide.description}</p>
+            <div className="hero-actions">
+              <a className="action action-primary" href="#contact">{slide.primaryCta}<ArrowUpRight size={19} /></a>
+              <a className="action action-outline" href="#capabilities">{slide.secondaryCta}<ArrowRight size={19} /></a>
+            </div>
+          </div>
+          <a className="scroll-cue" href="#thinking"><ArrowDown size={16} /> Explore the experience</a>
         </div>
-        <a className="scroll-cue" href="#thinking"><ArrowDown size={16} /> Explore the experience</a>
+        <div className="hero-art" aria-label="Ladder7 digital engineering imagery">
+          <NetworkGesture gesture="hero"/>
+          <figure className="hero-art-image">
+            <img src={slide.image} alt="Ladder7 intelligent AI platform visual" fetchPriority="high" width="5583" height="3722" />
+            <figcaption>INTELLIGENT AI / REAL-WORLD ENGINEERING</figcaption>
+          </figure>
+        </div>
       </div>
-      <div className="hero-axis" aria-hidden="true">LADDER7 / NEXTSTEP SOLUTIONS</div>
     </section>
   );
 }
 
 function Thinking() {
   return (
-    <section className="scene thinking-section" id="thinking" data-gesture="thinking" aria-labelledby="thinking-title">
+    <section className="scene thinking-section" id="thinking" aria-labelledby="thinking-title">
       <div className="content-width">
         <div className="section-intro split-intro">
-          <p className="eyebrow"><span className="eyebrow-line"/> New perspectives</p>
-          <h2 id="thinking-title">Complexity is real.<br/><span className="muted-title">The next step is clear.</span></h2>
+          <div>
+            <p className="eyebrow"><span className="eyebrow-line"/> New perspectives</p>
+            <h2 id="thinking-title">Complexity is real.<br/><span className="muted-title">The next step is clear.</span></h2>
+          </div>
+          <NetworkGesture gesture="thinking" />
         </div>
         <div className="perspective-list">
           {HERO_SLIDES.slice(1).map((slide) => (
@@ -143,12 +153,15 @@ function Thinking() {
 
 function About() {
   return (
-    <section className="scene about-section" id="about" data-gesture="discovery" aria-labelledby="about-title">
+    <section className="scene about-section" id="about" aria-labelledby="about-title">
       <div className="content-width">
         <p className="eyebrow"><span className="eyebrow-line" /> Who we are</p>
         <div className="about-lead">
-          <h2 id="about-title">Every Business. Every Market. <em>One Goal — Revenue.</em></h2>
-          <p>We build intelligent digital systems for organisations ready to turn their online presence into their most powerful sales asset. At Ladder7 Nextstep Solutions, we believe every business — regardless of size — deserves a digital presence that actively generates revenue. We act as the strategic delivery partner for growth-focused organisations, translating digital ambition into measurable business outcomes.</p>
+          <div className="about-copy">
+            <h2 id="about-title">Every Business. Every Market. <em>One Goal — Revenue.</em></h2>
+            <p>We build intelligent digital systems for organisations ready to turn their online presence into their most powerful sales asset. At Ladder7 Nextstep Solutions, we believe every business — regardless of size — deserves a digital presence that actively generates revenue. We act as the strategic delivery partner for growth-focused organisations, translating digital ambition into measurable business outcomes.</p>
+          </div>
+          <NetworkGesture gesture="about" />
         </div>
         <div className="audience-list">
           {AUDIENCES.map((item, index) => (
@@ -166,8 +179,9 @@ function About() {
 
 function Services() {
   const [active, setActive] = useState(0);
+  const serviceGestures = ['digital', 'automation', 'strategy', 'development'] as const;
   return (
-    <section className="scene services-section" id="capabilities" data-gesture="services" aria-labelledby="services-title">
+    <section className="scene services-section" id="capabilities" aria-labelledby="services-title">
       <div className="content-width">
         <div className="section-heading-row">
           <div><p className="eyebrow"><span className="eyebrow-line" /> What we do</p>
@@ -175,7 +189,8 @@ function Services() {
             <p className="section-subtitle">Our four core pillars of excellence designed to future-proof your digital operations.</p></div>
           <a href="#contact" className="text-link">View Full Service Catalog <ArrowUpRight size={18}/></a>
         </div>
-        <div className="service-editorial">
+        <div className="services-layout">
+          <div className="service-editorial">
           {CAPABILITIES.map((cap, index) => (
             <article className={`service-line ${active === index ? 'selected' : ''}`} key={cap.id}>
               <button type="button" aria-expanded={active === index} aria-controls={`service-panel-${cap.id}`}
@@ -191,6 +206,8 @@ function Services() {
               </div>
             </article>
           ))}
+          </div>
+          <NetworkGesture gesture={serviceGestures[active]} className="services-art" />
         </div>
       </div>
     </section>
@@ -202,7 +219,7 @@ function Products() {
   const product = PRODUCTS[selected];
   const change = (index: number) => setSelected((index + PRODUCTS.length) % PRODUCTS.length);
   return (
-    <section className="scene products-section" id="products" data-gesture="products" aria-labelledby="products-title">
+    <section className="scene products-section" id="products" aria-labelledby="products-title">
       <div className="content-width">
         <div className="section-intro">
           <p className="eyebrow"><span className="eyebrow-line"/> What we think / Our products</p>
@@ -244,6 +261,7 @@ function Products() {
                 <span>0{selected + 1} <span>/ 0{PRODUCTS.length}</span></span>
                 <button type="button" onClick={() => change(selected + 1)} aria-label="Next product"><ArrowRight size={20}/></button>
               </div>
+              <NetworkGesture gesture="products" className="product-gesture" />
             </div>
           </div>
         </div>
@@ -254,11 +272,16 @@ function Products() {
 
 function Why() {
   return (
-    <section className="scene why-section" id="why-ladder7" data-gesture="why" aria-labelledby="why-title">
+    <section className="scene why-section" id="why-ladder7" aria-labelledby="why-title">
       <div className="content-width">
         <p className="eyebrow"><span className="eyebrow-line"/> Why Ladder7</p>
-        <div className="why-heading"><h2 id="why-title">Why Innovators<br/><em>Partner With Ladder7</em></h2>
-          <img src="/images/hero/hero-digital-engineering.png" alt="Digital engineering imagery from Ladder7" loading="lazy"/></div>
+        <div className="why-heading">
+          <h2 id="why-title">Why Innovators<br/><em>Partner With Ladder7</em></h2>
+          <div className="why-art">
+            <NetworkGesture gesture="why" />
+            <img src="/images/hero/hero-digital-engineering.png" alt="Digital engineering imagery from Ladder7" loading="lazy" width="5583" height="3722"/>
+          </div>
+        </div>
         <div className="values">
           {VALUE_PILLARS.map((pillar, i) => <article key={pillar.title}>
             <span>0{i + 1} — OUR APPROACH</span>
@@ -273,11 +296,12 @@ function Why() {
 function FAQ() {
   const [openId, setOpenId] = useState<string | null>(FAQS[0]?.id ?? null);
   return (
-    <section className="scene faq-section" id="faq" data-gesture="faq" aria-labelledby="faq-title">
+    <section className="scene faq-section" id="faq" aria-labelledby="faq-title">
       <div className="content-width faq-grid">
         <div className="faq-intro">
           <p className="eyebrow"><span className="eyebrow-line"/> Your questions, answered</p>
           <h2 id="faq-title">Better questions.<br/><em>Clearer next steps.</em></h2>
+          <NetworkGesture gesture="faq" />
           <p className="faq-visual-label">A connection begins with a question.</p>
         </div>
         <div className="faq-questions">
@@ -300,10 +324,11 @@ function FAQ() {
 
 function Contact() {
   return (
-    <section className="scene contact-section" id="contact" data-gesture="contact" aria-labelledby="contact-title">
+    <section className="scene contact-section" id="contact" aria-labelledby="contact-title">
       <div className="content-width">
         <p className="eyebrow"><span className="eyebrow-line"/> The final connection</p>
         <h2 id="contact-title">Your Website Should Be<br/><em>Generating Revenue Right Now.</em></h2>
+        <NetworkGesture gesture="contact" />
         <p className="contact-description">Partner with Ladder7 to build an intelligent, connected, and scalable digital revenue system — engineered for your markets, your goals, and your growth.</p>
         <a className="action action-primary large-action" href="mailto:info@ladder7.in?subject=Start%20Your%20Revenue%20Engine">Start Your Revenue Engine Today <ArrowUpRight size={22}/></a>
         <div className="contact-details">
@@ -367,7 +392,6 @@ export default function App() {
   return (
     <>
       <a className="skip-link" href="#main-content">Skip to content</a>
-      <NetworkGesture />
       <Header light={light} setLight={setLight}/>
       <main id="main-content">
         <Hero />
