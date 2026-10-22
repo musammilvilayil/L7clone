@@ -140,7 +140,12 @@ function WireHand({ gesture, progress, reduced, mirrored = false }: {
   const enter = reduced ? 1 : ease(.025, gesture === 'faq' ? .37 : .29, progress);
   const exit = reduced ? 1 : 1 - ease(.82, .99, progress);
   const visibility = reduced ? 1 : ease(.005, .06, progress) * exit;
-  const position = `translate(${setting.offsetX} ${setting.offsetY}) translate(180 180) scale(${setting.scale}) rotate(${setting.rotation}) translate(-180 -180)`;
+  // Geometry travels gently after it forms, then returns to rest during exit.
+  // The motion is scroll-scrubbed, reversible, and entirely disabled for reduced motion.
+  const action = reduced ? 0 : Math.sin(Math.PI * ease(.16, .87, progress));
+  const lift = -10 * action;
+  const tilt = (gesture === 'faq' ? 0 : gesture === 'thinking' ? -5 : gesture === 'automation' ? 5 : 3) * action;
+  const position = `translate(${setting.offsetX} ${setting.offsetY + lift}) translate(180 180) scale(${setting.scale}) rotate(${setting.rotation + tilt}) translate(-180 -180)`;
   const gestureDraw = (line: Stroke) => {
     if (reduced) return 1;
     if (gesture !== 'faq') return ease(.035 + (line.secondary ? .10 : 0), line.secondary ? .43 : .28, progress);
