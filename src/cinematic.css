@@ -463,3 +463,37 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
 /* Actual browser QA: preserve a visible gap between the interactive gesture dock and the meaningful product/hero imagery. */
 .cin-hero-hand{margin-bottom:12px}
 .cin-product-gesture{margin-top:14px}
+
+/* Mobile cinematic opening: reveal the human gesture in the initial viewport,
+   without moving it behind copy or removing the original business image. */
+@media (max-width:600px) {
+  .cin-hero-grid {
+    display:grid;
+    grid-template-columns:minmax(0,1fr);
+    grid-template-areas:
+      "kicker"
+      "headline"
+      "palm"
+      "pitch"
+      "photo"
+      "explore";
+    align-items:start;
+    row-gap:20px;
+  }
+  .cin-hero-main,.cin-hero-canvas {display:contents}
+  .cin-hero-main>.cin-kicker {grid-area:kicker}
+  .cin-hero-main>h1 {grid-area:headline}
+  .cin-hero-hand {
+    grid-area:palm;
+    height:clamp(235px,72vw,315px);
+    width:min(100%,350px);
+    justify-self:center;
+    margin:0;
+    transform:none;
+  }
+  .cin-hero-message {grid-area:pitch;max-width:100%}
+  .cin-hero-image {grid-area:photo}
+  .cin-scroll-invite {grid-area:explore}
+  .cin-hero-orbit {display:none}
+  .cin-hero-baseline {bottom:24px}
+}
