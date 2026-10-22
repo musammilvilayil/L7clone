@@ -12,7 +12,7 @@ export const PRODUCTS: Product[] = [
       'Fixes pushed to Jira and Azure DevOps, so the work reaches the backlog',
     ],
     ctaPrimary: 'Learn More on L7 Nexus',
-    image: '/images/products/product-telemetry-preview.webp',
+    image: '/images/products/product_showcase.jpeg',
   },
   {
     id: 'l7-nexus',
@@ -25,7 +25,7 @@ export const PRODUCTS: Product[] = [
       'Native integrations with Salesforce, HubSpot, and custom CRMs',
     ],
     ctaPrimary: 'Explore L7 Nexus',
-    image: '/images/products/product-telemetry-preview.webp',
+    image: '/images/products/nexushome.jpeg',
   },
   {
     id: 'l7-insights',
@@ -38,7 +38,7 @@ export const PRODUCTS: Product[] = [
       'Automated executive summaries delivered directly to Slack and Teams',
     ],
     ctaPrimary: 'Discover L7 Insights',
-    image: '/images/products/product-telemetry-preview.webp',
+    image: '/images/products/L7-Insights-Home.jpeg',
   },
   {
     id: 'outreach-engine',
@@ -51,7 +51,7 @@ export const PRODUCTS: Product[] = [
       'Deliverability guardrails ensuring 99%+ inbox placement',
     ],
     ctaPrimary: 'Launch Outreach Engine',
-    image: '/images/products/product-telemetry-preview.webp',
+    image: '/images/products/outreachhm.jpeg',
   },
   {
     id: 'infinite-insights',
@@ -64,6 +64,6 @@ export const PRODUCTS: Product[] = [
       'Citations mapped directly to source documents for 100% verification',
     ],
     ctaPrimary: 'Explore Infinite Insights',
-    image: '/images/products/product-telemetry-preview.webp',
+    image: '/images/products/infinityhome.jpeg',
   },
 ];

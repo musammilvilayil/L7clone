@@ -4,7 +4,11 @@ import { HERO_SLIDES } from './data/heroSlides';
 import { CAPABILITIES } from './data/capabilitiesData';
 import { PRODUCTS } from './data/productsData';
 import { FAQS } from './data/faqData';
-import { NetworkGesture } from './components/experience/NetworkGesture';
+import { Suspense, lazy } from 'react';
+import { GestureAnchor, StageBoundary } from './components/experience/GestureAnchor';
+
+const fire = (kind: string) => window.dispatchEvent(new CustomEvent('l7:gesture', { detail: { kind } }));
+const GestureStage = lazy(() => import('./components/experience/GestureStage'));
 
 const NAV = [
   { label: 'Who we are', href: '#about' },
@@ -110,7 +114,7 @@ function Hero() {
           <a className="scroll-cue" href="#thinking"><ArrowDown size={16} /> Explore the experience</a>
         </div>
         <div className="hero-art" aria-label="Ladder7 digital engineering imagery">
-          <NetworkGesture gesture="hero"/>
+          <GestureAnchor scene="open" className="gesture-hero" />
           <figure className="hero-art-image">
             <img src={slide.image} alt="Ladder7 intelligent AI platform visual" fetchPriority="high" width="5583" height="3722" />
             <figcaption>INTELLIGENT AI / REAL-WORLD ENGINEERING</figcaption>
@@ -130,7 +134,7 @@ function Thinking() {
             <p className="eyebrow"><span className="eyebrow-line"/> New perspectives</p>
             <h2 id="thinking-title">Complexity is real.<br/><span className="muted-title">The next step is clear.</span></h2>
           </div>
-          <NetworkGesture gesture="thinking" />
+          <GestureAnchor scene="think" className="gesture-thinking" />
         </div>
         <div className="perspective-list">
           {HERO_SLIDES.slice(1).map((slide) => (
@@ -161,7 +165,7 @@ function About() {
             <h2 id="about-title">Every Business. Every Market. <em>One Goal — Revenue.</em></h2>
             <p>We build intelligent digital systems for organisations ready to turn their online presence into their most powerful sales asset. At Ladder7 Nextstep Solutions, we believe every business — regardless of size — deserves a digital presence that actively generates revenue. We act as the strategic delivery partner for growth-focused organisations, translating digital ambition into measurable business outcomes.</p>
           </div>
-          <NetworkGesture gesture="about" />
+          <GestureAnchor scene="raise" className="gesture-about" />
         </div>
         <div className="audience-list">
           {AUDIENCES.map((item, index) => (
@@ -179,7 +183,7 @@ function About() {
 
 function Services() {
   const [active, setActive] = useState(0);
-  const serviceGestures = ['digital', 'automation', 'strategy', 'development'] as const;
+  const serviceGestures = ['connect', 'point', 'cup', 'connect'] as const;
   return (
     <section className="scene services-section" id="capabilities" aria-labelledby="services-title">
       <div className="content-width">
@@ -194,7 +198,7 @@ function Services() {
           {CAPABILITIES.map((cap, index) => (
             <article className={`service-line ${active === index ? 'selected' : ''}`} key={cap.id}>
               <button type="button" aria-expanded={active === index} aria-controls={`service-panel-${cap.id}`}
-                onClick={() => setActive(index)}>
+                onClick={() => { setActive(index); fire('tip'); }}>
                 <span className="service-num">0{index + 1}</span>
                 <span className="service-title">{cap.title}</span>
                 <span className="service-icon">{active === index ? <ArrowUpRight size={25}/> : <Plus size={25}/>}</span>
@@ -207,7 +211,7 @@ function Services() {
             </article>
           ))}
           </div>
-          <NetworkGesture gesture={serviceGestures[active]} className="services-art" />
+          <GestureAnchor scene={serviceGestures[active]} className="services-art" />
         </div>
       </div>
     </section>
@@ -217,7 +221,7 @@ function Services() {
 function Products() {
   const [selected, setSelected] = useState(0);
   const product = PRODUCTS[selected];
-  const change = (index: number) => setSelected((index + PRODUCTS.length) % PRODUCTS.length);
+  const change = (index: number) => { setSelected((index + PRODUCTS.length) % PRODUCTS.length); fire('tip'); };
   return (
     <section className="scene products-section" id="products" aria-labelledby="products-title">
       <div className="content-width">
@@ -261,7 +265,7 @@ function Products() {
                 <span>0{selected + 1} <span>/ 0{PRODUCTS.length}</span></span>
                 <button type="button" onClick={() => change(selected + 1)} aria-label="Next product"><ArrowRight size={20}/></button>
               </div>
-              <NetworkGesture gesture="products" className="product-gesture" />
+              <GestureAnchor scene="point" className="product-gesture" />
             </div>
           </div>
         </div>
@@ -278,7 +282,7 @@ function Why() {
         <div className="why-heading">
           <h2 id="why-title">Why Innovators<br/><em>Partner With Ladder7</em></h2>
           <div className="why-art">
-            <NetworkGesture gesture="why" />
+            <GestureAnchor scene="confident" className="gesture-why" />
             <img src="/images/hero/hero-digital-engineering.png" alt="Digital engineering imagery from Ladder7" loading="lazy" width="5583" height="3722"/>
           </div>
         </div>
@@ -301,7 +305,7 @@ function FAQ() {
         <div className="faq-intro">
           <p className="eyebrow"><span className="eyebrow-line"/> Your questions, answered</p>
           <h2 id="faq-title">Better questions.<br/><em>Clearer next steps.</em></h2>
-          <NetworkGesture gesture="faq" />
+          <GestureAnchor scene="faq" build="0.4,0.95" className="gesture-faq" />
           <p className="faq-visual-label">A connection begins with a question.</p>
         </div>
         <div className="faq-questions">
@@ -309,7 +313,7 @@ function FAQ() {
             <article className={`faq-entry ${openId === item.id ? 'open' : ''}`} key={item.id}>
               <h3><button id={`faq-button-${item.id}`} type="button" aria-expanded={openId === item.id}
                 aria-controls={`faq-answer-${item.id}`}
-                onClick={() => setOpenId(openId === item.id ? null : item.id)}>
+                onClick={() => { setOpenId(openId === item.id ? null : item.id); fire('mark'); }}>
                 <span>0{index + 1}</span><strong>{item.question}</strong><ChevronDown size={22}/></button></h3>
               <div id={`faq-answer-${item.id}`} role="region" aria-labelledby={`faq-button-${item.id}`} hidden={openId !== item.id}>
                 <p>{item.answer}</p>
@@ -328,7 +332,7 @@ function Contact() {
       <div className="content-width">
         <p className="eyebrow"><span className="eyebrow-line"/> The final connection</p>
         <h2 id="contact-title">Your Website Should Be<br/><em>Generating Revenue Right Now.</em></h2>
-        <NetworkGesture gesture="contact" />
+        <GestureAnchor scene="reach" className="gesture-contact" />
         <p className="contact-description">Partner with Ladder7 to build an intelligent, connected, and scalable digital revenue system — engineered for your markets, your goals, and your growth.</p>
         <a className="action action-primary large-action" href="mailto:info@ladder7.in?subject=Start%20Your%20Revenue%20Engine">Start Your Revenue Engine Today <ArrowUpRight size={22}/></a>
         <div className="contact-details">
@@ -392,6 +396,7 @@ export default function App() {
   return (
     <>
       <a className="skip-link" href="#main-content">Skip to content</a>
+      <StageBoundary><Suspense fallback={null}><GestureStage /></Suspense></StageBoundary>
       <Header light={light} setLight={setLight}/>
       <main id="main-content">
         <Hero />

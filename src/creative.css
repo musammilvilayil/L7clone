@@ -657,3 +657,9 @@ h2 em, h1 em { font-style: normal; color: var(--accent); }
   .faq-visual-label { margin-top:16px !important; }
   .contact-section .gesture-contact { margin-bottom:45px; }
 }
+
+/* V3: single fixed gesture stage (canvas) driven by scroll; docks are empty layout anchors. */
+.gesture-stage { position:fixed; inset:0; width:100vw; height:100vh; z-index:4; pointer-events:none; }
+.site-header { z-index:50; }
+.gesture-dock::after { display:none; }
+
