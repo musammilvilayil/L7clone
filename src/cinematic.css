@@ -518,3 +518,27 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
   .cin-hero #hero-title {font-size:clamp(36px,11vw,43px)}
   .cin-hero .cin-hero-hand {height:205px}
 }
+
+/* Engineering chapter: keep the real photographed person's face unobscured.
+   The separate technical hand is treated as an instrument panel near the
+   lower edge, never as a sticker drawn across the subject's face. */
+@media(min-width:851px) {
+  .cin-engineering-art {
+    position:absolute;
+    right:clamp(48px,7vw,130px);
+    bottom:clamp(75px,9vw,130px);
+    width:clamp(240px,25vw,400px);
+    height:clamp(190px,22vw,280px);
+    border:1px solid rgba(180,215,246,.20);
+    border-radius:10px;
+    background:linear-gradient(130deg,rgba(3,18,38,.74),rgba(0,86,178,.12));
+    backdrop-filter:blur(3px);
+    pointer-events:none;
+  }
+}
+@media(max-width:850px) {
+  .cin-engineering-art {position:relative;inset:auto;width:min(100%,360px);height:290px;margin:0 auto}
+}
+@media(max-width:600px) {
+  .cin-engineering-art {height:210px;margin:12px auto 0}
+}
