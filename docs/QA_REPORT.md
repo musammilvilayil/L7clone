@@ -31,11 +31,11 @@ Nine source-backed scenes: Opening, Vision, About, Services, Products, Engineeri
 
 ## Verified evidence
 
-**Production build and lint:** PASS at [GitHub validation for source `b95ab870`](https://github.com/musammilvilayil/L7clone/actions/runs/39841573178).
+**Production build, TypeScript and lint:** PASS on the final tested code at [GitHub validation for `a3c4c448`](https://github.com/musammilvilayil/L7clone/actions/runs/39842549740).
 
 **Browser QA previous redesigned source:** The [`e27c3098` run](https://github.com/musammilvilayil/L7clone/actions/runs/39840613212) completed its responsive, interaction and image tests through 360px but failed the stricter **320px first-screen open-palm visibility** assertion. That failure prompted the mobile narrative layout fix. It is not represented as a passing run.
 
-**Latest browser QA:** [Run for `b95ab870`](https://github.com/musammilvilayil/L7clone/actions/runs/39841573192). Result should be checked on GitHub Actions; until it reaches success the final 320px release check is **not independently confirmed**.
+**Final browser QA:** **PASS** at [run 39842549772 for `a3c4c448`](https://github.com/musammilvilayil/L7clone/actions/runs/39842549772). The tested code contains the final nine-chapter source, mobile-first opening, product/hero collision fixes and Engineering instrument panel. All nine responsive viewport cases completed, including the previously failing 320px hero-visibility check.
 
 Browser smoke contains assertions for:
 - 320, 360, 375, 390, 430, 768, 1024, 1440 and 1920px viewports;
@@ -52,7 +52,10 @@ Browser smoke contains assertions for:
 
 - Baseline images: previous `dev` browser QA [run 39834845277](https://github.com/musammilvilayil/L7clone/actions/runs/39834845277)
 - First newly redesigned render and mobile screenshots: [run 39840613212](https://github.com/musammilvilayil/L7clone/actions/runs/39840613212)
-- Latest QA artifact and desktop scroll capture: [run 39841573192](https://github.com/musammilvilayil/L7clone/actions/runs/39841573192) — inspect its status before claiming completion.
+- **Final QA artifact**: [run 39842549772](https://github.com/musammilvilayil/L7clone/actions/runs/39842549772) and [screenshots/video archive](https://github.com/musammilvilayil/L7clone/actions/runs/39842549772/artifacts/12454730204) — 97 PNG/video files covering each scene at nine widths, expanded FAQ, joined hands, light mode, reduced motion and reversible full-page scroll.
+
+
+**Visual spot review after PASS:** The 320px hero palm now appears on the initial screen, 390px uses a safe dedicated gesture slot, desktop Engineering separates its gesture from the photographed person's face, and contact hands reach the interaction point on scroll. Captures remain automated visual evidence rather than a human-device signoff.
 
 ## Unresolved content / limitations
 
