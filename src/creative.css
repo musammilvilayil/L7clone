@@ -824,3 +824,33 @@ h2 em, h1 em { font-style: normal; color: var(--accent); }
   .gesture-svg { filter:none; }
   .gesture-dock [data-hand-rig] { will-change:auto; }
 }
+
+
+/* V4 QA: bound actual SVG painting to its dedicated cell. The prior
+   overflow:visible could put fingertips over subsequent copy even when
+   the dock's CSS rectangle passed the collision test. */
+.gesture-dock { overflow:hidden; }
+.gesture-svg { overflow:hidden; }
+.hero-art .gesture-dock { overflow:hidden; }
+.thinking-section .split-intro .gesture-dock,
+.about-lead .gesture-dock,
+.services-layout .services-art,
+.why-art .gesture-dock,
+.faq-intro .gesture-faq,
+.contact-section .gesture-contact { overflow:hidden; }
+.why-art { grid-template-rows:290px auto; gap:70px; }
+.why-art .gesture-dock { height:290px; }
+.contact-section .gesture-contact { padding:3px 0; }
+@media(max-width:800px) {
+  .why-art { grid-template-rows:250px auto; gap:48px; }
+  .why-art .gesture-dock { height:250px; }
+}
+@media(max-width:550px) {
+  .hero-art .gesture-dock { height:clamp(255px,70vw,286px); }
+  .about-lead .gesture-dock { height:295px; max-width:340px; }
+  .thinking-section .split-intro .gesture-dock { height:270px; }
+  .services-layout .services-art { height:270px; }
+  .why-art { grid-template-rows:auto; gap:14px; }
+  .why-art .gesture-dock { height:190px; }
+  .faq-intro .gesture-faq { height:325px; }
+}
