@@ -854,3 +854,35 @@ h2 em, h1 em { font-style: normal; color: var(--accent); }
   .why-art .gesture-dock { height:190px; }
   .faq-intro .gesture-faq { height:325px; }
 }
+
+
+/* Correct the global reset-specific typography: these three headings
+   previously inherited body-size text on both desktop and mobile. */
+.services-section #services-title,
+.products-section #products-title,
+.why-section #why-title {
+  font-family:'Space Grotesk','Public Sans',sans-serif;
+  font-size:clamp(3.15rem,6.15vw,7.05rem);
+  font-weight:500;
+  letter-spacing:-.063em;
+  line-height:1.035;
+  margin-block:0 30px;
+  max-width:100%;
+  overflow-wrap:normal;
+}
+.why-section #why-title { font-size:clamp(3.3rem,5.8vw,6.8rem); }
+.services-section #services-title em,
+.products-section #products-title em,
+.why-section #why-title em { display:inline; color:var(--accent); }
+@media(max-width:800px) {
+  .services-section #services-title,
+  .products-section #products-title,
+  .why-section #why-title { font-size:clamp(2.65rem,7.4vw,4.5rem); }
+}
+@media(max-width:550px) {
+  .services-section #services-title,
+  .products-section #products-title,
+  .why-section #why-title { font-size:clamp(2.65rem,10vw,3.9rem); line-height:1.07; margin-bottom:24px; }
+  .services-section .section-heading-row { gap:22px; }
+  .why-heading { gap:34px; }
+}
