@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 
 type Point = [number, number];
 type Gesture = 'hero' | 'thinking' | 'discovery' | 'services' | 'products' | 'why' | 'faq' | 'contact';
-type Scene = { gesture: Gesture; progress: number; reduced: boolean };
+type Scene = { gesture: Gesture; progress: number; reduced: boolean; mobile: boolean };
 type Stroke = { id: string; points: Point[]; step?: number };
 
 const clamp = (n: number) => Math.max(0, Math.min(1, n));
@@ -66,7 +66,7 @@ const BACKGROUND_LINES = Array.from({ length: 43 }, (_, i) => {
 });
 
 export function NetworkGesture() {
-  const [scene, setScene] = useState<Scene>({ gesture: 'hero', progress: 0.38, reduced: false });
+  const [scene, setScene] = useState<Scene>({ gesture: 'hero', progress: 0.38, reduced: false, mobile: false });
 
   useEffect(() => {
     const media = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -86,8 +86,8 @@ export function NetworkGesture() {
       const rect = selected.getBoundingClientRect();
       const progress = clamp((window.innerHeight - rect.top) / (window.innerHeight + rect.height));
       const gesture = (selected.dataset.gesture || 'hero') as Gesture;
-      setScene(previous => previous.gesture === gesture && Math.abs(previous.progress - progress) < .003 && previous.reduced === media.matches
-        ? previous : { gesture, progress, reduced: media.matches });
+      setScene(previous => previous.gesture === gesture && Math.abs(previous.progress - progress) < .003 && previous.reduced === media.matches && previous.mobile === (window.innerWidth < 680)
+        ? previous : { gesture, progress, reduced: media.matches, mobile: window.innerWidth < 680 });
     };
     const schedule = () => { if (!raf) raf = window.requestAnimationFrame(update); };
     schedule();
@@ -102,8 +102,10 @@ export function NetworkGesture() {
     };
   }, []);
 
-  const { gesture, progress, reduced } = scene;
-  const layout = SCENE_POS[gesture];
+  const { gesture, progress, reduced, mobile } = scene;
+  const layout = mobile
+    ? { ...SCENE_POS[gesture], x: gesture === 'contact' ? 240 : 325, y: 125, s: gesture === 'contact' ? 2.7 : 3.05 }
+    : SCENE_POS[gesture];
   const strength = reduced ? 1 : gesture === 'faq'
     ? ease(0.06, 0.5, progress)
     : ease(0.05, 0.33, progress) * (1 - ease(0.73, 0.96, progress));
@@ -159,8 +161,8 @@ export function NetworkGesture() {
           {gesture === 'faq' && (
             <g opacity={reduced ? 1 : ease(0.76, 0.96, progress)} fill="none"
               stroke="url(#networkStroke)" strokeWidth=".48">
-              <path d="M 50 -5 C 42 -17 48 -30 59 -28 C 70 -27 74 -17 67 -11 L 58 -3 L 58 1" />
-              <circle cx="58" cy="8" r="1.7" fill="#69b8ff" stroke="none" />
+              <path d="M 50 -5 C 42 -17 48 -30 59 -28 C 70 -27 74 -17 67 -11 L 58 -3 L 58 1" pathLength={1} strokeDasharray="1" strokeDashoffset={1 - (reduced ? 1 : ease(0.77, 0.95, progress))} />
+              <circle cx="58" cy="8" r="1.7" fill="#69b8ff" stroke="none" opacity={reduced ? 1 : ease(0.92, 1, progress)} />
               <path d="M 44 -17 L 51 -21 L 62 -25 L 69 -19" strokeWidth=".18" />
             </g>
           )}
@@ -168,7 +170,7 @@ export function NetworkGesture() {
         {gesture === 'contact' && (
           <g transform="translate(1000 0) scale(-1 1)" fill="none" stroke="url(#networkStroke)"
             strokeWidth="1.4" opacity={strength * .85}>
-            <g transform="translate(140 135) scale(3.4) rotate(-58 55 52)">
+            <g transform={`translate(${layout.x} ${layout.y}) scale(${layout.s}) rotate(${layout.r} 55 52)`}>
               {paths.slice(0, 8).map(line => (
                 <polyline key={line.id} points={line.points.map(p => p.join(',')).join(' ')} />
               ))}
