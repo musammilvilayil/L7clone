@@ -108,6 +108,17 @@ try {
         links.map(link => link.getAttribute('href')).filter(href => href && href !== '#'));
       for (const hash of hashes) assert.equal(await page.locator(hash).count(),1,`Broken anchor: ${hash}`);
 
+      // Contrast modes and navigational controls must survive the animation rig.
+      await page.getByRole('button',{name:'Switch to light theme'}).click();
+      assert.equal(await page.locator('html').getAttribute('data-theme'),'light');
+      await photograph(page,'1440-light-mode-hero','#top');
+      await page.getByRole('button',{name:'Switch to dark theme'}).click();
+      assert.equal(await page.locator('html').getAttribute('data-theme'),'dark');
+      for (const [href,count] of [['mailto:info@ladder7.in',1],['tel:+918137979401',1]]) {
+        assert.ok((await page.locator(`a[href="${href}"]`).count()) >= count,
+          `Missing clickable contact destination: ${href}`);
+      }
+
       const initialVariant = await page.locator('#capabilities .gesture-dock').getAttribute('data-variant');
       assert.equal(initialVariant,'digital');
       await page.locator('.service-line').nth(1).locator('button').click();
@@ -194,6 +205,29 @@ try {
     await page.close();
     console.log(`PASS: ${width}px section gestures, assets, no overlaps, no horizontal overflow and screenshot coverage`);
   }
+
+  // Save a real browser recording of the continuous, reversible choreography.
+  // Frames are captured from the compiled site; this is not a CSS mock-up.
+  const cinema = await browser.newContext({
+    viewport:{ width:1280,height:760 },
+    reducedMotion:'no-preference',
+    recordVideo:{ dir:'screenshots',size:{width:1280,height:760} },
+  });
+  const film = await cinema.newPage();
+  await film.goto(baseURL,{waitUntil:'networkidle'});
+  await film.evaluate(() => { document.documentElement.style.scrollBehavior='auto'; window.scrollTo(0,0); });
+  const total = await film.evaluate(() => document.documentElement.scrollHeight - window.innerHeight);
+  const frames = 135;
+  for (let i=0; i<=frames; i++) {
+    const t=i/frames;
+    const travel=t < .5 ? (t*2) : (2-t*2);
+    const distance=total * travel;
+    await film.evaluate(y => window.scrollTo(0,y),distance);
+    await film.waitForTimeout(75);
+  }
+  await film.close();
+  await film.video().saveAs('screenshots/ladder7-scroll-choreography.webm');
+  await cinema.close();
 
   const page = await browser.newPage({ reducedMotion:'reduce', viewport:{width:1440,height:900} });
   page.on('pageerror', error => failures.push(`reduced-motion: ${error.message}`));
