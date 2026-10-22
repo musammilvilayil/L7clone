@@ -75,7 +75,7 @@ const THINK_HAND: Stroke[] = [
   // The index stands beside the face while the other fingers curl into a
   // compact, supportive palm. This is deliberately NOT a two-finger V sign.
   { id:'wrist-left', d:'M116 332 C108 308 105 279 108 257 C111 235 122 226 141 219' },
-  { id:'index-rise', d:'M141 219 C133 205 124 184 117 162 C111 145 116 132 129 130 C140 128 149 138 154 153 L170 192' },
+  { id:'folded-finger', d:'M141 219 C127 215 113 205 110 190 C108 175 117 169 129 173 C141 177 154 188 170 192' },
   { id:'index-vertical', d:'M170 192 C167 159 166 126 171 108 C174 94 185 89 195 94 C209 100 210 113 206 131 L198 202' },
   { id:'middle-fold', d:'M198 202 C208 190 223 181 233 186 C245 190 249 201 241 213 L223 230' },
   { id:'ring-fold', d:'M223 230 C237 227 249 233 251 244 C252 257 241 267 229 270' },
@@ -114,7 +114,7 @@ const HANDS: Record<Exclude<GestureVariant, 'contact'>, Stroke[]> = {
 };
 const POSITION: Record<Exclude<GestureVariant, 'contact'>, Config> = {
   hero: { rotation: -9, scale: .94, offsetX: 8, offsetY: 0 },
-  thinking: { rotation: -13, scale: 1.04, offsetX: 5, offsetY: -9 },
+  thinking: { rotation: 3, scale: 1.08, offsetX: 0, offsetY: -7 },
   about: { rotation: -25, scale: .95, offsetX: -7, offsetY: 13, node:[268,182] },
   digital: { rotation: 13, scale: 1, offsetX: 5, offsetY: 0, node:[268,182] },
   automation: { rotation: -18, scale: .99, offsetX: 0, offsetY: 0, node:[144,62] },
