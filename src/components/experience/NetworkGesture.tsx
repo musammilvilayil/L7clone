@@ -122,14 +122,14 @@ export function NetworkGesture() {
     ? { ...SCENE_POS[gesture], x: gesture === 'contact' ? 240 : 325, y: 125, s: gesture === 'contact' ? 2.7 : 3.05 }
     : SCENE_POS[gesture];
   const strength = reduced ? 1 : gesture === 'faq'
-    ? ease(0.06, 0.5, progress)
-    : ease(0.05, 0.33, progress) * (1 - ease(0.73, 0.96, progress));
-  const backgroundFade = 0.17 + (1 - strength) * 0.23;
+    ? ease(0.04, 0.28, progress)
+    : ease(0.02, 0.20, progress) * (1 - ease(0.83, 0.99, progress));
+  const backgroundFade = 0.23 + (1 - strength) * 0.14;
 
   const paths = useMemo(() => HAND.map((line, i) => {
     const fingerStrength = line.step === undefined || gesture !== 'faq' || reduced
       ? strength
-      : ease(0.22 + line.step * 0.105, 0.35 + line.step * 0.105, progress);
+      : ease(0.25 + line.step * 0.115, 0.37 + line.step * 0.115, progress);
     const t = gesture === 'faq' ? Math.min(strength, fingerStrength) : strength;
     const points = line.points.map((point, j) => {
       const start = networkPoint(i, j, line.points.length);
@@ -164,20 +164,20 @@ export function NetworkGesture() {
             const points = line.points.map(p => p.map(n => n.toFixed(2)).join(',')).join(' ');
             return (
               <g key={line.id}>
-                <polyline points={points} stroke="#0056b2" strokeWidth=".8"
-                  opacity={0.17 + strength * .35} transform="translate(1.8 2.4)" />
-                <polyline points={points} stroke="url(#networkStroke)" strokeWidth=".31"
-                  opacity={0.55 + strength * .44} />
-                {index < 8 && <polyline points={points} stroke="#8dcfff" strokeWidth=".18"
-                  opacity={strength * .5} transform="translate(-.65 -.4)" />}
+                <polyline points={points} stroke="#0056b2" strokeWidth="1.15"
+                  opacity={0.20 + strength * .42} transform="translate(1.8 2.4)" />
+                <polyline points={points} stroke="url(#networkStroke)" strokeWidth=".58"
+                  opacity={0.62 + strength * .38} />
+                {index < 8 && <polyline points={points} stroke="#8dcfff" strokeWidth=".3"
+                  opacity={strength * .6} transform="translate(-.65 -.4)" />}
               </g>
             );
           })}
           {gesture === 'faq' && (
-            <g opacity={reduced ? 1 : ease(0.76, 0.96, progress)} fill="none"
+            <g opacity={reduced ? 1 : ease(0.82, 0.97, progress)} fill="none"
               stroke="url(#networkStroke)" strokeWidth=".48">
-              <path d="M 50 -5 C 42 -17 48 -30 59 -28 C 70 -27 74 -17 67 -11 L 58 -3 L 58 1" pathLength={1} strokeDasharray="1" strokeDashoffset={1 - (reduced ? 1 : ease(0.77, 0.95, progress))} />
-              <circle cx="58" cy="8" r="1.7" fill="#69b8ff" stroke="none" opacity={reduced ? 1 : ease(0.92, 1, progress)} />
+              <path d="M 50 -5 C 42 -17 48 -30 59 -28 C 70 -27 74 -17 67 -11 L 58 -3 L 58 1" pathLength={1} strokeDasharray="1" strokeDashoffset={1 - (reduced ? 1 : ease(0.83, 0.98, progress))} />
+              <circle cx="58" cy="8" r="1.7" fill="#69b8ff" stroke="none" opacity={reduced ? 1 : ease(0.94, 1, progress)} />
               <path d="M 44 -17 L 51 -21 L 62 -25 L 69 -19" strokeWidth=".18" />
             </g>
           )}
