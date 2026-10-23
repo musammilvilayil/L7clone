@@ -916,3 +916,16 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
   .cin-footer-one-screen .cin-footer-hello-grid a {font-size:11px}
   .cin-footer-one-screen .cin-footer-opening {font-size:17px}
 }
+
+/* Final one-viewport footer placement. Reserve the existing fixed header's
+   height instead of letting the first footer row sit behind navigation.
+   Above the footer, the nine cinematic scenes/rail remain unchanged. */
+@media (min-width:601px) {
+  .cin-site .cin-footer.cin-footer-one-screen {
+    min-height:calc(100svh - var(--header-h));
+  }
+}
+.cin-site .cin-footer.cin-footer-one-screen {
+  position:relative;
+  z-index:65; /* footer content/wordmark covers the chapter rail at the finale */
+}
