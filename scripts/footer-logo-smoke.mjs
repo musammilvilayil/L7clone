@@ -102,6 +102,16 @@ try {
     });
     assert.ok(measure.footer.height<=height+3,
       `Footer must fit one viewport at ${width}px: ${JSON.stringify(measure)}`);
+    if(width>600) {
+      await page.evaluate(()=>window.scrollTo({top:document.documentElement.scrollHeight,behavior:'instant'}));
+      const headerVisibility=await page.evaluate(()=>{
+        const top=document.querySelector('#footer').getBoundingClientRect().top;
+        const header=parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--header-h'));
+        return {top,header};
+      });
+      assert.ok(headerVisibility.top >= headerVisibility.header - 2,
+        `Footer intro hidden behind fixed navigation at ${width}px: ${JSON.stringify(headerVisibility)}`);
+    }
     assert.ok(measure.logo.width>=width*.99,
       `Oversized Ladder7 logo must span nearly screen width at ${width}px`);
     assert.ok(measure.info.bottom<=measure.legal.y+2 &&
