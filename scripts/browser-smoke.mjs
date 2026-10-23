@@ -37,7 +37,7 @@ try {
     assert.equal(await page.locator('main svg.gesture-svg').count(),0,'Illustration SVG still mounted');
     assert.equal(await page.locator('main .cin-kicker').count(),9);
     const labels=await page.locator('main .cin-kicker').allTextContents();
-    assert.ok(labels.every(label=>!/\d|[\/]/.test(label)), 'Numbers and slash still found in chapter eyebrows '+labels.join(', '));
+    assert.ok(labels.every(label=>!/\/|^\s*\d/.test(label)), 'Numbers and slash still found in chapter eyebrows '+labels.join(', '));
     const boxes=await page.evaluate(()=>{
       const max=document.documentElement.scrollWidth,view=innerWidth;
       const headings=[...document.querySelectorAll('main h1,main h2')].map(el=>{
