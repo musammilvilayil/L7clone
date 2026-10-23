@@ -391,6 +391,16 @@ function Footer({ light }: { light:boolean }) {
       </div>
       <div className="cin-footer-base"><span>© 2026 Ladder7 NextStep Solutions. All rights reserved.</span><a href="#contact">Privacy Policy</a></div>
     </div>
+    <div className="cin-footer-oversized-logo">
+      <img
+        src={light ? '/images/logos/logo-primary.webp' : '/images/logos/logo-white.webp'}
+        alt="Ladder7 Nextstep Solutions"
+        width="2000"
+        height="800"
+        loading="lazy"
+        decoding="async"
+      />
+    </div>
   </footer>;
 }
 
