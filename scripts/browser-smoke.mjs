@@ -91,6 +91,33 @@ try {
     await photograph(page,`${width}-footer`,'#footer');
     await assertLayout(page,width);
     await checkAssets(page);
+    // Oversized footer signature must remain edge-to-edge, naturally scaled,
+    // below every existing footer block and above the physical footer edge.
+    const footerBrand = await page.locator('.cin-footer-oversized-logo img').evaluate(img => {
+      const box = img.getBoundingClientRect();
+      const footer = img.closest('footer').getBoundingClientRect();
+      const base = img.closest('footer').querySelector('.cin-footer-base').getBoundingClientRect();
+      return {
+        naturalWidth: img.naturalWidth, naturalHeight: img.naturalHeight,
+        width: box.width, height: box.height,
+        left: box.left, right: box.right,
+        top: box.top, footerBottom: footer.bottom,
+        contentBottom: base.bottom,
+      };
+    });
+    assert.ok(footerBrand.naturalWidth > 0 && footerBrand.naturalHeight > 0,
+      'The original Ladder7 footer logo failed to load');
+    assert.ok(footerBrand.width >= width * .94,
+      `Footer logo is not sufficiently oversized at ${width}px: ${JSON.stringify(footerBrand)}`);
+    assert.ok(Math.abs(footerBrand.width / footerBrand.height -
+      footerBrand.naturalWidth / footerBrand.naturalHeight) < .015,
+      `Footer logo aspect ratio distorted at ${width}px`);
+    assert.ok(footerBrand.top >= footerBrand.contentBottom - 2,
+      `Footer logo overlaps the original copyright/footer content at ${width}px`);
+    assert.ok(footerBrand.footerBottom - (footerBrand.top + footerBrand.height) <= 12,
+      `Excessive space below the footer logo at ${width}px`);
+    assert.ok(footerBrand.left >= 0 && footerBrand.right <= width + 2,
+      `Footer logo clipped off screen at ${width}px`);
     // Typography must survive Tailwind's reset; previously these headings
     // rendered at inherited 16px despite looking correctly marked up.
     for (const id of ['services-title','products-title','why-title']) {
