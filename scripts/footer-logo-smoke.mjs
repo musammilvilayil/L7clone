@@ -54,6 +54,32 @@ try {
       });
       if(img.decode)await img.decode();
     });
+    if(width===1440 || width===390) {
+      const sourcePixels=await logo.evaluate(img=>{
+        const canvas=document.createElement('canvas');
+        canvas.width=img.naturalWidth;canvas.height=img.naturalHeight;
+        const context=canvas.getContext('2d',{willReadFrequently:true});
+        if(!context)return null;
+        context.drawImage(img,0,0);
+        const rgba=context.getImageData(0,0,canvas.width,canvas.height).data;
+        let minX=canvas.width,minY=canvas.height,maxX=-1,maxY=-1,total=0,opaque=0;
+        for(let y=0;y<canvas.height;y++)for(let x=0;x<canvas.width;x++){
+          const i=(y*canvas.width+x)*4;
+          if(rgba[i+3]>32){
+            opaque++;
+            if(Math.max(rgba[i],rgba[i+1],rgba[i+2])>100){
+              minX=Math.min(minX,x);minY=Math.min(minY,y);
+              maxX=Math.max(maxX,x);maxY=Math.max(maxY,y);total++;
+            }
+          }
+        }
+        const photo=img.getBoundingClientRect(),box=img.parentElement.getBoundingClientRect();
+        return {natural:[canvas.width,canvas.height],opaqueFraction:opaque/(canvas.width*canvas.height),
+          ink:{minX,minY,maxX,maxY,points:total},photo:{top:photo.top,height:photo.height,left:photo.left,width:photo.width},
+          frame:{top:box.top,bottom:box.bottom,left:box.left,right:box.right,height:box.height}};
+      });
+      console.log('FOOTER_INKMAP '+width+' '+JSON.stringify(sourcePixels));
+    }
     const measure=await footer.evaluate(el=>{
       const bounds=node=>{
         const r=node.getBoundingClientRect();
