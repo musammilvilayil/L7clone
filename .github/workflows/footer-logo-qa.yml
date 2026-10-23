@@ -1,0 +1,53 @@
+name: Ladder7 Footer Logo QA
+
+on:
+  push:
+    branches: [dev]
+    paths:
+      - 'src/CinematicApp.tsx'
+      - 'src/cinematic.css'
+      - 'scripts/footer-logo-smoke.mjs'
+      - '.github/workflows/footer-logo-qa.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ladder7-footer-qa-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  footer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - name: Install Playwright Chromium
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install chromium
+      - run: npm run build
+      - name: Serve compiled site
+        run: |
+          npm run preview -- --host 127.0.0.1 --port 4173 > /tmp/ladder7-footer-preview.log 2>&1 &
+          for i in $(seq 1 40); do
+            if curl --fail -s http://127.0.0.1:4173 > /dev/null; then exit 0; fi
+            sleep 1
+          done
+          cat /tmp/ladder7-footer-preview.log
+          exit 1
+      - name: Footer-only six viewport QA
+        run: node scripts/footer-logo-smoke.mjs
+      - name: Upload footer screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ladder7-footer-logo-qa
+          path: footer-screenshots/
+          if-no-files-found: ignore
