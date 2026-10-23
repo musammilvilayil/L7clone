@@ -87,7 +87,7 @@ try {
         assert.ok(await dock.locator('svg path').count() >= 4,`Empty SVG in ${id} at ${width}`);
       }
     }
-    await page.locator('#training').scrollIntoViewIfNeeded();
+    await page.locator('#footer').scrollIntoViewIfNeeded();
     await photograph(page,`${width}-footer`,'#footer');
     await assertLayout(page,width);
     await checkAssets(page);

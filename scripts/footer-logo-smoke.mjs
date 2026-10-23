@@ -30,12 +30,12 @@ try {
         `Required footer information missing at ${width}px: ${snippet}`);
     }
     for (const href of [
-      'tel:+918137979401','mailto:info@ladder7.in','#contact','#training','#capabilities',
+      'tel:+918137979401','mailto:info@ladder7.in','#contact','#capabilities',
       '#products','#top','https://www.linkedin.com/company/ladder7-nextstep-solutions-llp'
     ]) assert.ok(await footer.locator('a[href="'+href+'"]').count()>0,
       `Missing footer link: ${href}`);
-    assert.equal(await footer.locator('.cin-footer-hello-grid a').count(),8,
-      'Four navigation and four social links must remain usable');
+    assert.equal(await footer.locator('.cin-footer-hello-grid a').count(),7,
+      'Three navigation and four social links must remain usable');
 
     const input=footer.locator('input[type="email"]');
     assert.equal(await input.count(),1,'Accessible email request field is required');

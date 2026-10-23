@@ -11,7 +11,6 @@ const NAV = [
   { label: 'Who we are', href: '#about' },
   { label: 'What we do', href: '#capabilities' },
   { label: 'What we think', href: '#products' },
-  { label: 'Corporate Training', href: '#training' },
 ];
 
 const AUDIENCES = [
@@ -77,7 +76,6 @@ function Header({ light, setLight }: { light: boolean; setLight: (value: boolean
       {NAV.map(item => <a key={item.href} href={item.href}>{item.label}</a>)}
     </nav>
     <div className="cin-header-tools">
-      <div className="cin-portals"><a href="#training">Education</a><a href="#top" aria-current="page">IT</a></div>
       <button className="cin-icon-button" type="button" aria-label={light ? 'Switch to dark theme' : 'Switch to light theme'} onClick={() => setLight(!light)}>
         {light ? <Moon size={19}/> : <Sun size={19}/>}
       </button>
@@ -88,8 +86,7 @@ function Header({ light, setLight }: { light: boolean; setLight: (value: boolean
     </div>
     <nav id="mobile-navigation" className={'cin-mobile-nav' + (menuOpen ? ' is-open' : '')} aria-label="Mobile navigation" inert={!menuOpen}>
       {NAV.map((item, index) => <a key={item.href} href={item.href} onClick={() => setMenuOpen(false)}><span>0{index+1}</span>{item.label}<ArrowUpRight size={20}/></a>)}
-      <a href="#contact" onClick={() => setMenuOpen(false)}><span>05</span>Contact Us<ArrowUpRight size={20}/></a>
-      <div className="cin-mobile-portals"><a href="#training" onClick={() => setMenuOpen(false)}>Education</a><a href="#top" onClick={() => setMenuOpen(false)}>IT</a></div>
+      <a href="#contact" onClick={() => setMenuOpen(false)}><span>04</span>Contact Us<ArrowUpRight size={20}/></a>
     </nav>
   </header>;
 }
@@ -403,7 +400,6 @@ function Footer({ light }: { light:boolean }) {
           <h3>SAY HELLO</h3>
           <div className="cin-footer-hello-grid">
             <a href="#contact">Contact Us</a>
-            <a href="#training">Corporate Training</a>
             <a href="#capabilities">Our Services</a>
             <a href="#products">Our Products</a>
             {SOCIAL.map(link =>
@@ -453,10 +449,6 @@ export default function CinematicApp() {
       <Why/>
       <FAQ/>
       <Contact/>
-      <section className="cin-training" id="training">
-        <div className="cin-wrap"><div><span className="cin-overline">Ladder7 / Education</span><h2>Corporate Training</h2></div>
-          <a href="mailto:info@ladder7.in?subject=Corporate%20Training">Contact Us <ArrowUpRight size={19}/></a></div>
-      </section>
     </main>
     <Footer light={light}/>
   </div>;

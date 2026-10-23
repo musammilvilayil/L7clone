@@ -77,9 +77,6 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
 .cin-primary-nav a {white-space:nowrap;color:var(--muted);font-size:12px;font-weight:650;transition:color .2s}
 .cin-primary-nav a:hover {color:var(--text)}
 .cin-header-tools {display:flex;align-items:center;gap:12px}
-.cin-portals {display:flex;gap:3px;border:1px solid var(--line);padding:3px;border-radius:30px}
-.cin-portals a {font-size:10px;color:var(--muted);padding:5px 11px;border-radius:30px}
-.cin-portals [aria-current="page"] {background:var(--primary);color:#fff}
 .cin-icon-button {display:grid;place-items:center;width:38px;height:38px;border:1px solid var(--line);background:transparent;color:var(--text);border-radius:50%}
 .cin-contact-link {display:inline-flex;gap:12px;align-items:center;padding:11px 15px;background:var(--primary);border-radius:4px;color:#fff!important;font-size:12px;font-weight:700;white-space:nowrap}
 .cin-menu-button {display:none}
@@ -88,7 +85,6 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
 .cin-mobile-nav>a {display:flex;gap:22px;align-items:center;font:500 clamp(23px,6vw,36px)/1.25 'Space Grotesk',sans-serif;padding:16px 0;border-bottom:1px solid var(--line)}
 .cin-mobile-nav>a span {font:700 11px 'Public Sans';color:var(--accent)}
 .cin-mobile-nav>a svg {margin-left:auto}
-.cin-mobile-portals {display:flex;gap:20px;padding-top:25px;color:var(--muted)}
 .cin-progress-track {position:fixed;z-index:103;top:0;left:0;width:100%;height:2px;background:transparent;pointer-events:none}
 .cin-progress-track>span {display:block;height:100%;width:100%;background:var(--accent);transform:scaleX(0);transform-origin:0 50%;will-change:transform}
 .cin-rail {position:fixed;z-index:60;right:clamp(12px,1.6vw,30px);top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:flex-end;gap:10px}
@@ -272,12 +268,7 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
 .cin-finale-contact a {display:flex;gap:10px;align-items:center;font-size:13px;color:var(--muted);border-bottom:1px solid var(--line);padding-bottom:10px}
 .cin-finale-contact a:hover {color:var(--accent)}
 
-/* Training + full original footer information */
-.cin-training {padding-block:45px;background:var(--primary);color:#fff}
-.cin-training .cin-wrap {display:flex;align-items:center;justify-content:space-between;gap:30px}
-.cin-training .cin-overline {color:#d4e8ff}
-.cin-training h2 {font-size:clamp(28px,3vw,48px);margin-top:5px}
-.cin-training a {font-weight:700;display:inline-flex;gap:12px;align-items:center;border-bottom:1px solid #fff;padding-bottom:10px}
+/* Full original footer information */
 .cin-footer {background:var(--deep);border-top:1px solid var(--line);padding:clamp(65px,8vw,115px) 0 25px}
 .cin-footer-lead {display:grid;grid-template-columns:1fr 1fr auto;align-items:end;gap:30px;border-bottom:1px solid var(--line);padding-bottom:clamp(40px,5vw,85px)}
 .cin-footer-lead img {width:clamp(165px,18vw,280px);max-height:100px;object-fit:contain}
@@ -299,7 +290,6 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
 /* Tablet composition: editorial storytelling remains vertical, not squeezed. */
 @media(max-width:1024px) {
   .cin-primary-nav {gap:14px}.cin-primary-nav a {font-size:11px}
-  .cin-portals {display:none}
   .cin-hero h1 {font-size:clamp(51px,6.5vw,76px)}
   .cin-hero-hand {height:350px}
   .cin-product-stage {gap:35px}
@@ -313,7 +303,7 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
 }
 @media(max-width:850px) {
   :root {--header-h:75px}
-  .cin-primary-nav,.cin-portals {display:none}
+  .cin-primary-nav {display:none}
   .cin-menu-button {display:grid}
   .cin-header {padding-inline:clamp(20px,5vw,45px)}
   .cin-hero {min-height:0;padding-block:calc(var(--header-h) + 45px) 90px}
@@ -429,7 +419,6 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
   .cin-finale-hands {height:190px;margin:15px auto 25px}
   .cin-finale-btn {max-width:370px}
   .cin-finale-contact {flex-direction:column;gap:12px;align-items:center}
-  .cin-training .cin-wrap {flex-direction:column;align-items:flex-start}
   .cin-footer {padding-top:68px}
   .cin-footer-lead {grid-template-columns:1fr;gap:21px}
   .cin-footer-lead p {font-size:clamp(35px,9vw,55px)}
