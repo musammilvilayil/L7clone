@@ -1,0 +1,334 @@
+
+/* Ladder7 / Typography-first editorial direction.
+   Intent: no decorative hand illustrations, no empty illustration cells,
+   compact content-led spacing, original photographs and business information.
+   Responsive upper limits: H1 <= 16rem, H2 <= 14rem. */
+.cin-site { --editorial-h1:clamp(3rem,8.8vw,16rem); --editorial-h2:clamp(2.45rem,7.8vw,14rem); }
+.cin-site .scene { scroll-margin-top:var(--header-h); }
+.cin-site .cin-wrap { width:min(100%,1600px); padding-inline:clamp(18px,4.75vw,96px); }
+.cin-site .scene h1,
+.cin-site .scene h2 {
+  font-family:'Space Grotesk','Public Sans',sans-serif;
+  letter-spacing:-.072em;
+  text-wrap:balance;
+  overflow-wrap:break-word;
+  max-width:100%;
+  line-height:1.04;
+}
+.cin-site .scene h1 { font-size:var(--editorial-h1); }
+.cin-site .scene h2 { font-size:var(--editorial-h2); }
+.cin-site .cin-kicker {
+  margin:0;
+  display:block;
+  font:700 11px/1.55 'Public Sans',system-ui,sans-serif!important;
+  letter-spacing:.14em;
+  color:var(--accent);
+  text-transform:uppercase;
+}
+.cin-site .cin-kicker span,.cin-site .cin-kicker i {display:none}
+.cin-site .cin-overline {letter-spacing:.11em}
+.cin-site .scene:not(.cin-hero):not(.cin-engineering):not(.cin-finale) {
+  padding-block:clamp(46px,5.25vw,90px);
+}
+.cin-site .scene :where(p,h2,h3,a,button) { min-width:0; }
+.cin-site :is(.cin-btn,.cin-icon-button,.cin-product-pagination button) { min-height:44px; }
+.cin-site :is(a,button,input):focus-visible {
+  outline:3px solid var(--accent);
+  outline-offset:4px;
+}
+.cin-site [data-cin-reveal] {
+  opacity:1;
+}
+.cin-site [data-cin-reveal]:not(.is-visible) {
+  transform:translateY(12px);
+}
+.cin-site img {max-width:100%;}
+
+/* 01. Oversized headline across the full canvas, editorial photo below.
+   It uses the existing hero image; the removed hand leaves no blank slot. */
+.cin-site .cin-hero {
+  min-height:100svh;
+  min-height:100dvh;
+  padding-top:calc(var(--header-h) + clamp(25px,3vh,40px));
+  padding-bottom:clamp(28px,4vh,55px);
+  display:flex;
+  align-items:center;
+}
+.cin-site .cin-hero-grid {
+  display:grid;
+  grid-template-columns:minmax(0,1fr);
+  gap:clamp(16px,2.5vh,28px);
+  align-items:start;
+}
+.cin-site .cin-hero-main {
+  display:grid;
+  grid-template-columns:minmax(0,1.3fr) minmax(230px,.7fr);
+  grid-template-areas:"kicker kicker" "heading heading" "message explore";
+  align-items:end;
+  column-gap:clamp(20px,4vw,75px);
+  row-gap:clamp(12px,2vh,24px);
+}
+.cin-hero-main>.cin-kicker {grid-area:kicker}
+.cin-site .cin-hero h1 {
+  grid-area:heading;
+  font-size:clamp(3rem,8.1vw,16rem);
+  line-height:.98;
+  letter-spacing:-.082em;
+  max-width:100%;
+}
+.cin-site .cin-hero h1 em {display:inline;margin:0}
+.cin-site .cin-hero-message {grid-area:message;max-width:780px;gap:clamp(13px,1.5vw,23px)}
+.cin-site .cin-hero-message>p {font-size:clamp(14px,1.1vw,17px);line-height:1.55}
+.cin-site .cin-scroll-invite {grid-area:explore;justify-self:end;align-self:end}
+.cin-site .cin-hero-canvas {display:block;min-height:0;width:100%}
+.cin-site .cin-hero-image {
+  width:100%;
+  transform:none;
+  transition:filter .3s;
+  padding:6px;
+  box-shadow:none;
+}
+.cin-site .cin-hero-image img {
+  display:block;
+  width:100%;
+  height:clamp(180px,27vh,325px);
+  object-fit:cover;
+  object-position:center 42%;
+}
+.cin-site .cin-hero-image figcaption {padding:7px 7px 4px}
+.cin-site .cin-hero-orbit,
+.cin-site .cin-hero-baseline,
+.cin-site .cin-hero-hand {display:none!important}
+
+/* 02. Three photograph-led perspectives replace the excessive sticky rail. */
+.cin-site .cin-vision-intro {margin-bottom:clamp(16px,2.8vw,42px)}
+.cin-site .cin-vision-heading {max-width:none}
+.cin-site .cin-vision-heading h2 {max-width:1450px}
+.cin-site .cin-vision-stories {
+  display:block;
+}
+.cin-site .cin-vision-rail {
+  position:static;
+  height:auto;
+  display:flex;
+  flex-direction:row;
+  gap:clamp(15px,2.5vw,38px);
+  align-items:baseline;
+  margin-bottom:clamp(15px,2.5vw,36px);
+}
+.cin-site .cin-vision-rail strong {
+  max-width:none;
+  font-size:clamp(18px,1.9vw,30px);
+}
+.cin-site .cin-vision-line {display:none}
+.cin-site .cin-vision-stack {
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:clamp(12px,1.5vw,25px);
+  align-items:stretch;
+}
+.cin-site .cin-perspective {
+  display:flex;
+  flex-direction:column;
+  gap:clamp(10px,1.4vw,20px);
+  padding:clamp(12px,1.35vw,23px);
+  border-radius:5px;
+  box-shadow:none;
+}
+.cin-site .cin-perspective-image {aspect-ratio:5/3}
+.cin-site .cin-perspective-image img {width:100%;height:100%;object-fit:cover}
+.cin-site .cin-perspective-copy {display:flex;flex-direction:column;align-items:flex-start;gap:14px;flex:1}
+.cin-site .cin-perspective-copy h3 {font-size:clamp(26px,2.45vw,41px);letter-spacing:-.05em}
+.cin-site .cin-perspective-copy p {margin:0;font-size:clamp(13px,.92vw,15px);line-height:1.62}
+.cin-site .cin-perspective-copy .cin-inline-links {margin-top:auto;padding-top:12px}
+
+/* 03. Human identity is communicated with copy, not an artificial hand. */
+.cin-site .cin-about-composition {
+  display:block;
+  margin-block:clamp(18px,2.7vw,46px);
+}
+.cin-site .cin-about-gesture {display:none!important}
+.cin-site .cin-about-message {
+  display:grid;
+  grid-template-columns:minmax(0,1.1fr) minmax(280px,.64fr);
+  align-items:end;
+  gap:clamp(16px,3.6vw,62px);
+}
+.cin-site .cin-about-message .cin-overline {grid-column:1/-1}
+.cin-site .cin-about-message h2 {margin:0}
+.cin-site .cin-about-message p {font-size:clamp(14px,1.05vw,17px);line-height:1.7}
+.cin-site .cin-audiences {margin-top:clamp(18px,3vw,45px)}
+.cin-site .cin-audiences article,.cin-site .cin-audiences article+article {
+  padding-block:clamp(22px,2.6vw,45px);
+}
+.cin-site .cin-audiences h3 {margin:17px 0;font-size:clamp(27px,2.7vw,43px)}
+.cin-site .cin-audiences p {line-height:1.65}
+
+/* 04. Compact but expressive service explorer, image-led not illustrated. */
+.cin-site .cin-services-intro {
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  align-items:end;
+  gap:clamp(16px,2.4vw,36px);
+  margin-bottom:clamp(23px,3.4vw,50px);
+}
+.cin-site .cin-services-intro h2 {margin:clamp(10px,1.5vw,19px) 0}
+.cin-site .cin-services-theatre {
+  grid-template-columns:minmax(0,1fr) minmax(0,1.02fr);
+  gap:clamp(18px,3vw,50px);
+}
+.cin-site .cin-service-row>button {min-height:68px;padding-block:clamp(16px,1.8vw,25px)}
+.cin-site .cin-services-stage {
+  position:sticky;
+  top:calc(var(--header-h) + 15px);
+  height:clamp(420px,43vw,630px);
+}
+.cin-site .cin-services-watermark,.cin-site .cin-services-gesture {display:none!important}
+.cin-site .cin-service-image img {object-fit:cover}
+.cin-site .cin-stage-caption {bottom:clamp(16px,2vw,30px)}
+
+/* 05. Large photographs and tabs, no gesture/card clutter. */
+.cin-site .cin-products-intro {
+  grid-template-columns:minmax(0,1fr) minmax(220px,.36fr);
+  gap:clamp(22px,3.5vw,65px);
+  align-items:end;
+  margin-block:clamp(16px,2vw,30px) clamp(22px,3vw,48px);
+}
+.cin-site .cin-products-intro h2 {font-size:clamp(2.4rem,7vw,14rem)}
+.cin-site .cin-products-intro p {font-size:clamp(14px,1vw,17px);line-height:1.65}
+.cin-site .cin-product-stage {gap:clamp(22px,4vw,70px);padding-top:clamp(22px,3vw,50px)}
+.cin-site .cin-product-display {padding:10px}
+.cin-site .cin-product-frame {aspect-ratio:1.55}
+.cin-site .cin-product-gesture {display:none!important}
+.cin-site .cin-product-information {padding-block:12px}
+.cin-site .cin-product-information h3 {font-size:clamp(2.8rem,5.9vw,6.4rem)}
+.cin-site .cin-product-tab button {min-height:52px}
+.cin-site .cin-product-tabs button {min-height:64px}
+
+/* 06. No phantom column for removed 3D illustration. */
+.cin-site .cin-engineering {
+  min-height:clamp(570px,85svh,910px);
+  padding-block:calc(var(--header-h) + 14px) clamp(26px,3vw,55px);
+}
+.cin-site .cin-engineering-content {
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:center;
+  min-height:0;
+  padding-block:clamp(10px,2vw,40px);
+}
+.cin-site .cin-engineering-copy {margin:clamp(12px,1.5vw,28px) 0 0;max-width:1190px}
+.cin-site .cin-engineering-copy h2 {margin:clamp(13px,2vw,27px) 0;font-size:clamp(2.45rem,8.1vw,14rem)}
+.cin-site .cin-engineering-copy p {line-height:1.65}
+.cin-site .cin-engineering-art {display:none!important}
+
+/* 07/08. Fully readable large headings, no forced empty picture spacers. */
+.cin-site .cin-why-top {grid-template-columns:minmax(0,1.15fr) minmax(0,.65fr);gap:clamp(16px,3vw,54px);margin-block:clamp(15px,2vw,28px)}
+.cin-site .cin-why-top h2 {font-size:clamp(2.45rem,7vw,14rem)}
+.cin-site .cin-why-art .gesture-dock {display:none}
+.cin-site .cin-why-art img {max-height:clamp(175px,23vw,310px)}
+.cin-site .cin-value-list article {padding-block:clamp(24px,2.7vw,45px)}
+.cin-site .cin-value-list h3 {font-size:clamp(27px,3vw,49px)}
+.cin-site .cin-faq-grid {grid-template-columns:minmax(0,.86fr) minmax(0,1.14fr);gap:clamp(20px,4vw,65px)}
+.cin-site .cin-faq-intro {top:calc(var(--header-h) + 20px)}
+.cin-site .cin-faq-intro h2 {font-size:clamp(2.5rem,6.5vw,14rem);margin:clamp(10px,2vw,22px) 0}
+.cin-site .cin-faq-hand {display:none}
+.cin-site .cin-faq-item button {min-height:58px;padding-block:clamp(16px,2vw,29px)}
+.cin-site .cin-faq-item [role="region"] p {line-height:1.72}
+
+/* 09. CTA-first ending; no empty space occupied by removed hands. */
+.cin-site .cin-finale {
+  min-height:clamp(580px,82svh,875px);
+  padding-block:clamp(45px,5vw,80px);
+}
+.cin-site .cin-finale h2 {
+  font-size:clamp(2.8rem,7.5vw,14rem);
+  max-width:1470px;
+  margin:clamp(16px,2.1vw,35px) auto;
+}
+.cin-site .cin-finale-hands {display:none!important}
+.cin-site .cin-finale-inner>p:not(.cin-kicker) {margin-bottom:clamp(19px,3vw,38px);line-height:1.65}
+.cin-site .cin-finale-contact {margin-top:clamp(18px,2vw,30px)}
+
+/* All genuine footer content and oversized branding remain unchanged. */
+
+/* Wide tablet / compact laptops */
+@media(max-width:1100px) {
+  .cin-site .cin-vision-stack {grid-template-columns:repeat(2,minmax(0,1fr))}
+  .cin-site .cin-vision-stack .cin-perspective:last-child {grid-column:1/-1}
+  .cin-site .cin-about-message {grid-template-columns:1.1fr .9fr}
+  .cin-site .cin-services-stage {height:clamp(390px,43vw,560px)}
+}
+@media(max-width:850px) {
+  .cin-site .cin-hero-main {
+    grid-template-columns:1fr;
+    grid-template-areas:"kicker" "heading" "message" "explore";
+  }
+  .cin-site .cin-scroll-invite {justify-self:start}
+  .cin-site .cin-about-message {grid-template-columns:1fr}
+  .cin-site .cin-services-theatre {grid-template-columns:1fr}
+  .cin-site .cin-services-stage {position:relative;top:auto;height:clamp(300px,58vw,510px)}
+  .cin-site .cin-products-intro {grid-template-columns:1fr}
+  .cin-site .cin-faq-grid {grid-template-columns:1fr;gap:clamp(20px,3vw,40px)}
+  .cin-site .cin-faq-intro {position:static}
+  .cin-site .cin-why-top {grid-template-columns:1fr}
+  .cin-site .cin-why-art img {max-height:240px;object-fit:cover}
+}
+@media(max-width:600px) {
+  .cin-site {--editorial-h1:clamp(2.8rem,12vw,5.25rem);--editorial-h2:clamp(2.4rem,10.7vw,5.25rem)}
+  .cin-site .scene:not(.cin-hero):not(.cin-engineering):not(.cin-finale) {padding-block:clamp(30px,7vw,47px)}
+  .cin-site .cin-hero {
+    min-height:0;
+    padding-block:calc(var(--header-h) + 22px) 38px;
+  }
+  .cin-site .cin-hero-grid {
+    display:flex;
+    flex-direction:column;
+    gap:clamp(14px,3vw,23px);
+  }
+  .cin-site .cin-hero-main {display:flex;flex-direction:column;align-items:flex-start;gap:15px}
+  .cin-site .cin-hero h1 {font-size:clamp(2.9rem,12.5vw,5.8rem);line-height:1.03}
+  .cin-site .cin-hero-canvas {display:block!important;width:100%}
+  .cin-site .cin-hero-image {width:100%;transform:none}
+  .cin-site .cin-hero-image img {height:clamp(175px,48vw,255px)}
+  .cin-site .cin-hero-message {gap:14px}
+  .cin-site .cin-actions {width:100%}
+  .cin-site .cin-btn {width:100%;min-height:48px}
+  .cin-site .cin-hero-baseline,.cin-site .cin-hero-orbit {display:none}
+  .cin-site .cin-vision-stories {display:block}
+  .cin-site .cin-vision-rail {display:block;margin-bottom:16px}
+  .cin-site .cin-vision-rail strong {display:block;margin-top:5px}
+  .cin-site .cin-vision-stack {display:flex;flex-direction:column;gap:15px}
+  .cin-site .cin-vision-stack .cin-perspective:last-child {grid-column:auto}
+  .cin-site .cin-perspective {width:100%;padding:14px}
+  .cin-site .cin-perspective-image {aspect-ratio:16/10}
+  .cin-site .cin-perspective-copy h3 {font-size:clamp(26px,7vw,38px)}
+  .cin-site .cin-audiences {margin-top:25px}
+  .cin-site .cin-audiences article,.cin-site .cin-audiences article+article {padding-block:27px}
+  .cin-site .cin-services-intro {grid-template-columns:1fr}
+  .cin-site .cin-services-stage {height:clamp(290px,75vw,410px)}
+  .cin-site .cin-service-row>button {min-height:58px}
+  .cin-site .cin-products-intro h2 {font-size:clamp(2.4rem,10.4vw,5rem)}
+  .cin-site .cin-product-stage {display:flex;flex-direction:column;gap:13px}
+  .cin-site .cin-product-information h3 {font-size:clamp(2.5rem,11vw,4.5rem)}
+  .cin-site .cin-product-frame {aspect-ratio:4/3}
+  .cin-site .cin-engineering {min-height:0;padding-block:calc(var(--header-h) + 22px) 48px}
+  .cin-site .cin-engineering-content {min-height:0;padding:0}
+  .cin-site .cin-engineering-copy h2 {font-size:clamp(2.5rem,10vw,5rem)}
+  .cin-site .cin-why-top h2,.cin-site .cin-faq-intro h2,.cin-site .cin-finale h2 {font-size:clamp(2.45rem,10.5vw,5rem)}
+  .cin-site .cin-faq-list {padding-top:0}
+  .cin-site .cin-finale {min-height:0;padding-block:58px}
+  .cin-site .cin-finale-inner {gap:14px}
+  .cin-site .cin-finale h2 {margin:5px auto}
+  .cin-site .cin-finale-inner>p:not(.cin-kicker) {margin:0}
+  .cin-site .cin-finale-contact {margin:0}
+}
+@media(max-width:355px) {
+  .cin-site .scene h1 {font-size:clamp(2.75rem,12vw,3.5rem)}
+  .cin-site .scene h2 {font-size:clamp(2.3rem,10vw,4rem)}
+  .cin-site .cin-products-intro h2 {font-size:2.35rem}
+}
+@media(prefers-reduced-motion:reduce) {
+  .cin-site :where(*, *::before, *::after) {animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+}
