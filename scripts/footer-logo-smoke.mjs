@@ -114,6 +114,20 @@ try {
     assert.ok(Math.abs(measure.naturalRatio-measure.imageRatio)<.014,
       `Logo ratio changed at ${width}px`);
     assert.ok(measure.inputVisible,'Newsletter email field hidden');
+    if(width===1440 || width===390){
+      await page.evaluate(()=>window.scrollTo({top:document.documentElement.scrollHeight,behavior:'instant'}));
+      await page.waitForTimeout(120);
+      const scrollBounds=await page.evaluate(()=>{
+        const footer=document.querySelector('#footer').getBoundingClientRect();
+        const frame=document.querySelector('.cin-footer-oversized-logo').getBoundingClientRect();
+        return {viewport:innerHeight,scrollY,scrollHeight:document.documentElement.scrollHeight,
+          bodyScrollHeight:document.body.scrollHeight,
+          footer:{top:footer.top,bottom:footer.bottom,height:footer.height},
+          logo:{top:frame.top,bottom:frame.bottom,height:frame.height}};
+      });
+      console.log('FOOTER_VIEWPORT_BOTTOM '+width+' '+JSON.stringify(scrollBounds));
+      await page.screenshot({path:`footer-screenshots/${width}-bottom-viewport.png`,animations:'disabled'});
+    }
     await footer.screenshot({path:`footer-screenshots/${width}-dark.png`,animations:'disabled'});
     if(width===390 || width===1440) {
       await page.getByRole('button',{name:'Switch to light theme'}).click();
