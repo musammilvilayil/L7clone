@@ -596,3 +596,31 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
     top: calc(var(--header-h) + 36px);
   }
 }
+
+/* Footer brand signature only: an oversized, uncropped original Ladder7 logo
+   beneath ALL existing footer content, responsive to each viewport width. */
+.cin-site .cin-footer {
+  padding-bottom: 0;
+}
+.cin-footer-oversized-logo {
+  width: calc(100% - 2 * clamp(8px, 1.35vw, 26px));
+  margin: clamp(0px, .6vw, 10px) auto 0;
+  padding: 0 0 clamp(2px, .35vw, 7px);
+  overflow: visible;
+}
+.cin-footer-oversized-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: none;
+  max-height: none;
+  object-fit: contain;
+  object-position: center bottom;
+}
+@media (max-width: 600px) {
+  .cin-footer-oversized-logo {
+    width: calc(100% - 12px);
+    margin-top: 2px;
+    padding-bottom: 2px;
+  }
+}
