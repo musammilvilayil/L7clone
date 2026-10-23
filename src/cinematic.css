@@ -632,7 +632,7 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
 .cin-site .cin-footer-oversized-logo {
   position: relative;
   width: 100%;
-  aspect-ratio: 4.48 / 1;
+  aspect-ratio: 4.28 / 1;
   height: auto;
   margin: clamp(10px, 1.4vw, 22px) 0 0;
   padding: 0;
@@ -643,7 +643,7 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
   display: block;
   top: 0;
   left: -4%;
-  width: 108%;
+  width: 109%;
   height: auto;
   max-width: none;
   max-height: none;
@@ -653,6 +653,6 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
 @media (max-width:600px) {
   .cin-site .cin-footer-oversized-logo {
     margin-top: 9px;
-    aspect-ratio: 4.48 / 1;
+    aspect-ratio: 4.28 / 1;
   }
 }
