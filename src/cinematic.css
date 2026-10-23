@@ -624,3 +624,35 @@ body {margin:0;background:var(--page);color:var(--text);font:400 15px/1.6 'Publi
     padding-bottom: 2px;
   }
 }
+
+/* Refined footer brand layout: the supplied wordmark contains substantial
+   transparent top/bottom padding. Mask ONLY that empty padding so the visible
+   original lettering sits immediately below the existing footer details and
+   finishes flush with the page bottom. No recoloring or image distortion. */
+.cin-site .cin-footer-oversized-logo {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4.48 / 1;
+  height: auto;
+  margin: clamp(10px, 1.4vw, 22px) 0 0;
+  padding: 0;
+  overflow: hidden;
+}
+.cin-site .cin-footer-oversized-logo img {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: -4%;
+  width: 108%;
+  height: auto;
+  max-width: none;
+  max-height: none;
+  object-fit: contain;
+  transform: translateY(-28%);
+}
+@media (max-width:600px) {
+  .cin-site .cin-footer-oversized-logo {
+    margin-top: 9px;
+    aspect-ratio: 4.48 / 1;
+  }
+}
