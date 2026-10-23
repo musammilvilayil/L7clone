@@ -360,46 +360,71 @@ function Contact() {
 }
 
 function Footer({ light }: { light:boolean }) {
-  return <footer className="cin-footer" id="footer">
-    <div className="cin-wrap">
-      <div className="cin-footer-lead">
-        <img src={light?'/images/logos/logo-primary.webp':'/images/logos/logo-white.webp'} width="200" height="80" loading="lazy" alt="Ladder7 Nextstep Solutions"/>
-        <p>Technology connects people.<br/><strong>Let's build what's next.</strong></p>
-        <a href="#top">Back to top <ArrowUpRight size={17}/></a>
+  const [newsletterEmail, setNewsletterEmail] = useState('');
+  const requestNewsletter = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const subject = encodeURIComponent('Ladder7 newsletter updates request');
+    const body = encodeURIComponent('Please add this email address to your newsletter updates: ' + newsletterEmail);
+    // No subscription API exists in the project. Open an explicit email request instead.
+    window.location.href = 'mailto:info@ladder7.in?subject=' + subject + '&body=' + body;
+  };
+  return <footer className="cin-footer cin-footer-one-screen" id="footer">
+    <div className="cin-wrap cin-footer-stage">
+      <div className="cin-footer-information">
+        <div className="cin-footer-identity">
+          <p className="cin-footer-eyebrow">© LADDER7 2026</p>
+          <p className="cin-footer-opening">Ladder7 is open for business Monday–Friday.</p>
+          <p className="cin-footer-status">Currently, we are <strong><span aria-hidden="true" className="cin-footer-live-dot" />ONLINE &amp; ENGINEERING</strong>.</p>
+          <address>
+            <span>WEE SPACES, Ernakulam</span>
+            <span>Kinfra Film &amp; IT Park, Trivandrum</span>
+          </address>
+          <div className="cin-footer-contact-line">
+            <a href="tel:+918137979401">+91 8137979401</a>
+            <span aria-hidden="true">·</span>
+            <a href="mailto:info@ladder7.in">info@ladder7.in</a>
+          </div>
+        </div>
+        <div className="cin-footer-newsletter">
+          <h3>NEWSLETTER SIGN UP</h3>
+          <p>Be the first to know about our latest AI platforms, digital strategies &amp; engineering insights!</p>
+          <form onSubmit={requestNewsletter} aria-label="Request Ladder7 newsletter updates">
+            <label className="cin-footer-input-label" htmlFor="cin-footer-email">Email address</label>
+            <div className="cin-footer-email-field">
+              <input id="cin-footer-email" type="email" name="email" placeholder="Your email address"
+                autoComplete="email" required value={newsletterEmail}
+                onChange={event => setNewsletterEmail(event.target.value)} />
+              <button type="submit" aria-label="Request newsletter updates by email"><ArrowUpRight size={19}/></button>
+            </div>
+          </form>
+          <p className="cin-footer-newsletter-note">Opens your email app to request updates.</p>
+        </div>
+        <nav className="cin-footer-hello" aria-label="Footer links">
+          <h3>SAY HELLO</h3>
+          <div className="cin-footer-hello-grid">
+            <a href="#contact">Contact Us</a>
+            <a href="#training">Corporate Training</a>
+            <a href="#capabilities">Our Services</a>
+            <a href="#products">Our Products</a>
+            {SOCIAL.map(link =>
+              <a key={link.label} href={link.url} target="_blank" rel="noopener noreferrer">
+                {link.label}
+              </a>
+            )}
+          </div>
+        </nav>
       </div>
-      <div className="cin-footer-grid">
-        <div><h3>Services</h3>
-          <a href="#capabilities">Digital Experience & Web Engineering</a>
-          <a href="#capabilities">AI & Intelligent Automation</a>
-          <a href="#capabilities">Strategy & Technology Consulting</a>
-        </div>
-        <div><h3>Company</h3>
-          <a href="#products">Our Products</a><a href="#about">Blogs</a><a href="#about">Careers</a>
-          <a href="#training">Bootcamp</a><a href="#capabilities">Portfolio</a><a href="#contact">Contact Form</a>
-        </div>
-        <div><h3>Our Locations</h3>
-          <strong>Cochin</strong><span>WEE SPACES Ernakulam</span>
-          <strong>Trivandrum</strong><span>Kinfra Film and IT Park Trivandrum</span>
-        </div>
-        <div><h3>Contact Us</h3>
-          <a href="tel:+918137979401">+91 8137979401</a>
-          <a href="mailto:info@ladder7.in">info@ladder7.in</a>
-          <h3 className="cin-follow-label">Follow us</h3>
-          <div className="cin-socials">{SOCIAL.map(link=><a key={link.label} href={link.url} target="_blank" rel="noopener noreferrer" aria-label={'Ladder7 on '+link.label}>
-            {link.label}<ArrowUpRight size={15}/></a>)}</div>
+      <div className="cin-footer-base cin-footer-legal">
+        <span>© 2026 Ladder7 NextStep Solutions LLP. All rights reserved.</span>
+        <div className="cin-footer-legal-links">
+          <a href="#top">Back to top ↑</a>
+          <a href="#contact">Privacy Policy</a>
         </div>
       </div>
-      <div className="cin-footer-base"><span>© 2026 Ladder7 NextStep Solutions. All rights reserved.</span><a href="#contact">Privacy Policy</a></div>
     </div>
     <div className="cin-footer-oversized-logo">
-      <img
-        src={light ? '/images/logos/logo-primary.webp' : '/images/logos/logo-white.webp'}
-        alt="Ladder7 Nextstep Solutions"
-        width="2000"
-        height="800"
-        loading="lazy"
-        decoding="async"
-      />
+      <img src={light ? '/images/logos/logo-primary.webp' : '/images/logos/logo-white.webp'}
+        alt="Ladder7 Nextstep Solutions" width="2000" height="800" loading="lazy" decoding="async" />
     </div>
   </footer>;
 }
