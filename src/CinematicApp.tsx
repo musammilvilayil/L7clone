@@ -1,4 +1,4 @@
-import { useEffect, useState, type ReactNode } from 'react';
+import { useEffect, useState, type ReactNode, type FormEvent } from 'react';
 import { ArrowDown, ArrowLeft, ArrowRight, ArrowUpRight, Check, ChevronDown, Menu, Moon, Plus, Sun, X } from 'lucide-react';
 import { HERO_SLIDES } from './data/heroSlides';
 import { CAPABILITIES } from './data/capabilitiesData';
@@ -361,7 +361,7 @@ function Contact() {
 
 function Footer({ light }: { light:boolean }) {
   const [newsletterEmail, setNewsletterEmail] = useState('');
-  const requestNewsletter = (event: React.FormEvent<HTMLFormElement>) => {
+  const requestNewsletter = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const subject = encodeURIComponent('Ladder7 newsletter updates request');
     const body = encodeURIComponent('Please add this email address to your newsletter updates: ' + newsletterEmail);
