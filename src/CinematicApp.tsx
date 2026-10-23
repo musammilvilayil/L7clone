@@ -145,7 +145,7 @@ function Vision() {
     <div className="cin-vision-stories cin-wrap">
       <div className="cin-vision-rail"><span>Perspectives</span><strong>Ideas become systems.</strong><div className="cin-vision-line" aria-hidden="true"/></div>
       <div className="cin-vision-stack">
-        {slides.map((slide,i)=><article className="cin-perspective" key={slide.id} data-cin-reveal>
+        {slides.map((slide)=><article className="cin-perspective" key={slide.id} data-cin-reveal>
           <div className="cin-perspective-meta"><span>{slide.badge}</span></div>
           <div className="cin-perspective-image"><img loading="lazy" src={slide.image} alt={slide.badge+' visual from Ladder7 original website'} /></div>
           <div className="cin-perspective-copy">
@@ -174,7 +174,7 @@ function About() {
         </div>
       </div>
       <div className="cin-audiences">
-        {AUDIENCES.map((item,i)=><article key={item.title} data-cin-reveal>
+        {AUDIENCES.map((item)=><article key={item.title} data-cin-reveal>
           <span className="cin-list-index">WHO WE SERVE</span><h3>{item.title}</h3><p>{item.description}</p><ArrowUpRight size={25} aria-hidden="true"/>
         </article>)}
       </div>
@@ -303,7 +303,7 @@ function Why() {
         </div>
       </div>
       <div className="cin-value-list">
-        {VALUE_PILLARS.map((item,i)=><article key={item.title} data-cin-reveal>
+        {VALUE_PILLARS.map((item)=><article key={item.title} data-cin-reveal>
           <span className="cin-value-index">OUR APPROACH</span>
           <h3>{item.title}</h3>
           <p>{item.description}</p>
