@@ -26,11 +26,18 @@ try {
     await brand.scrollIntoViewIfNeeded();
     const m=await brand.evaluate(img=>{
       const box=img.getBoundingClientRect();
+      const frame=img.parentElement.getBoundingClientRect();
+      const frameCss=getComputedStyle(img.parentElement);
       const foot=img.closest('footer').getBoundingClientRect();
       const base=img.closest('footer').querySelector('.cin-footer-base').getBoundingClientRect();
       const lead=img.closest('footer').querySelector('.cin-footer-lead');
       const columns=img.closest('footer').querySelector('.cin-footer-grid');
       return {width:box.width,height:box.height,left:box.left,right:box.right,top:box.top,
+        frameWidth:frame.width,frameHeight:frame.height,frameLeft:frame.left,
+        frameRight:frame.right,frameTop:frame.top,frameBottom:frame.bottom,
+        overflow:frameCss.overflow, frameRatio:frame.width/frame.height,
+        estimatedInkTop:box.top+box.height*.28,
+        estimatedInkBottom:box.top+box.height*.795,
         naturalWidth:img.naturalWidth,naturalHeight:img.naturalHeight,
         footerBottom:foot.bottom,contentBottom:base.bottom,
         fit:getComputedStyle(img).objectFit,leadVisible:!!lead,columnsVisible:!!columns,
@@ -40,9 +47,13 @@ try {
     assert.ok(m.width>=width*.94,`Brand does not nearly fill footer: ${width}px, ${JSON.stringify(m)}`);
     assert.ok(Math.abs(m.width/m.height-m.naturalWidth/m.naturalHeight)<.015,
       `Original logo aspect ratio distorted at ${width}px`);
-    assert.ok(m.top>=m.contentBottom-2,`Logo overlaps existing footer content at ${width}px`);
-    assert.ok(m.footerBottom-(m.top+m.height)<=12,`Unnecessary space below mark at ${width}px`);
-    assert.ok(m.left>=-1&&m.right<=width+1,`Logo clipped at ${width}px`);
+    assert.ok(m.frameTop>=m.contentBottom-2,`Logo region overlaps existing footer content at ${width}px`);
+    assert.ok(m.footerBottom-m.frameBottom<=2,`Unnecessary space below visible footer region at ${width}px`);
+    assert.ok(m.frameWidth>=width*.985 && m.frameLeft>=-1 && m.frameRight<=width+1,
+      `Footer brand region not edge-to-edge at ${width}px: ${JSON.stringify(m)}`);
+    assert.equal(m.overflow,'hidden','Only empty intrinsic image margins must be masked');
+    assert.ok(m.estimatedInkTop>=m.frameTop-5 && m.estimatedInkBottom<=m.frameBottom+6,
+      `Logo visible glyphs may be cropped at ${width}px: ${JSON.stringify(m)}`);
     assert.ok(m.scrollWidth<=width+2,`Horizontal page overflow at ${width}px`);
     assert.equal(m.fit,'contain');
     assert.ok(m.leadVisible&&m.columnsVisible,'Footer content was removed');
@@ -60,7 +71,7 @@ try {
         'Light footer should use original primary logo');
       await footer.screenshot({path:`footer-screenshots/${width}-light.png`,animations:'disabled'});
     }
-    console.log(`PASS ${width}px: logo ${Math.round(m.width)} × ${Math.round(m.height)}, content preserved, bottom gap ${Math.round(m.footerBottom-(m.top+m.height))}px`);
+    console.log(`PASS ${width}px: wordmark occupies ${Math.round(m.frameWidth)} × ${Math.round(m.frameHeight)} region, original aspect ratio intact, intrinsic transparent padding masked`);
     await page.close();
   }
 }finally{
