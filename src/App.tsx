@@ -1,50 +1,61 @@
-import React, { useState, useEffect } from 'react';
-import { Header } from './components/Header';
-import { HeroSlider } from './components/HeroSlider';
-import { ProductsShowcase } from './components/ProductsShowcase';
-import { JourneySection } from './components/JourneySection';
-import { Capabilities } from './components/Capabilities';
-import { WhyLadder7 } from './components/WhyLadder7';
-import { AdvisorCTA } from './components/AdvisorCTA';
-import { FAQSection } from './components/FAQSection';
-import { Footer } from './components/Footer';
+import React, { useState } from 'react';
+import type { InquiryContext } from './tokens/designTokens';
+import { FloatingGlassNav } from './sections/FloatingGlassNav';
+import { HeroShowcase } from './sections/HeroShowcase';
+import { VisionManifesto } from './sections/VisionManifesto';
+import { AudienceArchitecture } from './sections/AudienceArchitecture';
+import { CapabilitiesBento } from './sections/CapabilitiesBento';
+import { ProductDeckRail } from './sections/ProductDeckRail';
+import { ProcessTimeline } from './sections/ProcessTimeline';
+import { TrustMetricsMatrix } from './sections/TrustMetricsMatrix';
+import { ObjectionsAccordion } from './sections/ObjectionsAccordion';
+import { ActionBriefForm } from './sections/ActionBriefForm';
+import { MonumentFooter } from './sections/MonumentFooter';
 
 export const App: React.FC = () => {
-  const [darkMode, setDarkMode] = useState<boolean>(() => {
-    if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem('theme');
-      if (saved) return saved === 'dark';
-      return window.matchMedia('(prefers-color-scheme: dark)').matches;
-    }
-    return false;
-  });
+  const [inquiryContext, setInquiryContext] = useState<InquiryContext | null>(null);
+  const [contextKey, setContextKey] = useState(0);
 
-  useEffect(() => {
-    const root = document.documentElement;
-    if (darkMode) {
-      root.classList.add('dark');
-      localStorage.setItem('theme', 'dark');
-    } else {
-      root.classList.remove('dark');
-      localStorage.setItem('theme', 'light');
-    }
-  }, [darkMode]);
+  const handleSelectInquiry = (ctx: InquiryContext) => {
+    setInquiryContext(ctx);
+    setContextKey((prev) => prev + 1);
+  };
 
   return (
-    <div className="min-h-screen bg-white dark:bg-[#0f1923] text-slate-900 dark:text-slate-100 flex flex-col font-sans selection:bg-blue-600 selection:text-white transition-colors duration-300">
-      <Header darkMode={darkMode} setDarkMode={setDarkMode} />
+    <div className="min-h-screen bg-[#060911] text-[#F8FAFC] flex flex-col selection:bg-[#2563EB] selection:text-white">
+      <FloatingGlassNav onSelectInquiry={handleSelectInquiry} />
 
-      <main id="main-content" className="flex-1 w-full overflow-x-hidden">
-        <HeroSlider />
-        <ProductsShowcase />
-        <JourneySection />
-        <Capabilities />
-        <WhyLadder7 />
-        <AdvisorCTA />
-        <FAQSection />
+      <main className="flex-1">
+        {/* 01. Hook */}
+        <HeroShowcase onSelectInquiry={handleSelectInquiry} />
+
+        {/* 02. Vision / Why We Exist */}
+        <VisionManifesto />
+
+        {/* 03. Who We Are */}
+        <AudienceArchitecture onSelectInquiry={handleSelectInquiry} />
+
+        {/* 04. What We Do (Bento Grid) */}
+        <CapabilitiesBento onSelectInquiry={handleSelectInquiry} />
+
+        {/* 05. Proof / Products (Horizontal Rail + Depth Stage) */}
+        <ProductDeckRail onSelectInquiry={handleSelectInquiry} />
+
+        {/* 06. How We Build (Illuminated Spine Timeline) */}
+        <ProcessTimeline />
+
+        {/* 07. Why Trust Us (Telemetry & Pillars) */}
+        <TrustMetricsMatrix />
+
+        {/* 08. Objections (FAQ Drawers) */}
+        <ObjectionsAccordion />
+
+        {/* 09. Action (Contact & Brief Console) */}
+        <ActionBriefForm key={contextKey} inquiryContext={inquiryContext} />
       </main>
 
-      <Footer darkMode={darkMode} />
+      {/* 10. Footer */}
+      <MonumentFooter />
     </div>
   );
 };
