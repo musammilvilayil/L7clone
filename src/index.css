@@ -9,10 +9,10 @@
     --token-panel: #151922;
     --token-hover: #1D222E;
     --token-border: rgba(255, 255, 255, 0.08);
-    --token-border-strong: rgba(52, 211, 153, 0.38);
-    --token-emerald: #10B981;
-    --token-mint: #34D399;
-    --token-lime: #BEF264;
+    --token-border-strong: rgba(59, 130, 246, 0.38);
+    --token-emerald: #2563EB;
+    --token-mint: #3B82F6;
+    --token-lime: #93C5FD;
     --token-ink-high: #F4F5F8;
     --token-ink-mid: #A3AAB8;
     --token-ink-muted: #7D8597;
@@ -59,7 +59,7 @@
   }
 
   :focus-visible {
-    outline: 2px solid #34D399;
+    outline: 2px solid #3B82F6;
     outline-offset: 3px;
   }
 }
@@ -187,7 +187,7 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #10B981;
+  background: #2563EB;
 }
 
 
@@ -202,8 +202,8 @@
     height: 34rem;
     pointer-events: none;
     background:
-      radial-gradient(ellipse 48% 34% at 78% 14%, rgba(16, 185, 129, 0.11), transparent 72%),
-      radial-gradient(ellipse 38% 28% at 8% 28%, rgba(52, 211, 153, 0.045), transparent 75%);
+      radial-gradient(ellipse 48% 34% at 78% 14%, rgba(37, 99, 235, 0.11), transparent 72%),
+      radial-gradient(ellipse 38% 28% at 8% 28%, rgba(59, 130, 246, 0.045), transparent 75%);
     z-index: 0;
   }
 
@@ -232,7 +232,7 @@
     inset: 8% 4%;
     z-index: -1;
     border-radius: 2rem;
-    background: rgba(16, 185, 129, 0.13);
+    background: rgba(37, 99, 235, 0.13);
     filter: blur(58px);
     opacity: 0.75;
     transition: opacity 450ms ease, transform 450ms ease;
@@ -245,16 +245,16 @@
     background: #0D1016;
     box-shadow:
       0 34px 90px -38px rgba(0, 0, 0, 0.95),
-      0 0 58px -38px rgba(16, 185, 129, 0.32),
+      0 0 58px -38px rgba(37, 99, 235, 0.32),
       inset 0 1px 0 rgba(255, 255, 255, 0.045);
     transition: border-color 350ms ease, box-shadow 350ms ease, transform 350ms ease;
   }
 
   .product-showcase-frame:hover {
-    border-color: rgba(52, 211, 153, 0.3);
+    border-color: rgba(59, 130, 246, 0.3);
     box-shadow:
       0 38px 100px -38px rgba(0, 0, 0, 0.98),
-      0 0 68px -34px rgba(16, 185, 129, 0.38),
+      0 0 68px -34px rgba(37, 99, 235, 0.38),
       inset 0 1px 0 rgba(255, 255, 255, 0.06);
     transform: translateY(-3px);
   }
@@ -284,7 +284,7 @@
     overflow: hidden;
     padding: clamp(0.65rem, 1.6vw, 1.4rem);
     background:
-      radial-gradient(ellipse at 50% 48%, rgba(16, 185, 129, 0.055), transparent 66%),
+      radial-gradient(ellipse at 50% 48%, rgba(37, 99, 235, 0.055), transparent 66%),
       #090C11;
   }
 
@@ -370,7 +370,7 @@
     z-index: -1;
     pointer-events: none;
     border-radius: 50%;
-    background: rgba(16, 185, 129, 0.12);
+    background: rgba(37, 99, 235, 0.12);
     filter: blur(76px);
   }
 
@@ -448,7 +448,7 @@
 
 .skewed-product-carousel:focus-visible {
   border-radius: 1.25rem;
-  outline: 2px solid rgba(52, 211, 153, 0.7);
+  outline: 2px solid rgba(59, 130, 246, 0.7);
   outline-offset: 5px;
 }
 
@@ -474,7 +474,7 @@
   border: 1px solid rgba(255, 255, 255, 0.13);
   border-radius: 1.15rem;
   background: #10151c;
-  box-shadow: 0 28px 70px -28px rgba(0, 0, 0, 0.9), 0 0 36px -22px rgba(16, 185, 129, 0.4);
+  box-shadow: 0 28px 70px -28px rgba(0, 0, 0, 0.9), 0 0 36px -22px rgba(37, 99, 235, 0.4);
   cursor: pointer;
   transform-style: preserve-3d;
   transform-origin: center center;
@@ -492,8 +492,8 @@
 }
 
 .skewed-product-carousel__card.is-active {
-  border-color: rgba(52, 211, 153, 0.42);
-  box-shadow: 0 34px 90px -30px rgba(0, 0, 0, 0.95), 0 0 58px -24px rgba(16, 185, 129, 0.36);
+  border-color: rgba(59, 130, 246, 0.42);
+  box-shadow: 0 34px 90px -30px rgba(0, 0, 0, 0.95), 0 0 58px -24px rgba(37, 99, 235, 0.36);
   cursor: grab;
 }
 
@@ -534,7 +534,7 @@
 }
 
 .skewed-product-carousel__index {
-  color: #6ee7b7;
+  color: #60A5FA;
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
   font-size: 0.64rem;
   font-weight: 700;
@@ -559,8 +559,8 @@
   height: 0.55rem;
   border: 1px solid rgba(255, 255, 255, 0.6);
   border-radius: 50%;
-  background: #34d399;
-  box-shadow: 0 0 18px rgba(52, 211, 153, 0.8);
+  background: #3B82F6;
+  box-shadow: 0 0 18px rgba(59, 130, 246, 0.8);
   pointer-events: none;
 }
 
@@ -584,7 +584,7 @@
 
 .skewed-product-carousel__progress span.is-active {
   width: 2.6rem;
-  background: #34d399;
+  background: #3B82F6;
 }
 
 @media (max-width: 639px) {
