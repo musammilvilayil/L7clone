@@ -314,8 +314,8 @@ export const ProductsExpandingPanels: React.FC<ProductsExpandingPanelsProps> = (
                 <div className="relative overflow-hidden rounded-xl border border-white/[0.13] bg-[#0D1016] shadow-[0_34px_90px_-35px_rgba(0,0,0,0.95),0_0_60px_-35px_rgba(16,185,129,0.28)]">
                   <div className="flex h-10 items-center justify-between border-b border-white/[0.08] bg-[#11151D] px-4 sm:h-11 sm:px-5">
                     <div className="flex items-center gap-1.5" aria-hidden="true">
-                      <span className="h-2 w-2 rounded-full bg-[#F87171]/80" />
-                      <span className="h-2 w-2 rounded-full bg-[#FBBF24]/80" />
+                      <span className="h-2 w-2 rounded-full bg-white/20" />
+                      <span className="h-2 w-2 rounded-full bg-white/35" />
                       <span className="h-2 w-2 rounded-full bg-[#34D399]/80" />
                     </div>
                     <span className="font-mono text-[9px] uppercase tracking-[0.16em] text-[#737D8D] sm:text-[10px]">
