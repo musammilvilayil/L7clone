@@ -15,9 +15,9 @@ export default {
           hover: '#1D222E',
         },
         signal: {
-          emerald: '#10B981',
-          mint: '#34D399',
-          lime: '#BEF264',
+          blue: '#2563EB',
+          sky: '#3B82F6',
+          ice: '#93C5FD',
         },
         ink: {
           high: '#F4F5F8',
@@ -37,7 +37,7 @@ export default {
       boxShadow: {
         'pill-glass': '0 20px 50px -12px rgba(0, 0, 0, 0.85), inset 0 1px 0 0 rgba(255, 255, 255, 0.09)',
         'panel-depth': '0 28px 70px -24px rgba(0, 0, 0, 0.9), inset 0 1px 0 0 rgba(255, 255, 255, 0.07)',
-        'emerald-halo': '0 0 42px -10px rgba(16, 185, 129, 0.5)',
+        'blue-halo': '0 0 42px -10px rgba(37, 99, 235, 0.5)',
       },
     },
   },

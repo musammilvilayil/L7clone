@@ -5,7 +5,7 @@ Complete ground-up architectural redesign and front-end rebuild of the **LADDER7
 ## Design System & Architecture
 
 - **Theme**: Dark-First & Dark-Only (`#08090C` Carbon Obsidian base, `#0F1117` / `#151922` / `#1D222E` layered surfaces)
-- **Accent Palette**: Signal Emerald (`#10B981`, `#34D399`) + Acid Lime (`#BEF264`)
+- **Accent Palette**: Signal Blue (`#2563EB`, `#3B82F6`) + Sky Blue (`#93C5FD`)
 - **Typography**: `Syne` (Editorial Display), `Plus Jakarta Sans` (Body), `JetBrains Mono` (Technical Telemetry)
 - **Logo Treatment**: Crisp white dark-theme inversion (`.logo-dark-invert`) of `/images/LADDER 7 NS Black.webp` preserving exact geometry and aspect ratio.
 
@@ -18,7 +18,7 @@ src/
 ├── design-system/
 │   └── tokens.ts                     # Single-source design tokens & TypeScript interfaces
 ├── motion/
-│   ├── EmeraldSpotlightCard.tsx      # Cursor-tracked radial emerald spotlight surface
+│   ├── BlueSpotlightCard.tsx      # Cursor-tracked radial blue spotlight surface
 │   ├── MagneticTrigger.tsx           # Spring-interpolated magnetic wrapper
 │   └── ScrollReveal.tsx              # IntersectionObserver reveal & word-by-word kinetic text
 ├── modules/
