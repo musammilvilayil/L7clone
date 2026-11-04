@@ -38,7 +38,7 @@ export const HeroSceneWipe: React.FC<HeroSceneWipeProps> = ({
         className="absolute inset-0 pointer-events-auto z-0 opacity-80 mix-blend-screen"
       >
         <SpectralDrape
-          colors={['#064e3b', '#34d399']}
+          colors={['#1E3A8A', '#3B82F6']}
           backgroundColor="transparent"
           density={1.3}
           dotSize={1.3}
@@ -80,18 +80,18 @@ export const HeroSceneWipe: React.FC<HeroSceneWipeProps> = ({
         {/* Top Eyebrow Badge */}
         <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full border border-white/10 bg-[#0B0D13]/85 backdrop-blur-md text-[11px] sm:text-xs font-medium text-[#A3AAB8] shadow-[0_2px_12px_rgba(0,0,0,0.5)] mb-3.5 sm:mb-5">
           <span className="relative flex h-2 w-2">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#34D399] opacity-75" />
-            <span className="relative inline-flex rounded-full h-2 w-2 bg-[#34D399]" />
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#3B82F6] opacity-75" />
+            <span className="relative inline-flex rounded-full h-2 w-2 bg-[#3B82F6]" />
           </span>
           <span className="text-[#F4F5F8] font-semibold">Enterprise Technology &amp; AI Studio</span>
           <span className="text-white/20">•</span>
-          <span className="text-[#BEF264] font-medium hidden sm:inline">2026 Production Architecture</span>
+          <span className="text-[#93C5FD] font-medium hidden sm:inline">2026 Production Architecture</span>
         </div>
 
         {/* Central Headline - Guaranteed Exactly 2 Lines with Flawless Proportions & Zero Clipping */}
         <h1 className="font-display font-bold tracking-tight text-[#F4F5F8] text-center mx-auto mb-3 sm:mb-4 text-[clamp(1.15rem,3.7vw,3.5rem)] leading-[1.14]">
           <span className="block whitespace-nowrap">We engineer the software &amp; AI platforms</span>
-          <span className="block text-[#34D399] whitespace-nowrap">that run your business.</span>
+          <span className="block text-[#3B82F6] whitespace-nowrap">that run your business.</span>
         </h1>
 
         {/* Central Subtitle */}
@@ -133,11 +133,11 @@ export const HeroSceneWipe: React.FC<HeroSceneWipeProps> = ({
       <a
         href="#vision"
         aria-label="Scroll to discover"
-        className="pointer-events-auto absolute bottom-4 z-20 hidden sm:flex flex-col items-center gap-1.5 text-[10px] font-semibold text-[#A3AAB8]/60 hover:text-[#34D399] transition-colors"
+        className="pointer-events-auto absolute bottom-4 z-20 hidden sm:flex flex-col items-center gap-1.5 text-[10px] font-semibold text-[#A3AAB8]/60 hover:text-[#3B82F6] transition-colors"
       >
         <span className="tracking-widest uppercase">Scroll</span>
         <div className="w-4 h-7 rounded-full border border-white/20 flex items-start justify-center p-1">
-          <div className="w-1 h-1.5 rounded-full bg-[#34D399] animate-bounce" />
+          <div className="w-1 h-1.5 rounded-full bg-[#3B82F6] animate-bounce" />
         </div>
       </a>
 

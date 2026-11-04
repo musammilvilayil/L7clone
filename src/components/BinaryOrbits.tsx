@@ -390,7 +390,7 @@ void main() {
 export const BinaryOrbits = forwardRef<BinaryOrbitsHandle, BinaryOrbitsProps>(
   function BinaryOrbits(
     {
-      colors = ['#10B981', '#6EE7B7'],
+      colors = ['#2563EB', '#60A5FA'],
       backgroundColor = '#08090C',
       mode = 'auto',
       stars = 70000,

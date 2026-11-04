@@ -31,7 +31,7 @@ export const HowWeWorkSection: React.FC = () => {
         className="absolute inset-0 pointer-events-auto z-0 overflow-hidden opacity-60"
       >
         <BinaryOrbits
-          colors={['#059669', '#34D399']}
+          colors={['#1D4ED8', '#3B82F6']}
           backgroundColor="#08090C"
           stars={32000}
           tilt={-26}
@@ -73,7 +73,7 @@ export const HowWeWorkSection: React.FC = () => {
         {/* Section Header */}
         <div className="grid lg:grid-cols-12 gap-4 sm:gap-6 lg:gap-8 items-end mb-10 sm:mb-14 lg:mb-16">
           <div className="lg:col-span-7 space-y-2.5 sm:space-y-3">
-            <p className="text-xs sm:text-sm font-semibold uppercase tracking-wider text-[#34D399]">
+            <p className="text-xs sm:text-sm font-semibold uppercase tracking-wider text-[#3B82F6]">
               How we work
             </p>
 
@@ -91,25 +91,25 @@ export const HowWeWorkSection: React.FC = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0 sm:gap-8 lg:gap-10">
           {EXECUTION_METHOD_STAGES.map((stage, idx) => (
             <ScrollReveal key={stage.number} delay={idx * 80}>
-              <div className="group relative pl-7 sm:pl-0 border-l sm:border-l-0 sm:border-t border-white/15 hover:border-[#34D399] pb-8 sm:pb-0 pt-0 sm:pt-7 h-full flex flex-col justify-between transition-all duration-300 sm:hover:-translate-y-0.5 last:border-l-transparent sm:last:border-l-0">
+              <div className="group relative pl-7 sm:pl-0 border-l sm:border-l-0 sm:border-t border-white/15 hover:border-[#3B82F6] pb-8 sm:pb-0 pt-0 sm:pt-7 h-full flex flex-col justify-between transition-all duration-300 sm:hover:-translate-y-0.5 last:border-l-transparent sm:last:border-l-0">
                 {/* Mobile Glowing Timeline Node */}
                 <span
                   aria-hidden="true"
-                  className="sm:hidden absolute -left-[5px] top-1.5 w-2.5 h-2.5 rounded-full bg-[#34D399] ring-4 ring-[#08090C] group-hover:scale-125 transition-transform"
+                  className="sm:hidden absolute -left-[5px] top-1.5 w-2.5 h-2.5 rounded-full bg-[#3B82F6] ring-4 ring-[#08090C] group-hover:scale-125 transition-transform"
                 />
 
                 {/* Top Block: Number, Phase Badge, Headline & Summary */}
                 <div className="flex-1 flex flex-col justify-start mb-6">
                   <div className="flex items-baseline justify-between gap-2 mb-3 sm:mb-4">
-                    <span className="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#34D399] tracking-tight">
+                    <span className="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#3B82F6] tracking-tight">
                       {stage.number}
                     </span>
-                    <span className="text-[10px] sm:text-[11px] font-semibold uppercase tracking-wider text-[#BEF264] px-2 py-0.5 rounded border border-[#BEF264]/20 bg-[#BEF264]/5">
+                    <span className="text-[10px] sm:text-[11px] font-semibold uppercase tracking-wider text-[#93C5FD] px-2 py-0.5 rounded border border-[#93C5FD]/20 bg-[#93C5FD]/5">
                       {stage.phase}
                     </span>
                   </div>
 
-                  <h3 className="font-display text-base sm:text-lg lg:text-xl font-bold text-[#F4F5F8] leading-snug group-hover:text-[#34D399] transition-colors">
+                  <h3 className="font-display text-base sm:text-lg lg:text-xl font-bold text-[#F4F5F8] leading-snug group-hover:text-[#3B82F6] transition-colors">
                     {stage.headline}
                   </h3>
 
@@ -129,14 +129,14 @@ export const HowWeWorkSection: React.FC = () => {
                         key={deliv}
                         className="flex items-start gap-2 sm:gap-2.5 text-xs text-[#E2E6EF]"
                       >
-                        <CheckCircle2 className="w-3.5 h-3.5 text-[#34D399] shrink-0 mt-0.5" />
+                        <CheckCircle2 className="w-3.5 h-3.5 text-[#3B82F6] shrink-0 mt-0.5" />
                         <span className="leading-relaxed">{deliv}</span>
                       </li>
                     ))}
                   </ul>
 
                   <p className="pt-3 border-t border-white/[0.08] text-xs text-[#A3AAB8] leading-relaxed">
-                    <span className="text-[#BEF264] font-semibold mr-1.5 uppercase text-[10px] tracking-wider">
+                    <span className="text-[#93C5FD] font-semibold mr-1.5 uppercase text-[10px] tracking-wider">
                       Result:
                     </span>
                     <span className="text-[#F4F5F8] font-medium">{stage.outcome}</span>

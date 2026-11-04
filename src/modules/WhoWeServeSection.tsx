@@ -111,8 +111,8 @@ export const WhoWeServeSection: React.FC<WhoWeServeSectionProps> = ({
         {/* Section Header */}
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-12">
           <div className="max-w-2xl space-y-3">
-            <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-full border border-white/10 bg-white/[0.03] text-xs font-medium text-[#34D399]">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#34D399]" />
+            <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-full border border-white/10 bg-white/[0.03] text-xs font-medium text-[#3B82F6]">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#3B82F6]" />
               Who we work with
             </div>
 
@@ -137,7 +137,7 @@ export const WhoWeServeSection: React.FC<WhoWeServeSectionProps> = ({
               onClick={() => setViewMode('clients')}
               className={`px-5 py-2.5 rounded-full text-xs font-semibold transition-all cursor-pointer ${
                 viewMode === 'clients'
-                  ? 'bg-[#34D399] text-[#08090C] shadow-[0_0_15px_rgba(52,211,153,0.3)]'
+                  ? 'bg-[#3B82F6] text-[#08090C] shadow-[0_0_15px_rgba(59,130,246,0.3)]'
                   : 'text-[#A3AAB8] hover:text-[#F4F5F8]'
               }`}
             >
@@ -150,7 +150,7 @@ export const WhoWeServeSection: React.FC<WhoWeServeSectionProps> = ({
               onClick={() => setViewMode('training')}
               className={`px-5 py-2.5 rounded-full text-xs font-semibold transition-all cursor-pointer ${
                 viewMode === 'training'
-                  ? 'bg-[#34D399] text-[#08090C] shadow-[0_0_15px_rgba(52,211,153,0.3)]'
+                  ? 'bg-[#3B82F6] text-[#08090C] shadow-[0_0_15px_rgba(59,130,246,0.3)]'
                   : 'text-[#A3AAB8] hover:text-[#F4F5F8]'
               }`}
             >
@@ -163,8 +163,8 @@ export const WhoWeServeSection: React.FC<WhoWeServeSectionProps> = ({
         <div className="relative mb-12 rounded-2xl border border-white/15 bg-[#060709] overflow-hidden shadow-2xl">
           <div className="h-56 sm:h-64 w-full relative">
             <DitherWave
-              primaryColor="#10B981"
-              secondaryColor="#34D399"
+              primaryColor="#2563EB"
+              secondaryColor="#3B82F6"
               tertiaryColor="#08090C"
               speed={0.75}
               intensity={1.15}
@@ -178,8 +178,8 @@ export const WhoWeServeSection: React.FC<WhoWeServeSectionProps> = ({
               <div className="absolute inset-0 bg-gradient-to-t from-[#08090C] via-transparent to-transparent opacity-60 pointer-events-none" />
               <div className="absolute inset-0 flex items-center justify-between p-6 sm:p-8 pointer-events-none">
                 <div className="space-y-1">
-                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#08090C]/80 backdrop-blur-md border border-white/15 text-[11px] font-semibold text-[#34D399]">
-                    <span className="w-1.5 h-1.5 rounded-full bg-[#34D399] animate-pulse" />
+                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#08090C]/80 backdrop-blur-md border border-white/15 text-[11px] font-semibold text-[#3B82F6]">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#3B82F6] animate-pulse" />
                     <span>Dither Wave • Retro 64-Matrix Flow</span>
                   </div>
                   <p className="text-xs sm:text-sm text-[#C4C9D4] font-medium hidden sm:block">
@@ -191,7 +191,7 @@ export const WhoWeServeSection: React.FC<WhoWeServeSectionProps> = ({
                   <span className="px-3 py-1 rounded-md bg-white/[0.05] border border-white/10 text-[11px] text-[#A3AAB8] font-mono">
                     20-Step Tangent Integration
                   </span>
-                  <span className="px-3 py-1 rounded-md bg-[#34D399]/10 border border-[#34D399]/20 text-[11px] text-[#34D399] font-mono">
+                  <span className="px-3 py-1 rounded-md bg-[#3B82F6]/10 border border-[#3B82F6]/20 text-[11px] text-[#3B82F6] font-mono">
                     60 FPS
                   </span>
                 </div>
@@ -206,12 +206,12 @@ export const WhoWeServeSection: React.FC<WhoWeServeSectionProps> = ({
             {CLIENT_GROUPS.map((item) => (
               <div
                 key={item.id}
-                className="rounded-2xl border border-white/10 bg-[#0C0E14] p-7 sm:p-9 h-full flex flex-col justify-between hover:border-[#34D399]/40 transition-all duration-300 shadow-xl group"
+                className="rounded-2xl border border-white/10 bg-[#0C0E14] p-7 sm:p-9 h-full flex flex-col justify-between hover:border-[#3B82F6]/40 transition-all duration-300 shadow-xl group"
               >
                   <div className="space-y-6">
                     {/* Top Header Badge */}
                     <div className="flex flex-wrap items-center justify-between gap-3">
-                      <span className="px-3 py-1 rounded-full text-xs font-semibold bg-[#34D399]/10 text-[#34D399] border border-[#34D399]/20">
+                      <span className="px-3 py-1 rounded-full text-xs font-semibold bg-[#3B82F6]/10 text-[#3B82F6] border border-[#3B82F6]/20">
                         {item.group}
                       </span>
                       <span className="text-[11px] font-mono text-[#A3AAB8] tracking-wider uppercase">
@@ -221,10 +221,10 @@ export const WhoWeServeSection: React.FC<WhoWeServeSectionProps> = ({
 
                     {/* Title & Narrative */}
                     <div>
-                      <h3 className="font-display text-2xl sm:text-3xl font-bold text-[#F4F5F8] group-hover:text-[#34D399] transition-colors duration-200">
+                      <h3 className="font-display text-2xl sm:text-3xl font-bold text-[#F4F5F8] group-hover:text-[#3B82F6] transition-colors duration-200">
                         {item.title}
                       </h3>
-                      <p className="mt-1 text-xs sm:text-sm font-medium text-[#34D399]/90">
+                      <p className="mt-1 text-xs sm:text-sm font-medium text-[#3B82F6]/90">
                         {item.subtitle}
                       </p>
                       <p className="mt-3 text-sm text-[#A3AAB8] leading-relaxed">
@@ -273,7 +273,7 @@ export const WhoWeServeSection: React.FC<WhoWeServeSectionProps> = ({
                           key={cap}
                           className="flex items-start gap-2.5 text-xs sm:text-sm text-[#F4F5F8]"
                         >
-                          <CheckCircle2 className="w-4 h-4 text-[#34D399] shrink-0 mt-0.5" />
+                          <CheckCircle2 className="w-4 h-4 text-[#3B82F6] shrink-0 mt-0.5" />
                           <span className="leading-snug">{cap}</span>
                         </li>
                       ))}
@@ -294,7 +294,7 @@ export const WhoWeServeSection: React.FC<WhoWeServeSectionProps> = ({
                           contextLine: `Project inquiry for ${item.title}.`,
                         })
                       }
-                      className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg text-xs font-semibold bg-[#34D399] text-[#08090C] hover:bg-[#4ade80] transition-colors"
+                      className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg text-xs font-semibold bg-[#3B82F6] text-[#08090C] hover:bg-[#4ade80] transition-colors"
                     >
                       <span>{item.ctaText}</span>
                       <ArrowUpRight className="w-3.5 h-3.5" />
@@ -311,7 +311,7 @@ export const WhoWeServeSection: React.FC<WhoWeServeSectionProps> = ({
               <div className="grid lg:grid-cols-12 gap-10 items-start">
                 {/* Left 6 cols: Training Narrative & Simulation */}
                 <div className="lg:col-span-6 space-y-6">
-                  <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-[#34D399]/10 text-[#34D399] text-xs font-semibold border border-[#34D399]/20">
+                  <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-[#3B82F6]/10 text-[#3B82F6] text-xs font-semibold border border-[#3B82F6]/20">
                     <GraduationCap className="w-3.5 h-3.5" />
                     <span>Corporate Team Training</span>
                   </div>
@@ -325,7 +325,7 @@ export const WhoWeServeSection: React.FC<WhoWeServeSectionProps> = ({
                   </p>
 
                   <div className="rounded-xl border border-white/10 bg-white/[0.02] p-5 space-y-3">
-                    <div className="flex items-center gap-2 text-xs font-semibold text-[#34D399]">
+                    <div className="flex items-center gap-2 text-xs font-semibold text-[#3B82F6]">
                       <Waves className="w-4 h-4" />
                       <span>Practical Enterprise Lab Simulations</span>
                     </div>
@@ -344,7 +344,7 @@ export const WhoWeServeSection: React.FC<WhoWeServeSectionProps> = ({
                             'Requesting details for AWS, Azure, GCP, and DevOps corporate team training.',
                         })
                       }
-                      className="inline-flex items-center gap-2 rounded-lg bg-[#34D399] hover:bg-[#4ade80] text-[#08090C] font-semibold text-xs sm:text-sm px-6 py-3.5 transition-colors"
+                      className="inline-flex items-center gap-2 rounded-lg bg-[#3B82F6] hover:bg-[#4ade80] text-[#08090C] font-semibold text-xs sm:text-sm px-6 py-3.5 transition-colors"
                     >
                       <span>Ask About Corporate Training</span>
                       <ArrowUpRight className="w-4 h-4" />
@@ -359,11 +359,11 @@ export const WhoWeServeSection: React.FC<WhoWeServeSectionProps> = ({
                     return (
                       <div
                         key={topic.title}
-                        className="rounded-xl border border-white/10 bg-[#08090C] p-5 sm:p-6 hover:border-[#34D399]/40 transition-colors"
+                        className="rounded-xl border border-white/10 bg-[#08090C] p-5 sm:p-6 hover:border-[#3B82F6]/40 transition-colors"
                       >
                         <div className="flex items-start gap-4">
-                          <div className="w-10 h-10 rounded-lg bg-[#34D399]/10 border border-[#34D399]/20 flex items-center justify-center shrink-0">
-                            <Icon className="w-5 h-5 text-[#34D399]" />
+                          <div className="w-10 h-10 rounded-lg bg-[#3B82F6]/10 border border-[#3B82F6]/20 flex items-center justify-center shrink-0">
+                            <Icon className="w-5 h-5 text-[#3B82F6]" />
                           </div>
                           <div className="space-y-1">
                             <div className="flex flex-wrap items-center justify-between gap-2">
@@ -404,8 +404,8 @@ export const WhoWeServeSection: React.FC<WhoWeServeSectionProps> = ({
                 key={office.city}
                 className="rounded-xl border border-white/10 bg-[#0C0E14] p-5 flex items-start gap-3 hover:border-white/20 transition-colors"
               >
-                <div className="w-8 h-8 rounded-lg bg-[#34D399]/10 flex items-center justify-center shrink-0">
-                  <MapPin className="w-4 h-4 text-[#34D399]" />
+                <div className="w-8 h-8 rounded-lg bg-[#3B82F6]/10 flex items-center justify-center shrink-0">
+                  <MapPin className="w-4 h-4 text-[#3B82F6]" />
                 </div>
                 <div>
                   <div className="font-display text-base font-bold text-[#F4F5F8]">

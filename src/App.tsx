@@ -20,7 +20,7 @@ export function App() {
   }, []);
 
   return (
-    <div className="relative min-h-screen bg-[#08090C] text-[#F4F5F8] selection:bg-[#10B981] selection:text-[#08090C]">
+    <div className="relative min-h-screen bg-[#08090C] text-[#F4F5F8] selection:bg-[#2563EB] selection:text-[#08090C]">
       {/* Global Gooey Filter for BlobButton Effect */}
       <svg
         aria-hidden="true"

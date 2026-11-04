@@ -25,9 +25,9 @@ export const ServicesBentoGrid: React.FC<ServicesBentoGridProps> = ({
         className="absolute inset-0 pointer-events-auto z-0 overflow-hidden opacity-45"
       >
         <DitherWave
-          primaryColor="#064e3b"
-          secondaryColor="#34d399"
-          tertiaryColor="#BEF264"
+          primaryColor="#1E3A8A"
+          secondaryColor="#3B82F6"
+          tertiaryColor="#93C5FD"
           speed={0.65}
           intensity={1.15}
           opacity={0.6}
@@ -54,7 +54,7 @@ export const ServicesBentoGrid: React.FC<ServicesBentoGridProps> = ({
       <div className="relative z-10 mx-auto max-w-[1380px] px-4 sm:px-6 lg:px-10">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-14">
           <div className="max-w-2xl space-y-3">
-            <p className="text-xs sm:text-sm font-semibold uppercase tracking-wider text-[#34D399]">
+            <p className="text-xs sm:text-sm font-semibold uppercase tracking-wider text-[#3B82F6]">
               Services
             </p>
 
@@ -88,13 +88,13 @@ export const ServicesBentoGrid: React.FC<ServicesBentoGridProps> = ({
 
             return (
               <ScrollReveal key={service.id} delay={idx * 80} className={spanClass}>
-                <div className="group h-full border-t border-white/15 hover:border-[#34D399] pt-7 pb-2 flex flex-col justify-between transition-all duration-300 hover:-translate-y-0.5">
+                <div className="group h-full border-t border-white/15 hover:border-[#3B82F6] pt-7 pb-2 flex flex-col justify-between transition-all duration-300 hover:-translate-y-0.5">
                   <div className="relative z-10">
-                    <span className="text-xs font-semibold uppercase tracking-wider text-[#BEF264]">
+                    <span className="text-xs font-semibold uppercase tracking-wider text-[#93C5FD]">
                       {service.category}
                     </span>
 
-                    <h3 className="mt-3 font-display text-2xl sm:text-3xl font-bold text-[#F4F5F8] group-hover:text-[#34D399] transition-colors">
+                    <h3 className="mt-3 font-display text-2xl sm:text-3xl font-bold text-[#F4F5F8] group-hover:text-[#3B82F6] transition-colors">
                       {service.title}
                     </h3>
 
@@ -116,7 +116,7 @@ export const ServicesBentoGrid: React.FC<ServicesBentoGridProps> = ({
                           contextLine: `Project inquiry for ${service.title}.`,
                         })
                       }
-                      className="inline-flex items-center gap-1.5 text-xs font-bold text-[#34D399] hover:text-[#BEF264] shrink-0 transition-colors"
+                      className="inline-flex items-center gap-1.5 text-xs font-bold text-[#3B82F6] hover:text-[#93C5FD] shrink-0 transition-colors"
                     >
                       <span>Ask About This</span>
                       <ArrowUpRight className="w-4 h-4" />

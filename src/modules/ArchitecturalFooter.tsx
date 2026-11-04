@@ -22,7 +22,7 @@ export const ArchitecturalFooter: React.FC = () => {
         {/* Single Container in Footer: Final CTA Band */}
         <div className="rounded-2xl border border-white/10 bg-[#0F1117] p-6 sm:p-10 mb-16 flex flex-col lg:flex-row lg:items-center justify-between gap-6">
           <div className="space-y-2 max-w-2xl">
-            <p className="text-sm font-medium text-[#34D399]">
+            <p className="text-sm font-medium text-[#3B82F6]">
               Start a conversation
             </p>
             <h3 className="font-display text-2xl sm:text-3xl font-bold text-[#F4F5F8]">
@@ -43,7 +43,7 @@ export const ArchitecturalFooter: React.FC = () => {
             <a
               href="#hook"
               aria-label="Back to top"
-              className="h-11 w-11 rounded-full border border-white/15 hover:border-[#34D399] bg-[#08090C] text-[#F4F5F8] flex items-center justify-center transition-colors"
+              className="h-11 w-11 rounded-full border border-white/15 hover:border-[#3B82F6] bg-[#08090C] text-[#F4F5F8] flex items-center justify-center transition-colors"
             >
               <ArrowUp className="w-4 h-4" />
             </a>
@@ -76,10 +76,10 @@ export const ArchitecturalFooter: React.FC = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={`Ladder7 on ${soc.platform}`}
-                  className="text-xs font-semibold text-[#F4F5F8] hover:text-[#34D399] inline-flex items-center gap-1 transition-colors"
+                  className="text-xs font-semibold text-[#F4F5F8] hover:text-[#3B82F6] inline-flex items-center gap-1 transition-colors"
                 >
                   <span>{soc.platform}</span>
-                  <ArrowUpRight className="w-3.5 h-3.5 text-[#34D399]" />
+                  <ArrowUpRight className="w-3.5 h-3.5 text-[#3B82F6]" />
                 </a>
               ))}
             </div>
@@ -161,7 +161,7 @@ export const ArchitecturalFooter: React.FC = () => {
               <div>
                 <a
                   href={FACTUAL_COMPANY_DATA.phoneUri}
-                  className="text-[#F4F5F8] hover:text-[#34D399] transition-colors"
+                  className="text-[#F4F5F8] hover:text-[#3B82F6] transition-colors"
                 >
                   {FACTUAL_COMPANY_DATA.phoneFormatted}
                 </a>
@@ -169,7 +169,7 @@ export const ArchitecturalFooter: React.FC = () => {
               <div>
                 <a
                   href={`mailto:${FACTUAL_COMPANY_DATA.email}`}
-                  className="text-[#BEF264] hover:underline"
+                  className="text-[#93C5FD] hover:underline"
                 >
                   {FACTUAL_COMPANY_DATA.email}
                 </a>
@@ -191,10 +191,10 @@ export const ArchitecturalFooter: React.FC = () => {
         <div className="pt-4 border-t border-white/[0.06] flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#7D8597]">
           <p>© {new Date().getFullYear()} {FACTUAL_COMPANY_DATA.legalEntity}. All rights reserved.</p>
           <div className="flex flex-wrap items-center gap-6">
-            <a href="#contact" className="hover:text-[#34D399] transition-colors">
+            <a href="#contact" className="hover:text-[#3B82F6] transition-colors">
               Privacy Policy
             </a>
-            <a href="#contact" className="hover:text-[#34D399] transition-colors">
+            <a href="#contact" className="hover:text-[#3B82F6] transition-colors">
               Terms of Service
             </a>
           </div>

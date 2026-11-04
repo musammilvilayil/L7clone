@@ -49,7 +49,7 @@ export const VisionEditorialSplit: React.FC = () => {
         className="absolute inset-0 pointer-events-auto z-0 overflow-hidden opacity-55"
       >
         <RingField
-          colors={['#059669', '#34D399']}
+          colors={['#1D4ED8', '#3B82F6']}
           backgroundColor="#08090C"
           rings={7}
           particles={28000}
@@ -93,8 +93,8 @@ export const VisionEditorialSplit: React.FC = () => {
       <div className="relative z-10 mx-auto max-w-[1380px] px-4 sm:px-6 lg:px-10">
         <div className="grid lg:grid-cols-12 gap-8 lg:gap-12 items-start">
           <div className="lg:col-span-4 lg:sticky lg:top-28 space-y-4">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/10 bg-[#0B0D13]/80 backdrop-blur-md text-xs font-medium text-[#34D399] shadow-[0_2px_12px_rgba(0,0,0,0.5)]">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#34D399]" />
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/10 bg-[#0B0D13]/80 backdrop-blur-md text-xs font-medium text-[#3B82F6] shadow-[0_2px_12px_rgba(0,0,0,0.5)]">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#3B82F6]" />
               About Ladder7
             </div>
 
@@ -103,7 +103,7 @@ export const VisionEditorialSplit: React.FC = () => {
                 as="h2"
                 text="Practical software that connects your website, team workflows, and analytics."
                 className="font-display text-2xl sm:text-3xl font-bold text-[#F4F5F8] leading-snug"
-                scrambleColor="#34D399"
+                scrambleColor="#3B82F6"
                 scrambleOpacity={0.55}
                 trigger="view"
                 order="left"
@@ -127,7 +127,7 @@ export const VisionEditorialSplit: React.FC = () => {
                   as="p"
                   text="When your website, customer support tools, and analytics share the same data, visitors get faster answers and your team spends less time on manual work."
                   className="font-display text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight tracking-[-0.02em] text-[#F4F5F8]"
-                  scrambleColor="#34D399"
+                  scrambleColor="#3B82F6"
                   scrambleOpacity={0.55}
                   trigger="view"
                   order="left"
@@ -144,9 +144,9 @@ export const VisionEditorialSplit: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
               {FOCUS_AREAS.map((item, idx) => (
                 <ScrollReveal key={item.title} delay={idx * 80}>
-                  <div className="group border-t border-white/15 hover:border-[#34D399] pt-6 flex flex-col justify-between h-full space-y-5 transition-all duration-300 hover:-translate-y-0.5">
+                  <div className="group border-t border-white/15 hover:border-[#3B82F6] pt-6 flex flex-col justify-between h-full space-y-5 transition-all duration-300 hover:-translate-y-0.5">
                     <div>
-                      <h3 className="font-display text-base sm:text-lg font-bold text-[#F4F5F8] group-hover:text-[#34D399] transition-colors">
+                      <h3 className="font-display text-base sm:text-lg font-bold text-[#F4F5F8] group-hover:text-[#3B82F6] transition-colors">
                         {item.title}
                       </h3>
 
@@ -159,7 +159,7 @@ export const VisionEditorialSplit: React.FC = () => {
                     </div>
 
                     <div className="pt-4 border-t border-white/[0.08] text-xs sm:text-sm text-[#F4F5F8] leading-relaxed">
-                      <span className="text-xs text-[#34D399] font-semibold flex items-center gap-1.5 mb-1.5">
+                      <span className="text-xs text-[#3B82F6] font-semibold flex items-center gap-1.5 mb-1.5">
                         <Check className="w-3.5 h-3.5" />
                         Our approach
                       </span>
