@@ -1,8 +1,7 @@
-import React, { useCallback, useRef, useState } from 'react';
+import React, { useCallback, useState } from 'react';
 import { ArrowLeft, ArrowRight, ArrowUpRight, Check, Sparkles } from 'lucide-react';
 import BlobButton from '../components/BlobButton';
-import FlexCarousel from '../components/FlexCarousel';
-import type { FlexCarouselHandle, FlexCarouselItem } from '../components/FlexCarousel.types';
+import SkewedProductCarousel from '../components/SkewedProductCarousel';
 import { PRODUCT_RAIL_ITEMS } from '../catalog/freshContent';
 import type { BriefPreset } from '../design-system/tokens';
 
@@ -73,7 +72,7 @@ const PRODUCTS: ShowcaseProduct[] = PRODUCT_ORDER.flatMap((id) => {
   }];
 });
 
-const CAROUSEL_ITEMS: FlexCarouselItem[] = PRODUCTS.map((product) => ({
+const CAROUSEL_ITEMS = PRODUCTS.map((product) => ({
   src: product.image,
   alt: product.imageAlt,
   title: product.displayName,
@@ -83,13 +82,11 @@ export const ProductsExpandingPanels: React.FC<ProductsExpandingPanelsProps> = (
   onApplyPreset,
 }) => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const carouselHandle = useRef<FlexCarouselHandle | null>(null);
   const activeProduct = PRODUCTS[activeIndex] || PRODUCTS[0];
 
   const selectProduct = useCallback((index: number) => {
     const safeIndex = (index + PRODUCTS.length) % PRODUCTS.length;
     setActiveIndex(safeIndex);
-    carouselHandle.current?.goTo(safeIndex);
   }, []);
 
   const applyProductPreset = useCallback((product: ShowcaseProduct) => {
@@ -157,21 +154,10 @@ export const ProductsExpandingPanels: React.FC<ProductsExpandingPanelsProps> = (
 
         <div className="grid items-center gap-8 pt-8 lg:grid-cols-[minmax(0,0.92fr)_minmax(0,1.08fr)] lg:gap-10 xl:gap-16">
           <div className="product-showcase-carousel order-1 min-w-0 lg:order-2">
-            <FlexCarousel
+            <SkewedProductCarousel
               items={CAROUSEL_ITEMS}
-              preset="liquid"
-              intro="rise"
-              cardHeight={0.68}
-              gap={18}
-              fit="landscape"
-              radius={0}
-              captions={false}
-              focusOnClick={false}
-              captureWheel={false}
-              autoplay={false}
-              onChange={(index: number) => setActiveIndex(index)}
-              onReady={(handle: FlexCarouselHandle | null) => { carouselHandle.current = handle; }}
-              className="h-full w-full"
+              activeIndex={activeIndex}
+              onChange={selectProduct}
             />
             <div className="mt-2 flex items-center justify-between px-1">
               <span className="font-mono text-[10px] uppercase tracking-[0.16em] text-[#778191]">Drag or swipe to switch</span>
