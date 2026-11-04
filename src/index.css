@@ -621,3 +621,219 @@
     transition: none;
   }
 }
+
+
+/* Product showcase: compact, touch-first layouts */
+@media (max-width: 767px) {
+  .product-showcase-section {
+    scroll-margin-top: 3.5rem;
+  }
+
+  .product-showcase-section > .relative.z-10 {
+    padding-bottom: 2.75rem;
+  }
+
+  .product-showcase-nav {
+    top: 3.5rem;
+    margin-inline: -1rem;
+    padding-inline: 1rem;
+  }
+
+  .product-showcase-nav > div {
+    scroll-padding-inline: 1rem;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .product-showcase-carousel {
+    width: calc(100% + 2rem);
+    height: clamp(16.5rem, 76vw, 21rem);
+    min-height: 0;
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+
+  .product-showcase-carousel::before {
+    inset: 18% 12%;
+    filter: blur(48px);
+  }
+
+  .skewed-product-carousel {
+    min-height: 0;
+  }
+
+  .skewed-product-carousel__stage {
+    inset: 0 0 1.15rem;
+    perspective: 850px;
+  }
+
+  .skewed-product-carousel__card {
+    width: 82%;
+    height: 83%;
+    top: 47%;
+    border-radius: 0.85rem;
+    transition:
+      transform 520ms cubic-bezier(0.2, 0.78, 0.2, 1),
+      opacity 380ms ease,
+      border-color 350ms ease,
+      box-shadow 350ms ease,
+      filter 350ms ease;
+  }
+
+  .skewed-product-carousel__card:not(.is-active) {
+    filter: saturate(0.65) brightness(0.58);
+  }
+
+  .skewed-product-carousel__caption {
+    right: 0.9rem;
+    bottom: 0.9rem;
+    left: 0.9rem;
+    gap: 0.35rem;
+  }
+
+  .skewed-product-carousel__index {
+    font-size: 0.58rem;
+    letter-spacing: 0.14em;
+  }
+
+  .skewed-product-carousel__title {
+    font-size: clamp(1.05rem, 5vw, 1.35rem);
+  }
+
+  .skewed-product-carousel__active-mark {
+    top: 0.8rem;
+    right: 0.8rem;
+    width: 0.48rem;
+    height: 0.48rem;
+  }
+
+  .skewed-product-carousel__progress {
+    gap: 0.35rem;
+  }
+
+  .skewed-product-carousel__progress span {
+    width: 1rem;
+  }
+
+  .skewed-product-carousel__progress span.is-active {
+    width: 2rem;
+  }
+
+  .product-showcase-controls {
+    min-height: 2.75rem;
+    margin-top: 0.35rem;
+  }
+
+  .product-showcase-controls button {
+    min-width: 2.75rem;
+    min-height: 2.75rem;
+  }
+
+  .product-showcase-details {
+    padding-top: 0.35rem;
+  }
+
+  .product-showcase-details .product-showcase-copy > p:first-child {
+    margin-bottom: 0.8rem;
+  }
+
+  .product-showcase-details h3 {
+    font-size: clamp(2.15rem, 10vw, 3rem);
+    line-height: 0.98;
+  }
+
+  .product-showcase-details h3 + p {
+    max-width: 30ch;
+    margin-top: 0.9rem;
+    font-size: clamp(1.08rem, 4.8vw, 1.35rem);
+    line-height: 1.28;
+  }
+
+  .product-showcase-details h3 + p + p {
+    margin-top: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.65;
+  }
+
+  .product-showcase-details ul {
+    margin-top: 1.1rem;
+    gap: 0.65rem;
+  }
+
+  .product-showcase-details .mt-7 {
+    margin-top: 1.15rem;
+  }
+
+  .product-showcase-details .blob-btn {
+    width: 100%;
+    min-height: 2.9rem;
+  }
+
+  .product-showcase-details .blob-btn + span {
+    width: 100%;
+    text-align: center;
+  }
+
+  .product-showcase-details li {
+    font-size: 0.78rem;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 380px) {
+  .product-showcase-carousel {
+    height: 16.25rem;
+  }
+
+  .skewed-product-carousel__card {
+    width: 86%;
+    height: 80%;
+  }
+
+  .product-showcase-controls > span:first-child {
+    max-width: 8.5rem;
+    line-height: 1.4;
+  }
+
+  .product-showcase-nav button {
+    min-height: 2.5rem;
+    padding-inline: 0.65rem;
+    font-size: 0.68rem;
+  }
+
+  .product-showcase-nav button > span:first-child {
+    font-size: 0.56rem;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 767px) {
+  .product-showcase-carousel {
+    height: 25rem;
+  }
+
+  .skewed-product-carousel__card {
+    width: 76%;
+    height: 86%;
+  }
+
+  .product-showcase-details .blob-btn {
+    width: auto;
+  }
+}
+
+@media (max-height: 520px) and (orientation: landscape) and (max-width: 900px) {
+  .product-showcase-carousel {
+    height: 70vh;
+    min-height: 13rem;
+  }
+
+  .skewed-product-carousel__card {
+    height: 88%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skewed-product-carousel__card {
+    transition: none;
+  }
+}
