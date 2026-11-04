@@ -1,131 +1,164 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
-import type { BriefPreset } from '../design-system/tokens';
-import { ArrowDownRight, ArrowUpRight, Check, Command, Sparkles } from 'lucide-react';
+import { ArrowUpRight, Check, Sparkles } from 'lucide-react';
 import BlobButton from '../components/BlobButton';
+import { PRODUCT_RAIL_ITEMS } from '../catalog/freshContent';
+import type { BriefPreset, ProductRailItem } from '../design-system/tokens';
 
 interface ProductsExpandingPanelsProps {
   onApplyPreset: (preset: BriefPreset) => void;
 }
 
-interface ProductDetail {
+interface ShowcaseProduct {
   id: string;
-  name: string;
+  displayName: string;
   eyebrow: string;
-  tagline: string;
+  headline: string;
   description: string;
   highlights: string[];
-  proofLine: string;
+  connectors: string[];
   image: string;
   imageAlt: string;
-  imageLabel: string;
+  inquiryName: string;
+  ctaLabel: string;
 }
 
-const PRODUCTS: ProductDetail[] = [
-  {
-    id: 'l7-insights',
-    name: 'L7 Insights',
+const PRODUCT_PRESENTATION: Record<string, Pick<ShowcaseProduct, 'displayName' | 'eyebrow' | 'headline' | 'image'>> = {
+  'l7-insights': {
+    displayName: 'L7 Insights',
     eyebrow: '01 / PRODUCT ANALYTICS',
-    tagline: 'See the signals behind every business decision.',
-    description:
-      'Turn spreadsheet records, live analytics streams, and team metrics into clear, customizable dashboards. Track lead conversion, revenue distribution, and workforce performance in one place.',
-    highlights: [
-      'No-code KPI and chart widgets',
-      'Live Google Sheets and database joins',
-      'Custom analytics and metric filters',
-      'Role-based access and audit logging',
-    ],
-    proofLine: 'Real-time sync · Multi-source data · Drag-and-drop dashboards',
+    headline: 'Understand what your customers do — and where they drop off.',
     image: '/images/products/product-insights.webp',
-    imageAlt:
-      'L7 Insights dashboard with KPI cards, analytics charts, revenue distribution, and a lead details table',
-    imageLabel: 'Analytics workspace',
   },
-  {
-    id: 'outreach',
-    name: 'Outreach',
-    eyebrow: '02 / B2B PIPELINE',
-    tagline: 'Turn better-targeted outreach into a clearer pipeline.',
-    description:
-      'Bring email campaigns, lead tracking, and conversion funnels into one acquisition workspace. Monitor campaign activity, follow each stage of the funnel, and manage mailbox rotation and domain warmup.',
-    highlights: [
-      'Inbound and outbound mailbox management',
-      'Stage-by-stage conversion funnel',
-      'Live send and open-rate telemetry',
-      'Automated domain warmup and rotation',
-    ],
-    proofLine: 'Campaign visibility · Funnel tracking · Mailbox management',
+  'outreach-engine': {
+    displayName: 'Outreach',
+    eyebrow: '02 / B2B OUTREACH',
+    headline: 'Find the right accounts. Start more relevant conversations.',
     image: '/images/products/product-outreach.webp',
-    imageAlt:
-      'Outreach pipeline dashboard showing email activity, lead totals, campaign trends, conversion funnel, and mailbox distribution',
-    imageLabel: 'Campaign pipeline',
   },
-  {
-    id: 'infinite',
-    name: 'Infinite',
-    eyebrow: '03 / EXECUTIVE INTELLIGENCE',
-    tagline: 'Make project performance easier to understand.',
-    description:
-      'Give leadership teams a consolidated view of active project budgets, revenue, and ROI. Bring critical alerts and strategic insights into the same workspace to support faster operational decisions.',
-    highlights: [
-      'Live spend, budget, and ROI tracking',
-      'Critical alerts and project scoring',
-      'Strategic insights and trend feeds',
-      'Role-based enterprise administration',
-    ],
-    proofLine: 'Project visibility · ROI tracking · Operational alerts',
+  'infinite-insights': {
+    displayName: 'Infinite',
+    eyebrow: '03 / PRIVATE KNOWLEDGE',
+    headline: 'Make your organisation’s knowledge easier to find and use.',
     image: '/images/products/product-infinite.webp',
-    imageAlt:
-      'Infinite executive dashboard showing project budgets, revenue and ROI, critical alerts, and strategic insights',
-    imageLabel: 'Executive overview',
   },
-  {
-    id: 'l7-nexus',
-    name: 'L7 Nexus',
-    eyebrow: '04 / MULTI-AGENT ORCHESTRATION',
-    tagline: 'Coordinate specialist AI agents with human oversight.',
-    description:
-      'Coordinate specialist agents through an executive-led workflow for knowledge discovery, software architecture, marketing, and customer operations. Keep people in the loop with governance and activity logs.',
-    highlights: [
-      'Hierarchical multi-agent architecture',
-      'Chief of Staff coordination layer',
-      'Specialists for technology, sales, and operations',
-      'Human-in-the-loop governance and logs',
-    ],
-    proofLine: 'Specialist agents · Central coordination · Human oversight',
+  'l7-nexus': {
+    displayName: 'L7 Nexus',
+    eyebrow: '04 / CUSTOMER COMMUNICATIONS',
+    headline: 'Bring every customer conversation into one shared workspace.',
     image: '/images/products/product-nexus.webp',
-    imageAlt:
-      'L7 Nexus multi-agent hierarchy showing executive coordination and specialist agents across knowledge, technology, marketing, sales, and operations',
-    imageLabel: 'Agent orchestration',
   },
-];
+};
+
+const PRODUCT_ORDER = ['l7-insights', 'outreach-engine', 'infinite-insights', 'l7-nexus'];
+
+const PRODUCTS: ShowcaseProduct[] = PRODUCT_ORDER.flatMap((id) => {
+  const product = PRODUCT_RAIL_ITEMS.find((item) => item.id === id);
+  const presentation = PRODUCT_PRESENTATION[id];
+  if (!product || !presentation) return [];
+
+  return [{
+    id: product.id,
+    displayName: presentation.displayName,
+    eyebrow: presentation.eyebrow,
+    headline: presentation.headline,
+    description: product.narrative,
+    highlights: product.highlights,
+    connectors: product.connectors,
+    image: presentation.image,
+    imageAlt: product.imageAlt,
+    inquiryName: product.name,
+    ctaLabel: product.ctaLabel,
+  }];
+});
+
+const ProductImage: React.FC<{
+  product: ShowcaseProduct;
+  index: number;
+}> = ({ product, index }) => {
+  const [hasError, setHasError] = useState(false);
+
+  return (
+    <div className="product-showcase-frame group relative">
+      <div className="product-showcase-toolbar">
+        <div className="flex items-center gap-1.5" aria-hidden="true">
+          <span className="h-2 w-2 rounded-full bg-white/20" />
+          <span className="h-2 w-2 rounded-full bg-white/35" />
+          <span className="h-2 w-2 rounded-full bg-[#34D399]/80" />
+        </div>
+        <span className="min-w-0 truncate font-mono text-[9px] uppercase tracking-[0.16em] text-[#7D8597] sm:text-[10px]">
+          LADDER7 <span className="text-white/20">/</span> {product.displayName}
+        </span>
+        <span className="rounded-md border border-white/[0.08] bg-white/[0.03] px-2 py-1 font-mono text-[9px] text-[#A3AAB8]">
+          0{index + 1}
+        </span>
+      </div>
+
+      <div className="product-showcase-image-wrap">
+        {!hasError ? (
+          <img
+            src={product.image}
+            alt={product.imageAlt}
+            loading={index === 0 ? 'eager' : 'lazy'}
+            decoding="async"
+            onError={() => setHasError(true)}
+            className="product-showcase-image"
+          />
+        ) : (
+          <div
+            role="img"
+            aria-label={product.imageAlt}
+            className="flex min-h-[260px] w-full flex-col items-center justify-center gap-3 px-6 text-center sm:min-h-[340px]"
+          >
+            <span className="flex h-12 w-12 items-center justify-center rounded-2xl border border-[#34D399]/20 bg-[#34D399]/[0.07] text-[#6EE7B7]">
+              <Sparkles className="h-5 w-5" aria-hidden="true" />
+            </span>
+            <span className="text-sm font-semibold text-[#DCE3EB]">{product.displayName}</span>
+            <span className="max-w-xs text-xs leading-5 text-[#7D8597]">
+              Product preview is temporarily unavailable.
+            </span>
+          </div>
+        )}
+      </div>
+
+      <div className="flex flex-wrap items-center justify-between gap-2 border-t border-white/[0.07] bg-[#0D1016] px-4 py-3 sm:px-5">
+        <span className="text-[10px] font-medium text-[#A3AAB8] sm:text-xs">
+          {product.displayName} <span className="text-[#596273]">/ Product preview</span>
+        </span>
+        <span className="inline-flex items-center gap-2 text-[9px] font-semibold uppercase tracking-[0.14em] text-[#6EE7B7] sm:text-[10px]">
+          <span className="h-1.5 w-1.5 rounded-full bg-[#34D399]" />
+          In-house platform
+        </span>
+      </div>
+    </div>
+  );
+};
 
 export const ProductsExpandingPanels: React.FC<ProductsExpandingPanelsProps> = ({
   onApplyPreset,
 }) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const sectionRefs = useRef<Array<HTMLElement | null>>([]);
-  const navigationRefs = useRef<Array<HTMLButtonElement | null>>([]);
 
   useEffect(() => {
     const sections = sectionRefs.current.filter(
       (section): section is HTMLElement => section !== null,
     );
-    if (sections.length === 0) return;
+
+    if (!('IntersectionObserver' in window) || sections.length === 0) return;
 
     const observer = new IntersectionObserver(
       (entries) => {
-        const visible = entries
+        const current = entries
           .filter((entry) => entry.isIntersecting)
           .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
 
-        if (!visible) return;
-        const index = sections.indexOf(visible.target as HTMLElement);
-        if (index >= 0) setActiveIndex(index);
+        if (!current) return;
+        const index = sections.indexOf(current.target as HTMLElement);
+        if (index !== -1) setActiveIndex(index);
       },
       {
-        root: null,
-        rootMargin: '-18% 0px -48% 0px',
-        threshold: [0.05, 0.2, 0.4, 0.6],
+        rootMargin: '-22% 0px -48% 0px',
+        threshold: [0.1, 0.25, 0.45, 0.65],
       },
     );
 
@@ -136,79 +169,98 @@ export const ProductsExpandingPanels: React.FC<ProductsExpandingPanelsProps> = (
   const navigateToProduct = useCallback((index: number) => {
     const target = sectionRefs.current[index];
     if (!target) return;
+
     setActiveIndex(index);
-    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    target.scrollIntoView({
+      behavior: reduceMotion ? 'auto' : 'smooth',
+      block: 'start',
+    });
   }, []);
 
-  const handleNavigationKeyDown = useCallback(
-    (event: React.KeyboardEvent<HTMLButtonElement>, index: number) => {
-      let nextIndex: number | null = null;
-      if (event.key === 'ArrowRight' || event.key === 'ArrowDown') {
-        nextIndex = (index + 1) % PRODUCTS.length;
-      } else if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') {
-        nextIndex = (index - 1 + PRODUCTS.length) % PRODUCTS.length;
-      } else if (event.key === 'Home') {
-        nextIndex = 0;
-      } else if (event.key === 'End') {
-        nextIndex = PRODUCTS.length - 1;
-      }
+  const applyProductPreset = useCallback((product: ShowcaseProduct) => {
+    onApplyPreset({
+      serviceTrack: product.inquiryName,
+      contextLine: `I'd like to know more about ${product.inquiryName} and request a product walkthrough.`,
+    });
+  }, [onApplyPreset]);
 
-      if (nextIndex === null) return;
-      event.preventDefault();
-      navigationRefs.current[nextIndex]?.focus();
-      navigateToProduct(nextIndex);
-    },
-    [navigateToProduct],
-  );
+  const handleNavigationKeyDown = useCallback((
+    event: React.KeyboardEvent<HTMLAnchorElement>,
+    index: number,
+  ) => {
+    let nextIndex: number | null = null;
+
+    if (event.key === 'ArrowRight' || event.key === 'ArrowDown') {
+      nextIndex = (index + 1) % PRODUCTS.length;
+    } else if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') {
+      nextIndex = (index - 1 + PRODUCTS.length) % PRODUCTS.length;
+    } else if (event.key === 'Home') {
+      nextIndex = 0;
+    } else if (event.key === 'End') {
+      nextIndex = PRODUCTS.length - 1;
+    }
+
+    if (nextIndex === null) return;
+    event.preventDefault();
+    document.getElementById(`product-nav-${PRODUCTS[nextIndex].id}`)?.focus();
+    navigateToProduct(nextIndex);
+  }, [navigateToProduct]);
 
   return (
     <section
       id="proof"
       aria-labelledby="products-heading"
-      className="relative isolate bg-[#08090C] text-[#F4F5F8]"
+      className="product-showcase-section relative isolate overflow-clip bg-[#08090C] text-[#F4F5F8]"
     >
-      <div className="pointer-events-none absolute inset-x-0 top-0 h-48 bg-[radial-gradient(ellipse_at_top,rgba(16,185,129,0.09),transparent_70%)]" />
+      <div aria-hidden="true" className="product-showcase-ambient" />
 
-      <div className="relative mx-auto w-full max-w-[1440px] px-5 pb-8 pt-24 sm:px-8 sm:pt-28 lg:px-12 lg:pt-32">
-        <div className="max-w-3xl">
-          <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-[#34D399]/20 bg-[#34D399]/[0.07] px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.2em] text-[#6EE7B7] sm:text-[11px]">
-            <Sparkles className="h-3.5 w-3.5" aria-hidden="true" />
-            Built in-house at Ladder7
+      <div className="relative mx-auto w-full max-w-[1440px] px-5 pb-5 pt-24 sm:px-8 sm:pt-28 lg:px-12 lg:pt-32">
+        <header className="flex flex-col justify-between gap-6 border-b border-white/[0.08] pb-7 lg:flex-row lg:items-end lg:gap-10 lg:pb-8">
+          <div className="max-w-3xl">
+            <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-[#34D399]/20 bg-[#34D399]/[0.06] px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.19em] text-[#6EE7B7] sm:text-[11px]">
+              <Sparkles className="h-3.5 w-3.5" aria-hidden="true" />
+              Built in-house at Ladder7
+            </div>
+            <h2
+              id="products-heading"
+              className="font-display text-3xl font-bold leading-[1.06] tracking-[-0.05em] text-[#F4F5F8] sm:text-4xl lg:text-[3.35rem]"
+            >
+              Four platforms.
+              <span className="block text-[#34D399]">One standard of engineering.</span>
+            </h2>
+            <p className="mt-3 max-w-[58ch] text-sm leading-6 text-[#A3AAB8] sm:text-[15px] sm:leading-7">
+              A closer look at the software products developed by Ladder7 — each focused on a different part of your digital operation.
+            </p>
           </div>
-          <h2
-            id="products-heading"
-            className="font-display text-3xl font-bold leading-[1.08] tracking-[-0.045em] text-[#F4F5F8] sm:text-4xl lg:text-5xl"
-          >
-            Four platforms.
-            <span className="block text-[#34D399]">Purpose-built for progress.</span>
-          </h2>
-          <p className="mt-4 max-w-[62ch] text-sm leading-7 text-[#A3AAB8] sm:text-base">
-            Explore the software platforms developed by Ladder7, each designed around a distinct business challenge.
-          </p>
-        </div>
+          <div className="hidden shrink-0 pb-1 font-mono text-[10px] uppercase tracking-[0.18em] text-[#667080] lg:block">
+            <span className="text-[#6EE7B7]">04</span> products <span className="px-1.5 text-white/20">/</span> scroll to explore
+          </div>
+        </header>
 
-        <div className="sticky top-16 z-30 -mx-5 mt-8 border-y border-white/[0.08] bg-[#08090C]/90 px-5 py-3 backdrop-blur-xl sm:top-20 sm:-mx-8 sm:px-8 lg:-mx-12 lg:px-12">
-          <nav
-            aria-label="In-house platform navigation"
-            className="mx-auto flex max-w-[1440px] gap-2 overflow-x-auto overscroll-x-contain scrollbar-none"
-          >
+        <nav
+          aria-label="In-house platform navigation"
+          className="product-showcase-nav sticky top-16 z-30 -mx-5 border-b border-white/[0.08] bg-[#08090C]/90 px-5 py-3 backdrop-blur-xl min-[900px]:top-20 sm:-mx-8 sm:px-8 lg:-mx-12 lg:px-12"
+        >
+          <div className="mx-auto flex max-w-[1440px] gap-2 overflow-x-auto overscroll-x-contain pb-0.5">
             {PRODUCTS.map((product, index) => {
               const isActive = activeIndex === index;
+
               return (
-                <button
+                <a
                   key={product.id}
-                  ref={(node) => {
-                    navigationRefs.current[index] = node;
+                  id={`product-nav-${product.id}`}
+                  href={`#${product.id}`}
+                  aria-current={isActive ? 'location' : undefined}
+                  onClick={(event) => {
+                    event.preventDefault();
+                    navigateToProduct(index);
                   }}
-                  type="button"
-                  aria-pressed={isActive}
-                  aria-controls={product.id}
-                  onClick={() => navigateToProduct(index)}
                   onKeyDown={(event) => handleNavigationKeyDown(event, index)}
                   className={`group inline-flex min-h-10 shrink-0 items-center gap-2 rounded-lg border px-3.5 text-xs font-semibold transition-all duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#34D399] sm:px-4 sm:text-sm ${
                     isActive
-                      ? 'border-[#34D399]/50 bg-[#34D399]/[0.12] text-[#F4F5F8] shadow-[0_0_24px_rgba(16,185,129,0.08)]'
-                      : 'border-white/[0.08] bg-white/[0.025] text-[#8F98A8] hover:border-white/20 hover:bg-white/[0.06] hover:text-[#F4F5F8]'
+                      ? 'border-[#34D399]/45 bg-[#34D399]/[0.11] text-[#F4F5F8] shadow-[0_0_22px_rgba(16,185,129,0.07)]'
+                      : 'border-white/[0.08] bg-white/[0.02] text-[#8F98A8] hover:border-white/20 hover:bg-white/[0.05] hover:text-[#F4F5F8]'
                   }`}
                 >
                   <span className={`font-mono text-[10px] tracking-wider ${
@@ -216,15 +268,15 @@ export const ProductsExpandingPanels: React.FC<ProductsExpandingPanelsProps> = (
                   }`}>
                     0{index + 1}
                   </span>
-                  {product.name}
-                  {isActive && (
-                    <span className="ml-1 h-1.5 w-1.5 rounded-full bg-[#34D399]" />
-                  )}
-                </button>
+                  {product.displayName}
+                  <span className={`ml-0.5 h-1.5 w-1.5 rounded-full transition-colors ${
+                    isActive ? 'bg-[#34D399]' : 'bg-transparent group-hover:bg-white/30'
+                  }`} aria-hidden="true" />
+                </a>
               );
             })}
-          </nav>
-        </div>
+          </div>
+        </nav>
 
         <div className="divide-y divide-white/[0.08]">
           {PRODUCTS.map((product, index) => (
@@ -235,114 +287,81 @@ export const ProductsExpandingPanels: React.FC<ProductsExpandingPanelsProps> = (
                 sectionRefs.current[index] = node;
               }}
               aria-labelledby={`${product.id}-heading`}
-              className="grid min-h-[88svh] scroll-mt-28 grid-cols-1 items-center gap-9 py-14 sm:gap-12 sm:py-16 lg:min-h-[88svh] lg:grid-cols-[minmax(0,0.78fr)_minmax(0,1.22fr)] lg:gap-12 lg:py-12 xl:gap-16"
+              className="product-showcase-panel grid scroll-mt-28 grid-cols-1 items-center gap-8 py-12 sm:gap-10 sm:py-14 lg:min-h-[calc(100svh-5rem)] lg:grid-cols-[minmax(0,0.82fr)_minmax(0,1.18fr)] lg:gap-12 lg:py-10 xl:gap-16"
             >
-              <div className="relative z-10 order-2 lg:order-1">
-                <p className="mb-5 flex items-center gap-2 font-mono text-[10px] font-medium uppercase tracking-[0.2em] text-[#6EE7B7] sm:text-[11px]">
+              <div className="order-2 min-w-0 lg:order-1">
+                <p className="mb-4 flex items-center gap-2 font-mono text-[10px] font-semibold uppercase tracking-[0.2em] text-[#6EE7B7] sm:text-[11px]">
                   <span className="h-px w-7 bg-[#34D399]/70" />
                   {product.eyebrow}
                 </p>
 
                 <h3
                   id={`${product.id}-heading`}
-                  className="font-display text-4xl font-bold leading-[0.98] tracking-[-0.055em] text-[#F4F5F8] sm:text-5xl xl:text-[4.25rem]"
+                  className="font-display text-4xl font-bold leading-[0.98] tracking-[-0.06em] text-[#F4F5F8] sm:text-5xl xl:text-[4.4rem]"
                 >
-                  {product.name}
+                  {product.displayName}
                 </h3>
 
-                <p className="mt-5 max-w-[17ch] text-xl font-semibold leading-snug tracking-[-0.025em] text-[#D9E0E8] sm:text-2xl">
-                  {product.tagline}
+                <p className="mt-5 max-w-[24ch] text-xl font-semibold leading-snug tracking-[-0.03em] text-[#DCE3EB] sm:text-2xl">
+                  {product.headline}
                 </p>
 
-                <p className="mt-4 max-w-[54ch] text-sm leading-7 text-[#A3AAB8] sm:text-[15px]">
+                <p className="mt-4 max-w-[56ch] text-sm leading-7 text-[#A3AAB8] sm:text-[15px]">
                   {product.description}
                 </p>
 
-                <ul className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2">
+                <ul className="mt-6 grid gap-x-5 gap-y-3 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2">
                   {product.highlights.map((highlight) => (
                     <li
                       key={highlight}
                       className="flex items-start gap-2.5 text-xs leading-5 text-[#D7DCE5] sm:text-[13px]"
                     >
-                      <span className="mt-0.5 inline-flex h-4 w-4 shrink-0 items-center justify-center rounded-full border border-[#34D399]/30 bg-[#34D399]/[0.08] text-[#6EE7B7]">
+                      <span className="mt-0.5 inline-flex h-4 w-4 shrink-0 items-center justify-center rounded-full border border-[#34D399]/30 bg-[#34D399]/[0.07] text-[#6EE7B7]">
                         <Check className="h-2.5 w-2.5" strokeWidth={2.5} aria-hidden="true" />
                       </span>
-                      {highlight}
+                      <span>{highlight}</span>
                     </li>
                   ))}
                 </ul>
 
-                <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:items-center">
+                <div className="mt-7 flex flex-wrap items-center gap-4">
                   <BlobButton
                     variant="primary"
                     size="md"
                     href="#contact"
-                    onClick={() => {
-                      onApplyPreset({
-                        serviceTrack: product.name,
-                        contextLine: `I'd like to explore ${product.name} and request a product walkthrough.`,
-                      });
-                    }}
+                    onClick={() => applyProductPreset(product)}
                     className="min-h-11 justify-center px-5"
                   >
-                    Explore {product.name}
-                    <ArrowUpRight className="ml-2 h-4 w-4" aria-hidden="true" />
+                    {product.ctaLabel}
+                    <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
                   </BlobButton>
-                  <a
-                    href="#contact"
-                    onClick={() => {
-                      onApplyPreset({
-                        serviceTrack: product.name,
-                        contextLine: `I'd like to discuss a technical demo of ${product.name}.`,
-                      });
-                    }}
-                    className="inline-flex min-h-11 items-center justify-center gap-2 rounded-lg px-3 text-xs font-semibold text-[#A3AAB8] transition-colors hover:text-[#6EE7B7] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#34D399]"
-                  >
-                    Request a technical demo
-                    <ArrowDownRight className="h-3.5 w-3.5" aria-hidden="true" />
-                  </a>
+                  <span className="text-[10px] font-medium text-[#778191] sm:text-[11px]">
+                    Talk to the Ladder7 team
+                  </span>
                 </div>
 
-                <p className="mt-6 flex items-center gap-2 text-[10px] leading-5 text-[#778191] sm:text-[11px]">
-                  <Command className="h-3.5 w-3.5 shrink-0 text-[#34D399]/80" aria-hidden="true" />
-                  {product.proofLine}
-                </p>
+                {product.connectors.length > 0 && (
+                  <div className="mt-7 border-t border-white/[0.07] pt-4">
+                    <p className="mb-2.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#667080]">
+                      Connected tools & capabilities
+                    </p>
+                    <ul className="flex flex-wrap gap-1.5">
+                      {product.connectors.map((connector) => (
+                        <li
+                          key={connector}
+                          className="rounded-md border border-white/[0.08] bg-white/[0.025] px-2.5 py-1.5 text-[10px] text-[#A3AAB8]"
+                        >
+                          {connector}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
               </div>
 
-              <div className="relative order-1 min-w-0 lg:order-2">
-                <div className="pointer-events-none absolute -inset-8 rounded-[2rem] bg-[radial-gradient(ellipse_at_center,rgba(16,185,129,0.12),transparent_68%)] blur-2xl" />
-                <div className="relative overflow-hidden rounded-xl border border-white/[0.13] bg-[#0D1016] shadow-[0_34px_90px_-35px_rgba(0,0,0,0.95),0_0_60px_-35px_rgba(16,185,129,0.28)]">
-                  <div className="flex h-10 items-center justify-between border-b border-white/[0.08] bg-[#11151D] px-4 sm:h-11 sm:px-5">
-                    <div className="flex items-center gap-1.5" aria-hidden="true">
-                      <span className="h-2 w-2 rounded-full bg-white/20" />
-                      <span className="h-2 w-2 rounded-full bg-white/35" />
-                      <span className="h-2 w-2 rounded-full bg-[#34D399]/80" />
-                    </div>
-                    <span className="font-mono text-[9px] uppercase tracking-[0.16em] text-[#737D8D] sm:text-[10px]">
-                      LADDER7 / {product.imageLabel}
-                    </span>
-                    <span className="h-5 w-5 rounded-md border border-white/[0.08] bg-white/[0.03]" aria-hidden="true" />
-                  </div>
-
-                  <div className="flex min-h-[250px] items-center justify-center bg-[#090C11] p-3 sm:min-h-[320px] sm:p-5 lg:min-h-0 lg:p-4 xl:p-5">
-                    <img
-                      src={product.image}
-                      alt={product.imageAlt}
-                      loading={index === 0 ? 'eager' : 'lazy'}
-                      decoding="async"
-                      className="block h-auto max-h-[62svh] w-full object-contain object-center"
-                    />
-                  </div>
-
-                  <div className="flex items-center justify-between gap-3 border-t border-white/[0.08] bg-[#10141B] px-4 py-3 sm:px-5">
-                    <span className="text-[10px] font-medium text-[#A3AAB8] sm:text-xs">
-                      {product.name} <span className="text-[#596273]">/ Product preview</span>
-                    </span>
-                    <span className="inline-flex items-center gap-1.5 text-[9px] font-semibold uppercase tracking-[0.14em] text-[#6EE7B7] sm:text-[10px]">
-                      <span className="h-1.5 w-1.5 rounded-full bg-[#34D399]" />
-                      Platform {String(index + 1).padStart(2, '0')}
-                    </span>
-                  </div>
+              <div className="order-1 min-w-0 lg:order-2">
+                <div className="product-showcase-visual">
+                  <ProductImage product={product} index={index} />
                 </div>
               </div>
             </article>
