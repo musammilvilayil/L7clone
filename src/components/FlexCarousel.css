@@ -27,7 +27,7 @@
 }
 
 .flex-carousel:focus-visible {
-  box-shadow: inset 0 0 0 2px rgba(52, 211, 153, 0.75);
+  box-shadow: inset 0 0 0 2px rgba(59, 130, 246, 0.75);
 }
 
 .flex-carousel__caption {
@@ -79,7 +79,7 @@
   font-weight: 600;
   line-height: 1;
   font-variant-numeric: tabular-nums;
-  color: #34D399;
+  color: #3B82F6;
   background: rgba(8, 9, 12, 0.7);
   padding: 3px 8px;
   border-radius: 9999px;
