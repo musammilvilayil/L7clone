@@ -1,59 +1,45 @@
-# Ladder7 Web Platform — 2026 Dark-First Redesign
+# LADDER7 Nextstep Solutions LLP — 2026 Dark-Only Digital Rebuild
 
-Complete dark-first redesign and rebuild of the **Ladder7 NextStep Solutions** (`https://www.ladder7.in/`) digital presence, engineered from the ground up with zero legacy code or layout reuse while preserving all official brand assets, logos, visual media, and business content.
+Complete ground-up architectural redesign and front-end rebuild of the **LADDER7 Nextstep Solutions LLP** web platform (`https://www.ladder7.in/`).
 
-## Tech Stack
-- **Framework:** React 19 + TypeScript
-- **Bundler:** Vite 8
-- **Styling:** Tailwind CSS 3 (Dark-only layered obsidian token system)
-- **Icons:** Lucide React
-- **Linter:** Oxlint
+## Design System & Architecture
 
-## Clean Architecture
+- **Theme**: Dark-First & Dark-Only (`#08090C` Carbon Obsidian base, `#0F1117` / `#151922` / `#1D222E` layered surfaces)
+- **Accent Palette**: Signal Emerald (`#10B981`, `#34D399`) + Acid Lime (`#BEF264`)
+- **Typography**: `Syne` (Editorial Display), `Plus Jakarta Sans` (Body), `JetBrains Mono` (Technical Telemetry)
+- **Logo Treatment**: Crisp white dark-theme inversion (`.logo-dark-invert`) of `/images/LADDER 7 NS Black.webp` preserving exact geometry and aspect ratio.
+
+## Source Structure
+
 ```text
-d:/desktop/L7clone/
-├── public/
-│   ├── favicon.svg
-│   ├── logo-icon.png
-│   └── images/
-│       ├── hero/
-│       ├── icons/
-│       ├── logos/
-│       └── products/
-├── src/
-│   ├── content/
-│   │   └── siteCatalog.ts         # Reused brand assets, copy, products, links & locations
-│   ├── primitives/
-│   │   ├── MagneticAction.tsx     # Pointer-magnetic interactive CTA primitive
-│   │   ├── RevealOnScroll.tsx     # Scroll-triggered & staggered word reveal primitives
-│   │   └── SpotlightSurface.tsx   # Cursor-tracked radial glow Bento surface
-│   ├── sections/
-│   │   ├── FloatingGlassNav.tsx   # Floating glass pill nav (scroll-spy + hide/show on scroll)
-│   │   ├── HeroShowcase.tsx       # 01. Hook: Outcome headline + 3D Stacked Perspective Asset Stage
-│   │   ├── VisionManifesto.tsx    # 02. Vision: Oversized manifesto & architectural shift ledger
-│   │   ├── AudienceArchitecture.tsx # 03. Who We Are: Enterprise, Startups/SMBs, Bootcamps & Hubs
-│   │   ├── CapabilitiesBento.tsx  # 04. What We Do: Asymmetrical 12-col 2026 Bento Grid
-│   │   ├── ProductDeckRail.tsx    # 05. Proof: Horizontal Product Rail + Site 360 12-Lens Preview
-│   │   ├── ProcessTimeline.tsx    # 06. How We Build: Illuminated vertical spine + staggered stages
-│   │   ├── TrustMetricsMatrix.tsx # 07. Why Trust Us: Telemetry wall + 3 core value pillars
-│   │   ├── ObjectionsAccordion.tsx# 08. Objections: Sticky split layout + smooth FAQ drawers
-│   │   ├── ActionBriefForm.tsx    # 09. Action: Validated scoping console + Email/WhatsApp dispatch
-│   │   └── MonumentFooter.tsx     # 10. Footer: Final CTA band, columns, socials & oversized wordmark
-│   ├── tokens/
-│   │   └── designTokens.ts        # Single-source color, layout & TypeScript contracts
-│   ├── App.tsx
-│   ├── index.css
-│   └── main.tsx
-├── index.html
-├── package.json
-├── tailwind.config.js
-└── vite.config.ts
+src/
+├── catalog/
+│   └── freshContent.ts               # Reused asset registry, factual details, & 100% fresh copy
+├── design-system/
+│   └── tokens.ts                     # Single-source design tokens & TypeScript interfaces
+├── motion/
+│   ├── EmeraldSpotlightCard.tsx      # Cursor-tracked radial emerald spotlight surface
+│   ├── MagneticTrigger.tsx           # Spring-interpolated magnetic wrapper
+│   └── ScrollReveal.tsx              # IntersectionObserver reveal & word-by-word kinetic text
+├── modules/
+│   ├── GlassPillHeader.tsx           # Floating glass pill nav, scroll-spy, hide/show on scroll, full-screen mobile menu
+│   ├── HeroMosaicStage.tsx           # Hook: Outcome headline, dual CTAs, interactive 4-asset lens mosaic, trust strip
+│   ├── VisionEditorialSplit.tsx      # Vision: Sticky editorial manifesto + vertical architectural thesis ledger
+│   ├── IdentityDualLedger.tsx        # Who We Are: Company narrative + interactive Cochin/Trivandrum studio switcher
+│   ├── ServicesBentoGrid.tsx         # What We Do: 12-column asymmetric Bento matrix with interactive scope drawer
+│   ├── ProductsDraggableRail.tsx     # Proof: Reinvented horizontal draggable snap rail & split inspection stage
+│   ├── ExecutionBlueprintMatrix.tsx  # How We Build: 4-gate interactive engineering blueprint & deliverables matrix
+│   ├── CredibilityTelemetryWall.tsx  # Why Trust Us: Architectural telemetry wall & live technology stack filter
+│   ├── FaqSplitDrawer.tsx            # FAQ: Categorized executive objection filter & accessible accordion
+│   ├── ProjectBriefConsole.tsx       # Contact: Interactive scope synthesizer with direct WhatsApp & Email dispatch
+│   └── ArchitecturalFooter.tsx       # Footer: Final CTA band, link columns, socials, oversized wordmark, legal
+├── App.tsx                           # Storytelling flow orchestration
+├── index.css                         # Token variables, dark-theme utilities, & reduced-motion support
+└── main.tsx                          # React 19 entry point
 ```
 
 ## Scripts
-```bash
-npm run dev      # Start development server
-npm run lint     # Run Oxlint static analysis
-npm run build    # Type-check and build production bundle
-npm run preview  # Preview production build
-```
+
+- `npm run dev` — Start Vite development server
+- `npm run lint` — Run Oxlint static verification
+- `npm run build` — Run TypeScript compiler check (`tsc -b`) and Vite production build

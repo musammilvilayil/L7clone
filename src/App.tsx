@@ -1,63 +1,60 @@
-import React, { useState } from 'react';
-import type { InquiryContext } from './tokens/designTokens';
-import { FloatingGlassNav } from './sections/FloatingGlassNav';
-import { HeroShowcase } from './sections/HeroShowcase';
-import { VisionManifesto } from './sections/VisionManifesto';
-import { AudienceArchitecture } from './sections/AudienceArchitecture';
-import { CapabilitiesBento } from './sections/CapabilitiesBento';
-import { ProductDeckRail } from './sections/ProductDeckRail';
-import { ProcessTimeline } from './sections/ProcessTimeline';
-import { TrustMetricsMatrix } from './sections/TrustMetricsMatrix';
-import { ObjectionsAccordion } from './sections/ObjectionsAccordion';
-import { ActionBriefForm } from './sections/ActionBriefForm';
-import { MonumentFooter } from './sections/MonumentFooter';
+import { useCallback } from 'react';
+import type { BriefPreset } from './design-system/tokens';
+import { SiteHeader } from './modules/SiteHeader';
+import { HeroSceneWipe } from './modules/HeroSceneWipe';
+import { VisionEditorialSplit } from './modules/VisionEditorialSplit';
+import { ServicesBentoGrid } from './modules/ServicesBentoGrid';
+import { ProductsExpandingPanels } from './modules/ProductsExpandingPanels';
+import { HowWeWorkSection } from './modules/HowWeWorkSection';
+import { WhyLadder7Section } from './modules/WhyLadder7Section';
+import { FaqSplitDrawer } from './modules/FaqSplitDrawer';
+import { ArchitecturalFooter } from './modules/ArchitecturalFooter';
 
-export const App: React.FC = () => {
-  const [inquiryContext, setInquiryContext] = useState<InquiryContext | null>(null);
-  const [contextKey, setContextKey] = useState(0);
-
-  const handleSelectInquiry = (ctx: InquiryContext) => {
-    setInquiryContext(ctx);
-    setContextKey((prev) => prev + 1);
-  };
+export function App() {
+  // The contact form section was removed; every "contact" action now lands on
+  // the footer, which carries the email, phone and office details.
+  const handleApplyPreset = useCallback((_preset: BriefPreset) => {
+    document
+      .getElementById('contact')
+      ?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, []);
 
   return (
-    <div className="min-h-screen bg-[#060911] text-[#F8FAFC] flex flex-col selection:bg-[#2563EB] selection:text-white">
-      <FloatingGlassNav onSelectInquiry={handleSelectInquiry} />
+    <div className="relative min-h-screen bg-[#08090C] text-[#F4F5F8] selection:bg-[#10B981] selection:text-[#08090C]">
+      {/* Global Gooey Filter for BlobButton Effect */}
+      <svg
+        aria-hidden="true"
+        className="pointer-events-none fixed -top-[9999px] -left-[9999px] w-0 h-0 opacity-0"
+      >
+        <defs>
+          <filter id="blob-goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+            <feColorMatrix
+              in="blur"
+              mode="matrix"
+              values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -7"
+              result="goo"
+            />
+            <feBlend in="SourceGraphic" in2="goo" />
+          </filter>
+        </defs>
+      </svg>
 
-      <main className="flex-1">
-        {/* 01. Hook */}
-        <HeroShowcase onSelectInquiry={handleSelectInquiry} />
+      <SiteHeader onApplyPreset={handleApplyPreset} />
 
-        {/* 02. Vision / Why We Exist */}
-        <VisionManifesto />
-
-        {/* 03. Who We Are */}
-        <AudienceArchitecture onSelectInquiry={handleSelectInquiry} />
-
-        {/* 04. What We Do (Bento Grid) */}
-        <CapabilitiesBento onSelectInquiry={handleSelectInquiry} />
-
-        {/* 05. Proof / Products (Horizontal Rail + Depth Stage) */}
-        <ProductDeckRail onSelectInquiry={handleSelectInquiry} />
-
-        {/* 06. How We Build (Illuminated Spine Timeline) */}
-        <ProcessTimeline />
-
-        {/* 07. Why Trust Us (Telemetry & Pillars) */}
-        <TrustMetricsMatrix />
-
-        {/* 08. Objections (FAQ Drawers) */}
-        <ObjectionsAccordion />
-
-        {/* 09. Action (Contact & Brief Console) */}
-        <ActionBriefForm key={contextKey} inquiryContext={inquiryContext} />
+      <main id="main-content" className="relative z-10">
+        <HeroSceneWipe onApplyPreset={handleApplyPreset} />
+        <VisionEditorialSplit />
+        <ServicesBentoGrid onApplyPreset={handleApplyPreset} />
+        <ProductsExpandingPanels onApplyPreset={handleApplyPreset} />
+        <HowWeWorkSection />
+        <WhyLadder7Section />
+        <FaqSplitDrawer />
       </main>
 
-      {/* 10. Footer */}
-      <MonumentFooter />
+      <ArchitecturalFooter />
     </div>
   );
-};
+}
 
 export default App;

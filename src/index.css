@@ -4,22 +4,22 @@
 
 @layer base {
   :root {
-    --surface-base: #060911;
-    --surface-elevated: #0B101E;
-    --surface-card: #10182B;
-    --surface-hover: #16213A;
-    --border-subtle: rgba(148, 163, 184, 0.12);
-    --border-highlight: rgba(56, 189, 248, 0.34);
-    --brand-primary: #0056B2;
-    --brand-electric: #2563EB;
-    --brand-sky: #38BDF8;
-    --text-primary: #F8FAFC;
-    --text-secondary: #CBD5E1;
-    --text-muted: #94A3B8;
+    --token-canvas: #08090C;
+    --token-surface: #0F1117;
+    --token-panel: #151922;
+    --token-hover: #1D222E;
+    --token-border: rgba(255, 255, 255, 0.08);
+    --token-border-strong: rgba(52, 211, 153, 0.38);
+    --token-emerald: #10B981;
+    --token-mint: #34D399;
+    --token-lime: #BEF264;
+    --token-ink-high: #F4F5F8;
+    --token-ink-mid: #A3AAB8;
+    --token-ink-muted: #7D8597;
 
     color-scheme: dark;
-    background-color: var(--surface-base);
-    color: var(--text-primary);
+    background-color: var(--token-canvas);
+    color: var(--token-ink-high);
     font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -32,7 +32,7 @@
   }
 
   html {
-    background-color: #060911;
+    background-color: #08090C;
     scroll-behavior: smooth;
     scroll-padding-top: 6rem;
   }
@@ -41,8 +41,8 @@
     margin: 0;
     min-width: 320px;
     min-height: 100vh;
-    background-color: #060911;
-    color: #F8FAFC;
+    background-color: #08090C;
+    color: #F4F5F8;
     overflow-x: hidden;
   }
 
@@ -59,52 +59,135 @@
   }
 
   :focus-visible {
-    outline: 2px solid #38BDF8;
+    outline: 2px solid #34D399;
     outline-offset: 3px;
   }
 }
 
-@layer utilities {
-  /* Subtle SVG tactile grain overlay */
-  .bg-noise-subtle {
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.032'/%3E%3C/svg%3E");
+@keyframes heroSlowScale {
+  0% {
+    transform: scale(1);
   }
-
-  /* Architectural dark mesh backdrop */
-  .bg-radial-stage {
-    background-image:
-      radial-gradient(circle at 18% 12%, rgba(0, 86, 178, 0.24), transparent 38%),
-      radial-gradient(circle at 84% 22%, rgba(56, 189, 248, 0.14), transparent 36%),
-      radial-gradient(circle at 50% 90%, rgba(37, 99, 235, 0.12), transparent 45%);
-  }
-
-  /* Subtle dark grid lines */
-  .bg-dark-grid {
-    background-size: 64px 64px;
-    background-image:
-      linear-gradient(to right, rgba(148, 163, 184, 0.05) 1px, transparent 1px),
-      linear-gradient(to bottom, rgba(148, 148, 184, 0.05) 1px, transparent 1px);
+  100% {
+    transform: scale(1.06);
   }
 }
 
-/* Custom dark scrollbar */
+@layer utilities {
+  /* Converts the black logo into a crisp pure-white mark on dark surfaces without altering proportions */
+  .logo-dark-invert {
+    filter: brightness(0) invert(1) contrast(200%);
+  }
+
+  .hero-bg-active {
+    opacity: 0.42;
+    transition: opacity 600ms ease-out;
+    animation: heroSlowScale 20s linear forwards;
+  }
+
+  .hero-bg-inactive {
+    opacity: 0;
+    transition: opacity 600ms ease-out;
+    transform: scale(1);
+  }
+
+  /* Gooey Liquid Blobs Button Effect */
+  .blob-btn {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    isolation: isolate;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  }
+
+  .blob-btn:active {
+    transform: scale(0.97);
+  }
+
+  .blob-btn__inner {
+    position: absolute;
+    inset: -2px;
+    overflow: hidden;
+    border-radius: inherit;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .blob-btn__blobs {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    filter: url('#blob-goo');
+  }
+
+  .blob-btn__blob {
+    position: absolute;
+    top: 0;
+    width: 38%;
+    height: 130%;
+    border-radius: 100%;
+    transform: translate3d(0, 160%, 0) scale3d(1, 1, 1);
+    transition: transform 0.45s cubic-bezier(0.34, 1.4, 0.64, 1);
+  }
+
+  .blob-btn:hover .blob-btn__blob,
+  .blob-btn:focus-visible .blob-btn__blob {
+    transform: translate3d(0, -15%, 0) scale3d(1.5, 1.5, 1);
+  }
+
+  /* React Bits Pro Features 3 Opposite-Scrolling Vertical Marquees */
+  @keyframes marqueeUp {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-50%);
+    }
+  }
+
+  @keyframes marqueeDown {
+    0% {
+      transform: translateY(-50%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .animate-marquee-up {
+    animation: marqueeUp 26s linear infinite;
+  }
+
+  .animate-marquee-down {
+    animation: marqueeDown 26s linear infinite;
+  }
+
+  .animate-marquee-up:hover,
+  .animate-marquee-down:hover {
+    animation-play-state: paused;
+  }
+}
+
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #060911;
+  background: #08090C;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #16213A;
+  background: #1D222E;
   border-radius: 9999px;
-  border: 2px solid #060911;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #2563EB;
+  background: #10B981;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -119,5 +202,12 @@
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+
+  .hero-bg-active,
+  .hero-bg-inactive {
+    animation: none !important;
+    transition: none !important;
+    transform: scale(1) !important;
   }
 }

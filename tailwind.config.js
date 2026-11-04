@@ -8,47 +8,36 @@ export default {
   theme: {
     extend: {
       colors: {
-        obsidian: {
-          DEFAULT: '#060911',
-          elevated: '#0B101E',
-          card: '#10182B',
-          hover: '#16213A',
+        carbon: {
+          canvas: '#08090C',
+          surface: '#0F1117',
+          panel: '#151922',
+          hover: '#1D222E',
         },
-        brand: {
-          DEFAULT: '#0056B2',
-          electric: '#2563EB',
-          sky: '#38BDF8',
-          indigo: '#6366F1',
-          glow: 'rgba(56, 189, 248, 0.22)',
+        signal: {
+          emerald: '#10B981',
+          mint: '#34D399',
+          lime: '#BEF264',
+        },
+        ink: {
+          high: '#F4F5F8',
+          mid: '#A3AAB8',
+          muted: '#7D8597',
         },
       },
       fontFamily: {
         sans: ['"Plus Jakarta Sans"', 'system-ui', '-apple-system', 'sans-serif'],
-        display: ['"Space Grotesk"', 'system-ui', '-apple-system', 'sans-serif'],
+        display: ['"Syne"', '"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
         mono: ['"JetBrains Mono"', 'monospace'],
       },
       borderRadius: {
-        bento: '1.375rem',
+        card: '1.5rem',
         pill: '9999px',
       },
       boxShadow: {
-        'glass-pill': '0 16px 48px -12px rgba(2, 6, 23, 0.78), inset 0 1px 0 0 rgba(255, 255, 255, 0.1)',
-        'bento-card': '0 24px 64px -20px rgba(2, 6, 23, 0.85), inset 0 1px 0 0 rgba(255, 255, 255, 0.08)',
-        'brand-glow': '0 0 40px -8px rgba(37, 99, 235, 0.55)',
-      },
-      keyframes: {
-        floatSlow: {
-          '0%, 100%': { transform: 'translateY(0px)' },
-          '50%': { transform: 'translateY(-8px)' },
-        },
-        pulseGlow: {
-          '0%, 100%': { opacity: '0.45' },
-          '50%': { opacity: '0.85' },
-        },
-      },
-      animation: {
-        'float-slow': 'floatSlow 7s ease-in-out infinite',
-        'pulse-glow': 'pulseGlow 4s ease-in-out infinite',
+        'pill-glass': '0 20px 50px -12px rgba(0, 0, 0, 0.85), inset 0 1px 0 0 rgba(255, 255, 255, 0.09)',
+        'panel-depth': '0 28px 70px -24px rgba(0, 0, 0, 0.9), inset 0 1px 0 0 rgba(255, 255, 255, 0.07)',
+        'emerald-halo': '0 0 42px -10px rgba(16, 185, 129, 0.5)',
       },
     },
   },
