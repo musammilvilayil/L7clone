@@ -1,71 +1,45 @@
-﻿# Ladder7 Web Platform
+# LADDER7 Nextstep Solutions LLP — 2026 Dark-Only Digital Rebuild
 
-Modern, responsive web application and digital platform reconstruction for Ladder7 Nextstep Solutions.
+Complete ground-up architectural redesign and front-end rebuild of the **LADDER7 Nextstep Solutions LLP** web platform (`https://www.ladder7.in/`).
 
-## Tech Stack
-- **Framework:** React 19 + TypeScript
-- **Bundler:** Vite 8
-- **Styling:** Tailwind CSS 3
-- **Icons:** Lucide React & Material Symbols
-- **Linter:** Oxlint
+## Design System & Architecture
 
-## Project Structure
+- **Theme**: Dark-First & Dark-Only (`#08090C` Carbon Obsidian base, `#0F1117` / `#151922` / `#1D222E` layered surfaces)
+- **Accent Palette**: Signal Emerald (`#10B981`, `#34D399`) + Acid Lime (`#BEF264`)
+- **Typography**: `Syne` (Editorial Display), `Plus Jakarta Sans` (Body), `JetBrains Mono` (Technical Telemetry)
+- **Logo Treatment**: Crisp white dark-theme inversion (`.logo-dark-invert`) of `/images/LADDER 7 NS Black.webp` preserving exact geometry and aspect ratio.
+
+## Source Structure
+
 ```text
-ladder7clone/
-├── public/
-│   ├── favicon.svg
-│   ├── logo-icon.png
-│   └── images/
-│       ├── hero/
-│       ├── icons/
-│       ├── logos/
-│       └── products/
-├── src/
-│   ├── components/
-│   │   ├── AdvisorCTA.tsx
-│   │   ├── Capabilities.tsx
-│   │   ├── FAQSection.tsx
-│   │   ├── Footer.tsx
-│   │   ├── Header.tsx
-│   │   ├── HeroSlider.tsx
-│   │   ├── JourneySection.tsx
-│   │   ├── ProductsShowcase.tsx
-│   │   └── WhyLadder7.tsx
-│   ├── data/
-│   │   ├── capabilitiesData.ts
-│   │   ├── faqData.ts
-│   │   ├── heroSlides.ts
-│   │   └── productsData.ts
-│   ├── App.tsx
-│   ├── index.css
-│   ├── main.tsx
-│   └── types.ts
-├── index.html
-├── package.json
-├── tailwind.config.js
-├── tsconfig.json
-└── vite.config.ts
+src/
+├── catalog/
+│   └── freshContent.ts               # Reused asset registry, factual details, & 100% fresh copy
+├── design-system/
+│   └── tokens.ts                     # Single-source design tokens & TypeScript interfaces
+├── motion/
+│   ├── EmeraldSpotlightCard.tsx      # Cursor-tracked radial emerald spotlight surface
+│   ├── MagneticTrigger.tsx           # Spring-interpolated magnetic wrapper
+│   └── ScrollReveal.tsx              # IntersectionObserver reveal & word-by-word kinetic text
+├── modules/
+│   ├── GlassPillHeader.tsx           # Floating glass pill nav, scroll-spy, hide/show on scroll, full-screen mobile menu
+│   ├── HeroMosaicStage.tsx           # Hook: Outcome headline, dual CTAs, interactive 4-asset lens mosaic, trust strip
+│   ├── VisionEditorialSplit.tsx      # Vision: Sticky editorial manifesto + vertical architectural thesis ledger
+│   ├── IdentityDualLedger.tsx        # Who We Are: Company narrative + interactive Cochin/Trivandrum studio switcher
+│   ├── ServicesBentoGrid.tsx         # What We Do: 12-column asymmetric Bento matrix with interactive scope drawer
+│   ├── ProductsDraggableRail.tsx     # Proof: Reinvented horizontal draggable snap rail & split inspection stage
+│   ├── ExecutionBlueprintMatrix.tsx  # How We Build: 4-gate interactive engineering blueprint & deliverables matrix
+│   ├── CredibilityTelemetryWall.tsx  # Why Trust Us: Architectural telemetry wall & live technology stack filter
+│   ├── FaqSplitDrawer.tsx            # FAQ: Categorized executive objection filter & accessible accordion
+│   ├── ProjectBriefConsole.tsx       # Contact: Interactive scope synthesizer with direct WhatsApp & Email dispatch
+│   └── ArchitecturalFooter.tsx       # Footer: Final CTA band, link columns, socials, oversized wordmark, legal
+├── App.tsx                           # Storytelling flow orchestration
+├── index.css                         # Token variables, dark-theme utilities, & reduced-motion support
+└── main.tsx                          # React 19 entry point
 ```
 
-## Getting Started
+## Scripts
 
-### Installation
-```bash
-npm install
-```
-
-### Development Server
-```bash
-npm run dev
-```
-
-### Production Build & Preview
-```bash
-npm run build
-npm run preview
-```
-
-### Linting
-```bash
-npm run lint
-```
+- `npm run dev` — Start Vite development server
+- `npm run lint` — Run Oxlint static verification
+- `npm run build` — Run TypeScript compiler check (`tsc -b`) and Vite production build

@@ -1,52 +1,60 @@
-import React, { useState, useEffect } from 'react';
-import { Header } from './components/Header';
-import { HeroSlider } from './components/HeroSlider';
-import { ProductsShowcase } from './components/ProductsShowcase';
-import { JourneySection } from './components/JourneySection';
-import { Capabilities } from './components/Capabilities';
-import { WhyLadder7 } from './components/WhyLadder7';
-import { AdvisorCTA } from './components/AdvisorCTA';
-import { FAQSection } from './components/FAQSection';
-import { Footer } from './components/Footer';
+import { useCallback } from 'react';
+import type { BriefPreset } from './design-system/tokens';
+import { SiteHeader } from './modules/SiteHeader';
+import { HeroSceneWipe } from './modules/HeroSceneWipe';
+import { VisionEditorialSplit } from './modules/VisionEditorialSplit';
+import { ServicesBentoGrid } from './modules/ServicesBentoGrid';
+import { ProductsExpandingPanels } from './modules/ProductsExpandingPanels';
+import { HowWeWorkSection } from './modules/HowWeWorkSection';
+import { WhyLadder7Section } from './modules/WhyLadder7Section';
+import { FaqSplitDrawer } from './modules/FaqSplitDrawer';
+import { ArchitecturalFooter } from './modules/ArchitecturalFooter';
 
-export const App: React.FC = () => {
-  const [darkMode, setDarkMode] = useState<boolean>(() => {
-    if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem('theme');
-      if (saved) return saved === 'dark';
-      return window.matchMedia('(prefers-color-scheme: dark)').matches;
-    }
-    return false;
-  });
-
-  useEffect(() => {
-    const root = document.documentElement;
-    if (darkMode) {
-      root.classList.add('dark');
-      localStorage.setItem('theme', 'dark');
-    } else {
-      root.classList.remove('dark');
-      localStorage.setItem('theme', 'light');
-    }
-  }, [darkMode]);
+export function App() {
+  // The contact form section was removed; every "contact" action now lands on
+  // the footer, which carries the email, phone and office details.
+  const handleApplyPreset = useCallback((_preset: BriefPreset) => {
+    document
+      .getElementById('contact')
+      ?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, []);
 
   return (
-    <div className="min-h-screen bg-white dark:bg-[#0f1923] text-slate-900 dark:text-slate-100 flex flex-col font-sans selection:bg-blue-600 selection:text-white transition-colors duration-300">
-      <Header darkMode={darkMode} setDarkMode={setDarkMode} />
+    <div className="relative min-h-screen bg-[#08090C] text-[#F4F5F8] selection:bg-[#10B981] selection:text-[#08090C]">
+      {/* Global Gooey Filter for BlobButton Effect */}
+      <svg
+        aria-hidden="true"
+        className="pointer-events-none fixed -top-[9999px] -left-[9999px] w-0 h-0 opacity-0"
+      >
+        <defs>
+          <filter id="blob-goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+            <feColorMatrix
+              in="blur"
+              mode="matrix"
+              values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -7"
+              result="goo"
+            />
+            <feBlend in="SourceGraphic" in2="goo" />
+          </filter>
+        </defs>
+      </svg>
 
-      <main id="main-content" className="flex-1 w-full overflow-x-hidden">
-        <HeroSlider />
-        <ProductsShowcase />
-        <JourneySection />
-        <Capabilities />
-        <WhyLadder7 />
-        <AdvisorCTA />
-        <FAQSection />
+      <SiteHeader onApplyPreset={handleApplyPreset} />
+
+      <main id="main-content" className="relative z-10">
+        <HeroSceneWipe onApplyPreset={handleApplyPreset} />
+        <VisionEditorialSplit />
+        <ServicesBentoGrid onApplyPreset={handleApplyPreset} />
+        <ProductsExpandingPanels onApplyPreset={handleApplyPreset} />
+        <HowWeWorkSection />
+        <WhyLadder7Section />
+        <FaqSplitDrawer />
       </main>
 
-      <Footer darkMode={darkMode} />
+      <ArchitecturalFooter />
     </div>
   );
-};
+}
 
 export default App;

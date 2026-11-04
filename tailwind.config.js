@@ -8,26 +8,37 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: {
-          DEFAULT: '#0056b2',
-          hover: '#004494',
-          light: '#e6f0fa',
-          dark: '#003366',
+        carbon: {
+          canvas: '#08090C',
+          surface: '#0F1117',
+          panel: '#151922',
+          hover: '#1D222E',
         },
-        brand: {
-          blue: '#0056b2',
-          purple: '#7c3aed',
-          dark: '#0f1923',
-          darker: '#031226',
-        }
+        signal: {
+          emerald: '#10B981',
+          mint: '#34D399',
+          lime: '#BEF264',
+        },
+        ink: {
+          high: '#F4F5F8',
+          mid: '#A3AAB8',
+          muted: '#7D8597',
+        },
       },
       fontFamily: {
-        sans: ['"Public Sans"', 'sans-serif'],
-        display: ['"Public Sans"', 'sans-serif'],
+        sans: ['"Plus Jakarta Sans"', 'system-ui', '-apple-system', 'sans-serif'],
+        display: ['"Syne"', '"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+        mono: ['"JetBrains Mono"', 'monospace'],
       },
-      animation: {
-        'ping-slow': 'ping 2s cubic-bezier(0, 0, 0.2, 1) infinite',
-      }
+      borderRadius: {
+        card: '1.5rem',
+        pill: '9999px',
+      },
+      boxShadow: {
+        'pill-glass': '0 20px 50px -12px rgba(0, 0, 0, 0.85), inset 0 1px 0 0 rgba(255, 255, 255, 0.09)',
+        'panel-depth': '0 28px 70px -24px rgba(0, 0, 0, 0.9), inset 0 1px 0 0 rgba(255, 255, 255, 0.07)',
+        'emerald-halo': '0 0 42px -10px rgba(16, 185, 129, 0.5)',
+      },
     },
   },
   plugins: [],
