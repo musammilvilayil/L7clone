@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { ArrowUpRight, Check, Sparkles } from 'lucide-react';
 import BlobButton from '../components/BlobButton';
 import { PRODUCT_RAIL_ITEMS } from '../catalog/freshContent';
-import type { BriefPreset, ProductRailItem } from '../design-system/tokens';
+import type { BriefPreset } from '../design-system/tokens';
 
 interface ProductsExpandingPanelsProps {
   onApplyPreset: (preset: BriefPreset) => void;
