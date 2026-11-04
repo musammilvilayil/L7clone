@@ -341,25 +341,25 @@
 
   .product-showcase-carousel {
     position: relative;
-    width: calc(100% + 40px);
-    height: min(68svh, 620px);
-    min-height: 390px;
-    margin-left: -20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
     isolation: isolate;
   }
 
   @media (min-width: 640px) {
     .product-showcase-carousel {
-      width: calc(100% + 64px);
+      width: 100%;
       margin-left: 0;
-      margin-right: -64px;
+      margin-right: 0;
     }
   }
 
   @media (min-width: 1024px) {
     .product-showcase-carousel {
-      width: calc(100% + max(48px, (100vw - 1440px) / 2 + 48px));
-      margin-right: calc(-1 * max(48px, (100vw - 1440px) / 2 + 48px));
+      width: calc(100% + max(32px, (100vw - 1440px) / 2 + 32px));
+      margin-right: calc(-1 * max(32px, (100vw - 1440px) / 2 + 32px));
     }
   }
 
@@ -386,20 +386,6 @@
     to {
       opacity: 1;
       transform: translate3d(0, 0, 0);
-    }
-  }
-
-  @media (max-width: 1023px) {
-    .product-showcase-carousel {
-      height: min(58svh, 520px);
-      min-height: 330px;
-    }
-  }
-
-  @media (max-width: 639px) {
-    .product-showcase-carousel {
-      height: 360px;
-      min-height: 320px;
     }
   }
 
@@ -438,12 +424,23 @@
 .skewed-product-carousel {
   position: relative;
   width: 100%;
-  height: 100%;
-  min-height: 330px;
+  height: clamp(230px, 58vw, 300px);
   outline: none;
   touch-action: pan-y;
   user-select: none;
   -webkit-user-select: none;
+}
+
+@media (min-width: 640px) {
+  .skewed-product-carousel {
+    height: 330px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .skewed-product-carousel {
+    height: clamp(320px, 38svh, 410px);
+  }
 }
 
 .skewed-product-carousel:focus-visible {
@@ -646,11 +643,9 @@
   }
 
   .product-showcase-carousel {
-    width: calc(100% + 2rem);
-    height: clamp(16.5rem, 76vw, 21rem);
-    min-height: 0;
-    margin-left: -1rem;
-    margin-right: -1rem;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .product-showcase-carousel::before {
@@ -730,7 +725,7 @@
   }
 
   .product-showcase-details {
-    padding-top: 0.35rem;
+    padding-top: 0.75rem;
   }
 
   .product-showcase-details .product-showcase-copy > p:first-child {
@@ -781,10 +776,6 @@
 }
 
 @media (max-width: 380px) {
-  .product-showcase-carousel {
-    height: 16.25rem;
-  }
-
   .skewed-product-carousel__card {
     width: 86%;
     height: 80%;
@@ -807,10 +798,6 @@
 }
 
 @media (min-width: 640px) and (max-width: 767px) {
-  .product-showcase-carousel {
-    height: 25rem;
-  }
-
   .skewed-product-carousel__card {
     width: 76%;
     height: 86%;
@@ -822,9 +809,9 @@
 }
 
 @media (max-height: 520px) and (orientation: landscape) and (max-width: 900px) {
-  .product-showcase-carousel {
-    height: 70vh;
-    min-height: 13rem;
+  .skewed-product-carousel {
+    height: 65vh;
+    min-height: 12rem;
   }
 
   .skewed-product-carousel__card {
