@@ -257,7 +257,7 @@ export const SiteHeader: React.FC<SiteHeaderProps> = ({ onApplyPreset }) => {
         {/* Skip link first in tab order */}
         <a
           href="#main-content"
-          className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-4 focus:z-[60] focus:px-4 focus:py-2.5 focus:rounded-[6px] focus:bg-[#10B981] focus:text-[#08090C] focus:text-sm focus:font-semibold"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-4 focus:z-[60] focus:px-4 focus:py-2.5 focus:rounded-[6px] focus:bg-[#2563EB] focus:text-[#08090C] focus:text-sm focus:font-semibold"
         >
           Skip to main content
         </a>
@@ -270,7 +270,7 @@ export const SiteHeader: React.FC<SiteHeaderProps> = ({ onApplyPreset }) => {
           <a
             href="#hook"
             aria-label="Ladder7 Nextstep Solutions home"
-            className="inline-flex items-center min-h-[48px] min-w-[48px] shrink-0 focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#34D399] focus-visible:outline-offset-4"
+            className="inline-flex items-center min-h-[48px] min-w-[48px] shrink-0 focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#3B82F6] focus-visible:outline-offset-4"
           >
             <img
               src={KEPT_MEDIA_ASSETS.logoWhiteTight}
@@ -310,7 +310,7 @@ export const SiteHeader: React.FC<SiteHeaderProps> = ({ onApplyPreset }) => {
                         }}
                         onClick={() => setServicesOpen((prev) => !prev)}
                         onKeyDown={handleServicesTriggerKeyDown}
-                        className={`relative inline-flex items-center min-h-[44px] px-1 text-sm font-medium text-[#F4F5F8] transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#34D399] focus-visible:outline-offset-4 after:content-[''] after:absolute after:left-1 after:right-1 after:bottom-2 after:h-px after:bg-[#F4F5F8] after:origin-left after:transition-transform after:duration-200 motion-reduce:after:transition-none ${
+                        className={`relative inline-flex items-center min-h-[44px] px-1 text-sm font-medium text-[#F4F5F8] transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#3B82F6] focus-visible:outline-offset-4 after:content-[''] after:absolute after:left-1 after:right-1 after:bottom-2 after:h-px after:bg-[#F4F5F8] after:origin-left after:transition-transform after:duration-200 motion-reduce:after:transition-none ${
                           isLineVisible
                             ? 'after:scale-x-100'
                             : 'after:scale-x-0 hover:after:scale-x-100'
@@ -328,7 +328,7 @@ export const SiteHeader: React.FC<SiteHeaderProps> = ({ onApplyPreset }) => {
                     href={item.href}
                     aria-current={isActive ? 'page' : undefined}
                     onMouseEnter={() => setServicesOpen(false)}
-                    className={`relative inline-flex items-center min-h-[44px] px-1 text-sm font-medium text-[#F4F5F8] transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#34D399] focus-visible:outline-offset-4 after:content-[''] after:absolute after:left-1 after:right-1 after:bottom-2 after:h-px after:bg-[#F4F5F8] after:origin-left after:transition-transform after:duration-200 motion-reduce:after:transition-none ${
+                    className={`relative inline-flex items-center min-h-[44px] px-1 text-sm font-medium text-[#F4F5F8] transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#3B82F6] focus-visible:outline-offset-4 after:content-[''] after:absolute after:left-1 after:right-1 after:bottom-2 after:h-px after:bg-[#F4F5F8] after:origin-left after:transition-transform after:duration-200 motion-reduce:after:transition-none ${
                       isActive
                         ? 'after:scale-x-100'
                         : 'after:scale-x-0 hover:after:scale-x-100'
@@ -365,7 +365,7 @@ export const SiteHeader: React.FC<SiteHeaderProps> = ({ onApplyPreset }) => {
             aria-expanded={mobileMenuOpen}
             aria-controls="mobile-navigation-overlay"
             onClick={() => setMobileMenuOpen(true)}
-            className="min-[900px]:hidden inline-flex items-center justify-center min-h-[44px] min-w-[44px] px-2 text-sm font-medium text-[#F4F5F8] focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#34D399] focus-visible:outline-offset-4"
+            className="min-[900px]:hidden inline-flex items-center justify-center min-h-[44px] min-w-[44px] px-2 text-sm font-medium text-[#F4F5F8] focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#3B82F6] focus-visible:outline-offset-4"
           >
             Menu
           </button>
@@ -408,7 +408,7 @@ export const SiteHeader: React.FC<SiteHeaderProps> = ({ onApplyPreset }) => {
                         contextLine: `Project inquiry for ${service.title}.`,
                       });
                     }}
-                    className={`block py-4 px-3 transition-colors duration-150 motion-reduce:transition-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#34D399] focus-visible:outline-offset-2 ${
+                    className={`block py-4 px-3 transition-colors duration-150 motion-reduce:transition-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#3B82F6] focus-visible:outline-offset-2 ${
                       isHighlighted ? 'bg-[#0F1117]' : 'bg-transparent'
                     }`}
                   >
@@ -434,7 +434,7 @@ export const SiteHeader: React.FC<SiteHeaderProps> = ({ onApplyPreset }) => {
                   className="w-full h-full object-cover object-center"
                 />
                 <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#08090C] via-[#08090C]/75 to-transparent p-4">
-                  <div className="text-xs font-medium text-[#34D399]">
+                  <div className="text-xs font-medium text-[#3B82F6]">
                     {previewService.category}
                   </div>
                   <div className="font-display text-sm font-bold text-[#F4F5F8] mt-0.5">
@@ -469,7 +469,7 @@ export const SiteHeader: React.FC<SiteHeaderProps> = ({ onApplyPreset }) => {
             tabIndex={mobileMenuOpen ? 0 : -1}
             onClick={() => setMobileMenuOpen(false)}
             aria-label="Ladder7 Nextstep Solutions home"
-            className="inline-flex items-center min-h-[44px] min-w-[44px] focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#34D399] focus-visible:outline-offset-4"
+            className="inline-flex items-center min-h-[44px] min-w-[44px] focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#3B82F6] focus-visible:outline-offset-4"
           >
             <img
               src={KEPT_MEDIA_ASSETS.logoWhiteTight}
@@ -485,7 +485,7 @@ export const SiteHeader: React.FC<SiteHeaderProps> = ({ onApplyPreset }) => {
             type="button"
             tabIndex={mobileMenuOpen ? 0 : -1}
             onClick={() => setMobileMenuOpen(false)}
-            className="inline-flex items-center justify-center min-h-[44px] min-w-[44px] px-2 text-sm font-medium text-[#F4F5F8] focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#34D399] focus-visible:outline-offset-4"
+            className="inline-flex items-center justify-center min-h-[44px] min-w-[44px] px-2 text-sm font-medium text-[#F4F5F8] focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#3B82F6] focus-visible:outline-offset-4"
           >
             Close
           </button>
@@ -500,7 +500,7 @@ export const SiteHeader: React.FC<SiteHeaderProps> = ({ onApplyPreset }) => {
                   href={item.href}
                   tabIndex={mobileMenuOpen ? 0 : -1}
                   onClick={() => setMobileMenuOpen(false)}
-                  className="inline-flex items-center min-h-[44px] font-display text-3xl sm:text-4xl font-bold text-[#F4F5F8] hover:text-[#34D399] transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#34D399] focus-visible:outline-offset-4"
+                  className="inline-flex items-center min-h-[44px] font-display text-3xl sm:text-4xl font-bold text-[#F4F5F8] hover:text-[#3B82F6] transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#3B82F6] focus-visible:outline-offset-4"
                 >
                   {item.label}
                 </a>
