@@ -341,10 +341,26 @@
 
   .product-showcase-carousel {
     position: relative;
-    width: 100%;
+    width: calc(100% + 40px);
     height: min(68svh, 620px);
     min-height: 390px;
+    margin-left: -20px;
     isolation: isolate;
+  }
+
+  @media (min-width: 640px) {
+    .product-showcase-carousel {
+      width: calc(100% + 64px);
+      margin-left: 0;
+      margin-right: -64px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .product-showcase-carousel {
+      width: calc(100% + max(48px, (100vw - 1440px) / 2 + 48px));
+      margin-right: calc(-1 * max(48px, (100vw - 1440px) / 2 + 48px));
+    }
   }
 
   .product-showcase-carousel::before {
