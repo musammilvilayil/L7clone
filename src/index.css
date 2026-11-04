@@ -432,3 +432,192 @@
     transform: scale(1) !important;
   }
 }
+
+
+/* Custom skewed product carousel */
+.skewed-product-carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 330px;
+  outline: none;
+  touch-action: pan-y;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.skewed-product-carousel:focus-visible {
+  border-radius: 1.25rem;
+  outline: 2px solid rgba(52, 211, 153, 0.7);
+  outline-offset: 5px;
+}
+
+.skewed-product-carousel__stage {
+  position: absolute;
+  inset: 0 0 1.5rem;
+  overflow: hidden;
+  perspective: 1100px;
+  perspective-origin: 50% 48%;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+  mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+}
+
+.skewed-product-carousel__card {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  display: block;
+  width: min(74%, 650px);
+  height: 86%;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  border-radius: 1.15rem;
+  background: #10151c;
+  box-shadow: 0 28px 70px -28px rgba(0, 0, 0, 0.9), 0 0 36px -22px rgba(16, 185, 129, 0.4);
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transform-origin: center center;
+  transition:
+    transform 680ms cubic-bezier(0.2, 0.78, 0.2, 1),
+    opacity 500ms ease,
+    border-color 450ms ease,
+    box-shadow 450ms ease,
+    filter 450ms ease;
+  will-change: transform;
+}
+
+.skewed-product-carousel__card:not(.is-active) {
+  filter: saturate(0.72) brightness(0.72);
+}
+
+.skewed-product-carousel__card.is-active {
+  border-color: rgba(52, 211, 153, 0.42);
+  box-shadow: 0 34px 90px -30px rgba(0, 0, 0, 0.95), 0 0 58px -24px rgba(16, 185, 129, 0.36);
+  cursor: grab;
+}
+
+.skewed-product-carousel__card.is-active:active {
+  cursor: grabbing;
+}
+
+.skewed-product-carousel__card img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  pointer-events: none;
+  -webkit-user-drag: none;
+}
+
+.skewed-product-carousel__shade {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(5, 8, 12, 0.02) 38%, rgba(5, 8, 12, 0.82) 100%),
+    linear-gradient(90deg, rgba(5, 8, 12, 0.16), transparent 48%);
+  pointer-events: none;
+}
+
+.skewed-product-carousel__caption {
+  position: absolute;
+  right: clamp(1rem, 3vw, 2rem);
+  bottom: clamp(1rem, 3vw, 2rem);
+  left: clamp(1rem, 3vw, 2rem);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.45rem;
+  text-align: left;
+  pointer-events: none;
+}
+
+.skewed-product-carousel__index {
+  color: #6ee7b7;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.64rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.skewed-product-carousel__title {
+  color: #f4f5f8;
+  font-size: clamp(1.1rem, 2.2vw, 1.8rem);
+  font-weight: 750;
+  letter-spacing: -0.045em;
+  line-height: 1;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.4);
+}
+
+.skewed-product-carousel__active-mark {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 0.55rem;
+  height: 0.55rem;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  background: #34d399;
+  box-shadow: 0 0 18px rgba(52, 211, 153, 0.8);
+  pointer-events: none;
+}
+
+.skewed-product-carousel__progress {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  gap: 0.42rem;
+}
+
+.skewed-product-carousel__progress span {
+  width: 1.25rem;
+  height: 2px;
+  border-radius: 99px;
+  background: rgba(255, 255, 255, 0.18);
+  transition: width 350ms ease, background-color 350ms ease;
+}
+
+.skewed-product-carousel__progress span.is-active {
+  width: 2.6rem;
+  background: #34d399;
+}
+
+@media (max-width: 639px) {
+  .skewed-product-carousel {
+    min-height: 290px;
+  }
+
+  .skewed-product-carousel__stage {
+    inset-inline: -0.25rem;
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent);
+    mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent);
+  }
+
+  .skewed-product-carousel__card {
+    width: 84%;
+    height: 82%;
+    border-radius: 0.9rem;
+  }
+
+  .skewed-product-carousel__caption {
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+  }
+
+  .skewed-product-carousel__title {
+    font-size: 1.15rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skewed-product-carousel__card,
+  .skewed-product-carousel__progress span {
+    transition: none;
+  }
+}
