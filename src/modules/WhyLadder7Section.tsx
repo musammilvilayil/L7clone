@@ -109,7 +109,7 @@ export const WhyLadder7Section: React.FC = () => {
         className="absolute inset-0 pointer-events-auto z-0 opacity-40 mix-blend-screen"
       >
         <RingField
-          colors={['#059669', '#6ee7b7']}
+          colors={['#1D4ED8', '#60A5FA']}
           backgroundColor="#08090C"
           rings={7}
           particles={42000}
@@ -154,8 +154,8 @@ export const WhyLadder7Section: React.FC = () => {
           {/* Left Column: Narrative, Key Pillars & Action CTA */}
           <div className="lg:col-span-6 space-y-6">
             <div>
-              <div className="inline-flex items-center gap-2 mb-3 px-2.5 py-1 rounded-full border border-white/10 bg-white/[0.03] text-xs font-medium text-[#34D399]">
-                <span className="w-1.5 h-1.5 rounded-full bg-[#34D399]" />
+              <div className="inline-flex items-center gap-2 mb-3 px-2.5 py-1 rounded-full border border-white/10 bg-white/[0.03] text-xs font-medium text-[#3B82F6]">
+                <span className="w-1.5 h-1.5 rounded-full bg-[#3B82F6]" />
                 Why Ladder7
               </div>
 
@@ -175,13 +175,13 @@ export const WhyLadder7Section: React.FC = () => {
                 return (
                   <div
                     key={item.category}
-                    className="flex items-start gap-3.5 p-3.5 rounded-xl border border-white/10 bg-white/[0.02] hover:bg-white/[0.05] hover:border-[#34D399]/40 transition-colors"
+                    className="flex items-start gap-3.5 p-3.5 rounded-xl border border-white/10 bg-white/[0.02] hover:bg-white/[0.05] hover:border-[#3B82F6]/40 transition-colors"
                   >
-                    <div className="p-2 rounded-lg bg-[#34D399]/10 text-[#34D399] shrink-0 mt-0.5">
+                    <div className="p-2 rounded-lg bg-[#3B82F6]/10 text-[#3B82F6] shrink-0 mt-0.5">
                       <Icon className="w-4 h-4" />
                     </div>
                     <div className="space-y-0.5">
-                      <div className="text-[11px] font-semibold uppercase tracking-wider text-[#BEF264]">
+                      <div className="text-[11px] font-semibold uppercase tracking-wider text-[#93C5FD]">
                         {item.category}
                       </div>
                       <h3 className="text-sm font-bold text-[#F4F5F8]">
@@ -228,7 +228,7 @@ export const WhyLadder7Section: React.FC = () => {
                   {[...MARQUEE_COLUMN_1, ...MARQUEE_COLUMN_1].map((item, idx) => (
                     <div
                       key={`col1-${item.title}-${idx}`}
-                      className="group/card relative rounded-xl border border-white/10 hover:border-[#34D399]/60 bg-[#0C0E14] overflow-hidden shadow-lg transition-all duration-300 hover:scale-[1.02]"
+                      className="group/card relative rounded-xl border border-white/10 hover:border-[#3B82F6]/60 bg-[#0C0E14] overflow-hidden shadow-lg transition-all duration-300 hover:scale-[1.02]"
                     >
                       <div className="aspect-[16/10] w-full overflow-hidden bg-[#060709]">
                         <img
@@ -239,7 +239,7 @@ export const WhyLadder7Section: React.FC = () => {
                         />
                       </div>
                       <div className="p-2.5 bg-[#0C0E14] border-t border-white/[0.08]">
-                        <div className="text-[10px] font-semibold uppercase tracking-wider text-[#34D399]">
+                        <div className="text-[10px] font-semibold uppercase tracking-wider text-[#3B82F6]">
                           {item.tag}
                         </div>
                         <div className="text-xs font-semibold text-[#F4F5F8] truncate">
@@ -257,7 +257,7 @@ export const WhyLadder7Section: React.FC = () => {
                   {[...MARQUEE_COLUMN_2, ...MARQUEE_COLUMN_2].map((item, idx) => (
                     <div
                       key={`col2-${item.title}-${idx}`}
-                      className="group/card relative rounded-xl border border-white/10 hover:border-[#34D399]/60 bg-[#0C0E14] overflow-hidden shadow-lg transition-all duration-300 hover:scale-[1.02]"
+                      className="group/card relative rounded-xl border border-white/10 hover:border-[#3B82F6]/60 bg-[#0C0E14] overflow-hidden shadow-lg transition-all duration-300 hover:scale-[1.02]"
                     >
                       <div className="aspect-[16/10] w-full overflow-hidden bg-[#060709]">
                         <img
@@ -268,7 +268,7 @@ export const WhyLadder7Section: React.FC = () => {
                         />
                       </div>
                       <div className="p-2.5 bg-[#0C0E14] border-t border-white/[0.08]">
-                        <div className="text-[10px] font-semibold uppercase tracking-wider text-[#BEF264]">
+                        <div className="text-[10px] font-semibold uppercase tracking-wider text-[#93C5FD]">
                           {item.tag}
                         </div>
                         <div className="text-xs font-semibold text-[#F4F5F8] truncate">
