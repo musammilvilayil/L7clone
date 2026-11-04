@@ -1,10 +1,6 @@
-import React, { useCallback, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import type { BriefPreset } from '../design-system/tokens';
-import FlexCarousel from '../components/FlexCarousel';
-import type {
-  FlexCarouselHandle,
-  FlexCarouselItem,
-} from '../components/FlexCarousel.types';
+import { ArrowDownRight, ArrowUpRight, Check, Command, Sparkles } from 'lucide-react';
 import BlobButton from '../components/BlobButton';
 
 interface ProductsExpandingPanelsProps {
@@ -14,264 +10,343 @@ interface ProductsExpandingPanelsProps {
 interface ProductDetail {
   id: string;
   name: string;
+  eyebrow: string;
   tagline: string;
-  twoSentences: string;
+  description: string;
   highlights: string[];
-  metricsBadge: string;
+  proofLine: string;
   image: string;
   imageAlt: string;
+  imageLabel: string;
 }
 
 const PRODUCTS: ProductDetail[] = [
   {
     id: 'l7-insights',
     name: 'L7 Insights',
-    tagline: 'No-Code Dashboard CMS & Analytics Platform',
-    twoSentences:
-      'L7 Insights turns distributed spreadsheet records, live analytics streams, and team metrics into customizable real-time dashboards with drag-and-drop KPI widgets and automated data joins. It empowers growth and operations teams to monitor lead conversion, revenue distribution, and workforce metrics in a single unified view.',
+    eyebrow: '01 / PRODUCT ANALYTICS',
+    tagline: 'See the signals behind every business decision.',
+    description:
+      'Turn spreadsheet records, live analytics streams, and team metrics into clear, customizable dashboards. Track lead conversion, revenue distribution, and workforce performance in one place.',
     highlights: [
-      'No-Code KPI & Chart Widgets',
-      'Live Google Sheets & DB Joins',
-      'Custom Analytics & Metric Filters',
-      'Role-Based Access & Audit Logging',
+      'No-code KPI and chart widgets',
+      'Live Google Sheets and database joins',
+      'Custom analytics and metric filters',
+      'Role-based access and audit logging',
     ],
-    metricsBadge: 'Real-time Sync • Multi-Source Joins • Drag-and-Drop CMS',
+    proofLine: 'Real-time sync · Multi-source data · Drag-and-drop dashboards',
     image: '/images/products/product-insights.webp',
     imageAlt:
-      'L7 Insights no-code dashboard CMS with drag-and-drop KPI cards, leave analytics bar chart, revenue donut chart, and lead details table',
+      'L7 Insights dashboard with KPI cards, analytics charts, revenue distribution, and a lead details table',
+    imageLabel: 'Analytics workspace',
   },
   {
     id: 'outreach',
     name: 'Outreach',
-    tagline: 'Multi-Channel Inbound & Outbound Pipeline Engine',
-    twoSentences:
-      'Outreach consolidates high-deliverability email campaigns, lead tracking, and conversion funnels into an automated pipeline dashboard. Built for acquisition teams, it monitors sends and opens trends, tracks stage-by-stage conversions, and manages mailbox rotation with automated domain warmup.',
+    eyebrow: '02 / B2B PIPELINE',
+    tagline: 'Turn better-targeted outreach into a clearer pipeline.',
+    description:
+      'Bring email campaigns, lead tracking, and conversion funnels into one acquisition workspace. Monitor campaign activity, follow each stage of the funnel, and manage mailbox rotation and domain warmup.',
     highlights: [
-      'Multi-Mailbox Inbound & Outbound',
-      'Stage-by-Stage Conversion Funnel',
-      'Real-Time Sends & Opens Telemetry',
-      'Automated Domain Warmup & Rotation',
+      'Inbound and outbound mailbox management',
+      'Stage-by-stage conversion funnel',
+      'Live send and open-rate telemetry',
+      'Automated domain warmup and rotation',
     ],
-    metricsBadge: 'Platform-Wide Leads • Mailbox Rotation • Instant Funnel Telemetry',
+    proofLine: 'Campaign visibility · Funnel tracking · Mailbox management',
     image: '/images/products/product-outreach.webp',
     imageAlt:
-      'Outreach pipeline dashboard with emails sent and opened stats, total leads, sends and opens trend, conversion funnel, and mailbox distribution',
+      'Outreach pipeline dashboard showing email activity, lead totals, campaign trends, conversion funnel, and mailbox distribution',
+    imageLabel: 'Campaign pipeline',
   },
   {
     id: 'infinite',
     name: 'Infinite',
-    tagline: 'Executive Project Intelligence & Strategic Action Center',
-    twoSentences:
-      'Infinite gives leadership teams real-time visibility into active project budgets, revenue yield, and ROI alongside AI-powered critical alerts. It surfaces predictive strategic insights and automated operational recommendations directly from cross-platform telemetry.',
+    eyebrow: '03 / EXECUTIVE INTELLIGENCE',
+    tagline: 'Make project performance easier to understand.',
+    description:
+      'Give leadership teams a consolidated view of active project budgets, revenue, and ROI. Bring critical alerts and strategic insights into the same workspace to support faster operational decisions.',
     highlights: [
-      'Live Spend, Budget & ROI Tracking',
-      'Critical Automated Alerts & Scoring',
-      'Strategic Insights & Trend Feeds',
-      'Enterprise Role-Based Administration',
+      'Live spend, budget, and ROI tracking',
+      'Critical alerts and project scoring',
+      'Strategic insights and trend feeds',
+      'Role-based enterprise administration',
     ],
-    metricsBadge: 'Live ROI Auditing • Predictive Alerts • Enterprise Governance',
+    proofLine: 'Project visibility · ROI tracking · Operational alerts',
     image: '/images/products/product-infinite.webp',
     imageAlt:
-      'Infinite executive intelligence dashboard with active project budget and revenue ROI, critical alerts feed, and strategic insights analysis',
+      'Infinite executive dashboard showing project budgets, revenue and ROI, critical alerts, and strategic insights',
+    imageLabel: 'Executive overview',
   },
   {
     id: 'l7-nexus',
     name: 'L7 Nexus',
-    tagline: 'Autonomous Multi-Agent Enterprise Orchestration',
-    twoSentences:
-      'L7 Nexus orchestrates specialized autonomous AI agents under an executive coordination hierarchy to handle knowledge discovery, software architecture, marketing operations, and customer lifecycle. Every task is distributed across dedicated specialist agents with human-in-the-loop oversight and governance.',
+    eyebrow: '04 / MULTI-AGENT ORCHESTRATION',
+    tagline: 'Coordinate specialist AI agents with human oversight.',
+    description:
+      'Coordinate specialist agents through an executive-led workflow for knowledge discovery, software architecture, marketing, and customer operations. Keep people in the loop with governance and activity logs.',
     highlights: [
-      'Hierarchical Multi-Agent Architecture',
-      'Chief of Staff Coordination Office',
-      'Domain Specialists (Tech, Sales, Ops)',
-      'Human-in-the-Loop Governance & Logs',
+      'Hierarchical multi-agent architecture',
+      'Chief of Staff coordination layer',
+      'Specialists for technology, sales, and operations',
+      'Human-in-the-loop governance and logs',
     ],
-    metricsBadge: 'Multi-Agent Mesh • Sub-Minute Orchestration • Audit-Ready Architecture',
+    proofLine: 'Specialist agents · Central coordination · Human oversight',
     image: '/images/products/product-nexus.webp',
     imageAlt:
-      'L7 Nexus autonomous multi-agent hierarchy showing Chief Executive Agent Ethan and coordinating Chief of Staff office across knowledge, technology, marketing, sales, and operations',
+      'L7 Nexus multi-agent hierarchy showing executive coordination and specialist agents across knowledge, technology, marketing, sales, and operations',
+    imageLabel: 'Agent orchestration',
   },
 ];
-
-const CAROUSEL_ITEMS: FlexCarouselItem[] = PRODUCTS.map((p) => ({
-  src: p.image,
-  alt: p.imageAlt,
-  title: p.name,
-  subtitle: p.tagline,
-}));
 
 export const ProductsExpandingPanels: React.FC<ProductsExpandingPanelsProps> = ({
   onApplyPreset,
 }) => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const carouselHandleRef = useRef<FlexCarouselHandle | null>(null);
+  const sectionRefs = useRef<Array<HTMLElement | null>>([]);
+  const navigationRefs = useRef<Array<HTMLButtonElement | null>>([]);
 
-  const handleSelectProduct = useCallback((index: number) => {
-    setActiveIndex(index);
-    carouselHandleRef.current?.goTo(index);
+  useEffect(() => {
+    const sections = sectionRefs.current.filter(
+      (section): section is HTMLElement => section !== null,
+    );
+    if (sections.length === 0) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries
+          .filter((entry) => entry.isIntersecting)
+          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+
+        if (!visible) return;
+        const index = sections.indexOf(visible.target as HTMLElement);
+        if (index >= 0) setActiveIndex(index);
+      },
+      {
+        root: null,
+        rootMargin: '-18% 0px -48% 0px',
+        threshold: [0.05, 0.2, 0.4, 0.6],
+      },
+    );
+
+    sections.forEach((section) => observer.observe(section));
+    return () => observer.disconnect();
   }, []);
 
-  const activeProduct = PRODUCTS[activeIndex] || PRODUCTS[0];
+  const navigateToProduct = useCallback((index: number) => {
+    const target = sectionRefs.current[index];
+    if (!target) return;
+    setActiveIndex(index);
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, []);
+
+  const handleNavigationKeyDown = useCallback(
+    (event: React.KeyboardEvent<HTMLButtonElement>, index: number) => {
+      let nextIndex: number | null = null;
+      if (event.key === 'ArrowRight' || event.key === 'ArrowDown') {
+        nextIndex = (index + 1) % PRODUCTS.length;
+      } else if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') {
+        nextIndex = (index - 1 + PRODUCTS.length) % PRODUCTS.length;
+      } else if (event.key === 'Home') {
+        nextIndex = 0;
+      } else if (event.key === 'End') {
+        nextIndex = PRODUCTS.length - 1;
+      }
+
+      if (nextIndex === null) return;
+      event.preventDefault();
+      navigationRefs.current[nextIndex]?.focus();
+      navigateToProduct(nextIndex);
+    },
+    [navigateToProduct],
+  );
 
   return (
     <section
       id="proof"
       aria-labelledby="products-heading"
-      className="relative py-8 sm:py-10 lg:py-12 min-h-[100svh] lg:h-screen lg:max-h-[980px] flex flex-col justify-center bg-[#08090C] overflow-hidden"
+      className="relative isolate bg-[#08090C] text-[#F4F5F8]"
     >
-      {/* Top and Bottom Seamless Gradient Fades (Zero Harsh Cuts) */}
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute top-0 inset-x-0 h-20 sm:h-28 bg-gradient-to-b from-[#08090C] to-transparent z-[2]"
-      />
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute bottom-0 inset-x-0 h-20 sm:h-28 bg-gradient-to-t from-[#08090C] to-transparent z-[2]"
-      />
-      <div className="mx-auto max-w-[1380px] w-full px-4 sm:px-6 lg:px-10">
-        {/* Header & Subtext */}
-        <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-3 sm:gap-4 mb-3 sm:mb-4 lg:mb-5">
-          <div className="max-w-2xl">
-            <div className="inline-flex items-center gap-2 mb-1.5 px-2.5 py-0.5 rounded-full border border-white/10 bg-white/[0.03] text-[11px] font-medium text-[#A3AAB8]">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#34D399]" />
-              In-House Platforms
-            </div>
-            <h2
-              id="products-heading"
-              className="font-display text-2xl sm:text-3xl lg:text-[2.1rem] font-bold tracking-tight text-[#F4F5F8] leading-[1.1] text-balance"
-            >
-              Four in-house software platforms built by Ladder7.
-            </h2>
-            <p className="mt-1 text-xs sm:text-sm text-[#A3AAB8] leading-normal max-w-[62ch]">
-              Interactive 3D showcase powered by WebGL. Drag to bend and rotate the cards, click any card to inspect full-screen, or select a platform below.
-            </p>
-          </div>
+      <div className="pointer-events-none absolute inset-x-0 top-0 h-48 bg-[radial-gradient(ellipse_at_top,rgba(16,185,129,0.09),transparent_70%)]" />
 
-          {/* Quick Platform Switcher Pills */}
-          <div
-            role="tablist"
-            aria-label="Select product"
-            className="flex flex-wrap gap-1.5 lg:max-w-md lg:justify-end shrink-0"
+      <div className="relative mx-auto w-full max-w-[1440px] px-5 pb-8 pt-24 sm:px-8 sm:pt-28 lg:px-12 lg:pt-32">
+        <div className="max-w-3xl">
+          <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-[#34D399]/20 bg-[#34D399]/[0.07] px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.2em] text-[#6EE7B7] sm:text-[11px]">
+            <Sparkles className="h-3.5 w-3.5" aria-hidden="true" />
+            Built in-house at Ladder7
+          </div>
+          <h2
+            id="products-heading"
+            className="font-display text-3xl font-bold leading-[1.08] tracking-[-0.045em] text-[#F4F5F8] sm:text-4xl lg:text-5xl"
           >
-            {PRODUCTS.map((prod, idx) => {
-              const isSelected = idx === activeIndex;
+            Four platforms.
+            <span className="block text-[#34D399]">Purpose-built for progress.</span>
+          </h2>
+          <p className="mt-4 max-w-[62ch] text-sm leading-7 text-[#A3AAB8] sm:text-base">
+            Explore the software platforms developed by Ladder7, each designed around a distinct business challenge.
+          </p>
+        </div>
+
+        <div className="sticky top-16 z-30 -mx-5 mt-8 border-y border-white/[0.08] bg-[#08090C]/90 px-5 py-3 backdrop-blur-xl sm:top-20 sm:-mx-8 sm:px-8 lg:-mx-12 lg:px-12">
+          <nav
+            aria-label="In-house platform navigation"
+            className="mx-auto flex max-w-[1440px] gap-2 overflow-x-auto overscroll-x-contain scrollbar-none"
+          >
+            {PRODUCTS.map((product, index) => {
+              const isActive = activeIndex === index;
               return (
                 <button
-                  key={prod.id}
-                  role="tab"
-                  aria-selected={isSelected}
-                  onClick={() => handleSelectProduct(idx)}
-                  className={`px-2.5 py-1 text-xs font-semibold rounded-md transition-all cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#34D399] ${
-                    isSelected
-                      ? 'bg-[#34D399] text-[#08090C] shadow-[0_0_12px_rgba(52,211,153,0.3)]'
-                      : 'bg-white/[0.04] text-[#A3AAB8] hover:text-[#F4F5F8] hover:bg-white/[0.08] border border-white/10'
+                  key={product.id}
+                  ref={(node) => {
+                    navigationRefs.current[index] = node;
+                  }}
+                  type="button"
+                  aria-pressed={isActive}
+                  aria-controls={product.id}
+                  onClick={() => navigateToProduct(index)}
+                  onKeyDown={(event) => handleNavigationKeyDown(event, index)}
+                  className={`group inline-flex min-h-10 shrink-0 items-center gap-2 rounded-lg border px-3.5 text-xs font-semibold transition-all duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#34D399] sm:px-4 sm:text-sm ${
+                    isActive
+                      ? 'border-[#34D399]/50 bg-[#34D399]/[0.12] text-[#F4F5F8] shadow-[0_0_24px_rgba(16,185,129,0.08)]'
+                      : 'border-white/[0.08] bg-white/[0.025] text-[#8F98A8] hover:border-white/20 hover:bg-white/[0.06] hover:text-[#F4F5F8]'
                   }`}
                 >
-                  <span className="opacity-60 mr-1.5">0{idx + 1}</span>
-                  {prod.name}
+                  <span className={`font-mono text-[10px] tracking-wider ${
+                    isActive ? 'text-[#6EE7B7]' : 'text-[#667080]'
+                  }`}>
+                    0{index + 1}
+                  </span>
+                  {product.name}
+                  {isActive && (
+                    <span className="ml-1 h-1.5 w-1.5 rounded-full bg-[#34D399]" />
+                  )}
                 </button>
               );
             })}
-          </div>
+          </nav>
         </div>
 
-        {/* 3D FlexCarousel Stage (Directly on OG Background, Zero Container Box) */}
-        <div className="w-full relative overflow-hidden">
-          {/* Subtle Stage Ambient Lighting */}
-          <div
-            aria-hidden="true"
-            className="pointer-events-none absolute inset-0 z-10 bg-[radial-gradient(ellipse_80%_40%_at_50%_0%,rgba(52,211,153,0.06),transparent_70%)]"
-          />
-
-          <div
-            style={{
-              width: '100%',
-              position: 'relative',
-            }}
-            className="h-[250px] sm:h-[290px] lg:h-[330px]"
-          >
-            <FlexCarousel
-              items={CAROUSEL_ITEMS}
-              preset="liquid"
-              intro="rise"
-              cardHeight={0.68}
-              gap={14}
-              squeeze={0.18}
-              focusOnClick
-              captions
-              onReady={(handle: FlexCarouselHandle | null) => {
-                carouselHandleRef.current = handle;
+        <div className="divide-y divide-white/[0.08]">
+          {PRODUCTS.map((product, index) => (
+            <article
+              key={product.id}
+              id={product.id}
+              ref={(node) => {
+                sectionRefs.current[index] = node;
               }}
-              onChange={(index: number) => setActiveIndex(index)}
-              onSelect={(index: number) => setActiveIndex(index)}
-            />
-          </div>
-        </div>
+              aria-labelledby={`${product.id}-heading`}
+              className="grid min-h-[88svh] scroll-mt-28 grid-cols-1 items-center gap-9 py-14 sm:gap-12 sm:py-16 lg:min-h-[88svh] lg:grid-cols-[minmax(0,0.78fr)_minmax(0,1.22fr)] lg:gap-12 lg:py-12 xl:gap-16"
+            >
+              <div className="relative z-10 order-2 lg:order-1">
+                <p className="mb-5 flex items-center gap-2 font-mono text-[10px] font-medium uppercase tracking-[0.2em] text-[#6EE7B7] sm:text-[11px]">
+                  <span className="h-px w-7 bg-[#34D399]/70" />
+                  {product.eyebrow}
+                </p>
 
-        {/* Product Description Directly Below Image on OG Background (No Separate Container) */}
-        <div className="mt-4 pt-4 border-t border-white/10">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-8 items-center">
-            {/* Left 8 cols: Platform summary, narrative & capabilities */}
-            <div className="lg:col-span-8 space-y-2">
-              <div className="flex flex-wrap items-center gap-2.5">
-                <span className="px-2 py-0.5 rounded bg-[#34D399]/15 text-[#34D399] text-[11px] font-bold tracking-wide">
-                  Platform 0{activeIndex + 1}
-                </span>
-                <span className="text-xs sm:text-sm font-semibold text-[#F4F5F8]">
-                  {activeProduct.tagline}
-                </span>
-              </div>
+                <h3
+                  id={`${product.id}-heading`}
+                  className="font-display text-4xl font-bold leading-[0.98] tracking-[-0.055em] text-[#F4F5F8] sm:text-5xl xl:text-[4.25rem]"
+                >
+                  {product.name}
+                </h3>
 
-              <p className="text-xs sm:text-sm text-[#C4C9D4] leading-[1.55] max-w-[72ch]">
-                {activeProduct.twoSentences}
-              </p>
+                <p className="mt-5 max-w-[17ch] text-xl font-semibold leading-snug tracking-[-0.025em] text-[#D9E0E8] sm:text-2xl">
+                  {product.tagline}
+                </p>
 
-              <div className="flex flex-wrap gap-1.5 pt-0.5">
-                {activeProduct.highlights.map((item) => (
-                  <span
-                    key={item}
-                    className="inline-flex items-center px-2.5 py-0.5 rounded text-[11px] font-medium bg-white/[0.04] text-[#E2E6EF] border border-white/10"
+                <p className="mt-4 max-w-[54ch] text-sm leading-7 text-[#A3AAB8] sm:text-[15px]">
+                  {product.description}
+                </p>
+
+                <ul className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2">
+                  {product.highlights.map((highlight) => (
+                    <li
+                      key={highlight}
+                      className="flex items-start gap-2.5 text-xs leading-5 text-[#D7DCE5] sm:text-[13px]"
+                    >
+                      <span className="mt-0.5 inline-flex h-4 w-4 shrink-0 items-center justify-center rounded-full border border-[#34D399]/30 bg-[#34D399]/[0.08] text-[#6EE7B7]">
+                        <Check className="h-2.5 w-2.5" strokeWidth={2.5} aria-hidden="true" />
+                      </span>
+                      {highlight}
+                    </li>
+                  ))}
+                </ul>
+
+                <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:items-center">
+                  <BlobButton
+                    variant="primary"
+                    size="md"
+                    href="#contact"
+                    onClick={() => {
+                      onApplyPreset({
+                        serviceTrack: product.name,
+                        contextLine: `I'd like to explore ${product.name} and request a product walkthrough.`,
+                      });
+                    }}
+                    className="min-h-11 justify-center px-5"
                   >
-                    <span className="w-1 h-1 rounded-full bg-[#34D399] mr-1.5" />
-                    {item}
-                  </span>
-                ))}
+                    Explore {product.name}
+                    <ArrowUpRight className="ml-2 h-4 w-4" aria-hidden="true" />
+                  </BlobButton>
+                  <a
+                    href="#contact"
+                    onClick={() => {
+                      onApplyPreset({
+                        serviceTrack: product.name,
+                        contextLine: `I'd like to discuss a technical demo of ${product.name}.`,
+                      });
+                    }}
+                    className="inline-flex min-h-11 items-center justify-center gap-2 rounded-lg px-3 text-xs font-semibold text-[#A3AAB8] transition-colors hover:text-[#6EE7B7] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#34D399]"
+                  >
+                    Request a technical demo
+                    <ArrowDownRight className="h-3.5 w-3.5" aria-hidden="true" />
+                  </a>
+                </div>
+
+                <p className="mt-6 flex items-center gap-2 text-[10px] leading-5 text-[#778191] sm:text-[11px]">
+                  <Command className="h-3.5 w-3.5 shrink-0 text-[#34D399]/80" aria-hidden="true" />
+                  {product.proofLine}
+                </p>
               </div>
-            </div>
 
-            {/* Right 4 cols: Action buttons */}
-            <div className="lg:col-span-4 lg:border-l lg:border-white/10 lg:pl-6 flex flex-col sm:flex-row lg:flex-col gap-2.5 justify-center">
-              <BlobButton
-                variant="primary"
-                size="sm"
-                href="#contact"
-                onClick={() => {
-                  onApplyPreset({
-                    serviceTrack: 'L7 Insights / Outreach / Infinite / L7 Nexus',
-                    contextLine: `See how ${activeProduct.name} works for our team.`,
-                  });
-                }}
-                className="w-full text-center"
-              >
-                See how {activeProduct.name} works →
-              </BlobButton>
+              <div className="relative order-1 min-w-0 lg:order-2">
+                <div className="pointer-events-none absolute -inset-8 rounded-[2rem] bg-[radial-gradient(ellipse_at_center,rgba(16,185,129,0.12),transparent_68%)] blur-2xl" />
+                <div className="relative overflow-hidden rounded-xl border border-white/[0.13] bg-[#0D1016] shadow-[0_34px_90px_-35px_rgba(0,0,0,0.95),0_0_60px_-35px_rgba(16,185,129,0.28)]">
+                  <div className="flex h-10 items-center justify-between border-b border-white/[0.08] bg-[#11151D] px-4 sm:h-11 sm:px-5">
+                    <div className="flex items-center gap-1.5" aria-hidden="true">
+                      <span className="h-2 w-2 rounded-full bg-[#F87171]/80" />
+                      <span className="h-2 w-2 rounded-full bg-[#FBBF24]/80" />
+                      <span className="h-2 w-2 rounded-full bg-[#34D399]/80" />
+                    </div>
+                    <span className="font-mono text-[9px] uppercase tracking-[0.16em] text-[#737D8D] sm:text-[10px]">
+                      LADDER7 / {product.imageLabel}
+                    </span>
+                    <span className="h-5 w-5 rounded-md border border-white/[0.08] bg-white/[0.03]" aria-hidden="true" />
+                  </div>
 
-              <BlobButton
-                variant="ghost"
-                size="sm"
-                href="#contact"
-                onClick={() => {
-                  onApplyPreset({
-                    serviceTrack: 'L7 Insights / Outreach / Infinite / L7 Nexus',
-                    contextLine: `Request a technical demo and architecture review for ${activeProduct.name}.`,
-                  });
-                }}
-                className="w-full text-center"
-              >
-                Request Technical Demo
-              </BlobButton>
-            </div>
-          </div>
+                  <div className="flex min-h-[250px] items-center justify-center bg-[#090C11] p-3 sm:min-h-[320px] sm:p-5 lg:min-h-0 lg:p-4 xl:p-5">
+                    <img
+                      src={product.image}
+                      alt={product.imageAlt}
+                      loading={index === 0 ? 'eager' : 'lazy'}
+                      decoding="async"
+                      className="block h-auto max-h-[62svh] w-full object-contain object-center"
+                    />
+                  </div>
+
+                  <div className="flex items-center justify-between gap-3 border-t border-white/[0.08] bg-[#10141B] px-4 py-3 sm:px-5">
+                    <span className="text-[10px] font-medium text-[#A3AAB8] sm:text-xs">
+                      {product.name} <span className="text-[#596273]">/ Product preview</span>
+                    </span>
+                    <span className="inline-flex items-center gap-1.5 text-[9px] font-semibold uppercase tracking-[0.14em] text-[#6EE7B7] sm:text-[10px]">
+                      <span className="h-1.5 w-1.5 rounded-full bg-[#34D399]" />
+                      Platform {String(index + 1).padStart(2, '0')}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </article>
+          ))}
         </div>
       </div>
     </section>
