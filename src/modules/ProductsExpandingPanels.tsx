@@ -215,7 +215,7 @@ export const ProductsExpandingPanels: React.FC<ProductsExpandingPanelsProps> = (
     >
       <div aria-hidden="true" className="product-showcase-ambient" />
 
-      <div className="relative mx-auto w-full max-w-[1440px] px-5 pb-5 pt-24 sm:px-8 sm:pt-28 lg:px-12 lg:pt-32">
+      <div className="relative z-10 mx-auto w-full max-w-[1440px] px-5 pb-5 pt-24 sm:px-8 sm:pt-28 lg:px-12 lg:pt-32">
         <header className="flex flex-col justify-between gap-6 border-b border-white/[0.08] pb-7 lg:flex-row lg:items-end lg:gap-10 lg:pb-8">
           <div className="max-w-3xl">
             <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-[#34D399]/20 bg-[#34D399]/[0.06] px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.19em] text-[#6EE7B7] sm:text-[11px]">
