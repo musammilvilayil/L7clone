@@ -837,3 +837,57 @@
     transition: none;
   }
 }
+
+
+/* Ladder7 brand-blue accents for the product showcase only */
+.product-showcase-section .product-showcase-ambient {
+  background:
+    radial-gradient(ellipse 48% 34% at 78% 14%, rgba(37, 99, 235, 0.11), transparent 72%),
+    radial-gradient(ellipse 38% 28% at 8% 28%, rgba(96, 165, 250, 0.045), transparent 75%);
+}
+.product-showcase-section .product-showcase-visual::before,
+.product-showcase-section .product-showcase-carousel::before {
+  background: rgba(37, 99, 235, 0.13);
+}
+.product-showcase-section .product-showcase-frame {
+  box-shadow:
+    0 34px 90px -38px rgba(0, 0, 0, 0.95),
+    0 0 58px -38px rgba(37, 99, 235, 0.32),
+    inset 0 1px 0 rgba(255, 255, 255, 0.045);
+}
+.product-showcase-section .product-showcase-frame:hover {
+  border-color: rgba(96, 165, 250, 0.3);
+  box-shadow:
+    0 38px 100px -38px rgba(0, 0, 0, 0.98),
+    0 0 68px -34px rgba(37, 99, 235, 0.38),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+.product-showcase-section .product-showcase-image-wrap {
+  background:
+    radial-gradient(ellipse at 50% 48%, rgba(37, 99, 235, 0.055), transparent 66%),
+    #090C11;
+}
+.product-showcase-section .skewed-product-carousel:focus-visible {
+  outline-color: rgba(96, 165, 250, 0.7);
+}
+.product-showcase-section .skewed-product-carousel__card {
+  box-shadow: 0 28px 70px -28px rgba(0, 0, 0, 0.9), 0 0 36px -22px rgba(37, 99, 235, 0.4);
+}
+.product-showcase-section .skewed-product-carousel__card.is-active {
+  border-color: rgba(96, 165, 250, 0.42);
+  box-shadow: 0 34px 90px -30px rgba(0, 0, 0, 0.95), 0 0 58px -24px rgba(37, 99, 235, 0.36);
+}
+.product-showcase-section .skewed-product-carousel__index {
+  color: #60A5FA;
+}
+.product-showcase-section .skewed-product-carousel__active-mark {
+  background: #2563EB;
+  box-shadow: 0 0 18px rgba(37, 99, 235, 0.8);
+}
+.product-showcase-section .skewed-product-carousel__progress span.is-active {
+  background: #2563EB;
+}
+.product-showcase-section .product-showcase-nav button:focus-visible,
+.product-showcase-section .product-showcase-controls button:focus-visible {
+  outline-color: #60A5FA;
+}
