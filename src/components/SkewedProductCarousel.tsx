@@ -32,6 +32,7 @@ export const SkewedProductCarousel: React.FC<SkewedProductCarouselProps> = ({
 
   const handlePointerDown = useCallback((event: React.PointerEvent<HTMLDivElement>) => {
     if (event.pointerType === 'mouse' && event.button !== 0) return;
+    event.currentTarget.setPointerCapture(event.pointerId);
     pointerStart.current = { x: event.clientX, y: event.clientY };
     dragged.current = false;
   }, []);
