@@ -1,0 +1,299 @@
+/* ==========================================================================
+   Site header — fixed, frosted bar. When the overlay menu opens it detaches
+   from the right edge and the menu toggle becomes the "tab" of the menu sheet.
+   ========================================================================== */
+
+.site-header {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: var(--z-header);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  height: var(--header-height);
+  padding: 0 var(--gutter);
+  border-bottom: 1px solid #ffffff06;
+  background: #101416ec;
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
+}
+
+.site-header__brand {
+  flex-shrink: 0;
+}
+
+.site-header__brand img {
+  width: 142px;
+  height: 58px;
+  object-fit: contain;
+}
+
+/* ── Desktop navigation (centred) ────────────────────────────────────────── */
+.desktop-nav {
+  position: absolute;
+  left: 50%;
+  display: flex;
+  gap: 38px;
+  transform: translateX(-50%);
+  font-size: var(--font-size-body);
+  color: #bfc1c3;
+}
+
+.desktop-nav__link:hover,
+.desktop-nav__link:focus-visible {
+  color: var(--color-text-strong);
+}
+
+.desktop-nav__link[aria-current="page"] {
+  color: var(--color-text-strong);
+}
+
+.nav-roll {
+  display: inline-block;
+  height: 1.25em;
+  overflow: hidden;
+  line-height: 1.25;
+  vertical-align: middle;
+}
+
+.nav-roll > span {
+  display: block;
+  transition: transform var(--duration-slow) var(--ease-out);
+}
+
+a:hover > .nav-roll > span,
+a:focus-visible > .nav-roll > span {
+  transform: translateY(-100%);
+}
+
+/* ── Division switch (IT | Education) ────────────────────────────────────── */
+.division-switch {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 3px;
+  margin-left: auto;
+  padding: 4px;
+  border: 1px solid #ffffff25;
+  border-radius: 30px;
+  background: #ffffff04;
+}
+
+.division-switch__link {
+  display: block;
+  padding: 8px 14px;
+  border-radius: 23px;
+  font-size: var(--font-size-label);
+  line-height: 1.2;
+  color: var(--color-text-muted);
+  transition: background 0.25s, color 0.25s;
+}
+
+.division-switch__link:hover {
+  color: var(--color-text-strong);
+}
+
+.division-switch__link.is-selected {
+  background: var(--color-text);
+  color: var(--color-bg);
+}
+
+/* ── CTA ─────────────────────────────────────────────────────────────────── */
+.btn--brand-disc {
+  --btn-disc-bg: var(--color-brand-surface);
+}
+
+/* ── Menu toggle (two lines → cross) ─────────────────────────────────────── */
+.menu-toggle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 40px;
+  height: 40px;
+  margin-left: 4px;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 26px;
+  height: 1px;
+  background: #ddd;
+  transition: transform var(--duration-fast), background var(--duration-fast), width var(--duration-fast);
+}
+
+.menu-toggle[aria-expanded="true"] span:first-child {
+  transform: translateY(4.5px) rotate(45deg);
+}
+
+.menu-toggle[aria-expanded="true"] span:last-child {
+  transform: translateY(-4.5px) rotate(-45deg);
+}
+
+/* ── Menu open: header detaches, toggle becomes the menu's tab ───────────── */
+.menu-open .site-header {
+  right: 82px;
+  padding-right: 18px;
+  border: 0;
+  border-bottom-right-radius: 26px;
+  background: var(--color-bg);
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+
+/* Concave corner joining the header to the menu sheet. */
+.menu-open .site-header::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 26px;
+  height: 26px;
+  pointer-events: none;
+  background: radial-gradient(circle at 0 0, transparent 25px, var(--color-menu) 26px);
+}
+
+.menu-open .site-header .menu-toggle {
+  position: absolute;
+  top: 4px;
+  right: -78px;
+  width: 78px;
+  height: 74px;
+  margin: 0;
+  border-radius: 20px 20px 0 0;
+  background: var(--color-menu);
+}
+
+.menu-open .site-header .menu-toggle span {
+  width: 30px;
+  background: #161c1f;
+}
+
+.menu-open .desktop-nav {
+  gap: 28px;
+}
+
+/* ── Responsive ──────────────────────────────────────────────────────────── */
+@media (max-width: 1100px) and (min-width: 701px) {
+  .menu-open .desktop-nav {
+    gap: 17px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .site-header {
+    gap: 10px;
+  }
+
+  .site-header__brand img {
+    width: 125px;
+    height: auto;
+  }
+
+  .desktop-nav {
+    gap: 20px;
+    font-size: var(--font-size-caption);
+  }
+
+  .division-switch__link {
+    padding: 8px 11px;
+    font-size: var(--font-size-micro);
+  }
+}
+
+@media (max-width: 850px) and (min-width: 701px) {
+  .menu-open .desktop-nav {
+    gap: 14px;
+  }
+}
+
+/* Between 701 and 900px the centred nav would collide with the switch + CTA. */
+@media (max-width: 900px) and (min-width: 701px) {
+  .desktop-nav {
+    position: static;
+    margin: 0 auto;
+    transform: none;
+    gap: 16px;
+  }
+
+  .division-switch {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .site-header {
+    gap: 10px;
+  }
+
+  .site-header__brand img {
+    width: 114px;
+    height: auto;
+  }
+
+  .desktop-nav,
+  .site-header__cta {
+    display: none;
+  }
+
+  .division-switch {
+    margin-left: auto;
+    padding: 3px;
+    gap: 2px;
+  }
+
+  .menu-toggle {
+    flex-shrink: 0;
+    width: 30px;
+    margin-left: 0;
+  }
+
+  .menu-open .site-header {
+    right: 61px;
+    gap: 7px;
+    padding-left: 18px;
+    padding-right: 10px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .menu-open .site-header::after {
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(circle at 0 0, transparent 19px, var(--color-menu) 20px);
+  }
+
+  .menu-open .site-header .menu-toggle {
+    top: 3px;
+    right: -58px;
+    width: 58px;
+    height: 65px;
+    border-radius: 18px 18px 0 0;
+  }
+
+  .menu-open .site-header .menu-toggle span {
+    width: 26px;
+  }
+
+  .menu-open .site-header__brand img {
+    width: 103px;
+  }
+
+  .menu-open .division-switch__link {
+    padding: 7px 9px;
+  }
+}
+
+@media (max-width: 360px) {
+  .site-header__brand img {
+    width: 96px;
+  }
+
+  .division-switch__link {
+    padding: 8px 9px;
+  }
+
+  .menu-open .site-header__brand img {
+    width: 84px;
+  }
+}

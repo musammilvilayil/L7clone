@@ -1,0 +1,125 @@
+/* ==========================================================================
+   Responsive tokens
+   --------------------------------------------------------------------------
+   Breakpoints (desktop-first, as in the design; see LADDER7_DESIGN_SYSTEM.md):
+     Wide          min-width: 1600px
+     Laptop        max-width: 1100px
+     Tablet        max-width: 1000px
+     Small tablet  max-width: 850px
+     Mobile        max-width: 700px
+   Media queries cannot read custom properties, so the values are repeated
+   literally in component stylesheets. This file only re-maps global tokens;
+   components inherit the change automatically.
+   ========================================================================== */
+
+/* Wide: centre content at 1500px. */
+@media (min-width: 1600px) {
+  :root {
+    --section-gutter: max(40px, calc((100% - var(--container-max)) / 2));
+  }
+}
+
+/* Tablet */
+@media (max-width: 1000px) {
+  :root {
+    --section-padding-y: 85px;
+    --card-padding: 28px;
+  }
+
+  .split {
+    gap: 6vw;
+  }
+
+  .tag {
+    padding: 5px 8px;
+    font-size: var(--font-size-micro);
+  }
+
+  .btn {
+    --btn-font: 0.9375rem;
+    --btn-gap: 16px;
+  }
+
+  .btn--sm {
+    --btn-font: 0.75rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  :root {
+    --gutter: 5%;
+    --section-padding-y: 68px;
+    --section-heading-gap: 35px;
+    --header-height: 66px;
+    --scroll-offset: 74px;
+    --radius-section: 28px;
+    --font-size-h2: 2.6875rem; /* 43px */
+    --font-size-lead: 0.875rem;
+    --icon-size: 16px;
+  }
+
+  h2 {
+    letter-spacing: -2.2px;
+  }
+
+  .section-heading {
+    display: block;
+  }
+
+  .section-heading__intro {
+    margin-top: 23px;
+    font-size: var(--font-size-body-sm);
+  }
+
+  .section-heading br,
+  .br-desktop {
+    display: none;
+  }
+
+  .eyebrow {
+    margin-bottom: 18px;
+    font-size: var(--font-size-micro);
+    letter-spacing: 1.5px;
+  }
+
+  .split {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .grid--2,
+  .grid--3,
+  .grid--4 {
+    grid-template-columns: 1fr;
+  }
+
+  .btn {
+    --btn-height: 52px;
+    --btn-font: 0.875rem;
+    --btn-gap: 14px;
+    --btn-pad-start: 19px;
+    --btn-disc: 34px;
+  }
+
+  .btn--text {
+    font-size: var(--font-size-body);
+  }
+
+  .motion-ready .reveal {
+    transform: translateY(25px);
+  }
+
+  .motion-ready .reveal.is-visible {
+    transform: none;
+  }
+}
+
+/* Very narrow phones (≤360px): keep buttons and chips inside the viewport. */
+@media (max-width: 360px) {
+  .btn {
+    --btn-gap: 10px;
+    --btn-pad-start: 16px;
+    white-space: normal;
+  }
+}

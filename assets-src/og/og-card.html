@@ -1,0 +1,70 @@
+<!doctype html>
+<!--
+  Social share card source (1200×630). Regenerate public/og/ladder7-og.png with:
+    "C:/Program Files/Google/Chrome/Application/chrome.exe" --headless=new --disable-gpu ^
+      --hide-scrollbars --window-size=1200,630 --screenshot=public/og/ladder7-og.png (then convert to ladder7-og.jpg) ^
+      assets-src/og/og-card.html
+  (see SETUP_AND_DEPLOYMENT.md). Uses only brand tokens, the logo and design copy.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      @font-face {
+        font-family: "Geist";
+        font-weight: 100 900;
+        src: url("../../public/fonts/geist-latin-wght-normal.woff2") format("woff2");
+      }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; }
+      body {
+        position: relative;
+        background: #101416;
+        color: #f5f6f6;
+        font-family: "Geist", Arial, sans-serif;
+      }
+      .glow {
+        position: absolute; inset: 0;
+        background: radial-gradient(ellipse at 70% 85%, #d1dfe61c, transparent 60%);
+      }
+      canvas { position: absolute; inset: 0; }
+      .content { position: absolute; left: 72px; right: 72px; top: 64px; bottom: 60px; display: flex; flex-direction: column; }
+      .logo { width: 196px; height: auto; }
+      .eyebrow {
+        margin: auto 0 22px; display: flex; align-items: center; gap: 12px;
+        font-size: 18px; letter-spacing: 3px; text-transform: uppercase; color: #a9acae; font-weight: 500;
+      }
+      .eyebrow::before { content: ""; width: 9px; height: 9px; border-radius: 50%; background: #f31b40; }
+      h1 { margin: 0; font-size: 132px; font-weight: 400; line-height: 1; letter-spacing: -0.068em; white-space: nowrap; }
+      .accent { color: #f31b40; }
+      p { margin: 26px 0 0; font-size: 26px; line-height: 1.45; color: #a9acae; letter-spacing: -0.3px; }
+      .url { position: absolute; right: 72px; top: 76px; font-size: 18px; color: #808e95; letter-spacing: 0.5px; }
+    </style>
+  </head>
+  <body>
+    <div class="glow"></div>
+    <canvas id="dots" width="1200" height="630"></canvas>
+    <div class="content">
+      <img class="logo" src="../images/ladder7-logo.webp" alt="" />
+      <div class="eyebrow">Technology, built around you</div>
+      <h1>Build. Connect. Grow<span class="accent">.</span></h1>
+      <p>Intelligent websites. Applied AI. Custom software.</p>
+    </div>
+    <div class="url">ladder7.in</div>
+    <script>
+      // Static frame of the hero's particle terrain (same wave function).
+      const c = document.getElementById("dots").getContext("2d");
+      for (let j = 0; j < 60; j++) {
+        for (let i = 0; i < 160; i++) {
+          const x = (i / 159) * 1200;
+          const depth = j / 59;
+          const y = 360 + depth * 300 + Math.sin(i * 0.09 + j * 0.21) * 18 * (1 - depth * 0.4) + Math.cos(j * 0.3 - i * 0.05) * 10;
+          const red = (i * 73 + j * 151) % 997 > 990;
+          c.fillStyle = red ? "rgba(243,27,64,.9)" : `rgba(170,182,189,${0.08 + depth * 0.22})`;
+          const s = 0.8 + depth * 1.6;
+          c.fillRect(x, y, s, s);
+        }
+      }
+    </script>
+  </body>
+</html>

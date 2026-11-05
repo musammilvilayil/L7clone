@@ -1,0 +1,168 @@
+/* ==========================================================================
+   Ladder7 design tokens
+   --------------------------------------------------------------------------
+   The single source of truth for colour, type, spacing, shape, depth and
+   motion. Every value is taken from the supplied design (ladder7-it.html)
+   unless marked "Adjusted" (changed to meet WCAG AA contrast) — see
+   LADDER7_DESIGN_SYSTEM.md for the original values and contrast ratios.
+
+   Components must use these variables instead of literal values, so a brand
+   change is a one-file edit. Breakpoint-dependent overrides live in
+   responsive.css.
+   ========================================================================== */
+
+:root {
+  /* ── Brand ──────────────────────────────────────────────────────────── */
+  --color-brand: #f31b40;          /* Ladder7 red: dots, lines, progress, heading full stops, large text */
+  --color-brand-surface: #dc143c;  /* Adjusted: red fills that carry white text (4.99:1) */
+  --color-brand-soft: #f47b90;     /* small red-toned text on dark surfaces (7.1:1) */
+  --color-brand-ink: #c8102e;      /* Adjusted: small red text on light surfaces (5.9:1) */
+  --color-brand-glow: #f31b4026;   /* translucent red for glows and focus halos */
+
+  /* ── Surfaces: dark ─────────────────────────────────────────────────── */
+  --color-bg: #101416;             /* page background (also "ink" on light surfaces) */
+  --color-bg-deep: #0c1114;        /* footer */
+  --color-surface-1: #14191b;      /* form cards */
+  --color-surface-2: #171e22;      /* panels (pathway, product suite) */
+  --color-surface-3: #1b2023;      /* hover fills */
+  --color-surface-glass: rgb(23 30 33 / 0.48); /* frosted buttons over the hero */
+  --gradient-card: linear-gradient(130deg, #182025, #131a1e);
+
+  /* ── Surfaces: light ────────────────────────────────────────────────── */
+  --color-paper: #f5f7f8;          /* "Connected by design" section */
+  --color-white: #ffffff;          /* "Why Ladder7" stage */
+  --color-art: #e9eded;            /* product illustration canvas */
+  --color-menu: #bfc1c0;           /* overlay menu */
+  --color-menu-card: #efeeed;      /* overlay menu form card */
+  --color-success: #7bcc9b;        /* availability status dot */
+
+  /* ── Text on dark ───────────────────────────────────────────────────── */
+  --color-text: #f5f6f6;           /* primary text (17:1) */
+  --color-text-strong: #ffffff;
+  --color-text-muted: #a9acae;     /* body copy, descriptions (8.1:1) */
+  --color-text-soft: #95a3ac;      /* cool secondary copy (7.2:1) */
+  --color-text-subtle: #808e95;    /* Adjusted: labels, captions (≥5:1) */
+
+  /* ── Text on light ──────────────────────────────────────────────────── */
+  --color-ink: #101416;
+  --color-ink-muted: #5b6b78;      /* Adjusted (5.1:1 on paper) */
+  --color-ink-subtle: #66737a;     /* Adjusted (4.9:1 on white) */
+  --color-menu-link: #3f474a;      /* Adjusted (5.3:1 on menu) */
+  --color-menu-label: #434d52;     /* Adjusted (4.8:1 on menu) */
+
+  /* ── Lines ──────────────────────────────────────────────────────────── */
+  --color-line: #2a2e30;           /* default divider */
+  --color-line-cool: #2c363b;      /* footer, FAQ, card dividers */
+  --color-line-strong: #3d484f;    /* card and node borders */
+  --color-line-chip: #383c3e;      /* tags (decorative) */
+  --color-line-control: #5a6870;   /* inputs, outline buttons (3:1 non-text contrast) */
+  --color-line-light: #d6e0e7;     /* dividers on paper */
+  --color-line-white: #e3e5e4;     /* dividers on white */
+
+  /* ── Typography ─────────────────────────────────────────────────────── */
+  --font-primary: "Geist", "Geist Fallback", Arial, sans-serif;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+
+  /* Fluid sizes (rem keeps user font scaling working). Comments: px range. */
+  --font-size-display: clamp(4rem, 9.7vw, 9.375rem);        /* 64 → 150  hero h1 */
+  --font-size-h1: clamp(3.25rem, 6.7vw, 5.9375rem);         /* 52 → 95   inner-page h1 */
+  --font-size-h2: clamp(2.8125rem, 5vw, 4.75rem);           /* 45 → 76   section h2 */
+  --font-size-h2-sm: clamp(2.125rem, 4vw, 3.6875rem);       /* 34 → 59   compact h2 */
+  --font-size-h3-xl: clamp(2.125rem, 4vw, 3.8125rem);       /* 34 → 61   capability rows */
+  --font-size-h3-lg: clamp(2.0625rem, 3.9vw, 3.625rem);     /* 33 → 58   feature titles */
+  --font-size-h3: clamp(1.75rem, 3.5vw, 3.25rem);           /* 28 → 52   phase / product titles */
+  --font-size-h4: clamp(1.5rem, 2.8vw, 2.5rem);             /* 24 → 40   card titles */
+  --font-size-h5: 1.1875rem;                                 /* 19 */
+  --font-size-h6: 1.0625rem;                                 /* 17 */
+  --font-size-lead: 1.0625rem;                               /* 17  hero description */
+  --font-size-body-lg: 0.9375rem;                            /* 15 */
+  --font-size-body: 0.875rem;                                /* 14 */
+  --font-size-body-sm: 0.8125rem;                            /* 13 */
+  --font-size-caption: 0.75rem;                              /* 12 */
+  --font-size-label: 0.6875rem;                              /* 11  eyebrows */
+  --font-size-micro: 0.625rem;                               /* 10  floor for meaningful text */
+  --font-size-art: 0.5rem;                                   /* 8   floor for decorative art text */
+
+  --line-height-display: 1.08;
+  --line-height-heading: 1.06;
+  --line-height-title: 1.1;
+  --line-height-snug: 1.35;
+  --line-height-body: 1.7;
+  --line-height-relaxed: 1.8;
+
+  --tracking-display: -0.068em;
+  --tracking-heading: -0.055em;
+  --tracking-title: -0.045em;
+  --tracking-tight: -0.02em;
+  --tracking-eyebrow: 0.155em;
+  --tracking-label: 0.13em;
+
+  /* ── Spacing ────────────────────────────────────────────────────────── */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 28px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-14: 56px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+
+  --gutter: 2.5%;                  /* horizontal page padding */
+  --section-padding-y: 110px;      /* vertical section padding */
+  --section-heading-gap: 55px;     /* heading → content */
+  --card-padding: 38px;
+  --grid-gap: 24px;
+  --component-gap: 12px;
+
+  /* ── Layout ─────────────────────────────────────────────────────────── */
+  --container-max: 1500px;         /* content width on ≥1600px screens */
+  --page-min-width: 320px;
+  --header-height: 72px;
+  --scroll-offset: 92px;           /* anchor offset below the fixed header */
+
+  /* ── Shape ──────────────────────────────────────────────────────────── */
+  --radius-xs: 3px;
+  --radius-sm: 7px;
+  --radius-md: 12px;
+  --radius-card: 20px;
+  --radius-dialog: 22px;
+  --radius-panel: 24px;
+  --radius-section: 48px;          /* rounded top of overlapping sections */
+  --radius-pill: 50px;
+  --radius-round: 50%;
+
+  /* ── Depth ──────────────────────────────────────────────────────────── */
+  --shadow-panel: 0 24px 65px #0002;
+  --shadow-float: 0 28px 55px #10141619;
+  --shadow-window: 0 22px 45px #283b4115;
+  --shadow-menu-card: 0 22px 44px #19191d12;
+  --shadow-overlap: 0 -22px 38px #00000012;
+
+  /* ── Motion ─────────────────────────────────────────────────────────── */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);     /* default UI easing */
+  --ease-hero: cubic-bezier(0.16, 1, 0.3, 1);     /* hero word rise */
+  --ease-reveal: cubic-bezier(0.2, 0.65, 0.3, 1); /* scroll reveal */
+  --duration-fast: 200ms;
+  --duration-base: 300ms;
+  --duration-slow: 450ms;
+  --duration-reveal: 900ms;
+
+  /* ── Layers ─────────────────────────────────────────────────────────── */
+  --z-raised: 2;
+  --z-overlap: 3;
+  --z-menu: 29;
+  --z-header: 30;
+  --z-skip: 100;
+
+  /* ── Icons ──────────────────────────────────────────────────────────── */
+  --icon-size: 18px;
+}

@@ -1,0 +1,14 @@
+/* ==========================================================================
+   Global stylesheet entry — imported once in App.tsx.
+   Order matters: tokens → reset → type → global → layout → components →
+   motion → responsive overrides. Section stylesheets load after these via
+   their components.
+   ========================================================================== */
+@import "./variables.css";
+@import "./reset.css";
+@import "./typography.css";
+@import "./global.css";
+@import "./layout.css";
+@import "./components.css";
+@import "./animations.css";
+@import "./responsive.css";

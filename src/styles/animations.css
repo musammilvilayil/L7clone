@@ -1,0 +1,130 @@
+/* ==========================================================================
+   Motion
+   --------------------------------------------------------------------------
+   `.motion-ready` is added to <html> by an inline script in index.html before
+   first paint, so entrance animations start immediately. Without JavaScript
+   (and for crawlers) the class is absent and all content is simply visible.
+   ========================================================================== */
+
+/* ── Scroll reveal ───────────────────────────────────────────────────────────
+   Elements with .reveal fade up when 8% visible (hooks/useReveal.ts adds
+   .is-visible). Only opacity/transform animate: no layout shift. */
+.motion-ready .reveal {
+  opacity: 0;
+  transform: translateY(45px);
+  transition: opacity var(--duration-reveal) var(--ease-reveal),
+    transform 1.1s var(--ease-reveal);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+.motion-ready .reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Entrance used by page heroes (no JS needed). */
+.motion-ready .fade-rise {
+  animation: fade-rise 1s var(--fade-delay, 0s) both;
+}
+
+/* ── Keyframes ───────────────────────────────────────────────────────────── */
+@keyframes hero-rise {
+  from {
+    transform: translateY(115%) rotate(2deg);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0) rotate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-rise {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scroll-mark {
+  0% {
+    transform: translateY(-100%);
+  }
+  60%,
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes status-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 #f31b4000;
+  }
+  50% {
+    box-shadow: 0 0 0 5px #f31b4018;
+  }
+}
+
+@keyframes menu-enter {
+  from {
+    opacity: 0;
+    transform: translateY(-14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes wall-drift {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(calc(-50% - 9px));
+  }
+}
+
+@keyframes flow-signal {
+  to {
+    translate: 0 50px;
+  }
+}
+
+@keyframes panel-in {
+  from {
+    opacity: 0.25;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ── Reduced motion ──────────────────────────────────────────────────────────
+   Everything snaps to its final state. Scroll-pinned scenes switch to normal
+   flow in their own stylesheets. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .motion-ready .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}

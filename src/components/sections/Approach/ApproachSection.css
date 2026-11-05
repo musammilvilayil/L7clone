@@ -1,0 +1,9 @@
+.approach {
+  padding-top: 125px;
+}
+
+@media (max-width: 700px) {
+  .approach {
+    padding-top: 80px;
+  }
+}

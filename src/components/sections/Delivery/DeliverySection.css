@@ -1,0 +1,23 @@
+/* Delivery sheet (design: .it-story-flow.approach) — sits above the approach sheet. */
+
+.delivery {
+  z-index: var(--z-overlap);
+  padding-top: 115px;
+  padding-bottom: 30px;
+  box-shadow: var(--shadow-overlap);
+}
+
+.delivery__cta {
+  margin-top: 24px;
+}
+
+@media (max-width: 700px) {
+  .delivery {
+    padding-top: 80px;
+    padding-bottom: 0;
+  }
+
+  .delivery__cta {
+    margin-top: 18px;
+  }
+}

@@ -1,0 +1,190 @@
+/* ==========================================================================
+   Capability rows (design: .product-row)
+   ========================================================================== */
+
+.capability-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.capability-list > li:last-child .capability-row {
+  border-bottom: 1px solid var(--color-line);
+}
+
+.capability-row {
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  grid-template-columns: 7% 46% 1fr 50px;
+  align-items: center;
+  min-height: 192px;
+}
+
+/* Hover fill rising from the bottom. */
+.capability-row::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--color-surface-3);
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.5s var(--ease-out);
+}
+
+/* Top rule drawn in when the row reveals. */
+.capability-row::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #343a3d;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 1.1s var(--ease-out);
+}
+
+.capability-row.is-visible::after,
+html:not(.motion-ready) .capability-row::after {
+  transform: scaleX(1);
+}
+
+.capability-row__number {
+  font-size: var(--font-size-label);
+  color: var(--color-text-subtle);
+}
+
+.capability-row__title {
+  position: relative;
+  margin: 0 0 12px;
+  font-size: var(--font-size-h3-xl);
+  line-height: var(--line-height-title);
+  letter-spacing: var(--tracking-heading);
+  transition: transform 0.4s var(--ease-out);
+}
+
+.capability-row__title::before {
+  content: "";
+  position: absolute;
+  left: -26px;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  border-radius: var(--radius-round);
+  background: var(--color-brand);
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity var(--duration-base), transform 0.4s;
+}
+
+.capability-row__subtitle {
+  margin: 0;
+  font-size: var(--font-size-micro);
+  letter-spacing: 1.4px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: var(--color-text-subtle);
+}
+
+.capability-row__tags {
+  max-width: 430px;
+  padding-right: 25px;
+}
+
+.capability-row__arrow {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #34383a;
+  border-radius: var(--radius-round);
+  color: #b6b9bb;
+  transition: transform 0.4s, background 0.4s, color 0.4s;
+}
+
+.capability-row:hover::before,
+.capability-row:focus-visible::before {
+  transform: scaleY(1);
+}
+
+.capability-row:hover .capability-row__title,
+.capability-row:focus-visible .capability-row__title {
+  transform: translateX(20px);
+}
+
+.capability-row:hover .capability-row__title::before,
+.capability-row:focus-visible .capability-row__title::before {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.capability-row:hover .capability-row__arrow,
+.capability-row:focus-visible .capability-row__arrow {
+  transform: rotate(45deg);
+  background: var(--color-white);
+  color: var(--color-bg);
+}
+
+.capability-row:hover .tag {
+  border-color: #5a6368;
+  color: #e3e7e9;
+}
+
+.capability-row:hover .tag:nth-child(2n) {
+  transform: translateY(-2px);
+}
+
+.capability-row:focus-visible {
+  outline-offset: -2px;
+}
+
+@media (max-width: 700px) {
+  .capability-row {
+    grid-template-columns: 29px 1fr 38px;
+    row-gap: 19px;
+    min-height: 185px;
+    padding: 28px 0;
+  }
+
+  .capability-row__number {
+    font-size: var(--font-size-micro);
+  }
+
+  .capability-row__title {
+    margin-bottom: 9px;
+    font-size: 1.9375rem;
+    letter-spacing: -1.8px;
+  }
+
+  .capability-row__title::before {
+    display: none;
+  }
+
+  .capability-row__subtitle {
+    letter-spacing: 0.8px;
+  }
+
+  .capability-row__tags {
+    grid-row: 2;
+    grid-column: 2 / 4;
+    max-width: 100%;
+    padding-right: 10px;
+    gap: 6px;
+  }
+
+  .capability-row__arrow {
+    grid-row: 1;
+    grid-column: 3;
+    width: 36px;
+    height: 36px;
+  }
+
+  .capability-row:hover .capability-row__title,
+  .capability-row:hover .capability-row__arrow {
+    transform: none;
+  }
+}

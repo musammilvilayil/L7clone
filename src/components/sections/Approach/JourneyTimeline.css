@@ -1,0 +1,188 @@
+/* Journey timeline (design: .journey-timeline) */
+
+.journey {
+  --progress: 1;
+  position: relative;
+  margin: 0 0 95px;
+  padding: 0 0 70px;
+  border-bottom: 1px solid var(--color-line);
+}
+
+.motion-ready .journey {
+  --progress: 0;
+}
+
+.journey__label {
+  margin: 0 0 75px;
+}
+
+.journey__track {
+  position: relative;
+  height: 1px;
+  margin-right: 25%;
+  background: #32393d;
+}
+
+.journey__fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: var(--color-brand);
+  transform: scaleX(var(--progress));
+  transform-origin: left;
+}
+
+.journey__spark {
+  position: absolute;
+  top: -3px;
+  left: calc(var(--progress) * 100%);
+  width: 6px;
+  height: 6px;
+  border-radius: var(--radius-round);
+  background: #fff;
+  box-shadow: 0 0 7px 3px var(--color-brand);
+}
+
+.journey__phases {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.journey__phase {
+  position: relative;
+  padding-top: 44px;
+}
+
+/* Phases "light up" as the line reaches them. Only the large heading dims
+   (still ≥3:1, the large-text minimum); body copy always keeps full contrast
+   — the design's 35% opacity dimming failed WCAG AA. */
+.journey__phase h3 {
+  transition: color 0.55s;
+}
+
+.motion-ready .journey__phase:not(.is-active) h3 {
+  color: #6b7378;
+}
+
+.journey__phase > i {
+  position: absolute;
+  top: -7px;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #737c81;
+  border-radius: var(--radius-round);
+  background: var(--color-bg);
+  transition: background 0.5s, border-color 0.5s, box-shadow 0.5s;
+}
+
+.journey__phase.is-active > i,
+html:not(.motion-ready) .journey__phase > i {
+  border-color: var(--color-brand);
+  background: var(--color-brand);
+  box-shadow: 0 0 0 5px #f31b4014, 0 0 18px #f31b4030;
+}
+
+.journey__phase > span {
+  font-size: var(--font-size-micro);
+  color: #a6adb1;
+}
+
+.journey__phase h3 {
+  margin: 13px 0 16px;
+  font-size: var(--font-size-h3);
+  letter-spacing: -2px;
+}
+
+.journey__phase p {
+  max-width: 280px;
+  margin: 0;
+  font-size: var(--font-size-body-sm);
+  color: #a1aaaf;
+}
+
+@media (max-width: 1000px) {
+  .journey__phase h3 {
+    letter-spacing: -1px;
+  }
+
+  .journey__phase p {
+    font-size: var(--font-size-caption);
+  }
+}
+
+@media (max-width: 700px) {
+  .journey {
+    margin-bottom: 45px;
+    padding-bottom: 35px;
+  }
+
+  .journey__label {
+    margin-bottom: 32px;
+  }
+
+  .journey__track {
+    position: absolute;
+    top: 65px;
+    bottom: 90px;
+    left: 6px;
+    width: 1px;
+    height: auto;
+    margin: 0;
+  }
+
+  .journey__fill {
+    width: 1px;
+    height: 100%;
+    transform: scaleY(var(--progress));
+    transform-origin: top;
+  }
+
+  .journey__spark {
+    top: calc(var(--progress) * 100%);
+    left: -3px;
+  }
+
+  .journey__phases {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .journey__phase {
+    min-height: 150px;
+    padding: 0 0 28px 35px;
+  }
+
+  .journey__phase > i {
+    top: 0;
+    width: 13px;
+    height: 13px;
+  }
+
+  .journey__phase h3 {
+    margin: 10px 0 12px;
+    font-size: 2.125rem;
+  }
+
+  .journey__phase p {
+    max-width: 310px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .journey,
+  .motion-ready .journey {
+    --progress: 1;
+  }
+
+  .motion-ready .journey__phase:not(.is-active) h3 {
+    color: inherit;
+  }
+}

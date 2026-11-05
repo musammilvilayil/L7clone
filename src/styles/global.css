@@ -1,0 +1,90 @@
+/* ==========================================================================
+   Global page behaviour: document scrolling, focus, selection, utilities.
+   ========================================================================== */
+
+html {
+  background: var(--color-bg);
+  color-scheme: dark;
+  scroll-behavior: smooth;
+  /* Anchor targets land below the fixed header. */
+  scroll-padding-top: var(--scroll-offset);
+}
+
+body {
+  min-width: var(--page-min-width);
+  background: var(--color-bg);
+  /* clip (not hidden) so position: sticky keeps working in pinned scenes */
+  overflow-x: clip;
+}
+
+/* The overlay menu locks page scroll while open. */
+body.menu-open {
+  overflow: hidden;
+}
+
+::selection {
+  background: var(--color-brand-surface);
+  color: var(--color-text-strong);
+}
+
+/* ── Focus ───────────────────────────────────────────────────────────────────
+   Visible for keyboard users only; red to match the design. */
+:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 5px;
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* ── Skip link ───────────────────────────────────────────────────────────── */
+.skip-link {
+  position: fixed;
+  top: -80px;
+  left: 20px;
+  z-index: var(--z-skip);
+  padding: 15px;
+  background: var(--color-white);
+  color: var(--color-ink);
+  font-size: var(--font-size-body);
+}
+
+.skip-link:focus {
+  top: 10px;
+}
+
+/* ── Accessibility utilities ─────────────────────────────────────────────── */
+.sr-only {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Line breaks that only apply on wide screens (copy re-flows on mobile). */
+.br-desktop {
+  display: inline;
+}
+
+/* Placeholder while a route chunk loads: keeps the footer below the fold. */
+.route-loading {
+  min-height: 100svh;
+}
+
+/* Programmatic focus targets (sections reached by in-page links). */
+[tabindex="-1"]:focus {
+  outline: none;
+}
+
+/* ── Main landmark ───────────────────────────────────────────────────────── */
+main {
+  display: block;
+  /* Headings targeted by "Skip to content" should not show a focus ring. */
+  outline: none;
+}

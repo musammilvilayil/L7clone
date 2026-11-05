@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#101416" />
+    <meta name="format-detection" content="telephone=no" />
+    <!--
+      Entrance and scroll animations only hide content once this class is set,
+      so crawlers and visitors without JavaScript always see everything. If the
+      app has not hydrated within 6s (blocked or failed script), the class is
+      removed again and the page shows its final, static state.
+    -->
+    <script>
+      document.documentElement.classList.add("motion-ready");
+      setTimeout(function () {
+        if (!window.__l7Hydrated) document.documentElement.classList.remove("motion-ready");
+      }, 6000);
+    </script>
+    <link rel="preload" href="/fonts/geist-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/icons/favicon-48.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <!--app-head-->
+  </head>
+  <body>
+    <div id="root"><!--app-html--></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,106 @@
+/* Contact (design: .contact) — red sheet; the footer overlaps its bottom. */
+
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8vw;
+  padding-bottom: 120px;
+}
+
+.contact--first {
+  padding-top: calc(var(--header-height) + 70px);
+  border-radius: 0;
+}
+
+.contact h2,
+.contact h1 {
+  font-size: var(--font-size-h1);
+  line-height: 1;
+}
+
+.contact__accent {
+  color: #111618;
+}
+
+.contact__lead {
+  margin: 28px 0;
+  font-size: var(--font-size-body-lg);
+  color: var(--color-text-strong);
+}
+
+.contact .label-tiny {
+  color: var(--color-text-strong);
+}
+
+.contact__links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  margin: 40px 0;
+}
+
+.contact__links a {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  margin-bottom: 15px;
+  font-size: 1.375rem;
+  letter-spacing: -0.5px;
+  overflow-wrap: anywhere;
+}
+
+.contact__links a:hover {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+@media (max-width: 1000px) {
+  .contact {
+    gap: 35px;
+  }
+
+  .contact__links a {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .contact {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .contact--first {
+    padding-top: calc(var(--header-height) + 40px);
+  }
+
+  .contact h2,
+  .contact h1 {
+    font-size: 3.8125rem;
+  }
+
+  .contact__lead {
+    font-size: var(--font-size-body);
+  }
+
+  .contact__links {
+    margin: 32px 0 25px;
+  }
+
+  .contact__links a {
+    gap: 24px;
+    font-size: 1.3125rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .contact h2,
+  .contact h1 {
+    font-size: 3.25rem;
+  }
+
+  .contact__links a {
+    font-size: 1.125rem;
+  }
+}

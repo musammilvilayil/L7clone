@@ -1,0 +1,495 @@
+/* ==========================================================================
+   Shared component classes
+   --------------------------------------------------------------------------
+   Reusable building blocks used by every page. Section-specific styling is
+   co-located with each section component and builds on these classes.
+   ========================================================================== */
+
+/* ── Icon ────────────────────────────────────────────────────────────────── */
+.icon {
+  width: var(--icon-size);
+  height: var(--icon-size);
+  flex: none;
+}
+
+/* ==========================================================================
+   Buttons
+   --------------------------------------------------------------------------
+   .btn                 base (layout, focus, disabled)
+   .btn--primary        light pill, red fill on hover          (design: .pill)
+   .btn--secondary      dark pill with red disc               (design: .mega-submit)
+   .btn--outline        bordered / glass pill                 (design: .pill.outline)
+   .btn--text           underlined text link with arrow        (design: .text-link)
+   .btn--icon           round icon-only button                 (design: .row-arrow)
+   .btn--lg / --md / --sm   sizes (56 / 48 / 40px)
+   .btn__label          text
+   .btn__disc           circular arrow holder at the end
+   ========================================================================== */
+.btn {
+  --btn-height: 56px;
+  --btn-font: 1rem;
+  --btn-disc: 41px;
+  --btn-pad-start: 23px;
+  --btn-gap: 22px;
+  --btn-bg: var(--color-text);
+  --btn-fg: #15191b;
+  --btn-border: transparent;
+  --btn-fill: var(--color-brand-surface);
+  --btn-fill-fg: var(--color-text-strong);
+  --btn-disc-bg: var(--color-bg);
+  --btn-disc-fg: var(--color-text-strong);
+
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--btn-gap);
+  min-height: var(--btn-height);
+  padding: 5px 5px 5px var(--btn-pad-start);
+  border: 1px solid var(--btn-border);
+  border-radius: var(--radius-pill);
+  background: var(--btn-bg);
+  color: var(--btn-fg);
+  font-size: var(--btn-font);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.2;
+  text-align: left;
+  white-space: nowrap;
+  transition: color var(--duration-base), background var(--duration-base),
+    transform var(--duration-base), border-color var(--duration-base);
+}
+
+/* Fill layer that rises from below on hover/focus. */
+.btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  background: var(--btn-fill);
+  transform: translateY(110%);
+  transition: transform var(--duration-slow) var(--ease-out);
+}
+
+.btn:hover,
+.btn:focus-visible {
+  color: var(--btn-fill-fg);
+  border-color: var(--btn-fill);
+  background: var(--btn-fill);
+  transform: translateY(-2px);
+}
+
+.btn:hover::before,
+.btn:focus-visible::before {
+  transform: translateY(0);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn:disabled,
+.btn[aria-disabled="true"] {
+  opacity: 0.45;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.btn:disabled::before {
+  display: none;
+}
+
+.btn__disc {
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  width: var(--btn-disc);
+  height: var(--btn-disc);
+  border-radius: var(--radius-round);
+  background: var(--btn-disc-bg);
+  color: var(--btn-disc-fg);
+  transition: transform 0.4s var(--ease-out), background var(--duration-base), color var(--duration-base);
+}
+
+.btn:hover .btn__disc,
+.btn:focus-visible .btn__disc {
+  transform: rotate(45deg);
+  background: var(--color-white);
+  color: #000;
+}
+
+/* Variants ---------------------------------------------------------------- */
+.btn--primary {
+  /* defaults above */
+}
+
+.btn--secondary {
+  --btn-bg: #111719;
+  --btn-fg: #f7f8f8;
+  --btn-fill: #30393e;
+  --btn-disc-bg: var(--color-brand-surface);
+}
+
+.btn--outline {
+  --btn-bg: transparent;
+  --btn-fg: var(--color-text-strong);
+  --btn-border: var(--color-line-control);
+  --btn-disc-bg: var(--color-white);
+  --btn-disc-fg: #111;
+}
+
+/* Frosted variant used over the particle hero. */
+.btn--glass {
+  --btn-bg: var(--color-surface-glass);
+  --btn-border: #ffffff38;
+  -webkit-backdrop-filter: blur(14px) saturate(1.15);
+  backdrop-filter: blur(14px) saturate(1.15);
+  box-shadow: inset 0 1px 0 #ffffff0d;
+}
+
+/* On a red surface the hover fill switches to near-black. */
+.btn--on-brand {
+  --btn-fill: #111618;
+}
+
+/* Sizes --------------------------------------------------------------------- */
+.btn--lg {
+  /* default */
+}
+
+.btn--md {
+  --btn-height: 48px;
+  --btn-font: 0.875rem;
+  --btn-disc: 34px;
+  --btn-pad-start: 19px;
+  --btn-gap: 16px;
+}
+
+.btn--sm {
+  --btn-height: 40px;
+  --btn-font: 0.75rem;
+  --btn-disc: 32px;
+  --btn-pad-start: 18px;
+  --btn-gap: 14px;
+  padding: 4px 4px 4px var(--btn-pad-start);
+}
+
+.btn--block {
+  width: 100%;
+}
+
+/* Text link variant ---------------------------------------------------------- */
+.btn--text {
+  display: inline-flex;
+  align-items: center;
+  gap: 30px;
+  padding: 0 0 10px;
+  border-bottom: 1px solid var(--text-link-line, #5c6164);
+  font-size: var(--font-size-body-lg);
+  color: inherit;
+  transition: color var(--duration-fast), border-color var(--duration-fast);
+}
+
+.btn--text:hover,
+.btn--text:focus-visible {
+  color: var(--color-text-strong);
+  border-color: currentColor;
+}
+
+/* Round icon button ---------------------------------------------------------- */
+.btn--icon {
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  width: var(--icon-btn-size, 48px);
+  height: var(--icon-btn-size, 48px);
+  border: 1px solid var(--icon-btn-border, #47565f);
+  border-radius: var(--radius-round);
+  background: transparent;
+  color: inherit;
+  transition: background var(--duration-base), border-color var(--duration-base),
+    color var(--duration-base), transform 0.4s var(--ease-out);
+}
+
+.btn--icon:hover:not(:disabled),
+.btn--icon:focus-visible {
+  background: var(--color-brand-surface);
+  border-color: var(--color-brand-surface);
+  color: var(--color-text-strong);
+}
+
+.btn--icon:disabled {
+  opacity: 0.25;
+  cursor: default;
+}
+
+/* ==========================================================================
+   Eyebrow & labels
+   ========================================================================== */
+
+/* Small uppercase kicker above headings, with a red dot. */
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 25px;
+  font-size: var(--font-size-label);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.5;
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+  color: var(--eyebrow-color, var(--color-text-subtle));
+}
+
+.eyebrow::before {
+  content: "";
+  flex-shrink: 0;
+  width: 5px;
+  height: 5px;
+  border-radius: var(--radius-round);
+  background: var(--eyebrow-dot, var(--color-brand));
+}
+
+/* Pulsing status dot variant. */
+.eyebrow--live::before {
+  width: 6px;
+  height: 6px;
+  animation: status-pulse 3s ease-in-out infinite;
+}
+
+.theme-paper .eyebrow,
+.theme-white .eyebrow {
+  --eyebrow-color: var(--color-ink-muted);
+}
+
+.theme-brand .eyebrow {
+  --eyebrow-color: var(--color-text-strong);
+  --eyebrow-dot: var(--color-white);
+}
+
+/* Tiny tracked label, e.g. "01 THE SEVEN STEPS". */
+.label-tiny {
+  display: block;
+  font-size: var(--font-size-micro);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  color: var(--color-text-subtle);
+}
+
+.label-tiny b {
+  margin-right: 14px;
+  font-weight: var(--font-weight-regular);
+  color: var(--color-brand-soft);
+}
+
+/* Availability indicator (green dot). */
+.status {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: var(--font-size-label);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  color: var(--color-text-subtle);
+}
+
+.status::before {
+  content: "";
+  flex-shrink: 0;
+  width: 5px;
+  height: 5px;
+  border-radius: var(--radius-round);
+  background: var(--status-dot, var(--color-success));
+}
+
+/* ==========================================================================
+   Tags, chips and badges
+   ========================================================================== */
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tag {
+  padding: 5px 11px;
+  border: 1px solid var(--tag-border, var(--color-line-chip));
+  border-radius: 30px;
+  font-size: var(--font-size-caption);
+  line-height: 1.2;
+  color: var(--tag-color, #b8bbbd);
+  transition: border-color 0.4s, color 0.4s, transform 0.4s;
+}
+
+/* Count badge, e.g. the "05" next to "THE LADDER7 PRODUCT SUITE". */
+.badge {
+  display: inline-block;
+  padding: 5px 8px;
+  border: 1px solid #344044;
+  border-radius: 20px;
+  font-size: var(--font-size-micro);
+  letter-spacing: 0;
+}
+
+/* Radio "chips" used for the interest picker. */
+.chip-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  position: relative;
+  cursor: pointer;
+}
+
+.chip input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.chip span {
+  display: block;
+  padding: 9px 13px;
+  border: 1px solid var(--chip-border, #4a555a);
+  border-radius: 30px;
+  font-size: var(--font-size-caption);
+  line-height: 1.2;
+  color: var(--chip-color, inherit);
+  transition: border-color var(--duration-fast), background var(--duration-fast), color var(--duration-fast);
+}
+
+.chip:hover span {
+  border-color: var(--chip-hover-border, #747e82);
+}
+
+.chip input:checked + span {
+  border-color: var(--chip-checked-bg, var(--color-white));
+  background: var(--chip-checked-bg, var(--color-white));
+  color: var(--chip-checked-fg, #111);
+}
+
+.chip input:focus-visible + span {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 3px;
+}
+
+/* ==========================================================================
+   Form fields (underline style)
+   ========================================================================== */
+.field {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  font-size: var(--field-label-size, var(--font-size-label));
+  line-height: 1.5;
+  color: var(--field-label-color, #c2c7c9);
+}
+
+.field__control {
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: var(--field-pad, 14px) 0;
+  border: 0;
+  border-bottom: 1px solid var(--field-line, var(--color-line-control));
+  border-radius: 0;
+  background: transparent;
+  color: var(--field-color, var(--color-text-strong));
+  font-size: var(--font-size-body-sm);
+  outline: 0;
+  transition: border-color var(--duration-fast);
+}
+
+.field__control::placeholder {
+  color: var(--field-placeholder, #7d8990);
+  opacity: 1;
+}
+
+.field__control:focus {
+  border-color: var(--color-brand);
+}
+
+/* Visible focus ring for keyboard users in addition to the red underline. */
+.field__control:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 4px;
+}
+
+textarea.field__control {
+  min-height: 85px;
+  resize: vertical;
+}
+
+.field__control[aria-invalid="true"] {
+  border-color: var(--field-error, var(--color-brand-soft));
+}
+
+.field__error {
+  margin-top: 8px;
+  font-size: var(--font-size-caption);
+  line-height: 1.4;
+  color: var(--field-error, var(--color-brand-soft));
+}
+
+.field__required {
+  color: var(--field-error, var(--color-brand-soft));
+  margin-left: 2px;
+}
+
+/* ==========================================================================
+   Cards
+   ========================================================================== */
+.card {
+  padding: var(--card-padding);
+  border: 1px solid var(--color-line-cool);
+  border-radius: var(--radius-card);
+  background: var(--gradient-card);
+  transition: transform 0.6s var(--ease-out), border-color 0.4s;
+}
+
+.card--interactive:hover,
+.card--interactive:focus-within {
+  transform: translateY(-5px);
+  border-color: #d87588;
+}
+
+/* Bordered list rows (e.g. feature lists with a red arrow). */
+.check-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: var(--font-size-caption);
+  line-height: 1.6;
+}
+
+.check-list li {
+  display: flex;
+  gap: 12px;
+  padding: 13px 0;
+  border-top: 1px solid var(--check-line, var(--color-line-light));
+}
+
+.check-list .icon,
+.check-arrow {
+  --icon-size: 14px;
+  margin-top: 3px;
+  color: var(--color-brand-ink);
+}
+
+/* Inline text link inside copy. */
+.inline-link {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.inline-link:hover {
+  color: var(--color-text-strong);
+}

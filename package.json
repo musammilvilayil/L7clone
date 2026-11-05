@@ -1,0 +1,46 @@
+{
+  "name": "ladder7-website",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Ladder7 NextStep Solutions website — React + TypeScript + Vite, statically prerendered.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run typecheck && npm run build:client && npm run build:server && node scripts/prerender.mjs",
+    "build:client": "vite build",
+    "build:server": "vite build --ssr src/entry-server.tsx",
+    "typecheck": "tsc -b",
+    "start": "node server.mjs",
+    "preview": "node server.mjs",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "images": "node scripts/optimize-images.mjs",
+    "icons": "node scripts/generate-icons.mjs",
+    "fonts": "node scripts/copy-fonts.mjs"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-router": "7.18.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@fontsource-variable/geist": "5.3.0",
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.2.1",
+    "eslint": "10.14.0",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "eslint-plugin-react-refresh": "0.5.7",
+    "globals": "17.14.0",
+    "sharp": "0.35.5",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.72.1",
+    "vite": "8.3.6",
+    "vitest": "5.1.0"
+  }
+}

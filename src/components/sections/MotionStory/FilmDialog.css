@@ -1,0 +1,166 @@
+/* Film overview dialog (design: .film-dialog) */
+
+.film-dialog {
+  width: min(1100px, 94vw, calc((90svh - 60px) * 1.77778));
+  max-width: 1100px;
+  max-height: 90svh;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  border-radius: 18px;
+  background: #080c0e;
+  color: var(--color-text-strong);
+  text-align: left; /* the launching section is centred */
+}
+
+.film-dialog::backdrop {
+  background: #000b;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+.film-dialog__close {
+  position: absolute;
+  top: 15px;
+  right: 18px;
+  z-index: 4;
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border: 1px solid #fff4;
+  border-radius: var(--radius-round);
+  background: #1118;
+  color: var(--color-text-strong);
+}
+
+.film-dialog__slides {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.film-dialog__slide {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.film-dialog__slide.is-current {
+  z-index: 1;
+  opacity: 1;
+}
+
+.film-dialog__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.35) saturate(0.6);
+  scale: 1;
+  transition: scale 6s linear;
+}
+
+.film-dialog__slide.is-current img {
+  scale: 1.1;
+}
+
+.film-dialog__slide > span {
+  position: absolute;
+  top: 8%;
+  left: 7%;
+  font-size: var(--font-size-micro);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.film-dialog__slide h2 {
+  position: absolute;
+  bottom: 12%;
+  left: 7%;
+  font-size: clamp(2.625rem, 7vw, 6.25rem);
+  opacity: 0;
+  transform: translateY(35px);
+  transition: transform 1.1s 0.25s var(--ease-out), opacity 0.8s 0.25s;
+}
+
+.film-dialog__slide.is-current h2 {
+  opacity: 1;
+  transform: none;
+}
+
+.film-dialog__controls {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 60px;
+  padding: 0 24px;
+  font-size: var(--font-size-micro);
+  color: #b3bdc2;
+}
+
+.film-dialog__controls button {
+  padding: 10px 0;
+  font-size: var(--font-size-label);
+  white-space: nowrap;
+}
+
+.film-dialog__controls button:hover {
+  color: var(--color-text-strong);
+}
+
+.film-dialog__progress {
+  flex: 1;
+  height: 2px;
+  overflow: hidden;
+  background: #333c42;
+}
+
+.film-dialog__progress span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: var(--color-brand);
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.film-dialog__time {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 700px) {
+  .film-dialog__close {
+    top: 9px;
+    right: 9px;
+    width: 32px;
+    height: 32px;
+  }
+
+  .film-dialog__slide h2 {
+    font-size: 2.5rem;
+  }
+
+  .film-dialog__slide > span {
+    letter-spacing: 1px;
+  }
+
+  .film-dialog__controls {
+    gap: 13px;
+    height: 56px;
+    padding: 0 15px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .film-dialog__slide img,
+  .film-dialog__slide.is-current img {
+    scale: 1;
+  }
+
+  .film-dialog__slide h2 {
+    transform: none;
+  }
+}

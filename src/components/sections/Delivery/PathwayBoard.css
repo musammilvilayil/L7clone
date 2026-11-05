@@ -1,0 +1,622 @@
+/* ==========================================================================
+   Seven-step pinned pathway (design: .growth-pathway / .pathway-*)
+   Scroll variables on .pathway: --panel-y, --panel-rx, --panel-ry,
+   --pathway-art-x/-y, --pathway-number-y, --pathway-grid-y,
+   --pathway-light-x, --pathway-nav-y. On .pathway__panel: --step-progress.
+   ========================================================================== */
+
+.pathway {
+  --pathway-pin: 92px;
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 60px;
+}
+
+/* Tall scroll track only when the pinned scene can run. */
+.motion-ready .pathway {
+  height: calc(760px + 220svh);
+}
+
+.pathway__heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 45px;
+  padding-top: 35px;
+}
+
+.pathway__heading .label-tiny {
+  margin: 0 0 25px;
+}
+
+.pathway__heading h3 {
+  font-size: clamp(2.625rem, 4.8vw, 4.375rem);
+  line-height: 1.05;
+  letter-spacing: -0.05em;
+}
+
+.pathway__heading > p {
+  max-width: 310px;
+  margin: 0 0 5px;
+  font-size: var(--font-size-body-sm);
+  color: #9da8ae;
+}
+
+.pathway__anchor {
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+
+.pathway__board {
+  display: grid;
+  grid-template-columns: 35% 1fr;
+  align-items: start;
+  gap: 6vw;
+  padding-bottom: 1px;
+  perspective: 1400px;
+}
+
+.motion-ready .pathway__board {
+  position: sticky;
+  top: var(--pathway-pin);
+}
+
+/* ── Tabs ────────────────────────────────────────────────────────────────── */
+.pathway__tabs {
+  display: flex;
+  flex-direction: column;
+  transform: translateY(var(--pathway-nav-y, 0px));
+  will-change: transform;
+}
+
+.pathway__tab {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  min-height: 75px;
+  padding: 15px 0;
+  border-bottom: 1px solid #2b3337;
+  font-size: clamp(1.0625rem, 1.9vw, 1.6875rem);
+  letter-spacing: -0.7px;
+  text-align: left;
+  color: #8a969d;
+  transition: color var(--duration-base), padding var(--duration-base);
+}
+
+.pathway__tab:first-child {
+  border-top: 1px solid #2b3337;
+}
+
+.pathway__tab > span {
+  display: grid;
+  flex-shrink: 0;
+  place-items: center;
+  width: 29px;
+  height: 29px;
+  border: 1px solid #394349;
+  border-radius: var(--radius-round);
+  font-size: var(--font-size-micro);
+  letter-spacing: 0;
+  color: #9aa6ad;
+  transition: background var(--duration-base), color var(--duration-base), border-color var(--duration-base);
+}
+
+.pathway__tab-arrow {
+  margin-left: auto;
+  color: #f4f7f9;
+  opacity: 0;
+  transform: translate(-7px, 7px);
+  transition: opacity var(--duration-base), transform 0.4s;
+}
+
+.pathway__tab[aria-selected="true"] {
+  color: #f5f6f7;
+}
+
+.pathway__tab[aria-selected="true"] > span {
+  border-color: var(--color-brand-surface);
+  background: var(--color-brand-surface);
+  color: var(--color-text-strong);
+}
+
+.pathway__tab[aria-selected="true"] .pathway__tab-arrow {
+  opacity: 1;
+  transform: none;
+}
+
+.pathway__tab:hover {
+  padding-left: 8px;
+  color: var(--color-text-strong);
+}
+
+/* ── Panel ───────────────────────────────────────────────────────────────── */
+.pathway__panel {
+  --step-progress: 0.1429;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #2b353b;
+  border-radius: 23px;
+  background: var(--color-surface-2);
+  box-shadow: var(--shadow-panel);
+  transform: translate3d(0, var(--panel-y, 0px), 0) rotateX(var(--panel-rx, 0deg)) rotateY(var(--panel-ry, 0deg));
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transition: box-shadow 0.5s;
+  will-change: transform;
+}
+
+.pathway__graphic {
+  position: relative;
+  isolation: isolate;
+  height: 205px;
+  overflow: hidden;
+  border-bottom: 1px solid #2d373c;
+  background-image: linear-gradient(#c0d8e406 1px, transparent 1px), linear-gradient(90deg, #c0d8e406 1px, transparent 1px);
+  background-position: 0 var(--pathway-grid-y, 0px);
+  background-size: 38px 38px;
+}
+
+.pathway__graphic::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: radial-gradient(ellipse at var(--pathway-light-x, 65%) 25%, #ed21461a, transparent 65%);
+}
+
+.pathway__graphic svg {
+  position: absolute;
+  right: 0;
+  bottom: 25px;
+  width: 78%;
+  height: calc(100% - 42px);
+  overflow: visible;
+  transform: translate3d(var(--pathway-art-x, 0px), var(--pathway-art-y, 0px), 0);
+  will-change: transform;
+}
+
+.pathway__route {
+  fill: none;
+  stroke: #45515a;
+  stroke-width: 1;
+}
+
+.pathway__route-progress {
+  fill: none;
+  stroke: var(--color-brand);
+  stroke-width: 1.5;
+  stroke-dasharray: 1;
+  stroke-dashoffset: calc(1 - var(--step-progress));
+  transition: stroke-dashoffset 0.55s var(--ease-out);
+}
+
+.pathway__nodes circle {
+  fill: #202b32;
+  stroke: #5c6b74;
+  stroke-width: 1;
+  transition: fill 0.5s, stroke 0.5s;
+}
+
+.pathway__nodes circle.is-passed {
+  fill: var(--color-brand);
+  stroke: var(--color-brand);
+}
+
+.pathway__dot,
+.pathway__dot-glow {
+  fill: var(--color-brand);
+  transition: cx 0.55s var(--ease-out), cy 0.55s var(--ease-out);
+}
+
+.pathway__dot {
+  fill: #fff;
+}
+
+.pathway__dot-glow {
+  filter: url(#step-glow);
+}
+
+.pathway__ghost {
+  position: absolute;
+  top: -17px;
+  left: 30px;
+  font-size: 145px;
+  font-weight: var(--font-weight-medium);
+  line-height: 1.3;
+  letter-spacing: -12px;
+  color: #c4d2db0b;
+  transform: translate3d(0, var(--pathway-number-y, 0px), 0);
+  will-change: transform;
+}
+
+.pathway__graphic-label {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  font-size: var(--font-size-art);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #7d8c95;
+}
+
+.pathway__detail {
+  position: relative;
+  min-height: 285px;
+  padding: 33px 36px 0;
+}
+
+.pathway__kicker {
+  margin-bottom: 16px;
+  font-size: var(--font-size-micro);
+  letter-spacing: 1.2px;
+  color: #a2afb6;
+}
+
+.pathway__detail h4 {
+  margin: 0 0 18px;
+  font-size: clamp(2.0625rem, 3.8vw, 3.4375rem);
+  line-height: 1.1;
+  letter-spacing: -0.05em;
+}
+
+.pathway__description {
+  max-width: 500px;
+  margin: 0;
+  font-size: var(--font-size-body-sm);
+  color: #a5b2bb;
+}
+
+.pathway__prompt {
+  margin-top: 28px;
+  padding-left: 16px;
+  border-left: 2px solid var(--color-brand);
+}
+
+.pathway__prompt > span {
+  font-size: var(--font-size-micro);
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: var(--color-text-subtle);
+}
+
+.pathway__prompt > p {
+  margin: 8px 0 0;
+  font-size: var(--font-size-body-sm);
+  line-height: var(--line-height-body);
+  color: #dce4e8;
+}
+
+.pathway__controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 28px 36px;
+}
+
+.pathway__counter {
+  font-size: var(--font-size-caption);
+  letter-spacing: 1px;
+  font-variant-numeric: tabular-nums;
+}
+
+.pathway__counter > span {
+  font-size: var(--font-size-micro);
+  letter-spacing: 0;
+  color: var(--color-text-subtle);
+}
+
+.pathway__mini-progress {
+  flex: 1;
+  height: 2px;
+  margin: 0 15px;
+  background: #35414a;
+}
+
+.pathway__mini-progress > span {
+  display: block;
+  height: 2px;
+  background: var(--color-brand);
+  transform: scaleX(var(--step-progress));
+  transform-origin: left;
+  transition: transform 0.35s var(--ease-out);
+}
+
+.pathway__control {
+  --icon-btn-size: 36px;
+}
+
+.pathway__control .icon {
+  --icon-size: 16px;
+}
+
+.pathway__panel:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 5px;
+}
+
+/* ── Responsive ──────────────────────────────────────────────────────────── */
+@media (max-width: 1000px) {
+  .pathway__board {
+    grid-template-columns: 36% 1fr;
+    gap: 4vw;
+  }
+
+  .pathway__tab {
+    gap: 12px;
+    min-height: 75px;
+    font-size: 1.375rem;
+    letter-spacing: -0.8px;
+  }
+
+  .pathway__detail {
+    min-height: 320px;
+    padding: 27px 25px 0;
+  }
+
+  .pathway__detail h4 {
+    font-size: 2.3125rem;
+  }
+
+  .pathway__controls {
+    padding: 25px;
+  }
+
+  .pathway__heading h3 {
+    font-size: 3.0625rem;
+  }
+
+  .pathway__heading > p {
+    max-width: 260px;
+    font-size: var(--font-size-caption);
+  }
+
+  .pathway__graphic {
+    height: 175px;
+  }
+}
+
+@media (max-height: 740px) and (min-width: 701px) {
+  .pathway__tab {
+    min-height: 61px;
+    padding: 10px 0;
+    font-size: 1.375rem;
+  }
+
+  .pathway__graphic {
+    height: 140px;
+  }
+
+  .pathway__detail {
+    min-height: 232px;
+    padding: 25px 30px 0;
+  }
+
+  .pathway__detail h4 {
+    margin-bottom: 14px;
+    font-size: 2.4375rem;
+  }
+
+  .pathway__description {
+    font-size: var(--font-size-caption);
+    line-height: 1.7;
+  }
+
+  .pathway__prompt {
+    margin-top: 20px;
+  }
+
+  .pathway__prompt > p {
+    font-size: var(--font-size-caption);
+  }
+
+  .pathway__controls {
+    padding: 20px 30px;
+  }
+
+  .pathway__ghost {
+    font-size: 112px;
+    letter-spacing: -8px;
+  }
+
+  .pathway__graphic svg {
+    width: 67%;
+    bottom: 15px;
+  }
+
+  .pathway__graphic-label {
+    bottom: 16px;
+  }
+}
+
+@media (max-width: 700px) {
+  .pathway {
+    --pathway-pin: 82px;
+    padding-bottom: 35px;
+  }
+
+  .motion-ready .pathway {
+    height: calc(820px + 190svh);
+  }
+
+  .pathway__heading {
+    display: block;
+    margin-bottom: 28px;
+    padding-top: 12px;
+  }
+
+  .pathway__heading h3 {
+    font-size: 2.5625rem;
+    letter-spacing: -2px;
+  }
+
+  .pathway__heading > p {
+    max-width: none;
+    margin-top: 22px;
+    font-size: var(--font-size-caption);
+  }
+
+  .pathway__heading .label-tiny {
+    margin-bottom: 22px;
+  }
+
+  .pathway__board {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 0;
+  }
+
+  .pathway__tabs {
+    flex-direction: row;
+    gap: 7px;
+    width: 100%;
+    padding: 5px 0 12px;
+    overflow-x: auto;
+    background: var(--color-bg);
+    scrollbar-width: thin;
+    scrollbar-color: #42515a transparent;
+  }
+
+  .pathway__tab,
+  .pathway__tab:first-child {
+    flex-shrink: 0;
+    gap: 8px;
+    min-height: 40px;
+    padding: 5px 12px 5px 5px;
+    border: 1px solid #34424b;
+    border-radius: 25px;
+    font-size: 0.9375rem;
+    letter-spacing: -0.4px;
+    white-space: nowrap;
+  }
+
+  .pathway__tab[aria-selected="true"] {
+    border-color: #70838f;
+    background: #1e2a32;
+  }
+
+  .pathway__tab > span {
+    width: 25px;
+    height: 25px;
+  }
+
+  .pathway__tab-arrow {
+    display: none;
+  }
+
+  .pathway__tab:hover {
+    padding-left: 5px;
+  }
+
+  .pathway__panel {
+    width: 100%;
+    border-radius: 17px;
+    transform: translateY(var(--panel-y, 0px));
+    transform-style: flat;
+  }
+
+  .pathway__graphic {
+    height: 150px;
+  }
+
+  .pathway__ghost {
+    top: -8px;
+    left: 22px;
+    font-size: 105px;
+    letter-spacing: -8px;
+  }
+
+  .pathway__graphic svg {
+    width: 75%;
+    bottom: 26px;
+  }
+
+  .pathway__graphic-label {
+    left: 23px;
+    bottom: 18px;
+    letter-spacing: 0.7px;
+  }
+
+  .pathway__detail {
+    min-height: 310px;
+    padding: 24px 23px 0;
+  }
+
+  .pathway__kicker {
+    letter-spacing: 0.8px;
+  }
+
+  .pathway__detail h4 {
+    margin-bottom: 17px;
+    font-size: 2rem;
+  }
+
+  .pathway__description,
+  .pathway__prompt > p {
+    font-size: var(--font-size-caption);
+  }
+
+  .pathway__prompt {
+    margin-top: 24px;
+  }
+
+  .pathway__controls {
+    padding: 18px 23px;
+  }
+
+  .pathway__control {
+    --icon-btn-size: 34px;
+  }
+
+  .pathway__mini-progress {
+    margin: 0 6px;
+  }
+
+  .pathway__counter {
+    font-size: var(--font-size-micro);
+  }
+}
+
+/* No pinning on short screens or with reduced motion. */
+@media (max-height: 620px) {
+  .motion-ready .pathway {
+    height: auto;
+  }
+
+  .motion-ready .pathway__board {
+    position: relative;
+    top: auto;
+  }
+
+  .pathway__panel {
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .motion-ready .pathway {
+    height: auto;
+  }
+
+  .motion-ready .pathway__board {
+    position: relative;
+    top: auto;
+  }
+
+  .pathway__panel,
+  .pathway__tabs,
+  .pathway__ghost,
+  .pathway__graphic svg {
+    transform: none;
+  }
+
+  .pathway__route-progress,
+  .pathway__dot,
+  .pathway__dot-glow,
+  .pathway__mini-progress > span {
+    transition: none;
+  }
+}
