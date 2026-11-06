@@ -1,0 +1,113 @@
+/* Learner story / testimonial (design: .stories, .quote-layout) */
+
+.stories {
+  border-top: 0;
+}
+
+.stories .section-heading {
+  display: flex;
+  align-items: flex-end;
+}
+
+.stories h2 {
+  font-size: clamp(2.5rem, 4.8vw, 4.25rem);
+}
+
+.stories__index {
+  padding-bottom: 3px;
+  font-size: var(--font-size-label);
+  color: var(--color-text-subtle);
+  white-space: nowrap;
+}
+
+.stories__quote {
+  display: grid;
+  grid-template-columns: 25% 1fr;
+  gap: 20px;
+  padding: 35px 3vw 0;
+}
+
+.stories__mark {
+  height: 1em;
+  font-family: Georgia, serif;
+  font-size: 12.5rem;
+  line-height: 1;
+  color: var(--color-brand);
+}
+
+.stories__quote blockquote {
+  margin: 0;
+  max-width: none;
+}
+
+.stories__person {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.stories__avatar {
+  display: grid;
+  flex-shrink: 0;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-round);
+  background: #242b2f;
+  font-size: 1.0625rem;
+}
+
+.stories__person strong {
+  font-size: var(--font-size-body-sm);
+  font-weight: var(--font-weight-medium);
+}
+
+.stories__person p {
+  margin: 7px 0 0;
+  font-size: var(--font-size-art);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #969ea2;
+}
+
+@media (max-width: 700px) {
+  .stories .section-heading {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .stories h2 {
+    font-size: 2.5rem;
+  }
+
+  .stories__index {
+    font-size: var(--font-size-micro);
+  }
+
+  .stories__quote {
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding: 0;
+  }
+
+  .stories__mark {
+    height: 70px;
+    font-size: 6.25rem;
+    line-height: 0.9;
+  }
+
+  .stories__quote blockquote {
+    font-size: 1.4375rem;
+    line-height: 1.5;
+    letter-spacing: -0.6px;
+  }
+
+  .stories__person {
+    margin-top: 28px;
+  }
+
+  .stories__person p {
+    font-size: 0.5rem;
+  }
+}

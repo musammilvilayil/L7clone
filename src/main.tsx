@@ -14,6 +14,7 @@ const importers: Record<PageKey, () => Promise<{ default: ComponentType }>> = {
   services: () => import("./pages/Services/ServicesPage"),
   about: () => import("./pages/About/AboutPage"),
   contact: () => import("./pages/Contact/ContactPage"),
+  education: () => import("./pages/Education/EducationPage"),
   notFound: () => import("./pages/NotFound/NotFoundPage"),
 };
 
@@ -22,6 +23,7 @@ const pages: PageComponents = {
   services: lazy(importers.services),
   about: lazy(importers.about),
   contact: lazy(importers.contact),
+  education: lazy(importers.education),
   notFound: lazy(importers.notFound),
 };
 

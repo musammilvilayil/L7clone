@@ -9,7 +9,15 @@ import "./ReadingCopy.css";
  * "What digital progress can look like" — large copy whose words light up
  * one by one as it scrolls through the viewport.
  */
-export function ReadingCopy({ number = "01" }: { number?: string }) {
+export function ReadingCopy({
+  number = "01",
+  label = "What digital progress can look like",
+  phrases = PROGRESS_PHRASES,
+}: {
+  number?: string;
+  label?: string;
+  phrases?: string[];
+}) {
   const ref = useRef<HTMLParagraphElement>(null);
   const reduced = useReducedMotion();
 
@@ -28,10 +36,10 @@ export function ReadingCopy({ number = "01" }: { number?: string }) {
   return (
     <div className="reading">
       <p className="label-tiny">
-        <b>{number}</b> What digital progress can look like
+        <b>{number}</b> {label}
       </p>
       <p className="reading__copy" ref={ref}>
-        {PROGRESS_PHRASES.map((phrase, index) => (
+        {phrases.map((phrase, index) => (
           <Fragment key={phrase}>
             {index > 0 && (
               <>

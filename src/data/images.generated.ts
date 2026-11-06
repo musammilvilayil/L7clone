@@ -105,6 +105,58 @@ export const IMAGES = {
       "avif",
       "webp"
     ]
+  },
+  "photos/mentorship-interview": {
+    "width": 1200,
+    "height": 800,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "formats": [
+      "avif",
+      "webp"
+    ]
+  },
+  "photos/mountain-climb": {
+    "width": 1920,
+    "height": 1440,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "formats": [
+      "avif",
+      "webp"
+    ]
+  },
+  "photos/mindful-reflection": {
+    "width": 1280,
+    "height": 1920,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "formats": [
+      "avif",
+      "webp"
+    ]
+  },
+  "photos/self-reflection-mirror": {
+    "width": 6000,
+    "height": 4000,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "formats": [
+      "avif",
+      "webp"
+    ]
   }
 } as const;
 

@@ -1,0 +1,22 @@
+/* Page-level overrides that don't belong to a shared, reusable section. */
+
+/* Approach sheet (design's generic `.approach`, used here and on About —
+   distinct from the Home page's own `.it-approach`-equivalent spacing). */
+.education-approach {
+  padding-top: 135px;
+  box-shadow: 0 -22px 38px #00000012;
+}
+
+.education-approach__cta {
+  margin-top: 24px;
+}
+
+@media (max-width: 700px) {
+  .education-approach {
+    padding-top: 75px;
+  }
+
+  .education-approach__cta {
+    margin-top: 18px;
+  }
+}

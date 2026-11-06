@@ -34,6 +34,11 @@ const JOBS = [
   { src: "code-editor.jpg", name: "photos/code-editor", widths: [480, 800, 1200], formats: ["avif", "webp"] },
   { src: "online-checkout.jpg", name: "photos/online-checkout", widths: [480, 800, 1200], formats: ["avif", "webp"] },
   { src: "team-workshop.webp", name: "photos/team-workshop", widths: [480, 800, 1200], formats: ["avif", "webp"] },
+  // Education page: wall collage + program cards (same ~330–700 css px range).
+  { src: "mentorship-interview.jpg", name: "photos/mentorship-interview", widths: [480, 800, 1200], formats: ["avif", "webp"] },
+  { src: "mountain-climb.webp", name: "photos/mountain-climb", widths: [480, 800, 1200], formats: ["avif", "webp"] },
+  { src: "mindful-reflection.webp", name: "photos/mindful-reflection", widths: [480, 800, 1200], formats: ["avif", "webp"] },
+  { src: "self-reflection-mirror.webp", name: "photos/self-reflection-mirror", widths: [480, 800, 1200], formats: ["avif", "webp"] },
 ];
 
 const DEFAULT_QUALITY = { avif: 50, webp: 74 };

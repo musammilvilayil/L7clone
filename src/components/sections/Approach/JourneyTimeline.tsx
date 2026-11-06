@@ -1,7 +1,8 @@
 import { useRef } from "react";
-import { JOURNEY_PHASES } from "../../../data/process";
+import { JOURNEY_PHASES, type Phase } from "../../../data/process";
 import { useReducedMotion } from "../../../hooks/useMediaQuery";
 import { useScrollFrame } from "../../../hooks/useScrollFrame";
+import { cn } from "../../../utils/cn";
 import { clamp } from "../../../utils/math";
 import "./JourneyTimeline.css";
 
@@ -9,7 +10,18 @@ import "./JourneyTimeline.css";
  * Four-phase journey. A red line fills and phases light up as the timeline
  * scrolls through the viewport (horizontal on desktop, vertical on phones).
  */
-export function JourneyTimeline({ label = "Your business journey, in motion", number = "01" }: { label?: string; number?: string }) {
+export function JourneyTimeline({
+  label = "Your business journey, in motion",
+  number = "01",
+  phases = JOURNEY_PHASES,
+  /** Drops the bottom border/margin when this is the last thing in its section (Education's approach). */
+  noBorder = false,
+}: {
+  label?: string;
+  number?: string;
+  phases?: Phase[];
+  noBorder?: boolean;
+}) {
   const ref = useRef<HTMLDivElement>(null);
   const reduced = useReducedMotion();
 
@@ -28,7 +40,7 @@ export function JourneyTimeline({ label = "Your business journey, in motion", nu
   });
 
   return (
-    <div className="journey" ref={ref}>
+    <div className={cn("journey", noBorder && "journey--no-border")} ref={ref}>
       <p className="label-tiny journey__label">
         <b>{number}</b> {label}
       </p>
@@ -37,7 +49,7 @@ export function JourneyTimeline({ label = "Your business journey, in motion", nu
         <span className="journey__spark" />
       </div>
       <ol className="journey__phases">
-        {JOURNEY_PHASES.map((phase) => (
+        {phases.map((phase) => (
           <li key={phase.number} className="journey__phase">
             <i aria-hidden="true" />
             <span>{phase.number}</span>

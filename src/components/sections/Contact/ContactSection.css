@@ -55,6 +55,12 @@
   text-underline-offset: 6px;
 }
 
+/* Education's "Let's find your direction" status line (IT's content omits it). */
+.contact__status {
+  --status-dot: #fff;
+  color: #ffe2e7;
+}
+
 @media (max-width: 1000px) {
   .contact {
     gap: 35px;

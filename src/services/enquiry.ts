@@ -46,10 +46,17 @@ export function validateEnquiry(values: Enquiry, interests: readonly string[]): 
   return errors;
 }
 
-/** The message text the visitor will see in WhatsApp (format from the design). */
-export function composeMessage(values: Enquiry): string {
+/**
+ * The message text the visitor will see in WhatsApp (format from the design).
+ *
+ * The overlay menu's form — shared by every page — names the division
+ * ("Hi Ladder7 IT!" / "Hi Ladder7 Education!") since the visitor could be
+ * enquiring from either. Each page's own contact-section form omits it
+ * (`division` left undefined): the division is already obvious from context.
+ */
+export function composeMessage(values: Enquiry, division?: "IT" | "Education"): string {
   return [
-    `Hi Ladder7! I'm ${values.name.trim()}.`,
+    `Hi Ladder7${division ? ` ${division}` : ""}! I'm ${values.name.trim()}.`,
     `Email: ${values.email.trim()}`,
     `Interested in: ${values.interest}`,
     "",
@@ -57,8 +64,8 @@ export function composeMessage(values: Enquiry): string {
   ].join("\n");
 }
 
-export function whatsappUrl(values: Enquiry, number = WHATSAPP_NUMBER): string {
-  return `https://wa.me/${number}?text=${encodeURIComponent(composeMessage(values))}`;
+export function whatsappUrl(values: Enquiry, division?: "IT" | "Education", number = WHATSAPP_NUMBER): string {
+  return `https://wa.me/${number}?text=${encodeURIComponent(composeMessage(values, division))}`;
 }
 
 /** Whether a copy of the enquiry is also sent to an endpoint. */

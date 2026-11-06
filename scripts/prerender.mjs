@@ -44,6 +44,7 @@ const PAGE_MODULES = {
   services: "src/pages/Services/ServicesPage.tsx",
   about: "src/pages/About/AboutPage.tsx",
   contact: "src/pages/Contact/ContactPage.tsx",
+  education: "src/pages/Education/EducationPage.tsx",
   notFound: "src/pages/NotFound/NotFoundPage.tsx",
 };
 

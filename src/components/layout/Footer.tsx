@@ -1,11 +1,14 @@
 import { useRef } from "react";
-import { Link } from "react-router";
-import { FOOTER_NAV } from "../../data/navigation";
+import { Link, useLocation } from "react-router";
+import { EDUCATION_FOOTER_INTRO } from "../../data/education";
+import { footerNavFor } from "../../data/navigation";
 import { COMPANY, LOCATIONS } from "../../data/site";
 import { useReducedMotion } from "../../hooks/useMediaQuery";
 import { useScrollFrame } from "../../hooks/useScrollFrame";
+import { divisionForPath } from "../../routes";
 import { clamp } from "../../utils/math";
 import { ArrowUpRight } from "../common/Icons";
+import { Lines } from "../common/Lines";
 import { SmartLink } from "../common/SmartLink";
 import "./Footer.css";
 
@@ -17,6 +20,8 @@ import "./Footer.css";
 export function Footer({ inert }: { inert?: boolean }) {
   const ref = useRef<HTMLElement>(null);
   const reduced = useReducedMotion();
+  const division = divisionForPath(useLocation().pathname);
+  const isEducation = division === "education";
 
   useScrollFrame(({ vh }) => {
     const el = ref.current;
@@ -51,14 +56,26 @@ export function Footer({ inert }: { inert?: boolean }) {
       <div className="site-footer__grid">
         <div className="site-footer__intro">
           <p>
-            Build smarter.
-            <br />
-            Grow further<span className="accent">.</span>
+            {isEducation ? (
+              <Lines text={EDUCATION_FOOTER_INTRO.title} accent />
+            ) : (
+              <>
+                Build smarter.
+                <br />
+                Grow further<span className="accent">.</span>
+              </>
+            )}
           </p>
           <span>
-            Digital experiences that work harder.
-            <br />
-            Technology built around your business.
+            {isEducation ? (
+              <Lines text={EDUCATION_FOOTER_INTRO.text} />
+            ) : (
+              <>
+                Digital experiences that work harder.
+                <br />
+                Technology built around your business.
+              </>
+            )}
           </span>
           <a href={`mailto:${COMPANY.email}`}>
             {COMPANY.email}
@@ -66,7 +83,7 @@ export function Footer({ inert }: { inert?: boolean }) {
           </a>
         </div>
 
-        {FOOTER_NAV.map((group) => (
+        {footerNavFor(division).map((group) => (
           <nav key={group.title} aria-labelledby={`footer-${group.title.toLowerCase()}`}>
             <h2 className="label-tiny" id={`footer-${group.title.toLowerCase()}`}>
               {group.title}
@@ -100,7 +117,7 @@ export function Footer({ inert }: { inert?: boolean }) {
 
       <div className="site-footer__brand-window">
         <div className="site-footer__brand-caption" aria-hidden="true">
-          <span>Technology. With purpose.</span>
+          <span>{isEducation ? EDUCATION_FOOTER_INTRO.caption : "Technology. With purpose."}</span>
           <span>Cochin · Trivandrum</span>
         </div>
         <Link to="#top" className="site-footer__wordmark" aria-label="Ladder7 — back to top">

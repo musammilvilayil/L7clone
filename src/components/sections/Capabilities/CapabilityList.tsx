@@ -1,7 +1,7 @@
-import { Link } from "react-router";
 import type { Capability } from "../../../data/services";
 import { revealRef } from "../../../hooks/useReveal";
 import { ArrowUpRight } from "../../common/Icons";
+import { SmartLink } from "../../common/SmartLink";
 import { TagList } from "../../ui/TagList";
 import "./CapabilityList.css";
 
@@ -24,7 +24,7 @@ export function CapabilityList({
     <ul className="capability-list">
       {items.map((capability) => (
         <li key={capability.id}>
-          <Link
+          <SmartLink
             to={hrefFor(capability)}
             className="capability-row reveal"
             ref={revealRef}
@@ -39,7 +39,7 @@ export function CapabilityList({
             <span className="capability-row__arrow" aria-hidden="true">
               <ArrowUpRight />
             </span>
-          </Link>
+          </SmartLink>
         </li>
       ))}
     </ul>

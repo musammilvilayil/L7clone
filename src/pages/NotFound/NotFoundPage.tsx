@@ -7,6 +7,7 @@ import "./NotFoundPage.css";
 
 const LINKS = [
   { label: "Services", to: "/services" },
+  { label: "Education", to: "/education" },
   { label: "About Ladder7", to: "/about" },
   { label: "Contact", to: "/contact" },
   { label: "Insights", to: LEGACY_LINKS.blogs },

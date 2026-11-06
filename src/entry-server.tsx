@@ -9,6 +9,7 @@ import { StaticRouter } from "react-router";
 import { App, type PageComponents } from "./App";
 import AboutPage from "./pages/About/AboutPage";
 import ContactPage from "./pages/Contact/ContactPage";
+import EducationPage from "./pages/Education/EducationPage";
 import HomePage from "./pages/Home/HomePage";
 import NotFoundPage from "./pages/NotFound/NotFoundPage";
 import ServicesPage from "./pages/Services/ServicesPage";
@@ -20,6 +21,7 @@ const pages: PageComponents = {
   services: ServicesPage,
   about: AboutPage,
   contact: ContactPage,
+  education: EducationPage,
   notFound: NotFoundPage,
 };
 

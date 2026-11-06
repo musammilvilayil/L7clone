@@ -180,6 +180,25 @@
   animation: scroll-mark 2.5s ease-in-out infinite;
 }
 
+/* ── Education variant ───────────────────────────────────────────────────────
+   The design's base hero type and stat sizing (no `it-page` narrowing): a
+   larger h1 clamp and plain counted numbers instead of word+icon stats. */
+.hero[data-variant="education"] .hero__title {
+  font-size: clamp(4.625rem, 10.7vw, 10.625rem); /* 74 → 170px */
+}
+
+.hero[data-variant="education"] .hero__stats {
+  gap: 50px;
+}
+
+.hero[data-variant="education"] .hero__stats dt {
+  font-size: 0.625rem; /* 10px */
+}
+
+.hero[data-variant="education"] .hero__stats dd {
+  font-size: 1.8125rem; /* 29px */
+}
+
 /* ── Responsive ──────────────────────────────────────────────────────────── */
 @media (max-width: 700px) {
   .hero {
@@ -272,9 +291,7 @@
   }
 
   .hero__scroll {
-    left: auto;
-    right: 0;
-    bottom: 0;
+    position: static;
     flex-direction: row;
     gap: 9px;
     transform: none;
@@ -282,6 +299,22 @@
 
   .hero__scroll span {
     height: 20px;
+  }
+
+  .hero[data-variant="education"] .hero__title {
+    font-size: 10.4vw;
+  }
+
+  .hero[data-variant="education"] .hero__stats {
+    gap: 10px;
+  }
+
+  .hero[data-variant="education"] .hero__stats dt {
+    font-size: 0.5rem; /* 8px */
+  }
+
+  .hero[data-variant="education"] .hero__stats dd {
+    font-size: 1.5625rem; /* 25px */
   }
 }
 

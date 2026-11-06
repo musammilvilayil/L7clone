@@ -1,0 +1,76 @@
+/* Program detail dialog (design's generic `dialog` base style) */
+
+.program-dialog {
+  width: min(610px, calc(100% - 36px));
+  max-height: 85svh;
+  padding: 45px;
+  overflow: auto;
+  border: 1px solid #495156;
+  border-radius: var(--radius-dialog);
+  background: var(--color-surface-2);
+  color: var(--color-text-strong);
+}
+
+.program-dialog::backdrop {
+  background: #000b;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+.program-dialog .eyebrow {
+  margin-bottom: 0;
+}
+
+.program-dialog h2 {
+  margin: 16px 0 0;
+  padding-right: 10px;
+  font-size: 2.75rem;
+}
+
+.program-dialog > p:not(.eyebrow) {
+  margin: 25px 0;
+  font-size: var(--font-size-body-sm);
+  line-height: var(--line-height-relaxed);
+  color: #aab3b8;
+}
+
+.program-dialog h3 {
+  margin-top: 35px;
+  font-size: var(--font-size-caption);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: 0.5px;
+}
+
+.program-dialog ul {
+  margin: 16px 0 0;
+  padding-left: 20px;
+  font-size: var(--font-size-body);
+  line-height: 2;
+  color: #aab3b8;
+}
+
+.program-dialog .btn {
+  margin-top: 20px;
+}
+
+.program-dialog__close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  font-size: 1.875rem;
+  color: #b6c0c5;
+}
+
+.program-dialog__close:hover {
+  color: var(--color-text-strong);
+}
+
+@media (max-width: 700px) {
+  .program-dialog {
+    padding: 36px 25px;
+  }
+
+  .program-dialog h2 {
+    font-size: 2.1875rem;
+  }
+}

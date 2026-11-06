@@ -1,7 +1,8 @@
 import { forwardRef } from "react";
-import { Link } from "react-router";
+import { Link, useLocation } from "react-router";
 import { useEnquiry } from "../../context/EnquiryContext";
-import { DIVISIONS, HEADER_NAV } from "../../data/navigation";
+import { divisionSwitchFor, headerNavFor } from "../../data/navigation";
+import { divisionForPath } from "../../routes";
 import { cn } from "../../utils/cn";
 import { SmartLink } from "../common/SmartLink";
 import { Button } from "../ui/Button";
@@ -22,10 +23,17 @@ function RollLink({ to, label, onClick }: { to: string; label: string; onClick: 
 
 export const Header = forwardRef<HTMLElement>(function Header(_props, ref) {
   const { menuOpen, toggleMenu, closeMenu } = useEnquiry();
+  const division = divisionForPath(useLocation().pathname);
+  const brandHome = division === "education" ? "/education" : "/";
 
   return (
     <header ref={ref} className="site-header">
-      <Link to="/" className="site-header__brand" aria-label="Ladder7 IT home" onClick={closeMenu}>
+      <Link
+        to={brandHome}
+        className="site-header__brand"
+        aria-label={division === "education" ? "Ladder7 Education home" : "Ladder7 IT home"}
+        onClick={closeMenu}
+      >
         <img
           src="/images/brand/ladder7-logo-284.webp"
           srcSet="/images/brand/ladder7-logo-284.webp 284w, /images/brand/ladder7-logo-568.webp 568w"
@@ -38,21 +46,21 @@ export const Header = forwardRef<HTMLElement>(function Header(_props, ref) {
       </Link>
 
       <nav className="desktop-nav" aria-label="Main navigation">
-        {HEADER_NAV.map((item) => (
+        {headerNavFor(division).map((item) => (
           <RollLink key={item.to} to={item.to} label={item.label} onClick={closeMenu} />
         ))}
       </nav>
 
       <nav className="division-switch" aria-label="Ladder7 divisions">
-        {DIVISIONS.map((division) => (
+        {divisionSwitchFor(division).map((item) => (
           <SmartLink
-            key={division.label}
-            to={division.to}
-            className={cn("division-switch__link", division.current && "is-selected")}
-            aria-current={division.current ? "page" : undefined}
+            key={item.label}
+            to={item.to}
+            className={cn("division-switch__link", item.current && "is-selected")}
+            aria-current={item.current ? "page" : undefined}
             onClick={closeMenu}
           >
-            {division.label}
+            {item.label}
           </SmartLink>
         ))}
       </nav>

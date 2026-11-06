@@ -49,7 +49,13 @@ describe("composeMessage / whatsappUrl", () => {
   });
 
   it("builds a wa.me URL with the message URL-encoded", () => {
-    const url = whatsappUrl(valid, "918137979401");
+    const url = whatsappUrl(valid, undefined, "918137979401");
     expect(url).toBe(`https://wa.me/918137979401?text=${encodeURIComponent(composeMessage(valid))}`);
+  });
+
+  it("names the division only when one is given (the overlay menu's form, not a page's own contact form)", () => {
+    expect(composeMessage(valid)).toMatch(/^Hi Ladder7! I'm/);
+    expect(composeMessage(valid, "IT")).toMatch(/^Hi Ladder7 IT! I'm/);
+    expect(composeMessage(valid, "Education")).toMatch(/^Hi Ladder7 Education! I'm/);
   });
 });

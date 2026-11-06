@@ -3,15 +3,20 @@ import { createContext, useCallback, useContext, useMemo, useState, type ReactNo
 /**
  * Overlay menu + enquiry prefill.
  *
- * The design's overlay menu doubles as the quick enquiry form. Any button can
- * open it with a pre-selected interest and starter message — the same pattern
- * as Whiteline's BookingContext (`openBooking("Invisalign")`).
+ * The design's overlay menu doubles as a quick enquiry form, and a program's
+ * detail dialog can instead prefill the page's own contact-section form
+ * (`target: "contact"`) the way the design directly sets `#enquiry-form`'s
+ * fields. Either way, the same pattern as Whiteline's BookingContext
+ * (`openBooking("Invisalign")`): any button can request a prefill.
  *
  * @example
  *   const { openEnquiry } = useEnquiry();
- *   <button onClick={() => openEnquiry({ interest: "Corporate training" })}>…</button>
+ *   <button onClick={() => openEnquiry({ interest: "Corporate training" })}>…</button>  // opens the menu
+ *   <button onClick={() => openEnquiry({ target: "contact", message: "…" })}>…</button>  // fills this page's own form
  */
 export interface EnquiryPrefill {
+  /** "menu" (default) opens the overlay menu; "contact" fills the page's own contact-section form in place. */
+  target: "menu" | "contact";
   interest?: string;
   message?: string;
   /** Changes on every request so the form re-applies the same prefill. */
@@ -23,8 +28,8 @@ interface EnquiryContextValue {
   openMenu: () => void;
   closeMenu: () => void;
   toggleMenu: () => void;
-  /** Opens the menu with the enquiry form pre-filled and focused. */
-  openEnquiry: (prefill: Omit<EnquiryPrefill, "key">) => void;
+  /** Requests a prefill; opens the overlay menu unless `target: "contact"`. */
+  openEnquiry: (prefill: Omit<EnquiryPrefill, "key" | "target"> & { target?: EnquiryPrefill["target"] }) => void;
   prefill: EnquiryPrefill | null;
 }
 
@@ -37,9 +42,10 @@ export function EnquiryProvider({ children }: { children: ReactNode }) {
   const openMenu = useCallback(() => setMenuOpen(true), []);
   const closeMenu = useCallback(() => setMenuOpen(false), []);
   const toggleMenu = useCallback(() => setMenuOpen((open) => !open), []);
-  const openEnquiry = useCallback((next: Omit<EnquiryPrefill, "key">) => {
-    setPrefill({ ...next, key: Date.now() });
-    setMenuOpen(true);
+  const openEnquiry: EnquiryContextValue["openEnquiry"] = useCallback((next) => {
+    const target = next.target ?? "menu";
+    setPrefill({ ...next, target, key: Date.now() });
+    if (target === "menu") setMenuOpen(true);
   }, []);
 
   const value = useMemo(

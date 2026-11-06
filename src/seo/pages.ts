@@ -86,6 +86,20 @@ export const PAGE_SEO: Record<PageKey, PageSeo> = {
     priority: 0.7,
     breadcrumb: [{ name: "Contact", path: "/contact" }],
   },
+  education: {
+    path: "/education",
+    title: "Ladder7 Education | Learn. Build. Grow.",
+    description:
+      "Discover your next step with Ladder7 Education. Career-focused learning, practical internships and a framework for personal growth, from Cochin and Trivandrum.",
+    name: "Learn. Build. Grow.",
+    image: DEFAULT_IMAGE,
+    imageAlt: DEFAULT_IMAGE_ALT,
+    indexable: true,
+    lastModified: RELEASE_DATE,
+    changeFrequency: "monthly",
+    priority: 0.9,
+    breadcrumb: [{ name: "Education", path: "/education" }],
+  },
   notFound: {
     path: "/404",
     title: "Page Not Found | Ladder7",

@@ -41,10 +41,12 @@ export interface EnquiryFormProps {
   submitLabel?: string;
   /** Interest chosen elsewhere on the page (e.g. the solutions tabs). */
   interest?: string;
+  /** Names the division in the WhatsApp message (the overlay menu only — see composeMessage). */
+  division?: "IT" | "Education";
   /** Prefill from useEnquiry().openEnquiry(); re-applied whenever its key changes. */
   prefill?: EnquiryPrefill | null;
   /** Called after a prefill is applied (the menu uses it to focus + scroll). */
-  onPrefillApplied?: (nameInput: HTMLInputElement | null) => void;
+  onPrefillApplied?: (form: { name: HTMLInputElement | null; message: HTMLTextAreaElement | null }) => void;
 }
 
 type FieldName = keyof Enquiry;
@@ -71,6 +73,7 @@ export function EnquiryForm({
   messageRows = 3,
   submitLabel = "Continue on WhatsApp",
   interest,
+  division,
   prefill,
   onPrefillApplied,
 }: EnquiryFormProps) {
@@ -117,7 +120,7 @@ export function EnquiryForm({
       interest: prefill.interest && interests.includes(prefill.interest) ? prefill.interest : v.interest,
       message: prefill.message ?? v.message,
     }));
-    onPrefillApplied?.(nameRef.current);
+    onPrefillApplied?.({ name: nameRef.current, message: messageRef.current });
   }, [prefill, interests, onPrefillApplied]);
 
   const errors: EnquiryErrors = validateEnquiry(values, interests);
@@ -144,7 +147,7 @@ export function EnquiryForm({
       return;
     }
     setSummary("");
-    const url = whatsappUrl(values);
+    const url = whatsappUrl(values, division);
     // Must run synchronously inside the submit handler or pop-up blockers stop it.
     window.open(url, "_blank", "noopener,noreferrer");
     setHandoffUrl(url);
@@ -169,7 +172,7 @@ export function EnquiryForm({
     ? "We receive a copy of your enquiry, and WhatsApp opens for you to review and send your message."
     : "Your enquiry opens in WhatsApp for you to review and send.";
 
-  const mailto = `mailto:${COMPANY.email}?subject=${encodeURIComponent(`Enquiry: ${values.interest}`)}&body=${encodeURIComponent(composeMessage(values))}`;
+  const mailto = `mailto:${COMPANY.email}?subject=${encodeURIComponent(`Enquiry: ${values.interest}`)}&body=${encodeURIComponent(composeMessage(values, division))}`;
 
   const describedBy = (field: FieldName) => (visibleError(field) ? id(`${field}-error`) : undefined);
 

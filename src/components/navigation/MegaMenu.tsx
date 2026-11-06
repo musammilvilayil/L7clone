@@ -2,12 +2,13 @@ import { useCallback, useEffect, useRef, type RefObject } from "react";
 import { useLocation } from "react-router";
 import { useEnquiry } from "../../context/EnquiryContext";
 import { MENU_INTERESTS } from "../../data/company";
-import { MENU_COLUMNS } from "../../data/navigation";
+import { EDUCATION_MENU } from "../../data/education";
+import { menuColumnsFor } from "../../data/navigation";
 import { COMPANY } from "../../data/site";
 import { useFocusTrap } from "../../hooks/useFocusTrap";
 import { prefersReducedMotion } from "../../hooks/useMediaQuery";
 import { cn } from "../../utils/cn";
-import { normalisePath } from "../../routes";
+import { divisionForPath, normalisePath } from "../../routes";
 import { SmartLink } from "../common/SmartLink";
 import { EnquiryForm } from "../forms/EnquiryForm";
 import "./MegaMenu.css";
@@ -24,6 +25,8 @@ export function MegaMenu({ headerRef }: { headerRef: RefObject<HTMLElement | nul
   const menuRef = useRef<HTMLDivElement>(null);
   const location = useLocation();
   const current = normalisePath(location.pathname);
+  const division = divisionForPath(location.pathname);
+  const isEducation = division === "education";
 
   useFocusTrap([headerRef, menuRef], menuOpen, closeMenu);
 
@@ -39,12 +42,17 @@ export function MegaMenu({ headerRef }: { headerRef: RefObject<HTMLElement | nul
     closeMenu();
   }, [location.key, closeMenu]);
 
-  const focusForm = useCallback((nameInput: HTMLInputElement | null) => {
+  const focusForm = useCallback(({ name }: { name: HTMLInputElement | null; message: HTMLTextAreaElement | null }) => {
     requestAnimationFrame(() => {
-      nameInput?.focus({ preventScroll: true });
-      nameInput?.closest(".enquiry")?.scrollIntoView({ block: "start", behavior: prefersReducedMotion() ? "instant" : "smooth" });
+      name?.focus({ preventScroll: true });
+      name?.closest(".enquiry")?.scrollIntoView({ block: "start", behavior: prefersReducedMotion() ? "instant" : "smooth" });
     });
   }, []);
+
+  // Only the overlay menu's own form reacts to a "menu"-targeted prefill
+  // (a program dialog's "Talk to an advisor" targets "contact" instead —
+  // see ContactSection).
+  const menuPrefill = prefill?.target === "menu" ? prefill : null;
 
   return (
     <div
@@ -60,13 +68,18 @@ export function MegaMenu({ headerRef }: { headerRef: RefObject<HTMLElement | nul
           <EnquiryForm
             variant="menu"
             source="menu"
-            eyebrow="Let's work together"
-            heading="Have a project in mind?"
+            eyebrow={isEducation ? EDUCATION_MENU.eyebrow : "Let's work together"}
+            heading={isEducation ? EDUCATION_MENU.heading : "Have a project in mind?"}
             headingLevel="h2"
-            interests={MENU_INTERESTS}
-            labels={{ name: "Your name", email: "Email", message: "Tell us about your project" }}
+            interests={isEducation ? EDUCATION_MENU.interests : MENU_INTERESTS}
+            labels={{
+              name: "Your name",
+              email: "Email",
+              message: isEducation ? "Tell us about your next step" : "Tell us about your project",
+            }}
             messageRows={2}
-            prefill={prefill}
+            division={isEducation ? "Education" : "IT"}
+            prefill={menuPrefill}
             onPrefillApplied={focusForm}
           />
           <p className="mega-menu__email">
@@ -82,7 +95,7 @@ export function MegaMenu({ headerRef }: { headerRef: RefObject<HTMLElement | nul
         </div>
 
         <nav className="mega-menu__nav" aria-label="Expanded navigation">
-          {MENU_COLUMNS.map((column, columnIndex) => (
+          {menuColumnsFor(division).map((column, columnIndex) => (
             <div className="mega-menu__column" key={columnIndex}>
               {column.map((group) => (
                 <div className="mega-menu__group" key={group.title}>
