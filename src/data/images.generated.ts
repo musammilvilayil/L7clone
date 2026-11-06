@@ -23,7 +23,6 @@ export const IMAGES = {
       1024
     ],
     "formats": [
-      "avif",
       "webp"
     ]
   },
@@ -37,7 +36,6 @@ export const IMAGES = {
       1024
     ],
     "formats": [
-      "avif",
       "webp"
     ]
   },
@@ -50,7 +48,6 @@ export const IMAGES = {
       1200
     ],
     "formats": [
-      "avif",
       "webp"
     ]
   },
@@ -63,7 +60,6 @@ export const IMAGES = {
       1200
     ],
     "formats": [
-      "avif",
       "webp"
     ]
   },
@@ -76,7 +72,6 @@ export const IMAGES = {
       1200
     ],
     "formats": [
-      "avif",
       "webp"
     ]
   },
@@ -89,7 +84,6 @@ export const IMAGES = {
       1200
     ],
     "formats": [
-      "avif",
       "webp"
     ]
   },
@@ -102,7 +96,6 @@ export const IMAGES = {
       1200
     ],
     "formats": [
-      "avif",
       "webp"
     ]
   },
@@ -115,7 +108,6 @@ export const IMAGES = {
       1200
     ],
     "formats": [
-      "avif",
       "webp"
     ]
   },
@@ -128,7 +120,6 @@ export const IMAGES = {
       1200
     ],
     "formats": [
-      "avif",
       "webp"
     ]
   },
@@ -141,7 +132,6 @@ export const IMAGES = {
       1200
     ],
     "formats": [
-      "avif",
       "webp"
     ]
   },
@@ -154,7 +144,6 @@ export const IMAGES = {
       1200
     ],
     "formats": [
-      "avif",
       "webp"
     ]
   }

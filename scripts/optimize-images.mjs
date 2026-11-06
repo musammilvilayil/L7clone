@@ -2,7 +2,7 @@
  * Responsive image pipeline.
  *
  * Reads the original design images from assets-src/images and writes resized
- * AVIF + WebP variants to public/images, plus a typed manifest that the
+ * WebP variants to public/images, plus a typed manifest that the
  * <ResponsiveImage> component reads (src/data/images.generated.ts).
  *
  *   npm run images
@@ -26,19 +26,19 @@ const JOBS = [
   // Header + footer logo: rendered at 142 css px wide → 1x and 2x.
   { src: "ladder7-logo.webp", name: "brand/ladder7-logo", widths: [284, 568], formats: ["webp"] },
   // "Why Ladder7" statues: transparent, rendered up to ~520 css px wide.
-  { src: "statue-fractured.png", name: "why/statue-fractured", widths: [400, 480, 640, 1024], formats: ["avif", "webp"], quality: { avif: 52, webp: 78 } },
-  { src: "statue-restored.png", name: "why/statue-restored", widths: [400, 480, 640, 1024], formats: ["avif", "webp"], quality: { avif: 52, webp: 78 } },
+  { src: "statue-fractured.png", name: "why/statue-fractured", widths: [400, 480, 640, 1024], formats: ["webp"], quality: { avif: 52, webp: 78 } },
+  { src: "statue-restored.png", name: "why/statue-restored", widths: [400, 480, 640, 1024], formats: ["webp"], quality: { avif: 52, webp: 78 } },
   // Photos: film launch (up to ~1100 css px, darkened), slides, collage tiles (~330 css px).
-  { src: "workspace-laptop.jpg", name: "photos/workspace-laptop", widths: [480, 800, 1200], formats: ["avif", "webp"] },
-  { src: "ai-processor.jpg", name: "photos/ai-processor", widths: [480, 800, 1200], formats: ["avif", "webp"] },
-  { src: "code-editor.jpg", name: "photos/code-editor", widths: [480, 800, 1200], formats: ["avif", "webp"] },
-  { src: "online-checkout.jpg", name: "photos/online-checkout", widths: [480, 800, 1200], formats: ["avif", "webp"] },
-  { src: "team-workshop.webp", name: "photos/team-workshop", widths: [480, 800, 1200], formats: ["avif", "webp"] },
+  { src: "workspace-laptop.jpg", name: "photos/workspace-laptop", widths: [480, 800, 1200], formats: ["webp"] },
+  { src: "ai-processor.jpg", name: "photos/ai-processor", widths: [480, 800, 1200], formats: ["webp"] },
+  { src: "code-editor.jpg", name: "photos/code-editor", widths: [480, 800, 1200], formats: ["webp"] },
+  { src: "online-checkout.jpg", name: "photos/online-checkout", widths: [480, 800, 1200], formats: ["webp"] },
+  { src: "team-workshop.webp", name: "photos/team-workshop", widths: [480, 800, 1200], formats: ["webp"] },
   // Education page: wall collage + program cards (same ~330–700 css px range).
-  { src: "mentorship-interview.jpg", name: "photos/mentorship-interview", widths: [480, 800, 1200], formats: ["avif", "webp"] },
-  { src: "mountain-climb.webp", name: "photos/mountain-climb", widths: [480, 800, 1200], formats: ["avif", "webp"] },
-  { src: "mindful-reflection.webp", name: "photos/mindful-reflection", widths: [480, 800, 1200], formats: ["avif", "webp"] },
-  { src: "self-reflection-mirror.webp", name: "photos/self-reflection-mirror", widths: [480, 800, 1200], formats: ["avif", "webp"] },
+  { src: "mentorship-interview.jpg", name: "photos/mentorship-interview", widths: [480, 800, 1200], formats: ["webp"] },
+  { src: "mountain-climb.webp", name: "photos/mountain-climb", widths: [480, 800, 1200], formats: ["webp"] },
+  { src: "mindful-reflection.webp", name: "photos/mindful-reflection", widths: [480, 800, 1200], formats: ["webp"] },
+  { src: "self-reflection-mirror.webp", name: "photos/self-reflection-mirror", widths: [480, 800, 1200], formats: ["webp"] },
 ];
 
 const DEFAULT_QUALITY = { avif: 50, webp: 74 };

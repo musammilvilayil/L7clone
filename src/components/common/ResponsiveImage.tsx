@@ -14,7 +14,7 @@ export interface ResponsiveImageProps extends Omit<ImgHTMLAttributes<HTMLImageEl
 const url = (name: string, width: number, format: string) => `/images/${name}-${width}.${format}`;
 
 /**
- * <picture> with AVIF + WebP sources at every generated width
+ * <picture> with WebP sources at every generated width
  * (scripts/optimize-images.mjs). Intrinsic width/height are always set so the
  * browser reserves space before the file arrives (no layout shift).
  */
