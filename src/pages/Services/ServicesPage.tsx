@@ -1,54 +1,23 @@
-import { useState } from "react";
 import { Seo } from "../../components/common/Seo";
-import { CapabilityList } from "../../components/sections/Capabilities/CapabilityList";
 import { ContactSection } from "../../components/sections/Contact/ContactSection";
-import { FaqSection } from "../../components/sections/Faq/FaqSection";
-import { PageHero } from "../../components/sections/PageHero/PageHero";
-import { DeliverySteps } from "../../components/sections/Services/DeliverySteps";
-import { ServiceDetail } from "../../components/sections/Services/ServiceDetail";
-import { TrainingSection } from "../../components/sections/Training/TrainingSection";
-import { Button } from "../../components/ui/Button";
-import { CAPABILITIES } from "../../data/services";
-import { PAGE_SEO } from "../../seo/pages";
+import { ServiceCatalogue } from "../../components/sections/ServiceCatalogue/ServiceCatalogue";
+import { ServiceFaq } from "../../components/sections/ServiceFaq/ServiceFaq";
+import { ServiceHero } from "../../components/sections/ServiceHero/ServiceHero";
 
 /**
- * Services — every capability in full (no tabs), the seven delivery steps as
- * a readable list, corporate training, FAQ and contact. "Discuss …" buttons
- * pre-select the matching interest in the contact form.
+ * Services — the hub page, rebuilt from the real design (services.html): the
+ * laptop-mockup hero, the 14-service catalogue grouped by discipline, the
+ * hub's own FAQ, and the standard enquiry CTA. Each catalogue row links to
+ * its own full detail page (ServiceDetailTemplate).
  */
 export default function ServicesPage() {
-  const [interest, setInterest] = useState<string | undefined>(undefined);
-
   return (
     <>
       <Seo page="services" />
-      <PageHero
-        eyebrow="What we do"
-        title={"Four capabilities.\nOne connected partner"}
-        intro="From the first strategic question to the systems behind your business: intelligent websites, applied AI, technology strategy and custom software, connected around your next business goal."
-        breadcrumb={PAGE_SEO.services.breadcrumb}
-        actions={
-          <>
-            <Button to="#contact">Discuss your project</Button>
-            <Button to="#delivery-steps" variant="outline" glass>
-              See how we deliver
-            </Button>
-          </>
-        }
-      />
-
-      <section className="section" aria-label="Capabilities overview">
-        <CapabilityList items={CAPABILITIES} hrefFor={(capability) => `#${capability.id}`} headingLevel="h2" />
-      </section>
-
-      {CAPABILITIES.map((capability, index) => (
-        <ServiceDetail key={capability.id} capability={capability} tone={index % 2 === 0 ? "paper" : "dark"} onEnquire={setInterest} />
-      ))}
-
-      <DeliverySteps />
-      <TrainingSection />
-      <FaqSection />
-      <ContactSection interest={interest} />
+      <ServiceHero />
+      <ServiceCatalogue />
+      <ServiceFaq />
+      <ContactSection headingLevel="h2" />
     </>
   );
 }

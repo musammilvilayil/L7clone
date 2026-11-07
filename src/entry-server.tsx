@@ -15,6 +15,20 @@ import FaqPage from "./pages/Faq/FaqPage";
 import HomePage from "./pages/Home/HomePage";
 import NotFoundPage from "./pages/NotFound/NotFoundPage";
 import PortfolioPage from "./pages/Portfolio/PortfolioPage";
+import AemDigitalExperiencePage from "./pages/ServiceDetail/AemDigitalExperiencePage";
+import AgenticAiPage from "./pages/ServiceDetail/AgenticAiPage";
+import AiAssistantPage from "./pages/ServiceDetail/AiAssistantPage";
+import AiProductPage from "./pages/ServiceDetail/AiProductPage";
+import AnalyticsExperimentationPage from "./pages/ServiceDetail/AnalyticsExperimentationPage";
+import GreenRecoveryPage from "./pages/ServiceDetail/GreenRecoveryPage";
+import HeadlessCmsPage from "./pages/ServiceDetail/HeadlessCmsPage";
+import HyperautomationPage from "./pages/ServiceDetail/HyperautomationPage";
+import IntelligentWebsitesPage from "./pages/ServiceDetail/IntelligentWebsitesPage";
+import LocalizationUiuxPage from "./pages/ServiceDetail/LocalizationUiuxPage";
+import ProductSolutionPage from "./pages/ServiceDetail/ProductSolutionPage";
+import SkilledResourcePage from "./pages/ServiceDetail/SkilledResourcePage";
+import TechnologyConsultingPage from "./pages/ServiceDetail/TechnologyConsultingPage";
+import WebExperiencePage from "./pages/ServiceDetail/WebExperiencePage";
 import ServicesPage from "./pages/Services/ServicesPage";
 import { pageForPath } from "./routes";
 import { buildHead, renderHeadHtml } from "./seo/head";
@@ -28,6 +42,20 @@ const pages: PageComponents = {
   faq: FaqPage,
   careers: CareersPage,
   portfolio: PortfolioPage,
+  serviceAemDigitalExperience: AemDigitalExperiencePage,
+  serviceAnalyticsExperimentation: AnalyticsExperimentationPage,
+  serviceHeadlessCms: HeadlessCmsPage,
+  serviceWebExperience: WebExperiencePage,
+  serviceLocalizationUiux: LocalizationUiuxPage,
+  serviceAiAssistant: AiAssistantPage,
+  serviceAgenticAi: AgenticAiPage,
+  serviceIntelligentWebsites: IntelligentWebsitesPage,
+  serviceAiProduct: AiProductPage,
+  serviceHyperautomation: HyperautomationPage,
+  serviceTechnology: TechnologyConsultingPage,
+  serviceSkilledResource: SkilledResourcePage,
+  serviceGreenRecovery: GreenRecoveryPage,
+  serviceProductSolution: ProductSolutionPage,
   notFound: NotFoundPage,
 };
 
