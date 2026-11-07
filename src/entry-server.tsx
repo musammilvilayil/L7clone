@@ -15,6 +15,12 @@ import FaqPage from "./pages/Faq/FaqPage";
 import HomePage from "./pages/Home/HomePage";
 import NotFoundPage from "./pages/NotFound/NotFoundPage";
 import PortfolioPage from "./pages/Portfolio/PortfolioPage";
+import L7InsightsPage from "./pages/ProductDetail/L7InsightsPage";
+import L7NexusPage from "./pages/ProductDetail/L7NexusPage";
+import InfiniteInsightsPage from "./pages/ProductDetail/InfiniteInsightsPage";
+import OutreachEnginePage from "./pages/ProductDetail/OutreachEnginePage";
+import Site360Page from "./pages/ProductDetail/Site360Page";
+import ProductsPage from "./pages/Products/ProductsPage";
 import AemDigitalExperiencePage from "./pages/ServiceDetail/AemDigitalExperiencePage";
 import AgenticAiPage from "./pages/ServiceDetail/AgenticAiPage";
 import AiAssistantPage from "./pages/ServiceDetail/AiAssistantPage";
@@ -42,6 +48,12 @@ const pages: PageComponents = {
   faq: FaqPage,
   careers: CareersPage,
   portfolio: PortfolioPage,
+  products: ProductsPage,
+  productSite360: Site360Page,
+  productL7Nexus: L7NexusPage,
+  productOutreachEngine: OutreachEnginePage,
+  productL7Insights: L7InsightsPage,
+  productInfiniteInsights: InfiniteInsightsPage,
   serviceAemDigitalExperience: AemDigitalExperiencePage,
   serviceAnalyticsExperimentation: AnalyticsExperimentationPage,
   serviceHeadlessCms: HeadlessCmsPage,

@@ -50,6 +50,13 @@ const JOBS = [
   { src: "team-whiteboard-session.webp", name: "photos/team-whiteboard-session", widths: [300, 600, 900], formats: ["webp"] },
   // About page: expertise section image (up to ~700 css px wide).
   { src: "team-collaboration-desks.webp", name: "photos/team-collaboration-desks", widths: [480, 800, 1200], formats: ["webp"] },
+  // Products: hub hero + two product-detail hero images (same ~700 css px range).
+  { src: "team-analytics-review.webp", name: "photos/team-analytics-review", widths: [480, 800, 1200], formats: ["webp"] },
+  { src: "product-outreach-dashboard.webp", name: "photos/product-outreach-dashboard", widths: [480, 800, 1200], formats: ["webp"] },
+  { src: "product-insights-dashboard.webp", name: "photos/product-insights-dashboard", widths: [480, 800, 1200], formats: ["webp"] },
+  // Products catalogue: small card thumbnails (~330 css px wide).
+  { src: "mirror-reflection-portrait.webp", name: "photos/mirror-reflection-portrait", widths: [300, 600, 900], formats: ["webp"] },
+  { src: "students-laptop-group.webp", name: "photos/students-laptop-group", widths: [300, 600, 900], formats: ["webp"] },
 ];
 
 const DEFAULT_QUALITY = { avif: 50, webp: 74 };

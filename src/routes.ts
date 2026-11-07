@@ -12,6 +12,12 @@ export type PageKey =
   | "faq"
   | "careers"
   | "portfolio"
+  | "products"
+  | "productSite360"
+  | "productL7Nexus"
+  | "productOutreachEngine"
+  | "productL7Insights"
+  | "productInfiniteInsights"
   | "serviceAemDigitalExperience"
   | "serviceAnalyticsExperimentation"
   | "serviceHeadlessCms"
@@ -42,6 +48,12 @@ export const ROUTES: RouteDef[] = [
   { path: "/faq", page: "faq" },
   { path: "/careers", page: "careers" },
   { path: "/portfolio", page: "portfolio" },
+  { path: "/products", page: "products" },
+  { path: "/products/site-360", page: "productSite360" },
+  { path: "/products/l7-nexus", page: "productL7Nexus" },
+  { path: "/products/outreach-engine", page: "productOutreachEngine" },
+  { path: "/products/l7-insights", page: "productL7Insights" },
+  { path: "/products/infinite-insights", page: "productInfiniteInsights" },
   { path: "/services/aem-digital-experience", page: "serviceAemDigitalExperience" },
   { path: "/services/analytics-experimentation", page: "serviceAnalyticsExperimentation" },
   { path: "/services/headless-cms", page: "serviceHeadlessCms" },

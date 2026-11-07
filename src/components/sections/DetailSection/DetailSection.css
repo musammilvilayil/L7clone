@@ -44,6 +44,13 @@
   color: #acbbc3;
 }
 
+.detail-section__body > p.detail-emphasis {
+  padding: 24px 0;
+  border-top: 1px solid #8b999e66;
+  font-size: 1.1875rem !important;
+  color: inherit !important;
+}
+
 .detail-section--light .detail-section__body > p {
   color: #52676f;
 }

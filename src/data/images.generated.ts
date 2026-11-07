@@ -242,6 +242,66 @@ export const IMAGES = {
     "formats": [
       "webp"
     ]
+  },
+  "photos/team-analytics-review": {
+    "width": 1200,
+    "height": 1200,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "photos/product-outreach-dashboard": {
+    "width": 1254,
+    "height": 1254,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "photos/product-insights-dashboard": {
+    "width": 1254,
+    "height": 1254,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "photos/mirror-reflection-portrait": {
+    "width": 1280,
+    "height": 1920,
+    "widths": [
+      300,
+      600,
+      900
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "photos/students-laptop-group": {
+    "width": 1920,
+    "height": 1280,
+    "widths": [
+      300,
+      600,
+      900
+    ],
+    "formats": [
+      "webp"
+    ]
   }
 } as const;
 
