@@ -275,16 +275,3 @@ export const EDUCATION_CONTACT = {
   formIntro: "A few details will help our advisors guide you.",
 };
 
-export const EDUCATION_MENU = {
-  eyebrow: "Let's find your next step",
-  heading: "What comes next for you?",
-  interests: ["Internships", "Career guidance", "AMIU", "Corporate training", "Other"],
-};
-
-/* ── Footer ───────────────────────────────────────────────────────────── */
-
-export const EDUCATION_FOOTER_INTRO = {
-  title: "Go further.\nStay you",
-  text: "Learning that moves you forward.\nA career that feels like you.",
-  caption: "Education. With direction.",
-};

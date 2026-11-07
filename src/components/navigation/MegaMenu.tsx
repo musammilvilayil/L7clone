@@ -2,8 +2,7 @@ import { useCallback, useEffect, useRef, type RefObject } from "react";
 import { useLocation } from "react-router";
 import { useEnquiry } from "../../context/EnquiryContext";
 import { MENU_INTERESTS } from "../../data/company";
-import { EDUCATION_MENU } from "../../data/education";
-import { menuColumnsFor } from "../../data/navigation";
+import { menuColumns, MENU_FORM } from "../../data/navigation";
 import { COMPANY } from "../../data/site";
 import { useFocusTrap } from "../../hooks/useFocusTrap";
 import { prefersReducedMotion } from "../../hooks/useMediaQuery";
@@ -68,14 +67,14 @@ export function MegaMenu({ headerRef }: { headerRef: RefObject<HTMLElement | nul
           <EnquiryForm
             variant="menu"
             source="menu"
-            eyebrow={isEducation ? EDUCATION_MENU.eyebrow : "Let's work together"}
-            heading={isEducation ? EDUCATION_MENU.heading : "Have a project in mind?"}
+            eyebrow={MENU_FORM.eyebrow}
+            heading={MENU_FORM.heading}
             headingLevel="h2"
-            interests={isEducation ? EDUCATION_MENU.interests : MENU_INTERESTS}
+            interests={MENU_INTERESTS}
             labels={{
               name: "Your name",
               email: "Email",
-              message: isEducation ? "Tell us about your next step" : "Tell us about your project",
+              message: "Tell us about your next step",
             }}
             messageRows={2}
             division={isEducation ? "Education" : "IT"}
@@ -95,7 +94,7 @@ export function MegaMenu({ headerRef }: { headerRef: RefObject<HTMLElement | nul
         </div>
 
         <nav className="mega-menu__nav" aria-label="Expanded navigation">
-          {menuColumnsFor(division).map((column, columnIndex) => (
+          {menuColumns().map((column, columnIndex) => (
             <div className="mega-menu__column" key={columnIndex}>
               {column.map((group) => (
                 <div className="mega-menu__group" key={group.title}>

@@ -1,7 +1,7 @@
 import { forwardRef } from "react";
 import { Link, useLocation } from "react-router";
 import { useEnquiry } from "../../context/EnquiryContext";
-import { divisionSwitchFor, headerNavFor } from "../../data/navigation";
+import { divisionSwitchFor, headerNav } from "../../data/navigation";
 import { divisionForPath } from "../../routes";
 import { cn } from "../../utils/cn";
 import { SmartLink } from "../common/SmartLink";
@@ -46,7 +46,7 @@ export const Header = forwardRef<HTMLElement>(function Header(_props, ref) {
       </Link>
 
       <nav className="desktop-nav" aria-label="Main navigation">
-        {headerNavFor(division).map((item) => (
+        {headerNav().map((item) => (
           <RollLink key={item.to} to={item.to} label={item.label} onClick={closeMenu} />
         ))}
       </nav>

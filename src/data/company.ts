@@ -60,5 +60,19 @@ export const FAQS: Faq[] = [
 ];
 
 /** Interest options of the two enquiry forms (as in the design). */
-export const CONTACT_INTERESTS = ["Digital experience", "AI & automation", "Custom software", "Consulting"];
-export const MENU_INTERESTS = ["Digital experience", "Applied AI", "Custom software", "Corporate training", "Other"];
+export const CONTACT_INTERESTS = [
+  "Digital experience",
+  "AI & automation",
+  "Training & internships",
+  "Corporate training",
+  "Career guidance",
+  "Personal growth",
+];
+export const MENU_INTERESTS = [
+  "Digital experience",
+  "Applied AI",
+  "Technology strategy",
+  "Training & internships",
+  "Personal growth",
+  "Corporate training",
+];

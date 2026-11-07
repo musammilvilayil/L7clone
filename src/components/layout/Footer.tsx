@@ -1,91 +1,51 @@
-import { useRef } from "react";
-import { Link, useLocation } from "react-router";
-import { EDUCATION_FOOTER_INTRO } from "../../data/education";
-import { footerNavFor } from "../../data/navigation";
+import { Link } from "react-router";
+import { footerNav } from "../../data/navigation";
 import { COMPANY, LOCATIONS } from "../../data/site";
-import { useReducedMotion } from "../../hooks/useMediaQuery";
-import { useScrollFrame } from "../../hooks/useScrollFrame";
-import { divisionForPath } from "../../routes";
-import { clamp } from "../../utils/math";
 import { ArrowUpRight } from "../common/Icons";
-import { Lines } from "../common/Lines";
 import { SmartLink } from "../common/SmartLink";
 import "./Footer.css";
 
 /**
- * Footer. As it scrolls into view the content and the giant wordmark drift
- * up, the ambient "7" drifts the other way and a red line draws across the
- * top rule — all via CSS variables written by the shared scroll loop.
+ * Footer (design: .footer.footer-compact) — a plain in-flow sheet, no
+ * scroll-driven motion. Identical on every page; only the division switch
+ * in the header varies by page.
  */
 export function Footer({ inert }: { inert?: boolean }) {
-  const ref = useRef<HTMLElement>(null);
-  const reduced = useReducedMotion();
-  const division = divisionForPath(useLocation().pathname);
-  const isEducation = division === "education";
-
-  useScrollFrame(({ vh }) => {
-    const el = ref.current;
-    if (!el) return;
-    const rect = el.getBoundingClientRect();
-    if (rect.top > vh + 200) return;
-    const p = clamp((vh - rect.top) / rect.height);
-    return () => {
-      el.style.setProperty("--footer-progress", p.toFixed(4));
-      el.style.setProperty("--footer-content-y", reduced ? "0px" : `${((1 - p) * 42).toFixed(2)}px`);
-      el.style.setProperty("--footer-brand-y", reduced ? "0px" : `${((1 - p) * 130).toFixed(2)}px`);
-      el.style.setProperty("--footer-ambient-y", reduced ? "0px" : `${(-p * 170).toFixed(2)}px`);
-    };
-  });
-
   return (
-    <footer ref={ref} className="site-footer" id="footer" inert={inert}>
-      <div className="site-footer__ambient" aria-hidden="true">
-        7
-      </div>
-
-      <div className="site-footer__topline">
-        <span className="status">Your next chapter starts here</span>
-        <Link to="#contact" className="site-footer__next">
-          Let's find your next step
-          <span aria-hidden="true">
-            <ArrowUpRight />
-          </span>
+    <footer className="site-footer footer-compact" id="footer" inert={inert}>
+      <div className="site-footer__top">
+        <Link to="/" className="site-footer__brand" aria-label="Ladder7 home">
+          Ladder7<span className="accent">.</span>
         </Link>
+        <div className="site-footer__action">
+          <span className="site-footer__status">Your next chapter starts here</span>
+          <Link to="/contact" className="site-footer__next">
+            Let's find your next step
+            <span aria-hidden="true">
+              <ArrowUpRight />
+            </span>
+          </Link>
+        </div>
       </div>
 
-      <div className="site-footer__grid">
+      <div className="site-footer__main">
         <div className="site-footer__intro">
           <p>
-            {isEducation ? (
-              <Lines text={EDUCATION_FOOTER_INTRO.title} accent />
-            ) : (
-              <>
-                Build smarter.
-                <br />
-                Grow further<span className="accent">.</span>
-              </>
-            )}
+            Technology with purpose.
+            <br />
+            Learning that moves you forward.
           </p>
-          <span>
-            {isEducation ? (
-              <Lines text={EDUCATION_FOOTER_INTRO.text} />
-            ) : (
-              <>
-                Digital experiences that work harder.
-                <br />
-                Technology built around your business.
-              </>
-            )}
-          </span>
           <a href={`mailto:${COMPANY.email}`}>
             {COMPANY.email}
-            <ArrowUpRight />
+            <span aria-hidden="true">
+              <ArrowUpRight />
+            </span>
           </a>
         </div>
 
-        {footerNavFor(division).map((group) => (
-          <nav key={group.title} aria-labelledby={`footer-${group.title.toLowerCase()}`}>
-            <h2 className="label-tiny" id={`footer-${group.title.toLowerCase()}`}>
+        {footerNav().map((group) => (
+          <nav key={group.title} aria-labelledby={`footer-${group.title.toLowerCase().replace(/\W+/g, "-")}`}>
+            <h2 className="label-tiny" id={`footer-${group.title.toLowerCase().replace(/\W+/g, "-")}`}>
               {group.title}
             </h2>
             <ul>
@@ -115,24 +75,12 @@ export function Footer({ inert }: { inert?: boolean }) {
         </Link>
       </div>
 
-      <div className="site-footer__brand-window">
-        <div className="site-footer__brand-caption" aria-hidden="true">
-          <span>{isEducation ? EDUCATION_FOOTER_INTRO.caption : "Technology. With purpose."}</span>
-          <span>Cochin · Trivandrum</span>
-        </div>
-        <Link to="#top" className="site-footer__wordmark" aria-label="Ladder7 — back to top">
-          <span aria-hidden="true">
-            Ladder7<span className="accent">.</span>
-          </span>
-        </Link>
-      </div>
-
       <div className="site-footer__bottom">
         <p>
           © {__BUILD_YEAR__} {COMPANY.name}. All rights reserved.
         </p>
-        <span>Built around your next step.</span>
-        <Link to="#top">Back to top ↑</Link>
+        <Link to="/privacy">Privacy</Link>
+        <a href="#top">Back to top ↑</a>
       </div>
     </footer>
   );
