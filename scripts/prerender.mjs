@@ -98,6 +98,13 @@ const PAGE_MODULES = {
   sitemap: "src/pages/Sitemap/SitemapPage.tsx",
   bootcamp: "src/pages/Bootcamp/BootcampPage.tsx",
   earnMore: "src/pages/EarnMore/EarnMorePage.tsx",
+  trainingInternship: "src/pages/Course/TrainingInternshipPage.tsx",
+  courseFullStack: "src/pages/Course/FullStackCoursePage.tsx",
+  courseAiDataScience: "src/pages/Course/AiDataScienceCoursePage.tsx",
+  courseSoftwareTesting: "src/pages/Course/SoftwareTestingCoursePage.tsx",
+  courseShopify: "src/pages/Course/ShopifyCoursePage.tsx",
+  firstJob: "src/pages/Course/FirstJobPage.tsx",
+  careerGoalFinding: "src/pages/Course/CareerGoalFindingPage.tsx",
   notFound: "src/pages/NotFound/NotFoundPage.tsx",
 };
 

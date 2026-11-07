@@ -6,7 +6,6 @@
  * not variations of the same list.
  */
 import type { Capability } from "./services";
-import { LEGACY_LINKS } from "./site";
 import type { ImageName } from "./images.generated";
 
 /* ── Hero ──────────────────────────────────────────────────────────────── */
@@ -215,7 +214,7 @@ export const PROGRAM_FILTERS: { label: string; type: ProgramType | "all" }[] = [
   { label: "Workshops & guidance", type: "workshop" },
 ];
 
-export const PROGRAMS_CTA = { label: "Explore training & internships", href: LEGACY_LINKS.itTrainingInternship };
+export const PROGRAMS_CTA = { label: "Explore training & internships", href: "/it-training-internship-trivandrum" };
 
 /* ── Approach: four-phase journey + reading copy ─────────────────────── */
 

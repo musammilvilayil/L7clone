@@ -102,20 +102,19 @@ have NOT yet been screenshot-checked, and nothing has been committed.**
    only `itTrainingInternship` remains legacy.
 
 ## What's left (in the agreed order)
-9. 🟡 Utility pages. **Done, uncommitted:** Privacy (`/privacy`), Thank You
-   (`/thank-you`, noindex — `NOINDEX_ROUTES` in `pages.test.ts`), HTML Sitemap
-   (`/sitemap`, driven by `src/data/siteDirectory.ts`, auto-filters to live
-   routes so course pages appear once built), Bootcamp (`/bootcamp`), EarnMore
-   (`/earnmore`, new `photos/earnmore` image). Privacy reuses the new
-   `ArticleColumn` export in `BlogArticle.tsx`. Bootcamp/EarnMore design files
-   lost their dynamic content (weekly breakdown, open roles) — those empty
-   sections were omitted. 404 verified unchanged.
-   **Still to build:** the 7 course/program pages (`it-training-internship-
-   trivandrum`, `full-stack-developer-course-trivandrum`,
-   `ai-data-science-course-trivandrum`, `software-testing-course-trivandrum`,
-   `shopify-developer-course-workshop`, `experience-the-first-job`,
-   `/training-internship/career-goal-finding`); then repoint
-   `LEGACY_LINKS.itTrainingInternship`.
+9. ✅ Utility pages. Privacy, Thank You (noindex — `NOINDEX_ROUTES` in
+   `pages.test.ts`), HTML Sitemap (`src/data/siteDirectory.ts`, filters to live
+   routes), Bootcamp, EarnMore (Bootcamp/EarnMore lost their dynamic content in
+   the design export — weekly breakdown and open roles omitted), 404 unchanged.
+   Course/program pages: hub `/it-training-internship-trivandrum`
+   (`TrainingInternshipPage`, `data/courses/catalogue.ts`), four courses via
+   `CourseDetailTemplate` + `src/data/courses/*.ts` (full stack, AI/data
+   science, software testing, Shopify), `/experience-the-first-job`,
+   `/training-internship/career-goal-finding`. `DetailCards`/`DetailCurriculum`
+   items now accept an optional bullet `items` list. `LEGACY_LINKS` removed
+   (`PROGRAMS_CTA` → internal hub). Design aliases (`/training-internship/*`
+   course slugs, `/corporate-training/*`) are not registered. Committed up to
+   Bootcamp/EarnMore; course pages uncommitted.
 10. ⬜ Final full-site verification: lint/test/build across every route,
     responsive breakpoints, interaction testing (menu, forms, filters,
     dialogs), and a Lighthouse pass compared against the project's documented

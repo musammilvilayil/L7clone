@@ -18,6 +18,13 @@ import ThankYouPage from "./pages/ThankYou/ThankYouPage";
 import SitemapPage from "./pages/Sitemap/SitemapPage";
 import BootcampPage from "./pages/Bootcamp/BootcampPage";
 import EarnMorePage from "./pages/EarnMore/EarnMorePage";
+import TrainingInternshipPage from "./pages/Course/TrainingInternshipPage";
+import FullStackCoursePage from "./pages/Course/FullStackCoursePage";
+import AiDataScienceCoursePage from "./pages/Course/AiDataScienceCoursePage";
+import SoftwareTestingCoursePage from "./pages/Course/SoftwareTestingCoursePage";
+import ShopifyCoursePage from "./pages/Course/ShopifyCoursePage";
+import FirstJobPage from "./pages/Course/FirstJobPage";
+import CareerGoalFindingPage from "./pages/Course/CareerGoalFindingPage";
 import NotFoundPage from "./pages/NotFound/NotFoundPage";
 import PortfolioPage from "./pages/Portfolio/PortfolioPage";
 import L7InsightsPage from "./pages/ProductDetail/L7InsightsPage";
@@ -128,6 +135,13 @@ const pages: PageComponents = {
   sitemap: SitemapPage,
   bootcamp: BootcampPage,
   earnMore: EarnMorePage,
+  trainingInternship: TrainingInternshipPage,
+  courseFullStack: FullStackCoursePage,
+  courseAiDataScience: AiDataScienceCoursePage,
+  courseSoftwareTesting: SoftwareTestingCoursePage,
+  courseShopify: ShopifyCoursePage,
+  firstJob: FirstJobPage,
+  careerGoalFinding: CareerGoalFindingPage,
   notFound: NotFoundPage,
 };
 

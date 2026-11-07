@@ -68,6 +68,13 @@ const importers: Record<PageKey, () => Promise<{ default: ComponentType }>> = {
   sitemap: () => import("./pages/Sitemap/SitemapPage"),
   bootcamp: () => import("./pages/Bootcamp/BootcampPage"),
   earnMore: () => import("./pages/EarnMore/EarnMorePage"),
+  trainingInternship: () => import("./pages/Course/TrainingInternshipPage"),
+  courseFullStack: () => import("./pages/Course/FullStackCoursePage"),
+  courseAiDataScience: () => import("./pages/Course/AiDataScienceCoursePage"),
+  courseSoftwareTesting: () => import("./pages/Course/SoftwareTestingCoursePage"),
+  courseShopify: () => import("./pages/Course/ShopifyCoursePage"),
+  firstJob: () => import("./pages/Course/FirstJobPage"),
+  careerGoalFinding: () => import("./pages/Course/CareerGoalFindingPage"),
   notFound: () => import("./pages/NotFound/NotFoundPage"),
 };
 
@@ -130,6 +137,13 @@ const pages: PageComponents = {
   sitemap: lazy(importers.sitemap),
   bootcamp: lazy(importers.bootcamp),
   earnMore: lazy(importers.earnMore),
+  trainingInternship: lazy(importers.trainingInternship),
+  courseFullStack: lazy(importers.courseFullStack),
+  courseAiDataScience: lazy(importers.courseAiDataScience),
+  courseSoftwareTesting: lazy(importers.courseSoftwareTesting),
+  courseShopify: lazy(importers.courseShopify),
+  firstJob: lazy(importers.firstJob),
+  careerGoalFinding: lazy(importers.careerGoalFinding),
   notFound: lazy(importers.notFound),
 };
 

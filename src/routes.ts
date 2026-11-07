@@ -62,6 +62,13 @@ export type PageKey =
   | "sitemap"
   | "bootcamp"
   | "earnMore"
+  | "trainingInternship"
+  | "courseFullStack"
+  | "courseAiDataScience"
+  | "courseSoftwareTesting"
+  | "courseShopify"
+  | "firstJob"
+  | "careerGoalFinding"
   | "notFound";
 
 export interface RouteDef {
@@ -128,6 +135,13 @@ export const ROUTES: RouteDef[] = [
   { path: "/sitemap", page: "sitemap" },
   { path: "/bootcamp", page: "bootcamp" },
   { path: "/earnmore", page: "earnMore" },
+  { path: "/it-training-internship-trivandrum", page: "trainingInternship" },
+  { path: "/full-stack-developer-course-trivandrum", page: "courseFullStack" },
+  { path: "/ai-data-science-course-trivandrum", page: "courseAiDataScience" },
+  { path: "/software-testing-course-trivandrum", page: "courseSoftwareTesting" },
+  { path: "/shopify-developer-course-workshop", page: "courseShopify" },
+  { path: "/experience-the-first-job", page: "firstJob" },
+  { path: "/training-internship/career-goal-finding", page: "careerGoalFinding" },
 ];
 
 /** Normalises a pathname (no trailing slash except root, lower-case). */

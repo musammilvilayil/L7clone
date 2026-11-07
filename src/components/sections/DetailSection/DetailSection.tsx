@@ -24,6 +24,8 @@ export interface DetailCard {
   number: string;
   title: string;
   description: string;
+  /** Optional arrow-bulleted list under the description. */
+  items?: string[];
 }
 
 /** A numbered card grid inside a DetailSection's body (design: .detail-cards). */
@@ -35,6 +37,7 @@ export function DetailCards({ items }: { items: DetailCard[] }) {
           <span className="detail-cards__number">{item.number}</span>
           <h3>{item.title}</h3>
           <p>{item.description}</p>
+          {item.items && <DetailList items={item.items} />}
         </article>
       ))}
     </div>
@@ -108,7 +111,9 @@ export function DetailFaq({ items, defaultOpen = 0 }: { items: DetailFaqItem[]; 
 export interface DetailCurriculumItem {
   number: string;
   title: string;
-  description: string;
+  /** A paragraph, or a bulleted list when `items` is given instead. */
+  description?: string;
+  items?: string[];
 }
 
 /**
@@ -127,7 +132,7 @@ export function DetailCurriculum({ items }: { items: DetailCurriculumItem[] }) {
             <h3>{item.title}</h3>
             <span aria-hidden="true">{open === index ? "–" : "+"}</span>
           </summary>
-          <p>{item.description}</p>
+          {item.items ? <DetailList items={item.items} /> : <p>{item.description}</p>}
         </details>
       ))}
     </div>

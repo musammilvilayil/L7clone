@@ -2,8 +2,6 @@
  * Company facts shown across the site. Every value comes from the supplied
  * design; nothing here is invented. Update in one place.
  */
-import { LEGACY_SITE_URL } from "../config/env";
-
 export const COMPANY = {
   name: "Ladder7 NextStep Solutions",
   shortName: "Ladder7",
@@ -40,13 +38,3 @@ export const SOCIAL = [
   { label: "LinkedIn", href: "https://www.linkedin.com/company/ladder7-nextstep-solutions-llp/" },
   { label: "Instagram", href: "https://www.instagram.com/ladder7_nextstep_solutions_/" },
 ] as const;
-
-/**
- * Pages that exist on the current ladder7.in site but are not part of this
- * redesign. Links point at LEGACY_SITE_URL (see SETUP_AND_DEPLOYMENT.md).
- */
-const legacy = (path: string) => `${LEGACY_SITE_URL}${path}`;
-
-export const LEGACY_LINKS = {
-  itTrainingInternship: legacy("/it-training-internship-trivandrum"),
-} as const;
