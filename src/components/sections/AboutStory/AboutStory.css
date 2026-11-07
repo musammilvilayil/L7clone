@@ -1,0 +1,169 @@
+/* "Big ambitions. Built on strong foundations." (design: #our-story). */
+
+.about-story {
+  position: relative;
+  z-index: 4;
+  margin-top: -35px;
+  padding: 100px 2.5%;
+  border-radius: var(--radius-section) var(--radius-section) 0 0;
+  background: var(--color-bg);
+  color: #f1f4f6;
+}
+
+.company-section-label {
+  display: flex;
+  justify-content: space-between;
+  gap: 28px;
+  margin-bottom: 70px;
+  font-size: 0.5rem;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #b2bfc6;
+}
+
+.about-story__heading {
+  max-width: 960px;
+}
+
+.about-story__heading .eyebrow {
+  margin-bottom: 24px;
+}
+
+.about-story__heading h2 {
+  margin: 0;
+  font-size: clamp(2.6875rem, 4.9vw, 4.625rem);
+  font-weight: var(--font-weight-regular);
+  line-height: 1.06;
+  letter-spacing: -0.055em;
+}
+
+.about-story__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9%;
+  margin: 66px 0 35px;
+  padding-left: 24%;
+}
+
+.about-story__grid article {
+  padding-top: 27px;
+  border-top: 1px solid #35424a;
+}
+
+.company-kicker {
+  font-size: 0.5rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #8e9da4;
+}
+
+.about-story__grid h3 {
+  margin: 23px 0 22px;
+  font-size: clamp(1.5rem, 2.7vw, 2.4375rem);
+  font-weight: var(--font-weight-regular);
+  line-height: 1.18;
+  letter-spacing: -1.5px;
+}
+
+.about-story__grid p {
+  max-width: 410px;
+  margin: 0;
+  font-size: var(--font-size-body-sm);
+  line-height: 1.9;
+  color: #b6c4cc;
+}
+
+.about-story__statement {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 38px;
+  border-top: 1px solid #cfd6d5;
+  font-size: clamp(0.875rem, 2.5vw, 2.25rem);
+  letter-spacing: -0.8px;
+  text-transform: uppercase;
+}
+
+.about-story__statement i {
+  font-size: 24px;
+  font-style: normal;
+  color: #9aa6a8;
+}
+
+.about-story__statement .accent {
+  color: #ff758d;
+}
+
+@media (max-width: 1000px) {
+  .about-story__grid {
+    gap: 8%;
+    padding-left: 15%;
+  }
+}
+
+@media (max-width: 700px) {
+  .about-story {
+    padding: 65px 6%;
+    border-radius: 28px 28px 0 0;
+  }
+
+  .company-section-label {
+    gap: 24px;
+    margin-bottom: 43px;
+    font-size: 0.375rem;
+    line-height: 1.7;
+    letter-spacing: 0.7px;
+  }
+
+  .company-section-label span:last-child {
+    max-width: 44%;
+    text-align: right;
+  }
+
+  .about-story__heading .eyebrow {
+    font-size: var(--font-size-micro);
+  }
+
+  .about-story__heading h2 {
+    font-size: 2.625rem;
+    letter-spacing: -2.2px;
+    line-height: 1.08;
+  }
+
+  .about-story__grid {
+    grid-template-columns: 1fr;
+    gap: 35px;
+    margin: 40px 0;
+    padding-left: 0;
+  }
+
+  .about-story__grid article {
+    padding-top: 23px;
+  }
+
+  .company-kicker {
+    font-size: 0.4375rem;
+  }
+
+  .about-story__grid h3 {
+    margin: 19px 0;
+    font-size: 1.8125rem;
+    letter-spacing: -1px;
+  }
+
+  .about-story__grid p {
+    font-size: var(--font-size-body-sm);
+  }
+
+  .about-story__statement {
+    gap: 8px;
+    padding-top: 26px;
+    font-size: var(--font-size-caption);
+    letter-spacing: -0.2px;
+  }
+
+  .about-story__statement i {
+    font-size: 17px;
+  }
+}

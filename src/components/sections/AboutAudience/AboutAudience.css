@@ -1,0 +1,121 @@
+/* "Enterprise rigour. Startup agility." (design: .audience-section). */
+
+.about-audience {
+  padding: 80px 2.5%;
+}
+
+.about-audience__heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 58px;
+}
+
+.about-audience__heading h2 {
+  margin: 0;
+  font-size: clamp(2.6875rem, 4.9vw, 4.625rem);
+  font-weight: var(--font-weight-regular);
+  line-height: 1.06;
+  letter-spacing: -0.055em;
+}
+
+.about-audience__heading p {
+  max-width: 300px;
+  margin: 0 0 5px;
+  font-size: var(--font-size-caption);
+  line-height: 1.9;
+  color: #8799a1;
+}
+
+.about-audience__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 1px solid #2c373d;
+}
+
+.about-audience__grid article {
+  padding: 38px 38px 0 0;
+}
+
+.about-audience__grid article + article {
+  padding-left: 48px;
+  border-left: 1px solid #2c373d;
+}
+
+.about-audience__grid h3 {
+  margin: 25px 0;
+  font-size: clamp(1.9375rem, 3.3vw, 3.125rem);
+  font-weight: var(--font-weight-regular);
+  line-height: 1.1;
+  letter-spacing: -1.8px;
+}
+
+.about-audience__grid ul {
+  margin: 0 0 35px;
+  padding: 0;
+  list-style: none;
+  font-size: var(--font-size-caption);
+  line-height: 2.3;
+  color: #93a3ac;
+}
+
+.about-audience__grid li::before {
+  content: "↗";
+  margin-right: 13px;
+  font-size: 0.8125rem;
+  color: var(--color-brand);
+}
+
+@media (max-width: 1000px) {
+  .about-audience__grid article + article {
+    padding-left: 35px;
+  }
+}
+
+@media (max-width: 700px) {
+  .about-audience {
+    padding: 60px 6%;
+  }
+
+  .about-audience__heading {
+    display: block;
+    margin-bottom: 36px;
+  }
+
+  .about-audience__heading p {
+    margin-top: 27px;
+    font-size: var(--font-size-body-sm);
+  }
+
+  .about-audience__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-audience__grid article {
+    padding: 30px 0 36px;
+  }
+
+  .about-audience__grid article + article {
+    padding: 35px 0 0;
+    border-top: 1px solid #2c373d;
+    border-left: 0;
+  }
+
+  .about-audience__grid h3 {
+    margin: 22px 0;
+    font-size: 2.125rem;
+    letter-spacing: -1.3px;
+  }
+
+  .about-audience__grid ul {
+    margin-bottom: 28px;
+    font-size: var(--font-size-caption);
+    line-height: 2.25;
+  }
+
+  .about-audience__grid .btn {
+    width: 100%;
+    max-width: 310px;
+  }
+}

@@ -158,6 +158,90 @@ export const IMAGES = {
     "formats": [
       "webp"
     ]
+  },
+  "photos/idea-lightbulb": {
+    "width": 1280,
+    "height": 1920,
+    "widths": [
+      300,
+      600,
+      900
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "photos/ai-network-brain": {
+    "width": 1920,
+    "height": 1536,
+    "widths": [
+      300,
+      600,
+      900
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "photos/product-dashboard-scan": {
+    "width": 1920,
+    "height": 1277,
+    "widths": [
+      300,
+      600,
+      900
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "photos/product-dashboard-agents": {
+    "width": 1024,
+    "height": 1024,
+    "widths": [
+      300,
+      600,
+      900
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "photos/product-dashboard-nocode": {
+    "width": 1254,
+    "height": 1254,
+    "widths": [
+      300,
+      600,
+      900
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "photos/team-whiteboard-session": {
+    "width": 1254,
+    "height": 1254,
+    "widths": [
+      300,
+      600,
+      900
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "photos/team-collaboration-desks": {
+    "width": 5920,
+    "height": 3947,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "formats": [
+      "webp"
+    ]
   }
 } as const;
 

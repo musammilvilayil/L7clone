@@ -63,7 +63,7 @@ export const PAGE_SEO: Record<PageKey, PageSeo> = {
     title: "About Ladder7 NextStep Solutions | Cochin & Trivandrum",
     description:
       "Ladder7 NextStep Solutions builds intelligent websites, applied AI and custom software around business goals, for established brands and startups in Kerala.",
-    name: "Technology, built around you.",
+    name: "Clear purpose. Deep expertise. Real progress.",
     image: DEFAULT_IMAGE,
     imageAlt: DEFAULT_IMAGE_ALT,
     indexable: true,

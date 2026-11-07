@@ -1,0 +1,135 @@
+/* "Four principles." red sheet (design: .about-principles). */
+
+.about-principles {
+  position: relative;
+  z-index: 3;
+  margin-top: -45px;
+  padding: 100px 2.5% 120px;
+  border-radius: var(--radius-section) var(--radius-section) 0 0;
+  background: var(--color-brand);
+  color: #fff;
+}
+
+.about-principles .eyebrow {
+  margin: 0 0 25px;
+  font-size: var(--font-size-label);
+  letter-spacing: 1.4px;
+  color: #fff;
+}
+
+.about-principles .eyebrow::before {
+  background: #fff;
+}
+
+.about-principles__heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 70px;
+  margin-bottom: 75px;
+}
+
+.about-principles__heading h2 {
+  margin: 0;
+  font-size: clamp(3.3125rem, 5.8vw, 5.1875rem);
+  font-weight: var(--font-weight-regular);
+  line-height: 1.05;
+  letter-spacing: -0.055em;
+}
+
+.about-principles__heading > p {
+  max-width: 350px;
+  margin: 0 0 5px;
+  font-size: var(--font-size-body);
+  line-height: 1.8;
+}
+
+.about-principles__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 28px;
+  padding-top: 28px;
+  border-top: 1px solid #ffffff45;
+}
+
+.about-principles__grid article {
+  padding-bottom: 35px;
+  border-bottom: 1px solid #ffffff45;
+}
+
+.about-principles__grid article > span {
+  display: block;
+  margin-bottom: 30px;
+  font-size: 4.8125rem;
+  line-height: 1.1;
+  letter-spacing: -4px;
+  color: #ffffffc9;
+}
+
+.about-principles__grid h3 {
+  margin: 0 0 19px;
+  font-size: 1.5rem;
+  font-weight: var(--font-weight-regular);
+  line-height: 1.2;
+  letter-spacing: -0.8px;
+}
+
+.about-principles__grid p {
+  margin: 0;
+  font-size: var(--font-size-body-sm);
+  line-height: 1.85;
+  color: #fff;
+}
+
+@media (max-width: 1000px) {
+  .about-principles__grid {
+    gap: 22px;
+  }
+
+  .about-principles__grid h3 {
+    font-size: 1.3125rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .about-principles {
+    padding: 65px 6% 90px;
+    border-radius: 30px 30px 0 0;
+  }
+
+  .about-principles__heading {
+    display: block;
+    margin-bottom: 42px;
+  }
+
+  .about-principles__heading h2 {
+    margin-bottom: 24px;
+    font-size: 3rem;
+  }
+
+  .about-principles__heading > p {
+    font-size: var(--font-size-body-sm);
+  }
+
+  .about-principles__grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px 24px;
+  }
+
+  .about-principles__grid article {
+    padding-bottom: 25px;
+  }
+
+  .about-principles__grid article > span {
+    margin-bottom: 18px;
+    font-size: 3.625rem;
+  }
+
+  .about-principles__grid h3 {
+    font-size: 1.375rem;
+  }
+
+  .about-principles__grid p {
+    font-size: var(--font-size-body-sm);
+  }
+}

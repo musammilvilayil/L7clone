@@ -41,6 +41,15 @@ const JOBS = [
   { src: "self-reflection-mirror.webp", name: "photos/self-reflection-mirror", widths: [480, 800, 1200], formats: ["webp"] },
   // Generic landing-hero side image, reused across simple content pages (Careers, Portfolio, …).
   { src: "team-collaboration.webp", name: "photos/team-collaboration", widths: [480, 800, 1200], formats: ["webp"] },
+  // About page: scrolling collage columns (small decorative tiles, ~300–430 css px wide).
+  { src: "idea-lightbulb.webp", name: "photos/idea-lightbulb", widths: [300, 600, 900], formats: ["webp"] },
+  { src: "ai-network-brain.webp", name: "photos/ai-network-brain", widths: [300, 600, 900], formats: ["webp"] },
+  { src: "product-dashboard-scan.webp", name: "photos/product-dashboard-scan", widths: [300, 600, 900], formats: ["webp"] },
+  { src: "product-dashboard-agents.webp", name: "photos/product-dashboard-agents", widths: [300, 600, 900], formats: ["webp"] },
+  { src: "product-dashboard-nocode.webp", name: "photos/product-dashboard-nocode", widths: [300, 600, 900], formats: ["webp"] },
+  { src: "team-whiteboard-session.webp", name: "photos/team-whiteboard-session", widths: [300, 600, 900], formats: ["webp"] },
+  // About page: expertise section image (up to ~700 css px wide).
+  { src: "team-collaboration-desks.webp", name: "photos/team-collaboration-desks", widths: [480, 800, 1200], formats: ["webp"] },
 ];
 
 const DEFAULT_QUALITY = { avif: 50, webp: 74 };
