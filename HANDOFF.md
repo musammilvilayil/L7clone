@@ -102,13 +102,20 @@ have NOT yet been screenshot-checked, and nothing has been committed.**
    only `itTrainingInternship` remains legacy.
 
 ## What's left (in the agreed order)
-9. ⬜ Utility pages: Privacy, Thank You, Sitemap (HTML sitemap page, not
-   sitemap.xml), 404 (already exists, just verify it still matches), Bootcamp,
-   Earn More, and the course/program landing pages (`ai-data-science-course-
-   trivandrum.html`, `full-stack-developer-course-trivandrum.html`,
-   `software-testing-course-trivandrum.html`, `shopify-developer-course-
-   workshop.html`, `it-training-internship-trivandrum.html`, `experience-the-
-   first-job.html`, `training-internship--career-goal-finding.html`).
+9. 🟡 Utility pages. **Done, uncommitted:** Privacy (`/privacy`), Thank You
+   (`/thank-you`, noindex — `NOINDEX_ROUTES` in `pages.test.ts`), HTML Sitemap
+   (`/sitemap`, driven by `src/data/siteDirectory.ts`, auto-filters to live
+   routes so course pages appear once built), Bootcamp (`/bootcamp`), EarnMore
+   (`/earnmore`, new `photos/earnmore` image). Privacy reuses the new
+   `ArticleColumn` export in `BlogArticle.tsx`. Bootcamp/EarnMore design files
+   lost their dynamic content (weekly breakdown, open roles) — those empty
+   sections were omitted. 404 verified unchanged.
+   **Still to build:** the 7 course/program pages (`it-training-internship-
+   trivandrum`, `full-stack-developer-course-trivandrum`,
+   `ai-data-science-course-trivandrum`, `software-testing-course-trivandrum`,
+   `shopify-developer-course-workshop`, `experience-the-first-job`,
+   `/training-internship/career-goal-finding`); then repoint
+   `LEGACY_LINKS.itTrainingInternship`.
 10. ⬜ Final full-site verification: lint/test/build across every route,
     responsive breakpoints, interaction testing (menu, forms, filters,
     dialogs), and a Lighthouse pass compared against the project's documented

@@ -57,6 +57,11 @@ export type PageKey =
   | "blogOnam"
   | "blogChristmas"
   | "blogIndependenceDay"
+  | "privacy"
+  | "thankYou"
+  | "sitemap"
+  | "bootcamp"
+  | "earnMore"
   | "notFound";
 
 export interface RouteDef {
@@ -118,6 +123,11 @@ export const ROUTES: RouteDef[] = [
   { path: "/blogs/festive-onam-ladder7", page: "blogOnam" },
   { path: "/blogs/magical-christmas-celebration", page: "blogChristmas" },
   { path: "/blogs/independence-day-ladder7", page: "blogIndependenceDay" },
+  { path: "/privacy", page: "privacy" },
+  { path: "/thank-you", page: "thankYou" },
+  { path: "/sitemap", page: "sitemap" },
+  { path: "/bootcamp", page: "bootcamp" },
+  { path: "/earnmore", page: "earnMore" },
 ];
 
 /** Normalises a pathname (no trailing slash except root, lower-case). */

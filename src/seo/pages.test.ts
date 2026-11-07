@@ -3,6 +3,9 @@ import { ROUTES } from "../routes";
 import { buildRobots, buildSitemap } from "./files";
 import { PAGE_SEO } from "./pages";
 
+/** Real routes that are deliberately kept out of the index (post-enquiry confirmation). */
+const NOINDEX_ROUTES = new Set(["thankYou"]);
+
 describe("PAGE_SEO", () => {
   it("has an entry for every route, plus notFound", () => {
     for (const route of ROUTES) {
@@ -19,7 +22,7 @@ describe("PAGE_SEO", () => {
       expect(page.title.length).toBeLessThanOrEqual(70);
       expect(page.description.length).toBeGreaterThan(50);
       expect(page.description.length).toBeLessThanOrEqual(170);
-      expect(page.indexable).toBe(true);
+      expect(page.indexable).toBe(!NOINDEX_ROUTES.has(route.page));
     }
   });
 

@@ -93,6 +93,11 @@ const PAGE_MODULES = {
   blogOnam: "src/pages/BlogPost/OnamPost.tsx",
   blogChristmas: "src/pages/BlogPost/ChristmasPost.tsx",
   blogIndependenceDay: "src/pages/BlogPost/IndependenceDayPost.tsx",
+  privacy: "src/pages/Privacy/PrivacyPage.tsx",
+  thankYou: "src/pages/ThankYou/ThankYouPage.tsx",
+  sitemap: "src/pages/Sitemap/SitemapPage.tsx",
+  bootcamp: "src/pages/Bootcamp/BootcampPage.tsx",
+  earnMore: "src/pages/EarnMore/EarnMorePage.tsx",
   notFound: "src/pages/NotFound/NotFoundPage.tsx",
 };
 

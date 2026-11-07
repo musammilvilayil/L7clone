@@ -66,3 +66,17 @@
     font-size: 1.875rem;
   }
 }
+
+.blog-article__body .detail-list li {
+  color: #52676f;
+}
+
+.blog-article__body .detail-list li::before {
+  color: #b60e2d;
+}
+
+.blog-article__body a:not(.btn) {
+  color: #b60e2d;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

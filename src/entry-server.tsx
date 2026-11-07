@@ -13,6 +13,11 @@ import ContactPage from "./pages/Contact/ContactPage";
 import EducationPage from "./pages/Education/EducationPage";
 import FaqPage from "./pages/Faq/FaqPage";
 import HomePage from "./pages/Home/HomePage";
+import PrivacyPage from "./pages/Privacy/PrivacyPage";
+import ThankYouPage from "./pages/ThankYou/ThankYouPage";
+import SitemapPage from "./pages/Sitemap/SitemapPage";
+import BootcampPage from "./pages/Bootcamp/BootcampPage";
+import EarnMorePage from "./pages/EarnMore/EarnMorePage";
 import NotFoundPage from "./pages/NotFound/NotFoundPage";
 import PortfolioPage from "./pages/Portfolio/PortfolioPage";
 import L7InsightsPage from "./pages/ProductDetail/L7InsightsPage";
@@ -118,6 +123,11 @@ const pages: PageComponents = {
   blogOnam: OnamPost,
   blogChristmas: ChristmasPost,
   blogIndependenceDay: IndependenceDayPost,
+  privacy: PrivacyPage,
+  thankYou: ThankYouPage,
+  sitemap: SitemapPage,
+  bootcamp: BootcampPage,
+  earnMore: EarnMorePage,
   notFound: NotFoundPage,
 };
 

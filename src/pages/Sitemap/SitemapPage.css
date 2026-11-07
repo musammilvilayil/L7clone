@@ -1,0 +1,40 @@
+/* HTML sitemap directory (design: sitemap.html .site-directory). */
+
+.site-directory {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-directory a {
+  display: block;
+  padding: 20px 0;
+  border-top: 1px solid #b7c3c8;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: inherit;
+  transition: color 0.2s;
+}
+
+.site-directory a:hover {
+  color: #b60e2d;
+}
+
+.site-directory a:focus-visible {
+  outline: 2px solid #b60e2d;
+  outline-offset: 2px;
+}
+
+@media (max-width: 700px) {
+  .site-directory {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .site-directory a {
+    font-size: 0.875rem;
+  }
+}

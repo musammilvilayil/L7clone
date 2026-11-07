@@ -63,6 +63,11 @@ const importers: Record<PageKey, () => Promise<{ default: ComponentType }>> = {
   blogOnam: () => import("./pages/BlogPost/OnamPost"),
   blogChristmas: () => import("./pages/BlogPost/ChristmasPost"),
   blogIndependenceDay: () => import("./pages/BlogPost/IndependenceDayPost"),
+  privacy: () => import("./pages/Privacy/PrivacyPage"),
+  thankYou: () => import("./pages/ThankYou/ThankYouPage"),
+  sitemap: () => import("./pages/Sitemap/SitemapPage"),
+  bootcamp: () => import("./pages/Bootcamp/BootcampPage"),
+  earnMore: () => import("./pages/EarnMore/EarnMorePage"),
   notFound: () => import("./pages/NotFound/NotFoundPage"),
 };
 
@@ -120,6 +125,11 @@ const pages: PageComponents = {
   blogOnam: lazy(importers.blogOnam),
   blogChristmas: lazy(importers.blogChristmas),
   blogIndependenceDay: lazy(importers.blogIndependenceDay),
+  privacy: lazy(importers.privacy),
+  thankYou: lazy(importers.thankYou),
+  sitemap: lazy(importers.sitemap),
+  bootcamp: lazy(importers.bootcamp),
+  earnMore: lazy(importers.earnMore),
   notFound: lazy(importers.notFound),
 };
 

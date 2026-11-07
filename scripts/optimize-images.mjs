@@ -75,6 +75,7 @@ const JOBS = [
   { src: "blog-onam-celebration.jpg", name: "photos/blog-onam-celebration", widths: [480, 800, 1200], formats: ["webp"] },
   { src: "blog-christmas-celebration.jpg", name: "photos/blog-christmas-celebration", widths: [480, 800, 1200], formats: ["webp"] },
   { src: "blog-independence-day.jpg", name: "photos/blog-independence-day", widths: [480, 800, 1200], formats: ["webp"] },
+  { src: "earnmore.jpg", name: "photos/earnmore", widths: [480], formats: ["webp"] },
 ];
 
 const DEFAULT_QUALITY = { avif: 50, webp: 74 };

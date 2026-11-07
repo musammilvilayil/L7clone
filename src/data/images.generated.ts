@@ -494,6 +494,16 @@ export const IMAGES = {
     "formats": [
       "webp"
     ]
+  },
+  "photos/earnmore": {
+    "width": 500,
+    "height": 750,
+    "widths": [
+      480
+    ],
+    "formats": [
+      "webp"
+    ]
   }
 } as const;
 
