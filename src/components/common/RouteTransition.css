@@ -1,0 +1,117 @@
+/* Page-to-page loading animation (design: .route-transition). State classes
+   (route-leaving / route-arriving / route-revealing) live on <html>. */
+
+.route-transition {
+  position: fixed;
+  inset: 0;
+  z-index: 100000;
+  pointer-events: none;
+  visibility: hidden;
+  overflow: hidden;
+  contain: layout paint;
+}
+
+.route-layer {
+  position: absolute;
+  inset: 0;
+  transform: translateY(105%);
+  will-change: transform;
+}
+
+.route-red {
+  z-index: 1;
+  background: var(--color-brand-surface);
+}
+
+.route-dark {
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  background: #101416;
+}
+
+.route-title {
+  padding: 0 5%;
+  font-size: clamp(3.125rem, 8.2vw, 8.125rem);
+  font-weight: var(--font-weight-regular);
+  letter-spacing: -0.065em;
+  line-height: 1.1;
+  text-align: center;
+  color: #f3f5f6;
+}
+
+.route-title b {
+  font-weight: var(--font-weight-regular);
+  color: var(--color-brand-surface);
+}
+
+.route-title.is-long {
+  font-size: clamp(2.1875rem, 5vw, 4.6875rem);
+}
+
+.route-leaving .route-transition,
+.route-arriving .route-transition,
+.route-revealing .route-transition {
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.route-leaving .route-red {
+  transform: translateY(0);
+  transition: transform 0.62s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.route-leaving .route-dark {
+  transform: translateY(0);
+  transition: transform 0.62s 0.14s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.route-leaving .route-title {
+  animation: route-title-in 0.5s 0.25s both;
+}
+
+.route-arriving .route-layer {
+  transform: translateY(0);
+}
+
+.route-revealing .route-dark {
+  transform: translateY(-105%);
+  transition: transform 0.8s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.route-revealing .route-red {
+  transform: translateY(-105%);
+  transition: transform 0.8s 0.14s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.route-revealing .route-title {
+  opacity: 0;
+  translate: 0 -30px;
+  transition:
+    opacity 0.25s,
+    translate 0.4s;
+}
+
+@keyframes route-title-in {
+  from {
+    opacity: 0;
+    translate: 0 24px;
+  }
+
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .route-transition {
+    display: none !important;
+  }
+
+  .route-layer,
+  .route-title {
+    animation: none !important;
+    transition: none !important;
+  }
+}

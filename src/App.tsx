@@ -4,6 +4,7 @@ import "./styles/index.css";
 import { Suspense, type ComponentType } from "react";
 import { Route, Routes } from "react-router";
 import { RoutePrefetch, type RouteImporters } from "./components/common/RoutePrefetch";
+import { RouteTransition } from "./components/common/RouteTransition";
 import { ScrollManager } from "./components/common/ScrollManager";
 import { EnquiryProvider } from "./context/EnquiryContext";
 import { MainLayout } from "./layouts/MainLayout";
@@ -25,6 +26,7 @@ export function App({ pages, importers }: { pages: PageComponents; importers?: R
   return (
     <EnquiryProvider>
       <ScrollManager />
+      <RouteTransition />
       <RoutePrefetch importers={importers} />
       <MainLayout>
         <Suspense fallback={<div className="route-loading" aria-busy="true" />}>

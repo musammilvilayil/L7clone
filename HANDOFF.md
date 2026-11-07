@@ -129,6 +129,15 @@ have NOT yet been screenshot-checked, and nothing has been committed.**
     92 on the Corporate Training hub (LCP ~3.0s, long render delay on the
     hero image) — shared hero pattern, not tuned further.
 
+**Page transition (added after item 10):** `src/components/common/RouteTransition.tsx|.css`
+is the design's route-change animation (red + dark panels slide up with the
+destination name, route changes underneath, panels lift away). It intercepts
+same-origin link clicks in the capture phase, then calls React Router's
+`navigate` after 780ms; skipped for reduced motion, hash/same-page links,
+new-tab/download/modified clicks and back/forward. State classes
+(`route-leaving|arriving|revealing`) live on `<html>`. Note: animations don't
+tick while the Browser pane is hidden — show it before visually testing.
+
 Also still owed to the user (flagged earlier, not yet acted on): confirm
 whether they still want anything further done now that About/Services were
 rebuilt from the real design files that originally prompted that question —
