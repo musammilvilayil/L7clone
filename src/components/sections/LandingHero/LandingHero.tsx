@@ -23,12 +23,15 @@ export function LandingHero({
   title,
   description,
   image,
+  facts,
 }: {
   eyebrow: string;
   title: string;
   description: string;
   /** Omit for the text-only variant (design: .text-hero). */
   image?: LandingHeroImage;
+  /** Quick facts under the actions, bullet-separated (design: .landing-facts). */
+  facts?: string[];
 }) {
   const ref = useRef<HTMLElement>(null);
 
@@ -48,6 +51,13 @@ export function LandingHero({
             Explore the details
           </Button>
         </div>
+        {facts && facts.length > 0 && (
+          <ul className="landing-hero__facts">
+            {facts.map((fact) => (
+              <li key={fact}>{fact}</li>
+            ))}
+          </ul>
+        )}
       </div>
       {image && (
         <figure className="landing-hero__image">

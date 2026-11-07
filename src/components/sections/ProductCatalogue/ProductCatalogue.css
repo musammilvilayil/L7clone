@@ -1,4 +1,5 @@
-/* Products hub catalogue (design: .catalogue-section) — filterable grid. */
+/* Products hub catalogue (design: .catalogue-section) — heading + filter bar.
+   The card grid itself is CatalogueGrid.css (shared with Corporate Training). */
 
 .product-catalogue {
   position: relative;
@@ -38,76 +39,6 @@
   color: #fff;
 }
 
-.product-catalogue__grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 65px 35px;
-}
-
-.product-catalogue__card {
-  display: block;
-  min-width: 0;
-  color: inherit;
-}
-
-.product-catalogue__image {
-  position: relative;
-  height: 330px;
-  overflow: hidden;
-  border-radius: var(--radius-dialog);
-  background: #d6dede;
-}
-
-.product-catalogue__image :is(img, picture) {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: scale 0.8s, filter 0.8s;
-}
-
-.product-catalogue__card:hover .product-catalogue__image img {
-  scale: 1.05;
-}
-
-.product-catalogue__image span {
-  position: absolute;
-  right: 20px;
-  bottom: 20px;
-  display: grid;
-  width: 44px;
-  height: 44px;
-  place-items: center;
-  border-radius: var(--radius-round);
-  background: #fff;
-  color: var(--color-bg);
-  font-size: 1.5rem;
-}
-
-.product-catalogue__meta {
-  display: block;
-  margin: 24px 0 15px;
-  font-size: var(--font-size-micro);
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #52676f;
-}
-
-.product-catalogue__card h3 {
-  margin: 0 0 14px;
-  font-size: 2.125rem;
-  font-weight: var(--font-weight-regular);
-  line-height: 1.18;
-  letter-spacing: -1.3px;
-}
-
-.product-catalogue__card p {
-  max-width: 560px;
-  margin: 0;
-  font-size: var(--font-size-body-sm);
-  line-height: 1.9;
-  color: #526069;
-}
-
 @media (max-width: 700px) {
   .product-catalogue {
     padding: 64px 6%;
@@ -120,27 +51,6 @@
 
   .product-catalogue__filters button {
     padding: 10px 14px;
-    font-size: var(--font-size-caption);
-  }
-
-  .product-catalogue__grid {
-    grid-template-columns: 1fr;
-    gap: 42px;
-  }
-
-  .product-catalogue__image {
-    height: 280px;
-  }
-
-  .product-catalogue__meta {
-    margin-top: 21px;
-  }
-
-  .product-catalogue__card h3 {
-    font-size: 1.8125rem;
-  }
-
-  .product-catalogue__card p {
     font-size: var(--font-size-caption);
   }
 }
