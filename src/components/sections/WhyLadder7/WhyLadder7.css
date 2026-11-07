@@ -187,9 +187,9 @@
 }
 
 .why__reason p {
-  max-width: 245px;
+  max-width: 320px;
   margin: 0 auto;
-  font-size: var(--font-size-label);
+  font-size: 1.000rem; /* 18px */
   line-height: var(--line-height-body);
   color: var(--color-ink-subtle);
 }
@@ -333,8 +333,8 @@
   }
 
   .why__reason p {
-    max-width: 280px;
-    font-size: var(--font-size-caption);
+    max-width: 300px;
+    font-size: 1.125rem;
   }
 
   .why__labels {

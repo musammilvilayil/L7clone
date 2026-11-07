@@ -188,3 +188,16 @@ html:not(.motion-ready) .capability-row::after {
     transform: none;
   }
 }
+
+/* Capability sections (home "What we do", Education "Your growth toolkit"):
+   the intro, each row's subtitle and its tags read at 18px on larger screens. */
+.capability-section .section-heading__intro {
+  font-size: 1.125rem;
+}
+
+@media (min-width: 701px) {
+  .capability-section .capability-row__subtitle,
+  .capability-section .capability-row .tag {
+    font-size: 1.125rem;
+  }
+}

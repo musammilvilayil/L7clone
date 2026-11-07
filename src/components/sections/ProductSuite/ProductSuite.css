@@ -23,7 +23,7 @@
   align-items: center;
   justify-content: space-between;
   margin: 0 0 27px;
-  font-size: var(--font-size-micro);
+  font-size: 0.8125rem; /* 13px */
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: var(--color-text-subtle);
@@ -64,7 +64,7 @@
 .product-suite__tab-name small {
   display: block;
   margin-top: 11px;
-  font-size: var(--font-size-micro);
+  font-size: 1.125rem;
   line-height: 1.6;
   letter-spacing: 1.2px;
   text-transform: uppercase;
@@ -112,8 +112,9 @@
   align-items: center;
   gap: 9px;
   margin: 27px 0 0;
-  font-size: var(--font-size-micro);
-  line-height: 1.7;
+  font-size: 2.8125rem; /* 45px */
+  line-height: 1.2;
+  white-space: nowrap;
   color: var(--color-text-subtle);
 }
 
@@ -145,7 +146,7 @@
 }
 
 .product-suite__label {
-  font-size: var(--font-size-micro);
+  font-size: 1.125rem;
   letter-spacing: 1.4px;
   line-height: 1.5;
   text-transform: uppercase;
@@ -162,7 +163,7 @@
 .product-suite__tagline {
   max-width: 400px;
   margin: 0 0 12px;
-  font-size: var(--font-size-body);
+  font-size: 1.125rem;
   line-height: 1.5;
   color: #d2dadd;
 }
@@ -170,7 +171,7 @@
 .product-suite__description {
   max-width: 430px;
   margin: 0;
-  font-size: var(--font-size-caption);
+  font-size: 1.125rem;
   line-height: var(--line-height-relaxed);
   color: var(--color-text-soft);
 }
@@ -207,7 +208,7 @@
   margin: 32px 0 0;
   padding-top: 21px;
   border-top: 1px solid #283337;
-  font-size: var(--font-size-micro);
+  font-size: 1.125rem;
   line-height: 1.6;
   color: var(--color-text-subtle);
 }
@@ -1026,5 +1027,19 @@
 @media (prefers-reduced-motion: reduce) {
   .product-suite__panel {
     animation: none;
+  }
+}
+
+/* The section intro reads at 18px, like the other capability-style sections. */
+.product-suite .section-heading__intro {
+  font-size: 1.125rem;
+}
+
+/* Phones keep the small uppercase label. */
+@media (max-width: 700px) {
+  .product-suite__label,
+  .product-suite__tab-name small,
+  .product-suite__note {
+    font-size: var(--font-size-micro);
   }
 }

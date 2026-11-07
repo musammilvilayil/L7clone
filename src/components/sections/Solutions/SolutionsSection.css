@@ -46,8 +46,8 @@
 }
 
 .solutions__description {
-  max-width: 415px;
-  font-size: var(--font-size-body);
+  max-width: 480px;
+  font-size: 1.125rem; /* 18px */
   color: var(--color-ink-muted);
 }
 
@@ -90,10 +90,6 @@
 
   .solutions__copy h3 {
     font-size: 2.3125rem;
-  }
-
-  .solutions__description {
-    font-size: var(--font-size-body-sm);
   }
 
   .solutions__copy .check-list {

@@ -39,7 +39,7 @@
 .pathway__heading > p {
   max-width: 310px;
   margin: 0 0 5px;
-  font-size: var(--font-size-body-sm);
+  font-size: 1.125rem;
   color: #9da8ae;
 }
 
@@ -265,7 +265,7 @@
 .pathway__description {
   max-width: 500px;
   margin: 0;
-  font-size: var(--font-size-body-sm);
+  font-size: 1.125rem;
   color: #a5b2bb;
 }
 
@@ -284,7 +284,7 @@
 
 .pathway__prompt > p {
   margin: 8px 0 0;
-  font-size: var(--font-size-body-sm);
+  font-size: 1.125rem;
   line-height: var(--line-height-body);
   color: #dce4e8;
 }
@@ -370,7 +370,7 @@
 
   .pathway__heading > p {
     max-width: 260px;
-    font-size: var(--font-size-caption);
+    font-size: 1.125rem;
   }
 
   .pathway__graphic {
@@ -400,7 +400,7 @@
   }
 
   .pathway__description {
-    font-size: var(--font-size-caption);
+    font-size: 1.125rem;
     line-height: 1.7;
   }
 
@@ -409,7 +409,7 @@
   }
 
   .pathway__prompt > p {
-    font-size: var(--font-size-caption);
+    font-size: 1.125rem;
   }
 
   .pathway__controls {
@@ -455,7 +455,7 @@
   .pathway__heading > p {
     max-width: none;
     margin-top: 22px;
-    font-size: var(--font-size-caption);
+    font-size: 1.125rem;
   }
 
   .pathway__heading .label-tiny {
@@ -556,7 +556,7 @@
 
   .pathway__description,
   .pathway__prompt > p {
-    font-size: var(--font-size-caption);
+    font-size: 1.125rem;
   }
 
   .pathway__prompt {

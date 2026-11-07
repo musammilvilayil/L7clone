@@ -74,7 +74,7 @@
 .hero__description {
   max-width: 650px;
   margin: 0 auto;
-  font-size: var(--font-size-lead);
+  font-size: 20px;
   line-height: var(--line-height-body);
   letter-spacing: -0.35px;
   color: var(--color-text-muted);
@@ -120,7 +120,7 @@
 
 .hero__stats dt {
   margin-bottom: 6px;
-  font-size: var(--font-size-micro);
+  font-size: 1.125rem; /* 18px; phones keep the small size below */
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #a7adb0;
@@ -144,7 +144,7 @@
 
 .hero__tagline {
   margin: 0;
-  font-size: var(--font-size-caption);
+  font-size: 1.125rem; /* 18px; phones keep the small size below */
   line-height: var(--line-height-relaxed);
   text-align: right;
   color: #9a9da0;
@@ -192,7 +192,7 @@
 }
 
 .hero[data-variant="education"] .hero__stats dt {
-  font-size: 0.625rem; /* 10px */
+  font-size: 1.125rem; /* 18px */
 }
 
 .hero[data-variant="education"] .hero__stats dd {
@@ -267,6 +267,7 @@
   }
 
   .hero__stats dt {
+    font-size: var(--font-size-micro);
     letter-spacing: 0.4px;
     line-height: 1.3;
   }

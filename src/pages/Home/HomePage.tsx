@@ -36,7 +36,7 @@ export default function HomePage() {
       <Seo page="home" />
       <Hero />
 
-      <section className="section home-capabilities" id="capabilities" aria-labelledby="capabilities-title">
+      <section className="section home-capabilities capability-section" id="capabilities" aria-labelledby="capabilities-title">
         <SectionHeading
           eyebrow="What we do"
           title={"Four capabilities.\nOne connected partner"}

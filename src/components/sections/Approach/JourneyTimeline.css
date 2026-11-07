@@ -108,19 +108,15 @@ html:not(.motion-ready) .journey__phase > i {
 }
 
 .journey__phase p {
-  max-width: 280px;
+  max-width: 360px;
   margin: 0;
-  font-size: var(--font-size-body-sm);
+  font-size: 1.125rem; /* 18px */
   color: #a1aaaf;
 }
 
 @media (max-width: 1000px) {
   .journey__phase h3 {
     letter-spacing: -1px;
-  }
-
-  .journey__phase p {
-    font-size: var(--font-size-caption);
   }
 }
 

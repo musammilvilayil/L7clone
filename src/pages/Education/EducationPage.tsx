@@ -36,7 +36,7 @@ export default function EducationPage() {
       <Seo page="education" />
       <Hero content={EDUCATION_HERO} variant="education" />
 
-      <section className="section" id="products" aria-labelledby="products-title">
+      <section className="section capability-section" id="products" aria-labelledby="products-title">
         <SectionHeading
           eyebrow="Your growth toolkit"
           title={"Four products.\nOne better you"}
