@@ -106,9 +106,9 @@
 }
 
 .film-caption {
-  max-width: 500px;
+  max-width: 640px;
   margin: 20px auto 0;
-  font-size: var(--font-size-label);
+  font-size: 1.125rem;
   line-height: var(--line-height-body);
   color: var(--color-text-subtle);
 }
@@ -157,7 +157,7 @@
 
   .film-caption {
     padding: 0 5%;
-    font-size: var(--font-size-micro);
+    font-size: 1.125rem;
   }
 }
 

@@ -21,9 +21,9 @@
 }
 
 .wall__text {
-  max-width: 420px;
+  max-width: 520px;
   margin: 30px 0;
-  font-size: var(--font-size-body-lg);
+  font-size: 1.125rem;
   color: var(--color-text-strong);
 }
 
@@ -113,9 +113,9 @@
   }
 
   .wall__text {
-    max-width: 300px;
+    max-width: 340px;
     margin: 25px 0;
-    font-size: var(--font-size-body-sm);
+    font-size: 1.125rem;
   }
 
   .wall__collage {

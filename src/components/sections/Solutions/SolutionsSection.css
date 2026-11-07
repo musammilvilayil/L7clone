@@ -53,6 +53,7 @@
 
 .solutions__copy .check-list {
   margin: 25px 0 30px;
+  font-size: 1.125rem; /* 18px */
   color: #4b5761;
 }
 
@@ -93,6 +94,11 @@
   }
 
   .solutions__copy .check-list {
-    font-size: var(--font-size-label);
+    font-size: 1.125rem;
   }
+}
+
+/* The section intro (top right) reads at 18px. */
+.solutions .section-heading__intro {
+  font-size: 1.125rem;
 }

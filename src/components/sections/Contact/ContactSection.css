@@ -24,7 +24,7 @@
 
 .contact__lead {
   margin: 28px 0;
-  font-size: var(--font-size-body-lg);
+  font-size: 1.125rem;
   color: var(--color-text-strong);
 }
 
@@ -87,7 +87,7 @@
   }
 
   .contact__lead {
-    font-size: var(--font-size-body);
+    font-size: 1.125rem;
   }
 
   .contact__links {

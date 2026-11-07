@@ -12,7 +12,7 @@
 
 .audience__heading p {
   margin: 25px 0 35px;
-  font-size: var(--font-size-body-sm);
+  font-size: 1.125rem;
   color: var(--color-text-soft);
 }
 
@@ -43,7 +43,7 @@
 
 .audience__card p {
   margin-bottom: 25px;
-  font-size: var(--font-size-body-sm);
+  font-size: 1.125rem;
   color: var(--color-text-soft);
 }
 
@@ -68,7 +68,7 @@
 
   .audience__heading p {
     margin: 23px 0 27px;
-    font-size: var(--font-size-caption);
+    font-size: 1.125rem;
   }
 
   .audience__card {
@@ -81,6 +81,6 @@
   }
 
   .audience__card p {
-    font-size: var(--font-size-caption);
+    font-size: 1.125rem;
   }
 }

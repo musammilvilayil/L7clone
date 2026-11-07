@@ -21,3 +21,8 @@
     margin-top: 18px;
   }
 }
+
+/* The section intro (top right) reads at 18px. */
+.delivery .section-heading__intro {
+  font-size: 1.125rem;
+}

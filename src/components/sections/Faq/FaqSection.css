@@ -45,7 +45,7 @@
 
 .faq__list p {
   margin: 0 35px 25px 0;
-  font-size: var(--font-size-body-sm);
+  font-size: 1.125rem;
   color: var(--color-text-soft);
 }
 
@@ -67,6 +67,6 @@
 
   .faq__list p {
     margin-right: 0;
-    font-size: var(--font-size-caption);
+    font-size: 1.125rem;
   }
 }

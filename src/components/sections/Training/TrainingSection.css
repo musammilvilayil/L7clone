@@ -16,7 +16,7 @@
 
 .training__intro > p {
   max-width: 620px;
-  font-size: var(--font-size-body);
+  font-size: 1.125rem;
   line-height: 1.85;
   color: var(--color-text-soft);
 }
@@ -55,7 +55,7 @@
 }
 
 .training__tracks p {
-  font-size: var(--font-size-caption);
+  font-size: 1.125rem;
   line-height: 1.9;
   color: var(--color-text-soft);
 }
@@ -81,7 +81,7 @@
   }
 
   .training__intro > p {
-    font-size: var(--font-size-body-sm);
+    font-size: 1.125rem;
   }
 
   .training__tracks {
@@ -103,7 +103,7 @@
   }
 
   .training__intro > p {
-    font-size: var(--font-size-caption);
+    font-size: 1.125rem;
     line-height: 1.9;
   }
 
@@ -133,4 +133,9 @@
   .training__bottom > span {
     font-size: var(--font-size-label);
   }
+}
+
+/* The section intro (top right) reads at 18px too. */
+.training .section-heading__intro {
+  font-size: 1.125rem;
 }
