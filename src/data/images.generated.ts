@@ -302,6 +302,114 @@ export const IMAGES = {
     "formats": [
       "webp"
     ]
+  },
+  "photos/training-laptop-code": {
+    "width": 1200,
+    "height": 800,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "photos/training-python-code": {
+    "width": 1200,
+    "height": 2133,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "photos/training-mobile-phone": {
+    "width": 1200,
+    "height": 792,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "photos/training-ai-prompt": {
+    "width": 1200,
+    "height": 857,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "photos/training-analytics-dashboard": {
+    "width": 1200,
+    "height": 864,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "photos/training-server-rack": {
+    "width": 1200,
+    "height": 800,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "photos/training-video-editing": {
+    "width": 1200,
+    "height": 800,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "photos/training-analytics-meeting": {
+    "width": 1200,
+    "height": 800,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "photos/training-robot-ai": {
+    "width": 1200,
+    "height": 675,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "formats": [
+      "webp"
+    ]
   }
 } as const;
 

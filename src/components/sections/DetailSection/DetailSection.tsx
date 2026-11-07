@@ -1,4 +1,4 @@
-import { useState, type ReactNode } from "react";
+import { useState, type ReactNode, type SyntheticEvent } from "react";
 import { cn } from "../../../utils/cn";
 import { Button } from "../../ui/Button";
 import "./DetailSection.css";
@@ -69,29 +69,65 @@ export interface DetailFaqItem {
   answer: string;
 }
 
+/** One-open-at-a-time state for a list of <details>, as in the design's accordions. */
+function useSingleOpen(defaultOpen: number) {
+  const [open, setOpen] = useState(defaultOpen);
+  const toggleProps = (index: number) => ({
+    open: open === index,
+    onToggle: (event: SyntheticEvent<HTMLDetailsElement>) => {
+      const isOpen = event.currentTarget.open;
+      setOpen((current) => (isOpen ? index : current === index ? -1 : current));
+    },
+  });
+  return { open, toggleProps };
+}
+
 /**
- * Accordion inside a DetailSection's body (design: .detail-faq / .curriculum).
- * Opening one closes the others, as in the design.
+ * Accordion inside a DetailSection's body (design: .detail-faq).
+ * Opening one closes the others, as in the design. `defaultOpen` is the
+ * index open on load (-1 for all closed).
  */
-export function DetailFaq({ items }: { items: DetailFaqItem[] }) {
-  const [open, setOpen] = useState(0);
+export function DetailFaq({ items, defaultOpen = 0 }: { items: DetailFaqItem[]; defaultOpen?: number }) {
+  const { open, toggleProps } = useSingleOpen(defaultOpen);
 
   return (
     <div className="detail-faq">
       {items.map((item, index) => (
-        <details
-          key={item.question}
-          open={open === index}
-          onToggle={(event) => {
-            const isOpen = event.currentTarget.open;
-            setOpen((current) => (isOpen ? index : current === index ? -1 : current));
-          }}
-        >
+        <details key={item.question} {...toggleProps(index)}>
           <summary>
             {item.question}
             <span aria-hidden="true">{open === index ? "–" : "+"}</span>
           </summary>
           <p>{item.answer}</p>
+        </details>
+      ))}
+    </div>
+  );
+}
+
+export interface DetailCurriculumItem {
+  number: string;
+  title: string;
+  description: string;
+}
+
+/**
+ * Numbered accordion of modules inside a DetailSection's body (design:
+ * .curriculum) — same behaviour as DetailFaq, first module open on load.
+ */
+export function DetailCurriculum({ items }: { items: DetailCurriculumItem[] }) {
+  const { open, toggleProps } = useSingleOpen(0);
+
+  return (
+    <div className="detail-faq detail-curriculum">
+      {items.map((item, index) => (
+        <details key={item.number} {...toggleProps(index)}>
+          <summary>
+            <span className="detail-curriculum__number">{item.number}</span>
+            <h3>{item.title}</h3>
+            <span aria-hidden="true">{open === index ? "–" : "+"}</span>
+          </summary>
+          <p>{item.description}</p>
         </details>
       ))}
     </div>

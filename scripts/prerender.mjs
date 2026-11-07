@@ -68,6 +68,18 @@ const PAGE_MODULES = {
   serviceSkilledResource: "src/pages/ServiceDetail/SkilledResourcePage.tsx",
   serviceGreenRecovery: "src/pages/ServiceDetail/GreenRecoveryPage.tsx",
   serviceProductSolution: "src/pages/ServiceDetail/ProductSolutionPage.tsx",
+  corporateTraining: "src/pages/CorporateTraining/CorporateTrainingPage.tsx",
+  trainingFullStackDevelopment: "src/pages/TrainingDetail/FullStackDevelopmentPage.tsx",
+  trainingDataScience: "src/pages/TrainingDetail/DataSciencePage.tsx",
+  trainingMobileAppDevelopment: "src/pages/TrainingDetail/MobileAppDevelopmentPage.tsx",
+  trainingPromptEngineeringAiTraining: "src/pages/TrainingDetail/PromptEngineeringAiTrainingPage.tsx",
+  trainingDataVisualization: "src/pages/TrainingDetail/DataVisualizationPage.tsx",
+  trainingCloudComputingBootcamp: "src/pages/TrainingDetail/CloudComputingBootcampPage.tsx",
+  trainingDigitalContentCreation: "src/pages/TrainingDetail/DigitalContentCreationPage.tsx",
+  trainingBusinessAnalytics: "src/pages/TrainingDetail/BusinessAnalyticsPage.tsx",
+  trainingBusinessIntelligenceDataAnalytics: "src/pages/TrainingDetail/BusinessIntelligenceDataAnalyticsPage.tsx",
+  trainingMarketingAutomationCrm: "src/pages/TrainingDetail/MarketingAutomationCrmPage.tsx",
+  trainingWebopsAiMl: "src/pages/TrainingDetail/WebopsAiMlPage.tsx",
   notFound: "src/pages/NotFound/NotFoundPage.tsx",
 };
 

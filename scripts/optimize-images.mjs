@@ -57,6 +57,16 @@ const JOBS = [
   // Products catalogue: small card thumbnails (~330 css px wide).
   { src: "mirror-reflection-portrait.webp", name: "photos/mirror-reflection-portrait", widths: [300, 600, 900], formats: ["webp"] },
   { src: "students-laptop-group.webp", name: "photos/students-laptop-group", widths: [300, 600, 900], formats: ["webp"] },
+  // Corporate Training: hub catalogue cards (~46vw) + course-detail heroes (~40vw).
+  { src: "training-laptop-code.webp", name: "photos/training-laptop-code", widths: [480, 800, 1200], formats: ["webp"] },
+  { src: "training-python-code.webp", name: "photos/training-python-code", widths: [480, 800, 1200], formats: ["webp"] },
+  { src: "training-mobile-phone.webp", name: "photos/training-mobile-phone", widths: [480, 800, 1200], formats: ["webp"] },
+  { src: "training-ai-prompt.webp", name: "photos/training-ai-prompt", widths: [480, 800, 1200], formats: ["webp"] },
+  { src: "training-analytics-dashboard.webp", name: "photos/training-analytics-dashboard", widths: [480, 800, 1200], formats: ["webp"] },
+  { src: "training-server-rack.webp", name: "photos/training-server-rack", widths: [480, 800, 1200], formats: ["webp"] },
+  { src: "training-video-editing.webp", name: "photos/training-video-editing", widths: [480, 800, 1200], formats: ["webp"] },
+  { src: "training-analytics-meeting.webp", name: "photos/training-analytics-meeting", widths: [480, 800, 1200], formats: ["webp"] },
+  { src: "training-robot-ai.webp", name: "photos/training-robot-ai", widths: [480, 800, 1200], formats: ["webp"] },
 ];
 
 const DEFAULT_QUALITY = { avif: 50, webp: 74 };

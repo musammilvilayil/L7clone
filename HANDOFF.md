@@ -67,16 +67,24 @@ have NOT yet been screenshot-checked, and nothing has been committed.**
 4. ✅ **Services hub + 14 service-detail pages** (committed `c9314ab`) — a
    shared `ServiceDetailTemplate` component drives all 14 detail pages; the
    hub page has a hand-built pure-CSS laptop-mockup hero.
-5. 🟡 **Products hub + 5 product-detail pages** — **built but uncommitted**,
-   see above. Needs: finish visual QA on the 5 detail pages (Site 360, L7
-   Nexus, Outreach Engine, L7 Insights, Infinite Insights), then decide with
-   the user whether to commit.
+5. ✅ **Products hub + 5 product-detail pages** (committed `4d86f57`; visual
+   QA finished 2026-11-07 — all section structures match the design. Site
+   360's design has an empty-bodied "PRODUCT DETAILS / Explore the product."
+   section that is intentionally omitted per the empty-section rule below).
+6. 🟡 **Corporate Training hub + 11 course pages** — built, verified
+   (tsc/lint/test/build, 12 routes prerendered, desktop + mobile screenshots,
+   per-page content counts vs. source) but **uncommitted** as of 2026-11-07.
+   Pieces: `CatalogueGrid` (extracted from ProductCatalogue, shared by both
+   hubs), `LandingHero facts` prop (design `.landing-facts`),
+   `DetailCurriculum` + `DetailFaq defaultOpen` in DetailSection.tsx,
+   `TrainingDetailTemplate`, `src/data/corporateTraining.ts` (hub cards),
+   `src/data/corporate-training/*.ts` (one per course, generated verbatim from
+   the HTML), pages under `src/pages/CorporateTraining/` + `TrainingDetail/`,
+   9 new `photos/training-*` images. Only canonical
+   `/corporate-training-kerala/*` routes are registered; the design's
+   `/corporate-training/*` aliases are not (no alias mechanism exists).
 
 ## What's left (in the agreed order)
-
-6. ⬜ Corporate Training hub (`corporate-training-kerala.html`) + 11
-   training-detail pages (`corporate-training-kerala--*.html`) — shared
-   template, same pattern as Services.
 7. ⬜ Education product pages: My Ladder, Mind Gym, Mirror Me, Fill Dots, AMIU
    (`myladder.html`, `mindgym.html`, `mirrorme.html`, `filldots.html`,
    `amiu.html`) — these are currently linked from the Products catalogue and
@@ -210,8 +218,9 @@ this is likely already resolved by now, just noting it existed.
 ## Immediate next step
 
 1. Re-run `git status`/`git log` to confirm current state hasn't changed.
-2. If the Products group is still uncommitted and still matches what's
-   described above: finish visual QA on the 5 product-detail pages
-   (screenshot each one, compare against its source HTML), then ask the user
-   whether to commit before moving on.
-3. Continue with Corporate Training (item 6 above).
+2. If Corporate Training (item 6) is still uncommitted, ask the user whether
+   to commit it before moving on.
+3. Continue with the Education product pages (item 7 above).
+
+Note: the local prod server may land on port 8081 if a stale `node
+server.mjs` still holds 8080 (the preview tool auto-picks a free port).

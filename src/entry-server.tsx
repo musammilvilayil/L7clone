@@ -32,6 +32,18 @@ import HyperautomationPage from "./pages/ServiceDetail/HyperautomationPage";
 import IntelligentWebsitesPage from "./pages/ServiceDetail/IntelligentWebsitesPage";
 import LocalizationUiuxPage from "./pages/ServiceDetail/LocalizationUiuxPage";
 import ProductSolutionPage from "./pages/ServiceDetail/ProductSolutionPage";
+import CorporateTrainingPage from "./pages/CorporateTraining/CorporateTrainingPage";
+import FullStackDevelopmentPage from "./pages/TrainingDetail/FullStackDevelopmentPage";
+import DataSciencePage from "./pages/TrainingDetail/DataSciencePage";
+import MobileAppDevelopmentPage from "./pages/TrainingDetail/MobileAppDevelopmentPage";
+import PromptEngineeringAiTrainingPage from "./pages/TrainingDetail/PromptEngineeringAiTrainingPage";
+import DataVisualizationPage from "./pages/TrainingDetail/DataVisualizationPage";
+import CloudComputingBootcampPage from "./pages/TrainingDetail/CloudComputingBootcampPage";
+import DigitalContentCreationPage from "./pages/TrainingDetail/DigitalContentCreationPage";
+import BusinessAnalyticsPage from "./pages/TrainingDetail/BusinessAnalyticsPage";
+import BusinessIntelligenceDataAnalyticsPage from "./pages/TrainingDetail/BusinessIntelligenceDataAnalyticsPage";
+import MarketingAutomationCrmPage from "./pages/TrainingDetail/MarketingAutomationCrmPage";
+import WebopsAiMlPage from "./pages/TrainingDetail/WebopsAiMlPage";
 import SkilledResourcePage from "./pages/ServiceDetail/SkilledResourcePage";
 import TechnologyConsultingPage from "./pages/ServiceDetail/TechnologyConsultingPage";
 import WebExperiencePage from "./pages/ServiceDetail/WebExperiencePage";
@@ -68,6 +80,18 @@ const pages: PageComponents = {
   serviceSkilledResource: SkilledResourcePage,
   serviceGreenRecovery: GreenRecoveryPage,
   serviceProductSolution: ProductSolutionPage,
+  corporateTraining: CorporateTrainingPage,
+  trainingFullStackDevelopment: FullStackDevelopmentPage,
+  trainingDataScience: DataSciencePage,
+  trainingMobileAppDevelopment: MobileAppDevelopmentPage,
+  trainingPromptEngineeringAiTraining: PromptEngineeringAiTrainingPage,
+  trainingDataVisualization: DataVisualizationPage,
+  trainingCloudComputingBootcamp: CloudComputingBootcampPage,
+  trainingDigitalContentCreation: DigitalContentCreationPage,
+  trainingBusinessAnalytics: BusinessAnalyticsPage,
+  trainingBusinessIntelligenceDataAnalytics: BusinessIntelligenceDataAnalyticsPage,
+  trainingMarketingAutomationCrm: MarketingAutomationCrmPage,
+  trainingWebopsAiMl: WebopsAiMlPage,
   notFound: NotFoundPage,
 };
 

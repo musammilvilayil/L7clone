@@ -32,6 +32,18 @@ export type PageKey =
   | "serviceSkilledResource"
   | "serviceGreenRecovery"
   | "serviceProductSolution"
+  | "corporateTraining"
+  | "trainingFullStackDevelopment"
+  | "trainingDataScience"
+  | "trainingMobileAppDevelopment"
+  | "trainingPromptEngineeringAiTraining"
+  | "trainingDataVisualization"
+  | "trainingCloudComputingBootcamp"
+  | "trainingDigitalContentCreation"
+  | "trainingBusinessAnalytics"
+  | "trainingBusinessIntelligenceDataAnalytics"
+  | "trainingMarketingAutomationCrm"
+  | "trainingWebopsAiMl"
   | "notFound";
 
 export interface RouteDef {
@@ -68,6 +80,18 @@ export const ROUTES: RouteDef[] = [
   { path: "/services/skilled-resource", page: "serviceSkilledResource" },
   { path: "/services/green-recovery", page: "serviceGreenRecovery" },
   { path: "/services/product-solution", page: "serviceProductSolution" },
+  { path: "/corporate-training-kerala", page: "corporateTraining" },
+  { path: "/corporate-training-kerala/full-stack-development", page: "trainingFullStackDevelopment" },
+  { path: "/corporate-training-kerala/data-science", page: "trainingDataScience" },
+  { path: "/corporate-training-kerala/mobile-app-development", page: "trainingMobileAppDevelopment" },
+  { path: "/corporate-training-kerala/prompt-engineering-ai-training", page: "trainingPromptEngineeringAiTraining" },
+  { path: "/corporate-training-kerala/data-visualization", page: "trainingDataVisualization" },
+  { path: "/corporate-training-kerala/cloud-computing-bootcamp", page: "trainingCloudComputingBootcamp" },
+  { path: "/corporate-training-kerala/digital-content-creation", page: "trainingDigitalContentCreation" },
+  { path: "/corporate-training-kerala/business-analytics", page: "trainingBusinessAnalytics" },
+  { path: "/corporate-training-kerala/business-intelligence-data-analytics", page: "trainingBusinessIntelligenceDataAnalytics" },
+  { path: "/corporate-training-kerala/marketing-automation-crm", page: "trainingMarketingAutomationCrm" },
+  { path: "/corporate-training-kerala/webops-ai-ml", page: "trainingWebopsAiMl" },
 ];
 
 /** Normalises a pathname (no trailing slash except root, lower-case). */

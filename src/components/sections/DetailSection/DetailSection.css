@@ -199,10 +199,33 @@
   color: #52676f;
 }
 
+/* Numbered module accordion (design: .curriculum) — DetailFaq's styling plus
+   a small index and an h3 title. */
+.detail-curriculum summary .detail-curriculum__number {
+  font-size: 0.625rem;
+  color: #a2b3bb;
+}
+
+.detail-section--light .detail-curriculum summary .detail-curriculum__number {
+  color: #52676f;
+}
+
+.detail-curriculum summary h3 {
+  flex: 1;
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: var(--font-weight-regular);
+  letter-spacing: -0.7px;
+}
+
 @media (max-width: 700px) {
   .detail-faq summary {
     font-size: var(--font-size-body-lg);
     padding: 22px 0;
+  }
+
+  .detail-curriculum summary h3 {
+    font-size: 1.375rem;
   }
 
   .detail-faq details > p {
