@@ -49,6 +49,14 @@ export type PageKey =
   | "trainingBusinessIntelligenceDataAnalytics"
   | "trainingMarketingAutomationCrm"
   | "trainingWebopsAiMl"
+  | "blog"
+  | "blogAiPersonalization"
+  | "blogAiToolsWebTeams"
+  | "blogConversationalAi"
+  | "blogWebsiteChecks"
+  | "blogOnam"
+  | "blogChristmas"
+  | "blogIndependenceDay"
   | "notFound";
 
 export interface RouteDef {
@@ -102,6 +110,14 @@ export const ROUTES: RouteDef[] = [
   { path: "/corporate-training-kerala/business-intelligence-data-analytics", page: "trainingBusinessIntelligenceDataAnalytics" },
   { path: "/corporate-training-kerala/marketing-automation-crm", page: "trainingMarketingAutomationCrm" },
   { path: "/corporate-training-kerala/webops-ai-ml", page: "trainingWebopsAiMl" },
+  { path: "/blogs", page: "blog" },
+  { path: "/blogs/ai-personalize-web-experince", page: "blogAiPersonalization" },
+  { path: "/blogs/ai-tools-web-development-team", page: "blogAiToolsWebTeams" },
+  { path: "/blogs/conversational-ai-customer-experience", page: "blogConversationalAi" },
+  { path: "/blogs/why-website-checks-need-to-go-beyond-performance-scores", page: "blogWebsiteChecks" },
+  { path: "/blogs/festive-onam-ladder7", page: "blogOnam" },
+  { path: "/blogs/magical-christmas-celebration", page: "blogChristmas" },
+  { path: "/blogs/independence-day-ladder7", page: "blogIndependenceDay" },
 ];
 
 /** Normalises a pathname (no trailing slash except root, lower-case). */

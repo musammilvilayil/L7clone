@@ -72,30 +72,36 @@ have NOT yet been screenshot-checked, and nothing has been committed.**
    360's design has an empty-bodied "PRODUCT DETAILS / Explore the product."
    section that is intentionally omitted per the empty-section rule below).
 6. ✅ **Corporate Training hub + 11 course pages** (committed `5ae94e9` +
-   `301732f`).
-7. 🟡 **Education product pages** (`/myladder`, `/mindgym`, `/mirrorme`,
-   `/filldots`, `/amiu`) — built and verified, **uncommitted** as of
-   2026-11-07. Hand-written pages in `src/pages/EducationProduct/` (same
-   shape as Products detail pages), SEO breadcrumbs under Products. Fill
-   Dots' hero uses `photos/mountain-climb` (design embeds the logo). Legacy
-   ladder7.in links repointed to the new internal pages: Education product
-   links + AMIU CTA, home ProductSuite (`/products/*`), home Training
-   section (`/corporate-training-kerala`); those LEGACY_LINKS entries were
-   removed. Only `blogs` and `itTrainingInternship` remain legacy.
-   Pieces: `CatalogueGrid` (extracted from ProductCatalogue, shared by both
-   hubs), `LandingHero facts` prop (design `.landing-facts`),
+   `301732f`). Pieces: `CatalogueGrid` (shared card grid, also used by
+   Products), `LandingHero` `facts` prop (design `.landing-facts`),
    `DetailCurriculum` + `DetailFaq defaultOpen` in DetailSection.tsx,
    `TrainingDetailTemplate`, `src/data/corporateTraining.ts` (hub cards),
-   `src/data/corporate-training/*.ts` (one per course, generated verbatim from
-   the HTML), pages under `src/pages/CorporateTraining/` + `TrainingDetail/`,
-   9 new `photos/training-*` images. Only canonical
-   `/corporate-training-kerala/*` routes are registered; the design's
-   `/corporate-training/*` aliases are not (no alias mechanism exists).
+   `src/data/corporate-training/*.ts` (one per course, extracted verbatim),
+   pages under `src/pages/CorporateTraining/` + `TrainingDetail/`, 9
+   `photos/training-*` images. Only canonical `/corporate-training-kerala/*`
+   routes exist; the design's `/corporate-training/*` aliases are not
+   registered (no alias mechanism).
+7. ✅ **Education product pages** (`/myladder`, `/mindgym`, `/mirrorme`,
+   `/filldots`, `/amiu`) (committed `5a2c240`). Hand-written pages in
+   `src/pages/EducationProduct/`. Fill Dots' hero uses
+   `photos/mountain-climb` (design embeds the logo). Legacy ladder7.in links
+   were repointed to the internal pages.
+8. 🟡 **Blog hub + 7 posts** (`/blogs`, `/blogs/<slug>`) — built and verified
+   (tsc/lint/test/build, 53 routes, desktop + mobile, no overflow),
+   **uncommitted** as of 2026-11-07. Pieces: `BlogIndex` (sidebar + topic
+   filter + 3-col grid; own component, NOT `.catalogue-section`),
+   `BlogArticle` template, `LandingHero` `actions` prop (articles use "Read
+   the story" / "All insights"), `src/data/blog.ts` (index + filters),
+   `src/data/blog-posts/*.ts` (bodies, lazy per page), BlogPosting JSON-LD in
+   `src/seo/schema.ts`, 7 `photos/blog-*` images. The design's Material-icon
+   tokens that prefix list paragraphs ("done ...", "school ...") are stripped
+   from the text. Three orphaned chart captions in the AI-personalization post
+   ("AI Personalization Impact" etc. — the source has no chart markup) and the
+   "Share" label (no share links in the source) are omitted. The 404 page's
+   Insights link now points at `/blogs`; `LEGACY_LINKS.blogs` was removed —
+   only `itTrainingInternship` remains legacy.
 
 ## What's left (in the agreed order)
-8. ⬜ Blog hub (`blogs.html`) + 7 blog posts (`blogs--*.html`) — shared
-   template; blog hub likely reuses the same `.catalogue-section` pattern as
-   Products (filterable grid) — check before building a new component.
 9. ⬜ Utility pages: Privacy, Thank You, Sitemap (HTML sitemap page, not
    sitemap.xml), 404 (already exists, just verify it still matches), Bootcamp,
    Earn More, and the course/program landing pages (`ai-data-science-course-
@@ -217,10 +223,12 @@ this is likely already resolved by now, just noting it existed.
 ## Immediate next step
 
 1. Re-run `git status`/`git log` to confirm current state hasn't changed.
-2. If the Education product pages (item 7) are still uncommitted, ask the
-   user whether to commit them before moving on.
-3. Continue with the Blog hub + 7 posts (item 8 below). When Blog lands,
-   repoint `LEGACY_LINKS.blogs` (NotFound page) too.
+2. If the Blog group (item 8) is still uncommitted, ask the user whether to
+   commit it before moving on.
+3. Continue with the utility pages (item 9). Check `/it-training-internship-
+   trivandrum` while there: it is the last `LEGACY_LINKS` entry
+   (`src/data/site.ts`, used by `PROGRAMS_CTA` in `src/data/education.ts`) and
+   should be repointed when that page is built.
 
 Note: the local prod server may land on port 8081 if a stale `node
 server.mjs` still holds 8080 (the preview tool auto-picks a free port).

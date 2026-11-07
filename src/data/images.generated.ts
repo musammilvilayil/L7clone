@@ -410,6 +410,90 @@ export const IMAGES = {
     "formats": [
       "webp"
     ]
+  },
+  "photos/blog-ai-personalization": {
+    "width": 1672,
+    "height": 941,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "photos/blog-ai-tools-web-teams": {
+    "width": 1672,
+    "height": 941,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "photos/blog-conversational-ai": {
+    "width": 1672,
+    "height": 941,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "photos/blog-website-checks": {
+    "width": 1672,
+    "height": 941,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "photos/blog-onam-celebration": {
+    "width": 1672,
+    "height": 941,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "photos/blog-christmas-celebration": {
+    "width": 1672,
+    "height": 941,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "photos/blog-independence-day": {
+    "width": 1672,
+    "height": 941,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "formats": [
+      "webp"
+    ]
   }
 } as const;
 

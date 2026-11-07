@@ -85,6 +85,14 @@ const PAGE_MODULES = {
   trainingBusinessIntelligenceDataAnalytics: "src/pages/TrainingDetail/BusinessIntelligenceDataAnalyticsPage.tsx",
   trainingMarketingAutomationCrm: "src/pages/TrainingDetail/MarketingAutomationCrmPage.tsx",
   trainingWebopsAiMl: "src/pages/TrainingDetail/WebopsAiMlPage.tsx",
+  blog: "src/pages/Blog/BlogPage.tsx",
+  blogAiPersonalization: "src/pages/BlogPost/AiPersonalizationPost.tsx",
+  blogAiToolsWebTeams: "src/pages/BlogPost/AiToolsWebTeamsPost.tsx",
+  blogConversationalAi: "src/pages/BlogPost/ConversationalAiPost.tsx",
+  blogWebsiteChecks: "src/pages/BlogPost/WebsiteChecksPost.tsx",
+  blogOnam: "src/pages/BlogPost/OnamPost.tsx",
+  blogChristmas: "src/pages/BlogPost/ChristmasPost.tsx",
+  blogIndependenceDay: "src/pages/BlogPost/IndependenceDayPost.tsx",
   notFound: "src/pages/NotFound/NotFoundPage.tsx",
 };
 

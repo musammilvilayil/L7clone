@@ -1,7 +1,6 @@
 import { Seo } from "../../components/common/Seo";
 import { SmartLink } from "../../components/common/SmartLink";
 import { Button } from "../../components/ui/Button";
-import { LEGACY_LINKS } from "../../data/site";
 import { cssVars } from "../../utils/cn";
 import "./NotFoundPage.css";
 
@@ -10,7 +9,7 @@ const LINKS = [
   { label: "Education", to: "/education" },
   { label: "About Ladder7", to: "/about" },
   { label: "Contact", to: "/contact" },
-  { label: "Insights", to: LEGACY_LINKS.blogs },
+  { label: "Insights", to: "/blogs" },
 ];
 
 /**

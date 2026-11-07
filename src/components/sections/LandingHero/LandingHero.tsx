@@ -12,6 +12,16 @@ export interface LandingHeroImage {
   caption: string;
 }
 
+export interface LandingHeroAction {
+  label: string;
+  to: string;
+}
+
+const DEFAULT_ACTIONS: [LandingHeroAction, LandingHeroAction] = [
+  { label: "Let's talk", to: "#contact" },
+  { label: "Explore the details", to: "#page-content" },
+];
+
 /**
  * Opening section for simple content pages (design: .landing-hero.wave-hero,
  * or .text-hero without a side image — FAQ, Careers, Portfolio and more).
@@ -24,6 +34,7 @@ export function LandingHero({
   description,
   image,
   facts,
+  actions,
 }: {
   eyebrow: string;
   title: string;
@@ -32,8 +43,11 @@ export function LandingHero({
   image?: LandingHeroImage;
   /** Quick facts under the actions, bullet-separated (design: .landing-facts). */
   facts?: string[];
+  /** Override the two buttons (articles use "Read the story" / "All insights"). */
+  actions?: [LandingHeroAction, LandingHeroAction];
 }) {
   const ref = useRef<HTMLElement>(null);
+  const [primary, secondary] = actions ?? DEFAULT_ACTIONS;
 
   return (
     <section ref={ref} className={cn("landing-hero", "wave-hero", !image && "landing-hero--text")} aria-labelledby="page-title">
@@ -46,9 +60,9 @@ export function LandingHero({
         </h1>
         <p>{description}</p>
         <div className="landing-hero__actions">
-          <Button to="#contact">Let's talk</Button>
-          <Button variant="outline" glass to="#page-content">
-            Explore the details
+          <Button to={primary.to}>{primary.label}</Button>
+          <Button variant="outline" glass to={secondary.to}>
+            {secondary.label}
           </Button>
         </div>
         {facts && facts.length > 0 && (

@@ -49,6 +49,14 @@ import BusinessAnalyticsPage from "./pages/TrainingDetail/BusinessAnalyticsPage"
 import BusinessIntelligenceDataAnalyticsPage from "./pages/TrainingDetail/BusinessIntelligenceDataAnalyticsPage";
 import MarketingAutomationCrmPage from "./pages/TrainingDetail/MarketingAutomationCrmPage";
 import WebopsAiMlPage from "./pages/TrainingDetail/WebopsAiMlPage";
+import BlogPage from "./pages/Blog/BlogPage";
+import AiPersonalizationPost from "./pages/BlogPost/AiPersonalizationPost";
+import AiToolsWebTeamsPost from "./pages/BlogPost/AiToolsWebTeamsPost";
+import ConversationalAiPost from "./pages/BlogPost/ConversationalAiPost";
+import WebsiteChecksPost from "./pages/BlogPost/WebsiteChecksPost";
+import OnamPost from "./pages/BlogPost/OnamPost";
+import ChristmasPost from "./pages/BlogPost/ChristmasPost";
+import IndependenceDayPost from "./pages/BlogPost/IndependenceDayPost";
 import SkilledResourcePage from "./pages/ServiceDetail/SkilledResourcePage";
 import TechnologyConsultingPage from "./pages/ServiceDetail/TechnologyConsultingPage";
 import WebExperiencePage from "./pages/ServiceDetail/WebExperiencePage";
@@ -102,6 +110,14 @@ const pages: PageComponents = {
   trainingBusinessIntelligenceDataAnalytics: BusinessIntelligenceDataAnalyticsPage,
   trainingMarketingAutomationCrm: MarketingAutomationCrmPage,
   trainingWebopsAiMl: WebopsAiMlPage,
+  blog: BlogPage,
+  blogAiPersonalization: AiPersonalizationPost,
+  blogAiToolsWebTeams: AiToolsWebTeamsPost,
+  blogConversationalAi: ConversationalAiPost,
+  blogWebsiteChecks: WebsiteChecksPost,
+  blogOnam: OnamPost,
+  blogChristmas: ChristmasPost,
+  blogIndependenceDay: IndependenceDayPost,
   notFound: NotFoundPage,
 };
 

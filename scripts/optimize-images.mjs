@@ -67,6 +67,14 @@ const JOBS = [
   { src: "training-video-editing.webp", name: "photos/training-video-editing", widths: [480, 800, 1200], formats: ["webp"] },
   { src: "training-analytics-meeting.webp", name: "photos/training-analytics-meeting", widths: [480, 800, 1200], formats: ["webp"] },
   { src: "training-robot-ai.webp", name: "photos/training-robot-ai", widths: [480, 800, 1200], formats: ["webp"] },
+  // Blog: hub story cards (~22vw) + article heroes (~40vw).
+  { src: "blog-ai-personalization.jpg", name: "photos/blog-ai-personalization", widths: [480, 800, 1200], formats: ["webp"] },
+  { src: "blog-ai-tools-web-teams.jpg", name: "photos/blog-ai-tools-web-teams", widths: [480, 800, 1200], formats: ["webp"] },
+  { src: "blog-conversational-ai.jpg", name: "photos/blog-conversational-ai", widths: [480, 800, 1200], formats: ["webp"] },
+  { src: "blog-website-checks.jpg", name: "photos/blog-website-checks", widths: [480, 800, 1200], formats: ["webp"] },
+  { src: "blog-onam-celebration.jpg", name: "photos/blog-onam-celebration", widths: [480, 800, 1200], formats: ["webp"] },
+  { src: "blog-christmas-celebration.jpg", name: "photos/blog-christmas-celebration", widths: [480, 800, 1200], formats: ["webp"] },
+  { src: "blog-independence-day.jpg", name: "photos/blog-independence-day", widths: [480, 800, 1200], formats: ["webp"] },
 ];
 
 const DEFAULT_QUALITY = { avif: 50, webp: 74 };

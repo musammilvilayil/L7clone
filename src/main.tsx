@@ -55,6 +55,14 @@ const importers: Record<PageKey, () => Promise<{ default: ComponentType }>> = {
   trainingBusinessIntelligenceDataAnalytics: () => import("./pages/TrainingDetail/BusinessIntelligenceDataAnalyticsPage"),
   trainingMarketingAutomationCrm: () => import("./pages/TrainingDetail/MarketingAutomationCrmPage"),
   trainingWebopsAiMl: () => import("./pages/TrainingDetail/WebopsAiMlPage"),
+  blog: () => import("./pages/Blog/BlogPage"),
+  blogAiPersonalization: () => import("./pages/BlogPost/AiPersonalizationPost"),
+  blogAiToolsWebTeams: () => import("./pages/BlogPost/AiToolsWebTeamsPost"),
+  blogConversationalAi: () => import("./pages/BlogPost/ConversationalAiPost"),
+  blogWebsiteChecks: () => import("./pages/BlogPost/WebsiteChecksPost"),
+  blogOnam: () => import("./pages/BlogPost/OnamPost"),
+  blogChristmas: () => import("./pages/BlogPost/ChristmasPost"),
+  blogIndependenceDay: () => import("./pages/BlogPost/IndependenceDayPost"),
   notFound: () => import("./pages/NotFound/NotFoundPage"),
 };
 
@@ -104,6 +112,14 @@ const pages: PageComponents = {
   trainingBusinessIntelligenceDataAnalytics: lazy(importers.trainingBusinessIntelligenceDataAnalytics),
   trainingMarketingAutomationCrm: lazy(importers.trainingMarketingAutomationCrm),
   trainingWebopsAiMl: lazy(importers.trainingWebopsAiMl),
+  blog: lazy(importers.blog),
+  blogAiPersonalization: lazy(importers.blogAiPersonalization),
+  blogAiToolsWebTeams: lazy(importers.blogAiToolsWebTeams),
+  blogConversationalAi: lazy(importers.blogConversationalAi),
+  blogWebsiteChecks: lazy(importers.blogWebsiteChecks),
+  blogOnam: lazy(importers.blogOnam),
+  blogChristmas: lazy(importers.blogChristmas),
+  blogIndependenceDay: lazy(importers.blogIndependenceDay),
   notFound: lazy(importers.notFound),
 };
 

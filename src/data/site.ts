@@ -48,6 +48,5 @@ export const SOCIAL = [
 const legacy = (path: string) => `${LEGACY_SITE_URL}${path}`;
 
 export const LEGACY_LINKS = {
-  blogs: legacy("/blogs"),
   itTrainingInternship: legacy("/it-training-internship-trivandrum"),
 } as const;
