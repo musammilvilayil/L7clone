@@ -1,5 +1,4 @@
-/** The Ladder7 product suite (copy from the design). Detail pages live on the current site. */
-import { LEGACY_LINKS } from "./site";
+/** The Ladder7 product suite (copy from the design), each linking to its /products/* detail page. */
 
 export type ProductArt = "audit" | "nexus" | "outreach" | "data" | "marketing";
 
@@ -24,7 +23,7 @@ export const PRODUCTS: Product[] = [
       "Audit website health across performance, accessibility, search and security, with fixes prioritised for action.",
     artCaption: "A clearer view of your website",
     art: "audit",
-    href: LEGACY_LINKS.product("site-360"),
+    href: "/products/site-360",
   },
   {
     slug: "l7-nexus",
@@ -34,7 +33,7 @@ export const PRODUCTS: Product[] = [
     description: "AI executive support, grounded in a shared understanding of your company and its decisions.",
     artCaption: "Context for your next decision",
     art: "nexus",
-    href: LEGACY_LINKS.product("l7-nexus"),
+    href: "/products/l7-nexus",
   },
   {
     slug: "outreach-engine",
@@ -44,7 +43,7 @@ export const PRODUCTS: Product[] = [
     description: "Prospect research and individual email drafts, with a review step before sending.",
     artCaption: "From research to a considered introduction",
     art: "outreach",
-    href: LEGACY_LINKS.product("outreach-engine"),
+    href: "/products/outreach-engine",
   },
   {
     slug: "l7-insights",
@@ -54,7 +53,7 @@ export const PRODUCTS: Product[] = [
     description: "Bring data from different systems into a joined view for clearer reporting and decisions.",
     artCaption: "Different sources. One connected view.",
     art: "data",
-    href: LEGACY_LINKS.product("l7-insights"),
+    href: "/products/l7-insights",
   },
   {
     slug: "infinite-insights",
@@ -65,6 +64,6 @@ export const PRODUCTS: Product[] = [
       "Explore advertising and analytics data together to understand channel performance and budget opportunities.",
     artCaption: "A shared perspective on channel performance",
     art: "marketing",
-    href: LEGACY_LINKS.product("infinite-insights"),
+    href: "/products/infinite-insights",
   },
 ];

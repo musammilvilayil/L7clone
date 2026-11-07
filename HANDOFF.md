@@ -71,9 +71,17 @@ have NOT yet been screenshot-checked, and nothing has been committed.**
    QA finished 2026-11-07 — all section structures match the design. Site
    360's design has an empty-bodied "PRODUCT DETAILS / Explore the product."
    section that is intentionally omitted per the empty-section rule below).
-6. 🟡 **Corporate Training hub + 11 course pages** — built, verified
-   (tsc/lint/test/build, 12 routes prerendered, desktop + mobile screenshots,
-   per-page content counts vs. source) but **uncommitted** as of 2026-11-07.
+6. ✅ **Corporate Training hub + 11 course pages** (committed `5ae94e9` +
+   `301732f`).
+7. 🟡 **Education product pages** (`/myladder`, `/mindgym`, `/mirrorme`,
+   `/filldots`, `/amiu`) — built and verified, **uncommitted** as of
+   2026-11-07. Hand-written pages in `src/pages/EducationProduct/` (same
+   shape as Products detail pages), SEO breadcrumbs under Products. Fill
+   Dots' hero uses `photos/mountain-climb` (design embeds the logo). Legacy
+   ladder7.in links repointed to the new internal pages: Education product
+   links + AMIU CTA, home ProductSuite (`/products/*`), home Training
+   section (`/corporate-training-kerala`); those LEGACY_LINKS entries were
+   removed. Only `blogs` and `itTrainingInternship` remain legacy.
    Pieces: `CatalogueGrid` (extracted from ProductCatalogue, shared by both
    hubs), `LandingHero facts` prop (design `.landing-facts`),
    `DetailCurriculum` + `DetailFaq defaultOpen` in DetailSection.tsx,
@@ -85,15 +93,6 @@ have NOT yet been screenshot-checked, and nothing has been committed.**
    `/corporate-training/*` aliases are not (no alias mechanism exists).
 
 ## What's left (in the agreed order)
-7. ⬜ Education product pages: My Ladder, Mind Gym, Mirror Me, Fill Dots, AMIU
-   (`myladder.html`, `mindgym.html`, `mirrorme.html`, `filldots.html`,
-   `amiu.html`) — these are currently linked from the Products catalogue and
-   Education page as **external** links to the legacy ladder7.in site; once
-   built, update `EDUCATION_PRODUCT_LINKS` in `src/data/education.ts` and the
-   catalogue `to` fields in `src/data/productCatalogue.ts` to point at the new
-   internal routes (`/myladder`, `/mindgym`, `/mirrorme`, `/filldots`,
-   `/amiu` — these **exact flat, lowercase slugs** come from the design's own
-   embedded `window.LADDER7_ROUTES` client-side router map, not invented).
 8. ⬜ Blog hub (`blogs.html`) + 7 blog posts (`blogs--*.html`) — shared
    template; blog hub likely reuses the same `.catalogue-section` pattern as
    Products (filterable grid) — check before building a new component.
@@ -218,9 +217,10 @@ this is likely already resolved by now, just noting it existed.
 ## Immediate next step
 
 1. Re-run `git status`/`git log` to confirm current state hasn't changed.
-2. If Corporate Training (item 6) is still uncommitted, ask the user whether
-   to commit it before moving on.
-3. Continue with the Education product pages (item 7 above).
+2. If the Education product pages (item 7) are still uncommitted, ask the
+   user whether to commit them before moving on.
+3. Continue with the Blog hub + 7 posts (item 8 below). When Blog lands,
+   repoint `LEGACY_LINKS.blogs` (NotFound page) too.
 
 Note: the local prod server may land on port 8081 if a stale `node
 server.mjs` still holds 8080 (the preview tool auto-picks a free port).

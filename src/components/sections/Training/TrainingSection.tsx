@@ -1,6 +1,5 @@
 import { useEnquiry } from "../../../context/EnquiryContext";
 import { TRAINING } from "../../../data/company";
-import { LEGACY_LINKS } from "../../../data/site";
 import { revealRef } from "../../../hooks/useReveal";
 import { Button } from "../../ui/Button";
 import { SectionHeading } from "../../ui/SectionHeading";
@@ -24,7 +23,7 @@ export function TrainingSection() {
       />
       <div className="training__intro">
         <p>{TRAINING.intro}</p>
-        <Button to={LEGACY_LINKS.corporateTraining} variant="text">
+        <Button to="/corporate-training-kerala" variant="text">
           Explore corporate training
         </Button>
       </div>

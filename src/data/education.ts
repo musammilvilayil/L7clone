@@ -67,12 +67,12 @@ export const EDUCATION_PRODUCTS: Capability[] = [
   },
 ];
 
-/** External product destinations (the products live on the main ladder7.in site). */
+/** Each Education product's own page (flat slugs, from the design's route map). */
 export const EDUCATION_PRODUCT_LINKS: Record<string, string> = {
-  "my-ladder": LEGACY_LINKS.myLadder,
-  "mind-gym": LEGACY_LINKS.mindGym,
-  "mirror-me": LEGACY_LINKS.mirrorMe,
-  "fill-dots": LEGACY_LINKS.fillDots,
+  "my-ladder": "/myladder",
+  "mind-gym": "/mindgym",
+  "mirror-me": "/mirrorme",
+  "fill-dots": "/filldots",
 };
 
 /* ── AMIU — AI career mentor ──────────────────────────────────────────── */
@@ -82,7 +82,7 @@ export const AMIU = {
   title: "Know yourself.\nSee your possibilities",
   description:
     "For students and young professionals finding their direction. AMIU combines self-assessment with AI-assisted career mapping to help connect your strengths and interests to a personal learning pathway.",
-  cta: { label: "Explore AMIU", href: LEGACY_LINKS.amiu },
+  cta: { label: "Explore AMIU", href: "/amiu" },
   mapLabel: "A path that starts with you",
   mapCaption: "Self-discovery. With direction.",
   steps: [

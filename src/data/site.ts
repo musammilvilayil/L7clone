@@ -49,14 +49,5 @@ const legacy = (path: string) => `${LEGACY_SITE_URL}${path}`;
 
 export const LEGACY_LINKS = {
   blogs: legacy("/blogs"),
-  careers: legacy("/careers"),
-  corporateTraining: legacy("/corporate-training-kerala"),
-  product: (slug: string) => legacy(`/products/${slug}`),
-  // Education division's own growth products (still served from the main site).
-  myLadder: legacy("/myladder"),
-  mindGym: legacy("/mindgym"),
-  mirrorMe: legacy("/mirrorme"),
-  fillDots: legacy("/filldots"),
-  amiu: legacy("/amiu"),
   itTrainingInternship: legacy("/it-training-internship-trivandrum"),
 } as const;

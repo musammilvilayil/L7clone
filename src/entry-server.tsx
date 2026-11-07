@@ -18,6 +18,11 @@ import PortfolioPage from "./pages/Portfolio/PortfolioPage";
 import L7InsightsPage from "./pages/ProductDetail/L7InsightsPage";
 import L7NexusPage from "./pages/ProductDetail/L7NexusPage";
 import InfiniteInsightsPage from "./pages/ProductDetail/InfiniteInsightsPage";
+import MyLadderPage from "./pages/EducationProduct/MyLadderPage";
+import MindGymPage from "./pages/EducationProduct/MindGymPage";
+import MirrorMePage from "./pages/EducationProduct/MirrorMePage";
+import FillDotsPage from "./pages/EducationProduct/FillDotsPage";
+import AmiuPage from "./pages/EducationProduct/AmiuPage";
 import OutreachEnginePage from "./pages/ProductDetail/OutreachEnginePage";
 import Site360Page from "./pages/ProductDetail/Site360Page";
 import ProductsPage from "./pages/Products/ProductsPage";
@@ -66,6 +71,11 @@ const pages: PageComponents = {
   productOutreachEngine: OutreachEnginePage,
   productL7Insights: L7InsightsPage,
   productInfiniteInsights: InfiniteInsightsPage,
+  productMyLadder: MyLadderPage,
+  productMindGym: MindGymPage,
+  productMirrorMe: MirrorMePage,
+  productFillDots: FillDotsPage,
+  productAmiu: AmiuPage,
   serviceAemDigitalExperience: AemDigitalExperiencePage,
   serviceAnalyticsExperimentation: AnalyticsExperimentationPage,
   serviceHeadlessCms: HeadlessCmsPage,

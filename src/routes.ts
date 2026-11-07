@@ -18,6 +18,11 @@ export type PageKey =
   | "productOutreachEngine"
   | "productL7Insights"
   | "productInfiniteInsights"
+  | "productMyLadder"
+  | "productMindGym"
+  | "productMirrorMe"
+  | "productFillDots"
+  | "productAmiu"
   | "serviceAemDigitalExperience"
   | "serviceAnalyticsExperimentation"
   | "serviceHeadlessCms"
@@ -66,6 +71,11 @@ export const ROUTES: RouteDef[] = [
   { path: "/products/outreach-engine", page: "productOutreachEngine" },
   { path: "/products/l7-insights", page: "productL7Insights" },
   { path: "/products/infinite-insights", page: "productInfiniteInsights" },
+  { path: "/myladder", page: "productMyLadder" },
+  { path: "/mindgym", page: "productMindGym" },
+  { path: "/mirrorme", page: "productMirrorMe" },
+  { path: "/filldots", page: "productFillDots" },
+  { path: "/amiu", page: "productAmiu" },
   { path: "/services/aem-digital-experience", page: "serviceAemDigitalExperience" },
   { path: "/services/analytics-experimentation", page: "serviceAnalyticsExperimentation" },
   { path: "/services/headless-cms", page: "serviceHeadlessCms" },
