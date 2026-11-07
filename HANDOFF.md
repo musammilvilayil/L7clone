@@ -115,10 +115,19 @@ have NOT yet been screenshot-checked, and nothing has been committed.**
    (`PROGRAMS_CTA` → internal hub). Design aliases (`/training-internship/*`
    course slugs, `/corporate-training/*`) are not registered. Committed up to
    Bootcamp/EarnMore; course pages uncommitted.
-10. ⬜ Final full-site verification: lint/test/build across every route,
-    responsive breakpoints, interaction testing (menu, forms, filters,
-    dialogs), and a Lighthouse pass compared against the project's documented
-    baseline (97–100 range).
+10. ✅ Final verification (2026-11-07). tsc, lint (only the pre-existing
+    `EnquiryContext.tsx:59` warning), 13 tests, build (65 routes + 404).
+    Static audit of every prerendered page: one h1, unique title/description,
+    canonical, valid JSON-LD, no dead internal links, no missing assets/alts.
+    All 65 routes crawled at 375px and 768px: no horizontal overflow. Fixed
+    two issues found: service-page capability cloud overflowing on phones
+    (zero-width break added) and an invalid `<dl>` in the service facts strip.
+    Interactions checked: menu open/close/Escape (0 dead links), product,
+    blog and programs filters, program dialog, FAQ accordion, enquiry form
+    validation. Lighthouse (single local runs, 11 pages): accessibility,
+    best-practices and SEO 100 everywhere; performance 90–98 on most pages,
+    92 on the Corporate Training hub (LCP ~3.0s, long render delay on the
+    hero image) — shared hero pattern, not tuned further.
 
 Also still owed to the user (flagged earlier, not yet acted on): confirm
 whether they still want anything further done now that About/Services were

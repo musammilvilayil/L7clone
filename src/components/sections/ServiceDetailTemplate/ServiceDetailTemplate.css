@@ -108,9 +108,10 @@
   color: var(--color-brand);
 }
 
-.inner-facts p {
+.inner-facts dd.inner-facts__note {
   margin: 12px 0 0;
   font-size: var(--font-size-caption);
+  letter-spacing: 0;
   line-height: 1.6;
   color: #b3c1c9;
 }
@@ -157,6 +158,13 @@
   line-height: 1.25;
   font-weight: var(--font-weight-regular);
   letter-spacing: -0.05em;
+}
+
+/* The items are adjacent inline boxes with no whitespace between them, so add a
+   zero-width break opportunity after each — otherwise the whole cloud is one
+   unbreakable run and overflows narrow screens. */
+.inner-capability-cloud li::after {
+  content: "\200B";
 }
 
 .inner-capability-cloud li > span {
@@ -699,7 +707,7 @@
     font-size: 2.375rem;
   }
 
-  .inner-facts p {
+  .inner-facts dd.inner-facts__note {
     font-size: var(--font-size-caption);
   }
 

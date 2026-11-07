@@ -142,28 +142,28 @@ export function ServiceDetailTemplate({ content }: { content: ServiceDetailConte
               {String(content.capabilityCloud.length).padStart(2, "0")}
               <span>.</span>
             </dd>
-            <p>Within this service</p>
+            <dd className="inner-facts__note">Within this service</dd>
           </div>
           <div>
             <dt>Specialist services</dt>
             <dd>
               14<span>.</span>
             </dd>
-            <p>Connected around your goal</p>
+            <dd className="inner-facts__note">Connected around your goal</dd>
           </div>
           <div>
             <dt>Core disciplines</dt>
             <dd>
               3<span>.</span>
             </dd>
-            <p>Experience, AI and strategy</p>
+            <dd className="inner-facts__note">Experience, AI and strategy</dd>
           </div>
           <div>
             <dt>Kerala bases</dt>
             <dd>
               2<span>.</span>
             </dd>
-            <p>Cochin · Trivandrum</p>
+            <dd className="inner-facts__note">Cochin · Trivandrum</dd>
           </div>
         </dl>
       </section>
