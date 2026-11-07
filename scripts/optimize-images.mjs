@@ -39,6 +39,8 @@ const JOBS = [
   { src: "mountain-climb.webp", name: "photos/mountain-climb", widths: [480, 800, 1200], formats: ["webp"] },
   { src: "mindful-reflection.webp", name: "photos/mindful-reflection", widths: [480, 800, 1200], formats: ["webp"] },
   { src: "self-reflection-mirror.webp", name: "photos/self-reflection-mirror", widths: [480, 800, 1200], formats: ["webp"] },
+  // Generic landing-hero side image, reused across simple content pages (Careers, Portfolio, …).
+  { src: "team-collaboration.webp", name: "photos/team-collaboration", widths: [480, 800, 1200], formats: ["webp"] },
 ];
 
 const DEFAULT_QUALITY = { avif: 50, webp: 74 };

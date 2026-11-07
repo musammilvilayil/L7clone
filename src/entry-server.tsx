@@ -8,10 +8,13 @@ import { prerender } from "react-dom/static";
 import { StaticRouter } from "react-router";
 import { App, type PageComponents } from "./App";
 import AboutPage from "./pages/About/AboutPage";
+import CareersPage from "./pages/Careers/CareersPage";
 import ContactPage from "./pages/Contact/ContactPage";
 import EducationPage from "./pages/Education/EducationPage";
+import FaqPage from "./pages/Faq/FaqPage";
 import HomePage from "./pages/Home/HomePage";
 import NotFoundPage from "./pages/NotFound/NotFoundPage";
+import PortfolioPage from "./pages/Portfolio/PortfolioPage";
 import ServicesPage from "./pages/Services/ServicesPage";
 import { pageForPath } from "./routes";
 import { buildHead, renderHeadHtml } from "./seo/head";
@@ -22,6 +25,9 @@ const pages: PageComponents = {
   about: AboutPage,
   contact: ContactPage,
   education: EducationPage,
+  faq: FaqPage,
+  careers: CareersPage,
+  portfolio: PortfolioPage,
   notFound: NotFoundPage,
 };
 

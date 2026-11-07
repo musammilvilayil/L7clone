@@ -1,7 +1,9 @@
 /* ==========================================================================
-   Enquiry form — two skins from the design:
+   Enquiry form — three skins from the design:
    .enquiry--contact  dark card inside the red contact section
    .enquiry--menu     light card inside the overlay menu
+   .enquiry--page     light cream card inside a standalone page's own hero
+                       (design: .contact-page #enquiry-form)
    ========================================================================== */
 
 .enquiry {
@@ -210,14 +212,53 @@
   color: #4d575c;
 }
 
+/* ── Page skin (light cream card, standalone page heroes) ─────────────────── */
+.enquiry--page {
+  --enquiry-muted: #52616a;
+  --enquiry-strong: #111719;
+  --field-label-color: #40525d;
+  --field-label-size: 0.8125rem;
+  --field-line: #acb6bb;
+  --field-color: #111719;
+  --field-placeholder: #667680;
+  --field-error: #aa1235;
+  --chip-border: #b5c1c7;
+  --chip-hover-border: #7c8a90;
+  --chip-color: #334751;
+  --chip-checked-bg: #101416;
+  --chip-checked-fg: #fff;
+  padding: 35px;
+  border-radius: 27px;
+  background: #f4f5f3;
+  color: #111719;
+}
+
+.enquiry--page .enquiry__title {
+  font-size: 1.8125rem;
+}
+
+.enquiry--page .chip span {
+  padding: 8px 12px;
+  font-size: 0.6875rem;
+}
+
+.enquiry--page :focus-visible {
+  outline-color: var(--field-error);
+}
+
 @media (max-width: 1000px) {
   .enquiry--contact {
     padding: 25px;
   }
 
-  .enquiry--contact .enquiry__row {
+  .enquiry--contact .enquiry__row,
+  .enquiry--page .enquiry__row {
     grid-template-columns: 1fr;
     gap: 0;
+  }
+
+  .enquiry--page {
+    padding: 27px;
   }
 }
 
@@ -264,6 +305,15 @@
 @media (max-width: 700px) {
   .enquiry--contact {
     padding: 24px 20px;
+  }
+
+  .enquiry--page {
+    padding: 27px 23px;
+    border-radius: 24px;
+  }
+
+  .enquiry--page .enquiry__title {
+    font-size: 1.6875rem;
   }
 
   .enquiry__title {

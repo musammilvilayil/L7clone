@@ -3,7 +3,7 @@
  * sitemap generator, the client router and the link prefetcher all read the
  * same list and can never drift apart.
  */
-export type PageKey = "home" | "services" | "about" | "contact" | "education" | "notFound";
+export type PageKey = "home" | "services" | "about" | "contact" | "education" | "faq" | "careers" | "portfolio" | "notFound";
 
 export interface RouteDef {
   path: string;
@@ -16,6 +16,9 @@ export const ROUTES: RouteDef[] = [
   { path: "/about", page: "about" },
   { path: "/contact", page: "contact" },
   { path: "/education", page: "education" },
+  { path: "/faq", page: "faq" },
+  { path: "/careers", page: "careers" },
+  { path: "/portfolio", page: "portfolio" },
 ];
 
 /** Normalises a pathname (no trailing slash except root, lower-case). */

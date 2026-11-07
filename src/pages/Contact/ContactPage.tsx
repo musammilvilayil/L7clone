@@ -1,16 +1,14 @@
 import { Seo } from "../../components/common/Seo";
-import { ContactSection } from "../../components/sections/Contact/ContactSection";
-import { FaqSection } from "../../components/sections/Faq/FaqSection";
-import { LocationsSection } from "../../components/sections/Locations/LocationsSection";
+import { ContactHero } from "../../components/sections/ContactHero/ContactHero";
+import { ContactLocations } from "../../components/sections/ContactLocations/ContactLocations";
 
-/** Contact — the enquiry form first, then locations and common questions. */
+/** Contact — the page's own hero (direct contacts + enquiry form), then bases. */
 export default function ContactPage() {
   return (
     <>
       <Seo page="contact" />
-      <ContactSection headingLevel="h1" first />
-      <LocationsSection />
-      <FaqSection />
+      <ContactHero />
+      <ContactLocations />
     </>
   );
 }

@@ -146,6 +146,18 @@ export const IMAGES = {
     "formats": [
       "webp"
     ]
+  },
+  "photos/team-collaboration": {
+    "width": 1920,
+    "height": 1279,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "formats": [
+      "webp"
+    ]
   }
 } as const;
 

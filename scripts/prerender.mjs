@@ -45,6 +45,9 @@ const PAGE_MODULES = {
   about: "src/pages/About/AboutPage.tsx",
   contact: "src/pages/Contact/ContactPage.tsx",
   education: "src/pages/Education/EducationPage.tsx",
+  faq: "src/pages/Faq/FaqPage.tsx",
+  careers: "src/pages/Careers/CareersPage.tsx",
+  portfolio: "src/pages/Portfolio/PortfolioPage.tsx",
   notFound: "src/pages/NotFound/NotFoundPage.tsx",
 };
 

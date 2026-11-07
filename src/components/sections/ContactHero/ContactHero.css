@@ -1,0 +1,114 @@
+/* Contact page hero (design: .contact-landing.wave-hero) — particle terrain
+   behind direct contacts (left) and the enquiry form (right). */
+
+.contact-landing {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: 11%;
+  padding: calc(var(--header-height) + 83px) 2.5% 100px;
+}
+
+.contact-landing .particle-field {
+  z-index: -1;
+  opacity: 0.9;
+  mask-image: linear-gradient(to bottom, transparent 4%, black 35%, black 89%, transparent);
+}
+
+.contact-landing .eyebrow {
+  margin: 8px 0 33px;
+  font-size: var(--font-size-label);
+  letter-spacing: 1.5px;
+  color: #b0bec6;
+}
+
+.contact-intro h1 {
+  margin: 0 0 30px;
+  font-size: clamp(3.5rem, 6.2vw, 6.125rem);
+  font-weight: var(--font-weight-regular);
+  letter-spacing: -0.06em;
+  line-height: 1.04;
+}
+
+.contact-intro > p:not(.eyebrow) {
+  max-width: 470px;
+  margin: 0 0 39px;
+  font-size: var(--font-size-body);
+  line-height: 1.9;
+  color: #b5c4cc;
+}
+
+.contact-direct {
+  display: grid;
+  gap: 27px;
+  padding-top: 26px;
+  border-top: 1px solid #35434b;
+}
+
+.contact-direct > div > span {
+  margin-bottom: 12px;
+}
+
+.contact-direct a {
+  display: inline-flex;
+  align-items: center;
+  gap: 28px;
+  font-size: 1.625rem;
+  letter-spacing: -0.8px;
+}
+
+.contact-direct a:hover {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+.contact-direct .icon {
+  color: #ff758d;
+}
+
+@media (max-width: 1000px) {
+  .contact-landing {
+    gap: 5%;
+  }
+
+  .contact-intro h1 {
+    font-size: 3.875rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .contact-landing {
+    display: block;
+    padding: calc(var(--header-height) + 53px) 6% 65px;
+  }
+
+  .contact-intro h1 {
+    font-size: 3.625rem;
+    letter-spacing: -3px;
+  }
+
+  .contact-landing .eyebrow {
+    font-size: var(--font-size-micro);
+    margin-bottom: 27px;
+  }
+
+  .contact-intro > p:not(.eyebrow) {
+    font-size: var(--font-size-body-sm);
+    line-height: 1.9;
+  }
+
+  .contact-direct {
+    gap: 26px;
+  }
+
+  .contact-direct a {
+    font-size: 1.5625rem;
+  }
+
+  .contact-landing .enquiry--page {
+    margin-top: 44px;
+  }
+}

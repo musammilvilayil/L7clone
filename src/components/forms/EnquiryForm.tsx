@@ -27,7 +27,7 @@ import { ArrowUpRight } from "../common/Icons";
 import "./EnquiryForm.css";
 
 export interface EnquiryFormProps {
-  variant: "contact" | "menu";
+  variant: "contact" | "menu" | "page";
   /** Analytics/source label sent with recorded enquiries. */
   source: string;
   heading: ReactNode;
@@ -323,7 +323,14 @@ export function EnquiryForm({
             {summary}
           </p>
 
-          <button type="submit" className={cn("btn", "enquiry__submit", variant === "menu" ? "btn--secondary" : "btn--primary btn--block")}>
+          <button
+            type="submit"
+            className={cn(
+              "btn",
+              "enquiry__submit",
+              variant === "menu" ? "btn--secondary" : variant === "page" ? "btn--secondary btn--block" : "btn--primary btn--block",
+            )}
+          >
             <span className="btn__label">{submitLabel}</span>
             <span className="btn__disc" aria-hidden="true">
               <ArrowUpRight />
