@@ -224,4 +224,4 @@ src/styles/variables.css
 TYPOGRAPHY_AUDIT.md
 ```
 
-**Implementation commit SHA:** to be recorded after commit.
+**Implementation commit SHA:** `cc7cc67dd8356f71a46a5fd0f903533e32107e6f`
