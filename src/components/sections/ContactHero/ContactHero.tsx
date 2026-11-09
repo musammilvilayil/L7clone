@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { CONTACT_INTERESTS } from "../../../data/company";
 import { COMPANY } from "../../../data/site";
+import { websitePageSeo } from "../../../data/websiteContent";
 import { ArrowUpRight } from "../../common/Icons";
 import { ParticleField } from "../Hero/ParticleField";
 import { EnquiryForm } from "../../forms/EnquiryForm";
@@ -15,6 +16,11 @@ import "./ContactHero.css";
  */
 export function ContactHero() {
   const ref = useRef<HTMLElement>(null);
+  const heading = websitePageSeo("contact")?.h1;
+  const words = heading?.replace(/\.$/, "").split(/\s+/);
+  const headingLines = words?.length
+    ? [words.slice(0, Math.ceil(words.length / 2)).join(" "), words.slice(Math.ceil(words.length / 2)).join(" ")]
+    : ["Let's talk", "about what's next"];
 
   return (
     <section ref={ref} className="contact-landing wave-hero" id="contact" aria-labelledby="contact-title">
@@ -22,9 +28,9 @@ export function ContactHero() {
       <div className="contact-intro">
         <p className="eyebrow eyebrow--live">Contact Ladder7</p>
         <h1 id="contact-title">
-          Let's talk
+          {headingLines[0]}
           <br />
-          about what's next<span className="accent">.</span>
+          {headingLines[1]}<span className="accent">.</span>
         </h1>
         <p>
           A business idea. A new skill. Your next career move.

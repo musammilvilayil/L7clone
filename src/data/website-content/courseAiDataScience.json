@@ -1,0 +1,1086 @@
+{
+  "page_key": "courseAiDataScience",
+  "page_url": "/ai-data-science-course-trivandrum",
+  "document_title": "AI, Data Science & Python Course in Trivandrum | Ladder7",
+  "seo": {
+    "meta_title": "AI, Data Science & Python Course in Trivandrum | Ladder7",
+    "meta_description": "A live, mentor-led AI, data science and analytics course in Trivandrum, Kerala. Learn Python, web development and machine learning on real datasets.",
+    "canonical_url": "https://www.ladder7.in/ai-data-science-course-trivandrum",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Python. AI. Your next step."
+  },
+  "sections": [
+    {
+      "section_id": "courseaidatascience_01_page",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Page",
+      "section_heading": "Python. AI. Your next step.",
+      "heading_level": "h1",
+      "eyebrow": "Training & internship",
+      "subheading": "",
+      "description": "Build practical Python, full stack and AI skills through live, mentor-led learning and hands-on projects.",
+      "paragraphs": [
+        "Training & internship",
+        "Build practical Python, full stack and AI skills through live, mentor-led learning and hands-on projects."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Training & internship"
+        },
+        {
+          "type": "h1",
+          "text": "Python. AI. Your next step."
+        },
+        {
+          "type": "p",
+          "text": "Build practical Python, full stack and AI skills through live, mentor-led learning and hands-on projects."
+        },
+        {
+          "type": "cta-link",
+          "text": "Let's talk"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore the details"
+        },
+        {
+          "type": "li",
+          "text": "1 Month / Crash Program"
+        },
+        {
+          "type": "li",
+          "text": "3 Months / Intense Training"
+        },
+        {
+          "type": "figcaption",
+          "text": "Ladder7 / Your next chapter"
+        }
+      ],
+      "bullet_points": [
+        "1 Month / Crash Program",
+        "3 Months / Intense Training"
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Let's talk",
+          "url": "/ai-data-science-course-trivandrum#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore the details",
+          "url": "/ai-data-science-course-trivandrum#page-content",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/training-robot-ai-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "675",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high",
+          "srcset": "/images/photos/training-robot-ai-480.webp 480w, /images/photos/training-robot-ai-800.webp 800w, /images/photos/training-robot-ai-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 100vw, 40vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Let's talk",
+          "href": "/ai-data-science-course-trivandrum#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/ai-data-science-course-trivandrum#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Let's talk",
+          "href": "/ai-data-science-course-trivandrum#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/ai-data-science-course-trivandrum#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/LandingHero/LandingHero.css",
+        "component": "src/components/sections/LandingHero/LandingHero.tsx"
+      }
+    },
+    {
+      "section_id": "courseaidatascience_02_detail_section",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "What is this AI and data science program about?",
+      "heading_level": "h2",
+      "eyebrow": "The program",
+      "subheading": "",
+      "description": "This program is for people who want to work with AI in a hands-on way, not just read about it. You'll start with core Python and web development, then move into applied machine learning and data science fundamentals using real datasets rather than toy examples.\n\nThe goal isn't to make you a research scientist — it's to get you comfortable building and shipping applications that use AI/ML models, and to understand what's happening under the hood well enough to debug and improve them.\n\nThroughout the program you'll work on assignments and a final project using actual datasets, guided by instructors who work with these tools professionally. This is a standalone course — no prerequisite program needed.",
+      "paragraphs": [
+        "The program",
+        "This program is for people who want to work with AI in a hands-on way, not just read about it. You'll start with core Python and web development, then move into applied machine learning and data science fundamentals using real datasets rather than toy examples.",
+        "The goal isn't to make you a research scientist — it's to get you comfortable building and shipping applications that use AI/ML models, and to understand what's happening under the hood well enough to debug and improve them.",
+        "Throughout the program you'll work on assignments and a final project using actual datasets, guided by instructors who work with these tools professionally. This is a standalone course — no prerequisite program needed."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The program"
+        },
+        {
+          "type": "h2",
+          "text": "What is this AI and data science program about?"
+        },
+        {
+          "type": "p",
+          "text": "This program is for people who want to work with AI in a hands-on way, not just read about it. You'll start with core Python and web development, then move into applied machine learning and data science fundamentals using real datasets rather than toy examples."
+        },
+        {
+          "type": "p",
+          "text": "The goal isn't to make you a research scientist — it's to get you comfortable building and shipping applications that use AI/ML models, and to understand what's happening under the hood well enough to debug and improve them."
+        },
+        {
+          "type": "p",
+          "text": "Throughout the program you'll work on assignments and a final project using actual datasets, guided by instructors who work with these tools professionally. This is a standalone course — no prerequisite program needed."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "courseaidatascience_03_detail_section",
+      "section_order": 3,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "What will you learn in this AI and machine learning course?",
+      "heading_level": "h2",
+      "eyebrow": "The curriculum",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "The curriculum"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The curriculum"
+        },
+        {
+          "type": "h2",
+          "text": "What will you learn in this AI and machine learning course?"
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "Python Foundations"
+        },
+        {
+          "type": "span",
+          "text": "–"
+        },
+        {
+          "type": "li",
+          "text": "Core Python syntax, data structures and functions"
+        },
+        {
+          "type": "li",
+          "text": "Working with files, APIs and libraries"
+        },
+        {
+          "type": "li",
+          "text": "Object-oriented programming basics"
+        },
+        {
+          "type": "li",
+          "text": "Debugging and writing clean, readable code"
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "Web Development with Python"
+        },
+        {
+          "type": "span",
+          "text": "+"
+        },
+        {
+          "type": "li",
+          "text": "Building APIs with Django or Flask"
+        },
+        {
+          "type": "li",
+          "text": "Connecting a backend to a database"
+        },
+        {
+          "type": "li",
+          "text": "Authentication and basic API security"
+        },
+        {
+          "type": "li",
+          "text": "Serving a model through an API endpoint"
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "Applied AI, Machine Learning & Data Science"
+        },
+        {
+          "type": "span",
+          "text": "+"
+        },
+        {
+          "type": "li",
+          "text": "Data cleaning and preprocessing with pandas"
+        },
+        {
+          "type": "li",
+          "text": "Core ML concepts: regression, classification, evaluation"
+        },
+        {
+          "type": "li",
+          "text": "Using scikit-learn to train and test models"
+        },
+        {
+          "type": "li",
+          "text": "An introduction to working with pretrained and generative AI models"
+        },
+        {
+          "type": "span",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "Project Work"
+        },
+        {
+          "type": "span",
+          "text": "+"
+        },
+        {
+          "type": "li",
+          "text": "Working with a real dataset end to end"
+        },
+        {
+          "type": "li",
+          "text": "Building a small AI-powered application"
+        },
+        {
+          "type": "li",
+          "text": "Presenting and explaining your approach"
+        },
+        {
+          "type": "li",
+          "text": "Feedback and code review from mentors"
+        }
+      ],
+      "bullet_points": [
+        "Core Python syntax, data structures and functions",
+        "Working with files, APIs and libraries",
+        "Object-oriented programming basics",
+        "Debugging and writing clean, readable code",
+        "Building APIs with Django or Flask",
+        "Connecting a backend to a database",
+        "Authentication and basic API security",
+        "Serving a model through an API endpoint",
+        "Data cleaning and preprocessing with pandas",
+        "Core ML concepts: regression, classification, evaluation",
+        "Using scikit-learn to train and test models",
+        "An introduction to working with pretrained and generative AI models",
+        "Working with a real dataset end to end",
+        "Building a small AI-powered application",
+        "Presenting and explaining your approach",
+        "Feedback and code review from mentors"
+      ],
+      "key_highlights": [
+        {
+          "term": "01",
+          "detail": "",
+          "source": ".detail-curriculum__number"
+        },
+        {
+          "term": "02",
+          "detail": "",
+          "source": ".detail-curriculum__number"
+        },
+        {
+          "term": "03",
+          "detail": "",
+          "source": ".detail-curriculum__number"
+        },
+        {
+          "term": "04",
+          "detail": "",
+          "source": ".detail-curriculum__number"
+        }
+      ],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "01\nPython Foundations\n–",
+          "open": true
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "02\nWeb Development with Python\n+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "03\nApplied AI, Machine Learning & Data Science\n+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "04\nProject Work\n+",
+          "open": false
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "courseaidatascience_04_detail_section",
+      "section_order": 4,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Choose your pace.",
+      "heading_level": "h2",
+      "eyebrow": "Your track",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "Your track",
+        "A focused month covering Python essentials, a basic web API and your first hands-on machine learning model — enough to build and explain a small AI-powered project.",
+        "The complete path — deeper Python and web development, real datasets, multiple ML techniques, and a full capstone project guided by mentors end to end."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Your track"
+        },
+        {
+          "type": "h2",
+          "text": "Choose your pace."
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "Crash Program"
+        },
+        {
+          "type": "p",
+          "text": "A focused month covering Python essentials, a basic web API and your first hands-on machine learning model — enough to build and explain a small AI-powered project."
+        },
+        {
+          "type": "li",
+          "text": "Core Python syntax and data structures"
+        },
+        {
+          "type": "li",
+          "text": "Building a simple API with Flask"
+        },
+        {
+          "type": "li",
+          "text": "Data cleaning basics with pandas"
+        },
+        {
+          "type": "li",
+          "text": "Training a basic model with scikit-learn"
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "Intense Training"
+        },
+        {
+          "type": "p",
+          "text": "The complete path — deeper Python and web development, real datasets, multiple ML techniques, and a full capstone project guided by mentors end to end."
+        },
+        {
+          "type": "li",
+          "text": "Django/Flask APIs with authentication"
+        },
+        {
+          "type": "li",
+          "text": "Advanced data preprocessing on real-world datasets"
+        },
+        {
+          "type": "li",
+          "text": "Regression, classification and model evaluation"
+        },
+        {
+          "type": "li",
+          "text": "Serving and presenting a full AI-powered application"
+        }
+      ],
+      "bullet_points": [
+        "Core Python syntax and data structures",
+        "Building a simple API with Flask",
+        "Data cleaning basics with pandas",
+        "Training a basic model with scikit-learn",
+        "Django/Flask APIs with authentication",
+        "Advanced data preprocessing on real-world datasets",
+        "Regression, classification and model evaluation",
+        "Serving and presenting a full AI-powered application"
+      ],
+      "key_highlights": [
+        {
+          "term": "01",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "02",
+          "detail": "",
+          "source": ".detail-cards__number"
+        }
+      ],
+      "cards": [
+        {
+          "element": "article",
+          "heading": "Crash Program",
+          "text": [
+            "01",
+            "A focused month covering Python essentials, a basic web API and your first hands-on machine learning model — enough to build and explain a small AI-powered project.",
+            "Core Python syntax and data structures",
+            "Building a simple API with Flask",
+            "Data cleaning basics with pandas",
+            "Training a basic model with scikit-learn"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Intense Training",
+          "text": [
+            "02",
+            "The complete path — deeper Python and web development, real datasets, multiple ML techniques, and a full capstone project guided by mentors end to end.",
+            "Django/Flask APIs with authentication",
+            "Advanced data preprocessing on real-world datasets",
+            "Regression, classification and model evaluation",
+            "Serving and presenting a full AI-powered application"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "courseaidatascience_05_detail_section",
+      "section_order": 5,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Who is this course for?",
+      "heading_level": "h2",
+      "eyebrow": "Who it’s for",
+      "subheading": "",
+      "description": "No prior programming experience is required for the 3-month track — it begins with Python from zero.",
+      "paragraphs": [
+        "Who it’s for",
+        "No prior programming experience is required for the 3-month track — it begins with Python from zero."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Who it’s for"
+        },
+        {
+          "type": "h2",
+          "text": "Who is this course for?"
+        },
+        {
+          "type": "li",
+          "text": "Students and graduates (any degree — BTech, BCA, BSc, or non-technical) curious about AI and data science who want a structured, practical entry point"
+        },
+        {
+          "type": "li",
+          "text": "Developers who know some Python and want to add ML, data handling and web development skills"
+        },
+        {
+          "type": "li",
+          "text": "Career switchers who want to understand AI well enough to build with it, not just talk about it"
+        },
+        {
+          "type": "p",
+          "text": "No prior programming experience is required for the 3-month track — it begins with Python from zero."
+        }
+      ],
+      "bullet_points": [
+        "Students and graduates (any degree — BTech, BCA, BSc, or non-technical) curious about AI and data science who want a structured, practical entry point",
+        "Developers who know some Python and want to add ML, data handling and web development skills",
+        "Career switchers who want to understand AI well enough to build with it, not just talk about it"
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "courseaidatascience_06_detail_section",
+      "section_order": 6,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "What you'll walk away with",
+      "heading_level": "h2",
+      "eyebrow": "Your next chapter",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "Your next chapter"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Your next chapter"
+        },
+        {
+          "type": "h2",
+          "text": "What you'll walk away with"
+        },
+        {
+          "type": "li",
+          "text": "A working Python full-stack application with an AI/ML component you built on a real dataset"
+        },
+        {
+          "type": "li",
+          "text": "Practical experience cleaning and working with real-world data — the skill data-science hiring actually screens for"
+        },
+        {
+          "type": "li",
+          "text": "A clear understanding of when and how to use ML in a project — and when not to"
+        },
+        {
+          "type": "li",
+          "text": "A certificate of completion from Ladder7 Nextstep Solutions"
+        },
+        {
+          "type": "li",
+          "text": "Internship guidance to apply these skills professionally — portfolio prep, referrals, and direction toward openings including around Technopark, Trivandrum"
+        }
+      ],
+      "bullet_points": [
+        "A working Python full-stack application with an AI/ML component you built on a real dataset",
+        "Practical experience cleaning and working with real-world data — the skill data-science hiring actually screens for",
+        "A clear understanding of when and how to use ML in a project — and when not to",
+        "A certificate of completion from Ladder7 Nextstep Solutions",
+        "Internship guidance to apply these skills professionally — portfolio prep, referrals, and direction toward openings including around Technopark, Trivandrum"
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "courseaidatascience_07_detail_section",
+      "section_order": 7,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Good questions.",
+      "heading_level": "h2",
+      "eyebrow": "A little more clarity",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "A little more clarity",
+        "Our fees are deliberately affordable and student-friendly compared to large bootcamps and online mega-platforms, and differ between the 1-month and 3-month tracks.",
+        "Both, honestly — at the entry level they share the same foundation. You'll learn the data science core (Python, pandas, data cleaning, model training and evaluation) and apply it to build AI-powered applications, including an introduction to generative AI. If your goal is a data analyst/data science path or an AI developer path, this course is the common first step for either.",
+        "They overlap heavily at the entry level. Data analytics focuses on examining existing data to answer business questions; data science adds building predictive models on top of that. This course teaches the shared foundation of both — Python, pandas data handling, and model building — so you can move toward either role and decide once you've worked with real data yourself.",
+        "Yes — the 3-month track starts with Python from zero, and Python is the most beginner-friendly major programming language. The fast-paced 1-month crash program is better suited to those with some programming familiarity.",
+        "Yes — AI and data-related roles are among the fastest-growing openings across Technopark Trivandrum, Infopark Kochi, and remote positions with Indian and international companies. Demand for people who can build with AI (rather than research it) significantly exceeds supply at the entry level.",
+        "Entry-level Python/AI/data roles in Kerala typically start in a similar band to other developer roles (~₹3–4 LPA), with faster progression than most tracks because AI skills are scarcer — and a deployed, real-dataset project portfolio is what moves you up the shortlist.",
+        "Yes — a verifiable certificate of completion from Ladder7 Nextstep Solutions, plus something more valuable to employers: a deployed AI project with real commit history they can inspect.",
+        "Live online batches are available, and offline/classroom sessions are in Trivandrum. All sessions are instructor-led and interactive — never pre-recorded lectures.",
+        "Choose this course if you want AI/ML and data skills alongside web development. Choose our MERN Full Stack course if you want to specialize in JavaScript web applications end-to-end. Both lead to developer roles; the free Career Goal session can help you decide."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "A little more clarity"
+        },
+        {
+          "type": "h2",
+          "text": "Good questions."
+        },
+        {
+          "type": "summary",
+          "text": "What is the fee for the AI course in Kerala?+"
+        },
+        {
+          "type": "p",
+          "text": "Our fees are deliberately affordable and student-friendly compared to large bootcamps and online mega-platforms, and differ between the 1-month and 3-month tracks."
+        },
+        {
+          "type": "summary",
+          "text": "Is this an AI course or a data science course?+"
+        },
+        {
+          "type": "p",
+          "text": "Both, honestly — at the entry level they share the same foundation. You'll learn the data science core (Python, pandas, data cleaning, model training and evaluation) and apply it to build AI-powered applications, including an introduction to generative AI. If your goal is a data analyst/data science path or an AI developer path, this course is the common first step for either."
+        },
+        {
+          "type": "summary",
+          "text": "Data science vs data analytics — which is better?+"
+        },
+        {
+          "type": "p",
+          "text": "They overlap heavily at the entry level. Data analytics focuses on examining existing data to answer business questions; data science adds building predictive models on top of that. This course teaches the shared foundation of both — Python, pandas data handling, and model building — so you can move toward either role and decide once you've worked with real data yourself."
+        },
+        {
+          "type": "summary",
+          "text": "Can I learn AI without a coding background?+"
+        },
+        {
+          "type": "p",
+          "text": "Yes — the 3-month track starts with Python from zero, and Python is the most beginner-friendly major programming language. The fast-paced 1-month crash program is better suited to those with some programming familiarity."
+        },
+        {
+          "type": "summary",
+          "text": "Is AI a good career in Kerala in 2026?+"
+        },
+        {
+          "type": "p",
+          "text": "Yes — AI and data-related roles are among the fastest-growing openings across Technopark Trivandrum, Infopark Kochi, and remote positions with Indian and international companies. Demand for people who can build with AI (rather than research it) significantly exceeds supply at the entry level."
+        },
+        {
+          "type": "summary",
+          "text": "What salary can I expect after an AI or data science course?+"
+        },
+        {
+          "type": "p",
+          "text": "Entry-level Python/AI/data roles in Kerala typically start in a similar band to other developer roles (~₹3–4 LPA), with faster progression than most tracks because AI skills are scarcer — and a deployed, real-dataset project portfolio is what moves you up the shortlist."
+        },
+        {
+          "type": "summary",
+          "text": "Will I get an AI certification?+"
+        },
+        {
+          "type": "p",
+          "text": "Yes — a verifiable certificate of completion from Ladder7 Nextstep Solutions, plus something more valuable to employers: a deployed AI project with real commit history they can inspect."
+        },
+        {
+          "type": "summary",
+          "text": "Is the course online or offline?+"
+        },
+        {
+          "type": "p",
+          "text": "Live online batches are available, and offline/classroom sessions are in Trivandrum. All sessions are instructor-led and interactive — never pre-recorded lectures."
+        },
+        {
+          "type": "summary",
+          "text": "Should I choose this or the MERN full stack course?+"
+        },
+        {
+          "type": "p",
+          "text": "Choose this course if you want AI/ML and data skills alongside web development. Choose our MERN Full Stack course if you want to specialize in JavaScript web applications end-to-end. Both lead to developer roles; the free Career Goal session can help you decide."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "What is the fee for the AI course in Kerala?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Is this an AI course or a data science course?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Data science vs data analytics — which is better?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Can I learn AI without a coding background?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Is AI a good career in Kerala in 2026?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "What salary can I expect after an AI or data science course?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Will I get an AI certification?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Is the course online or offline?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Should I choose this or the MERN full stack course?+",
+          "open": false
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "courseaidatascience_08_contact",
+      "section_order": 8,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

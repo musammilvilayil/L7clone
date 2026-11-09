@@ -1,0 +1,625 @@
+{
+  "page_key": "productMirrorMe",
+  "page_url": "/mirrorme",
+  "document_title": "Mirror Me | Psychometric Self-Assessment | Ladder7",
+  "seo": {
+    "meta_title": "Mirror Me | Psychometric Self-Assessment | Ladder7",
+    "meta_description": "Mirror Me offers psychometric and behavioural assessments that help students and professionals match their strengths to the right career paths.",
+    "canonical_url": "https://www.ladder7.in/mirrorme",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Know yourself. Grow with clarity."
+  },
+  "sections": [
+    {
+      "section_id": "productmirrorme_01_page",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Page",
+      "section_heading": "Know yourself. Grow with clarity.",
+      "heading_level": "h1",
+      "eyebrow": "Mirror Me",
+      "subheading": "",
+      "description": "Discover your true potential. Mirror Me provides deep psychometric and behavioral assessments to help youth and professionals align with the right career opportunities.",
+      "paragraphs": [
+        "Mirror Me",
+        "Discover your true potential. Mirror Me provides deep psychometric and behavioral assessments to help youth and professionals align with the right career opportunities."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Mirror Me"
+        },
+        {
+          "type": "h1",
+          "text": "Know yourself. Grow with clarity."
+        },
+        {
+          "type": "p",
+          "text": "Discover your true potential. Mirror Me provides deep psychometric and behavioral assessments to help youth and professionals align with the right career opportunities."
+        },
+        {
+          "type": "cta-link",
+          "text": "Let's talk"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore the details"
+        },
+        {
+          "type": "figcaption",
+          "text": "Mirror Me"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Let's talk",
+          "url": "/mirrorme#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore the details",
+          "url": "/mirrorme#page-content",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/mirror-reflection-portrait-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "1350",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high",
+          "srcset": "/images/photos/mirror-reflection-portrait-300.webp 300w, /images/photos/mirror-reflection-portrait-600.webp 600w, /images/photos/mirror-reflection-portrait-900.webp 900w",
+          "sizes": "(max-width: 700px) 100vw, 40vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Let's talk",
+          "href": "/mirrorme#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/mirrorme#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Let's talk",
+          "href": "/mirrorme#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/mirrorme#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/LandingHero/LandingHero.css",
+        "component": "src/components/sections/LandingHero/LandingHero.tsx"
+      }
+    },
+    {
+      "section_id": "productmirrorme_02_detail_section",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "The Mirror Me Experience",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "Our structured approach acts as a \"mirror,\" ensuring you see a clear picture of your potential and align self-awareness with life goals.",
+      "paragraphs": [
+        "Explore",
+        "Our structured approach acts as a \"mirror,\" ensuring you see a clear picture of your potential and align self-awareness with life goals."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "The Mirror Me Experience"
+        },
+        {
+          "type": "p",
+          "text": "Our structured approach acts as a \"mirror,\" ensuring you see a clear picture of your potential and align self-awareness with life goals."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productmirrorme_03_detail_section",
+      "section_order": 3,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Look Closer. See Clearly.",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "Most people live their lives through a clouded lens. Mirror Me provides the clarity needed to identify obstacles that are often hidden in plain sight. Through our iterative reflection framework, you'll develop a routine that turns self-awareness into an automatic habit.",
+      "paragraphs": [
+        "Explore",
+        "Most people live their lives through a clouded lens. Mirror Me provides the clarity needed to identify obstacles that are often hidden in plain sight. Through our iterative reflection framework, you'll develop a routine that turns self-awareness into an automatic habit."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "Look Closer. See Clearly."
+        },
+        {
+          "type": "p",
+          "text": "Most people live their lives through a clouded lens. Mirror Me provides the clarity needed to identify obstacles that are often hidden in plain sight. Through our iterative reflection framework, you'll develop a routine that turns self-awareness into an automatic habit."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productmirrorme_04_detail_section",
+      "section_order": 4,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Ready to meet your real self?",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "Join thousands of others who have transformed their lives through the power of structured self-reflection.",
+      "paragraphs": [
+        "Explore",
+        "Join thousands of others who have transformed their lives through the power of structured self-reflection."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "Ready to meet your real self?"
+        },
+        {
+          "type": "p",
+          "text": "Join thousands of others who have transformed their lives through the power of structured self-reflection."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productmirrorme_05_detail_section",
+      "section_order": 5,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Explore what’s possible.",
+      "heading_level": "h2",
+      "eyebrow": "The details",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "The details",
+        "Deeper insights into your personality, cognitive skills, and emotional intelligence. Understand the \"why\" behind your actions.",
+        "Straightforward and accessible exercises for self-improvement. No jargon, just clear pathways to mental clarity and growth.",
+        "Harmonizing personal and professional ambitions with true potential. Bridge the gap between who you are and who you want to be."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The details"
+        },
+        {
+          "type": "h2",
+          "text": "Explore what’s possible."
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "Enhanced Self-Awareness"
+        },
+        {
+          "type": "p",
+          "text": "Deeper insights into your personality, cognitive skills, and emotional intelligence. Understand the \"why\" behind your actions."
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "Simplified Reflection"
+        },
+        {
+          "type": "p",
+          "text": "Straightforward and accessible exercises for self-improvement. No jargon, just clear pathways to mental clarity and growth."
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "Goal Alignment"
+        },
+        {
+          "type": "p",
+          "text": "Harmonizing personal and professional ambitions with true potential. Bridge the gap between who you are and who you want to be."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "01",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "02",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "03",
+          "detail": "",
+          "source": ".detail-cards__number"
+        }
+      ],
+      "cards": [
+        {
+          "element": "article",
+          "heading": "Enhanced Self-Awareness",
+          "text": [
+            "01",
+            "Deeper insights into your personality, cognitive skills, and emotional intelligence. Understand the \"why\" behind your actions."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Simplified Reflection",
+          "text": [
+            "02",
+            "Straightforward and accessible exercises for self-improvement. No jargon, just clear pathways to mental clarity and growth."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Goal Alignment",
+          "text": [
+            "03",
+            "Harmonizing personal and professional ambitions with true potential. Bridge the gap between who you are and who you want to be."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productmirrorme_06_contact",
+      "section_order": 6,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

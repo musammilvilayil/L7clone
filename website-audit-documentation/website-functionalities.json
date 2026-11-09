@@ -569,7 +569,7 @@
         }
       ],
       "submit_buttons": [
-        "Continue on WhatsApp (opens WhatsApp in a new tab)"
+        "Submit (opens WhatsApp in a new tab)"
       ],
       "wrapper_class": "enquiry enquiry--menu",
       "method": null,
@@ -971,7 +971,7 @@
         }
       ],
       "submit_buttons": [
-        "Continue on WhatsApp (opens WhatsApp in a new tab)"
+        "Submit (opens WhatsApp in a new tab)"
       ],
       "wrapper_class": "enquiry enquiry--contact",
       "method": null,
@@ -1340,7 +1340,7 @@
         }
       ],
       "submit_buttons": [
-        "Continue on WhatsApp (opens WhatsApp in a new tab)"
+        "Submit (opens WhatsApp in a new tab)"
       ],
       "wrapper_class": "enquiry enquiry--contact",
       "method": null,

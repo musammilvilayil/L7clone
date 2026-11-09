@@ -1,0 +1,650 @@
+{
+  "page_key": "careers",
+  "page_url": "/careers",
+  "document_title": "Careers at Ladder7 | Software & AI Jobs in Kochi, Trivandrum",
+  "seo": {
+    "meta_title": "Careers at Ladder7 | Software & AI Jobs in Kochi, Trivandrum",
+    "meta_description": "Join Ladder7 in Kochi and Trivandrum to build web platforms, AI systems and custom software for clients in the GCC, Europe and Africa. Join our talent network.",
+    "canonical_url": "https://www.ladder7.in/careers",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Good people. Meaningful work."
+  },
+  "sections": [
+    {
+      "section_id": "careers_01_page",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Page",
+      "section_heading": "Good people. Meaningful work.",
+      "heading_level": "h1",
+      "eyebrow": "Grow with Ladder7",
+      "subheading": "",
+      "description": "Build intelligent ecosystems and next-generation digital platforms for Fortune 100 enterprises and high-growth innovators.",
+      "paragraphs": [
+        "Grow with Ladder7",
+        "Build intelligent ecosystems and next-generation digital platforms for Fortune 100 enterprises and high-growth innovators."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Grow with Ladder7"
+        },
+        {
+          "type": "h1",
+          "text": "Good people. Meaningful work."
+        },
+        {
+          "type": "p",
+          "text": "Build intelligent ecosystems and next-generation digital platforms for Fortune 100 enterprises and high-growth innovators."
+        },
+        {
+          "type": "cta-link",
+          "text": "Let's talk"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore the details"
+        },
+        {
+          "type": "figcaption",
+          "text": "Ladder7 / Your next chapter"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Let's talk",
+          "url": "/careers#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore the details",
+          "url": "/careers#page-content",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/team-collaboration-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "799",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high",
+          "srcset": "/images/photos/team-collaboration-480.webp 480w, /images/photos/team-collaboration-800.webp 800w, /images/photos/team-collaboration-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 100vw, 40vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Let's talk",
+          "href": "/careers#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/careers#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Let's talk",
+          "href": "/careers#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/careers#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/LandingHero/LandingHero.css",
+        "component": "src/components/sections/LandingHero/LandingHero.tsx"
+      }
+    },
+    {
+      "section_id": "careers_02_detail_section",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Stay curious. Keep building.",
+      "heading_level": "h2",
+      "eyebrow": "Careers",
+      "subheading": "",
+      "description": "Current opportunities\n\nLadder7's live careers page currently lists no open positions. Join the talent network to express your interest.",
+      "paragraphs": [
+        "Careers",
+        "Current opportunities",
+        "Ladder7's live careers page currently lists no open positions. Join the talent network to express your interest."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Careers"
+        },
+        {
+          "type": "h2",
+          "text": "Stay curious. Keep building."
+        },
+        {
+          "type": "p",
+          "text": "Current opportunities"
+        },
+        {
+          "type": "h3",
+          "text": "No current openings."
+        },
+        {
+          "type": "p",
+          "text": "Ladder7's live careers page currently lists no open positions. Join the talent network to express your interest."
+        },
+        {
+          "type": "cta-link",
+          "text": "Join the talent network (opens in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Join the talent network (opens in a new tab)",
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSej8MQXZ95cM6a-sP7xmE-zjV2GlGFe7q0rbXSb5Im9DG0IFg/viewform",
+          "element": "a",
+          "kind": "external",
+          "target": "_blank"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "Join the talent network (opens in a new tab)",
+          "href": "https://docs.google.com/forms/d/e/1FAIpQLSej8MQXZ95cM6a-sP7xmE-zjV2GlGFe7q0rbXSb5Im9DG0IFg/viewform",
+          "type": "external",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [
+        {
+          "text": "Join the talent network (opens in a new tab)",
+          "href": "https://docs.google.com/forms/d/e/1FAIpQLSej8MQXZ95cM6a-sP7xmE-zjV2GlGFe7q0rbXSb5Im9DG0IFg/viewform",
+          "type": "external",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [
+        "(opens in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "careers_03_detail_section",
+      "section_order": 3,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Proven at Global Scale. Executed with Agility.",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "Top-tier engineers and strategists don't just want a job; they want to solve complex problems at scale. At Ladder7, we bridge the gap between strategic consulting and elite software engineering.\n\nWhen you join our team, you aren't just maintaining legacy code. You are architecting Agentic AI systems, deploying global Adobe Experience Manager (AEM) infrastructures, and building headless digital experiences that dictate market leadership.",
+      "paragraphs": [
+        "Explore",
+        "Top-tier engineers and strategists don't just want a job; they want to solve complex problems at scale. At Ladder7, we bridge the gap between strategic consulting and elite software engineering.",
+        "When you join our team, you aren't just maintaining legacy code. You are architecting Agentic AI systems, deploying global Adobe Experience Manager (AEM) infrastructures, and building headless digital experiences that dictate market leadership."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "Proven at Global Scale. Executed with Agility."
+        },
+        {
+          "type": "p",
+          "text": "Top-tier engineers and strategists don't just want a job; they want to solve complex problems at scale. At Ladder7, we bridge the gap between strategic consulting and elite software engineering."
+        },
+        {
+          "type": "p",
+          "text": "When you join our team, you aren't just maintaining legacy code. You are architecting Agentic AI systems, deploying global Adobe Experience Manager (AEM) infrastructures, and building headless digital experiences that dictate market leadership."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "careers_04_detail_section",
+      "section_order": 4,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "An Environment Engineered for Excellence.",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "We hire brilliant minds and give them the autonomy, tools, and psychological safety required to innovate.",
+      "paragraphs": [
+        "Explore",
+        "We hire brilliant minds and give them the autonomy, tools, and psychological safety required to innovate."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "An Environment Engineered for Excellence."
+        },
+        {
+          "type": "p",
+          "text": "We hire brilliant minds and give them the autonomy, tools, and psychological safety required to innovate."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "careers_05_detail_section",
+      "section_order": 5,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Current Openings",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "Join us in building the next generation of digital infrastructure.\n\nCheck back later or join our talent network below.",
+      "paragraphs": [
+        "Explore",
+        "Join us in building the next generation of digital infrastructure.",
+        "Check back later or join our talent network below."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "Current Openings"
+        },
+        {
+          "type": "p",
+          "text": "Join us in building the next generation of digital infrastructure."
+        },
+        {
+          "type": "p",
+          "text": "Check back later or join our talent network below."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "careers_06_detail_section",
+      "section_order": 6,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Don't See the Perfect Fit?",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "We are always looking for exceptional talent. If you have a passion for elite engineering and digital strategy, we want to hear from you.",
+      "paragraphs": [
+        "Explore",
+        "We are always looking for exceptional talent. If you have a passion for elite engineering and digital strategy, we want to hear from you."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "Don't See the Perfect Fit?"
+        },
+        {
+          "type": "p",
+          "text": "We are always looking for exceptional talent. If you have a passion for elite engineering and digital strategy, we want to hear from you."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "careers_07_contact",
+      "section_order": 7,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

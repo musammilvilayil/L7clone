@@ -1,0 +1,1072 @@
+{
+  "page_key": "courseFullStack",
+  "page_url": "/full-stack-developer-course-trivandrum",
+  "document_title": "Full Stack Developer Course in Trivandrum | MERN | Ladder7",
+  "seo": {
+    "meta_title": "Full Stack Developer Course in Trivandrum | MERN | Ladder7",
+    "meta_description": "A live, mentor-led MERN full stack developer course in Trivandrum, Kerala. Build and deploy real applications on 1-month and 3-month tracks.",
+    "canonical_url": "https://www.ladder7.in/full-stack-developer-course-trivandrum",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Full stack. Real possibilities."
+  },
+  "sections": [
+    {
+      "section_id": "coursefullstack_01_page",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Page",
+      "section_heading": "Full stack. Real possibilities.",
+      "heading_level": "h1",
+      "eyebrow": "Training & internship",
+      "subheading": "",
+      "description": "A mentor-led MERN course in Trivandrum. Build and deploy real applications with one-month and three-month learning tracks.",
+      "paragraphs": [
+        "Training & internship",
+        "A mentor-led MERN course in Trivandrum. Build and deploy real applications with one-month and three-month learning tracks."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Training & internship"
+        },
+        {
+          "type": "h1",
+          "text": "Full stack. Real possibilities."
+        },
+        {
+          "type": "p",
+          "text": "A mentor-led MERN course in Trivandrum. Build and deploy real applications with one-month and three-month learning tracks."
+        },
+        {
+          "type": "cta-link",
+          "text": "Let's talk"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore the details"
+        },
+        {
+          "type": "li",
+          "text": "1 Month / Crash Program"
+        },
+        {
+          "type": "li",
+          "text": "3 Months / Intense Training"
+        },
+        {
+          "type": "figcaption",
+          "text": "Ladder7 / Your next chapter"
+        }
+      ],
+      "bullet_points": [
+        "1 Month / Crash Program",
+        "3 Months / Intense Training"
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Let's talk",
+          "url": "/full-stack-developer-course-trivandrum#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore the details",
+          "url": "/full-stack-developer-course-trivandrum#page-content",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/training-laptop-code-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "800",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high",
+          "srcset": "/images/photos/training-laptop-code-480.webp 480w, /images/photos/training-laptop-code-800.webp 800w, /images/photos/training-laptop-code-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 100vw, 40vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Let's talk",
+          "href": "/full-stack-developer-course-trivandrum#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/full-stack-developer-course-trivandrum#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Let's talk",
+          "href": "/full-stack-developer-course-trivandrum#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/full-stack-developer-course-trivandrum#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/LandingHero/LandingHero.css",
+        "component": "src/components/sections/LandingHero/LandingHero.tsx"
+      }
+    },
+    {
+      "section_id": "coursefullstack_02_detail_section",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "What is this MERN full stack program about?",
+      "heading_level": "h2",
+      "eyebrow": "The program",
+      "subheading": "",
+      "description": "This program is built for people who want to actually build things, not just watch someone else code. You'll start with the fundamentals of JavaScript and move through the full MERN stack, writing real code every week rather than sitting through slides.\n\nBy the end, you'll have built at least two complete applications: a smaller practice project early on, and a larger capstone you can show in interviews. Both go straight into your portfolio and GitHub profile.\n\nSessions are live and instructor-led, so you can ask questions as you go instead of getting stuck for hours. Recordings are shared afterwards in case you need to revisit a topic.",
+      "paragraphs": [
+        "The program",
+        "This program is built for people who want to actually build things, not just watch someone else code. You'll start with the fundamentals of JavaScript and move through the full MERN stack, writing real code every week rather than sitting through slides.",
+        "By the end, you'll have built at least two complete applications: a smaller practice project early on, and a larger capstone you can show in interviews. Both go straight into your portfolio and GitHub profile.",
+        "Sessions are live and instructor-led, so you can ask questions as you go instead of getting stuck for hours. Recordings are shared afterwards in case you need to revisit a topic."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The program"
+        },
+        {
+          "type": "h2",
+          "text": "What is this MERN full stack program about?"
+        },
+        {
+          "type": "p",
+          "text": "This program is built for people who want to actually build things, not just watch someone else code. You'll start with the fundamentals of JavaScript and move through the full MERN stack, writing real code every week rather than sitting through slides."
+        },
+        {
+          "type": "p",
+          "text": "By the end, you'll have built at least two complete applications: a smaller practice project early on, and a larger capstone you can show in interviews. Both go straight into your portfolio and GitHub profile."
+        },
+        {
+          "type": "p",
+          "text": "Sessions are live and instructor-led, so you can ask questions as you go instead of getting stuck for hours. Recordings are shared afterwards in case you need to revisit a topic."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "coursefullstack_03_detail_section",
+      "section_order": 3,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "What will you learn in this full stack developer course?",
+      "heading_level": "h2",
+      "eyebrow": "The curriculum",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "The curriculum"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The curriculum"
+        },
+        {
+          "type": "h2",
+          "text": "What will you learn in this full stack developer course?"
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "Frontend with React"
+        },
+        {
+          "type": "span",
+          "text": "–"
+        },
+        {
+          "type": "li",
+          "text": "JavaScript (ES6+) and DOM fundamentals"
+        },
+        {
+          "type": "li",
+          "text": "React components, hooks and state management"
+        },
+        {
+          "type": "li",
+          "text": "Routing with React Router"
+        },
+        {
+          "type": "li",
+          "text": "Consuming REST APIs from the frontend"
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "Backend with Node & Express"
+        },
+        {
+          "type": "span",
+          "text": "+"
+        },
+        {
+          "type": "li",
+          "text": "Building REST APIs with Express"
+        },
+        {
+          "type": "li",
+          "text": "Authentication and authorisation (JWT)"
+        },
+        {
+          "type": "li",
+          "text": "Middleware, error handling and validation"
+        },
+        {
+          "type": "li",
+          "text": "Structuring a production-ready backend"
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "Database with MongoDB"
+        },
+        {
+          "type": "span",
+          "text": "+"
+        },
+        {
+          "type": "li",
+          "text": "Schema design with Mongoose"
+        },
+        {
+          "type": "li",
+          "text": "CRUD operations and aggregation basics"
+        },
+        {
+          "type": "li",
+          "text": "Relationships between collections"
+        },
+        {
+          "type": "li",
+          "text": "Connecting a database to a live API"
+        },
+        {
+          "type": "span",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "Deployment & Tooling"
+        },
+        {
+          "type": "span",
+          "text": "+"
+        },
+        {
+          "type": "li",
+          "text": "Git and GitHub workflow"
+        },
+        {
+          "type": "li",
+          "text": "Environment variables and config"
+        },
+        {
+          "type": "li",
+          "text": "Deploying frontend and backend separately"
+        },
+        {
+          "type": "li",
+          "text": "Basic debugging and browser dev tools"
+        }
+      ],
+      "bullet_points": [
+        "JavaScript (ES6+) and DOM fundamentals",
+        "React components, hooks and state management",
+        "Routing with React Router",
+        "Consuming REST APIs from the frontend",
+        "Building REST APIs with Express",
+        "Authentication and authorisation (JWT)",
+        "Middleware, error handling and validation",
+        "Structuring a production-ready backend",
+        "Schema design with Mongoose",
+        "CRUD operations and aggregation basics",
+        "Relationships between collections",
+        "Connecting a database to a live API",
+        "Git and GitHub workflow",
+        "Environment variables and config",
+        "Deploying frontend and backend separately",
+        "Basic debugging and browser dev tools"
+      ],
+      "key_highlights": [
+        {
+          "term": "01",
+          "detail": "",
+          "source": ".detail-curriculum__number"
+        },
+        {
+          "term": "02",
+          "detail": "",
+          "source": ".detail-curriculum__number"
+        },
+        {
+          "term": "03",
+          "detail": "",
+          "source": ".detail-curriculum__number"
+        },
+        {
+          "term": "04",
+          "detail": "",
+          "source": ".detail-curriculum__number"
+        }
+      ],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "01\nFrontend with React\n–",
+          "open": true
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "02\nBackend with Node & Express\n+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "03\nDatabase with MongoDB\n+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "04\nDeployment & Tooling\n+",
+          "open": false
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "coursefullstack_04_detail_section",
+      "section_order": 4,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Choose your pace.",
+      "heading_level": "h2",
+      "eyebrow": "Your track",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "Your track",
+        "A fast-paced month for those who need core MERN skills quickly, ideal alongside college or a notice period. You'll cover the essentials of each layer of the stack and connect them into one working application.",
+        "The full, in-depth 3-month full stack developer course, every module in detail, with authentication, deployment and a much larger capstone meant to hold up in interviews."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Your track"
+        },
+        {
+          "type": "h2",
+          "text": "Choose your pace."
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "Crash Program"
+        },
+        {
+          "type": "p",
+          "text": "A fast-paced month for those who need core MERN skills quickly, ideal alongside college or a notice period. You'll cover the essentials of each layer of the stack and connect them into one working application."
+        },
+        {
+          "type": "li",
+          "text": "JavaScript (ES6+) and React fundamentals"
+        },
+        {
+          "type": "li",
+          "text": "Building a REST API with Node & Express"
+        },
+        {
+          "type": "li",
+          "text": "Basic MongoDB schema design and CRUD"
+        },
+        {
+          "type": "li",
+          "text": "Connecting frontend, backend and database"
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "Intense Training"
+        },
+        {
+          "type": "p",
+          "text": "The full, in-depth 3-month full stack developer course, every module in detail, with authentication, deployment and a much larger capstone meant to hold up in interviews."
+        },
+        {
+          "type": "li",
+          "text": "Advanced React patterns, hooks and state management"
+        },
+        {
+          "type": "li",
+          "text": "Authentication (JWT), middleware and error handling"
+        },
+        {
+          "type": "li",
+          "text": "Schema relationships, aggregation and production DB design"
+        },
+        {
+          "type": "li",
+          "text": "Git workflow, environment config and full deployment"
+        }
+      ],
+      "bullet_points": [
+        "JavaScript (ES6+) and React fundamentals",
+        "Building a REST API with Node & Express",
+        "Basic MongoDB schema design and CRUD",
+        "Connecting frontend, backend and database",
+        "Advanced React patterns, hooks and state management",
+        "Authentication (JWT), middleware and error handling",
+        "Schema relationships, aggregation and production DB design",
+        "Git workflow, environment config and full deployment"
+      ],
+      "key_highlights": [
+        {
+          "term": "01",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "02",
+          "detail": "",
+          "source": ".detail-cards__number"
+        }
+      ],
+      "cards": [
+        {
+          "element": "article",
+          "heading": "Crash Program",
+          "text": [
+            "01",
+            "A fast-paced month for those who need core MERN skills quickly, ideal alongside college or a notice period. You'll cover the essentials of each layer of the stack and connect them into one working application.",
+            "JavaScript (ES6+) and React fundamentals",
+            "Building a REST API with Node & Express",
+            "Basic MongoDB schema design and CRUD",
+            "Connecting frontend, backend and database"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Intense Training",
+          "text": [
+            "02",
+            "The full, in-depth 3-month full stack developer course, every module in detail, with authentication, deployment and a much larger capstone meant to hold up in interviews.",
+            "Advanced React patterns, hooks and state management",
+            "Authentication (JWT), middleware and error handling",
+            "Schema relationships, aggregation and production DB design",
+            "Git workflow, environment config and full deployment"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "coursefullstack_05_detail_section",
+      "section_order": 5,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Who is this course for?",
+      "heading_level": "h2",
+      "eyebrow": "Who it’s for",
+      "subheading": "",
+      "description": "No prior MERN experience is required; the 3-month track starts from JavaScript fundamentals.",
+      "paragraphs": [
+        "Who it’s for",
+        "No prior MERN experience is required; the 3-month track starts from JavaScript fundamentals."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Who it’s for"
+        },
+        {
+          "type": "h2",
+          "text": "Who is this course for?"
+        },
+        {
+          "type": "li",
+          "text": "Students and graduates (BTech, BCA, MCA, BSc CS — or any degree) who want a practical, job-focused entry into web development"
+        },
+        {
+          "type": "li",
+          "text": "Career switchers who know some programming basics and want structure instead of scattered tutorials"
+        },
+        {
+          "type": "li",
+          "text": "Self-learners who've tried YouTube and free courses before but want a proper, guided path with someone to ask"
+        },
+        {
+          "type": "p",
+          "text": "No prior MERN experience is required; the 3-month track starts from JavaScript fundamentals."
+        }
+      ],
+      "bullet_points": [
+        "Students and graduates (BTech, BCA, MCA, BSc CS — or any degree) who want a practical, job-focused entry into web development",
+        "Career switchers who know some programming basics and want structure instead of scattered tutorials",
+        "Self-learners who've tried YouTube and free courses before but want a proper, guided path with someone to ask"
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "coursefullstack_06_detail_section",
+      "section_order": 6,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "What you'll walk away with",
+      "heading_level": "h2",
+      "eyebrow": "Your next chapter",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "Your next chapter"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Your next chapter"
+        },
+        {
+          "type": "h2",
+          "text": "What you'll walk away with"
+        },
+        {
+          "type": "li",
+          "text": "A working MERN application you built yourself, deployed live and ready to demo in interviews"
+        },
+        {
+          "type": "li",
+          "text": "Comfort reading and debugging someone else's code, not just your own"
+        },
+        {
+          "type": "li",
+          "text": "A GitHub profile with real commit history, not copy-pasted projects"
+        },
+        {
+          "type": "li",
+          "text": "A certificate of completion from Ladder7 Nextstep Solutions"
+        },
+        {
+          "type": "li",
+          "text": "Internship guidance to take the next step after training — portfolio prep, referrals, and direction toward openings including around Technopark, Trivandrum"
+        }
+      ],
+      "bullet_points": [
+        "A working MERN application you built yourself, deployed live and ready to demo in interviews",
+        "Comfort reading and debugging someone else's code, not just your own",
+        "A GitHub profile with real commit history, not copy-pasted projects",
+        "A certificate of completion from Ladder7 Nextstep Solutions",
+        "Internship guidance to take the next step after training — portfolio prep, referrals, and direction toward openings including around Technopark, Trivandrum"
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "coursefullstack_07_detail_section",
+      "section_order": 7,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Good questions.",
+      "heading_level": "h2",
+      "eyebrow": "A little more clarity",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "A little more clarity",
+        "Our fees are deliberately affordable and student-friendly compared to large bootcamps, and differ between the 1-month and 3-month tracks. Contact us, and we'll share the current fee sheet upfront — no hidden costs.",
+        "With structured, project-based training, you can build and deploy your first complete MERN application in 1 month and reach interview-ready depth: authentication, deployment, a multi-feature capstone in 3 months. Self-taught paths typically take far longer because there's no one to unblock you.",
+        "Yes. JavaScript-based full stack roles (React on the frontend, Node.js on the backend) remain among the most common developer openings at Technopark Trivandrum, Infopark Kochi, and Kerala startups, and the skills transfer directly to remote roles as well.",
+        "Entry-level full stack developers in Kerala typically start around ₹3–4 LPA, with candidates who have strong, deployed portfolio projects exactly what this course is built around progressing faster.",
+        "For the 3-month track, no, it starts from JavaScript fundamentals. For the 1-month crash program, basic programming familiarity helps because of the pace. Unsure which fits? Our free career session will tell you honestly.",
+        "The course includes an internship so you gain real experience before job applications.",
+        "Live online batches are available, and offline/classroom sessions are in Trivandrum. All sessions are instructor-led and interactive, never pre-recorded lectures.",
+        "Choose MERN if you want to specialise in web applications with one language (JavaScript) end-to-end. Choose our Python Full Stack & AI course if you also want AI/ML skills alongside web development. Both lead to full stack roles; the free career session can help you decide."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "A little more clarity"
+        },
+        {
+          "type": "h2",
+          "text": "Good questions."
+        },
+        {
+          "type": "summary",
+          "text": "What is the fee for the full stack developer course in Kerala?+"
+        },
+        {
+          "type": "p",
+          "text": "Our fees are deliberately affordable and student-friendly compared to large bootcamps, and differ between the 1-month and 3-month tracks. Contact us, and we'll share the current fee sheet upfront — no hidden costs."
+        },
+        {
+          "type": "summary",
+          "text": "How long does it take to become a full stack developer?+"
+        },
+        {
+          "type": "p",
+          "text": "With structured, project-based training, you can build and deploy your first complete MERN application in 1 month and reach interview-ready depth: authentication, deployment, a multi-feature capstone in 3 months. Self-taught paths typically take far longer because there's no one to unblock you."
+        },
+        {
+          "type": "summary",
+          "text": "Is the MERN stack still in demand in Kerala in 2026?+"
+        },
+        {
+          "type": "p",
+          "text": "Yes. JavaScript-based full stack roles (React on the frontend, Node.js on the backend) remain among the most common developer openings at Technopark Trivandrum, Infopark Kochi, and Kerala startups, and the skills transfer directly to remote roles as well."
+        },
+        {
+          "type": "summary",
+          "text": "What salary can a full stack developer expect in Kerala?+"
+        },
+        {
+          "type": "p",
+          "text": "Entry-level full stack developers in Kerala typically start around ₹3–4 LPA, with candidates who have strong, deployed portfolio projects exactly what this course is built around progressing faster."
+        },
+        {
+          "type": "summary",
+          "text": "Do I need coding experience to join?+"
+        },
+        {
+          "type": "p",
+          "text": "For the 3-month track, no, it starts from JavaScript fundamentals. For the 1-month crash program, basic programming familiarity helps because of the pace. Unsure which fits? Our free career session will tell you honestly."
+        },
+        {
+          "type": "summary",
+          "text": "Does the course include an internship?+"
+        },
+        {
+          "type": "p",
+          "text": "The course includes an internship so you gain real experience before job applications."
+        },
+        {
+          "type": "summary",
+          "text": "Is this course online or offline?+"
+        },
+        {
+          "type": "p",
+          "text": "Live online batches are available, and offline/classroom sessions are in Trivandrum. All sessions are instructor-led and interactive, never pre-recorded lectures."
+        },
+        {
+          "type": "summary",
+          "text": "MERN or Python full stack — which should I choose?+"
+        },
+        {
+          "type": "p",
+          "text": "Choose MERN if you want to specialise in web applications with one language (JavaScript) end-to-end. Choose our Python Full Stack & AI course if you also want AI/ML skills alongside web development. Both lead to full stack roles; the free career session can help you decide."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "What is the fee for the full stack developer course in Kerala?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "How long does it take to become a full stack developer?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Is the MERN stack still in demand in Kerala in 2026?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "What salary can a full stack developer expect in Kerala?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Do I need coding experience to join?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Does the course include an internship?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Is this course online or offline?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "MERN or Python full stack — which should I choose?+",
+          "open": false
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "coursefullstack_08_contact",
+      "section_order": 8,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

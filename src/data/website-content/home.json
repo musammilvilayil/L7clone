@@ -1,0 +1,2997 @@
+{
+  "page_key": "home",
+  "page_url": "/",
+  "document_title": "Custom Software Development Company in India | Ladder7",
+  "seo": {
+    "meta_title": "Custom Software Development Company in India | Ladder7",
+    "meta_description": "India-based software development company building custom software, web and mobile apps and AI for clients in the UAE, Saudi Arabia, UK, Europe and Africa.",
+    "canonical_url": "https://www.ladder7.in/",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Custom software, web and AI development from India for global businesses."
+  },
+  "sections": [
+    {
+      "section_id": "home_01_hero",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Hero",
+      "section_heading": "Custom software, web and AI development from India for global businesses.",
+      "heading_level": "h1",
+      "eyebrow": "Build. Connect. Grow.",
+      "subheading": "Engineering with purpose.\nBuilt around your business.",
+      "description": "Ladder7 is a software development company in Kerala, India. We build custom software, web and mobile apps and AI solutions for businesses in the UAE, Saudi Arabia, the UK, Europe and Africa, with enterprise-grade engineering at affordable, flexible pricing.\n\nEngineering with purpose.\nBuilt around your business.",
+      "paragraphs": [
+        "Build. Connect. Grow.",
+        "Ladder7 is a software development company in Kerala, India. We build custom software, web and mobile apps and AI solutions for businesses in the UAE, Saudi Arabia, the UK, Europe and Africa, with enterprise-grade engineering at affordable, flexible pricing.",
+        "Engineering with purpose.\nBuilt around your business."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Build. Connect. Grow."
+        },
+        {
+          "type": "h1",
+          "text": "Custom software, web and AI development from India for global businesses."
+        },
+        {
+          "type": "p",
+          "text": "Ladder7 is a software development company in Kerala, India. We build custom software, web and mobile apps and AI solutions for businesses in the UAE, Saudi Arabia, the UK, Europe and Africa, with enterprise-grade engineering at affordable, flexible pricing."
+        },
+        {
+          "type": "cta-link",
+          "text": "Get a project estimate"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore capabilities"
+        },
+        {
+          "type": "dt",
+          "text": "Digital experience"
+        },
+        {
+          "type": "dd",
+          "text": "Build"
+        },
+        {
+          "type": "dt",
+          "text": "Applied AI"
+        },
+        {
+          "type": "dd",
+          "text": "Automate"
+        },
+        {
+          "type": "dt",
+          "text": "Custom software"
+        },
+        {
+          "type": "dd",
+          "text": "Connect"
+        },
+        {
+          "type": "a",
+          "text": "Scroll"
+        },
+        {
+          "type": "p",
+          "text": "Engineering with purpose.\nBuilt around your business."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "Build",
+          "source": "dl"
+        },
+        {
+          "term": "Applied AI",
+          "detail": "Automate",
+          "source": "dl"
+        },
+        {
+          "term": "Custom software",
+          "detail": "Connect",
+          "source": "dl"
+        }
+      ],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Get a project estimate",
+          "url": "/#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore capabilities",
+          "url": "/#capabilities",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "dd",
+          "count": 3
+        }
+      ],
+      "links": [
+        {
+          "text": "Get a project estimate",
+          "href": "/#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore capabilities",
+          "href": "/#capabilities",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Scroll",
+          "href": "/#capabilities",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Get a project estimate",
+          "href": "/#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore capabilities",
+          "href": "/#capabilities",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Scroll",
+          "href": "/#capabilities",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Hero/Hero.css",
+        "component": "src/components/sections/Hero/Hero.tsx"
+      }
+    },
+    {
+      "section_id": "home_02_capabilities",
+      "section_order": 2,
+      "html_id": "capabilities",
+      "element": "section",
+      "section_name": "Capabilities",
+      "section_heading": "Software development services:\nweb, AI, strategy and custom builds.",
+      "heading_level": "h2",
+      "eyebrow": "What we do",
+      "subheading": "From the first strategic question\nto the systems behind your business.",
+      "description": "From the first strategic question\nto the systems behind your business.",
+      "paragraphs": [
+        "What we do",
+        "From the first strategic question\nto the systems behind your business.",
+        "Websites, platforms & connections",
+        "Intelligence that moves work forward",
+        "A clearer route from idea to delivery",
+        "Software shaped around your business"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "What we do"
+        },
+        {
+          "type": "h2",
+          "text": "Software development services:\nweb, AI, strategy and custom builds."
+        },
+        {
+          "type": "p",
+          "text": "From the first strategic question\nto the systems behind your business."
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "Digital experience"
+        },
+        {
+          "type": "p",
+          "text": "Websites, platforms & connections"
+        },
+        {
+          "type": "li",
+          "text": "Intelligent websites"
+        },
+        {
+          "type": "li",
+          "text": "Headless CMS"
+        },
+        {
+          "type": "li",
+          "text": "Web applications"
+        },
+        {
+          "type": "li",
+          "text": "CRM integration"
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "Applied AI"
+        },
+        {
+          "type": "p",
+          "text": "Intelligence that moves work forward"
+        },
+        {
+          "type": "li",
+          "text": "AI assistants"
+        },
+        {
+          "type": "li",
+          "text": "Chatbots"
+        },
+        {
+          "type": "li",
+          "text": "Agentic workflows"
+        },
+        {
+          "type": "li",
+          "text": "RAG systems"
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "Technology strategy"
+        },
+        {
+          "type": "p",
+          "text": "A clearer route from idea to delivery"
+        },
+        {
+          "type": "li",
+          "text": "Product ideation"
+        },
+        {
+          "type": "li",
+          "text": "Architecture"
+        },
+        {
+          "type": "li",
+          "text": "Research & development"
+        },
+        {
+          "type": "li",
+          "text": "Solution design"
+        },
+        {
+          "type": "span",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "Custom development"
+        },
+        {
+          "type": "p",
+          "text": "Software shaped around your business"
+        },
+        {
+          "type": "li",
+          "text": "Custom applications"
+        },
+        {
+          "type": "li",
+          "text": "Business software"
+        },
+        {
+          "type": "li",
+          "text": "Product development"
+        },
+        {
+          "type": "li",
+          "text": "API integrations"
+        }
+      ],
+      "bullet_points": [
+        "Intelligent websites",
+        "Headless CMS",
+        "Web applications",
+        "CRM integration",
+        "AI assistants",
+        "Chatbots",
+        "Agentic workflows",
+        "RAG systems",
+        "Product ideation",
+        "Architecture",
+        "Research & development",
+        "Solution design",
+        "Custom applications",
+        "Business software",
+        "Product development",
+        "API integrations"
+      ],
+      "key_highlights": [
+        {
+          "term": "01",
+          "detail": "",
+          "source": ".capability-row__number"
+        },
+        {
+          "term": "02",
+          "detail": "",
+          "source": ".capability-row__number"
+        },
+        {
+          "term": "03",
+          "detail": "",
+          "source": ".capability-row__number"
+        },
+        {
+          "term": "04",
+          "detail": "",
+          "source": ".capability-row__number"
+        }
+      ],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.capability-row__arrow",
+          "count": 4
+        }
+      ],
+      "links": [
+        {
+          "text": "01\nDigital experience\nWebsites, platforms & connections\nIntelligent websites\nHeadless CMS\nWeb applications\nCRM integration",
+          "href": "/#solutions",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "02\nApplied AI\nIntelligence that moves work forward\nAI assistants\nChatbots\nAgentic workflows\nRAG systems",
+          "href": "/#solutions",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "03\nTechnology strategy\nA clearer route from idea to delivery\nProduct ideation\nArchitecture\nResearch & development\nSolution design",
+          "href": "/#approach",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "04\nCustom development\nSoftware shaped around your business\nCustom applications\nBusiness software\nProduct development\nAPI integrations",
+          "href": "/#solutions",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "01\nDigital experience\nWebsites, platforms & connections\nIntelligent websites\nHeadless CMS\nWeb applications\nCRM integration",
+          "href": "/#solutions",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "02\nApplied AI\nIntelligence that moves work forward\nAI assistants\nChatbots\nAgentic workflows\nRAG systems",
+          "href": "/#solutions",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "03\nTechnology strategy\nA clearer route from idea to delivery\nProduct ideation\nArchitecture\nResearch & development\nSolution design",
+          "href": "/#approach",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "04\nCustom development\nSoftware shaped around your business\nCustom applications\nBusiness software\nProduct development\nAPI integrations",
+          "href": "/#solutions",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/pages/Home/HomePage.css",
+        "component": "src/pages/Home/HomePage.tsx"
+      }
+    },
+    {
+      "section_id": "home_03_it_products",
+      "section_order": 3,
+      "html_id": "it-products",
+      "element": "section",
+      "section_name": "It Products",
+      "section_heading": "AI products built by Ladder7.",
+      "heading_level": "h2",
+      "eyebrow": "Built by Ladder7",
+      "subheading": "Five focused products for the work\nbehind a growing business.",
+      "description": "Five focused products for the work\nbehind a growing business.\n\nThe Ladder7 product suite 05\n\nBuilt for the way your business works.\n\nEach product works independently. Explore its details and availability on Ladder7.",
+      "paragraphs": [
+        "Built by Ladder7",
+        "Five focused products for the work\nbehind a growing business.",
+        "The Ladder7 product suite 05",
+        "Built for the way your business works.",
+        "Know your website. Prioritise your next move.",
+        "Audit website health across performance, accessibility, search and security, with fixes prioritised for action.",
+        "Your company knowledge. A clearer perspective.",
+        "AI executive support, grounded in a shared understanding of your company and its decisions.",
+        "Make the first conversation count.",
+        "Prospect research and individual email drafts, with a review step before sending.",
+        "Connect the data. See the whole picture.",
+        "Bring data from different systems into a joined view for clearer reporting and decisions.",
+        "See the connections behind your campaigns.",
+        "Explore advertising and analytics data together to understand channel performance and budget opportunities.",
+        "Each product works independently. Explore its details and availability on Ladder7."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Built by Ladder7"
+        },
+        {
+          "type": "h2",
+          "text": "AI products built by Ladder7."
+        },
+        {
+          "type": "p",
+          "text": "Five focused products for the work\nbehind a growing business."
+        },
+        {
+          "type": "p",
+          "text": "The Ladder7 product suite 05"
+        },
+        {
+          "type": "button",
+          "text": "01 Site 360Website intelligence"
+        },
+        {
+          "type": "button",
+          "text": "02 L7 NexusBusiness intelligence"
+        },
+        {
+          "type": "button",
+          "text": "03 Outreach EngineB2B outreach"
+        },
+        {
+          "type": "button",
+          "text": "04 L7 InsightsConnected data"
+        },
+        {
+          "type": "button",
+          "text": "05 Infinite InsightsMarketing analytics"
+        },
+        {
+          "type": "p",
+          "text": "Built for the way your business works."
+        },
+        {
+          "type": "div",
+          "text": "A clearer view of your website\nSite 360 / Website overview↗\n360Every angle, connected\n↗ Performance 01 ◈ Accessibility 02 ⌕ Search 03 ◇ Security 04\nProduct concept / illustrative 01 / 05"
+        },
+        {
+          "type": "span",
+          "text": "Website intelligence"
+        },
+        {
+          "type": "h3",
+          "text": "Site 360"
+        },
+        {
+          "type": "p",
+          "text": "Know your website. Prioritise your next move."
+        },
+        {
+          "type": "p",
+          "text": "Audit website health across performance, accessibility, search and security, with fixes prioritised for action."
+        },
+        {
+          "type": "a",
+          "text": "Explore product: Site 360"
+        },
+        {
+          "type": "div",
+          "text": "Context for your next decision\nL7Nexus\nCompany context Knowledge Questions Decisions\nProduct concept / illustrative 02 / 05"
+        },
+        {
+          "type": "span",
+          "text": "Business intelligence"
+        },
+        {
+          "type": "h3",
+          "text": "L7 Nexus"
+        },
+        {
+          "type": "p",
+          "text": "Your company knowledge. A clearer perspective."
+        },
+        {
+          "type": "p",
+          "text": "AI executive support, grounded in a shared understanding of your company and its decisions."
+        },
+        {
+          "type": "a",
+          "text": "Explore product: L7 Nexus"
+        },
+        {
+          "type": "div",
+          "text": "From research to a considered introduction\n01 / Research ◎A relevant prospect\n→\n02 / Your review\n↗\nA thoughtful first message Ready for your review\nProduct concept / illustrative 03 / 05"
+        },
+        {
+          "type": "span",
+          "text": "B2B outreach"
+        },
+        {
+          "type": "h3",
+          "text": "Outreach Engine"
+        },
+        {
+          "type": "p",
+          "text": "Make the first conversation count."
+        },
+        {
+          "type": "p",
+          "text": "Prospect research and individual email drafts, with a review step before sending."
+        },
+        {
+          "type": "a",
+          "text": "Explore product: Outreach Engine"
+        },
+        {
+          "type": "div",
+          "text": "Different sources. One connected view.\nPlatforms ↗ Business systems ↗ Data sources ↗\n▥L7 Insights A joined-up view\nProduct concept / illustrative 04 / 05"
+        },
+        {
+          "type": "span",
+          "text": "Connected data"
+        },
+        {
+          "type": "h3",
+          "text": "L7 Insights"
+        },
+        {
+          "type": "p",
+          "text": "Connect the data. See the whole picture."
+        },
+        {
+          "type": "p",
+          "text": "Bring data from different systems into a joined view for clearer reporting and decisions."
+        },
+        {
+          "type": "a",
+          "text": "Explore product: L7 Insights"
+        },
+        {
+          "type": "div",
+          "text": "A shared perspective on channel performance\nInfinite Insights / Channel view↗\nAdvertising Analytics\nAdvertising data Shared perspective Analytics data\nProduct concept / illustrative 05 / 05"
+        },
+        {
+          "type": "span",
+          "text": "Marketing analytics"
+        },
+        {
+          "type": "h3",
+          "text": "Infinite Insights"
+        },
+        {
+          "type": "p",
+          "text": "See the connections behind your campaigns."
+        },
+        {
+          "type": "p",
+          "text": "Explore advertising and analytics data together to understand channel performance and budget opportunities."
+        },
+        {
+          "type": "a",
+          "text": "Explore product: Infinite Insights"
+        },
+        {
+          "type": "p",
+          "text": "Each product works independently. Explore its details and availability on Ladder7."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "05",
+          "detail": "",
+          "source": ".badge"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.product-suite__panel",
+          "heading": "Site 360",
+          "text": [
+            "A clearer view of your website\nSite 360 / Website overview↗\n360Every angle, connected\n↗ Performance 01 ◈ Accessibility 02 ⌕ Search 03 ◇ Security 04\nProduct concept / illustrative 01 / 05",
+            "Website intelligence",
+            "Know your website. Prioritise your next move.",
+            "Audit website health across performance, accessibility, search and security, with fixes prioritised for action.",
+            "Explore product: Site 360"
+          ],
+          "links": [
+            {
+              "text": "Explore product: Site 360",
+              "href": "/products/site-360"
+            }
+          ],
+          "images": []
+        },
+        {
+          "element": "div.product-suite__panel",
+          "heading": "L7 Nexus",
+          "text": [
+            "Context for your next decision\nL7Nexus\nCompany context Knowledge Questions Decisions\nProduct concept / illustrative 02 / 05",
+            "Business intelligence",
+            "Your company knowledge. A clearer perspective.",
+            "AI executive support, grounded in a shared understanding of your company and its decisions.",
+            "Explore product: L7 Nexus"
+          ],
+          "links": [
+            {
+              "text": "Explore product: L7 Nexus",
+              "href": "/products/l7-nexus"
+            }
+          ],
+          "images": []
+        },
+        {
+          "element": "div.product-suite__panel",
+          "heading": "Outreach Engine",
+          "text": [
+            "From research to a considered introduction\n01 / Research ◎A relevant prospect\n→\n02 / Your review\n↗\nA thoughtful first message Ready for your review\nProduct concept / illustrative 03 / 05",
+            "B2B outreach",
+            "Make the first conversation count.",
+            "Prospect research and individual email drafts, with a review step before sending.",
+            "Explore product: Outreach Engine"
+          ],
+          "links": [
+            {
+              "text": "Explore product: Outreach Engine",
+              "href": "/products/outreach-engine"
+            }
+          ],
+          "images": []
+        },
+        {
+          "element": "div.product-suite__panel",
+          "heading": "L7 Insights",
+          "text": [
+            "Different sources. One connected view.\nPlatforms ↗ Business systems ↗ Data sources ↗\n▥L7 Insights A joined-up view\nProduct concept / illustrative 04 / 05",
+            "Connected data",
+            "Connect the data. See the whole picture.",
+            "Bring data from different systems into a joined view for clearer reporting and decisions.",
+            "Explore product: L7 Insights"
+          ],
+          "links": [
+            {
+              "text": "Explore product: L7 Insights",
+              "href": "/products/l7-insights"
+            }
+          ],
+          "images": []
+        },
+        {
+          "element": "div.product-suite__panel",
+          "heading": "Infinite Insights",
+          "text": [
+            "A shared perspective on channel performance\nInfinite Insights / Channel view↗\nAdvertising Analytics\nAdvertising data Shared perspective Analytics data\nProduct concept / illustrative 05 / 05",
+            "Marketing analytics",
+            "See the connections behind your campaigns.",
+            "Explore advertising and analytics data together to understand channel performance and budget opportunities.",
+            "Explore product: Infinite Insights"
+          ],
+          "links": [
+            {
+              "text": "Explore product: Infinite Insights",
+              "href": "/products/infinite-insights"
+            }
+          ],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "button.product-suite__tab",
+          "count": 5
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "i",
+          "count": 5
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "div.art-nexus",
+          "count": 1
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "div.art-data",
+          "count": 1
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "div.art-marketing",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "Explore product: Site 360",
+          "href": "/products/site-360",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore product: L7 Nexus",
+          "href": "/products/l7-nexus",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore product: Outreach Engine",
+          "href": "/products/outreach-engine",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore product: L7 Insights",
+          "href": "/products/l7-insights",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore product: Infinite Insights",
+          "href": "/products/infinite-insights",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Explore product: Site 360",
+          "href": "/products/site-360",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore product: L7 Nexus",
+          "href": "/products/l7-nexus",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore product: Outreach Engine",
+          "href": "/products/outreach-engine",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore product: L7 Insights",
+          "href": "/products/l7-insights",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore product: Infinite Insights",
+          "href": "/products/infinite-insights",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "01 Site 360Website intelligence",
+          "attrs": {
+            "type": "button",
+            "aria-controls": "suite-panel-0",
+            "role": "tab",
+            "aria-selected": "true"
+          }
+        },
+        {
+          "element": "button",
+          "text": "02 L7 NexusBusiness intelligence",
+          "attrs": {
+            "type": "button",
+            "aria-controls": "suite-panel-1",
+            "role": "tab",
+            "aria-selected": "false"
+          }
+        },
+        {
+          "element": "button",
+          "text": "03 Outreach EngineB2B outreach",
+          "attrs": {
+            "type": "button",
+            "aria-controls": "suite-panel-2",
+            "role": "tab",
+            "aria-selected": "false"
+          }
+        },
+        {
+          "element": "button",
+          "text": "04 L7 InsightsConnected data",
+          "attrs": {
+            "type": "button",
+            "aria-controls": "suite-panel-3",
+            "role": "tab",
+            "aria-selected": "false"
+          }
+        },
+        {
+          "element": "button",
+          "text": "05 Infinite InsightsMarketing analytics",
+          "attrs": {
+            "type": "button",
+            "aria-controls": "suite-panel-4",
+            "role": "tab",
+            "aria-selected": "false"
+          }
+        },
+        {
+          "element": "role=tablist",
+          "text": "01 Site 360Website intelligence 02 L7 NexusBusiness intelligence 03 Outreach Eng",
+          "attrs": {}
+        },
+        {
+          "element": "role=tab",
+          "text": "01 Site 360Website intelligence",
+          "attrs": {
+            "aria-selected": "true",
+            "aria-controls": "suite-panel-0"
+          }
+        },
+        {
+          "element": "role=tab",
+          "text": "02 L7 NexusBusiness intelligence",
+          "attrs": {
+            "aria-selected": "false",
+            "aria-controls": "suite-panel-1"
+          }
+        },
+        {
+          "element": "role=tab",
+          "text": "03 Outreach EngineB2B outreach",
+          "attrs": {
+            "aria-selected": "false",
+            "aria-controls": "suite-panel-2"
+          }
+        },
+        {
+          "element": "role=tab",
+          "text": "04 L7 InsightsConnected data",
+          "attrs": {
+            "aria-selected": "false",
+            "aria-controls": "suite-panel-3"
+          }
+        },
+        {
+          "element": "role=tab",
+          "text": "05 Infinite InsightsMarketing analytics",
+          "attrs": {
+            "aria-selected": "false",
+            "aria-controls": "suite-panel-4"
+          }
+        },
+        {
+          "element": "role=tabpanel",
+          "text": "A clearer view of your website\nSite 360 / Website overview↗\n360Every angle, conn",
+          "attrs": {}
+        },
+        {
+          "element": "role=tabpanel",
+          "text": "Context for your next decision\nL7Nexus\nCompany context Knowledge Questions Decis",
+          "attrs": {}
+        },
+        {
+          "element": "role=tabpanel",
+          "text": "From research to a considered introduction\n01 / Research ◎A relevant prospect\n→\n",
+          "attrs": {}
+        },
+        {
+          "element": "role=tabpanel",
+          "text": "Different sources. One connected view.\nPlatforms ↗ Business systems ↗ Data sourc",
+          "attrs": {}
+        },
+        {
+          "element": "role=tabpanel",
+          "text": "A shared perspective on channel performance\nInfinite Insights / Channel view↗\nAd",
+          "attrs": {}
+        }
+      ],
+      "screen_reader_only_text": [
+        ": Site 360",
+        ": L7 Nexus",
+        ": Outreach Engine",
+        ": L7 Insights",
+        ": Infinite Insights"
+      ],
+      "hidden_or_conditional_content": [
+        {
+          "element": "div.product-suite__panel",
+          "reason": "hidden attribute",
+          "text": "Context for your next decision\nL7Nexus\nCompany context Knowledge Questions Decisions\nProduct concept / illustrative 02 / 05\nBusiness intelligence\nL7 Nexus\nYour company knowledge. A clearer perspective.\nAI executive support, grounded in a shared understanding of your company and its decisions.\nExplor"
+        },
+        {
+          "element": "div.product-suite__panel",
+          "reason": "hidden attribute",
+          "text": "From research to a considered introduction\n01 / Research ◎A relevant prospect\n→\n02 / Your review\n↗\nA thoughtful first message Ready for your review\nProduct concept / illustrative 03 / 05\nB2B outreach\nOutreach Engine\nMake the first conversation count.\nProspect research and individual email drafts, wi"
+        },
+        {
+          "element": "div.product-suite__panel",
+          "reason": "hidden attribute",
+          "text": "Different sources. One connected view.\nPlatforms ↗ Business systems ↗ Data sources ↗\n▥L7 Insights A joined-up view\nProduct concept / illustrative 04 / 05\nConnected data\nL7 Insights\nConnect the data. See the whole picture.\nBring data from different systems into a joined view for clearer reporting and"
+        },
+        {
+          "element": "div.product-suite__panel",
+          "reason": "hidden attribute",
+          "text": "A shared perspective on channel performance\nInfinite Insights / Channel view↗\nAdvertising Analytics\nAdvertising data Shared perspective Analytics data\nProduct concept / illustrative 05 / 05\nMarketing analytics\nInfinite Insights\nSee the connections behind your campaigns.\nExplore advertising and analy"
+        }
+      ],
+      "source_component": {
+        "stylesheet": "src/components/sections/ProductSuite/ProductSuite.css",
+        "component": "src/components/sections/ProductSuite/ProductSuite.tsx"
+      }
+    },
+    {
+      "section_id": "home_04_solutions",
+      "section_order": 4,
+      "html_id": "solutions",
+      "element": "section",
+      "section_name": "Solutions",
+      "section_heading": "Make the next\naction happen.",
+      "heading_level": "h2",
+      "eyebrow": "Connected by design",
+      "subheading": "A website, an AI assistant, or an application\nworks harder when it connects to the next step.",
+      "description": "A website, an AI assistant, or an application\nworks harder when it connects to the next step.\n\nMore than an online presence\n\nBring your website, content, lead capture and CRM into a more connected experience for your customers and your team.",
+      "paragraphs": [
+        "Connected by design",
+        "A website, an AI assistant, or an application\nworks harder when it connects to the next step.",
+        "More than an online presence",
+        "Bring your website, content, lead capture and CRM into a more connected experience for your customers and your team."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Connected by design"
+        },
+        {
+          "type": "h2",
+          "text": "Make the next\naction happen."
+        },
+        {
+          "type": "p",
+          "text": "A website, an AI assistant, or an application\nworks harder when it connects to the next step."
+        },
+        {
+          "type": "button",
+          "text": "Digital experience"
+        },
+        {
+          "type": "button",
+          "text": "AI & automation"
+        },
+        {
+          "type": "button",
+          "text": "Custom software"
+        },
+        {
+          "type": "div",
+          "text": "Connected workflow Illustrative\n01 A visitor arrivesDiscover\n02 A useful digital experienceConnect\n03 A qualified enquiryMove forward\nBuilt around your next business goal"
+        },
+        {
+          "type": "p",
+          "text": "More than an online presence"
+        },
+        {
+          "type": "h3",
+          "text": "Give every visit\na clear next step."
+        },
+        {
+          "type": "p",
+          "text": "Bring your website, content, lead capture and CRM into a more connected experience for your customers and your team."
+        },
+        {
+          "type": "li",
+          "text": "Website and landing-page engineering"
+        },
+        {
+          "type": "li",
+          "text": "Composable platforms and headless CMS"
+        },
+        {
+          "type": "li",
+          "text": "CRM, analytics and API integration"
+        },
+        {
+          "type": "cta-link",
+          "text": "Discuss your requirements"
+        }
+      ],
+      "bullet_points": [
+        "Website and landing-page engineering",
+        "Composable platforms and headless CMS",
+        "CRM, analytics and API integration"
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Discuss your requirements",
+          "url": "/#contact",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "div.workflow__bottom",
+          "count": 1
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "li",
+          "count": 3
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "Discuss your requirements",
+          "href": "/#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Discuss your requirements",
+          "href": "/#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Digital experience",
+          "attrs": {
+            "type": "button",
+            "aria-controls": "solution-panel",
+            "role": "tab",
+            "aria-selected": "true"
+          }
+        },
+        {
+          "element": "button",
+          "text": "AI & automation",
+          "attrs": {
+            "type": "button",
+            "aria-controls": "solution-panel",
+            "role": "tab",
+            "aria-selected": "false"
+          }
+        },
+        {
+          "element": "button",
+          "text": "Custom software",
+          "attrs": {
+            "type": "button",
+            "aria-controls": "solution-panel",
+            "role": "tab",
+            "aria-selected": "false"
+          }
+        },
+        {
+          "element": "role=tablist",
+          "text": "Digital experience AI & automation Custom software",
+          "attrs": {}
+        },
+        {
+          "element": "role=tab",
+          "text": "Digital experience",
+          "attrs": {
+            "aria-selected": "true",
+            "aria-controls": "solution-panel"
+          }
+        },
+        {
+          "element": "role=tab",
+          "text": "AI & automation",
+          "attrs": {
+            "aria-selected": "false",
+            "aria-controls": "solution-panel"
+          }
+        },
+        {
+          "element": "role=tab",
+          "text": "Custom software",
+          "attrs": {
+            "aria-selected": "false",
+            "aria-controls": "solution-panel"
+          }
+        },
+        {
+          "element": "role=tabpanel",
+          "text": "Connected workflow Illustrative\n01 A visitor arrivesDiscover\n02 A useful digital",
+          "attrs": {}
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Solutions/SolutionsSection.css",
+        "component": "src/components/sections/Solutions/SolutionsSection.tsx"
+      }
+    },
+    {
+      "section_id": "home_05_approach",
+      "section_order": 5,
+      "html_id": "approach",
+      "element": "section",
+      "section_name": "Approach",
+      "section_heading": "Start with the outcome.",
+      "heading_level": "h2",
+      "eyebrow": "From ambition to action",
+      "subheading": "Technology decisions become clearer\nwhen the business goal comes first.",
+      "description": "Technology decisions become clearer\nwhen the business goal comes first.\n\n01 Your business journey, in motion",
+      "paragraphs": [
+        "From ambition to action",
+        "Technology decisions become clearer\nwhen the business goal comes first.",
+        "01 Your business journey, in motion",
+        "Start with your customers, workflows and business priorities. Define what needs to change.",
+        "Map the experience, integrations and architecture around a practical path to delivery.",
+        "Bring together software engineering, applied AI and the platforms your business relies on.",
+        "Use feedback and operational insight to inform the next useful improvement."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "From ambition to action"
+        },
+        {
+          "type": "h2",
+          "text": "Start with the outcome."
+        },
+        {
+          "type": "p",
+          "text": "Technology decisions become clearer\nwhen the business goal comes first."
+        },
+        {
+          "type": "p",
+          "text": "01 Your business journey, in motion"
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "Understand"
+        },
+        {
+          "type": "p",
+          "text": "Start with your customers, workflows and business priorities. Define what needs to change."
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "Connect"
+        },
+        {
+          "type": "p",
+          "text": "Map the experience, integrations and architecture around a practical path to delivery."
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "Engineer"
+        },
+        {
+          "type": "p",
+          "text": "Bring together software engineering, applied AI and the platforms your business relies on."
+        },
+        {
+          "type": "span",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "Evolve"
+        },
+        {
+          "type": "p",
+          "text": "Use feedback and operational insight to inform the next useful improvement."
+        }
+      ],
+      "bullet_points": [
+        "01\nUnderstand\nStart with your customers, workflows and business priorities. Define what needs to change.",
+        "02\nConnect\nMap the experience, integrations and architecture around a practical path to delivery.",
+        "03\nEngineer\nBring together software engineering, applied AI and the platforms your business relies on.",
+        "04\nEvolve\nUse feedback and operational insight to inform the next useful improvement."
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Approach/ApproachSection.css",
+        "component": "src/components/sections/Approach/ApproachSection.tsx"
+      }
+    },
+    {
+      "section_id": "home_06_delivery_pathway",
+      "section_order": 6,
+      "html_id": "delivery-pathway",
+      "element": "section",
+      "section_name": "Delivery Pathway",
+      "section_heading": "From ambition\nto real-world impact.",
+      "heading_level": "h2",
+      "eyebrow": "Connected digital delivery",
+      "subheading": "A clearer direction for your business.\nA connected route from idea to delivery.",
+      "description": "A clearer direction for your business.\nA connected route from idea to delivery.\n\n01 What digital progress can look like\n\nClearer strategy • Useful digital experiences • Connected systems • Practical AI • Less friction • Better decisions • Your next stage\n\n02 The seven steps\n\nFrom understanding the need to improving what works.\nExplore the decisions behind\na useful digital solution.",
+      "paragraphs": [
+        "Connected digital delivery",
+        "A clearer direction for your business.\nA connected route from idea to delivery.",
+        "01 What digital progress can look like",
+        "Clearer strategy • Useful digital experiences • Connected systems • Practical AI • Less friction • Better decisions • Your next stage",
+        "02 The seven steps",
+        "From understanding the need to improving what works.\nExplore the decisions behind\na useful digital solution.",
+        "Step 01 / Understand the real need",
+        "Look at your customers, existing systems and the work your team does every day. Identify the problem worth solving first.",
+        "Where does your current digital experience create the most friction?"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Connected digital delivery"
+        },
+        {
+          "type": "h2",
+          "text": "From ambition\nto real-world impact."
+        },
+        {
+          "type": "p",
+          "text": "A clearer direction for your business.\nA connected route from idea to delivery."
+        },
+        {
+          "type": "cta-link",
+          "text": "Find your next business step"
+        },
+        {
+          "type": "p",
+          "text": "01 What digital progress can look like"
+        },
+        {
+          "type": "p",
+          "text": "Clearer strategy • Useful digital experiences • Connected systems • Practical AI • Less friction • Better decisions • Your next stage"
+        },
+        {
+          "type": "p",
+          "text": "02 The seven steps"
+        },
+        {
+          "type": "h3",
+          "text": "Your business.\nOne connected journey."
+        },
+        {
+          "type": "p",
+          "text": "From understanding the need to improving what works.\nExplore the decisions behind\na useful digital solution."
+        },
+        {
+          "type": "button",
+          "text": "01Discovery"
+        },
+        {
+          "type": "button",
+          "text": "02Define the outcome"
+        },
+        {
+          "type": "button",
+          "text": "03Design the experience"
+        },
+        {
+          "type": "button",
+          "text": "04Plan the architecture"
+        },
+        {
+          "type": "button",
+          "text": "05Build & integrate"
+        },
+        {
+          "type": "button",
+          "text": "06Test & refine"
+        },
+        {
+          "type": "button",
+          "text": "07Launch & evolve"
+        },
+        {
+          "type": "div",
+          "text": "01 Your next stage starts with a clear goal"
+        },
+        {
+          "type": "p",
+          "text": "Step 01 / Understand the real need"
+        },
+        {
+          "type": "h4",
+          "text": "Discovery."
+        },
+        {
+          "type": "p",
+          "text": "Look at your customers, existing systems and the work your team does every day. Identify the problem worth solving first."
+        },
+        {
+          "type": "span",
+          "text": "Start by asking"
+        },
+        {
+          "type": "p",
+          "text": "Where does your current digital experience create the most friction?"
+        },
+        {
+          "type": "span",
+          "text": "01 / 07"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "01 / 07",
+          "detail": "",
+          "source": ".pathway__counter"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.pathway__panel",
+          "heading": "Discovery.",
+          "text": [
+            "01 Your next stage starts with a clear goal",
+            "Step 01 / Understand the real need",
+            "Look at your customers, existing systems and the work your team does every day. Identify the problem worth solving first.",
+            "Start by asking",
+            "Where does your current digital experience create the most friction?",
+            "01 / 07"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Find your next business step",
+          "url": "/#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Previous delivery step",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "button",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        },
+        {
+          "text": "Next delivery step",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "button",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "button.pathway__tab",
+          "count": 7
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "div.pathway__graphic",
+          "count": 1
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "button.btn--icon.pathway__control",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Find your next business step",
+          "href": "/#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Find your next business step",
+          "href": "/#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "01Discovery",
+          "attrs": {
+            "type": "button",
+            "aria-controls": "growth-panel",
+            "role": "tab",
+            "aria-selected": "true"
+          }
+        },
+        {
+          "element": "button",
+          "text": "02Define the outcome",
+          "attrs": {
+            "type": "button",
+            "aria-controls": "growth-panel",
+            "role": "tab",
+            "aria-selected": "false"
+          }
+        },
+        {
+          "element": "button",
+          "text": "03Design the experience",
+          "attrs": {
+            "type": "button",
+            "aria-controls": "growth-panel",
+            "role": "tab",
+            "aria-selected": "false"
+          }
+        },
+        {
+          "element": "button",
+          "text": "04Plan the architecture",
+          "attrs": {
+            "type": "button",
+            "aria-controls": "growth-panel",
+            "role": "tab",
+            "aria-selected": "false"
+          }
+        },
+        {
+          "element": "button",
+          "text": "05Build & integrate",
+          "attrs": {
+            "type": "button",
+            "aria-controls": "growth-panel",
+            "role": "tab",
+            "aria-selected": "false"
+          }
+        },
+        {
+          "element": "button",
+          "text": "06Test & refine",
+          "attrs": {
+            "type": "button",
+            "aria-controls": "growth-panel",
+            "role": "tab",
+            "aria-selected": "false"
+          }
+        },
+        {
+          "element": "button",
+          "text": "07Launch & evolve",
+          "attrs": {
+            "type": "button",
+            "aria-controls": "growth-panel",
+            "role": "tab",
+            "aria-selected": "false"
+          }
+        },
+        {
+          "element": "button",
+          "text": "Previous delivery step",
+          "attrs": {
+            "type": "button",
+            "aria-label": "Previous delivery step"
+          }
+        },
+        {
+          "element": "button",
+          "text": "Next delivery step",
+          "attrs": {
+            "type": "button",
+            "aria-label": "Next delivery step"
+          }
+        },
+        {
+          "element": "role=tablist",
+          "text": "01Discovery 02Define the outcome 03Design the experience 04Plan the architecture",
+          "attrs": {}
+        },
+        {
+          "element": "role=tab",
+          "text": "01Discovery",
+          "attrs": {
+            "aria-selected": "true",
+            "aria-controls": "growth-panel"
+          }
+        },
+        {
+          "element": "role=tab",
+          "text": "02Define the outcome",
+          "attrs": {
+            "aria-selected": "false",
+            "aria-controls": "growth-panel"
+          }
+        },
+        {
+          "element": "role=tab",
+          "text": "03Design the experience",
+          "attrs": {
+            "aria-selected": "false",
+            "aria-controls": "growth-panel"
+          }
+        },
+        {
+          "element": "role=tab",
+          "text": "04Plan the architecture",
+          "attrs": {
+            "aria-selected": "false",
+            "aria-controls": "growth-panel"
+          }
+        },
+        {
+          "element": "role=tab",
+          "text": "05Build & integrate",
+          "attrs": {
+            "aria-selected": "false",
+            "aria-controls": "growth-panel"
+          }
+        },
+        {
+          "element": "role=tab",
+          "text": "06Test & refine",
+          "attrs": {
+            "aria-selected": "false",
+            "aria-controls": "growth-panel"
+          }
+        },
+        {
+          "element": "role=tab",
+          "text": "07Launch & evolve",
+          "attrs": {
+            "aria-selected": "false",
+            "aria-controls": "growth-panel"
+          }
+        },
+        {
+          "element": "role=tabpanel",
+          "text": "01 Your next stage starts with a clear goal\nStep 01 / Understand the real need\nD",
+          "attrs": {}
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Delivery/DeliverySection.css",
+        "component": "src/components/sections/Delivery/DeliverySection.tsx"
+      }
+    },
+    {
+      "section_id": "home_07_why_ladder7",
+      "section_order": 7,
+      "html_id": "why-ladder7",
+      "element": "section",
+      "section_name": "Why Ladder7",
+      "section_heading": "Less friction.\nMore forward motion.",
+      "heading_level": "h2",
+      "eyebrow": "[ Your starting point ]Friction, disconnected.\n[ Your next chapter ]Connected, with purpose.",
+      "subheading": "",
+      "description": "Why Ladder7",
+      "paragraphs": [
+        "Why Ladder7",
+        "Understand your customers, workflows and priorities.",
+        "Bring platforms, data and everyday work together.",
+        "Use practical AI where it helps people take the next action.",
+        "Learn from real use and improve the next useful detail."
+      ],
+      "content": [
+        {
+          "type": "div",
+          "text": "[ Your starting point ]Friction, disconnected.\n[ Your next chapter ]Connected, with purpose."
+        },
+        {
+          "type": "p",
+          "text": "Why Ladder7"
+        },
+        {
+          "type": "h2",
+          "text": "Less friction.\nMore forward motion."
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "Start with the business."
+        },
+        {
+          "type": "p",
+          "text": "Understand your customers, workflows and priorities."
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "Connect the right systems."
+        },
+        {
+          "type": "p",
+          "text": "Bring platforms, data and everyday work together."
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "Put intelligence to work."
+        },
+        {
+          "type": "p",
+          "text": "Use practical AI where it helps people take the next action."
+        },
+        {
+          "type": "span",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "Keep moving forward."
+        },
+        {
+          "type": "p",
+          "text": "Learn from real use and improve the next useful detail."
+        },
+        {
+          "type": "a",
+          "text": "Discuss your next step"
+        }
+      ],
+      "bullet_points": [
+        "01\nStart with the business.\nUnderstand your customers, workflows and priorities.",
+        "02\nConnect the right systems.\nBring platforms, data and everyday work together.",
+        "03\nPut intelligence to work.\nUse practical AI where it helps people take the next action.",
+        "04\nKeep moving forward.\nLearn from real use and improve the next useful detail."
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [
+        {
+          "src": "/images/why/statue-fractured-1024.webp",
+          "alt": "A heavily fractured ivory and gold Kathakali-inspired Kerala sculpture with missing crown, cheek and shoulder pieces, facing inward",
+          "description": "A heavily fractured ivory and gold Kathakali-inspired Kerala sculpture with missing crown, cheek and shoulder pieces, facing inward",
+          "width": "1024",
+          "height": "1536",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/why/statue-fractured-400.webp 400w, /images/why/statue-fractured-480.webp 480w, /images/why/statue-fractured-640.webp 640w, /images/why/statue-fractured-1024.webp 1024w",
+          "sizes": "(max-width: 700px) 62vw, (max-width: 1000px) 39vw, 32vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/why/statue-restored-1024.webp",
+          "alt": "An intact ivory and gold Kathakali-inspired Kerala sculpture with an ornate crown, facing inward",
+          "description": "An intact ivory and gold Kathakali-inspired Kerala sculpture with an ornate crown, facing inward",
+          "width": "1024",
+          "height": "1536",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/why/statue-restored-400.webp 400w, /images/why/statue-restored-480.webp 480w, /images/why/statue-restored-640.webp 640w, /images/why/statue-restored-1024.webp 1024w",
+          "sizes": "(max-width: 700px) 62vw, (max-width: 1000px) 39vw, 32vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a.why__link",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "Discuss your next step",
+          "href": "/#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Discuss your next step",
+          "href": "/#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/WhyLadder7/WhyLadder7.css",
+        "component": "src/components/sections/WhyLadder7/WhyLadder7.tsx"
+      }
+    },
+    {
+      "section_id": "home_08_motion",
+      "section_order": 8,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Motion",
+      "section_heading": "See the bigger picture.",
+      "heading_level": "h2",
+      "eyebrow": "Your business · in motion",
+      "subheading": "",
+      "description": "A visual introduction to strategy, intelligent systems and your next business step.",
+      "paragraphs": [
+        "Your business · in motion",
+        "A visual introduction to strategy, intelligent systems and your next business step."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Your business · in motion"
+        },
+        {
+          "type": "h2",
+          "text": "See the bigger picture."
+        },
+        {
+          "type": "button",
+          "text": "Ladder7. Play Strategy. Engineering. Growth. / 0:20 Play the 20-second Ladder7 digital overview"
+        },
+        {
+          "type": "p",
+          "text": "A visual introduction to strategy, intelligent systems and your next business step."
+        },
+        {
+          "type": "span",
+          "text": "01 / Strategy"
+        },
+        {
+          "type": "h2",
+          "text": "Start with\nthe outcome."
+        },
+        {
+          "type": "span",
+          "text": "02 / Experience"
+        },
+        {
+          "type": "h2",
+          "text": "Connect with\nyour customers."
+        },
+        {
+          "type": "span",
+          "text": "03 / Engineering"
+        },
+        {
+          "type": "h2",
+          "text": "Build the\nright system."
+        },
+        {
+          "type": "span",
+          "text": "04 / Evolve"
+        },
+        {
+          "type": "h2",
+          "text": "Move your\nbusiness forward."
+        },
+        {
+          "type": "button",
+          "text": "Pause"
+        },
+        {
+          "type": "span",
+          "text": "0:00 / 0:20"
+        },
+        {
+          "type": "button",
+          "text": "Restart ↺"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [
+        {
+          "src": "/images/photos/workspace-laptop-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "675",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/workspace-laptop-480.webp 480w, /images/photos/workspace-laptop-800.webp 800w, /images/photos/workspace-laptop-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 90vw, 80vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.film-launch__play",
+          "count": 1
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "button.film-dialog__close",
+          "count": 1
+        }
+      ],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Ladder7. Play Strategy. Engineering. Growth. / 0:20 Play the 20-second Ladder7 digital overview",
+          "attrs": {
+            "type": "button",
+            "aria-haspopup": "dialog"
+          }
+        },
+        {
+          "element": "button",
+          "text": "Close digital overview",
+          "attrs": {
+            "type": "button",
+            "aria-label": "Close digital overview"
+          }
+        },
+        {
+          "element": "button",
+          "text": "Pause",
+          "attrs": {
+            "type": "button",
+            "aria-label": "Pause overview"
+          }
+        },
+        {
+          "element": "button",
+          "text": "Restart ↺",
+          "attrs": {
+            "type": "button"
+          }
+        },
+        {
+          "element": "dialog",
+          "class": "film-dialog"
+        }
+      ],
+      "screen_reader_only_text": [
+        "Play the 20-second Ladder7 digital overview"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/MotionStory/MotionStory.css",
+        "component": "src/components/sections/MotionStory/MotionStory.tsx"
+      }
+    },
+    {
+      "section_id": "home_09_wall",
+      "section_order": 9,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Wall",
+      "section_heading": "One ambition.\nConnected possibilities.",
+      "heading_level": "h2",
+      "eyebrow": "The possibilities",
+      "subheading": "",
+      "description": "From a better customer experience to a more connected workflow. Build the next step around your business.",
+      "paragraphs": [
+        "The possibilities",
+        "From a better customer experience to a more connected workflow. Build the next step around your business."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The possibilities"
+        },
+        {
+          "type": "h2",
+          "text": "One ambition.\nConnected possibilities."
+        },
+        {
+          "type": "p",
+          "text": "From a better customer experience to a more connected workflow. Build the next step around your business."
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore our capabilities"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Explore our capabilities",
+          "url": "/#capabilities",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/workspace-laptop-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "675",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/workspace-laptop-480.webp 480w, /images/photos/workspace-laptop-800.webp 800w, /images/photos/workspace-laptop-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/ai-processor-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "1000",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/ai-processor-480.webp 480w, /images/photos/ai-processor-800.webp 800w, /images/photos/ai-processor-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/code-editor-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "800",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/code-editor-480.webp 480w, /images/photos/code-editor-800.webp 800w, /images/photos/code-editor-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/workspace-laptop-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "675",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/workspace-laptop-480.webp 480w, /images/photos/workspace-laptop-800.webp 800w, /images/photos/workspace-laptop-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/ai-processor-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "1000",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/ai-processor-480.webp 480w, /images/photos/ai-processor-800.webp 800w, /images/photos/ai-processor-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/code-editor-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "800",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/code-editor-480.webp 480w, /images/photos/code-editor-800.webp 800w, /images/photos/code-editor-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/workspace-laptop-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "675",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/workspace-laptop-480.webp 480w, /images/photos/workspace-laptop-800.webp 800w, /images/photos/workspace-laptop-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/online-checkout-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "800",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/online-checkout-480.webp 480w, /images/photos/online-checkout-800.webp 800w, /images/photos/online-checkout-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/team-workshop-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "800",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/team-workshop-480.webp 480w, /images/photos/team-workshop-800.webp 800w, /images/photos/team-workshop-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/workspace-laptop-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "675",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/workspace-laptop-480.webp 480w, /images/photos/workspace-laptop-800.webp 800w, /images/photos/workspace-laptop-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/online-checkout-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "800",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/online-checkout-480.webp 480w, /images/photos/online-checkout-800.webp 800w, /images/photos/online-checkout-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/team-workshop-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "800",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/team-workshop-480.webp 480w, /images/photos/team-workshop-800.webp 800w, /images/photos/team-workshop-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/ai-processor-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "1000",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/ai-processor-480.webp 480w, /images/photos/ai-processor-800.webp 800w, /images/photos/ai-processor-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/code-editor-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "800",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/code-editor-480.webp 480w, /images/photos/code-editor-800.webp 800w, /images/photos/code-editor-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/online-checkout-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "800",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/online-checkout-480.webp 480w, /images/photos/online-checkout-800.webp 800w, /images/photos/online-checkout-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/ai-processor-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "1000",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/ai-processor-480.webp 480w, /images/photos/ai-processor-800.webp 800w, /images/photos/ai-processor-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/code-editor-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "800",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/code-editor-480.webp 480w, /images/photos/code-editor-800.webp 800w, /images/photos/code-editor-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/online-checkout-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "800",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/online-checkout-480.webp 480w, /images/photos/online-checkout-800.webp 800w, /images/photos/online-checkout-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "Explore our capabilities",
+          "href": "/#capabilities",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Explore our capabilities",
+          "href": "/#capabilities",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/PossibilitiesWall/PossibilitiesWall.css",
+        "component": "src/components/sections/PossibilitiesWall/PossibilitiesWall.tsx"
+      }
+    },
+    {
+      "section_id": "home_10_audience",
+      "section_order": 10,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Audience",
+      "section_heading": "For enterprises and startups\nin the GCC, Europe and Africa.",
+      "heading_level": "h2",
+      "eyebrow": "Your next stage",
+      "subheading": "",
+      "description": "Established enterprise or ambitious startup.\nThe right next step should fit where you are.",
+      "paragraphs": [
+        "Your next stage",
+        "Established enterprise or ambitious startup.\nThe right next step should fit where you are.",
+        "Bring digital platforms, AI, integrations and customer experiences together with the architectural clarity your next stage needs.",
+        "Build a more capable digital presence, automate repetitive work and connect the tools that help your team move forward."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Your next stage"
+        },
+        {
+          "type": "h2",
+          "text": "For enterprises and startups\nin the GCC, Europe and Africa."
+        },
+        {
+          "type": "p",
+          "text": "Established enterprise or ambitious startup.\nThe right next step should fit where you are."
+        },
+        {
+          "type": "cta-link",
+          "text": "Meet Ladder7"
+        },
+        {
+          "type": "span",
+          "text": "01 / Established brands"
+        },
+        {
+          "type": "h3",
+          "text": "Connect what\ncomes next."
+        },
+        {
+          "type": "p",
+          "text": "Bring digital platforms, AI, integrations and customer experiences together with the architectural clarity your next stage needs."
+        },
+        {
+          "type": "li",
+          "text": "Platform engineering"
+        },
+        {
+          "type": "li",
+          "text": "Connected systems"
+        },
+        {
+          "type": "li",
+          "text": "Market reach"
+        },
+        {
+          "type": "span",
+          "text": "02 / Startups & SMBs"
+        },
+        {
+          "type": "h3",
+          "text": "Turn ambition\ninto a foundation."
+        },
+        {
+          "type": "p",
+          "text": "Build a more capable digital presence, automate repetitive work and connect the tools that help your team move forward."
+        },
+        {
+          "type": "li",
+          "text": "Intelligent websites"
+        },
+        {
+          "type": "li",
+          "text": "AI automation"
+        },
+        {
+          "type": "li",
+          "text": "Custom applications"
+        }
+      ],
+      "bullet_points": [
+        "Platform engineering",
+        "Connected systems",
+        "Market reach",
+        "Intelligent websites",
+        "AI automation",
+        "Custom applications"
+      ],
+      "key_highlights": [],
+      "cards": [
+        {
+          "element": "article.card.card--interactive.audience__card.reveal",
+          "heading": "Connect what\ncomes next.",
+          "text": [
+            "01 / Established brands",
+            "Bring digital platforms, AI, integrations and customer experiences together with the architectural clarity your next stage needs.",
+            "Platform engineering",
+            "Connected systems",
+            "Market reach"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.card.card--interactive.audience__card.reveal",
+          "heading": "Turn ambition\ninto a foundation.",
+          "text": [
+            "02 / Startups & SMBs",
+            "Build a more capable digital presence, automate repetitive work and connect the tools that help your team move forward.",
+            "Intelligent websites",
+            "AI automation",
+            "Custom applications"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Meet Ladder7",
+          "url": "/about",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [],
+      "icons": [],
+      "links": [
+        {
+          "text": "Meet Ladder7",
+          "href": "/about",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Meet Ladder7",
+          "href": "/about",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Audience/AudienceSection.css",
+        "component": "src/components/sections/Audience/AudienceSection.tsx"
+      }
+    },
+    {
+      "section_id": "home_11_faq",
+      "section_order": 11,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Faq",
+      "section_heading": "Questions about working with Ladder7.",
+      "heading_level": "h2",
+      "eyebrow": "A little more clarity",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "A little more clarity",
+        "Custom software, web applications and websites, mobile apps, AI assistants and automation, integrations between business systems, and the technology strategy behind them.",
+        "Ladder7 works with startups and growing SMBs as well as established organisations. Start with a conversation about your goals and current priorities.",
+        "Start with a specific workflow or customer need. Explore where an assistant, chatbot, knowledge system or automated next action could make that work more useful.",
+        "Yes. Ladder7 has clients in the UAE, the UK (London), Germany, Ireland, the USA, Singapore, Australia, Vietnam and India, and takes on projects across the GCC, Europe and Africa with meetings in your business hours.",
+        "India combines a very large engineering talent pool with lower cost than the GCC, UK or Europe, plus a working-hour overlap of most of the day with the Gulf and Africa and a shared afternoon with Europe.",
+        "You do. Contracts assign all code and intellectual property to the client, and code is kept in your repository."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "A little more clarity"
+        },
+        {
+          "type": "h2",
+          "text": "Questions about working with Ladder7."
+        },
+        {
+          "type": "summary",
+          "text": "What can Ladder7 help us build?"
+        },
+        {
+          "type": "p",
+          "text": "Custom software, web applications and websites, mobile apps, AI assistants and automation, integrations between business systems, and the technology strategy behind them."
+        },
+        {
+          "type": "summary",
+          "text": "Do you work with smaller businesses?"
+        },
+        {
+          "type": "p",
+          "text": "Ladder7 works with startups and growing SMBs as well as established organisations. Start with a conversation about your goals and current priorities."
+        },
+        {
+          "type": "summary",
+          "text": "Where should we start with AI?"
+        },
+        {
+          "type": "p",
+          "text": "Start with a specific workflow or customer need. Explore where an assistant, chatbot, knowledge system or automated next action could make that work more useful."
+        },
+        {
+          "type": "summary",
+          "text": "Do you work with clients outside India?"
+        },
+        {
+          "type": "p",
+          "text": "Yes. Ladder7 has clients in the UAE, the UK (London), Germany, Ireland, the USA, Singapore, Australia, Vietnam and India, and takes on projects across the GCC, Europe and Africa with meetings in your business hours."
+        },
+        {
+          "type": "summary",
+          "text": "Why outsource software development to India?"
+        },
+        {
+          "type": "p",
+          "text": "India combines a very large engineering talent pool with lower cost than the GCC, UK or Europe, plus a working-hour overlap of most of the day with the Gulf and Africa and a shared afternoon with Europe."
+        },
+        {
+          "type": "summary",
+          "text": "Who owns the code you build?"
+        },
+        {
+          "type": "p",
+          "text": "You do. Contracts assign all code and intellectual property to the client, and code is kept in your repository."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "What can Ladder7 help us build?",
+          "open": true
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Do you work with smaller businesses?",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Where should we start with AI?",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Do you work with clients outside India?",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Why outsource software development to India?",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Who owns the code you build?",
+          "open": false
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Faq/FaqSection.css",
+        "component": "src/components/sections/Faq/FaqSection.tsx"
+      }
+    },
+    {
+      "section_id": "home_12_team_training",
+      "section_order": 12,
+      "html_id": "team-training",
+      "element": "section",
+      "section_name": "Team Training",
+      "section_heading": "Corporate IT and AI training\nfor your team.",
+      "heading_level": "h2",
+      "eyebrow": "For the people behind your business",
+      "subheading": "Practical training shaped around your stack,\nyour people, and your schedule.",
+      "description": "Practical training shaped around your stack,\nyour people, and your schedule.\n\nOn-site in Kerala or delivered virtually. Ladder7 adapts each program to the tools your team uses, with hands-on guidance from working practitioners.",
+      "paragraphs": [
+        "For the people behind your business",
+        "Practical training shaped around your stack,\nyour people, and your schedule.",
+        "On-site in Kerala or delivered virtually. Ladder7 adapts each program to the tools your team uses, with hands-on guidance from working practitioners.",
+        "Full stack · Mobile development\nCloud & DevOps · WebOps",
+        "Data science · AI at work\nAnalytics · Power BI, Excel & Tableau",
+        "Digital content creation\nMarketing automation & CRM"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "For the people behind your business"
+        },
+        {
+          "type": "h2",
+          "text": "Corporate IT and AI training\nfor your team."
+        },
+        {
+          "type": "p",
+          "text": "Practical training shaped around your stack,\nyour people, and your schedule."
+        },
+        {
+          "type": "p",
+          "text": "On-site in Kerala or delivered virtually. Ladder7 adapts each program to the tools your team uses, with hands-on guidance from working practitioners."
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore corporate training"
+        },
+        {
+          "type": "span",
+          "text": "01 / Engineering"
+        },
+        {
+          "type": "h3",
+          "text": "Build with confidence."
+        },
+        {
+          "type": "p",
+          "text": "Full stack · Mobile development\nCloud & DevOps · WebOps"
+        },
+        {
+          "type": "span",
+          "text": "02 / Data & AI"
+        },
+        {
+          "type": "h3",
+          "text": "Turn knowledge into action."
+        },
+        {
+          "type": "p",
+          "text": "Data science · AI at work\nAnalytics · Power BI, Excel & Tableau"
+        },
+        {
+          "type": "span",
+          "text": "03 / Business"
+        },
+        {
+          "type": "h3",
+          "text": "Connect the whole team."
+        },
+        {
+          "type": "p",
+          "text": "Digital content creation\nMarketing automation & CRM"
+        },
+        {
+          "type": "span",
+          "text": "A syllabus that fits. A schedule that works."
+        },
+        {
+          "type": "button",
+          "text": "Plan your team's next step"
+        }
+      ],
+      "bullet_points": [
+        "01 / Engineering\nBuild with confidence.\nFull stack · Mobile development\nCloud & DevOps · WebOps",
+        "02 / Data & AI\nTurn knowledge into action.\nData science · AI at work\nAnalytics · Power BI, Excel & Tableau",
+        "03 / Business\nConnect the whole team.\nDigital content creation\nMarketing automation & CRM"
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Explore corporate training",
+          "url": "/corporate-training-kerala",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Plan your team's next step",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "button",
+          "controls": "menu",
+          "haspopup": "true",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "Explore corporate training",
+          "href": "/corporate-training-kerala",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Explore corporate training",
+          "href": "/corporate-training-kerala",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Plan your team's next step",
+          "attrs": {
+            "type": "button",
+            "aria-haspopup": "true",
+            "aria-controls": "menu"
+          }
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Training/TrainingSection.css",
+        "component": "src/components/sections/Training/TrainingSection.tsx"
+      }
+    },
+    {
+      "section_id": "home_13_contact",
+      "section_order": 13,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

@@ -67,7 +67,7 @@
 
 .section-heading__intro {
   margin: 0 0 5px;
-  font-size: var(--font-size-body-lg);
+  font-size: 1.125rem;
   line-height: var(--line-height-body);
   color: var(--section-intro-color, var(--color-text-muted));
 }

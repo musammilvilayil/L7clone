@@ -50,7 +50,7 @@
   gap: 18px;
   width: 33.333%;
   height: max-content;
-  animation: wall-drift 46s linear infinite;
+  animation: wall-drift 46s linear infinite alternate;
   animation-play-state: paused;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .wall__column:nth-child(2) {
-  animation-direction: reverse;
+  animation-direction: alternate-reverse;
   animation-duration: 53s;
 }
 

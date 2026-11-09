@@ -1,0 +1,550 @@
+{
+  "page_key": "faq",
+  "page_url": "/faq",
+  "document_title": "FAQ: Software Development, AI & Training | Ladder7",
+  "seo": {
+    "meta_title": "FAQ: Software Development, AI & Training | Ladder7",
+    "meta_description": "Answers on cost, time zones, contracts, IP and engagement models for outsourcing software development to Ladder7 in India, plus our training programmes.",
+    "canonical_url": "https://www.ladder7.in/faq",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Good questions. Clear answers."
+  },
+  "sections": [
+    {
+      "section_id": "faq_01_page",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Page",
+      "section_heading": "Good questions. Clear answers.",
+      "heading_level": "h1",
+      "eyebrow": "Your questions, answered",
+      "subheading": "",
+      "description": "Find answers to common questions about Ladder7's digital engineering services, applied AI solutions, and skilling and virtual internship programs.",
+      "paragraphs": [
+        "Your questions, answered",
+        "Find answers to common questions about Ladder7's digital engineering services, applied AI solutions, and skilling and virtual internship programs."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Your questions, answered"
+        },
+        {
+          "type": "h1",
+          "text": "Good questions. Clear answers."
+        },
+        {
+          "type": "p",
+          "text": "Find answers to common questions about Ladder7's digital engineering services, applied AI solutions, and skilling and virtual internship programs."
+        },
+        {
+          "type": "cta-link",
+          "text": "Let's talk"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore the details"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Let's talk",
+          "url": "/faq#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore the details",
+          "url": "/faq#page-content",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Let's talk",
+          "href": "/faq#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/faq#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Let's talk",
+          "href": "/faq#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/faq#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/LandingHero/LandingHero.css",
+        "component": "src/components/sections/LandingHero/LandingHero.tsx"
+      }
+    },
+    {
+      "section_id": "faq_02_detail_section",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Good questions.",
+      "heading_level": "h2",
+      "eyebrow": "A little more clarity",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "A little more clarity",
+        "Intelligent websites and web applications, AI assistants and automation, custom business software, connected platforms and the technology strategy behind them.",
+        "Ladder7 works with startups and growing SMBs as well as established organisations. Start with a conversation about your goals and current priorities.",
+        "Start with a specific workflow or customer need. Explore where an assistant, chatbot, knowledge system or automated next action could make that work more useful."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "A little more clarity"
+        },
+        {
+          "type": "h2",
+          "text": "Good questions."
+        },
+        {
+          "type": "summary",
+          "text": "What can Ladder7 help us build?–"
+        },
+        {
+          "type": "p",
+          "text": "Intelligent websites and web applications, AI assistants and automation, custom business software, connected platforms and the technology strategy behind them."
+        },
+        {
+          "type": "summary",
+          "text": "Do you work with smaller businesses?+"
+        },
+        {
+          "type": "p",
+          "text": "Ladder7 works with startups and growing SMBs as well as established organisations. Start with a conversation about your goals and current priorities."
+        },
+        {
+          "type": "summary",
+          "text": "Where should we start with AI?+"
+        },
+        {
+          "type": "p",
+          "text": "Start with a specific workflow or customer need. Explore where an assistant, chatbot, knowledge system or automated next action could make that work more useful."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "What can Ladder7 help us build?–",
+          "open": true
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Do you work with smaller businesses?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Where should we start with AI?+",
+          "open": false
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "faq_02b_outsourcing",
+      "section_order": 3,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Faq",
+      "section_heading": "Outsourcing software development to Ladder7",
+      "heading_level": "h2",
+      "eyebrow": "For international clients",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "For international clients",
+        "Cost depends on scope and engagement model. Ladder7 offers enterprise-grade quality at affordable, flexible pricing: fixed-price projects, monthly dedicated teams or time-and-materials work, with a costed estimate after reviewing your brief.",
+        "Ladder7 has clients in the UAE, the UK (London), Germany, Ireland, the USA, Singapore, Australia, Vietnam and India. We take on projects from across the GCC, Europe and Africa.",
+        "India is 1.5 hours ahead of the UAE, 2.5 hours ahead of Saudi Arabia and Kenya, 3.5 hours ahead of South Africa and Central Europe in summer, and 4.5 to 5.5 hours ahead of the UK and Nigeria.",
+        "The client. Contracts assign all code and IP to you and include an NDA. For European clients we also sign Data Processing Agreements with Standard Contractual Clauses.",
+        "We invoice in the client's local currency, or in USD or INR if the client prefers.",
+        "Through your preferred tools such as Slack, Teams, Jira or email, with sprint demos every two weeks and a named delivery manager."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "For international clients"
+        },
+        {
+          "type": "h2",
+          "text": "Outsourcing software development to Ladder7"
+        },
+        {
+          "type": "summary",
+          "text": "How much does it cost to outsource software development to Ladder7?"
+        },
+        {
+          "type": "p",
+          "text": "Cost depends on scope and engagement model. Ladder7 offers enterprise-grade quality at affordable, flexible pricing: fixed-price projects, monthly dedicated teams or time-and-materials work, with a costed estimate after reviewing your brief."
+        },
+        {
+          "type": "summary",
+          "text": "Which countries does Ladder7 work with?"
+        },
+        {
+          "type": "p",
+          "text": "Ladder7 has clients in the UAE, the UK (London), Germany, Ireland, the USA, Singapore, Australia, Vietnam and India. We take on projects from across the GCC, Europe and Africa."
+        },
+        {
+          "type": "summary",
+          "text": "What is the time difference with India?"
+        },
+        {
+          "type": "p",
+          "text": "India is 1.5 hours ahead of the UAE, 2.5 hours ahead of Saudi Arabia and Kenya, 3.5 hours ahead of South Africa and Central Europe in summer, and 4.5 to 5.5 hours ahead of the UK and Nigeria."
+        },
+        {
+          "type": "summary",
+          "text": "Who owns the intellectual property?"
+        },
+        {
+          "type": "p",
+          "text": "The client. Contracts assign all code and IP to you and include an NDA. For European clients we also sign Data Processing Agreements with Standard Contractual Clauses."
+        },
+        {
+          "type": "summary",
+          "text": "Which currency do you invoice in?"
+        },
+        {
+          "type": "p",
+          "text": "We invoice in the client's local currency, or in USD or INR if the client prefers."
+        },
+        {
+          "type": "summary",
+          "text": "How do we communicate during a project?"
+        },
+        {
+          "type": "p",
+          "text": "Through your preferred tools such as Slack, Teams, Jira or email, with sprint demos every two weeks and a named delivery manager."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "How much does it cost to outsource software development to Ladder7?",
+          "open": true
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Which countries does Ladder7 work with?",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "What is the time difference with India?",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Who owns the intellectual property?",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Which currency do you invoice in?",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "How do we communicate during a project?",
+          "open": false
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Faq/FaqSection.css",
+        "component": "src/components/sections/Faq/FaqSection.tsx"
+      }
+    },
+    {
+      "section_id": "faq_03_contact",
+      "section_order": 4,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

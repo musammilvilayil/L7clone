@@ -1,0 +1,897 @@
+{
+  "page_key": "bootcamp",
+  "page_url": "/bootcamp",
+  "document_title": "30-Day AI E-commerce Bootcamp | Ladder7",
+  "seo": {
+    "meta_title": "30-Day AI E-commerce Bootcamp | Ladder7",
+    "meta_description": "A 30-day hands-on bootcamp where you build, launch, and scale an AI-powered e-commerce business — from zero to your first sale.",
+    "canonical_url": "https://www.ladder7.in/bootcamp",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Bring your ambition. Build your skills."
+  },
+  "sections": [
+    {
+      "section_id": "bootcamp_01_page",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Page",
+      "section_heading": "Bring your ambition. Build your skills.",
+      "heading_level": "h1",
+      "eyebrow": "Your next step",
+      "subheading": "",
+      "description": "A 30-day hands-on bootcamp where you build, launch, and scale an AI-powered e-commerce business — from zero to your first sale.",
+      "paragraphs": [
+        "Your next step",
+        "A 30-day hands-on bootcamp where you build, launch, and scale an AI-powered e-commerce business — from zero to your first sale."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Your next step"
+        },
+        {
+          "type": "h1",
+          "text": "Bring your ambition. Build your skills."
+        },
+        {
+          "type": "p",
+          "text": "A 30-day hands-on bootcamp where you build, launch, and scale an AI-powered e-commerce business — from zero to your first sale."
+        },
+        {
+          "type": "cta-link",
+          "text": "Let's talk"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore the details"
+        },
+        {
+          "type": "figcaption",
+          "text": "Ladder7 / Your next chapter"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Let's talk",
+          "url": "/bootcamp#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore the details",
+          "url": "/bootcamp#page-content",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/team-collaboration-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "799",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high",
+          "srcset": "/images/photos/team-collaboration-480.webp 480w, /images/photos/team-collaboration-800.webp 800w, /images/photos/team-collaboration-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 100vw, 40vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Let's talk",
+          "href": "/bootcamp#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/bootcamp#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Let's talk",
+          "href": "/bootcamp#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/bootcamp#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/LandingHero/LandingHero.css",
+        "component": "src/components/sections/LandingHero/LandingHero.tsx"
+      }
+    },
+    {
+      "section_id": "bootcamp_02_detail_section",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Everything you need. Nothing you don't.",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "Every resource, tool, and session is chosen to get you to a live, profitable store — not to pad a curriculum.",
+      "paragraphs": [
+        "Explore",
+        "Every resource, tool, and session is chosen to get you to a live, profitable store — not to pad a curriculum."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "Everything you need. Nothing you don't."
+        },
+        {
+          "type": "p",
+          "text": "Every resource, tool, and session is chosen to get you to a live, profitable store — not to pad a curriculum."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "bootcamp_03_detail_section",
+      "section_order": 3,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Not a certificate. A running business.",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "“I started with a product idea and no tech background. By day 30 I had ₹1,20,000 in sales and a store I was genuinely proud of. The AI tools changed everything.”\n\n— Bootcamp alumni, Sydney cohort",
+      "paragraphs": [
+        "Explore",
+        "“I started with a product idea and no tech background. By day 30 I had ₹1,20,000 in sales and a store I was genuinely proud of. The AI tools changed everything.”",
+        "— Bootcamp alumni, Sydney cohort"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "Not a certificate. A running business."
+        },
+        {
+          "type": "p",
+          "text": "“I started with a product idea and no tech background. By day 30 I had ₹1,20,000 in sales and a store I was genuinely proud of. The AI tools changed everything.”"
+        },
+        {
+          "type": "p",
+          "text": "— Bootcamp alumni, Sydney cohort"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "bootcamp_04_detail_section",
+      "section_order": 4,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Built for builders. Not browsers.",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "If you're willing to show up daily and do the work, this programme is for you.",
+      "paragraphs": [
+        "Explore",
+        "If you're willing to show up daily and do the work, this programme is for you."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "Built for builders. Not browsers."
+        },
+        {
+          "type": "p",
+          "text": "If you're willing to show up daily and do the work, this programme is for you."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "bootcamp_05_detail_section",
+      "section_order": 5,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Pick your path.",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "One-time payment. Lifetime access to recordings and the alumni community.",
+      "paragraphs": [
+        "Explore",
+        "One-time payment. Lifetime access to recordings and the alumni community."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "Pick your path."
+        },
+        {
+          "type": "p",
+          "text": "One-time payment. Lifetime access to recordings and the alumni community."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "bootcamp_06_detail_section",
+      "section_order": 6,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "30 days from now, your store is live.",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "The only question is whether you're in the next cohort or watching someone else build theirs.\n\nSeats are capped at 40 per cohort. Early enrolment includes access to the pre-bootcamp prep module.",
+      "paragraphs": [
+        "Explore",
+        "The only question is whether you're in the next cohort or watching someone else build theirs.",
+        "Seats are capped at 40 per cohort. Early enrolment includes access to the pre-bootcamp prep module."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "30 days from now, your store is live."
+        },
+        {
+          "type": "p",
+          "text": "The only question is whether you're in the next cohort or watching someone else build theirs."
+        },
+        {
+          "type": "p",
+          "text": "Seats are capped at 40 per cohort. Early enrolment includes access to the pre-bootcamp prep module."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "bootcamp_07_detail_section",
+      "section_order": 7,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Explore what’s possible.",
+      "heading_level": "h2",
+      "eyebrow": "The details",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "The details",
+        "60-minute live workshops every day — taught by practitioners, not theorists. Recordings available immediately after.",
+        "Product research, copywriting, ad creative, and customer support — we automate the parts that kill momentum early on.",
+        "You don't watch someone else build — you build. By the end of week 1, your store is live. By day 30, it's selling.",
+        "Vetted supplier lists, negotiation scripts, and dropship-to-brand frameworks ready to use from day one.",
+        "Meta and Google ads structured for beginners — spend ₹800 a day to validate before you scale a single rupee.",
+        "A private group of peers at the same stage. Feedback, accountability, and partnerships that outlast the 30 days.",
+        "You have an idea — or you're still finding one — and need a structured path from concept to your first profitable store without months of trial and error.",
+        "You have a day job and limited time. The bootcamp is designed to complete in 90 minutes a day — live sessions in the evening with async options when life intervenes.",
+        "You already sell offline or on a marketplace and want to build a direct-to-consumer channel that isn't dependent on platform fees or algorithm changes."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The details"
+        },
+        {
+          "type": "h2",
+          "text": "Explore what’s possible."
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "Live daily sessions"
+        },
+        {
+          "type": "p",
+          "text": "60-minute live workshops every day — taught by practitioners, not theorists. Recordings available immediately after."
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "AI-first workflows"
+        },
+        {
+          "type": "p",
+          "text": "Product research, copywriting, ad creative, and customer support — we automate the parts that kill momentum early on."
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "Your store, built live"
+        },
+        {
+          "type": "p",
+          "text": "You don't watch someone else build — you build. By the end of week 1, your store is live. By day 30, it's selling."
+        },
+        {
+          "type": "span",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "Sourcing & supplier playbook"
+        },
+        {
+          "type": "p",
+          "text": "Vetted supplier lists, negotiation scripts, and dropship-to-brand frameworks ready to use from day one."
+        },
+        {
+          "type": "span",
+          "text": "05"
+        },
+        {
+          "type": "h3",
+          "text": "Paid ads crash course"
+        },
+        {
+          "type": "p",
+          "text": "Meta and Google ads structured for beginners — spend ₹800 a day to validate before you scale a single rupee."
+        },
+        {
+          "type": "span",
+          "text": "06"
+        },
+        {
+          "type": "h3",
+          "text": "Private cohort community"
+        },
+        {
+          "type": "p",
+          "text": "A private group of peers at the same stage. Feedback, accountability, and partnerships that outlast the 30 days."
+        },
+        {
+          "type": "span",
+          "text": "07"
+        },
+        {
+          "type": "h3",
+          "text": "First-time founders"
+        },
+        {
+          "type": "p",
+          "text": "You have an idea — or you're still finding one — and need a structured path from concept to your first profitable store without months of trial and error."
+        },
+        {
+          "type": "span",
+          "text": "08"
+        },
+        {
+          "type": "h3",
+          "text": "Side-hustle builders"
+        },
+        {
+          "type": "p",
+          "text": "You have a day job and limited time. The bootcamp is designed to complete in 90 minutes a day — live sessions in the evening with async options when life intervenes."
+        },
+        {
+          "type": "span",
+          "text": "09"
+        },
+        {
+          "type": "h3",
+          "text": "Existing business owners"
+        },
+        {
+          "type": "p",
+          "text": "You already sell offline or on a marketplace and want to build a direct-to-consumer channel that isn't dependent on platform fees or algorithm changes."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "01",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "02",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "03",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "04",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "05",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "06",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "07",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "08",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "09",
+          "detail": "",
+          "source": ".detail-cards__number"
+        }
+      ],
+      "cards": [
+        {
+          "element": "article",
+          "heading": "Live daily sessions",
+          "text": [
+            "01",
+            "60-minute live workshops every day — taught by practitioners, not theorists. Recordings available immediately after."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "AI-first workflows",
+          "text": [
+            "02",
+            "Product research, copywriting, ad creative, and customer support — we automate the parts that kill momentum early on."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Your store, built live",
+          "text": [
+            "03",
+            "You don't watch someone else build — you build. By the end of week 1, your store is live. By day 30, it's selling."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Sourcing & supplier playbook",
+          "text": [
+            "04",
+            "Vetted supplier lists, negotiation scripts, and dropship-to-brand frameworks ready to use from day one."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Paid ads crash course",
+          "text": [
+            "05",
+            "Meta and Google ads structured for beginners — spend ₹800 a day to validate before you scale a single rupee."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Private cohort community",
+          "text": [
+            "06",
+            "A private group of peers at the same stage. Feedback, accountability, and partnerships that outlast the 30 days."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "First-time founders",
+          "text": [
+            "07",
+            "You have an idea — or you're still finding one — and need a structured path from concept to your first profitable store without months of trial and error."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Side-hustle builders",
+          "text": [
+            "08",
+            "You have a day job and limited time. The bootcamp is designed to complete in 90 minutes a day — live sessions in the evening with async options when life intervenes."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Existing business owners",
+          "text": [
+            "09",
+            "You already sell offline or on a marketplace and want to build a direct-to-consumer channel that isn't dependent on platform fees or algorithm changes."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "bootcamp_08_contact",
+      "section_order": 8,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

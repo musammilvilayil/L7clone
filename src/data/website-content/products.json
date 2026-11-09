@@ -1,0 +1,843 @@
+{
+  "page_key": "products",
+  "page_url": "/products",
+  "document_title": "Ladder7 Products | AI Tools for Growing Businesses",
+  "seo": {
+    "meta_title": "Ladder7 Products | AI Tools for Growing Businesses",
+    "meta_description": "Site 360, L7 Nexus, Outreach Engine, L7 Insights and Infinite Insights — five AI products from Ladder7 NextStep Solutions, built around real business needs.",
+    "canonical_url": "https://www.ladder7.in/products",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Tools for your next chapter."
+  },
+  "sections": [
+    {
+      "section_id": "products_01_page",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Page",
+      "section_heading": "Tools for your next chapter.",
+      "heading_level": "h1",
+      "eyebrow": "The Ladder7 toolkit",
+      "subheading": "",
+      "description": "Ladder7 NextStep Solutions builds five AI products.",
+      "paragraphs": [
+        "The Ladder7 toolkit",
+        "Ladder7 NextStep Solutions builds five AI products."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The Ladder7 toolkit"
+        },
+        {
+          "type": "h1",
+          "text": "Tools for your next chapter."
+        },
+        {
+          "type": "p",
+          "text": "Ladder7 NextStep Solutions builds five AI products."
+        },
+        {
+          "type": "cta-link",
+          "text": "Let's talk"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore the details"
+        },
+        {
+          "type": "figcaption",
+          "text": "Ladder7 / Your next chapter"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Let's talk",
+          "url": "/products#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore the details",
+          "url": "/products#page-content",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/team-analytics-review-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "1200",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high",
+          "srcset": "/images/photos/team-analytics-review-480.webp 480w, /images/photos/team-analytics-review-800.webp 800w, /images/photos/team-analytics-review-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 100vw, 40vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Let's talk",
+          "href": "/products#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/products#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Let's talk",
+          "href": "/products#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/products#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/LandingHero/LandingHero.css",
+        "component": "src/components/sections/LandingHero/LandingHero.tsx"
+      }
+    },
+    {
+      "section_id": "products_02_product_catalogue",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Product Catalogue",
+      "section_heading": "Find your next useful tool.",
+      "heading_level": "h2",
+      "eyebrow": "",
+      "subheading": "",
+      "description": "Site 360 is a website-intelligence platform. It runs live checks against your actual site across twelve lenses, including performance, accessibility,…\n\nL7 Nexus is a leased AI executive team for businesses of any size. It reads your website, builds a permanent company brain you own as plain markdown…\n\nOutreach Engine is a B2B email outreach platform. It researches each prospect, writes a single email for that person rather than filling a template,…\n\nL7 Insights turns data you already have into dashboards. Connect Google Sheets, BigQuery, Snowflake, Zoho, SharePoint, SAP or a CSV, and each source…\n\nInfinite Insights is an AI-powered marketing analytics platform. It unifies Meta, Google Ads, LinkedIn and GA4 into a single dashboard, then reports…\n\nTake control of your professional journey with MyLadder. A dedicated platform for structured career planning, skill tracking, and continuous personal…\n\nTrain your brain for success. MyndGym offers interactive exercises and assessments designed to enhance cognitive skills, focus, and analytical…\n\nDiscover your true potential. Mirror Me provides deep psychometric and behavioral assessments to help youth and professionals align with the right…\n\nConnect the dots between where you are and where you want to be. Fill Dots provides customized learning pathways to bridge educational and…\n\nMake the right career choices early. amiu is an AI mentor that aligns your skills, interests, and personality with future-ready educational and…",
+      "paragraphs": [
+        "Site 360 is a website-intelligence platform. It runs live checks against your actual site across twelve lenses, including performance, accessibility,…",
+        "L7 Nexus is a leased AI executive team for businesses of any size. It reads your website, builds a permanent company brain you own as plain markdown…",
+        "Outreach Engine is a B2B email outreach platform. It researches each prospect, writes a single email for that person rather than filling a template,…",
+        "L7 Insights turns data you already have into dashboards. Connect Google Sheets, BigQuery, Snowflake, Zoho, SharePoint, SAP or a CSV, and each source…",
+        "Infinite Insights is an AI-powered marketing analytics platform. It unifies Meta, Google Ads, LinkedIn and GA4 into a single dashboard, then reports…",
+        "Take control of your professional journey with MyLadder. A dedicated platform for structured career planning, skill tracking, and continuous personal…",
+        "Train your brain for success. MyndGym offers interactive exercises and assessments designed to enhance cognitive skills, focus, and analytical…",
+        "Discover your true potential. Mirror Me provides deep psychometric and behavioral assessments to help youth and professionals align with the right…",
+        "Connect the dots between where you are and where you want to be. Fill Dots provides customized learning pathways to bridge educational and…",
+        "Make the right career choices early. amiu is an AI mentor that aligns your skills, interests, and personality with future-ready educational and…"
+      ],
+      "content": [
+        {
+          "type": "h2",
+          "text": "Find your next useful tool."
+        },
+        {
+          "type": "button",
+          "text": "All products"
+        },
+        {
+          "type": "button",
+          "text": "For business"
+        },
+        {
+          "type": "button",
+          "text": "For personal growth"
+        },
+        {
+          "type": "div",
+          "text": "↗"
+        },
+        {
+          "type": "span",
+          "text": "Business product / 01"
+        },
+        {
+          "type": "h3",
+          "text": "Site 360"
+        },
+        {
+          "type": "p",
+          "text": "Site 360 is a website-intelligence platform. It runs live checks against your actual site across twelve lenses, including performance, accessibility,…"
+        },
+        {
+          "type": "div",
+          "text": "↗"
+        },
+        {
+          "type": "span",
+          "text": "Business product / 02"
+        },
+        {
+          "type": "h3",
+          "text": "L7 Nexus"
+        },
+        {
+          "type": "p",
+          "text": "L7 Nexus is a leased AI executive team for businesses of any size. It reads your website, builds a permanent company brain you own as plain markdown…"
+        },
+        {
+          "type": "div",
+          "text": "↗"
+        },
+        {
+          "type": "span",
+          "text": "Business product / 03"
+        },
+        {
+          "type": "h3",
+          "text": "Outreach Engine"
+        },
+        {
+          "type": "p",
+          "text": "Outreach Engine is a B2B email outreach platform. It researches each prospect, writes a single email for that person rather than filling a template,…"
+        },
+        {
+          "type": "div",
+          "text": "↗"
+        },
+        {
+          "type": "span",
+          "text": "Business product / 04"
+        },
+        {
+          "type": "h3",
+          "text": "L7 Insights"
+        },
+        {
+          "type": "p",
+          "text": "L7 Insights turns data you already have into dashboards. Connect Google Sheets, BigQuery, Snowflake, Zoho, SharePoint, SAP or a CSV, and each source…"
+        },
+        {
+          "type": "div",
+          "text": "↗"
+        },
+        {
+          "type": "span",
+          "text": "Business product / 05"
+        },
+        {
+          "type": "h3",
+          "text": "Infinite Insights"
+        },
+        {
+          "type": "p",
+          "text": "Infinite Insights is an AI-powered marketing analytics platform. It unifies Meta, Google Ads, LinkedIn and GA4 into a single dashboard, then reports…"
+        },
+        {
+          "type": "div",
+          "text": "↗"
+        },
+        {
+          "type": "span",
+          "text": "Education product / 06"
+        },
+        {
+          "type": "h3",
+          "text": "My Ladder"
+        },
+        {
+          "type": "p",
+          "text": "Take control of your professional journey with MyLadder. A dedicated platform for structured career planning, skill tracking, and continuous personal…"
+        },
+        {
+          "type": "div",
+          "text": "↗"
+        },
+        {
+          "type": "span",
+          "text": "Education product / 07"
+        },
+        {
+          "type": "h3",
+          "text": "Mind Gym"
+        },
+        {
+          "type": "p",
+          "text": "Train your brain for success. MyndGym offers interactive exercises and assessments designed to enhance cognitive skills, focus, and analytical…"
+        },
+        {
+          "type": "div",
+          "text": "↗"
+        },
+        {
+          "type": "span",
+          "text": "Education product / 08"
+        },
+        {
+          "type": "h3",
+          "text": "Mirror Me"
+        },
+        {
+          "type": "p",
+          "text": "Discover your true potential. Mirror Me provides deep psychometric and behavioral assessments to help youth and professionals align with the right…"
+        },
+        {
+          "type": "div",
+          "text": "↗"
+        },
+        {
+          "type": "span",
+          "text": "Education product / 09"
+        },
+        {
+          "type": "h3",
+          "text": "Fill Dots"
+        },
+        {
+          "type": "p",
+          "text": "Connect the dots between where you are and where you want to be. Fill Dots provides customized learning pathways to bridge educational and…"
+        },
+        {
+          "type": "div",
+          "text": "↗"
+        },
+        {
+          "type": "span",
+          "text": "Education product / 10"
+        },
+        {
+          "type": "h3",
+          "text": "AMIU"
+        },
+        {
+          "type": "p",
+          "text": "Make the right career choices early. amiu is an AI mentor that aligns your skills, interests, and personality with future-ready educational and…"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [
+        {
+          "src": "/images/photos/product-dashboard-agents-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "900",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/product-dashboard-agents-300.webp 300w, /images/photos/product-dashboard-agents-600.webp 600w, /images/photos/product-dashboard-agents-900.webp 900w",
+          "sizes": "(max-width: 700px) 100vw, 46vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/product-dashboard-nocode-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "900",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/product-dashboard-nocode-300.webp 300w, /images/photos/product-dashboard-nocode-600.webp 600w, /images/photos/product-dashboard-nocode-900.webp 900w",
+          "sizes": "(max-width: 700px) 100vw, 46vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/product-outreach-dashboard-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "1200",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/product-outreach-dashboard-480.webp 480w, /images/photos/product-outreach-dashboard-800.webp 800w, /images/photos/product-outreach-dashboard-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 100vw, 46vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/team-whiteboard-session-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "900",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/team-whiteboard-session-300.webp 300w, /images/photos/team-whiteboard-session-600.webp 600w, /images/photos/team-whiteboard-session-900.webp 900w",
+          "sizes": "(max-width: 700px) 100vw, 46vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/product-insights-dashboard-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "1200",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/product-insights-dashboard-480.webp 480w, /images/photos/product-insights-dashboard-800.webp 800w, /images/photos/product-insights-dashboard-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 100vw, 46vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/idea-lightbulb-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "1350",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/idea-lightbulb-300.webp 300w, /images/photos/idea-lightbulb-600.webp 600w, /images/photos/idea-lightbulb-900.webp 900w",
+          "sizes": "(max-width: 700px) 100vw, 46vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/ai-network-brain-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "720",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/ai-network-brain-300.webp 300w, /images/photos/ai-network-brain-600.webp 600w, /images/photos/ai-network-brain-900.webp 900w",
+          "sizes": "(max-width: 700px) 100vw, 46vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/mirror-reflection-portrait-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "1350",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/mirror-reflection-portrait-300.webp 300w, /images/photos/mirror-reflection-portrait-600.webp 600w, /images/photos/mirror-reflection-portrait-900.webp 900w",
+          "sizes": "(max-width: 700px) 100vw, 46vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/mountain-climb-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "900",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/mountain-climb-480.webp 480w, /images/photos/mountain-climb-800.webp 800w, /images/photos/mountain-climb-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 100vw, 46vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/students-laptop-group-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "600",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/students-laptop-group-300.webp 300w, /images/photos/students-laptop-group-600.webp 600w, /images/photos/students-laptop-group-900.webp 900w",
+          "sizes": "(max-width: 700px) 100vw, 46vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [],
+      "links": [
+        {
+          "text": "↗\nBusiness product / 01\nSite 360\nSite 360 is a website-intelligence platform. It runs live checks against your actual site across twelve lenses, including performance, accessibility,…",
+          "href": "/products/site-360",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "↗\nBusiness product / 02\nL7 Nexus\nL7 Nexus is a leased AI executive team for businesses of any size. It reads your website, builds a permanent company brain you own as plain markdown…",
+          "href": "/products/l7-nexus",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "↗\nBusiness product / 03\nOutreach Engine\nOutreach Engine is a B2B email outreach platform. It researches each prospect, writes a single email for that person rather than filling a template,…",
+          "href": "/products/outreach-engine",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "↗\nBusiness product / 04\nL7 Insights\nL7 Insights turns data you already have into dashboards. Connect Google Sheets, BigQuery, Snowflake, Zoho, SharePoint, SAP or a CSV, and each source…",
+          "href": "/products/l7-insights",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "↗\nBusiness product / 05\nInfinite Insights\nInfinite Insights is an AI-powered marketing analytics platform. It unifies Meta, Google Ads, LinkedIn and GA4 into a single dashboard, then reports…",
+          "href": "/products/infinite-insights",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "↗\nEducation product / 06\nMy Ladder\nTake control of your professional journey with MyLadder. A dedicated platform for structured career planning, skill tracking, and continuous personal…",
+          "href": "/myladder",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "↗\nEducation product / 07\nMind Gym\nTrain your brain for success. MyndGym offers interactive exercises and assessments designed to enhance cognitive skills, focus, and analytical…",
+          "href": "/mindgym",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "↗\nEducation product / 08\nMirror Me\nDiscover your true potential. Mirror Me provides deep psychometric and behavioral assessments to help youth and professionals align with the right…",
+          "href": "/mirrorme",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "↗\nEducation product / 09\nFill Dots\nConnect the dots between where you are and where you want to be. Fill Dots provides customized learning pathways to bridge educational and…",
+          "href": "/filldots",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "↗\nEducation product / 10\nAMIU\nMake the right career choices early. amiu is an AI mentor that aligns your skills, interests, and personality with future-ready educational and…",
+          "href": "/amiu",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "↗\nBusiness product / 01\nSite 360\nSite 360 is a website-intelligence platform. It runs live checks against your actual site across twelve lenses, including performance, accessibility,…",
+          "href": "/products/site-360",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "↗\nBusiness product / 02\nL7 Nexus\nL7 Nexus is a leased AI executive team for businesses of any size. It reads your website, builds a permanent company brain you own as plain markdown…",
+          "href": "/products/l7-nexus",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "↗\nBusiness product / 03\nOutreach Engine\nOutreach Engine is a B2B email outreach platform. It researches each prospect, writes a single email for that person rather than filling a template,…",
+          "href": "/products/outreach-engine",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "↗\nBusiness product / 04\nL7 Insights\nL7 Insights turns data you already have into dashboards. Connect Google Sheets, BigQuery, Snowflake, Zoho, SharePoint, SAP or a CSV, and each source…",
+          "href": "/products/l7-insights",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "↗\nBusiness product / 05\nInfinite Insights\nInfinite Insights is an AI-powered marketing analytics platform. It unifies Meta, Google Ads, LinkedIn and GA4 into a single dashboard, then reports…",
+          "href": "/products/infinite-insights",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "↗\nEducation product / 06\nMy Ladder\nTake control of your professional journey with MyLadder. A dedicated platform for structured career planning, skill tracking, and continuous personal…",
+          "href": "/myladder",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "↗\nEducation product / 07\nMind Gym\nTrain your brain for success. MyndGym offers interactive exercises and assessments designed to enhance cognitive skills, focus, and analytical…",
+          "href": "/mindgym",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "↗\nEducation product / 08\nMirror Me\nDiscover your true potential. Mirror Me provides deep psychometric and behavioral assessments to help youth and professionals align with the right…",
+          "href": "/mirrorme",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "↗\nEducation product / 09\nFill Dots\nConnect the dots between where you are and where you want to be. Fill Dots provides customized learning pathways to bridge educational and…",
+          "href": "/filldots",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "↗\nEducation product / 10\nAMIU\nMake the right career choices early. amiu is an AI mentor that aligns your skills, interests, and personality with future-ready educational and…",
+          "href": "/amiu",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "All products",
+          "attrs": {
+            "type": "button",
+            "aria-pressed": "true"
+          }
+        },
+        {
+          "element": "button",
+          "text": "For business",
+          "attrs": {
+            "type": "button",
+            "aria-pressed": "false"
+          }
+        },
+        {
+          "element": "button",
+          "text": "For personal growth",
+          "attrs": {
+            "type": "button",
+            "aria-pressed": "false"
+          }
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ProductCatalogue/ProductCatalogue.css",
+        "component": "src/components/sections/ProductCatalogue/ProductCatalogue.tsx"
+      }
+    },
+    {
+      "section_id": "products_03_contact",
+      "section_order": 3,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

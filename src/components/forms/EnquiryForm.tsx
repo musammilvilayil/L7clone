@@ -71,7 +71,7 @@ export function EnquiryForm({
   labels,
   placeholders = {},
   messageRows = 3,
-  submitLabel = "Continue on WhatsApp",
+  submitLabel = "Submit",
   interest,
   division,
   prefill,

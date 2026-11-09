@@ -1,0 +1,577 @@
+{
+  "page_key": "blogChristmas",
+  "page_url": "/blogs/magical-christmas-celebration",
+  "document_title": "Lux Noel: A Magical Christmas Celebration | Ladder7",
+  "seo": {
+    "meta_title": "Lux Noel: A Magical Christmas Celebration | Ladder7",
+    "meta_description": "Explore the festive spirit at Ladder7! Read about \"Lux Noel,\" our magical Christmas celebration filled with team bonding, joy, and holiday cheer.",
+    "canonical_url": "https://www.ladder7.in/blogs/magical-christmas-celebration",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Lux Noel: A Magical Christmas Celebration."
+  },
+  "sections": [
+    {
+      "section_id": "blogchristmas_01_page",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Page",
+      "section_heading": "Lux Noel: A Magical Christmas Celebration.",
+      "heading_level": "h1",
+      "eyebrow": "Article",
+      "subheading": "",
+      "description": "Explore the festive spirit at Ladder7! Read about \"Lux Noel,\" our magical Christmas celebration filled with team bonding, joy, and holiday cheer.",
+      "paragraphs": [
+        "Article",
+        "Explore the festive spirit at Ladder7! Read about \"Lux Noel,\" our magical Christmas celebration filled with team bonding, joy, and holiday cheer."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Article"
+        },
+        {
+          "type": "h1",
+          "text": "Lux Noel: A Magical Christmas Celebration."
+        },
+        {
+          "type": "p",
+          "text": "Explore the festive spirit at Ladder7! Read about \"Lux Noel,\" our magical Christmas celebration filled with team bonding, joy, and holiday cheer."
+        },
+        {
+          "type": "cta-link",
+          "text": "Read the story"
+        },
+        {
+          "type": "cta-link",
+          "text": "All insights"
+        },
+        {
+          "type": "figcaption",
+          "text": "Ladder7 / Your next chapter"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Read the story",
+          "url": "/blogs/magical-christmas-celebration#page-content",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "All insights",
+          "url": "/blogs",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/blog-christmas-celebration-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "675",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high",
+          "srcset": "/images/photos/blog-christmas-celebration-480.webp 480w, /images/photos/blog-christmas-celebration-800.webp 800w, /images/photos/blog-christmas-celebration-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 100vw, 40vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Read the story",
+          "href": "/blogs/magical-christmas-celebration#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "All insights",
+          "href": "/blogs",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Read the story",
+          "href": "/blogs/magical-christmas-celebration#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "All insights",
+          "href": "/blogs",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/LandingHero/LandingHero.css",
+        "component": "src/components/sections/LandingHero/LandingHero.tsx"
+      }
+    },
+    {
+      "section_id": "blogchristmas_02_page_content",
+      "section_order": 2,
+      "html_id": "page-content",
+      "element": "div",
+      "section_name": "Page Content",
+      "section_heading": "A Warm Welcome at Ginger Hotel",
+      "heading_level": "h2",
+      "eyebrow": "All insights",
+      "subheading": "Explore the festive spirit at Ladder7! Read about \"Lux Noel,\" our magical Christmas celebration filled with team bonding, joy, and holiday cheer.",
+      "description": "",
+      "paragraphs": [
+        "Explore the festive spirit at Ladder7! Read about \"Lux Noel,\" our magical Christmas celebration filled with team bonding, joy, and holiday cheer.",
+        "On December 19, 2024, Ladder7's highly anticipated Christmas celebration, Lux Noel, elevated the festive spirit to a whole new level. The day was filled with joy, camaraderie, and heartfelt moments, perfectly reflecting the company's core values of unity, warmth, and celebration.The morning kicked off with employees coming together to deck the halls, turning the office into a Christmas wonderland adorned with sparkling lights, colorful ornaments, and a cheerful holiday ambiance.",
+        "The evening celebration took place at the elegant Ginger Hotel in Trivandrum, setting the stage for an evening of fun and reflection. The festivities began with a heartfelt Christmas message from CEO Raja Lekshmi, who spoke passionately about Ladder7's commitment to fostering a family-like environment, the importance of togetherness, and the joy of giving.",
+        "Those inspiring words created a sense of appreciation and gratitude among all attendees, setting a warm and reflective tone for the rest of the evening.",
+        "\"The relationships we build at work extend far beyond the office — this is what makes Ladder7 truly a family.\"",
+        "As the evening progressed, the stage came alive with a spectacular array of performances that showcased the incredible talent within the Ladder7 family. The dance performances were vibrant, filled with energy, and full of holiday cheer.",
+        "Dance Performances: Vibrant, high-energy performances filled with holiday cheer that had everyone on their feet.",
+        "Group Song: Brought everyone together in beautiful harmony, creating a magical atmosphere that filled the venue with warmth.",
+        "Solo Christmas Carols: Moving and heartfelt renditions of classic carols that left everyone in awe of their colleagues' creativity.",
+        "These performances weren't just about entertainment — they strengthened bonds and created lasting memories for all involved.",
+        "A truly special moment of the evening was the Christmas Friend Gift Giving segment, where employees exchanged thoughtful, often personalized gifts with one another. This tradition symbolized the true spirit of Christmas — sharing joy and love. The room buzzed with excitement as gifts were unwrapped, and the laughter that filled the air reflected the deep connections between colleagues.",
+        "It was a beautiful reminder that the relationships we build at work extend far beyond the office.",
+        "No celebration is complete without some friendly competition, and Lux Noel was no exception. The Christmas Games were a hit, with employees eagerly participating in various fun challenges. The games promoted teamwork and collaboration, as participants worked together in teams to complete tasks and earn points.",
+        "The competitive spirit added an extra layer of excitement, while the laughter and cheers showcased the lighthearted nature of the evening. The games not only brought employees together but also allowed them to have a little fun outside of their usual roles, strengthening their sense of community.",
+        "A highlight of the evening was the cake-cutting ceremony that honored employees with December birthdays. The celebrants were showered with love and warm wishes as they cut their birthday cakes, surrounded by colleagues. This shared moment of joy added an extra layer of warmth to the festivities.",
+        "After the cake was cut, the entire group came together for a group photo, capturing the essence of the evening — laughter, joy, and unity. The photograph immortalized the bonds within the team, showcasing the close-knit family that Ladder7 has cultivated. The celebration continued with cheers, toasts, wine, and cake as employees enjoyed each other's company, wrapping up the evening on a high note.",
+        "Lux Noel was not only a celebration of the Christmas spirit but also a reflection of the values that make Ladder7 unique — togetherness, creativity, and appreciation. As the year comes to a close, this event serves as a reminder of the joy in building strong relationships and celebrating both personal and professional achievements.",
+        "Ladder7 looks forward to more such celebrations in the future, continuing to strengthen the sense of unity and friendship that defines the company, and welcoming a bright new year ahead!"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore the festive spirit at Ladder7! Read about \"Lux Noel,\" our magical Christmas celebration filled with team bonding, joy, and holiday cheer."
+        },
+        {
+          "type": "p",
+          "text": "On December 19, 2024, Ladder7's highly anticipated Christmas celebration, Lux Noel, elevated the festive spirit to a whole new level. The day was filled with joy, camaraderie, and heartfelt moments, perfectly reflecting the company's core values of unity, warmth, and celebration.The morning kicked off with employees coming together to deck the halls, turning the office into a Christmas wonderland adorned with sparkling lights, colorful ornaments, and a cheerful holiday ambiance."
+        },
+        {
+          "type": "h2",
+          "text": "A Warm Welcome at Ginger Hotel"
+        },
+        {
+          "type": "p",
+          "text": "The evening celebration took place at the elegant Ginger Hotel in Trivandrum, setting the stage for an evening of fun and reflection. The festivities began with a heartfelt Christmas message from CEO Raja Lekshmi, who spoke passionately about Ladder7's commitment to fostering a family-like environment, the importance of togetherness, and the joy of giving."
+        },
+        {
+          "type": "p",
+          "text": "Those inspiring words created a sense of appreciation and gratitude among all attendees, setting a warm and reflective tone for the rest of the evening."
+        },
+        {
+          "type": "p",
+          "text": "\"The relationships we build at work extend far beyond the office — this is what makes Ladder7 truly a family.\""
+        },
+        {
+          "type": "h2",
+          "text": "Entertainment and Talent Showcase"
+        },
+        {
+          "type": "p",
+          "text": "As the evening progressed, the stage came alive with a spectacular array of performances that showcased the incredible talent within the Ladder7 family. The dance performances were vibrant, filled with energy, and full of holiday cheer."
+        },
+        {
+          "type": "p",
+          "text": "Dance Performances: Vibrant, high-energy performances filled with holiday cheer that had everyone on their feet."
+        },
+        {
+          "type": "p",
+          "text": "Group Song: Brought everyone together in beautiful harmony, creating a magical atmosphere that filled the venue with warmth."
+        },
+        {
+          "type": "p",
+          "text": "Solo Christmas Carols: Moving and heartfelt renditions of classic carols that left everyone in awe of their colleagues' creativity."
+        },
+        {
+          "type": "p",
+          "text": "These performances weren't just about entertainment — they strengthened bonds and created lasting memories for all involved."
+        },
+        {
+          "type": "h2",
+          "text": "Christmas Friend Gift Exchange"
+        },
+        {
+          "type": "p",
+          "text": "A truly special moment of the evening was the Christmas Friend Gift Giving segment, where employees exchanged thoughtful, often personalized gifts with one another. This tradition symbolized the true spirit of Christmas — sharing joy and love. The room buzzed with excitement as gifts were unwrapped, and the laughter that filled the air reflected the deep connections between colleagues."
+        },
+        {
+          "type": "p",
+          "text": "It was a beautiful reminder that the relationships we build at work extend far beyond the office."
+        },
+        {
+          "type": "h2",
+          "text": "Fun-Filled Christmas Games"
+        },
+        {
+          "type": "p",
+          "text": "No celebration is complete without some friendly competition, and Lux Noel was no exception. The Christmas Games were a hit, with employees eagerly participating in various fun challenges. The games promoted teamwork and collaboration, as participants worked together in teams to complete tasks and earn points."
+        },
+        {
+          "type": "p",
+          "text": "The competitive spirit added an extra layer of excitement, while the laughter and cheers showcased the lighthearted nature of the evening. The games not only brought employees together but also allowed them to have a little fun outside of their usual roles, strengthening their sense of community."
+        },
+        {
+          "type": "h2",
+          "text": "A Sweet Surprise: Cake Cutting Ceremony"
+        },
+        {
+          "type": "p",
+          "text": "A highlight of the evening was the cake-cutting ceremony that honored employees with December birthdays. The celebrants were showered with love and warm wishes as they cut their birthday cakes, surrounded by colleagues. This shared moment of joy added an extra layer of warmth to the festivities."
+        },
+        {
+          "type": "p",
+          "text": "After the cake was cut, the entire group came together for a group photo, capturing the essence of the evening — laughter, joy, and unity. The photograph immortalized the bonds within the team, showcasing the close-knit family that Ladder7 has cultivated. The celebration continued with cheers, toasts, wine, and cake as employees enjoyed each other's company, wrapping up the evening on a high note."
+        },
+        {
+          "type": "h2",
+          "text": "Looking Ahead"
+        },
+        {
+          "type": "p",
+          "text": "Lux Noel was not only a celebration of the Christmas spirit but also a reflection of the values that make Ladder7 unique — togetherness, creativity, and appreciation. As the year comes to a close, this event serves as a reminder of the joy in building strong relationships and celebrating both personal and professional achievements."
+        },
+        {
+          "type": "p",
+          "text": "Ladder7 looks forward to more such celebrations in the future, continuing to strengthen the sense of unity and friendship that defines the company, and welcoming a bright new year ahead!"
+        },
+        {
+          "type": "cta-link",
+          "text": "All insights"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [
+        {
+          "element": "article.blog-article",
+          "heading": "A Warm Welcome at Ginger Hotel",
+          "text": [
+            "Explore the festive spirit at Ladder7! Read about \"Lux Noel,\" our magical Christmas celebration filled with team bonding, joy, and holiday cheer.",
+            "On December 19, 2024, Ladder7's highly anticipated Christmas celebration, Lux Noel, elevated the festive spirit to a whole new level. The day was filled with joy, camaraderie, and heartfelt moments, perfectly reflecting the company's core values of unity, warmth, and celebration.The morning kicked off with employees coming together to deck the halls, turning the office into a Christmas wonderland adorned with sparkling lights, colorful ornaments, and a cheerful holiday ambiance.",
+            "The evening celebration took place at the elegant Ginger Hotel in Trivandrum, setting the stage for an evening of fun and reflection. The festivities began with a heartfelt Christmas message from CEO Raja Lekshmi, who spoke passionately about Ladder7's commitment to fostering a family-like environment, the importance of togetherness, and the joy of giving.",
+            "Those inspiring words created a sense of appreciation and gratitude among all attendees, setting a warm and reflective tone for the rest of the evening.",
+            "\"The relationships we build at work extend far beyond the office — this is what makes Ladder7 truly a family.\"",
+            "Entertainment and Talent Showcase",
+            "As the evening progressed, the stage came alive with a spectacular array of performances that showcased the incredible talent within the Ladder7 family. The dance performances were vibrant, filled with energy, and full of holiday cheer.",
+            "Dance Performances: Vibrant, high-energy performances filled with holiday cheer that had everyone on their feet.",
+            "Group Song: Brought everyone together in beautiful harmony, creating a magical atmosphere that filled the venue with warmth.",
+            "Solo Christmas Carols: Moving and heartfelt renditions of classic carols that left everyone in awe of their colleagues' creativity.",
+            "These performances weren't just about entertainment — they strengthened bonds and created lasting memories for all involved.",
+            "Christmas Friend Gift Exchange",
+            "A truly special moment of the evening was the Christmas Friend Gift Giving segment, where employees exchanged thoughtful, often personalized gifts with one another. This tradition symbolized the true spirit of Christmas — sharing joy and love. The room buzzed with excitement as gifts were unwrapped, and the laughter that filled the air reflected the deep connections between colleagues.",
+            "It was a beautiful reminder that the relationships we build at work extend far beyond the office.",
+            "Fun-Filled Christmas Games",
+            "No celebration is complete without some friendly competition, and Lux Noel was no exception. The Christmas Games were a hit, with employees eagerly participating in various fun challenges. The games promoted teamwork and collaboration, as participants worked together in teams to complete tasks and earn points.",
+            "The competitive spirit added an extra layer of excitement, while the laughter and cheers showcased the lighthearted nature of the evening. The games not only brought employees together but also allowed them to have a little fun outside of their usual roles, strengthening their sense of community.",
+            "A Sweet Surprise: Cake Cutting Ceremony",
+            "A highlight of the evening was the cake-cutting ceremony that honored employees with December birthdays. The celebrants were showered with love and warm wishes as they cut their birthday cakes, surrounded by colleagues. This shared moment of joy added an extra layer of warmth to the festivities.",
+            "After the cake was cut, the entire group came together for a group photo, capturing the essence of the evening — laughter, joy, and unity. The photograph immortalized the bonds within the team, showcasing the close-knit family that Ladder7 has cultivated. The celebration continued with cheers, toasts, wine, and cake as employees enjoyed each other's company, wrapping up the evening on a high note.",
+            "Looking Ahead",
+            "Lux Noel was not only a celebration of the Christmas spirit but also a reflection of the values that make Ladder7 unique — togetherness, creativity, and appreciation. As the year comes to a close, this event serves as a reminder of the joy in building strong relationships and celebrating both personal and professional achievements.",
+            "Ladder7 looks forward to more such celebrations in the future, continuing to strengthen the sense of unity and friendship that defines the company, and welcoming a bright new year ahead!",
+            "All insights"
+          ],
+          "links": [
+            {
+              "text": "All insights",
+              "href": "/blogs"
+            }
+          ],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "All insights",
+          "url": "/blogs",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "All insights",
+          "href": "/blogs",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "All insights",
+          "href": "/blogs",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/BlogArticle/BlogArticle.css",
+        "component": "src/components/sections/BlogArticle/BlogArticle.tsx",
+        "via": "descendant class .blog-article"
+      }
+    },
+    {
+      "section_id": "blogchristmas_03_contact",
+      "section_order": 3,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

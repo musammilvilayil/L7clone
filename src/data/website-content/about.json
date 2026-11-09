@@ -1,0 +1,2050 @@
+{
+  "page_key": "about",
+  "page_url": "/about",
+  "document_title": "About Ladder7 | Software Development Company in Kerala",
+  "seo": {
+    "meta_title": "About Ladder7 | Software Development Company in Kerala",
+    "meta_description": "Ladder7 NextStep Solutions is a software firm in Kochi and Trivandrum, India, building web, AI and custom software for clients in the UAE, UK, EU, US and Asia.",
+    "canonical_url": "https://www.ladder7.in/about",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "About Ladder7: an Indian software engineering partner for global teams."
+  },
+  "sections": [
+    {
+      "section_id": "about_01_page",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Page",
+      "section_heading": "About Ladder7: an Indian software engineering partner for global teams.",
+      "heading_level": "h1",
+      "eyebrow": "About Ladder7",
+      "subheading": "",
+      "description": "Ladder7 NextStep Solutions is a software development company with teams in Kochi and Trivandrum, Kerala. Enterprise architects, engineers, data scientists and transformation specialists build software for clients in the UAE, the UK (London), Germany, Ireland, the USA, Singapore, Australia, Vietnam and India.",
+      "paragraphs": [
+        "About Ladder7",
+        "Ladder7 NextStep Solutions is a software development company with teams in Kochi and Trivandrum, Kerala. Enterprise architects, engineers, data scientists and transformation specialists build software for clients in the UAE, the UK (London), Germany, Ireland, the USA, Singapore, Australia, Vietnam and India."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "About Ladder7"
+        },
+        {
+          "type": "h1",
+          "text": "About Ladder7: an Indian software engineering partner for global teams."
+        },
+        {
+          "type": "p",
+          "text": "Ladder7 NextStep Solutions is a software development company with teams in Kochi and Trivandrum, Kerala. Enterprise architects, engineers, data scientists and transformation specialists build software for clients in the UAE, the UK (London), Germany, Ireland, the USA, Singapore, Australia, Vietnam and India."
+        },
+        {
+          "type": "cta-link",
+          "text": "Meet your next step"
+        },
+        {
+          "type": "dt",
+          "text": "MAJOR DEPLOYMENTS"
+        },
+        {
+          "type": "dd",
+          "text": "250+"
+        },
+        {
+          "type": "dt",
+          "text": "MNC CLIENTS"
+        },
+        {
+          "type": "dd",
+          "text": "50+"
+        },
+        {
+          "type": "dt",
+          "text": "PROOFS OF CONCEPT"
+        },
+        {
+          "type": "dd",
+          "text": "50+"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "MAJOR DEPLOYMENTS",
+          "detail": "250+",
+          "source": "dl"
+        },
+        {
+          "term": "MNC CLIENTS",
+          "detail": "50+",
+          "source": "dl"
+        },
+        {
+          "term": "PROOFS OF CONCEPT",
+          "detail": "50+",
+          "source": "dl"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/idea-lightbulb-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/ai-network-brain-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/team-collaboration-800.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/product-dashboard-scan-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/product-dashboard-agents-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/product-dashboard-nocode-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/team-whiteboard-session-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/idea-lightbulb-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/ai-network-brain-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/team-collaboration-800.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/product-dashboard-scan-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/product-dashboard-agents-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/product-dashboard-nocode-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/team-whiteboard-session-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/idea-lightbulb-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/ai-network-brain-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/team-collaboration-800.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/product-dashboard-scan-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/product-dashboard-agents-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/product-dashboard-nocode-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/team-whiteboard-session-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/idea-lightbulb-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/ai-network-brain-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/team-collaboration-800.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/product-dashboard-scan-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/product-dashboard-agents-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/product-dashboard-nocode-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/team-whiteboard-session-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/idea-lightbulb-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/ai-network-brain-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/team-collaboration-800.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/product-dashboard-scan-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/product-dashboard-agents-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/product-dashboard-nocode-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/team-whiteboard-session-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/idea-lightbulb-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/ai-network-brain-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/team-collaboration-800.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/product-dashboard-scan-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/product-dashboard-agents-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/product-dashboard-nocode-900.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "div.about-hero__card",
+          "heading": "",
+          "text": [],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/team-whiteboard-session-900.webp",
+              "alt": ""
+            }
+          ]
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Meet your next step",
+          "url": "/about#contact",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/idea-lightbulb-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "1350",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/idea-lightbulb-300.webp 300w, /images/photos/idea-lightbulb-600.webp 600w, /images/photos/idea-lightbulb-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/ai-network-brain-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "720",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/ai-network-brain-300.webp 300w, /images/photos/ai-network-brain-600.webp 600w, /images/photos/ai-network-brain-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/team-collaboration-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "799",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/team-collaboration-480.webp 480w, /images/photos/team-collaboration-800.webp 800w, /images/photos/team-collaboration-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/product-dashboard-scan-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "599",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/product-dashboard-scan-300.webp 300w, /images/photos/product-dashboard-scan-600.webp 600w, /images/photos/product-dashboard-scan-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/product-dashboard-agents-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "900",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/product-dashboard-agents-300.webp 300w, /images/photos/product-dashboard-agents-600.webp 600w, /images/photos/product-dashboard-agents-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/product-dashboard-nocode-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "900",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/product-dashboard-nocode-300.webp 300w, /images/photos/product-dashboard-nocode-600.webp 600w, /images/photos/product-dashboard-nocode-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/team-whiteboard-session-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "900",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/team-whiteboard-session-300.webp 300w, /images/photos/team-whiteboard-session-600.webp 600w, /images/photos/team-whiteboard-session-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/idea-lightbulb-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "1350",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/idea-lightbulb-300.webp 300w, /images/photos/idea-lightbulb-600.webp 600w, /images/photos/idea-lightbulb-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/ai-network-brain-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "720",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/ai-network-brain-300.webp 300w, /images/photos/ai-network-brain-600.webp 600w, /images/photos/ai-network-brain-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/team-collaboration-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "799",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/team-collaboration-480.webp 480w, /images/photos/team-collaboration-800.webp 800w, /images/photos/team-collaboration-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/product-dashboard-scan-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "599",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/product-dashboard-scan-300.webp 300w, /images/photos/product-dashboard-scan-600.webp 600w, /images/photos/product-dashboard-scan-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/product-dashboard-agents-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "900",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/product-dashboard-agents-300.webp 300w, /images/photos/product-dashboard-agents-600.webp 600w, /images/photos/product-dashboard-agents-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/product-dashboard-nocode-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "900",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/product-dashboard-nocode-300.webp 300w, /images/photos/product-dashboard-nocode-600.webp 600w, /images/photos/product-dashboard-nocode-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/team-whiteboard-session-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "900",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/team-whiteboard-session-300.webp 300w, /images/photos/team-whiteboard-session-600.webp 600w, /images/photos/team-whiteboard-session-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/idea-lightbulb-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "1350",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/idea-lightbulb-300.webp 300w, /images/photos/idea-lightbulb-600.webp 600w, /images/photos/idea-lightbulb-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/ai-network-brain-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "720",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/ai-network-brain-300.webp 300w, /images/photos/ai-network-brain-600.webp 600w, /images/photos/ai-network-brain-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/team-collaboration-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "799",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/team-collaboration-480.webp 480w, /images/photos/team-collaboration-800.webp 800w, /images/photos/team-collaboration-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/product-dashboard-scan-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "599",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/product-dashboard-scan-300.webp 300w, /images/photos/product-dashboard-scan-600.webp 600w, /images/photos/product-dashboard-scan-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/product-dashboard-agents-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "900",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/product-dashboard-agents-300.webp 300w, /images/photos/product-dashboard-agents-600.webp 600w, /images/photos/product-dashboard-agents-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/product-dashboard-nocode-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "900",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/product-dashboard-nocode-300.webp 300w, /images/photos/product-dashboard-nocode-600.webp 600w, /images/photos/product-dashboard-nocode-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/team-whiteboard-session-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "900",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/team-whiteboard-session-300.webp 300w, /images/photos/team-whiteboard-session-600.webp 600w, /images/photos/team-whiteboard-session-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/idea-lightbulb-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "1350",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/idea-lightbulb-300.webp 300w, /images/photos/idea-lightbulb-600.webp 600w, /images/photos/idea-lightbulb-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/ai-network-brain-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "720",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/ai-network-brain-300.webp 300w, /images/photos/ai-network-brain-600.webp 600w, /images/photos/ai-network-brain-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/team-collaboration-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "799",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/team-collaboration-480.webp 480w, /images/photos/team-collaboration-800.webp 800w, /images/photos/team-collaboration-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/product-dashboard-scan-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "599",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/product-dashboard-scan-300.webp 300w, /images/photos/product-dashboard-scan-600.webp 600w, /images/photos/product-dashboard-scan-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/product-dashboard-agents-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "900",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/product-dashboard-agents-300.webp 300w, /images/photos/product-dashboard-agents-600.webp 600w, /images/photos/product-dashboard-agents-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/product-dashboard-nocode-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "900",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/product-dashboard-nocode-300.webp 300w, /images/photos/product-dashboard-nocode-600.webp 600w, /images/photos/product-dashboard-nocode-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/team-whiteboard-session-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "900",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/team-whiteboard-session-300.webp 300w, /images/photos/team-whiteboard-session-600.webp 600w, /images/photos/team-whiteboard-session-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/idea-lightbulb-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "1350",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/idea-lightbulb-300.webp 300w, /images/photos/idea-lightbulb-600.webp 600w, /images/photos/idea-lightbulb-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/ai-network-brain-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "720",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/ai-network-brain-300.webp 300w, /images/photos/ai-network-brain-600.webp 600w, /images/photos/ai-network-brain-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/team-collaboration-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "799",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/team-collaboration-480.webp 480w, /images/photos/team-collaboration-800.webp 800w, /images/photos/team-collaboration-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/product-dashboard-scan-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "599",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/product-dashboard-scan-300.webp 300w, /images/photos/product-dashboard-scan-600.webp 600w, /images/photos/product-dashboard-scan-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/product-dashboard-agents-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "900",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/product-dashboard-agents-300.webp 300w, /images/photos/product-dashboard-agents-600.webp 600w, /images/photos/product-dashboard-agents-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/product-dashboard-nocode-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "900",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/product-dashboard-nocode-300.webp 300w, /images/photos/product-dashboard-nocode-600.webp 600w, /images/photos/product-dashboard-nocode-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/team-whiteboard-session-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "900",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/team-whiteboard-session-300.webp 300w, /images/photos/team-whiteboard-session-600.webp 600w, /images/photos/team-whiteboard-session-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/idea-lightbulb-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "1350",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/idea-lightbulb-300.webp 300w, /images/photos/idea-lightbulb-600.webp 600w, /images/photos/idea-lightbulb-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/ai-network-brain-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "720",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/ai-network-brain-300.webp 300w, /images/photos/ai-network-brain-600.webp 600w, /images/photos/ai-network-brain-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/team-collaboration-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "799",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/team-collaboration-480.webp 480w, /images/photos/team-collaboration-800.webp 800w, /images/photos/team-collaboration-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/product-dashboard-scan-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "599",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/product-dashboard-scan-300.webp 300w, /images/photos/product-dashboard-scan-600.webp 600w, /images/photos/product-dashboard-scan-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/product-dashboard-agents-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "900",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/product-dashboard-agents-300.webp 300w, /images/photos/product-dashboard-agents-600.webp 600w, /images/photos/product-dashboard-agents-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/product-dashboard-nocode-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "900",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/product-dashboard-nocode-300.webp 300w, /images/photos/product-dashboard-nocode-600.webp 600w, /images/photos/product-dashboard-nocode-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/team-whiteboard-session-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "900",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/team-whiteboard-session-300.webp 300w, /images/photos/team-whiteboard-session-600.webp 600w, /images/photos/team-whiteboard-session-900.webp 900w",
+          "sizes": "(max-width: 700px) 45vw, 20vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "Meet your next step",
+          "href": "/about#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Meet your next step",
+          "href": "/about#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/AboutHero/AboutHero.css",
+        "component": "src/components/sections/AboutHero/AboutHero.tsx"
+      }
+    },
+    {
+      "section_id": "about_02_principles",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Principles",
+      "section_heading": "Four principles.\nEvery next step.",
+      "heading_level": "h2",
+      "eyebrow": "How we work",
+      "subheading": "",
+      "description": "The standards that shape our thinking,\nour partnerships and everything we build.",
+      "paragraphs": [
+        "How we work",
+        "The standards that shape our thinking,\nour partnerships and everything we build.",
+        "Scalability, security and performance belong in every layer.",
+        "Platform recommendations follow your goals, free from vendor bias.",
+        "Open communication, clear data and honest visibility into risk.",
+        "Choose technology that reduces friction and delivers business value."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "How we work"
+        },
+        {
+          "type": "h2",
+          "text": "Four principles.\nEvery next step."
+        },
+        {
+          "type": "p",
+          "text": "The standards that shape our thinking,\nour partnerships and everything we build."
+        },
+        {
+          "type": "span",
+          "text": "1X"
+        },
+        {
+          "type": "h3",
+          "text": "Engineering, without compromise."
+        },
+        {
+          "type": "p",
+          "text": "Scalability, security and performance belong in every layer."
+        },
+        {
+          "type": "span",
+          "text": "2X"
+        },
+        {
+          "type": "h3",
+          "text": "Independent by design."
+        },
+        {
+          "type": "p",
+          "text": "Platform recommendations follow your goals, free from vendor bias."
+        },
+        {
+          "type": "span",
+          "text": "3X"
+        },
+        {
+          "type": "h3",
+          "text": "Clarity at every step."
+        },
+        {
+          "type": "p",
+          "text": "Open communication, clear data and honest visibility into risk."
+        },
+        {
+          "type": "span",
+          "text": "4X"
+        },
+        {
+          "type": "h3",
+          "text": "Innovation with an outcome."
+        },
+        {
+          "type": "p",
+          "text": "Choose technology that reduces friction and delivers business value."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [
+        {
+          "element": "article.reveal",
+          "heading": "Engineering, without compromise.",
+          "text": [
+            "1X",
+            "Scalability, security and performance belong in every layer."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.reveal",
+          "heading": "Independent by design.",
+          "text": [
+            "2X",
+            "Platform recommendations follow your goals, free from vendor bias."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.reveal",
+          "heading": "Clarity at every step.",
+          "text": [
+            "3X",
+            "Open communication, clear data and honest visibility into risk."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.reveal",
+          "heading": "Innovation with an outcome.",
+          "text": [
+            "4X",
+            "Choose technology that reduces friction and delivers business value."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/AboutPrinciples/AboutPrinciples.css",
+        "component": "src/components/sections/AboutPrinciples/AboutPrinciples.tsx"
+      }
+    },
+    {
+      "section_id": "about_03_our_story",
+      "section_order": 3,
+      "html_id": "our-story",
+      "element": "section",
+      "section_name": "Our Story",
+      "section_heading": "Big ambitions.\nBuilt on strong foundations.",
+      "heading_level": "h2",
+      "eyebrow": "01 / Our purpose Ambition, meet execution.",
+      "subheading": "",
+      "description": "The reason we build",
+      "paragraphs": [
+        "The reason we build",
+        "We connect business ambition with technical execution, combining architectural discipline, experienced engineering and clear strategy.",
+        "A future where intelligent, resilient systems anticipate change and help organisations grow, from ambitious SMBs to global enterprises."
+      ],
+      "content": [
+        {
+          "type": "div",
+          "text": "01 / Our purpose Ambition, meet execution."
+        },
+        {
+          "type": "p",
+          "text": "The reason we build"
+        },
+        {
+          "type": "h2",
+          "text": "Big ambitions.\nBuilt on strong foundations."
+        },
+        {
+          "type": "span",
+          "text": "Our mission"
+        },
+        {
+          "type": "h3",
+          "text": "Close the gap.\nMove the business forward."
+        },
+        {
+          "type": "p",
+          "text": "We connect business ambition with technical execution, combining architectural discipline, experienced engineering and clear strategy."
+        },
+        {
+          "type": "span",
+          "text": "Our vision"
+        },
+        {
+          "type": "h3",
+          "text": "Technology that\ngets out of your way."
+        },
+        {
+          "type": "p",
+          "text": "A future where intelligent, resilient systems anticipate change and help organisations grow, from ambitious SMBs to global enterprises."
+        },
+        {
+          "type": "div",
+          "text": "Strategy + Engineering = Forward."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Strategy + Engineering = Forward.",
+          "detail": "",
+          "source": ".about-story__statement.reveal"
+        }
+      ],
+      "cards": [
+        {
+          "element": "article.reveal",
+          "heading": "Close the gap.\nMove the business forward.",
+          "text": [
+            "Our mission",
+            "We connect business ambition with technical execution, combining architectural discipline, experienced engineering and clear strategy."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.reveal",
+          "heading": "Technology that\ngets out of your way.",
+          "text": [
+            "Our vision",
+            "A future where intelligent, resilient systems anticipate change and help organisations grow, from ambitious SMBs to global enterprises."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/AboutStory/AboutStory.css",
+        "component": "src/components/sections/AboutStory/AboutStory.tsx"
+      }
+    },
+    {
+      "section_id": "about_04_expertise",
+      "section_order": 4,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Expertise",
+      "section_heading": "Deep experience.\nDirect involvement.",
+      "heading_level": "h2",
+      "eyebrow": "02 / The people behind the work Experience, put to work.",
+      "subheading": "",
+      "description": "Senior minds. Hands-on partnership.\n\nEnterprise architects, data scientists and transformation specialists bring experience from demanding global environments.",
+      "paragraphs": [
+        "Senior minds. Hands-on partnership.",
+        "Enterprise architects, data scientists and transformation specialists bring experience from demanding global environments.",
+        "Expertise shaped by work with leading financial and technology institutions.",
+        "Direct access to principal architects throughout the engagement."
+      ],
+      "content": [
+        {
+          "type": "div",
+          "text": "02 / The people behind the work Experience, put to work."
+        },
+        {
+          "type": "figcaption",
+          "text": "Connected thinking. Shared purpose."
+        },
+        {
+          "type": "p",
+          "text": "Senior minds. Hands-on partnership."
+        },
+        {
+          "type": "h2",
+          "text": "Deep experience.\nDirect involvement."
+        },
+        {
+          "type": "p",
+          "text": "Enterprise architects, data scientists and transformation specialists bring experience from demanding global environments."
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "Enterprise perspective."
+        },
+        {
+          "type": "p",
+          "text": "Expertise shaped by work with leading financial and technology institutions."
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "Senior engagement."
+        },
+        {
+          "type": "p",
+          "text": "Direct access to principal architects throughout the engagement."
+        },
+        {
+          "type": "dt",
+          "text": "UPTIME ENGINEERED"
+        },
+        {
+          "type": "dd",
+          "text": "99.9%"
+        },
+        {
+          "type": "dt",
+          "text": "MNC CLIENTS"
+        },
+        {
+          "type": "dd",
+          "text": "50+"
+        },
+        {
+          "type": "dt",
+          "text": "MAJOR DEPLOYMENTS"
+        },
+        {
+          "type": "dd",
+          "text": "250+"
+        },
+        {
+          "type": "dt",
+          "text": "PROOFS OF CONCEPT"
+        },
+        {
+          "type": "dd",
+          "text": "50+"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "UPTIME ENGINEERED",
+          "detail": "99.9%",
+          "source": "dl"
+        },
+        {
+          "term": "MNC CLIENTS",
+          "detail": "50+",
+          "source": "dl"
+        },
+        {
+          "term": "MAJOR DEPLOYMENTS",
+          "detail": "250+",
+          "source": "dl"
+        },
+        {
+          "term": "PROOFS OF CONCEPT",
+          "detail": "50+",
+          "source": "dl"
+        }
+      ],
+      "cards": [
+        {
+          "element": "article",
+          "heading": "Enterprise perspective.",
+          "text": [
+            "01",
+            "Expertise shaped by work with leading financial and technology institutions."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Senior engagement.",
+          "text": [
+            "02",
+            "Direct access to principal architects throughout the engagement."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [
+        {
+          "src": "/images/photos/team-collaboration-desks-800.webp",
+          "alt": "People collaborating around a table in a bright workspace",
+          "description": "People collaborating around a table in a bright workspace",
+          "width": "1200",
+          "height": "800",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/team-collaboration-desks-480.webp 480w, /images/photos/team-collaboration-desks-800.webp 800w, /images/photos/team-collaboration-desks-1200.webp 1200w",
+          "sizes": "(max-width: 1000px) 100vw, 45vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/AboutExpertise/AboutExpertise.css",
+        "component": "src/components/sections/AboutExpertise/AboutExpertise.tsx"
+      }
+    },
+    {
+      "section_id": "about_05_audience",
+      "section_order": 5,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Audience",
+      "section_heading": "Enterprise rigour.\nStartup agility.",
+      "heading_level": "h2",
+      "eyebrow": "04 / A partner for your next stage Rigour, with room to move.",
+      "subheading": "",
+      "description": "The discipline to build well.\nThe flexibility to move forward.",
+      "paragraphs": [
+        "The discipline to build well.\nThe flexibility to move forward."
+      ],
+      "content": [
+        {
+          "type": "div",
+          "text": "04 / A partner for your next stage Rigour, with room to move."
+        },
+        {
+          "type": "h2",
+          "text": "Enterprise rigour.\nStartup agility."
+        },
+        {
+          "type": "p",
+          "text": "The discipline to build well.\nThe flexibility to move forward."
+        },
+        {
+          "type": "span",
+          "text": "For global enterprises"
+        },
+        {
+          "type": "h3",
+          "text": "Connect the complex."
+        },
+        {
+          "type": "li",
+          "text": "Compliance requirements and risk management"
+        },
+        {
+          "type": "li",
+          "text": "Resilience and redundancy"
+        },
+        {
+          "type": "li",
+          "text": "Integration with existing systems"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore our services"
+        },
+        {
+          "type": "span",
+          "text": "For growing SMBs"
+        },
+        {
+          "type": "h3",
+          "text": "Build for the next stage."
+        },
+        {
+          "type": "li",
+          "text": "Enterprise experience with local agility"
+        },
+        {
+          "type": "li",
+          "text": "Specialist talent"
+        },
+        {
+          "type": "li",
+          "text": "Foundations designed to scale"
+        },
+        {
+          "type": "cta-link",
+          "text": "Discuss your next step"
+        }
+      ],
+      "bullet_points": [
+        "Compliance requirements and risk management",
+        "Resilience and redundancy",
+        "Integration with existing systems",
+        "Enterprise experience with local agility",
+        "Specialist talent",
+        "Foundations designed to scale"
+      ],
+      "key_highlights": [],
+      "cards": [
+        {
+          "element": "article.reveal",
+          "heading": "Connect the complex.",
+          "text": [
+            "For global enterprises",
+            "Compliance requirements and risk management",
+            "Resilience and redundancy",
+            "Integration with existing systems",
+            "Explore our services"
+          ],
+          "links": [
+            {
+              "text": "Explore our services",
+              "href": "/services"
+            }
+          ],
+          "images": []
+        },
+        {
+          "element": "article.reveal",
+          "heading": "Build for the next stage.",
+          "text": [
+            "For growing SMBs",
+            "Enterprise experience with local agility",
+            "Specialist talent",
+            "Foundations designed to scale",
+            "Discuss your next step"
+          ],
+          "links": [
+            {
+              "text": "Discuss your next step",
+              "href": "/about#contact"
+            }
+          ],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Explore our services",
+          "url": "/services",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Discuss your next step",
+          "url": "/about#contact",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Explore our services",
+          "href": "/services",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Discuss your next step",
+          "href": "/about#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Explore our services",
+          "href": "/services",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Discuss your next step",
+          "href": "/about#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/AboutAudience/AboutAudience.css",
+        "component": "src/components/sections/AboutAudience/AboutAudience.tsx"
+      }
+    },
+    {
+      "section_id": "about_06_reach",
+      "section_order": 6,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Reach",
+      "section_heading": "Local attention.\nConnected thinking.",
+      "heading_level": "h2",
+      "eyebrow": "From Kerala, India. For clients across the Gulf, Europe and Africa.",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "From Kerala, India. For clients across the Gulf, Europe and Africa."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "From Kerala, India. For clients across the Gulf, Europe and Africa."
+        },
+        {
+          "type": "h2",
+          "text": "Local attention.\nConnected thinking."
+        },
+        {
+          "type": "dt",
+          "text": "Our bases"
+        },
+        {
+          "type": "dd",
+          "text": "2"
+        },
+        {
+          "type": "dt",
+          "text": "Local time · IST"
+        },
+        {
+          "type": "dd",
+          "text": "--:--"
+        },
+        {
+          "type": "div",
+          "text": "Natural Earth 1:50m land and country data, public domain. Equal Earth projection. Kerala marker at Kochi. KERALA / INDIA"
+        },
+        {
+          "type": "div",
+          "text": "Cochin · WEE SPACES Trivandrum · Kinfra Film and IT Park"
+        },
+        {
+          "type": "div",
+          "text": "Adobe AEM React Python Azure Shopify MongoDB"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Our bases",
+          "detail": "2",
+          "source": "dl"
+        },
+        {
+          "term": "Local time · IST",
+          "detail": "--:--",
+          "source": "dl"
+        }
+      ],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "div.about-map",
+          "count": 1
+        }
+      ],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/AboutReach/AboutReach.css",
+        "component": "src/components/sections/AboutReach/AboutReach.tsx"
+      }
+    },
+    {
+      "section_id": "about_07_contact",
+      "section_order": 7,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

@@ -6,6 +6,7 @@
  * src/routes.ts has no entry here.
  */
 import type { PageKey } from "../routes";
+import { websitePageSeo } from "../data/websiteContent";
 
 export interface PageSeo {
   path: string;
@@ -1077,3 +1078,12 @@ export const PAGE_SEO: Record<PageKey, PageSeo> = {
     breadcrumb: [],
   },
 };
+
+for (const [pageKey, page] of Object.entries(PAGE_SEO)) {
+  const content = websitePageSeo(pageKey);
+  if (!content) continue;
+
+  page.title = content.title;
+  page.description = content.description;
+  page.name = content.h1;
+}

@@ -1,0 +1,806 @@
+{
+  "page_key": "productInfiniteInsights",
+  "page_url": "/products/infinite-insights",
+  "document_title": "Infinite Insights | Marketing Analytics Platform | Ladder7",
+  "seo": {
+    "meta_title": "Infinite Insights | Marketing Analytics Platform | Ladder7",
+    "meta_description": "Infinite Insights is an AI-powered marketing analytics platform that unifies Meta, Google Ads, LinkedIn and GA4 into a single dashboard.",
+    "canonical_url": "https://www.ladder7.in/products/infinite-insights",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Every ad channel in one marketing analytics view."
+  },
+  "sections": [
+    {
+      "section_id": "productinfiniteinsights_01_page",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Page",
+      "section_heading": "Every ad channel in one marketing analytics view.",
+      "heading_level": "h1",
+      "eyebrow": "Infinite Insights",
+      "subheading": "",
+      "description": "Infinite Insights is an AI-powered marketing analytics platform.",
+      "paragraphs": [
+        "Infinite Insights",
+        "Infinite Insights is an AI-powered marketing analytics platform."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Infinite Insights"
+        },
+        {
+          "type": "h1",
+          "text": "Every ad channel in one marketing analytics view."
+        },
+        {
+          "type": "p",
+          "text": "Infinite Insights is an AI-powered marketing analytics platform."
+        },
+        {
+          "type": "cta-link",
+          "text": "Let's talk"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore the details"
+        },
+        {
+          "type": "figcaption",
+          "text": "Infinite Insights"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Let's talk",
+          "url": "/products/infinite-insights#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore the details",
+          "url": "/products/infinite-insights#page-content",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/product-insights-dashboard-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "1200",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high",
+          "srcset": "/images/photos/product-insights-dashboard-480.webp 480w, /images/photos/product-insights-dashboard-800.webp 800w, /images/photos/product-insights-dashboard-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 100vw, 40vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Let's talk",
+          "href": "/products/infinite-insights#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/products/infinite-insights#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Let's talk",
+          "href": "/products/infinite-insights#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/products/infinite-insights#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/LandingHero/LandingHero.css",
+        "component": "src/components/sections/LandingHero/LandingHero.tsx"
+      }
+    },
+    {
+      "section_id": "productinfiniteinsights_02_detail_section",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Last-click is lying, and every channel takes the credit",
+      "heading_level": "h2",
+      "eyebrow": "The Problem",
+      "subheading": "",
+      "description": "Meta says it drove the sale. Google says it did. LinkedIn says it did. Each platform reports inside its own walls, counts the same conversion, and hands you numbers that add up to more than you actually sold.\n\nSo the monthly report becomes an export from each platform, pasted into a spreadsheet, reconciled by hand, and already stale by the time anyone reads it.",
+      "paragraphs": [
+        "The Problem",
+        "Meta says it drove the sale. Google says it did. LinkedIn says it did. Each platform reports inside its own walls, counts the same conversion, and hands you numbers that add up to more than you actually sold.",
+        "So the monthly report becomes an export from each platform, pasted into a spreadsheet, reconciled by hand, and already stale by the time anyone reads it."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The Problem"
+        },
+        {
+          "type": "h2",
+          "text": "Last-click is lying, and every channel takes the credit"
+        },
+        {
+          "type": "p",
+          "text": "Meta says it drove the sale. Google says it did. LinkedIn says it did. Each platform reports inside its own walls, counts the same conversion, and hands you numbers that add up to more than you actually sold."
+        },
+        {
+          "type": "p",
+          "text": "So the monthly report becomes an export from each platform, pasted into a spreadsheet, reconciled by hand, and already stale by the time anyone reads it."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productinfiniteinsights_03_detail_section",
+      "section_order": 3,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Connect the channels, see one version of the truth",
+      "heading_level": "h2",
+      "eyebrow": "What it does",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "What it does",
+        "Meta, Google Ads, LinkedIn and GA4, each authorised once and synced on a schedule.",
+        "One model counts each conversion once and shows which channel actually earned it, not just the one that clicked last.",
+        "Pixels, the conversions API and GA4 events are monitored, so a broken tag is flagged the day it breaks rather than at month end.",
+        "Each report ends with where budget is working and where it is not, in plain language."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "What it does"
+        },
+        {
+          "type": "h2",
+          "text": "Connect the channels, see one version of the truth"
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "Connect your accounts."
+        },
+        {
+          "type": "p",
+          "text": "Meta, Google Ads, LinkedIn and GA4, each authorised once and synced on a schedule."
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "Attribute across channels."
+        },
+        {
+          "type": "p",
+          "text": "One model counts each conversion once and shows which channel actually earned it, not just the one that clicked last."
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "Watch the signals."
+        },
+        {
+          "type": "p",
+          "text": "Pixels, the conversions API and GA4 events are monitored, so a broken tag is flagged the day it breaks rather than at month end."
+        },
+        {
+          "type": "span",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "Act on the recommendation."
+        },
+        {
+          "type": "p",
+          "text": "Each report ends with where budget is working and where it is not, in plain language."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "01",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "02",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "03",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "04",
+          "detail": "",
+          "source": ".detail-cards__number"
+        }
+      ],
+      "cards": [
+        {
+          "element": "article",
+          "heading": "Connect your accounts.",
+          "text": [
+            "01",
+            "Meta, Google Ads, LinkedIn and GA4, each authorised once and synced on a schedule."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Attribute across channels.",
+          "text": [
+            "02",
+            "One model counts each conversion once and shows which channel actually earned it, not just the one that clicked last."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Watch the signals.",
+          "text": [
+            "03",
+            "Pixels, the conversions API and GA4 events are monitored, so a broken tag is flagged the day it breaks rather than at month end."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Act on the recommendation.",
+          "text": [
+            "04",
+            "Each report ends with where budget is working and where it is not, in plain language."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productinfiniteinsights_04_detail_section",
+      "section_order": 4,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "A broken pixel is caught the day it breaks",
+      "heading_level": "h2",
+      "eyebrow": "Signal health",
+      "subheading": "",
+      "description": "Most attribution is wrong for a boring reason: the tracking quietly stopped firing. Infinite Insights checks that your Meta pixel, conversions API, Google tags and GA4 events are still reporting, and tells you the moment one goes dark, before a month of spend is measured against nothing.",
+      "paragraphs": [
+        "Signal health",
+        "Most attribution is wrong for a boring reason: the tracking quietly stopped firing. Infinite Insights checks that your Meta pixel, conversions API, Google tags and GA4 events are still reporting, and tells you the moment one goes dark, before a month of spend is measured against nothing."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Signal health"
+        },
+        {
+          "type": "h2",
+          "text": "A broken pixel is caught the day it breaks"
+        },
+        {
+          "type": "p",
+          "text": "Most attribution is wrong for a boring reason: the tracking quietly stopped firing. Infinite Insights checks that your Meta pixel, conversions API, Google tags and GA4 events are still reporting, and tells you the moment one goes dark, before a month of spend is measured against nothing."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productinfiniteinsights_05_detail_section",
+      "section_order": 5,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Anyone spending on more than one ad channel and unable to say which one is working.",
+      "heading_level": "h2",
+      "eyebrow": "Who it is for",
+      "subheading": "",
+      "description": "Works alongside L7 Insights, which joins your business data, and Outreach Engine, which books the calls this spend is meant to create.",
+      "paragraphs": [
+        "Who it is for",
+        "Works alongside L7 Insights, which joins your business data, and Outreach Engine, which books the calls this spend is meant to create."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Who it is for"
+        },
+        {
+          "type": "h2",
+          "text": "Anyone spending on more than one ad channel and unable to say which one is working."
+        },
+        {
+          "type": "li",
+          "text": "Marketing teams reconciling Meta, Google and LinkedIn by hand every month"
+        },
+        {
+          "type": "li",
+          "text": "Founders running their own paid acquisition who need one honest number"
+        },
+        {
+          "type": "li",
+          "text": "Agencies reporting cross-channel performance to clients"
+        },
+        {
+          "type": "li",
+          "text": "Anyone who has watched last-click hand all the credit to the final ad"
+        },
+        {
+          "type": "p",
+          "text": "Works alongside L7 Insights, which joins your business data, and Outreach Engine, which books the calls this spend is meant to create."
+        }
+      ],
+      "bullet_points": [
+        "Marketing teams reconciling Meta, Google and LinkedIn by hand every month",
+        "Founders running their own paid acquisition who need one honest number",
+        "Agencies reporting cross-channel performance to clients",
+        "Anyone who has watched last-click hand all the credit to the final ad"
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productinfiniteinsights_06_detail_section",
+      "section_order": 6,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Good questions.",
+      "heading_level": "h2",
+      "eyebrow": "A LITTLE MORE CLARITY",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "A LITTLE MORE CLARITY",
+        "An AI-powered marketing analytics platform that unifies Meta, Google Ads, LinkedIn and GA4 into one dashboard, with cross-channel attribution, signal health monitoring and campaign performance reporting.",
+        "Meta, Google Ads, LinkedIn and GA4 today. Each is authorised once and synced on a schedule.",
+        "One model that counts each conversion once and shows which channel actually earned it, rather than every platform claiming the same sale inside its own walls.",
+        "A continuous check that your pixels, conversions API and GA4 events are still firing, so a broken tag is flagged the day it breaks rather than discovered at month end.",
+        "No. It recommends where budget is working and where it is not, and you decide. Nothing is changed in your ad accounts without you.",
+        "Ladder7 NextStep Solutions, which also builds Site 360, L7 Nexus, Outreach Engine and L7 Insights."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "A LITTLE MORE CLARITY"
+        },
+        {
+          "type": "h2",
+          "text": "Good questions."
+        },
+        {
+          "type": "summary",
+          "text": "What is Infinite Insights?–"
+        },
+        {
+          "type": "p",
+          "text": "An AI-powered marketing analytics platform that unifies Meta, Google Ads, LinkedIn and GA4 into one dashboard, with cross-channel attribution, signal health monitoring and campaign performance reporting."
+        },
+        {
+          "type": "summary",
+          "text": "Which channels does it connect?+"
+        },
+        {
+          "type": "p",
+          "text": "Meta, Google Ads, LinkedIn and GA4 today. Each is authorised once and synced on a schedule."
+        },
+        {
+          "type": "summary",
+          "text": "What is cross-channel attribution?+"
+        },
+        {
+          "type": "p",
+          "text": "One model that counts each conversion once and shows which channel actually earned it, rather than every platform claiming the same sale inside its own walls."
+        },
+        {
+          "type": "summary",
+          "text": "What is signal health monitoring?+"
+        },
+        {
+          "type": "p",
+          "text": "A continuous check that your pixels, conversions API and GA4 events are still firing, so a broken tag is flagged the day it breaks rather than discovered at month end."
+        },
+        {
+          "type": "summary",
+          "text": "Does it move my budget for me?+"
+        },
+        {
+          "type": "p",
+          "text": "No. It recommends where budget is working and where it is not, and you decide. Nothing is changed in your ad accounts without you."
+        },
+        {
+          "type": "summary",
+          "text": "Who builds it?+"
+        },
+        {
+          "type": "p",
+          "text": "Ladder7 NextStep Solutions, which also builds Site 360, L7 Nexus, Outreach Engine and L7 Insights."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "What is Infinite Insights?–",
+          "open": true
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Which channels does it connect?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "What is cross-channel attribution?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "What is signal health monitoring?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Does it move my budget for me?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Who builds it?+",
+          "open": false
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productinfiniteinsights_07_contact",
+      "section_order": 7,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

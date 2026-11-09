@@ -1,0 +1,320 @@
+{
+  "page_key": "contact",
+  "page_url": "/contact",
+  "document_title": "Contact Ladder7 | Get a Software Development Quote",
+  "seo": {
+    "meta_title": "Contact Ladder7 | Get a Software Development Quote",
+    "meta_description": "Tell us about your software, web, mobile or AI project. Email info@ladder7.in or WhatsApp +91 8137979401. We work with clients in the GCC, Europe and Africa.",
+    "canonical_url": "https://www.ladder7.in/contact",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Talk to us about your software project."
+  },
+  "sections": [
+    {
+      "section_id": "contact_01_contact",
+      "section_order": 1,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Talk to us about your software project.",
+      "heading_level": "h1",
+      "eyebrow": "Contact Ladder7",
+      "subheading": "A few details will help us understand your next step.",
+      "description": "A business idea. A new skill. Your next career move.\nTell us where you want to go. We'll help you find the next step.",
+      "paragraphs": [
+        "Contact Ladder7",
+        "A business idea. A new skill. Your next career move.\nTell us where you want to go. We'll help you find the next step.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Contact Ladder7"
+        },
+        {
+          "type": "h1",
+          "text": "Talk to us about your software project."
+        },
+        {
+          "type": "p",
+          "text": "A business idea. A new skill. Your next career move.\nTell us where you want to go. We'll help you find the next step."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a conversation? +91 8137979401"
+        },
+        {
+          "type": "h2",
+          "text": "Tell us about your next step."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ContactHero/ContactHero.css",
+        "component": "src/components/sections/ContactHero/ContactHero.tsx"
+      }
+    },
+    {
+      "section_id": "contact_02_locations",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Locations",
+      "section_heading": "Rooted in Kerala.\nReady for your next step.",
+      "heading_level": "h2",
+      "eyebrow": "Our bases",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "Our bases"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Our bases"
+        },
+        {
+          "type": "h2",
+          "text": "Rooted in Kerala.\nReady for your next step."
+        },
+        {
+          "type": "span",
+          "text": "01 / COCHIN"
+        },
+        {
+          "type": "h3",
+          "text": "Cochin"
+        },
+        {
+          "type": "address",
+          "text": "WEE SPACES\nErnakulam, Kerala"
+        },
+        {
+          "type": "span",
+          "text": "02 / TRIVANDRUM"
+        },
+        {
+          "type": "h3",
+          "text": "Trivandrum"
+        },
+        {
+          "type": "address",
+          "text": "Kinfra Film and IT Park\nTrivandrum, Kerala"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [
+        {
+          "element": "article",
+          "heading": "Cochin",
+          "text": [
+            "01 / COCHIN",
+            "WEE SPACES\nErnakulam, Kerala"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Trivandrum",
+          "text": [
+            "02 / TRIVANDRUM",
+            "Kinfra Film and IT Park\nTrivandrum, Kerala"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ContactLocations/ContactLocations.css",
+        "component": "src/components/sections/ContactLocations/ContactLocations.tsx"
+      }
+    }
+  ]
+}

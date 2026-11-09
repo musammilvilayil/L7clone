@@ -94,7 +94,7 @@ export const TRAINING_CATALOGUE: TrainingCatalogueItem[] = [
     title: "Business Intelligence & Data Analytics",
     summary:
       "Ladder7 delivers hands-on BI and data analytics training for corporate teams in Kerala and virtually across India: connecting your actual data…",
-    image: "photos/training-analytics-dashboard",
+    image: "photos/team-analytics-review",
   },
   {
     slug: "marketing-automation-crm",
@@ -103,7 +103,7 @@ export const TRAINING_CATALOGUE: TrainingCatalogueItem[] = [
     title: "CRM & Automation Training",
     summary:
       "Ladder7 delivers hands-on CRM and marketing automation training for corporate sales and marketing teams in Kerala and virtually across India, working…",
-    image: "photos/training-analytics-meeting",
+    image: "photos/product-outreach-dashboard",
   },
   {
     slug: "webops-ai-ml",

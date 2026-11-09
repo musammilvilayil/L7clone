@@ -1,0 +1,653 @@
+{
+  "page_key": "productFillDots",
+  "page_url": "/filldots",
+  "document_title": "Fill Dots | Bridge Your Career Skill Gaps | Ladder7",
+  "seo": {
+    "meta_title": "Fill Dots | Bridge Your Career Skill Gaps | Ladder7",
+    "meta_description": "Fill Dots maps the gap between where you are and where you want to be, then builds a custom learning pathway to close your skill gaps.",
+    "canonical_url": "https://www.ladder7.in/filldots",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Connect the dots. Shape your career."
+  },
+  "sections": [
+    {
+      "section_id": "productfilldots_01_page",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Page",
+      "section_heading": "Connect the dots. Shape your career.",
+      "heading_level": "h1",
+      "eyebrow": "Fill Dots",
+      "subheading": "",
+      "description": "Connect the dots between where you are and where you want to be. Fill Dots provides customized learning pathways to bridge educational and professional skill gaps.",
+      "paragraphs": [
+        "Fill Dots",
+        "Connect the dots between where you are and where you want to be. Fill Dots provides customized learning pathways to bridge educational and professional skill gaps."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Fill Dots"
+        },
+        {
+          "type": "h1",
+          "text": "Connect the dots. Shape your career."
+        },
+        {
+          "type": "p",
+          "text": "Connect the dots between where you are and where you want to be. Fill Dots provides customized learning pathways to bridge educational and professional skill gaps."
+        },
+        {
+          "type": "cta-link",
+          "text": "Let's talk"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore the details"
+        },
+        {
+          "type": "figcaption",
+          "text": "Fill Dots"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Let's talk",
+          "url": "/filldots#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore the details",
+          "url": "/filldots#page-content",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/mountain-climb-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "900",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high",
+          "srcset": "/images/photos/mountain-climb-480.webp 480w, /images/photos/mountain-climb-800.webp 800w, /images/photos/mountain-climb-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 100vw, 40vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Let's talk",
+          "href": "/filldots#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/filldots#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Let's talk",
+          "href": "/filldots#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/filldots#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/LandingHero/LandingHero.css",
+        "component": "src/components/sections/LandingHero/LandingHero.tsx"
+      }
+    },
+    {
+      "section_id": "productfilldots_02_detail_section",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "What is Fill Dots?",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "\"Fill Dots is a specialized program aimed at bridging skill gaps to help individuals advance to their next career level. The program focuses on enhancing specific skills and overcoming barriers, ensuring that participants are well-prepared for their career progression.\"",
+      "paragraphs": [
+        "Explore",
+        "\"Fill Dots is a specialized program aimed at bridging skill gaps to help individuals advance to their next career level. The program focuses on enhancing specific skills and overcoming barriers, ensuring that participants are well-prepared for their career progression.\""
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "What is Fill Dots?"
+        },
+        {
+          "type": "p",
+          "text": "\"Fill Dots is a specialized program aimed at bridging skill gaps to help individuals advance to their next career level. The program focuses on enhancing specific skills and overcoming barriers, ensuring that participants are well-prepared for their career progression.\""
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productfilldots_03_detail_section",
+      "section_order": 3,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Our Specialized Programs",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "Explore how we tailor our expertise to your specific career stage and professional goals.",
+      "paragraphs": [
+        "Explore",
+        "Explore how we tailor our expertise to your specific career stage and professional goals."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "Our Specialized Programs"
+        },
+        {
+          "type": "p",
+          "text": "Explore how we tailor our expertise to your specific career stage and professional goals."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productfilldots_04_detail_section",
+      "section_order": 4,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Ready to take your next career step?",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "Don't let skill gaps hold you back. Join the Fill Dots program today and start your journey toward professional excellence with Ladder7.",
+      "paragraphs": [
+        "Explore",
+        "Don't let skill gaps hold you back. Join the Fill Dots program today and start your journey toward professional excellence with Ladder7."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "Ready to take your next career step?"
+        },
+        {
+          "type": "p",
+          "text": "Don't let skill gaps hold you back. Join the Fill Dots program today and start your journey toward professional excellence with Ladder7."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productfilldots_05_detail_section",
+      "section_order": 5,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Explore what’s possible.",
+      "heading_level": "h2",
+      "eyebrow": "The details",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "The details",
+        "Tailored programs to upskill corporate professionals for higher roles, ensuring they meet the demands of their next career move.",
+        "Focused on eliminating skill gaps and overcoming obstacles, ensuring participants are fully prepared for career progression and new opportunities.",
+        "Targeted coaching to help students overcome interview fears and prepare for their first steps into the professional world.",
+        "Specialized training for individuals returning to work after a break, helping them regain confidence and close skill gaps effectively."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The details"
+        },
+        {
+          "type": "h2",
+          "text": "Explore what’s possible."
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "Customized Skill Development"
+        },
+        {
+          "type": "p",
+          "text": "Tailored programs to upskill corporate professionals for higher roles, ensuring they meet the demands of their next career move."
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "Bridging Career Barriers"
+        },
+        {
+          "type": "p",
+          "text": "Focused on eliminating skill gaps and overcoming obstacles, ensuring participants are fully prepared for career progression and new opportunities."
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "Interview Readiness"
+        },
+        {
+          "type": "p",
+          "text": "Targeted coaching to help students overcome interview fears and prepare for their first steps into the professional world."
+        },
+        {
+          "type": "span",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "Career Restart Support"
+        },
+        {
+          "type": "p",
+          "text": "Specialized training for individuals returning to work after a break, helping them regain confidence and close skill gaps effectively."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "01",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "02",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "03",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "04",
+          "detail": "",
+          "source": ".detail-cards__number"
+        }
+      ],
+      "cards": [
+        {
+          "element": "article",
+          "heading": "Customized Skill Development",
+          "text": [
+            "01",
+            "Tailored programs to upskill corporate professionals for higher roles, ensuring they meet the demands of their next career move."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Bridging Career Barriers",
+          "text": [
+            "02",
+            "Focused on eliminating skill gaps and overcoming obstacles, ensuring participants are fully prepared for career progression and new opportunities."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Interview Readiness",
+          "text": [
+            "03",
+            "Targeted coaching to help students overcome interview fears and prepare for their first steps into the professional world."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Career Restart Support",
+          "text": [
+            "04",
+            "Specialized training for individuals returning to work after a break, helping them regain confidence and close skill gaps effectively."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productfilldots_06_contact",
+      "section_order": 6,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

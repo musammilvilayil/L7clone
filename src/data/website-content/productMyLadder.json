@@ -1,0 +1,901 @@
+{
+  "page_key": "productMyLadder",
+  "page_url": "/myladder",
+  "document_title": "My Ladder | Career Planning & Growth | Ladder7",
+  "seo": {
+    "meta_title": "My Ladder | Career Planning & Growth | Ladder7",
+    "meta_description": "Take control of your professional journey with MyLadder. A dedicated platform for structured career planning, skill tracking, and continuous personal growth.",
+    "canonical_url": "https://www.ladder7.in/myladder",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Your growth. One step at a time."
+  },
+  "sections": [
+    {
+      "section_id": "productmyladder_01_page",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Page",
+      "section_heading": "Your growth. One step at a time.",
+      "heading_level": "h1",
+      "eyebrow": "My Ladder",
+      "subheading": "",
+      "description": "Take control of your professional journey with MyLadder. A dedicated platform for structured career planning, skill tracking, and continuous personal growth.",
+      "paragraphs": [
+        "My Ladder",
+        "Take control of your professional journey with MyLadder. A dedicated platform for structured career planning, skill tracking, and continuous personal growth."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "My Ladder"
+        },
+        {
+          "type": "h1",
+          "text": "Your growth. One step at a time."
+        },
+        {
+          "type": "p",
+          "text": "Take control of your professional journey with MyLadder. A dedicated platform for structured career planning, skill tracking, and continuous personal growth."
+        },
+        {
+          "type": "cta-link",
+          "text": "Let's talk"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore the details"
+        },
+        {
+          "type": "figcaption",
+          "text": "My Ladder"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Let's talk",
+          "url": "/myladder#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore the details",
+          "url": "/myladder#page-content",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/idea-lightbulb-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "1350",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high",
+          "srcset": "/images/photos/idea-lightbulb-300.webp 300w, /images/photos/idea-lightbulb-600.webp 600w, /images/photos/idea-lightbulb-900.webp 900w",
+          "sizes": "(max-width: 700px) 100vw, 40vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Let's talk",
+          "href": "/myladder#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/myladder#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Let's talk",
+          "href": "/myladder#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/myladder#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/LandingHero/LandingHero.css",
+        "component": "src/components/sections/LandingHero/LandingHero.tsx"
+      }
+    },
+    {
+      "section_id": "productmyladder_02_detail_section",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "A Systematic Process for Unlimited Growth",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "MyLadder isn't just another goal-tracking app. It's a comprehensive framework that bridges the gap between where you are today and where you want to be. We focus on the fundamental pillars of professional success: strategic planning, skill acquisition, and consistent measurement.",
+      "paragraphs": [
+        "Explore",
+        "MyLadder isn't just another goal-tracking app. It's a comprehensive framework that bridges the gap between where you are today and where you want to be. We focus on the fundamental pillars of professional success: strategic planning, skill acquisition, and consistent measurement."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "A Systematic Process for Unlimited Growth"
+        },
+        {
+          "type": "p",
+          "text": "MyLadder isn't just another goal-tracking app. It's a comprehensive framework that bridges the gap between where you are today and where you want to be. We focus on the fundamental pillars of professional success: strategic planning, skill acquisition, and consistent measurement."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productmyladder_03_detail_section",
+      "section_order": 3,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "The MyLadder 7-Step Journey",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "An orchestrated evolution from self-reflection to absolute career mastery.",
+      "paragraphs": [
+        "Explore",
+        "An orchestrated evolution from self-reflection to absolute career mastery."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "The MyLadder 7-Step Journey"
+        },
+        {
+          "type": "p",
+          "text": "An orchestrated evolution from self-reflection to absolute career mastery."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productmyladder_04_detail_section",
+      "section_order": 4,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Wellbeing through Personal Growth",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "We believe true success starts from within. MyLadder places a strong emphasis on self-awareness and mental balance, ensuring that as you climb, you remain grounded and fulfilled.",
+      "paragraphs": [
+        "Explore",
+        "We believe true success starts from within. MyLadder places a strong emphasis on self-awareness and mental balance, ensuring that as you climb, you remain grounded and fulfilled."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "Wellbeing through Personal Growth"
+        },
+        {
+          "type": "p",
+          "text": "We believe true success starts from within. MyLadder places a strong emphasis on self-awareness and mental balance, ensuring that as you climb, you remain grounded and fulfilled."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productmyladder_05_detail_section",
+      "section_order": 5,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Upskilling for a Balanced Life",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "Our comprehensive skill development programs don't just teach you technical skills; they empower you to manage your time and energy efficiently for a truly high-impact, balanced career.\n\nReady to climb your ladder?",
+      "paragraphs": [
+        "Explore",
+        "Our comprehensive skill development programs don't just teach you technical skills; they empower you to manage your time and energy efficiently for a truly high-impact, balanced career.",
+        "Ready to climb your ladder?"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "Upskilling for a Balanced Life"
+        },
+        {
+          "type": "p",
+          "text": "Our comprehensive skill development programs don't just teach you technical skills; they empower you to manage your time and energy efficiently for a truly high-impact, balanced career."
+        },
+        {
+          "type": "p",
+          "text": "Ready to climb your ladder?"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productmyladder_06_detail_section",
+      "section_order": 6,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Explore what’s possible.",
+      "heading_level": "h2",
+      "eyebrow": "The details",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "The details",
+        "Assess your current skills, strengths, and areas for improvement.",
+        "Identify your core passions and potential career paths.",
+        "Define exactly what your ultimate career success looks like.",
+        "Establish SMART objectives to turn dreams into concrete targets.",
+        "Design a detailed roadmap with specific tasks and deadlines.",
+        "Monitor progress regularly and adjust your strategy as needed.",
+        "Acknowledge milestones and reward your hard-earned achievements.",
+        "Tailored objectives that align with your unique aspirations and current capabilities.",
+        "A logical sequence of milestones that ensures you never feel overwhelmed or lost.",
+        "Curated resources and learning paths to bridge critical gaps in your professional profile.",
+        "Leveraging industry-leading growth principles for worldwide career impact."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The details"
+        },
+        {
+          "type": "h2",
+          "text": "Explore what’s possible."
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "Reflection"
+        },
+        {
+          "type": "p",
+          "text": "Assess your current skills, strengths, and areas for improvement."
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "Realization"
+        },
+        {
+          "type": "p",
+          "text": "Identify your core passions and potential career paths."
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "Visualization"
+        },
+        {
+          "type": "p",
+          "text": "Define exactly what your ultimate career success looks like."
+        },
+        {
+          "type": "span",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "Goal Setting"
+        },
+        {
+          "type": "p",
+          "text": "Establish SMART objectives to turn dreams into concrete targets."
+        },
+        {
+          "type": "span",
+          "text": "05"
+        },
+        {
+          "type": "h3",
+          "text": "Action Plan"
+        },
+        {
+          "type": "p",
+          "text": "Design a detailed roadmap with specific tasks and deadlines."
+        },
+        {
+          "type": "span",
+          "text": "06"
+        },
+        {
+          "type": "h3",
+          "text": "Tracking"
+        },
+        {
+          "type": "p",
+          "text": "Monitor progress regularly and adjust your strategy as needed."
+        },
+        {
+          "type": "span",
+          "text": "07"
+        },
+        {
+          "type": "h3",
+          "text": "Celebrate"
+        },
+        {
+          "type": "p",
+          "text": "Acknowledge milestones and reward your hard-earned achievements."
+        },
+        {
+          "type": "span",
+          "text": "08"
+        },
+        {
+          "type": "h3",
+          "text": "Personalized Goal Setting"
+        },
+        {
+          "type": "p",
+          "text": "Tailored objectives that align with your unique aspirations and current capabilities."
+        },
+        {
+          "type": "span",
+          "text": "09"
+        },
+        {
+          "type": "h3",
+          "text": "Structured Progression"
+        },
+        {
+          "type": "p",
+          "text": "A logical sequence of milestones that ensures you never feel overwhelmed or lost."
+        },
+        {
+          "type": "span",
+          "text": "10"
+        },
+        {
+          "type": "h3",
+          "text": "Skill Development Focus"
+        },
+        {
+          "type": "p",
+          "text": "Curated resources and learning paths to bridge critical gaps in your professional profile."
+        },
+        {
+          "type": "span",
+          "text": "11"
+        },
+        {
+          "type": "h3",
+          "text": "Global Standards"
+        },
+        {
+          "type": "p",
+          "text": "Leveraging industry-leading growth principles for worldwide career impact."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "01",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "02",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "03",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "04",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "05",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "06",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "07",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "08",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "09",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "10",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "11",
+          "detail": "",
+          "source": ".detail-cards__number"
+        }
+      ],
+      "cards": [
+        {
+          "element": "article",
+          "heading": "Reflection",
+          "text": [
+            "01",
+            "Assess your current skills, strengths, and areas for improvement."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Realization",
+          "text": [
+            "02",
+            "Identify your core passions and potential career paths."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Visualization",
+          "text": [
+            "03",
+            "Define exactly what your ultimate career success looks like."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Goal Setting",
+          "text": [
+            "04",
+            "Establish SMART objectives to turn dreams into concrete targets."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Action Plan",
+          "text": [
+            "05",
+            "Design a detailed roadmap with specific tasks and deadlines."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Tracking",
+          "text": [
+            "06",
+            "Monitor progress regularly and adjust your strategy as needed."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Celebrate",
+          "text": [
+            "07",
+            "Acknowledge milestones and reward your hard-earned achievements."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Personalized Goal Setting",
+          "text": [
+            "08",
+            "Tailored objectives that align with your unique aspirations and current capabilities."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Structured Progression",
+          "text": [
+            "09",
+            "A logical sequence of milestones that ensures you never feel overwhelmed or lost."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Skill Development Focus",
+          "text": [
+            "10",
+            "Curated resources and learning paths to bridge critical gaps in your professional profile."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Global Standards",
+          "text": [
+            "11",
+            "Leveraging industry-leading growth principles for worldwide career impact."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productmyladder_07_contact",
+      "section_order": 7,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

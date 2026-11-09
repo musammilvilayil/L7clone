@@ -245,9 +245,30 @@ export const EDUCATION_WALL = {
   buttonLabel: "Explore all programs",
   buttonTo: "/education#programs",
   columns: [
-    ["photos/workspace-laptop", "photos/ai-processor", "photos/mentorship-interview"],
-    ["photos/mountain-climb", "photos/online-checkout", "photos/team-workshop"],
-    ["photos/mindful-reflection", "photos/code-editor", "photos/self-reflection-mirror"],
+    [
+      "photos/mountain-climb",
+      "photos/mindful-reflection",
+      "photos/self-reflection-mirror",
+      "photos/mirror-reflection-portrait",
+      "photos/students-laptop-group",
+      "photos/training-laptop-code",
+    ],
+    [
+      "photos/training-python-code",
+      "photos/training-mobile-phone",
+      "photos/training-ai-prompt",
+      "photos/training-analytics-dashboard",
+      "photos/training-server-rack",
+      "photos/training-video-editing",
+    ],
+    [
+      "photos/training-analytics-meeting",
+      "photos/training-robot-ai",
+      "photos/course-shopify",
+      "photos/course-software-testing",
+      "photos/first-job",
+      "photos/earnmore",
+    ],
   ] as ImageName[][],
 };
 
@@ -274,4 +295,3 @@ export const EDUCATION_CONTACT = {
   formHeading: "Tell us about your next step.",
   formIntro: "A few details will help our advisors guide you.",
 };
-

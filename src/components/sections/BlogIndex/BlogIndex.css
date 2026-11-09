@@ -208,9 +208,9 @@
 }
 
 .blog-index__story h2 {
-  margin: 0 0 14px;
+  margin: 0 0 18px;
   font-size: 1.375rem;
-  font-weight: var(--font-weight-medium);
+  font-weight: var(--font-weight-regular);
   letter-spacing: -0.02em;
   line-height: 1.35;
   color: #f1f5f7;
@@ -219,27 +219,6 @@
 
 .blog-index__link:hover h2 {
   color: #fff;
-}
-
-.blog-index__excerpt {
-  margin: 0 0 18px;
-  font-size: 1.125rem;
-  line-height: 1.6;
-  color: #9db0ba;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-.blog-index__footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  margin-top: auto;
-  padding-top: 14px;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .blog-index__author {
@@ -260,25 +239,6 @@
   color: #111719;
   font-size: 0.875rem;
   font-weight: var(--font-weight-semibold);
-}
-
-.blog-index__read-more {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 1.125rem;
-  font-weight: var(--font-weight-medium);
-  color: #51c5cf;
-  white-space: nowrap;
-  transition: transform 0.2s ease, color 0.2s ease;
-}
-
-.blog-index__link:hover .blog-index__read-more {
-  color: #6ee7f2;
-}
-
-.blog-index__link:hover .blog-index__read-more span {
-  transform: translateX(4px);
 }
 
 @media (prefers-reduced-motion: reduce) {

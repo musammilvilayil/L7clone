@@ -1,0 +1,1131 @@
+{
+  "page_key": "productL7Nexus",
+  "page_url": "/products/l7-nexus",
+  "document_title": "L7 Nexus | An AI Executive Team | Ladder7",
+  "seo": {
+    "meta_title": "L7 Nexus | An AI Executive Team | Ladder7",
+    "meta_description": "L7 Nexus is a leased AI executive team for businesses of any size. It builds a permanent company brain and puts named executives and specialists to work on it.",
+    "canonical_url": "https://www.ladder7.in/products/l7-nexus",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "An AI executive team for your business."
+  },
+  "sections": [
+    {
+      "section_id": "productl7nexus_01_page",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Page",
+      "section_heading": "An AI executive team for your business.",
+      "heading_level": "h1",
+      "eyebrow": "L7 Nexus",
+      "subheading": "",
+      "description": "L7 Nexus is a leased AI executive team for businesses of any size. It reads your website, builds a permanent company brain you own as plain markdown files, then puts ten named executives and fifty specialists to work on it.",
+      "paragraphs": [
+        "L7 Nexus",
+        "L7 Nexus is a leased AI executive team for businesses of any size. It reads your website, builds a permanent company brain you own as plain markdown files, then puts ten named executives and fifty specialists to work on it."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "L7 Nexus"
+        },
+        {
+          "type": "h1",
+          "text": "An AI executive team for your business."
+        },
+        {
+          "type": "p",
+          "text": "L7 Nexus is a leased AI executive team for businesses of any size. It reads your website, builds a permanent company brain you own as plain markdown files, then puts ten named executives and fifty specialists to work on it."
+        },
+        {
+          "type": "cta-link",
+          "text": "Let's talk"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore the details"
+        },
+        {
+          "type": "figcaption",
+          "text": "L7 Nexus"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Let's talk",
+          "url": "/products/l7-nexus#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore the details",
+          "url": "/products/l7-nexus#page-content",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/product-dashboard-nocode-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "900",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high",
+          "srcset": "/images/photos/product-dashboard-nocode-300.webp 300w, /images/photos/product-dashboard-nocode-600.webp 600w, /images/photos/product-dashboard-nocode-900.webp 900w",
+          "sizes": "(max-width: 700px) 100vw, 40vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Let's talk",
+          "href": "/products/l7-nexus#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/products/l7-nexus#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Let's talk",
+          "href": "/products/l7-nexus#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/products/l7-nexus#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/LandingHero/LandingHero.css",
+        "component": "src/components/sections/LandingHero/LandingHero.tsx"
+      }
+    },
+    {
+      "section_id": "productl7nexus_02_detail_section",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "9 desks filed",
+      "heading_level": "h2",
+      "eyebrow": "Board review, run log",
+      "subheading": "",
+      "description": "Who asked whom, taken from a board review run log. The names are executives, not people. An executive can only ask its own team, and delegation stops two levels down.",
+      "paragraphs": [
+        "Board review, run log",
+        "Who asked whom, taken from a board review run log. The names are executives, not people. An executive can only ask its own team, and delegation stops two levels down."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Board review, run log"
+        },
+        {
+          "type": "h2",
+          "text": "9 desks filed"
+        },
+        {
+          "type": "p",
+          "text": "Who asked whom, taken from a board review run log. The names are executives, not people. An executive can only ask its own team, and delegation stops two levels down."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productl7nexus_03_detail_section",
+      "section_order": 3,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "How does it work in the first ten minutes?",
+      "heading_level": "h2",
+      "eyebrow": "The first ten minutes",
+      "subheading": "",
+      "description": "One input, and the rest runs unattended. Every step except your two minutes targets under ten minutes.\n\nWe do not ask you what industry you are in. Your website already says. Ladder7 reads it the way a good consultant would, reaches a conclusion, and reaches it again from scratch whenever your site changes or you ask it to look again.\n\nThere is no dropdown, because asking an owner whether they are \"professional services\" or \"trades\" is asking them to translate their business into our vocabulary, and a wrong answer would then carry the highest trust in the system. If you never answer the seven questions, the system proceeds and flags the gaps rather than hanging.",
+      "paragraphs": [
+        "The first ten minutes",
+        "One input, and the rest runs unattended. Every step except your two minutes targets under ten minutes.",
+        "(vision and mission optional)",
+        "(unattended)",
+        "(about 2 minutes, asynchronous, 24h timeout)",
+        "(unattended)",
+        "We do not ask you what industry you are in. Your website already says. Ladder7 reads it the way a good consultant would, reaches a conclusion, and reaches it again from scratch whenever your site changes or you ask it to look again.",
+        "There is no dropdown, because asking an owner whether they are \"professional services\" or \"trades\" is asking them to translate their business into our vocabulary, and a wrong answer would then carry the highest trust in the system. If you never answer the seven questions, the system proceeds and flags the gaps rather than hanging."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The first ten minutes"
+        },
+        {
+          "type": "h2",
+          "text": "How does it work in the first ten minutes?"
+        },
+        {
+          "type": "p",
+          "text": "One input, and the rest runs unattended. Every step except your two minutes targets under ten minutes."
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "Sign up."
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "Give your website URL."
+        },
+        {
+          "type": "p",
+          "text": "(vision and mission optional)"
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "Ladder7 crawls the site, extracts what it finds, scores its own confidence, and classifies the industry."
+        },
+        {
+          "type": "p",
+          "text": "(unattended)"
+        },
+        {
+          "type": "span",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "You answer no more than seven questions."
+        },
+        {
+          "type": "p",
+          "text": "(about 2 minutes, asynchronous, 24h timeout)"
+        },
+        {
+          "type": "span",
+          "text": "05"
+        },
+        {
+          "type": "h3",
+          "text": "It builds your company brain."
+        },
+        {
+          "type": "p",
+          "text": "(unattended)"
+        },
+        {
+          "type": "span",
+          "text": "06"
+        },
+        {
+          "type": "h3",
+          "text": "It delivers a diagnostic."
+        },
+        {
+          "type": "span",
+          "text": "07"
+        },
+        {
+          "type": "h3",
+          "text": "It recommends an executive team."
+        },
+        {
+          "type": "p",
+          "text": "We do not ask you what industry you are in. Your website already says. Ladder7 reads it the way a good consultant would, reaches a conclusion, and reaches it again from scratch whenever your site changes or you ask it to look again."
+        },
+        {
+          "type": "p",
+          "text": "There is no dropdown, because asking an owner whether they are \"professional services\" or \"trades\" is asking them to translate their business into our vocabulary, and a wrong answer would then carry the highest trust in the system. If you never answer the seven questions, the system proceeds and flags the gaps rather than hanging."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "01",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "02",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "03",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "04",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "05",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "06",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "07",
+          "detail": "",
+          "source": ".detail-cards__number"
+        }
+      ],
+      "cards": [
+        {
+          "element": "article",
+          "heading": "Sign up.",
+          "text": [
+            "01"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Give your website URL.",
+          "text": [
+            "02",
+            "(vision and mission optional)"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Ladder7 crawls the site, extracts what it finds, scores its own confidence, and classifies the industry.",
+          "text": [
+            "03",
+            "(unattended)"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "You answer no more than seven questions.",
+          "text": [
+            "04",
+            "(about 2 minutes, asynchronous, 24h timeout)"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "It builds your company brain.",
+          "text": [
+            "05",
+            "(unattended)"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "It delivers a diagnostic.",
+          "text": [
+            "06"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "It recommends an executive team.",
+          "text": [
+            "07"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productl7nexus_04_detail_section",
+      "section_order": 4,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Ten executives, each with a written mandate",
+      "heading_level": "h2",
+      "eyebrow": "The org chart",
+      "subheading": "",
+      "description": "Most AI products give you one assistant. This gives you a company. Each executive has an explicit scope, defined hand-offs and a deliverable specification.\n\nBehind those ten sit fifty specialists across eleven divisions: a cash forecaster, a lead qualifier, a pipeline keeper, a churn analyst and the rest. An executive can ask its own specialists for depth, and the answer comes back to the executive, who stays responsible for it.\n\nFour rules keep that from becoming a free-for-all. An executive can only ask its own team, resolved from the org chart at call time rather than from the model's request. Delegation is capped at two levels. A delegated run shares the caller's budget, so an executive that delegates five times has spent its own allowance rather than five more. And delegation can never raise permissions.",
+      "paragraphs": [
+        "The org chart",
+        "Most AI products give you one assistant. This gives you a company. Each executive has an explicit scope, defined hand-offs and a deliverable specification.",
+        "Behind those ten sit fifty specialists across eleven divisions: a cash forecaster, a lead qualifier, a pipeline keeper, a churn analyst and the rest. An executive can ask its own specialists for depth, and the answer comes back to the executive, who stays responsible for it.",
+        "Four rules keep that from becoming a free-for-all. An executive can only ask its own team, resolved from the org chart at call time rather than from the model's request. Delegation is capped at two levels. A delegated run shares the caller's budget, so an executive that delegates five times has spent its own allowance rather than five more. And delegation can never raise permissions."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The org chart"
+        },
+        {
+          "type": "h2",
+          "text": "Ten executives, each with a written mandate"
+        },
+        {
+          "type": "p",
+          "text": "Most AI products give you one assistant. This gives you a company. Each executive has an explicit scope, defined hand-offs and a deliverable specification."
+        },
+        {
+          "type": "p",
+          "text": "Behind those ten sit fifty specialists across eleven divisions: a cash forecaster, a lead qualifier, a pipeline keeper, a churn analyst and the rest. An executive can ask its own specialists for depth, and the answer comes back to the executive, who stays responsible for it."
+        },
+        {
+          "type": "p",
+          "text": "Four rules keep that from becoming a free-for-all. An executive can only ask its own team, resolved from the org chart at call time rather than from the model's request. Delegation is capped at two levels. A delegated run shares the caller's budget, so an executive that delegates five times has spent its own allowance rather than five more. And delegation can never raise permissions."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productl7nexus_05_detail_section",
+      "section_order": 5,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "What does a board review give you?",
+      "heading_level": "h2",
+      "eyebrow": "The board review",
+      "subheading": "",
+      "description": "Ten agent loops plus their specialist benches, down from roughly $25 before context and caching work. Free on every account today.\n\nNine executives run in parallel, each working from their own division's documents and their own charter. Ada reads all nine and returns:\n\nRun one whenever you like. The cost is what makes that a real offer rather than a marketing line.",
+      "paragraphs": [
+        "The board review",
+        "Ten agent loops plus their specialist benches, down from roughly $25 before context and caching work. Free on every account today.",
+        "Nine executives run in parallel, each working from their own division's documents and their own charter. Ada reads all nine and returns:",
+        "Run one whenever you like. The cost is what makes that a real offer rather than a marketing line."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The board review"
+        },
+        {
+          "type": "h2",
+          "text": "What does a board review give you?"
+        },
+        {
+          "type": "p",
+          "text": "Ten agent loops plus their specialist benches, down from roughly $25 before context and caching work. Free on every account today."
+        },
+        {
+          "type": "p",
+          "text": "Nine executives run in parallel, each working from their own division's documents and their own charter. Ada reads all nine and returns:"
+        },
+        {
+          "type": "li",
+          "text": "Where the business stands, in three sentences"
+        },
+        {
+          "type": "li",
+          "text": "At least two findings that only show up across desks, meaning they took more than one report to see"
+        },
+        {
+          "type": "li",
+          "text": "One decision, with the trade-off stated and a recommendation"
+        },
+        {
+          "type": "li",
+          "text": "What she is asking each named executive to do, and by when"
+        },
+        {
+          "type": "li",
+          "text": "The single number that will say first if this is going wrong"
+        },
+        {
+          "type": "p",
+          "text": "Run one whenever you like. The cost is what makes that a real offer rather than a marketing line."
+        }
+      ],
+      "bullet_points": [
+        "Where the business stands, in three sentences",
+        "At least two findings that only show up across desks, meaning they took more than one report to see",
+        "One decision, with the trade-off stated and a recommendation",
+        "What she is asking each named executive to do, and by when",
+        "The single number that will say first if this is going wrong"
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productl7nexus_06_detail_section",
+      "section_order": 6,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "How is this different from a fractional executive or a chatbot?",
+      "heading_level": "h2",
+      "eyebrow": "The comparison",
+      "subheading": "",
+      "description": "The short answer: an org chart that delegates, a permission model, a permanent brain that is yours, and a board review that returns one decision instead of nine summaries.",
+      "paragraphs": [
+        "The comparison",
+        "The short answer: an org chart that delegates, a permission model, a permanent brain that is yours, and a board review that returns one decision instead of nine summaries."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The comparison"
+        },
+        {
+          "type": "h2",
+          "text": "How is this different from a fractional executive or a chatbot?"
+        },
+        {
+          "type": "p",
+          "text": "The short answer: an org chart that delegates, a permission model, a permanent brain that is yours, and a board review that returns one decision instead of nine summaries."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productl7nexus_07_detail_section",
+      "section_order": 7,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "The brain is yours, not exportable on request",
+      "heading_level": "h2",
+      "eyebrow": "The company brain",
+      "subheading": "",
+      "description": "Everything your executives learn lives in a folder of plain markdown files that belong to you.\n\nEvery fractional executive you have hired walked out with what they learned. This one does not.",
+      "paragraphs": [
+        "The company brain",
+        "Everything your executives learn lives in a folder of plain markdown files that belong to you.",
+        "Every fractional executive you have hired walked out with what they learned. This one does not."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The company brain"
+        },
+        {
+          "type": "h2",
+          "text": "The brain is yours, not exportable on request"
+        },
+        {
+          "type": "p",
+          "text": "Everything your executives learn lives in a folder of plain markdown files that belong to you."
+        },
+        {
+          "type": "li",
+          "text": "Downloadable at any time, during a lease, after one, and after cancelling."
+        },
+        {
+          "type": "li",
+          "text": "Obsidian-compatible, so you open it in a tool you already trust."
+        },
+        {
+          "type": "li",
+          "text": "Bidirectional git sync. Edit a note on your laptop, push, and your executives change behaviour on the next run."
+        },
+        {
+          "type": "li",
+          "text": "Nothing is ever deleted. Retired notes are marked superseded and stay in the vault, in git, and in every export."
+        },
+        {
+          "type": "p",
+          "text": "Every fractional executive you have hired walked out with what they learned. This one does not."
+        }
+      ],
+      "bullet_points": [
+        "Downloadable at any time, during a lease, after one, and after cancelling.",
+        "Obsidian-compatible, so you open it in a tool you already trust.",
+        "Bidirectional git sync. Edit a note on your laptop, push, and your executives change behaviour on the next run.",
+        "Nothing is ever deleted. Retired notes are marked superseded and stay in the vault, in git, and in every export."
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productl7nexus_08_detail_section",
+      "section_order": 8,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "It tells you what it could not determine",
+      "heading_level": "h2",
+      "eyebrow": "The honesty rule",
+      "subheading": "",
+      "description": "An agent that never says \"I could not find this\" is an agent filling gaps, and you would have no way of telling which sentences those were.\n\nEvery brief ends with a mandatory section: what the executive could not determine, the gap that would most improve the next report, and the cheapest way to close it. Every mandate also carries one rule, which is never to present a number it cannot source.",
+      "paragraphs": [
+        "The honesty rule",
+        "An agent that never says \"I could not find this\" is an agent filling gaps, and you would have no way of telling which sentences those were.",
+        "Every brief ends with a mandatory section: what the executive could not determine, the gap that would most improve the next report, and the cheapest way to close it. Every mandate also carries one rule, which is never to present a number it cannot source."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The honesty rule"
+        },
+        {
+          "type": "h2",
+          "text": "It tells you what it could not determine"
+        },
+        {
+          "type": "p",
+          "text": "An agent that never says \"I could not find this\" is an agent filling gaps, and you would have no way of telling which sentences those were."
+        },
+        {
+          "type": "p",
+          "text": "Every brief ends with a mandatory section: what the executive could not determine, the gap that would most improve the next report, and the cheapest way to close it. Every mandate also carries one rule, which is never to present a number it cannot source."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productl7nexus_09_detail_section",
+      "section_order": 9,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Nothing irreversible happens without you",
+      "heading_level": "h2",
+      "eyebrow": "Safety and control",
+      "subheading": "",
+      "description": "Every action is classified by blast radius, and permission attaches to the action rather than to the agent.\n\nContent crawled from a third-party site is marked untrusted, is never placed into a system prompt, and any action in a run that touched it is escalated to T2 at minimum regardless of its normal tier. There is also a monthly spend cap per account, enforced before any model call. Executives earn the right to act unsupervised on low-risk work by building a track record you can see, with a mandatory 10 percent audit sample so the signal never dies, and never on the risky kind.",
+      "paragraphs": [
+        "Safety and control",
+        "Every action is classified by blast radius, and permission attaches to the action rather than to the agent.",
+        "Content crawled from a third-party site is marked untrusted, is never placed into a system prompt, and any action in a run that touched it is escalated to T2 at minimum regardless of its normal tier. There is also a monthly spend cap per account, enforced before any model call. Executives earn the right to act unsupervised on low-risk work by building a track record you can see, with a mandatory 10 percent audit sample so the signal never dies, and never on the risky kind."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Safety and control"
+        },
+        {
+          "type": "h2",
+          "text": "Nothing irreversible happens without you"
+        },
+        {
+          "type": "p",
+          "text": "Every action is classified by blast radius, and permission attaches to the action rather than to the agent."
+        },
+        {
+          "type": "p",
+          "text": "Content crawled from a third-party site is marked untrusted, is never placed into a system prompt, and any action in a run that touched it is escalated to T2 at minimum regardless of its normal tier. There is also a monthly spend cap per account, enforced before any model call. Executives earn the right to act unsupervised on low-risk work by building a track record you can see, with a mandatory 10 percent audit sample so the signal never dies, and never on the risky kind."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productl7nexus_10_detail_section",
+      "section_order": 10,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Good questions.",
+      "heading_level": "h2",
+      "eyebrow": "A LITTLE MORE CLARITY",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "A LITTLE MORE CLARITY",
+        "A leased AI executive team. It builds a permanent company brain from your website, runs ten named executives and fifty specialists against it, and returns one decision per board review.",
+        "Every mandate forbids presenting a number it cannot source, and every brief ends with what it could not determine and the cheapest way to close that gap. You can see which questions stayed open rather than guessing which sentences were invented.",
+        "You own it. The brain is markdown in a folder you can download right now and open in Obsidian. Leaving costs you nothing but the executives.",
+        "No. The only email that ships goes to the account owner, and its recipient is resolved on the server, so there is no address field an injected web page could reach. No integration writes to your books or your CRM today.",
+        "Roughly $10 to $25 for a full review, meaning ten agent loops plus their specialist benches. Today every account runs them free.",
+        "Anyone looking for a general-purpose chatbot, and any business with nothing recorded yet for the brain to learn from."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "A LITTLE MORE CLARITY"
+        },
+        {
+          "type": "h2",
+          "text": "Good questions."
+        },
+        {
+          "type": "summary",
+          "text": "What is L7 Nexus?–"
+        },
+        {
+          "type": "p",
+          "text": "A leased AI executive team. It builds a permanent company brain from your website, runs ten named executives and fifty specialists against it, and returns one decision per board review."
+        },
+        {
+          "type": "summary",
+          "text": "Will it make things up?+"
+        },
+        {
+          "type": "p",
+          "text": "Every mandate forbids presenting a number it cannot source, and every brief ends with what it could not determine and the cheapest way to close that gap. You can see which questions stayed open rather than guessing which sentences were invented."
+        },
+        {
+          "type": "summary",
+          "text": "Do I own my data, or am I locked in?+"
+        },
+        {
+          "type": "p",
+          "text": "You own it. The brain is markdown in a folder you can download right now and open in Obsidian. Leaving costs you nothing but the executives."
+        },
+        {
+          "type": "summary",
+          "text": "Can it email my customers or change my accounting records?+"
+        },
+        {
+          "type": "p",
+          "text": "No. The only email that ships goes to the account owner, and its recipient is resolved on the server, so there is no address field an injected web page could reach. No integration writes to your books or your CRM today."
+        },
+        {
+          "type": "summary",
+          "text": "How much does a board review cost to run?+"
+        },
+        {
+          "type": "p",
+          "text": "Roughly $10 to $25 for a full review, meaning ten agent loops plus their specialist benches. Today every account runs them free."
+        },
+        {
+          "type": "summary",
+          "text": "Who is L7 Nexus not for?+"
+        },
+        {
+          "type": "p",
+          "text": "Anyone looking for a general-purpose chatbot, and any business with nothing recorded yet for the brain to learn from."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "What is L7 Nexus?–",
+          "open": true
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Will it make things up?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Do I own my data, or am I locked in?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Can it email my customers or change my accounting records?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "How much does a board review cost to run?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Who is L7 Nexus not for?+",
+          "open": false
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productl7nexus_11_contact",
+      "section_order": 11,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

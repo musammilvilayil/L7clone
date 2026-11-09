@@ -1,0 +1,565 @@
+{
+  "page_key": "blogWebsiteChecks",
+  "page_url": "/blogs/why-website-checks-need-to-go-beyond-performance-scores",
+  "document_title": "Website Checks Must Go Beyond Performance Scores | Ladder7",
+  "seo": {
+    "meta_title": "Website Checks Must Go Beyond Performance Scores | Ladder7",
+    "meta_description": "A fast site can still fail if buyers, search engines and AI answer engines cannot understand it or act on it. What a complete website check should cover.",
+    "canonical_url": "https://www.ladder7.in/blogs/why-website-checks-need-to-go-beyond-performance-scores",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Why Website Checks Need to Go Beyond Performance Scores."
+  },
+  "sections": [
+    {
+      "section_id": "blogwebsitechecks_01_page",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Page",
+      "section_heading": "Why Website Checks Need to Go Beyond Performance Scores.",
+      "heading_level": "h1",
+      "eyebrow": "Article",
+      "subheading": "",
+      "description": "A fast site can still fail if buyers, search engines and AI systems cannot understand it or act on it.",
+      "paragraphs": [
+        "Article",
+        "A fast site can still fail if buyers, search engines and AI systems cannot understand it or act on it."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Article"
+        },
+        {
+          "type": "h1",
+          "text": "Why Website Checks Need to Go Beyond Performance Scores."
+        },
+        {
+          "type": "p",
+          "text": "A fast site can still fail if buyers, search engines and AI systems cannot understand it or act on it."
+        },
+        {
+          "type": "cta-link",
+          "text": "Read the story"
+        },
+        {
+          "type": "cta-link",
+          "text": "All insights"
+        },
+        {
+          "type": "figcaption",
+          "text": "Ladder7 / Your next chapter"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Read the story",
+          "url": "/blogs/why-website-checks-need-to-go-beyond-performance-scores#page-content",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "All insights",
+          "url": "/blogs",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/blog-website-checks-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "675",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high",
+          "srcset": "/images/photos/blog-website-checks-480.webp 480w, /images/photos/blog-website-checks-800.webp 800w, /images/photos/blog-website-checks-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 100vw, 40vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Read the story",
+          "href": "/blogs/why-website-checks-need-to-go-beyond-performance-scores#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "All insights",
+          "href": "/blogs",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Read the story",
+          "href": "/blogs/why-website-checks-need-to-go-beyond-performance-scores#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "All insights",
+          "href": "/blogs",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/LandingHero/LandingHero.css",
+        "component": "src/components/sections/LandingHero/LandingHero.tsx"
+      }
+    },
+    {
+      "section_id": "blogwebsitechecks_02_page_content",
+      "section_order": 2,
+      "html_id": "page-content",
+      "element": "div",
+      "section_name": "Page Content",
+      "section_heading": "The score is not the outcome",
+      "heading_level": "h2",
+      "eyebrow": "All insights",
+      "subheading": "A fast site can still fail if buyers, search engines and AI systems cannot understand it or act on it.",
+      "description": "",
+      "paragraphs": [
+        "A fast site can still fail if buyers, search engines and AI systems cannot understand it or act on it.",
+        "A fast site can still fail if buyers, search engines and AI systems cannot understand it or act on it.",
+        "Performance scores are useful, but they are not the same thing as a working website. A page can load quickly and still leave money on the table because the offer is unclear, the page cannot be crawled, the next step is buried, or answer engines cannot quote it with confidence.",
+        "A website check should answer a business question: is this page helping the right visitor move toward a useful action? A single speed grade cannot answer that. It can show whether the experience is slow, but it does not show whether the message is clear, whether the page is eligible for search, or whether the page gives AI systems enough structured evidence to cite the business accurately.",
+        "This is why a practical website review has to connect technical health, content, search visibility and conversion paths. If those checks stay separate, teams end up with six reports and no shared order of work.",
+        "Crawlability and metadata: Search engines still need clear titles, descriptions, headings and internal links.",
+        "Answer readiness: A page should answer the question a buyer or search engine is likely to ask.",
+        "Generative engine readability: AI systems need clean structure, useful summaries and citation-worthy facts.",
+        "Accessibility: Users and automated systems need content they can perceive, navigate and understand.",
+        "The right order of fixes depends on where the page sits in the customer journey. A low-traffic service page with a strong enquiry path needs a different fix list from a high-traffic blog post with no next step. The useful question is not only what is broken. It is which broken item is most likely to cost visits, trust or enquiries.",
+        "That means the audit should rank work by impact. The fix that helps a decision page get indexed, understood and acted on should outrank a cosmetic issue that does not change visitor progress.",
+        "Search engines, answer engines and AI assistants all reward clarity. They need pages that state what the business does, who it serves, what problem it solves and which page supports that claim. Structured data, internal links and direct answers make that easier.",
+        "This does not replace good writing. It supports it. A page still has to be useful to a human buyer first. The technical layer should make that usefulness easier to discover and cite.",
+        "Ladder7 built Site 360 for this wider view. It runs live checks against an actual website across twelve lenses, including performance, accessibility, SEO, AEO, GEO, AI readiness and security. It then unifies the results into one Digital Health score and ranks the highest-impact fixes first.",
+        "The practical next step is to pick one important page and ask: can a buyer understand it, can search engines crawl it, can AI systems cite it, and does the page make the next action obvious?",
+        "Run a live scan or ask Ladder7 to review the revenue path behind your most important website page."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "A fast site can still fail if buyers, search engines and AI systems cannot understand it or act on it."
+        },
+        {
+          "type": "p",
+          "text": "A fast site can still fail if buyers, search engines and AI systems cannot understand it or act on it."
+        },
+        {
+          "type": "p",
+          "text": "Performance scores are useful, but they are not the same thing as a working website. A page can load quickly and still leave money on the table because the offer is unclear, the page cannot be crawled, the next step is buried, or answer engines cannot quote it with confidence."
+        },
+        {
+          "type": "h2",
+          "text": "The score is not the outcome"
+        },
+        {
+          "type": "p",
+          "text": "A website check should answer a business question: is this page helping the right visitor move toward a useful action? A single speed grade cannot answer that. It can show whether the experience is slow, but it does not show whether the message is clear, whether the page is eligible for search, or whether the page gives AI systems enough structured evidence to cite the business accurately."
+        },
+        {
+          "type": "p",
+          "text": "This is why a practical website review has to connect technical health, content, search visibility and conversion paths. If those checks stay separate, teams end up with six reports and no shared order of work."
+        },
+        {
+          "type": "h2",
+          "text": "What performance-only checks miss"
+        },
+        {
+          "type": "p",
+          "text": "Crawlability and metadata: Search engines still need clear titles, descriptions, headings and internal links."
+        },
+        {
+          "type": "p",
+          "text": "Answer readiness: A page should answer the question a buyer or search engine is likely to ask."
+        },
+        {
+          "type": "p",
+          "text": "Generative engine readability: AI systems need clean structure, useful summaries and citation-worthy facts."
+        },
+        {
+          "type": "p",
+          "text": "Accessibility: Users and automated systems need content they can perceive, navigate and understand."
+        },
+        {
+          "type": "h2",
+          "text": "Tie the checks to revenue paths"
+        },
+        {
+          "type": "p",
+          "text": "The right order of fixes depends on where the page sits in the customer journey. A low-traffic service page with a strong enquiry path needs a different fix list from a high-traffic blog post with no next step. The useful question is not only what is broken. It is which broken item is most likely to cost visits, trust or enquiries."
+        },
+        {
+          "type": "p",
+          "text": "That means the audit should rank work by impact. The fix that helps a decision page get indexed, understood and acted on should outrank a cosmetic issue that does not change visitor progress."
+        },
+        {
+          "type": "h2",
+          "text": "Search and AI now need the same evidence"
+        },
+        {
+          "type": "p",
+          "text": "Search engines, answer engines and AI assistants all reward clarity. They need pages that state what the business does, who it serves, what problem it solves and which page supports that claim. Structured data, internal links and direct answers make that easier."
+        },
+        {
+          "type": "p",
+          "text": "This does not replace good writing. It supports it. A page still has to be useful to a human buyer first. The technical layer should make that usefulness easier to discover and cite."
+        },
+        {
+          "type": "h2",
+          "text": "What to check next"
+        },
+        {
+          "type": "p",
+          "text": "Ladder7 built Site 360 for this wider view. It runs live checks against an actual website across twelve lenses, including performance, accessibility, SEO, AEO, GEO, AI readiness and security. It then unifies the results into one Digital Health score and ranks the highest-impact fixes first."
+        },
+        {
+          "type": "p",
+          "text": "The practical next step is to pick one important page and ask: can a buyer understand it, can search engines crawl it, can AI systems cite it, and does the page make the next action obvious?"
+        },
+        {
+          "type": "h2",
+          "text": "Check the page that should be earning enquiries."
+        },
+        {
+          "type": "p",
+          "text": "Run a live scan or ask Ladder7 to review the revenue path behind your most important website page."
+        },
+        {
+          "type": "cta-link",
+          "text": "All insights"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [
+        {
+          "element": "article.blog-article",
+          "heading": "The score is not the outcome",
+          "text": [
+            "A fast site can still fail if buyers, search engines and AI systems cannot understand it or act on it.",
+            "A fast site can still fail if buyers, search engines and AI systems cannot understand it or act on it.",
+            "Performance scores are useful, but they are not the same thing as a working website. A page can load quickly and still leave money on the table because the offer is unclear, the page cannot be crawled, the next step is buried, or answer engines cannot quote it with confidence.",
+            "A website check should answer a business question: is this page helping the right visitor move toward a useful action? A single speed grade cannot answer that. It can show whether the experience is slow, but it does not show whether the message is clear, whether the page is eligible for search, or whether the page gives AI systems enough structured evidence to cite the business accurately.",
+            "This is why a practical website review has to connect technical health, content, search visibility and conversion paths. If those checks stay separate, teams end up with six reports and no shared order of work.",
+            "What performance-only checks miss",
+            "Crawlability and metadata: Search engines still need clear titles, descriptions, headings and internal links.",
+            "Answer readiness: A page should answer the question a buyer or search engine is likely to ask.",
+            "Generative engine readability: AI systems need clean structure, useful summaries and citation-worthy facts.",
+            "Accessibility: Users and automated systems need content they can perceive, navigate and understand.",
+            "Tie the checks to revenue paths",
+            "The right order of fixes depends on where the page sits in the customer journey. A low-traffic service page with a strong enquiry path needs a different fix list from a high-traffic blog post with no next step. The useful question is not only what is broken. It is which broken item is most likely to cost visits, trust or enquiries.",
+            "That means the audit should rank work by impact. The fix that helps a decision page get indexed, understood and acted on should outrank a cosmetic issue that does not change visitor progress.",
+            "Search and AI now need the same evidence",
+            "Search engines, answer engines and AI assistants all reward clarity. They need pages that state what the business does, who it serves, what problem it solves and which page supports that claim. Structured data, internal links and direct answers make that easier.",
+            "This does not replace good writing. It supports it. A page still has to be useful to a human buyer first. The technical layer should make that usefulness easier to discover and cite.",
+            "What to check next",
+            "Ladder7 built Site 360 for this wider view. It runs live checks against an actual website across twelve lenses, including performance, accessibility, SEO, AEO, GEO, AI readiness and security. It then unifies the results into one Digital Health score and ranks the highest-impact fixes first.",
+            "The practical next step is to pick one important page and ask: can a buyer understand it, can search engines crawl it, can AI systems cite it, and does the page make the next action obvious?",
+            "Check the page that should be earning enquiries.",
+            "Run a live scan or ask Ladder7 to review the revenue path behind your most important website page.",
+            "All insights"
+          ],
+          "links": [
+            {
+              "text": "All insights",
+              "href": "/blogs"
+            }
+          ],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "All insights",
+          "url": "/blogs",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "All insights",
+          "href": "/blogs",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "All insights",
+          "href": "/blogs",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/BlogArticle/BlogArticle.css",
+        "component": "src/components/sections/BlogArticle/BlogArticle.tsx",
+        "via": "descendant class .blog-article"
+      }
+    },
+    {
+      "section_id": "blogwebsitechecks_03_contact",
+      "section_order": 3,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

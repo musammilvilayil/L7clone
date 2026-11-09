@@ -1,0 +1,967 @@
+{
+  "page_key": "productL7Insights",
+  "page_url": "/products/l7-insights",
+  "document_title": "L7 Insights | Multi-Source Business Dashboards | Ladder7",
+  "seo": {
+    "meta_title": "L7 Insights | Multi-Source Business Dashboards | Ladder7",
+    "meta_description": "Connect Google Sheets, BigQuery, Snowflake, Zoho, SharePoint, SAP or a CSV, and each source becomes a table you can chart in one dashboard.",
+    "canonical_url": "https://www.ladder7.in/products/l7-insights",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "One view across the systems you already use."
+  },
+  "sections": [
+    {
+      "section_id": "productl7insights_01_page",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Page",
+      "section_heading": "One view across the systems you already use.",
+      "heading_level": "h1",
+      "eyebrow": "L7 Insights",
+      "subheading": "",
+      "description": "L7 Insights turns data you already have into dashboards. Connect Google Sheets, BigQuery, Snowflake, Zoho, SharePoint, SAP or a CSV, and each source becomes a table you can chart.",
+      "paragraphs": [
+        "L7 Insights",
+        "L7 Insights turns data you already have into dashboards. Connect Google Sheets, BigQuery, Snowflake, Zoho, SharePoint, SAP or a CSV, and each source becomes a table you can chart."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "L7 Insights"
+        },
+        {
+          "type": "h1",
+          "text": "One view across the systems you already use."
+        },
+        {
+          "type": "p",
+          "text": "L7 Insights turns data you already have into dashboards. Connect Google Sheets, BigQuery, Snowflake, Zoho, SharePoint, SAP or a CSV, and each source becomes a table you can chart."
+        },
+        {
+          "type": "cta-link",
+          "text": "Let's talk"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore the details"
+        },
+        {
+          "type": "figcaption",
+          "text": "L7 Insights"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Let's talk",
+          "url": "/products/l7-insights#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore the details",
+          "url": "/products/l7-insights#page-content",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/team-whiteboard-session-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "900",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high",
+          "srcset": "/images/photos/team-whiteboard-session-300.webp 300w, /images/photos/team-whiteboard-session-600.webp 600w, /images/photos/team-whiteboard-session-900.webp 900w",
+          "sizes": "(max-width: 700px) 100vw, 40vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Let's talk",
+          "href": "/products/l7-insights#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/products/l7-insights#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Let's talk",
+          "href": "/products/l7-insights#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/products/l7-insights#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/LandingHero/LandingHero.css",
+        "component": "src/components/sections/LandingHero/LandingHero.tsx"
+      }
+    },
+    {
+      "section_id": "productl7insights_02_detail_section",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "The numbers exist. They just live apart.",
+      "heading_level": "h2",
+      "eyebrow": "The Problem",
+      "subheading": "",
+      "description": "Your orders are in one system, your customers in another, and the thing you actually want to know sits in the gap between them. Answering it means exporting both, matching them by hand in a spreadsheet, and repeating the whole exercise next month.\n\nThe alternative has usually been a data engineering project: a warehouse, a modelling layer, a pipeline, and a quarter of somebody's time before the first chart appears.",
+      "paragraphs": [
+        "The Problem",
+        "Your orders are in one system, your customers in another, and the thing you actually want to know sits in the gap between them. Answering it means exporting both, matching them by hand in a spreadsheet, and repeating the whole exercise next month.",
+        "The alternative has usually been a data engineering project: a warehouse, a modelling layer, a pipeline, and a quarter of somebody's time before the first chart appears."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The Problem"
+        },
+        {
+          "type": "h2",
+          "text": "The numbers exist. They just live apart."
+        },
+        {
+          "type": "p",
+          "text": "Your orders are in one system, your customers in another, and the thing you actually want to know sits in the gap between them. Answering it means exporting both, matching them by hand in a spreadsheet, and repeating the whole exercise next month."
+        },
+        {
+          "type": "p",
+          "text": "The alternative has usually been a data engineering project: a warehouse, a modelling layer, a pipeline, and a quarter of somebody's time before the first chart appears."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productl7insights_03_detail_section",
+      "section_order": 3,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Connect, join, chart",
+      "heading_level": "h2",
+      "eyebrow": "What it does",
+      "subheading": "",
+      "description": "Joins run as plain SQL against data already synced into your workspace. There is no live query hitting your production Snowflake every time a chart refreshes.",
+      "paragraphs": [
+        "What it does",
+        "Google Sheets, BigQuery, Snowflake, Zoho, SharePoint, SAP, or a CSV or Excel upload. Each one syncs into a table, with column types inferred as it lands.",
+        "Pick two tables and the columns that connect them. The join becomes a virtual data source, with colliding column names prefixed automatically so nothing is silently overwritten.",
+        "A joined source behaves exactly like a single-table source, so every chart, page and section works on it with no special handling.",
+        "Joins run as plain SQL against data already synced into your workspace. There is no live query hitting your production Snowflake every time a chart refreshes."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "What it does"
+        },
+        {
+          "type": "h2",
+          "text": "Connect, join, chart"
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "Connect a source."
+        },
+        {
+          "type": "p",
+          "text": "Google Sheets, BigQuery, Snowflake, Zoho, SharePoint, SAP, or a CSV or Excel upload. Each one syncs into a table, with column types inferred as it lands."
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "Join across sources."
+        },
+        {
+          "type": "p",
+          "text": "Pick two tables and the columns that connect them. The join becomes a virtual data source, with colliding column names prefixed automatically so nothing is silently overwritten."
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "Build the dashboard."
+        },
+        {
+          "type": "p",
+          "text": "A joined source behaves exactly like a single-table source, so every chart, page and section works on it with no special handling."
+        },
+        {
+          "type": "p",
+          "text": "Joins run as plain SQL against data already synced into your workspace. There is no live query hitting your production Snowflake every time a chart refreshes."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "01",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "02",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "03",
+          "detail": "",
+          "source": ".detail-cards__number"
+        }
+      ],
+      "cards": [
+        {
+          "element": "article",
+          "heading": "Connect a source.",
+          "text": [
+            "01",
+            "Google Sheets, BigQuery, Snowflake, Zoho, SharePoint, SAP, or a CSV or Excel upload. Each one syncs into a table, with column types inferred as it lands."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Join across sources.",
+          "text": [
+            "02",
+            "Pick two tables and the columns that connect them. The join becomes a virtual data source, with colliding column names prefixed automatically so nothing is silently overwritten."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Build the dashboard.",
+          "text": [
+            "03",
+            "A joined source behaves exactly like a single-table source, so every chart, page and section works on it with no special handling."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productl7insights_04_detail_section",
+      "section_order": 4,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Suggested relationships, and why they will ask before acting",
+      "heading_level": "h2",
+      "eyebrow": "In development",
+      "subheading": "",
+      "description": "Today you tell L7 Insights which columns connect. The next release proposes them.\n\nWhen you select two or three sources, L7 Insights compares their columns and puts forward the pairs that look related, each with a plain-language reason and a confidence signal. orders.customer_id matching customers.id is the ordinary case, and it comes with the reason attached rather than as a black-box verdict.\n\nFour design decisions are worth stating plainly, because they are what makes the feature trustworthy rather than merely clever:\n\nReject a suggestion and it stays rejected. It will not reappear after the next sync.\n\nDetection reads column metadata only, never row values, so it costs the same on a fifty-row table as on a fifty-million-row one.",
+      "paragraphs": [
+        "In development",
+        "Today you tell L7 Insights which columns connect. The next release proposes them.",
+        "When you select two or three sources, L7 Insights compares their columns and puts forward the pairs that look related, each with a plain-language reason and a confidence signal. orders.customer_id matching customers.id is the ordinary case, and it comes with the reason attached rather than as a black-box verdict.",
+        "Four design decisions are worth stating plainly, because they are what makes the feature trustworthy rather than merely clever:",
+        "Every suggestion has to be confirmed, edited or rejected. There is no automatic mode, and that is a deliberate choice rather than a missing setting.",
+        "It is column name and type matching with a score you can see. Predictable, inspectable, and the same answer every time.",
+        "Two integer columns are not evidence of anything. Surfacing those would bury the real matches in noise, so they are left out.",
+        "When two columns are similarly plausible, you see both candidates and choose. L7 Insights does not pick for you.",
+        "Reject a suggestion and it stays rejected. It will not reappear after the next sync.",
+        "Detection reads column metadata only, never row values, so it costs the same on a fifty-row table as on a fifty-million-row one."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "In development"
+        },
+        {
+          "type": "h2",
+          "text": "Suggested relationships, and why they will ask before acting"
+        },
+        {
+          "type": "p",
+          "text": "Today you tell L7 Insights which columns connect. The next release proposes them."
+        },
+        {
+          "type": "p",
+          "text": "When you select two or three sources, L7 Insights compares their columns and puts forward the pairs that look related, each with a plain-language reason and a confidence signal. orders.customer_id matching customers.id is the ordinary case, and it comes with the reason attached rather than as a black-box verdict."
+        },
+        {
+          "type": "p",
+          "text": "Four design decisions are worth stating plainly, because they are what makes the feature trustworthy rather than merely clever:"
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "Nothing is ever applied without you confirming it."
+        },
+        {
+          "type": "p",
+          "text": "Every suggestion has to be confirmed, edited or rejected. There is no automatic mode, and that is a deliberate choice rather than a missing setting."
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "This is not a language model guessing at your schema."
+        },
+        {
+          "type": "p",
+          "text": "It is column name and type matching with a score you can see. Predictable, inspectable, and the same answer every time."
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "A type match with no name signal is never suggested."
+        },
+        {
+          "type": "p",
+          "text": "Two integer columns are not evidence of anything. Surfacing those would bury the real matches in noise, so they are left out."
+        },
+        {
+          "type": "span",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "Ambiguity is shown, not resolved."
+        },
+        {
+          "type": "p",
+          "text": "When two columns are similarly plausible, you see both candidates and choose. L7 Insights does not pick for you."
+        },
+        {
+          "type": "p",
+          "text": "Reject a suggestion and it stays rejected. It will not reappear after the next sync."
+        },
+        {
+          "type": "p",
+          "text": "Detection reads column metadata only, never row values, so it costs the same on a fifty-row table as on a fifty-million-row one."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "01",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "02",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "03",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "04",
+          "detail": "",
+          "source": ".detail-cards__number"
+        }
+      ],
+      "cards": [
+        {
+          "element": "article",
+          "heading": "Nothing is ever applied without you confirming it.",
+          "text": [
+            "01",
+            "Every suggestion has to be confirmed, edited or rejected. There is no automatic mode, and that is a deliberate choice rather than a missing setting."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "This is not a language model guessing at your schema.",
+          "text": [
+            "02",
+            "It is column name and type matching with a score you can see. Predictable, inspectable, and the same answer every time."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "A type match with no name signal is never suggested.",
+          "text": [
+            "03",
+            "Two integer columns are not evidence of anything. Surfacing those would bury the real matches in noise, so they are left out."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Ambiguity is shown, not resolved.",
+          "text": [
+            "04",
+            "When two columns are similarly plausible, you see both candidates and choose. L7 Insights does not pick for you."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productl7insights_05_detail_section",
+      "section_order": 5,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Sources drift, and you find out from us",
+      "heading_level": "h2",
+      "eyebrow": "When things change",
+      "subheading": "",
+      "description": "A source you connected last month can arrive next week with a column renamed or dropped. When that happens to a join you rely on, L7 Insights tells you the relationship is broken rather than letting a chart quietly return the wrong number.\n\nWhere a joined column has mismatched types, the generated SQL casts explicitly rather than failing when someone opens the dashboard.",
+      "paragraphs": [
+        "When things change",
+        "A source you connected last month can arrive next week with a column renamed or dropped. When that happens to a join you rely on, L7 Insights tells you the relationship is broken rather than letting a chart quietly return the wrong number.",
+        "Where a joined column has mismatched types, the generated SQL casts explicitly rather than failing when someone opens the dashboard."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "When things change"
+        },
+        {
+          "type": "h2",
+          "text": "Sources drift, and you find out from us"
+        },
+        {
+          "type": "p",
+          "text": "A source you connected last month can arrive next week with a column renamed or dropped. When that happens to a join you rely on, L7 Insights tells you the relationship is broken rather than letting a chart quietly return the wrong number."
+        },
+        {
+          "type": "p",
+          "text": "Where a joined column has mismatched types, the generated SQL casts explicitly rather than failing when someone opens the dashboard."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productl7insights_06_detail_section",
+      "section_order": 6,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Teams whose data has outgrown a spreadsheet but not yet earned a data engineer.",
+      "heading_level": "h2",
+      "eyebrow": "Who it is for",
+      "subheading": "",
+      "description": "Operations leads reconciling two systems by hand every month, finance teams whose numbers live in an ERP and a Sheet, and agencies reporting across a client's stack.\n\nWorks alongside Site 360, which grades your website, and L7 Nexus, whose finance executive reads the numbers you record here.",
+      "paragraphs": [
+        "Who it is for",
+        "Operations leads reconciling two systems by hand every month, finance teams whose numbers live in an ERP and a Sheet, and agencies reporting across a client's stack.",
+        "Works alongside Site 360, which grades your website, and L7 Nexus, whose finance executive reads the numbers you record here."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Who it is for"
+        },
+        {
+          "type": "h2",
+          "text": "Teams whose data has outgrown a spreadsheet but not yet earned a data engineer."
+        },
+        {
+          "type": "p",
+          "text": "Operations leads reconciling two systems by hand every month, finance teams whose numbers live in an ERP and a Sheet, and agencies reporting across a client's stack."
+        },
+        {
+          "type": "p",
+          "text": "Works alongside Site 360, which grades your website, and L7 Nexus, whose finance executive reads the numbers you record here."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productl7insights_07_detail_section",
+      "section_order": 7,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Good questions.",
+      "heading_level": "h2",
+      "eyebrow": "A LITTLE MORE CLARITY",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "A LITTLE MORE CLARITY",
+        "A dashboard tool that connects the systems you already use, joins tables across them, and builds charts on the joined result. Connectors include Google Sheets, BigQuery, Snowflake, Zoho, SharePoint, SAP, and CSV or Excel upload.",
+        "Google Sheets, BigQuery, Snowflake, Zoho, SharePoint, SAP, and CSV or Excel uploads. Each connected source syncs into a table you can chart or join.",
+        "No. You choose the tables and the columns that connect them, and L7 Insights generates the join. The joined result then behaves like any other data source in the dashboard builder.",
+        "Two today. Support for chaining a third is in development.",
+        "No, and it is not designed to. Suggested relationships are in development, and even then every suggestion has to be confirmed, edited or rejected before it is used. Nothing is applied without you.",
+        "No. Data syncs into your workspace and joins run there, so a dashboard refresh does not hit your production systems.",
+        "If a re-sync renames or drops a column a join depends on, L7 Insights flags the broken relationship rather than letting charts return incorrect results."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "A LITTLE MORE CLARITY"
+        },
+        {
+          "type": "h2",
+          "text": "Good questions."
+        },
+        {
+          "type": "summary",
+          "text": "What is L7 Insights?–"
+        },
+        {
+          "type": "p",
+          "text": "A dashboard tool that connects the systems you already use, joins tables across them, and builds charts on the joined result. Connectors include Google Sheets, BigQuery, Snowflake, Zoho, SharePoint, SAP, and CSV or Excel upload."
+        },
+        {
+          "type": "summary",
+          "text": "Which data sources can I connect?+"
+        },
+        {
+          "type": "p",
+          "text": "Google Sheets, BigQuery, Snowflake, Zoho, SharePoint, SAP, and CSV or Excel uploads. Each connected source syncs into a table you can chart or join."
+        },
+        {
+          "type": "summary",
+          "text": "Do I need to write SQL?+"
+        },
+        {
+          "type": "p",
+          "text": "No. You choose the tables and the columns that connect them, and L7 Insights generates the join. The joined result then behaves like any other data source in the dashboard builder."
+        },
+        {
+          "type": "summary",
+          "text": "How many tables can one joined view use?+"
+        },
+        {
+          "type": "p",
+          "text": "Two today. Support for chaining a third is in development."
+        },
+        {
+          "type": "summary",
+          "text": "Will it join my tables automatically?+"
+        },
+        {
+          "type": "p",
+          "text": "No, and it is not designed to. Suggested relationships are in development, and even then every suggestion has to be confirmed, edited or rejected before it is used. Nothing is applied without you."
+        },
+        {
+          "type": "summary",
+          "text": "Does it query my warehouse live?+"
+        },
+        {
+          "type": "p",
+          "text": "No. Data syncs into your workspace and joins run there, so a dashboard refresh does not hit your production systems."
+        },
+        {
+          "type": "summary",
+          "text": "What happens if a source changes?+"
+        },
+        {
+          "type": "p",
+          "text": "If a re-sync renames or drops a column a join depends on, L7 Insights flags the broken relationship rather than letting charts return incorrect results."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "What is L7 Insights?–",
+          "open": true
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Which data sources can I connect?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Do I need to write SQL?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "How many tables can one joined view use?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Will it join my tables automatically?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Does it query my warehouse live?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "What happens if a source changes?+",
+          "open": false
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productl7insights_08_contact",
+      "section_order": 8,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

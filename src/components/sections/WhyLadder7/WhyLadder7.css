@@ -94,14 +94,14 @@
   will-change: opacity, transform;
 }
 
-.why__labels > div {
+.why__labels>div {
   max-width: 23%;
-  font-size: clamp(0.9375rem, 1.35vw, 1.3125rem);
+  font-size: clamp(1.125rem, 1.35vw, 1.3125rem);
   line-height: 1.4;
   letter-spacing: -0.7px;
 }
 
-.why__labels > div:last-child {
+.why__labels>div:last-child {
   text-align: right;
 }
 
@@ -174,7 +174,7 @@
   will-change: transform, opacity;
 }
 
-.why__reason > span {
+.why__reason>span {
   font-size: var(--font-size-micro);
   color: var(--color-brand-ink);
 }
@@ -189,7 +189,8 @@
 .why__reason p {
   max-width: 320px;
   margin: 0 auto;
-  font-size: 1.0625rem; /* 17px */
+  font-size: 1.125rem;
+  /* 18px */
   line-height: var(--line-height-body);
   color: var(--color-ink-subtle);
 }
@@ -260,7 +261,7 @@
     top: 255px;
   }
 
-  .why__labels > div {
+  .why__labels>div {
     max-width: 20%;
     font-size: var(--font-size-body-sm);
   }
@@ -342,7 +343,7 @@
     gap: 40px;
   }
 
-  .why__labels > div {
+  .why__labels>div {
     max-width: 45%;
     font-size: var(--font-size-caption);
   }
@@ -417,6 +418,7 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
+
   .why,
   .motion-ready .why {
     --character-enter: 1;

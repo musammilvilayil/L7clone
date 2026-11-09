@@ -1,0 +1,1896 @@
+{
+  "navigation": {
+    "variants": [
+      {
+        "variant_id": "nav_variant_1",
+        "pages_count": 66,
+        "pages": [
+          "/",
+          "/services",
+          "/about",
+          "/contact",
+          "/education",
+          "/faq",
+          "/careers",
+          "/portfolio",
+          "/products",
+          "/products/site-360",
+          "/products/l7-nexus",
+          "/products/outreach-engine",
+          "/products/l7-insights",
+          "/products/infinite-insights",
+          "/myladder",
+          "/mindgym",
+          "/mirrorme",
+          "/filldots",
+          "/amiu",
+          "/services/aem-digital-experience",
+          "/services/analytics-experimentation",
+          "/services/headless-cms",
+          "/services/web-experience",
+          "/services/localization-uiux",
+          "/services/ai-assistant",
+          "/services/agenticai",
+          "/services/intelligent-websites",
+          "/services/aiproduct",
+          "/services/hyperautomation",
+          "/services/technology",
+          "/services/skilled-resource",
+          "/services/green-recovery",
+          "/services/product-solution",
+          "/corporate-training-kerala",
+          "/corporate-training-kerala/full-stack-development",
+          "/corporate-training-kerala/data-science",
+          "/corporate-training-kerala/mobile-app-development",
+          "/corporate-training-kerala/prompt-engineering-ai-training",
+          "/corporate-training-kerala/data-visualization",
+          "/corporate-training-kerala/cloud-computing-bootcamp",
+          "/corporate-training-kerala/digital-content-creation",
+          "/corporate-training-kerala/business-analytics",
+          "/corporate-training-kerala/business-intelligence-data-analytics",
+          "/corporate-training-kerala/marketing-automation-crm",
+          "/corporate-training-kerala/webops-ai-ml",
+          "/blogs",
+          "/blogs/ai-personalize-web-experince",
+          "/blogs/ai-tools-web-development-team",
+          "/blogs/conversational-ai-customer-experience",
+          "/blogs/why-website-checks-need-to-go-beyond-performance-scores",
+          "/blogs/festive-onam-ladder7",
+          "/blogs/magical-christmas-celebration",
+          "/blogs/independence-day-ladder7",
+          "/privacy",
+          "/thank-you",
+          "/sitemap",
+          "/bootcamp",
+          "/earnmore",
+          "/it-training-internship-trivandrum",
+          "/full-stack-developer-course-trivandrum",
+          "/ai-data-science-course-trivandrum",
+          "/software-testing-course-trivandrum",
+          "/shopify-developer-course-workshop",
+          "/experience-the-first-job",
+          "/training-internship/career-goal-finding",
+          "/404 (unmatched URLs)",
+          "/custom-software-development-company-india",
+          "/hire-dedicated-developers-india",
+          "/offshore-software-development-india",
+          "/mobile-app-development-company-india",
+          "/software-development-company-uae",
+          "/software-development-company-saudi-arabia",
+          "/software-development-gcc",
+          "/offshore-software-development-uk-europe",
+          "/software-development-outsourcing-africa",
+          "/engagement-models-pricing",
+          "/blogs/how-to-choose-custom-software-development-company-india",
+          "/blogs/india-vs-eastern-europe-vs-africa-software-outsourcing"
+        ],
+        "nav": [
+          {
+            "aria_label": "Main navigation",
+            "links": [
+              {
+                "text": "Services",
+                "href": "/services",
+                "current": null,
+                "selected_class": false
+              },
+              {
+                "text": "Hire developers",
+                "href": "/hire-dedicated-developers-india",
+                "current": null,
+                "selected_class": false
+              },
+              {
+                "text": "Products",
+                "href": "/products",
+                "current": null,
+                "selected_class": false
+              },
+              {
+                "text": "About",
+                "href": "/about",
+                "current": null,
+                "selected_class": false
+              },
+              {
+                "text": "Insights",
+                "href": "/blogs",
+                "current": null,
+                "selected_class": false
+              },
+              {
+                "text": "Contact us",
+                "href": "/contact",
+                "current": null,
+                "selected_class": false
+              }
+            ]
+          },
+          {
+            "aria_label": "Ladder7 divisions",
+            "links": [
+              {
+                "text": "IT",
+                "href": "/",
+                "current": "page",
+                "selected_class": true
+              },
+              {
+                "text": "Education",
+                "href": "/education",
+                "current": null,
+                "selected_class": false
+              }
+            ]
+          }
+        ],
+        "cta": [
+          {
+            "text": "Let's talk",
+            "href": "<current page>#contact"
+          }
+        ],
+        "logo": [
+          {
+            "src": "/images/brand/ladder7-logo-284.webp",
+            "alt": "Ladder7 Nextstep Solutions",
+            "description": "Ladder7 Nextstep Solutions",
+            "width": "142",
+            "height": "58",
+            "fetchpriority": "high",
+            "srcset": "/images/brand/ladder7-logo-284.webp 284w, /images/brand/ladder7-logo-568.webp 568w",
+            "sizes": "142px"
+          }
+        ],
+        "menu_toggle": [
+          {
+            "aria_label": "Open menu",
+            "aria_controls": "menu",
+            "aria_expanded": "false"
+          }
+        ]
+      },
+      {
+        "variant_id": "nav_variant_2",
+        "pages_count": 66,
+        "pages": [
+          "/",
+          "/services",
+          "/about",
+          "/contact",
+          "/education",
+          "/faq",
+          "/careers",
+          "/portfolio",
+          "/products",
+          "/products/site-360",
+          "/products/l7-nexus",
+          "/products/outreach-engine",
+          "/products/l7-insights",
+          "/products/infinite-insights",
+          "/myladder",
+          "/mindgym",
+          "/mirrorme",
+          "/filldots",
+          "/amiu",
+          "/services/aem-digital-experience",
+          "/services/analytics-experimentation",
+          "/services/headless-cms",
+          "/services/web-experience",
+          "/services/localization-uiux",
+          "/services/ai-assistant",
+          "/services/agenticai",
+          "/services/intelligent-websites",
+          "/services/aiproduct",
+          "/services/hyperautomation",
+          "/services/technology",
+          "/services/skilled-resource",
+          "/services/green-recovery",
+          "/services/product-solution",
+          "/corporate-training-kerala",
+          "/corporate-training-kerala/full-stack-development",
+          "/corporate-training-kerala/data-science",
+          "/corporate-training-kerala/mobile-app-development",
+          "/corporate-training-kerala/prompt-engineering-ai-training",
+          "/corporate-training-kerala/data-visualization",
+          "/corporate-training-kerala/cloud-computing-bootcamp",
+          "/corporate-training-kerala/digital-content-creation",
+          "/corporate-training-kerala/business-analytics",
+          "/corporate-training-kerala/business-intelligence-data-analytics",
+          "/corporate-training-kerala/marketing-automation-crm",
+          "/corporate-training-kerala/webops-ai-ml",
+          "/blogs",
+          "/blogs/ai-personalize-web-experince",
+          "/blogs/ai-tools-web-development-team",
+          "/blogs/conversational-ai-customer-experience",
+          "/blogs/why-website-checks-need-to-go-beyond-performance-scores",
+          "/blogs/festive-onam-ladder7",
+          "/blogs/magical-christmas-celebration",
+          "/blogs/independence-day-ladder7",
+          "/privacy",
+          "/thank-you",
+          "/sitemap",
+          "/bootcamp",
+          "/earnmore",
+          "/it-training-internship-trivandrum",
+          "/full-stack-developer-course-trivandrum",
+          "/ai-data-science-course-trivandrum",
+          "/software-testing-course-trivandrum",
+          "/shopify-developer-course-workshop",
+          "/experience-the-first-job",
+          "/training-internship/career-goal-finding",
+          "/404 (unmatched URLs)"
+        ],
+        "overlay_menu": {
+          "groups": [
+            {
+              "title": "Navigation",
+              "links": [
+                {
+                  "text": "Home",
+                  "href": "/"
+                },
+                {
+                  "text": "About",
+                  "href": "/about"
+                },
+                {
+                  "text": "Services",
+                  "href": "/services"
+                },
+                {
+                  "text": "Products",
+                  "href": "/products"
+                },
+                {
+                  "text": "Insights",
+                  "href": "/blogs"
+                },
+                {
+                  "text": "Our work",
+                  "href": "/portfolio"
+                },
+                {
+                  "text": "Careers",
+                  "href": "/careers"
+                },
+                {
+                  "text": "FAQ",
+                  "href": "/faq"
+                },
+                {
+                  "text": "Contact us",
+                  "href": "/contact"
+                }
+              ]
+            },
+            {
+              "title": "Technology",
+              "links": [
+                {
+                  "text": "Digital experience",
+                  "href": "/services#digital-experience"
+                },
+                {
+                  "text": "AI & automation",
+                  "href": "/services#ai-automation"
+                },
+                {
+                  "text": "Strategy & consulting",
+                  "href": "/services#strategy-consulting"
+                },
+                {
+                  "text": "Corporate training",
+                  "href": "/corporate-training-kerala"
+                }
+              ]
+            },
+            {
+              "title": "Learning",
+              "links": [
+                {
+                  "text": "Training & internships",
+                  "href": "/it-training-internship-trivandrum"
+                },
+                {
+                  "text": "Bootcamp",
+                  "href": "/bootcamp"
+                },
+                {
+                  "text": "First-job experience",
+                  "href": "/experience-the-first-job"
+                },
+                {
+                  "text": "Career guidance",
+                  "href": "/training-internship/career-goal-finding"
+                }
+              ]
+            },
+            {
+              "title": "Products",
+              "links": [
+                {
+                  "text": "Site 360",
+                  "href": "/products/site-360"
+                },
+                {
+                  "text": "L7 Nexus",
+                  "href": "/products/l7-nexus"
+                },
+                {
+                  "text": "L7 Insights",
+                  "href": "/products/l7-insights"
+                },
+                {
+                  "text": "Outreach Engine",
+                  "href": "/products/outreach-engine"
+                },
+                {
+                  "text": "Infinite Insights",
+                  "href": "/products/infinite-insights"
+                },
+                {
+                  "text": "AMIU",
+                  "href": "/amiu"
+                },
+                {
+                  "text": "My Ladder",
+                  "href": "/myladder"
+                },
+                {
+                  "text": "Mind Gym",
+                  "href": "/mindgym"
+                },
+                {
+                  "text": "Mirror Me",
+                  "href": "/mirrorme"
+                },
+                {
+                  "text": "Fill Dots",
+                  "href": "/filldots"
+                }
+              ]
+            },
+            {
+              "title": "Explore",
+              "links": [
+                {
+                  "text": "All pages",
+                  "href": "/sitemap"
+                },
+                {
+                  "text": "Privacy",
+                  "href": "/privacy"
+                }
+              ]
+            }
+          ],
+          "form": 1,
+          "prose": [
+            "Let's work together",
+            "What comes next for you?",
+            "I'm interested in",
+            "Digital experience",
+            "Applied AI",
+            "Technology strategy",
+            "Training & internships",
+            "Personal growth",
+            "Corporate training",
+            "Your name*",
+            "Email*",
+            "Tell us about your next step*",
+            "Your enquiry opens in WhatsApp for you to review and send.",
+            "Submit (opens WhatsApp in a new tab)",
+            "Prefer email? info@ladder7.in · Book a call ↗"
+          ]
+        }
+      }
+    ]
+  },
+  "footer": {
+    "variants": [
+      {
+        "variant_id": "footer_variant_1",
+        "pages_count": 66,
+        "pages": [
+          "/",
+          "/services",
+          "/about",
+          "/contact",
+          "/education",
+          "/faq",
+          "/careers",
+          "/portfolio",
+          "/products",
+          "/products/site-360",
+          "/products/l7-nexus",
+          "/products/outreach-engine",
+          "/products/l7-insights",
+          "/products/infinite-insights",
+          "/myladder",
+          "/mindgym",
+          "/mirrorme",
+          "/filldots",
+          "/amiu",
+          "/services/aem-digital-experience",
+          "/services/analytics-experimentation",
+          "/services/headless-cms",
+          "/services/web-experience",
+          "/services/localization-uiux",
+          "/services/ai-assistant",
+          "/services/agenticai",
+          "/services/intelligent-websites",
+          "/services/aiproduct",
+          "/services/hyperautomation",
+          "/services/technology",
+          "/services/skilled-resource",
+          "/services/green-recovery",
+          "/services/product-solution",
+          "/corporate-training-kerala",
+          "/corporate-training-kerala/full-stack-development",
+          "/corporate-training-kerala/data-science",
+          "/corporate-training-kerala/mobile-app-development",
+          "/corporate-training-kerala/prompt-engineering-ai-training",
+          "/corporate-training-kerala/data-visualization",
+          "/corporate-training-kerala/cloud-computing-bootcamp",
+          "/corporate-training-kerala/digital-content-creation",
+          "/corporate-training-kerala/business-analytics",
+          "/corporate-training-kerala/business-intelligence-data-analytics",
+          "/corporate-training-kerala/marketing-automation-crm",
+          "/corporate-training-kerala/webops-ai-ml",
+          "/blogs",
+          "/blogs/ai-personalize-web-experince",
+          "/blogs/ai-tools-web-development-team",
+          "/blogs/conversational-ai-customer-experience",
+          "/blogs/why-website-checks-need-to-go-beyond-performance-scores",
+          "/blogs/festive-onam-ladder7",
+          "/blogs/magical-christmas-celebration",
+          "/blogs/independence-day-ladder7",
+          "/privacy",
+          "/thank-you",
+          "/sitemap",
+          "/bootcamp",
+          "/earnmore",
+          "/it-training-internship-trivandrum",
+          "/full-stack-developer-course-trivandrum",
+          "/ai-data-science-course-trivandrum",
+          "/software-testing-course-trivandrum",
+          "/shopify-developer-course-workshop",
+          "/experience-the-first-job",
+          "/training-internship/career-goal-finding",
+          "/404 (unmatched URLs)",
+          "/custom-software-development-company-india",
+          "/hire-dedicated-developers-india",
+          "/offshore-software-development-india",
+          "/mobile-app-development-company-india",
+          "/software-development-company-uae",
+          "/software-development-company-saudi-arabia",
+          "/software-development-gcc",
+          "/offshore-software-development-uk-europe",
+          "/software-development-outsourcing-africa",
+          "/engagement-models-pricing",
+          "/blogs/how-to-choose-custom-software-development-company-india",
+          "/blogs/india-vs-eastern-europe-vs-africa-software-outsourcing"
+        ],
+        "classes": [
+          "site-footer",
+          "footer-compact"
+        ],
+        "blocks": [
+          "Ladder7.\nYour next chapter starts here Let's find your next step",
+          "Technology with purpose.\nLearning that moves you forward.",
+          "info@ladder7.in",
+          "Explore",
+          "Home",
+          "About",
+          "Services",
+          "Products",
+          "Insights",
+          "Our work",
+          "Learn & grow",
+          "Education",
+          "Training & internships",
+          "Corporate training",
+          "Bootcamp",
+          "Careers",
+          "FAQ",
+          "Connect",
+          "Contact",
+          "LinkedIn (opens in a new tab)",
+          "Instagram (opens in a new tab)",
+          "Privacy",
+          "All pages",
+          "Our bases. Your next step.",
+          "Cochin WEE SPACES, Ernakulam",
+          "Trivandrum Kinfra Film and IT Park, Trivandrum",
+          "Find Ladder7",
+          "© 2026 Ladder7 NextStep Solutions. All rights reserved.",
+          "Privacy",
+          "Back to top ↑"
+        ],
+        "links": [
+          {
+            "text": "Ladder7.",
+            "href": "/",
+            "type": "internal"
+          },
+          {
+            "text": "Let's find your next step",
+            "href": "/contact",
+            "type": "internal"
+          },
+          {
+            "text": "info@ladder7.in",
+            "href": "mailto:info@ladder7.in",
+            "type": "mailto"
+          },
+          {
+            "text": "Home",
+            "href": "/",
+            "type": "internal"
+          },
+          {
+            "text": "About",
+            "href": "/about",
+            "type": "internal"
+          },
+          {
+            "text": "Services",
+            "href": "/services",
+            "type": "internal"
+          },
+          {
+            "text": "Products",
+            "href": "/products",
+            "type": "internal"
+          },
+          {
+            "text": "Insights",
+            "href": "/blogs",
+            "type": "internal"
+          },
+          {
+            "text": "Our work",
+            "href": "/portfolio",
+            "type": "internal"
+          },
+          {
+            "text": "Education",
+            "href": "/education",
+            "type": "internal"
+          },
+          {
+            "text": "Training & internships",
+            "href": "/it-training-internship-trivandrum",
+            "type": "internal"
+          },
+          {
+            "text": "Corporate training",
+            "href": "/corporate-training-kerala",
+            "type": "internal"
+          },
+          {
+            "text": "Bootcamp",
+            "href": "/bootcamp",
+            "type": "internal"
+          },
+          {
+            "text": "Careers",
+            "href": "/careers",
+            "type": "internal"
+          },
+          {
+            "text": "FAQ",
+            "href": "/faq",
+            "type": "internal"
+          },
+          {
+            "text": "Contact",
+            "href": "/contact",
+            "type": "internal"
+          },
+          {
+            "text": "LinkedIn (opens in a new tab)",
+            "href": "https://www.linkedin.com/company/ladder7-nextstep-solutions-llp/",
+            "type": "external",
+            "target": "_blank"
+          },
+          {
+            "text": "Instagram (opens in a new tab)",
+            "href": "https://www.instagram.com/ladder7_nextstep_solutions_/",
+            "type": "external",
+            "target": "_blank"
+          },
+          {
+            "text": "Privacy",
+            "href": "/privacy",
+            "type": "internal"
+          },
+          {
+            "text": "All pages",
+            "href": "/sitemap",
+            "type": "internal"
+          },
+          {
+            "text": "Find Ladder7",
+            "href": "/contact",
+            "type": "internal"
+          },
+          {
+            "text": "Privacy",
+            "href": "/privacy",
+            "type": "internal"
+          },
+          {
+            "text": "Back to top ↑",
+            "href": "#top",
+            "type": "anchor"
+          },
+          {
+            "text": "Custom software development",
+            "href": "/custom-software-development-company-india"
+          },
+          {
+            "text": "Hire dedicated developers",
+            "href": "/hire-dedicated-developers-india"
+          },
+          {
+            "text": "Offshore development centre",
+            "href": "/offshore-software-development-india"
+          },
+          {
+            "text": "Mobile app development",
+            "href": "/mobile-app-development-company-india"
+          },
+          {
+            "text": "Engagement models & pricing",
+            "href": "/engagement-models-pricing"
+          },
+          {
+            "text": "UAE",
+            "href": "/software-development-company-uae"
+          },
+          {
+            "text": "Saudi Arabia",
+            "href": "/software-development-company-saudi-arabia"
+          },
+          {
+            "text": "Qatar, Kuwait, Bahrain, Oman",
+            "href": "/software-development-gcc"
+          },
+          {
+            "text": "UK & Europe",
+            "href": "/offshore-software-development-uk-europe"
+          },
+          {
+            "text": "Africa",
+            "href": "/software-development-outsourcing-africa"
+          }
+        ],
+        "nav_groups": [
+          {
+            "aria_label": null,
+            "heading": "Explore",
+            "links": [
+              {
+                "text": "Home",
+                "href": "/"
+              },
+              {
+                "text": "About",
+                "href": "/about"
+              },
+              {
+                "text": "Services",
+                "href": "/services"
+              },
+              {
+                "text": "Products",
+                "href": "/products"
+              },
+              {
+                "text": "Insights",
+                "href": "/blogs"
+              },
+              {
+                "text": "Our work",
+                "href": "/portfolio"
+              }
+            ]
+          },
+          {
+            "aria_label": null,
+            "heading": "Work with us",
+            "links": [
+              {
+                "text": "Custom software development",
+                "href": "/custom-software-development-company-india"
+              },
+              {
+                "text": "Hire dedicated developers",
+                "href": "/hire-dedicated-developers-india"
+              },
+              {
+                "text": "Offshore development centre",
+                "href": "/offshore-software-development-india"
+              },
+              {
+                "text": "Mobile app development",
+                "href": "/mobile-app-development-company-india"
+              },
+              {
+                "text": "Engagement models & pricing",
+                "href": "/engagement-models-pricing"
+              }
+            ]
+          },
+          {
+            "aria_label": null,
+            "heading": "Regions we serve",
+            "links": [
+              {
+                "text": "UAE",
+                "href": "/software-development-company-uae"
+              },
+              {
+                "text": "Saudi Arabia",
+                "href": "/software-development-company-saudi-arabia"
+              },
+              {
+                "text": "Qatar, Kuwait, Bahrain, Oman",
+                "href": "/software-development-gcc"
+              },
+              {
+                "text": "UK & Europe",
+                "href": "/offshore-software-development-uk-europe"
+              },
+              {
+                "text": "Africa",
+                "href": "/software-development-outsourcing-africa"
+              }
+            ]
+          },
+          {
+            "aria_label": null,
+            "heading": "Learn & grow",
+            "links": [
+              {
+                "text": "Education",
+                "href": "/education"
+              },
+              {
+                "text": "Training & internships",
+                "href": "/it-training-internship-trivandrum"
+              },
+              {
+                "text": "Corporate training",
+                "href": "/corporate-training-kerala"
+              },
+              {
+                "text": "Bootcamp",
+                "href": "/bootcamp"
+              },
+              {
+                "text": "Careers",
+                "href": "/careers"
+              },
+              {
+                "text": "FAQ",
+                "href": "/faq"
+              }
+            ]
+          },
+          {
+            "aria_label": null,
+            "heading": "Connect",
+            "links": [
+              {
+                "text": "Contact",
+                "href": "/contact"
+              },
+              {
+                "text": "LinkedIn (opens in a new tab)",
+                "href": "https://www.linkedin.com/company/ladder7-nextstep-solutions-llp/"
+              },
+              {
+                "text": "Instagram (opens in a new tab)",
+                "href": "https://www.instagram.com/ladder7_nextstep_solutions_/"
+              },
+              {
+                "text": "Privacy",
+                "href": "/privacy"
+              },
+              {
+                "text": "All pages",
+                "href": "/sitemap"
+              }
+            ]
+          }
+        ],
+        "addresses": [
+          "Kochi (Cochin) WEE SPACES, Ernakulam, Kerala, India",
+          "Trivandrum Kinfra Film and IT Park, Trivandrum, Kerala, India"
+        ]
+      }
+    ]
+  },
+  "forms": [
+    {
+      "form_id": "form_01",
+      "region": "overlay-menu",
+      "fields": [
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "Digital experience",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "Applied AI",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "Technology strategy",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "Training & internships",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "Personal growth",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "Corporate training",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "name",
+          "type": "text",
+          "label": "Your name*",
+          "placeholder": null,
+          "required_attr": true,
+          "aria_required": null,
+          "autocomplete": "name",
+          "maxlength": "120",
+          "rows": null,
+          "aria_invalid": "false"
+        },
+        {
+          "element": "input",
+          "name": "email",
+          "type": "email",
+          "label": "Email*",
+          "placeholder": null,
+          "required_attr": true,
+          "aria_required": null,
+          "autocomplete": "email",
+          "maxlength": "254",
+          "rows": null,
+          "aria_invalid": "false"
+        },
+        {
+          "element": "textarea",
+          "name": "message",
+          "type": "textarea",
+          "label": "Tell us about your next step*",
+          "placeholder": null,
+          "required_attr": true,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": "2050",
+          "rows": "2",
+          "aria_invalid": "false"
+        }
+      ],
+      "submit_buttons": [
+        "Submit (opens WhatsApp in a new tab)"
+      ],
+      "wrapper_class": "enquiry enquiry--menu",
+      "method": null,
+      "action": null,
+      "occurrences": [
+        {
+          "page": "/",
+          "section_id": null
+        },
+        {
+          "page": "/services",
+          "section_id": null
+        },
+        {
+          "page": "/about",
+          "section_id": null
+        },
+        {
+          "page": "/contact",
+          "section_id": null
+        },
+        {
+          "page": "/education",
+          "section_id": null
+        },
+        {
+          "page": "/faq",
+          "section_id": null
+        },
+        {
+          "page": "/careers",
+          "section_id": null
+        },
+        {
+          "page": "/portfolio",
+          "section_id": null
+        },
+        {
+          "page": "/products",
+          "section_id": null
+        },
+        {
+          "page": "/products/site-360",
+          "section_id": null
+        },
+        {
+          "page": "/products/l7-nexus",
+          "section_id": null
+        },
+        {
+          "page": "/products/outreach-engine",
+          "section_id": null
+        },
+        {
+          "page": "/products/l7-insights",
+          "section_id": null
+        },
+        {
+          "page": "/products/infinite-insights",
+          "section_id": null
+        },
+        {
+          "page": "/myladder",
+          "section_id": null
+        },
+        {
+          "page": "/mindgym",
+          "section_id": null
+        },
+        {
+          "page": "/mirrorme",
+          "section_id": null
+        },
+        {
+          "page": "/filldots",
+          "section_id": null
+        },
+        {
+          "page": "/amiu",
+          "section_id": null
+        },
+        {
+          "page": "/services/aem-digital-experience",
+          "section_id": null
+        },
+        {
+          "page": "/services/analytics-experimentation",
+          "section_id": null
+        },
+        {
+          "page": "/services/headless-cms",
+          "section_id": null
+        },
+        {
+          "page": "/services/web-experience",
+          "section_id": null
+        },
+        {
+          "page": "/services/localization-uiux",
+          "section_id": null
+        },
+        {
+          "page": "/services/ai-assistant",
+          "section_id": null
+        },
+        {
+          "page": "/services/agenticai",
+          "section_id": null
+        },
+        {
+          "page": "/services/intelligent-websites",
+          "section_id": null
+        },
+        {
+          "page": "/services/aiproduct",
+          "section_id": null
+        },
+        {
+          "page": "/services/hyperautomation",
+          "section_id": null
+        },
+        {
+          "page": "/services/technology",
+          "section_id": null
+        },
+        {
+          "page": "/services/skilled-resource",
+          "section_id": null
+        },
+        {
+          "page": "/services/green-recovery",
+          "section_id": null
+        },
+        {
+          "page": "/services/product-solution",
+          "section_id": null
+        },
+        {
+          "page": "/corporate-training-kerala",
+          "section_id": null
+        },
+        {
+          "page": "/corporate-training-kerala/full-stack-development",
+          "section_id": null
+        },
+        {
+          "page": "/corporate-training-kerala/data-science",
+          "section_id": null
+        },
+        {
+          "page": "/corporate-training-kerala/mobile-app-development",
+          "section_id": null
+        },
+        {
+          "page": "/corporate-training-kerala/prompt-engineering-ai-training",
+          "section_id": null
+        },
+        {
+          "page": "/corporate-training-kerala/data-visualization",
+          "section_id": null
+        },
+        {
+          "page": "/corporate-training-kerala/cloud-computing-bootcamp",
+          "section_id": null
+        },
+        {
+          "page": "/corporate-training-kerala/digital-content-creation",
+          "section_id": null
+        },
+        {
+          "page": "/corporate-training-kerala/business-analytics",
+          "section_id": null
+        },
+        {
+          "page": "/corporate-training-kerala/business-intelligence-data-analytics",
+          "section_id": null
+        },
+        {
+          "page": "/corporate-training-kerala/marketing-automation-crm",
+          "section_id": null
+        },
+        {
+          "page": "/corporate-training-kerala/webops-ai-ml",
+          "section_id": null
+        },
+        {
+          "page": "/blogs",
+          "section_id": null
+        },
+        {
+          "page": "/blogs/ai-personalize-web-experince",
+          "section_id": null
+        },
+        {
+          "page": "/blogs/ai-tools-web-development-team",
+          "section_id": null
+        },
+        {
+          "page": "/blogs/conversational-ai-customer-experience",
+          "section_id": null
+        },
+        {
+          "page": "/blogs/why-website-checks-need-to-go-beyond-performance-scores",
+          "section_id": null
+        },
+        {
+          "page": "/blogs/festive-onam-ladder7",
+          "section_id": null
+        },
+        {
+          "page": "/blogs/magical-christmas-celebration",
+          "section_id": null
+        },
+        {
+          "page": "/blogs/independence-day-ladder7",
+          "section_id": null
+        },
+        {
+          "page": "/privacy",
+          "section_id": null
+        },
+        {
+          "page": "/thank-you",
+          "section_id": null
+        },
+        {
+          "page": "/sitemap",
+          "section_id": null
+        },
+        {
+          "page": "/bootcamp",
+          "section_id": null
+        },
+        {
+          "page": "/earnmore",
+          "section_id": null
+        },
+        {
+          "page": "/it-training-internship-trivandrum",
+          "section_id": null
+        },
+        {
+          "page": "/full-stack-developer-course-trivandrum",
+          "section_id": null
+        },
+        {
+          "page": "/ai-data-science-course-trivandrum",
+          "section_id": null
+        },
+        {
+          "page": "/software-testing-course-trivandrum",
+          "section_id": null
+        },
+        {
+          "page": "/shopify-developer-course-workshop",
+          "section_id": null
+        },
+        {
+          "page": "/experience-the-first-job",
+          "section_id": null
+        },
+        {
+          "page": "/training-internship/career-goal-finding",
+          "section_id": null
+        },
+        {
+          "page": "/404 (unmatched URLs)",
+          "section_id": null
+        },
+        {
+          "page": "/custom-software-development-company-india",
+          "section_id": null
+        },
+        {
+          "page": "/hire-dedicated-developers-india",
+          "section_id": null
+        },
+        {
+          "page": "/offshore-software-development-india",
+          "section_id": null
+        },
+        {
+          "page": "/mobile-app-development-company-india",
+          "section_id": null
+        },
+        {
+          "page": "/software-development-company-uae",
+          "section_id": null
+        },
+        {
+          "page": "/software-development-company-saudi-arabia",
+          "section_id": null
+        },
+        {
+          "page": "/software-development-gcc",
+          "section_id": null
+        },
+        {
+          "page": "/offshore-software-development-uk-europe",
+          "section_id": null
+        },
+        {
+          "page": "/software-development-outsourcing-africa",
+          "section_id": null
+        },
+        {
+          "page": "/engagement-models-pricing",
+          "section_id": null
+        },
+        {
+          "page": "/blogs/how-to-choose-custom-software-development-company-india",
+          "section_id": null
+        },
+        {
+          "page": "/blogs/india-vs-eastern-europe-vs-africa-software-outsourcing",
+          "section_id": null
+        }
+      ],
+      "headings_seen": [
+        "What comes next for you?"
+      ],
+      "occurrence_count": 78,
+      "validation": "see fn_enquiry_validation (client-side, source-code finding). Native HTML5 'required' attributes: present",
+      "submit_action": "preventDefault → validate → window.open WhatsApp URL (source-code finding)",
+      "verified": false
+    },
+    {
+      "form_id": "form_02",
+      "region": "main",
+      "fields": [
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "Digital experience",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "AI & automation",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "Training & internships",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "Corporate training",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "Career guidance",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "Personal growth",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "name",
+          "type": "text",
+          "label": "Your name*",
+          "placeholder": "Your name",
+          "required_attr": true,
+          "aria_required": null,
+          "autocomplete": "name",
+          "maxlength": "120",
+          "rows": null,
+          "aria_invalid": "false"
+        },
+        {
+          "element": "input",
+          "name": "email",
+          "type": "email",
+          "label": "Work email*",
+          "placeholder": "you@company.com",
+          "required_attr": true,
+          "aria_required": null,
+          "autocomplete": "email",
+          "maxlength": "254",
+          "rows": null,
+          "aria_invalid": "false"
+        },
+        {
+          "element": "textarea",
+          "name": "message",
+          "type": "textarea",
+          "label": "What would you like to achieve?*",
+          "placeholder": "Tell us about your business, challenge or idea.",
+          "required_attr": true,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": "2050",
+          "rows": "3",
+          "aria_invalid": "false"
+        }
+      ],
+      "submit_buttons": [
+        "Submit (opens WhatsApp in a new tab)"
+      ],
+      "wrapper_class": "enquiry enquiry--contact",
+      "method": null,
+      "action": null,
+      "occurrences": [
+        {
+          "page": "/",
+          "section_id": "home_13_contact"
+        },
+        {
+          "page": "/services",
+          "section_id": "services_06_contact"
+        },
+        {
+          "page": "/about",
+          "section_id": "about_07_contact"
+        },
+        {
+          "page": "/contact",
+          "section_id": "contact_01_contact"
+        },
+        {
+          "page": "/faq",
+          "section_id": "faq_03_contact"
+        },
+        {
+          "page": "/careers",
+          "section_id": "careers_07_contact"
+        },
+        {
+          "page": "/portfolio",
+          "section_id": "portfolio_11_contact"
+        },
+        {
+          "page": "/products",
+          "section_id": "products_03_contact"
+        },
+        {
+          "page": "/products/site-360",
+          "section_id": "productsite360_08_contact"
+        },
+        {
+          "page": "/products/l7-nexus",
+          "section_id": "productl7nexus_11_contact"
+        },
+        {
+          "page": "/products/outreach-engine",
+          "section_id": "productoutreachengine_09_contact"
+        },
+        {
+          "page": "/products/l7-insights",
+          "section_id": "productl7insights_08_contact"
+        },
+        {
+          "page": "/products/infinite-insights",
+          "section_id": "productinfiniteinsights_07_contact"
+        },
+        {
+          "page": "/myladder",
+          "section_id": "productmyladder_07_contact"
+        },
+        {
+          "page": "/mindgym",
+          "section_id": "productmindgym_07_contact"
+        },
+        {
+          "page": "/mirrorme",
+          "section_id": "productmirrorme_06_contact"
+        },
+        {
+          "page": "/filldots",
+          "section_id": "productfilldots_06_contact"
+        },
+        {
+          "page": "/amiu",
+          "section_id": "productamiu_07_contact"
+        },
+        {
+          "page": "/services/aem-digital-experience",
+          "section_id": "serviceaemdigitalexperience_07_contact"
+        },
+        {
+          "page": "/services/analytics-experimentation",
+          "section_id": "serviceanalyticsexperimentation_07_contact"
+        },
+        {
+          "page": "/services/headless-cms",
+          "section_id": "serviceheadlesscms_07_contact"
+        },
+        {
+          "page": "/services/web-experience",
+          "section_id": "servicewebexperience_06_contact"
+        },
+        {
+          "page": "/services/localization-uiux",
+          "section_id": "servicelocalizationuiux_06_contact"
+        },
+        {
+          "page": "/services/ai-assistant",
+          "section_id": "serviceaiassistant_07_contact"
+        },
+        {
+          "page": "/services/agenticai",
+          "section_id": "serviceagenticai_07_contact"
+        },
+        {
+          "page": "/services/intelligent-websites",
+          "section_id": "serviceintelligentwebsites_07_contact"
+        },
+        {
+          "page": "/services/aiproduct",
+          "section_id": "serviceaiproduct_07_contact"
+        },
+        {
+          "page": "/services/hyperautomation",
+          "section_id": "servicehyperautomation_06_contact"
+        },
+        {
+          "page": "/services/technology",
+          "section_id": "servicetechnology_07_contact"
+        },
+        {
+          "page": "/services/skilled-resource",
+          "section_id": "serviceskilledresource_07_contact"
+        },
+        {
+          "page": "/services/green-recovery",
+          "section_id": "servicegreenrecovery_07_contact"
+        },
+        {
+          "page": "/services/product-solution",
+          "section_id": "serviceproductsolution_06_contact"
+        },
+        {
+          "page": "/corporate-training-kerala",
+          "section_id": "corporatetraining_05_contact"
+        },
+        {
+          "page": "/corporate-training-kerala/full-stack-development",
+          "section_id": "trainingfullstackdevelopment_07_contact"
+        },
+        {
+          "page": "/corporate-training-kerala/data-science",
+          "section_id": "trainingdatascience_07_contact"
+        },
+        {
+          "page": "/corporate-training-kerala/mobile-app-development",
+          "section_id": "trainingmobileappdevelopment_07_contact"
+        },
+        {
+          "page": "/corporate-training-kerala/prompt-engineering-ai-training",
+          "section_id": "trainingpromptengineeringaitraining_07_contact"
+        },
+        {
+          "page": "/corporate-training-kerala/data-visualization",
+          "section_id": "trainingdatavisualization_07_contact"
+        },
+        {
+          "page": "/corporate-training-kerala/cloud-computing-bootcamp",
+          "section_id": "trainingcloudcomputingbootcamp_07_contact"
+        },
+        {
+          "page": "/corporate-training-kerala/digital-content-creation",
+          "section_id": "trainingdigitalcontentcreation_07_contact"
+        },
+        {
+          "page": "/corporate-training-kerala/business-analytics",
+          "section_id": "trainingbusinessanalytics_07_contact"
+        },
+        {
+          "page": "/corporate-training-kerala/business-intelligence-data-analytics",
+          "section_id": "trainingbusinessintelligencedataanalytics_07_contact"
+        },
+        {
+          "page": "/corporate-training-kerala/marketing-automation-crm",
+          "section_id": "trainingmarketingautomationcrm_07_contact"
+        },
+        {
+          "page": "/corporate-training-kerala/webops-ai-ml",
+          "section_id": "trainingwebopsaiml_07_contact"
+        },
+        {
+          "page": "/blogs",
+          "section_id": "blog_04_contact"
+        },
+        {
+          "page": "/blogs/ai-personalize-web-experince",
+          "section_id": "blogaipersonalization_03_contact"
+        },
+        {
+          "page": "/blogs/ai-tools-web-development-team",
+          "section_id": "blogaitoolswebteams_03_contact"
+        },
+        {
+          "page": "/blogs/conversational-ai-customer-experience",
+          "section_id": "blogconversationalai_03_contact"
+        },
+        {
+          "page": "/blogs/why-website-checks-need-to-go-beyond-performance-scores",
+          "section_id": "blogwebsitechecks_03_contact"
+        },
+        {
+          "page": "/blogs/festive-onam-ladder7",
+          "section_id": "blogonam_03_contact"
+        },
+        {
+          "page": "/blogs/magical-christmas-celebration",
+          "section_id": "blogchristmas_03_contact"
+        },
+        {
+          "page": "/blogs/independence-day-ladder7",
+          "section_id": "blogindependenceday_03_contact"
+        },
+        {
+          "page": "/privacy",
+          "section_id": "privacy_03_contact"
+        },
+        {
+          "page": "/thank-you",
+          "section_id": "thankyou_03_contact"
+        },
+        {
+          "page": "/sitemap",
+          "section_id": "sitemap_03_contact"
+        },
+        {
+          "page": "/bootcamp",
+          "section_id": "bootcamp_08_contact"
+        },
+        {
+          "page": "/earnmore",
+          "section_id": "earnmore_07_contact"
+        },
+        {
+          "page": "/it-training-internship-trivandrum",
+          "section_id": "traininginternship_05_contact"
+        },
+        {
+          "page": "/full-stack-developer-course-trivandrum",
+          "section_id": "coursefullstack_08_contact"
+        },
+        {
+          "page": "/ai-data-science-course-trivandrum",
+          "section_id": "courseaidatascience_08_contact"
+        },
+        {
+          "page": "/software-testing-course-trivandrum",
+          "section_id": "coursesoftwaretesting_08_contact"
+        },
+        {
+          "page": "/shopify-developer-course-workshop",
+          "section_id": "courseshopify_07_contact"
+        },
+        {
+          "page": "/experience-the-first-job",
+          "section_id": "firstjob_04_contact"
+        },
+        {
+          "page": "/training-internship/career-goal-finding",
+          "section_id": "careergoalfinding_03_contact"
+        },
+        {
+          "page": "/custom-software-development-company-india",
+          "section_id": null
+        },
+        {
+          "page": "/hire-dedicated-developers-india",
+          "section_id": null
+        },
+        {
+          "page": "/offshore-software-development-india",
+          "section_id": null
+        },
+        {
+          "page": "/mobile-app-development-company-india",
+          "section_id": null
+        },
+        {
+          "page": "/software-development-company-uae",
+          "section_id": null
+        },
+        {
+          "page": "/software-development-company-saudi-arabia",
+          "section_id": null
+        },
+        {
+          "page": "/software-development-gcc",
+          "section_id": null
+        },
+        {
+          "page": "/offshore-software-development-uk-europe",
+          "section_id": null
+        },
+        {
+          "page": "/software-development-outsourcing-africa",
+          "section_id": null
+        },
+        {
+          "page": "/engagement-models-pricing",
+          "section_id": null
+        },
+        {
+          "page": "/blogs/how-to-choose-custom-software-development-company-india",
+          "section_id": null
+        },
+        {
+          "page": "/blogs/india-vs-eastern-europe-vs-africa-software-outsourcing",
+          "section_id": null
+        }
+      ],
+      "headings_seen": [
+        "Tell us what you're working on.",
+        "Tell us about your next step."
+      ],
+      "occurrence_count": 76,
+      "validation": "see fn_enquiry_validation (client-side, source-code finding). Native HTML5 'required' attributes: present",
+      "submit_action": "preventDefault → validate → window.open WhatsApp URL (source-code finding)",
+      "verified": false
+    },
+    {
+      "form_id": "form_03",
+      "region": "main",
+      "fields": [
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "Internships",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "Career guidance",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "My Ladder",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "Personal growth",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "name",
+          "type": "text",
+          "label": "Your name*",
+          "placeholder": "Alex Thomas",
+          "required_attr": true,
+          "aria_required": null,
+          "autocomplete": "name",
+          "maxlength": "120",
+          "rows": null,
+          "aria_invalid": "false"
+        },
+        {
+          "element": "input",
+          "name": "email",
+          "type": "email",
+          "label": "Email*",
+          "placeholder": "alex@example.com",
+          "required_attr": true,
+          "aria_required": null,
+          "autocomplete": "email",
+          "maxlength": "254",
+          "rows": null,
+          "aria_invalid": "false"
+        },
+        {
+          "element": "textarea",
+          "name": "message",
+          "type": "textarea",
+          "label": "Tell us a little about your goals*",
+          "placeholder": "Where are you now, and where would you like to go?",
+          "required_attr": true,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": "2050",
+          "rows": "3",
+          "aria_invalid": "false"
+        }
+      ],
+      "submit_buttons": [
+        "Submit (opens WhatsApp in a new tab)"
+      ],
+      "wrapper_class": "enquiry enquiry--contact",
+      "method": null,
+      "action": null,
+      "occurrences": [
+        {
+          "page": "/education",
+          "section_id": "education_09_contact"
+        },
+        {
+          "page": "/custom-software-development-company-india",
+          "section_id": "customsoftwareindia_09_contact"
+        },
+        {
+          "page": "/hire-dedicated-developers-india",
+          "section_id": "hiredevelopersindia_07_contact"
+        },
+        {
+          "page": "/offshore-software-development-india",
+          "section_id": "offshoredevelopmentindia_06_contact"
+        },
+        {
+          "page": "/mobile-app-development-company-india",
+          "section_id": "mobileappdevelopment_06_contact"
+        },
+        {
+          "page": "/software-development-company-uae",
+          "section_id": "regionuae_06_contact"
+        },
+        {
+          "page": "/software-development-company-saudi-arabia",
+          "section_id": "regionksa_06_contact"
+        },
+        {
+          "page": "/software-development-gcc",
+          "section_id": "regiongcc_06_contact"
+        },
+        {
+          "page": "/offshore-software-development-uk-europe",
+          "section_id": "regioneurope_06_contact"
+        },
+        {
+          "page": "/software-development-outsourcing-africa",
+          "section_id": "regionafrica_06_contact"
+        },
+        {
+          "page": "/engagement-models-pricing",
+          "section_id": "engagementmodels_06_contact"
+        },
+        {
+          "page": "/blogs/how-to-choose-custom-software-development-company-india",
+          "section_id": "blogchoosecompanyindia_08_contact"
+        },
+        {
+          "page": "/blogs/india-vs-eastern-europe-vs-africa-software-outsourcing",
+          "section_id": "blogoutsourcingcomparison_07_contact"
+        }
+      ],
+      "headings_seen": [
+        "Tell us about your next step."
+      ],
+      "occurrence_count": 13,
+      "validation": "see fn_enquiry_validation (client-side, source-code finding). Native HTML5 'required' attributes: present",
+      "submit_action": "preventDefault → validate → window.open WhatsApp URL (source-code finding)",
+      "verified": false
+    }
+  ]
+}

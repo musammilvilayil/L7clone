@@ -57,7 +57,7 @@
     --scroll-offset: calc(var(--header-height) + 12px);
     --radius-section: 28px;
     --font-size-h2: 2.6875rem; /* 43px */
-    --font-size-lead: 1rem;
+    --font-size-lead: 1.125rem;
     --icon-size: 16px;
   }
 
@@ -71,7 +71,7 @@
 
   .section-heading__intro {
     margin-top: 23px;
-    font-size: var(--font-size-body-sm);
+    font-size: 1.125rem;
   }
 
   .section-heading br,

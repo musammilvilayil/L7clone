@@ -1,0 +1,1266 @@
+{
+  "page_key": "serviceAgenticAi",
+  "page_url": "/services/agenticai",
+  "document_title": "Agentic AI Development & Multi-Agent Systems | Ladder7",
+  "seo": {
+    "meta_title": "Agentic AI Development & Multi-Agent Systems | Ladder7",
+    "meta_description": "We design and build agentic AI: specialised agents that reason, collaborate and run multi-step business workflows. Engineered in India for global companies.",
+    "canonical_url": "https://www.ladder7.in/services/agenticai",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Connected agents. Smarter ways to work."
+  },
+  "sections": [
+    {
+      "section_id": "serviceagenticai_01_service_hero",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Service Hero",
+      "section_heading": "Connected agents. Smarter ways to work.",
+      "heading_level": "h1",
+      "eyebrow": "Services / AI & Automation",
+      "subheading": "",
+      "description": "Transition from static automation to dynamic, multi-agent systems that reason, collaborate, and execute complex business workflows at any scale.",
+      "paragraphs": [
+        "Services / AI & Automation",
+        "Transition from static automation to dynamic, multi-agent systems that reason, collaborate, and execute complex business workflows at any scale."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Services / AI & Automation"
+        },
+        {
+          "type": "h1",
+          "text": "Connected agents. Smarter ways to work."
+        },
+        {
+          "type": "p",
+          "text": "Transition from static automation to dynamic, multi-agent systems that reason, collaborate, and execute complex business workflows at any scale."
+        },
+        {
+          "type": "cta-link",
+          "text": "Discuss your project"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore capabilities"
+        },
+        {
+          "type": "dt",
+          "text": "Focus areas"
+        },
+        {
+          "type": "dd",
+          "text": "07."
+        },
+        {
+          "type": "dd",
+          "text": "Within this service"
+        },
+        {
+          "type": "dt",
+          "text": "Specialist services"
+        },
+        {
+          "type": "dd",
+          "text": "14."
+        },
+        {
+          "type": "dd",
+          "text": "Connected around your goal"
+        },
+        {
+          "type": "dt",
+          "text": "Core disciplines"
+        },
+        {
+          "type": "dd",
+          "text": "3."
+        },
+        {
+          "type": "dd",
+          "text": "Experience, AI and strategy"
+        },
+        {
+          "type": "dt",
+          "text": "Kerala bases"
+        },
+        {
+          "type": "dd",
+          "text": "2."
+        },
+        {
+          "type": "dd",
+          "text": "Cochin · Trivandrum"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Focus areas",
+          "detail": "07.",
+          "source": "dl"
+        },
+        {
+          "term": "Specialist services",
+          "detail": "14.",
+          "source": "dl"
+        },
+        {
+          "term": "Core disciplines",
+          "detail": "3.",
+          "source": "dl"
+        },
+        {
+          "term": "Kerala bases",
+          "detail": "2.",
+          "source": "dl"
+        }
+      ],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Discuss your project",
+          "url": "/services/agenticai#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore capabilities",
+          "url": "/services/agenticai#capabilities",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Services",
+          "href": "/services",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Discuss your project",
+          "href": "/services/agenticai#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore capabilities",
+          "href": "/services/agenticai#capabilities",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Services",
+          "href": "/services",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Discuss your project",
+          "href": "/services/agenticai#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore capabilities",
+          "href": "/services/agenticai#capabilities",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      }
+    },
+    {
+      "section_id": "serviceagenticai_02_capabilities",
+      "section_order": 2,
+      "html_id": "capabilities",
+      "element": "section",
+      "section_name": "Capabilities",
+      "section_heading": "Agentic AI capabilities",
+      "heading_level": "h2",
+      "eyebrow": "",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [],
+      "content": [
+        {
+          "type": "h2",
+          "text": "Agentic AI capabilities"
+        },
+        {
+          "type": "li",
+          "text": "Agentic System Design & Orchestration ·"
+        },
+        {
+          "type": "li",
+          "text": "Cognitive Workflows & Process Automation ·"
+        },
+        {
+          "type": "li",
+          "text": "Decision Support & Knowledge Agents ·"
+        },
+        {
+          "type": "li",
+          "text": "Enterprise-Grade Integration & Governance ·"
+        },
+        {
+          "type": "li",
+          "text": "Agentic DevOps & MLOps ·"
+        },
+        {
+          "type": "li",
+          "text": "Strategic AI Engineering ·"
+        },
+        {
+          "type": "li",
+          "text": "Cross-Domain Expertise"
+        }
+      ],
+      "bullet_points": [
+        "Agentic System Design & Orchestration ·",
+        "Cognitive Workflows & Process Automation ·",
+        "Decision Support & Knowledge Agents ·",
+        "Enterprise-Grade Integration & Governance ·",
+        "Agentic DevOps & MLOps ·",
+        "Strategic AI Engineering ·",
+        "Cross-Domain Expertise"
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      }
+    },
+    {
+      "section_id": "serviceagenticai_03_inner_process",
+      "section_order": 3,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Inner Process",
+      "section_heading": "One goal.\nA connected approach.",
+      "heading_level": "h2",
+      "eyebrow": "Understand Connect Engineer Evolve",
+      "subheading": "",
+      "description": "From ambition to action\n\nStart with the outcome.\nConnect the thinking, the technology\nand the people who will use it.",
+      "paragraphs": [
+        "From ambition to action",
+        "Start with the outcome.\nConnect the thinking, the technology\nand the people who will use it.",
+        "Start with your customers, workflows and business priorities.",
+        "Map the experience, architecture and integrations.",
+        "Build for the systems and people who will use it.",
+        "Learn from real use and improve the next useful detail.",
+        "A business goal becomes a practical plan. Build, learn and improve the next useful detail."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "From ambition to action"
+        },
+        {
+          "type": "h2",
+          "text": "One goal.\nA connected approach."
+        },
+        {
+          "type": "p",
+          "text": "Start with the outcome.\nConnect the thinking, the technology\nand the people who will use it."
+        },
+        {
+          "type": "div",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "01 / Understand"
+        },
+        {
+          "type": "p",
+          "text": "Start with your customers, workflows and business priorities."
+        },
+        {
+          "type": "div",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "02 / Connect"
+        },
+        {
+          "type": "p",
+          "text": "Map the experience, architecture and integrations."
+        },
+        {
+          "type": "div",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "03 / Engineer"
+        },
+        {
+          "type": "p",
+          "text": "Build for the systems and people who will use it."
+        },
+        {
+          "type": "div",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "04 / Evolve"
+        },
+        {
+          "type": "p",
+          "text": "Learn from real use and improve the next useful detail."
+        },
+        {
+          "type": "span",
+          "text": "Your next step / Connected from the start"
+        },
+        {
+          "type": "button",
+          "text": "↻ Replay"
+        },
+        {
+          "type": "div",
+          "text": "Understand Connect Engineer Evolve"
+        },
+        {
+          "type": "p",
+          "text": "A business goal becomes a practical plan. Build, learn and improve the next useful detail."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [
+        {
+          "element": "article",
+          "heading": "01 / Understand",
+          "text": [
+            "01",
+            "Start with your customers, workflows and business priorities."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "02 / Connect",
+          "text": [
+            "02",
+            "Map the experience, architecture and integrations."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "03 / Engineer",
+          "text": [
+            "03",
+            "Build for the systems and people who will use it."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "04 / Evolve",
+          "text": [
+            "04",
+            "Learn from real use and improve the next useful detail."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "div.inner-process__panel",
+          "heading": "",
+          "text": [
+            "Your next step / Connected from the start",
+            "↻ Replay",
+            "Understand Connect Engineer Evolve",
+            "A business goal becomes a practical plan. Build, learn and improve the next useful detail."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "div.inner-process__ring",
+          "count": 4
+        }
+      ],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "↻ Replay",
+          "attrs": {
+            "type": "button"
+          }
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      }
+    },
+    {
+      "section_id": "serviceagenticai_04_inner_about",
+      "section_order": 4,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Inner About",
+      "section_heading": "The Evolution of Automation.",
+      "heading_level": "h2",
+      "eyebrow": "",
+      "subheading": "",
+      "description": "About this service\n\nTraditional automation follows strict rules; Agentic AI adapts to reality. Agentic AI and Multi-Agent Systems (MAS) bring true autonomy into your business operations by enabling intelligent, LLM-driven agents that learn, reason, and act independently while collaborating seamlessly to achieve your organizational goals. At Ladder7 Nextstep Solutions, we design and deploy agentic architectures that integrate human strategic insight with machine intelligence.",
+      "paragraphs": [
+        "About this service",
+        "Traditional automation follows strict rules; Agentic AI adapts to reality. Agentic AI and Multi-Agent Systems (MAS) bring true autonomy into your business operations by enabling intelligent, LLM-driven agents that learn, reason, and act independently while collaborating seamlessly to achieve your organizational goals. At Ladder7 Nextstep Solutions, we design and deploy agentic architectures that integrate human strategic insight with machine intelligence.",
+        "Deploy collaborative intelligence. Custom multi-agent architectures such as Data Retrieval Agents working alongside Logic Agents.",
+        "Beyond traditional RPA. Cognitive task agents that understand context, adapt to changes, and handle non-linear workflows.",
+        "Synthesize data into autonomous action. Real-time insights and probabilistic forecasting for enterprise-level precision.",
+        "Secure, privacy-first autonomy. API-driven integration with ERP/CRM with full SOC2/GDPR compliance frameworks.",
+        "Explore how Ladder7 can revolutionize your specific industry vertical.",
+        "\"Ladder7 transformed our data pipeline from a manual bottleneck into a self-correcting agentic ecosystem.\"",
+        "— CTO, Global Logistics Firm",
+        "Partner with Ladder7 to build a multi-agent ecosystem that accelerates your growth and outpaces the competition."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "About this service"
+        },
+        {
+          "type": "h2",
+          "text": "The Evolution of Automation."
+        },
+        {
+          "type": "p",
+          "text": "Traditional automation follows strict rules; Agentic AI adapts to reality. Agentic AI and Multi-Agent Systems (MAS) bring true autonomy into your business operations by enabling intelligent, LLM-driven agents that learn, reason, and act independently while collaborating seamlessly to achieve your organizational goals. At Ladder7 Nextstep Solutions, we design and deploy agentic architectures that integrate human strategic insight with machine intelligence."
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "Agentic System Design & Orchestration"
+        },
+        {
+          "type": "p",
+          "text": "Deploy collaborative intelligence. Custom multi-agent architectures such as Data Retrieval Agents working alongside Logic Agents."
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "Cognitive Workflows & Process Automation"
+        },
+        {
+          "type": "p",
+          "text": "Beyond traditional RPA. Cognitive task agents that understand context, adapt to changes, and handle non-linear workflows."
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "Decision Support & Knowledge Agents"
+        },
+        {
+          "type": "p",
+          "text": "Synthesize data into autonomous action. Real-time insights and probabilistic forecasting for enterprise-level precision."
+        },
+        {
+          "type": "span",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "Enterprise-Grade Integration & Governance"
+        },
+        {
+          "type": "p",
+          "text": "Secure, privacy-first autonomy. API-driven integration with ERP/CRM with full SOC2/GDPR compliance frameworks."
+        },
+        {
+          "type": "h3",
+          "text": "Ready to Evolve?"
+        },
+        {
+          "type": "p",
+          "text": "Explore how Ladder7 can revolutionize your specific industry vertical."
+        },
+        {
+          "type": "h3",
+          "text": "Why Choose Ladder7"
+        },
+        {
+          "type": "p",
+          "text": "\"Ladder7 transformed our data pipeline from a manual bottleneck into a self-correcting agentic ecosystem.\""
+        },
+        {
+          "type": "p",
+          "text": "— CTO, Global Logistics Firm"
+        },
+        {
+          "type": "h3",
+          "text": "Transform Automation into True Intelligence."
+        },
+        {
+          "type": "p",
+          "text": "Partner with Ladder7 to build a multi-agent ecosystem that accelerates your growth and outpaces the competition."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [
+        {
+          "element": "article.reveal",
+          "heading": "Agentic System Design & Orchestration",
+          "text": [
+            "01",
+            "Deploy collaborative intelligence. Custom multi-agent architectures such as Data Retrieval Agents working alongside Logic Agents."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.reveal",
+          "heading": "Cognitive Workflows & Process Automation",
+          "text": [
+            "02",
+            "Beyond traditional RPA. Cognitive task agents that understand context, adapt to changes, and handle non-linear workflows."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.reveal",
+          "heading": "Decision Support & Knowledge Agents",
+          "text": [
+            "03",
+            "Synthesize data into autonomous action. Real-time insights and probabilistic forecasting for enterprise-level precision."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.reveal",
+          "heading": "Enterprise-Grade Integration & Governance",
+          "text": [
+            "04",
+            "Secure, privacy-first autonomy. API-driven integration with ERP/CRM with full SOC2/GDPR compliance frameworks."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.inner-editorial-row",
+          "heading": "Ready to Evolve?",
+          "text": [
+            "Explore how Ladder7 can revolutionize your specific industry vertical."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.inner-editorial-row",
+          "heading": "Why Choose Ladder7",
+          "text": [
+            "\"Ladder7 transformed our data pipeline from a manual bottleneck into a self-correcting agentic ecosystem.\"",
+            "— CTO, Global Logistics Firm"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.inner-editorial-row",
+          "heading": "Transform Automation into True Intelligence.",
+          "text": [
+            "Partner with Ladder7 to build a multi-agent ecosystem that accelerates your growth and outpaces the competition."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      }
+    },
+    {
+      "section_id": "serviceagenticai_05_deliverables",
+      "section_order": 5,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Deliverables",
+      "section_heading": "Connected expertise.\nPractical possibilities.",
+      "heading_level": "h2",
+      "eyebrow": "",
+      "subheading": "",
+      "description": "The capabilities behind your next step",
+      "paragraphs": [
+        "The capabilities behind your next step",
+        "Continuous, automated evolution. Specialized AI agents managing system monitoring, self-healing, and model retraining.",
+        "Reliability, scale, and interpretability at the core of every deployment.",
+        "Adapts to diverse, complex ecosystems from fintech to manufacturing.",
+        "Robust governance for global enterprises, agile frameworks for SMBs.",
+        "Reduced operational latency and enhanced autonomous resilience."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The capabilities behind your next step"
+        },
+        {
+          "type": "h2",
+          "text": "Connected expertise.\nPractical possibilities."
+        },
+        {
+          "type": "span",
+          "text": "05"
+        },
+        {
+          "type": "h3",
+          "text": "Agentic DevOps & MLOps"
+        },
+        {
+          "type": "p",
+          "text": "Continuous, automated evolution. Specialized AI agents managing system monitoring, self-healing, and model retraining."
+        },
+        {
+          "type": "span",
+          "text": "06"
+        },
+        {
+          "type": "h3",
+          "text": "Strategic AI Engineering"
+        },
+        {
+          "type": "p",
+          "text": "Reliability, scale, and interpretability at the core of every deployment."
+        },
+        {
+          "type": "span",
+          "text": "07"
+        },
+        {
+          "type": "h3",
+          "text": "Cross-Domain Expertise"
+        },
+        {
+          "type": "p",
+          "text": "Adapts to diverse, complex ecosystems from fintech to manufacturing."
+        },
+        {
+          "type": "span",
+          "text": "08"
+        },
+        {
+          "type": "h3",
+          "text": "Scale-Agnostic Solutions"
+        },
+        {
+          "type": "p",
+          "text": "Robust governance for global enterprises, agile frameworks for SMBs."
+        },
+        {
+          "type": "span",
+          "text": "09"
+        },
+        {
+          "type": "h3",
+          "text": "Outcome-Driven Design"
+        },
+        {
+          "type": "p",
+          "text": "Reduced operational latency and enhanced autonomous resilience."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [
+        {
+          "element": "article.reveal",
+          "heading": "Agentic DevOps & MLOps",
+          "text": [
+            "05",
+            "Continuous, automated evolution. Specialized AI agents managing system monitoring, self-healing, and model retraining."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.reveal",
+          "heading": "Strategic AI Engineering",
+          "text": [
+            "06",
+            "Reliability, scale, and interpretability at the core of every deployment."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.reveal",
+          "heading": "Cross-Domain Expertise",
+          "text": [
+            "07",
+            "Adapts to diverse, complex ecosystems from fintech to manufacturing."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.reveal",
+          "heading": "Scale-Agnostic Solutions",
+          "text": [
+            "08",
+            "Robust governance for global enterprises, agile frameworks for SMBs."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.reveal",
+          "heading": "Outcome-Driven Design",
+          "text": [
+            "09",
+            "Reduced operational latency and enhanced autonomous resilience."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      }
+    },
+    {
+      "section_id": "serviceagenticai_06_inner_next",
+      "section_order": 6,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Inner Next",
+      "section_heading": "Your starting point.\nOur next conversation.",
+      "heading_level": "h2",
+      "eyebrow": "Talk to our team",
+      "subheading": "",
+      "description": "Bring your goal and your current situation.\nWe'll help connect it with a useful next step.",
+      "paragraphs": [
+        "Bring your goal and your current situation.\nWe'll help connect it with a useful next step."
+      ],
+      "content": [
+        {
+          "type": "h2",
+          "text": "Your starting point.\nOur next conversation."
+        },
+        {
+          "type": "p",
+          "text": "Bring your goal and your current situation.\nWe'll help connect it with a useful next step."
+        },
+        {
+          "type": "h3",
+          "text": "Tell us about"
+        },
+        {
+          "type": "li",
+          "text": "The business goal you want to achieve"
+        },
+        {
+          "type": "li",
+          "text": "The people and workflows involved"
+        },
+        {
+          "type": "li",
+          "text": "Your current systems and the challenge ahead"
+        },
+        {
+          "type": "h3",
+          "text": "Let's explore"
+        },
+        {
+          "type": "li",
+          "text": "The capabilities that fit your priorities"
+        },
+        {
+          "type": "li",
+          "text": "How the right services can work together"
+        },
+        {
+          "type": "li",
+          "text": "A practical direction for your next step"
+        },
+        {
+          "type": "cta-link",
+          "text": "Talk to our team"
+        }
+      ],
+      "bullet_points": [
+        "The business goal you want to achieve",
+        "The people and workflows involved",
+        "Your current systems and the challenge ahead",
+        "The capabilities that fit your priorities",
+        "How the right services can work together",
+        "A practical direction for your next step"
+      ],
+      "key_highlights": [],
+      "cards": [
+        {
+          "element": "article.reveal",
+          "heading": "Tell us about",
+          "text": [
+            "The business goal you want to achieve",
+            "The people and workflows involved",
+            "Your current systems and the challenge ahead"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.reveal",
+          "heading": "Let's explore",
+          "text": [
+            "The capabilities that fit your priorities",
+            "How the right services can work together",
+            "A practical direction for your next step",
+            "Talk to our team"
+          ],
+          "links": [
+            {
+              "text": "Talk to our team",
+              "href": "/services/agenticai#contact"
+            }
+          ],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Talk to our team",
+          "url": "/services/agenticai#contact",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "Talk to our team",
+          "href": "/services/agenticai#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Talk to our team",
+          "href": "/services/agenticai#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      }
+    },
+    {
+      "section_id": "serviceagenticai_faq",
+      "section_order": 7,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Faq",
+      "section_heading": "Frequently asked questions",
+      "heading_level": "h2",
+      "eyebrow": "Questions buyers ask",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "Questions buyers ask",
+        "Agentic AI uses autonomous AI agents that plan, use tools and collaborate to complete multi-step tasks, with human approval where needed.",
+        "Research, report generation, lead qualification, document processing and operations workflows that cross several systems.",
+        "With defined permissions, human-in-the-loop checkpoints, evaluation tests and full activity logs."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Questions buyers ask"
+        },
+        {
+          "type": "h2",
+          "text": "Frequently asked questions"
+        },
+        {
+          "type": "summary",
+          "text": "What is agentic AI?"
+        },
+        {
+          "type": "p",
+          "text": "Agentic AI uses autonomous AI agents that plan, use tools and collaborate to complete multi-step tasks, with human approval where needed."
+        },
+        {
+          "type": "summary",
+          "text": "What business tasks suit multi-agent systems?"
+        },
+        {
+          "type": "p",
+          "text": "Research, report generation, lead qualification, document processing and operations workflows that cross several systems."
+        },
+        {
+          "type": "summary",
+          "text": "How do you keep AI agents under control?"
+        },
+        {
+          "type": "p",
+          "text": "With defined permissions, human-in-the-loop checkpoints, evaluation tests and full activity logs."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "What is agentic AI?",
+          "open": true
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "What business tasks suit multi-agent systems?",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "How do you keep AI agents under control?",
+          "open": false
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Faq/FaqSection.css",
+        "component": "src/components/sections/Faq/FaqSection.tsx"
+      }
+    },
+    {
+      "section_id": "serviceagenticai_07_contact",
+      "section_order": 8,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

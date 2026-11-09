@@ -1,0 +1,777 @@
+{
+  "page_key": "trainingMarketingAutomationCrm",
+  "page_url": "/corporate-training-kerala/marketing-automation-crm",
+  "document_title": "CRM & Automation Training | Corporate Training | Ladder7",
+  "seo": {
+    "meta_title": "CRM & Automation Training | Corporate Training | Ladder7",
+    "meta_description": "Ladder7 delivers hands-on CRM and marketing automation training for corporate sales and marketing teams in Kerala and virtually across India.",
+    "canonical_url": "https://www.ladder7.in/corporate-training-kerala/marketing-automation-crm",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "CRM & Automation Training."
+  },
+  "sections": [
+    {
+      "section_id": "trainingmarketingautomationcrm_01_page",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Page",
+      "section_heading": "CRM & Automation Training.",
+      "heading_level": "h1",
+      "eyebrow": "Corporate course",
+      "subheading": "",
+      "description": "CRM & Automation Training training shaped around your team. 6–20 per batch. On-site or Virtual.",
+      "paragraphs": [
+        "Corporate course",
+        "CRM & Automation Training training shaped around your team. 6–20 per batch. On-site or Virtual."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Corporate course"
+        },
+        {
+          "type": "h1",
+          "text": "CRM & Automation Training."
+        },
+        {
+          "type": "p",
+          "text": "CRM & Automation Training training shaped around your team. 6–20 per batch. On-site or Virtual."
+        },
+        {
+          "type": "cta-link",
+          "text": "Let's talk"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore the details"
+        },
+        {
+          "type": "li",
+          "text": "Automation Tools & CRM"
+        },
+        {
+          "type": "li",
+          "text": "6–20 per batch"
+        },
+        {
+          "type": "li",
+          "text": "On-site or Virtual"
+        },
+        {
+          "type": "figcaption",
+          "text": "Ladder7 / Your next chapter"
+        }
+      ],
+      "bullet_points": [
+        "Automation Tools & CRM",
+        "6–20 per batch",
+        "On-site or Virtual"
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Let's talk",
+          "url": "/corporate-training-kerala/marketing-automation-crm#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore the details",
+          "url": "/corporate-training-kerala/marketing-automation-crm#page-content",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/training-analytics-meeting-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "800",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high",
+          "srcset": "/images/photos/training-analytics-meeting-480.webp 480w, /images/photos/training-analytics-meeting-800.webp 800w, /images/photos/training-analytics-meeting-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 100vw, 40vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Let's talk",
+          "href": "/corporate-training-kerala/marketing-automation-crm#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/corporate-training-kerala/marketing-automation-crm#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Let's talk",
+          "href": "/corporate-training-kerala/marketing-automation-crm#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/corporate-training-kerala/marketing-automation-crm#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/LandingHero/LandingHero.css",
+        "component": "src/components/sections/LandingHero/LandingHero.tsx"
+      }
+    },
+    {
+      "section_id": "trainingmarketingautomationcrm_02_detail_section",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Practical learning. A clearer next step.",
+      "heading_level": "h2",
+      "eyebrow": "The program",
+      "subheading": "",
+      "description": "It's a common pattern: a company buys a CRM, uses it properly for a month, and then it slowly turns into a half-updated contact list. This program is about fixing that, not selling you on a new tool.\n\nWe work inside whatever CRM and marketing automation platform you already have, cleaning up the setup and building the automations your team keeps meaning to get around to.",
+      "paragraphs": [
+        "The program",
+        "It's a common pattern: a company buys a CRM, uses it properly for a month, and then it slowly turns into a half-updated contact list. This program is about fixing that, not selling you on a new tool.",
+        "We work inside whatever CRM and marketing automation platform you already have, cleaning up the setup and building the automations your team keeps meaning to get around to."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The program"
+        },
+        {
+          "type": "h2",
+          "text": "Practical learning. A clearer next step."
+        },
+        {
+          "type": "p",
+          "text": "It's a common pattern: a company buys a CRM, uses it properly for a month, and then it slowly turns into a half-updated contact list. This program is about fixing that, not selling you on a new tool."
+        },
+        {
+          "type": "p",
+          "text": "We work inside whatever CRM and marketing automation platform you already have, cleaning up the setup and building the automations your team keeps meaning to get around to."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "trainingmarketingautomationcrm_03_detail_section",
+      "section_order": 3,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "What your team will explore.",
+      "heading_level": "h2",
+      "eyebrow": "The curriculum",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "The curriculum",
+        "Setting up sequences and triggers instead of sending one-off campaigns.",
+        "Keeping contact and deal data clean enough that reports mean something.",
+        "Automating the repetitive parts of a sales pipeline so reps sell more and type less.",
+        "Making sure both teams are looking at the same numbers."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The curriculum"
+        },
+        {
+          "type": "h2",
+          "text": "What your team will explore."
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "Marketing Automation Tools"
+        },
+        {
+          "type": "span",
+          "text": "–"
+        },
+        {
+          "type": "p",
+          "text": "Setting up sequences and triggers instead of sending one-off campaigns."
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "CRM Software"
+        },
+        {
+          "type": "span",
+          "text": "+"
+        },
+        {
+          "type": "p",
+          "text": "Keeping contact and deal data clean enough that reports mean something."
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "Sales Force Automation"
+        },
+        {
+          "type": "span",
+          "text": "+"
+        },
+        {
+          "type": "p",
+          "text": "Automating the repetitive parts of a sales pipeline so reps sell more and type less."
+        },
+        {
+          "type": "span",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "Connecting Marketing and Sales Data"
+        },
+        {
+          "type": "span",
+          "text": "+"
+        },
+        {
+          "type": "p",
+          "text": "Making sure both teams are looking at the same numbers."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "01",
+          "detail": "",
+          "source": ".detail-curriculum__number"
+        },
+        {
+          "term": "02",
+          "detail": "",
+          "source": ".detail-curriculum__number"
+        },
+        {
+          "term": "03",
+          "detail": "",
+          "source": ".detail-curriculum__number"
+        },
+        {
+          "term": "04",
+          "detail": "",
+          "source": ".detail-curriculum__number"
+        }
+      ],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "01\nMarketing Automation Tools\n–",
+          "open": true
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "02\nCRM Software\n+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "03\nSales Force Automation\n+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "04\nConnecting Marketing and Sales Data\n+",
+          "open": false
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "trainingmarketingautomationcrm_04_detail_section",
+      "section_order": 4,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Built for people like you.",
+      "heading_level": "h2",
+      "eyebrow": "Who it’s for",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "Who it’s for"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Who it’s for"
+        },
+        {
+          "type": "h2",
+          "text": "Built for people like you."
+        },
+        {
+          "type": "li",
+          "text": "Sales teams with a CRM that’s mostly full of stale data"
+        },
+        {
+          "type": "li",
+          "text": "Marketing teams sending campaigns manually that could be automated"
+        },
+        {
+          "type": "li",
+          "text": "Founders trying to get sales and marketing to agree on the pipeline"
+        }
+      ],
+      "bullet_points": [
+        "Sales teams with a CRM that’s mostly full of stale data",
+        "Marketing teams sending campaigns manually that could be automated",
+        "Founders trying to get sales and marketing to agree on the pipeline"
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "trainingmarketingautomationcrm_05_detail_section",
+      "section_order": 5,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Take the learning into your work.",
+      "heading_level": "h2",
+      "eyebrow": "Your next chapter",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "Your next chapter"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Your next chapter"
+        },
+        {
+          "type": "h2",
+          "text": "Take the learning into your work."
+        },
+        {
+          "type": "li",
+          "text": "A cleaned-up, actually-used CRM setup"
+        },
+        {
+          "type": "li",
+          "text": "At least one automated campaign live by the end of training"
+        },
+        {
+          "type": "li",
+          "text": "Sales and marketing looking at the same numbers, finally"
+        }
+      ],
+      "bullet_points": [
+        "A cleaned-up, actually-used CRM setup",
+        "At least one automated campaign live by the end of training",
+        "Sales and marketing looking at the same numbers, finally"
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "trainingmarketingautomationcrm_06_detail_section",
+      "section_order": 6,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Good questions.",
+      "heading_level": "h2",
+      "eyebrow": "A little more clarity",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "A little more clarity",
+        "The ones you already run: HubSpot, Zoho, Salesforce and comparable platforms. The training happens inside your live instance, or a sandbox copy if you'd rather, because that's where the stale data and the wins both live.",
+        "Both, deliberately: your team learns by cleaning and automating their own system with a practitioner alongside, so the improvements and the skills stay after we leave. Pure lecture-style CRM training is why the last attempt didn't stick.",
+        "Yes, at least for the shared-data sessions; half the value is both teams agreeing on the same pipeline definitions in the same room. Function-specific sessions then split where useful."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "A little more clarity"
+        },
+        {
+          "type": "h2",
+          "text": "Good questions."
+        },
+        {
+          "type": "summary",
+          "text": "Which CRM platforms do you support?+"
+        },
+        {
+          "type": "p",
+          "text": "The ones you already run: HubSpot, Zoho, Salesforce and comparable platforms. The training happens inside your live instance, or a sandbox copy if you'd rather, because that's where the stale data and the wins both live."
+        },
+        {
+          "type": "summary",
+          "text": "Is this training or consulting? You're touching our live setup.+"
+        },
+        {
+          "type": "p",
+          "text": "Both, deliberately: your team learns by cleaning and automating their own system with a practitioner alongside, so the improvements and the skills stay after we leave. Pure lecture-style CRM training is why the last attempt didn't stick."
+        },
+        {
+          "type": "summary",
+          "text": "Should sales and marketing attend together?+"
+        },
+        {
+          "type": "p",
+          "text": "Yes, at least for the shared-data sessions; half the value is both teams agreeing on the same pipeline definitions in the same room. Function-specific sessions then split where useful."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Which CRM platforms do you support?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Is this training or consulting? You're touching our live setup.+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Should sales and marketing attend together?+",
+          "open": false
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "trainingmarketingautomationcrm_07_contact",
+      "section_order": 7,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

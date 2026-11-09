@@ -1,0 +1,551 @@
+{
+  "page_key": "privacy",
+  "page_url": "/privacy",
+  "document_title": "Privacy Policy | Ladder7 NextStep Solutions LLP",
+  "seo": {
+    "meta_title": "Privacy Policy | Ladder7 NextStep Solutions LLP",
+    "meta_description": "Ladder7’s privacy policy: how we collect, use and safeguard information gathered through Facebook Ads and related services.",
+    "canonical_url": "https://www.ladder7.in/privacy",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Your privacy. In clear terms."
+  },
+  "sections": [
+    {
+      "section_id": "privacy_01_page",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Page",
+      "section_heading": "Your privacy. In clear terms.",
+      "heading_level": "h1",
+      "eyebrow": "Privacy policy",
+      "subheading": "",
+      "description": "Ladder7 Nextstep Solutions (“we,” “our,” or “us”) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard information in connection with our use of Facebook Ads and related services.",
+      "paragraphs": [
+        "Privacy policy",
+        "Ladder7 Nextstep Solutions (“we,” “our,” or “us”) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard information in connection with our use of Facebook Ads and related services."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Privacy policy"
+        },
+        {
+          "type": "h1",
+          "text": "Your privacy. In clear terms."
+        },
+        {
+          "type": "p",
+          "text": "Ladder7 Nextstep Solutions (“we,” “our,” or “us”) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard information in connection with our use of Facebook Ads and related services."
+        },
+        {
+          "type": "cta-link",
+          "text": "Let's talk"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore the details"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Let's talk",
+          "url": "/privacy#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore the details",
+          "url": "/privacy#page-content",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Let's talk",
+          "href": "/privacy#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/privacy#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Let's talk",
+          "href": "/privacy#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/privacy#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/LandingHero/LandingHero.css",
+        "component": "src/components/sections/LandingHero/LandingHero.tsx"
+      }
+    },
+    {
+      "section_id": "privacy_02_page_content",
+      "section_order": 2,
+      "html_id": "page-content",
+      "element": "div",
+      "section_name": "Page Content",
+      "section_heading": "Privacy Policy",
+      "heading_level": "h2",
+      "eyebrow": "",
+      "subheading": "This policy describes Ladder7’s handling of information collected through Facebook Ads, as published on the live Ladder7 website.",
+      "description": "",
+      "paragraphs": [
+        "This policy describes Ladder7’s handling of information collected through Facebook Ads, as published on the live Ladder7 website.",
+        "Ladder7 Nextstep Solutions (“we,” “our,” or “us”) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard information in connection with our use of Facebook Ads and related services. By interacting with our ads or engaging with our business, you agree to the practices described in this policy.",
+        "When you interact with our Facebook Ads, we may collect the following types of information:",
+        "The information we collect through Facebook Ads is used to:",
+        "We do not sell your personal information. However, we may share your information with:",
+        "We implement reasonable security measures to protect your information from unauthorized access, disclosure, or misuse. However, no system is entirely secure, and we cannot guarantee the absolute security of your data.",
+        "We retain your information only for as long as necessary to fulfill the purposes outlined in this policy or as required by law. After this period, your data will be securely deleted or anonymized.",
+        "Our Facebook Ads are not directed at individuals under the age of 18. We do not knowingly collect personal information from children.",
+        "We may update this Privacy Policy periodically to reflect changes in our practices or applicable regulations. We encourage you to review this policy regularly.",
+        "If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at: info@ladder7.in"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "This policy describes Ladder7’s handling of information collected through Facebook Ads, as published on the live Ladder7 website."
+        },
+        {
+          "type": "h2",
+          "text": "Privacy Policy"
+        },
+        {
+          "type": "p",
+          "text": "Ladder7 Nextstep Solutions (“we,” “our,” or “us”) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard information in connection with our use of Facebook Ads and related services. By interacting with our ads or engaging with our business, you agree to the practices described in this policy."
+        },
+        {
+          "type": "h2",
+          "text": "1. Information We Collect"
+        },
+        {
+          "type": "p",
+          "text": "When you interact with our Facebook Ads, we may collect the following types of information:"
+        },
+        {
+          "type": "li",
+          "text": "Personal Information: Name, email address, phone number, or other contact details you voluntarily provide through ad forms."
+        },
+        {
+          "type": "h2",
+          "text": "2. How We Use Your Information"
+        },
+        {
+          "type": "p",
+          "text": "The information we collect through Facebook Ads is used to:"
+        },
+        {
+          "type": "li",
+          "text": "Deliver and optimize advertisements tailored to your interests."
+        },
+        {
+          "type": "li",
+          "text": "Respond to your inquiries or requests made through lead forms."
+        },
+        {
+          "type": "li",
+          "text": "Analyze campaign performance and improve our marketing efforts."
+        },
+        {
+          "type": "li",
+          "text": "Comply with applicable laws, regulations, or legal obligations."
+        },
+        {
+          "type": "h2",
+          "text": "3. How We Share Your Information"
+        },
+        {
+          "type": "p",
+          "text": "We do not sell your personal information. However, we may share your information with:"
+        },
+        {
+          "type": "li",
+          "text": "Service Providers: Third-party vendors that assist with data analysis, ad delivery, or customer support."
+        },
+        {
+          "type": "li",
+          "text": "Facebook: To facilitate ad targeting and measurement, per Facebook's privacy and data-sharing policies."
+        },
+        {
+          "type": "li",
+          "text": "Legal Authorities: When required by law or to protect our rights and interests."
+        },
+        {
+          "type": "h2",
+          "text": "4. Data Security"
+        },
+        {
+          "type": "p",
+          "text": "We implement reasonable security measures to protect your information from unauthorized access, disclosure, or misuse. However, no system is entirely secure, and we cannot guarantee the absolute security of your data."
+        },
+        {
+          "type": "h2",
+          "text": "5. Data Retention"
+        },
+        {
+          "type": "p",
+          "text": "We retain your information only for as long as necessary to fulfill the purposes outlined in this policy or as required by law. After this period, your data will be securely deleted or anonymized."
+        },
+        {
+          "type": "h2",
+          "text": "6. Children's Privacy"
+        },
+        {
+          "type": "p",
+          "text": "Our Facebook Ads are not directed at individuals under the age of 18. We do not knowingly collect personal information from children."
+        },
+        {
+          "type": "h2",
+          "text": "7. Policy Updates"
+        },
+        {
+          "type": "p",
+          "text": "We may update this Privacy Policy periodically to reflect changes in our practices or applicable regulations. We encourage you to review this policy regularly."
+        },
+        {
+          "type": "h2",
+          "text": "8. Contact Us"
+        },
+        {
+          "type": "p",
+          "text": "If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at: info@ladder7.in"
+        }
+      ],
+      "bullet_points": [
+        "Personal Information: Name, email address, phone number, or other contact details you voluntarily provide through ad forms.",
+        "Deliver and optimize advertisements tailored to your interests.",
+        "Respond to your inquiries or requests made through lead forms.",
+        "Analyze campaign performance and improve our marketing efforts.",
+        "Comply with applicable laws, regulations, or legal obligations.",
+        "Service Providers: Third-party vendors that assist with data analysis, ad delivery, or customer support.",
+        "Facebook: To facilitate ad targeting and measurement, per Facebook's privacy and data-sharing policies.",
+        "Legal Authorities: When required by law or to protect our rights and interests."
+      ],
+      "key_highlights": [],
+      "cards": [
+        {
+          "element": "article.blog-article",
+          "heading": "Privacy Policy",
+          "text": [
+            "This policy describes Ladder7’s handling of information collected through Facebook Ads, as published on the live Ladder7 website.",
+            "Ladder7 Nextstep Solutions (“we,” “our,” or “us”) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard information in connection with our use of Facebook Ads and related services. By interacting with our ads or engaging with our business, you agree to the practices described in this policy.",
+            "1. Information We Collect",
+            "When you interact with our Facebook Ads, we may collect the following types of information:",
+            "Personal Information: Name, email address, phone number, or other contact details you voluntarily provide through ad forms.",
+            "2. How We Use Your Information",
+            "The information we collect through Facebook Ads is used to:",
+            "Deliver and optimize advertisements tailored to your interests.",
+            "Respond to your inquiries or requests made through lead forms.",
+            "Analyze campaign performance and improve our marketing efforts.",
+            "Comply with applicable laws, regulations, or legal obligations.",
+            "3. How We Share Your Information",
+            "We do not sell your personal information. However, we may share your information with:",
+            "Service Providers: Third-party vendors that assist with data analysis, ad delivery, or customer support.",
+            "Facebook: To facilitate ad targeting and measurement, per Facebook's privacy and data-sharing policies.",
+            "Legal Authorities: When required by law or to protect our rights and interests.",
+            "4. Data Security",
+            "We implement reasonable security measures to protect your information from unauthorized access, disclosure, or misuse. However, no system is entirely secure, and we cannot guarantee the absolute security of your data.",
+            "5. Data Retention",
+            "We retain your information only for as long as necessary to fulfill the purposes outlined in this policy or as required by law. After this period, your data will be securely deleted or anonymized.",
+            "6. Children's Privacy",
+            "Our Facebook Ads are not directed at individuals under the age of 18. We do not knowingly collect personal information from children.",
+            "7. Policy Updates",
+            "We may update this Privacy Policy periodically to reflect changes in our practices or applicable regulations. We encourage you to review this policy regularly.",
+            "8. Contact Us",
+            "If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at: info@ladder7.in"
+          ],
+          "links": [
+            {
+              "text": "info@ladder7.in",
+              "href": "mailto:info@ladder7.in"
+            }
+          ],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        }
+      ],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/BlogArticle/BlogArticle.css",
+        "component": "src/components/sections/BlogArticle/BlogArticle.tsx",
+        "via": "descendant class .blog-article"
+      }
+    },
+    {
+      "section_id": "privacy_03_contact",
+      "section_order": 3,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

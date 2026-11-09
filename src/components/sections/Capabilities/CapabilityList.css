@@ -83,8 +83,8 @@ html:not(.motion-ready) .capability-row::after {
 
 .capability-row__subtitle {
   margin: 0;
-  font-size: var(--font-size-micro);
-  letter-spacing: 1.4px;
+  font-size: 1.125rem;
+  letter-spacing: 0.8px;
   line-height: 1.5;
   text-transform: uppercase;
   color: var(--color-text-subtle);

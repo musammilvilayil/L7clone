@@ -1,0 +1,523 @@
+{
+  "page_key": "blogOnam",
+  "page_url": "/blogs/festive-onam-ladder7",
+  "document_title": "Ladder7’s Grand Onam Celebration | Life at Ladder7",
+  "seo": {
+    "meta_title": "Ladder7’s Grand Onam Celebration | Life at Ladder7",
+    "meta_description": "Tradition meets tech at Ladder7! Experience the vibrant colors, festive feasts, and lasting memories from our grand Onam celebration in Kerala.",
+    "canonical_url": "https://www.ladder7.in/blogs/festive-onam-ladder7",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Festive Moments and Lasting Memories: Ladder7’s Grand Onam Celebration."
+  },
+  "sections": [
+    {
+      "section_id": "blogonam_01_page",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Page",
+      "section_heading": "Festive Moments and Lasting Memories: Ladder7’s Grand Onam Celebration.",
+      "heading_level": "h1",
+      "eyebrow": "Article",
+      "subheading": "",
+      "description": "Tradition meets tech at Ladder7! Experience the vibrant colors, festive feasts, and lasting memories from our grand Onam celebration in Kerala.",
+      "paragraphs": [
+        "Article",
+        "Tradition meets tech at Ladder7! Experience the vibrant colors, festive feasts, and lasting memories from our grand Onam celebration in Kerala."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Article"
+        },
+        {
+          "type": "h1",
+          "text": "Festive Moments and Lasting Memories: Ladder7’s Grand Onam Celebration."
+        },
+        {
+          "type": "p",
+          "text": "Tradition meets tech at Ladder7! Experience the vibrant colors, festive feasts, and lasting memories from our grand Onam celebration in Kerala."
+        },
+        {
+          "type": "cta-link",
+          "text": "Read the story"
+        },
+        {
+          "type": "cta-link",
+          "text": "All insights"
+        },
+        {
+          "type": "figcaption",
+          "text": "Ladder7 / Your next chapter"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Read the story",
+          "url": "/blogs/festive-onam-ladder7#page-content",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "All insights",
+          "url": "/blogs",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/blog-onam-celebration-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "675",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high",
+          "srcset": "/images/photos/blog-onam-celebration-480.webp 480w, /images/photos/blog-onam-celebration-800.webp 800w, /images/photos/blog-onam-celebration-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 100vw, 40vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Read the story",
+          "href": "/blogs/festive-onam-ladder7#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "All insights",
+          "href": "/blogs",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Read the story",
+          "href": "/blogs/festive-onam-ladder7#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "All insights",
+          "href": "/blogs",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/LandingHero/LandingHero.css",
+        "component": "src/components/sections/LandingHero/LandingHero.tsx"
+      }
+    },
+    {
+      "section_id": "blogonam_02_page_content",
+      "section_order": 2,
+      "html_id": "page-content",
+      "element": "div",
+      "section_name": "Page Content",
+      "section_heading": "A Colorful Start with Pookalam",
+      "heading_level": "h2",
+      "eyebrow": "All insights",
+      "subheading": "Tradition meets tech at Ladder7! Experience the vibrant colors, festive feasts, and lasting memories from our grand Onam celebration in Kerala.",
+      "description": "",
+      "paragraphs": [
+        "Tradition meets tech at Ladder7! Experience the vibrant colors, festive feasts, and lasting memories from our grand Onam celebration in Kerala.",
+        "Onam, the festival that brings people together with flowers, food, and fun, was celebrated with great enthusiasm at Ladder7 Next Step Solution on September 10, 2024. The event was filled with moments of happiness, cultural pride, and togetherness, making it a day to remember for everyone.",
+        "The celebration began with the creation of Pookalam, the traditional floral carpet. Teams gathered together, their hands carefully arranging colorful flower petals into beautiful patterns. The courtyard soon turned into a canvas of creativity, where each design reflected both teamwork and Kerala’s rich cultural heritage.The vibrant Pookalams were not just decorations but a symbol of harmony and unity—values that Onam and Ladder7 hold close to heart.",
+        "May your home be filled with happiness as bright as the Pookalam",
+        "As the clock approached lunchtime, the mouth-watering aroma of Onam Sadhya filled the air. A long, traditional meal served on fresh banana leaves awaited the team. Everyone relished the variety of dishes, from tangy sambar and crispy banana chips to creamy payasam, which brought a sweet ending to the feast.The Sadhya was more than just food; it was a moment to sit together, share stories, and enjoy the flavors of Onam.",
+        "After the delicious feast, it was time to bring out the playful side of everyone. The team participated in traditional Onam games like tug-of-war, uriyadi, and other fun-filled activities. Cheers and laughter echoed all around as colleagues cheered each other on, turning every game into a celebration of teamwork and joy.The games reminded everyone that festivals are not just about traditions but also about creating happy memories together.",
+        "The celebration continued with energetic dance performances and soulful Onam songs. The rhythm of the music brought everyone together as they clapped, sang along, and swayed to the beats. The enthusiasm and hidden talents of the team made this part of the day truly special.The joy on everyone’s faces reflected the spirit of Onam—celebrating life with happiness and togetherness.",
+        "As the day drew to an end, the entire team came together for a group photo, capturing the smiles, laughter, and bonds created during the celebration. These pictures are not just photographs; they are memories of a day filled with joy, unity, and cultural pride.",
+        "Onam at Ladder7 Next Step Solution was more than just an event; it was a celebration of teamwork, culture, and the simple joys of life. The day brought everyone closer, reminding us of the importance of unity and shared happiness.As we look back at this wonderful celebration, we carry forward the spirit of Onam—spreading joy, harmony, and positivity wherever we go. Here's to many more celebrations together at Ladder7"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Tradition meets tech at Ladder7! Experience the vibrant colors, festive feasts, and lasting memories from our grand Onam celebration in Kerala."
+        },
+        {
+          "type": "p",
+          "text": "Onam, the festival that brings people together with flowers, food, and fun, was celebrated with great enthusiasm at Ladder7 Next Step Solution on September 10, 2024. The event was filled with moments of happiness, cultural pride, and togetherness, making it a day to remember for everyone."
+        },
+        {
+          "type": "h2",
+          "text": "A Colorful Start with Pookalam"
+        },
+        {
+          "type": "p",
+          "text": "The celebration began with the creation of Pookalam, the traditional floral carpet. Teams gathered together, their hands carefully arranging colorful flower petals into beautiful patterns. The courtyard soon turned into a canvas of creativity, where each design reflected both teamwork and Kerala’s rich cultural heritage.The vibrant Pookalams were not just decorations but a symbol of harmony and unity—values that Onam and Ladder7 hold close to heart."
+        },
+        {
+          "type": "p",
+          "text": "May your home be filled with happiness as bright as the Pookalam"
+        },
+        {
+          "type": "h2",
+          "text": "A Feast to Remember: Onam Sadhya"
+        },
+        {
+          "type": "p",
+          "text": "As the clock approached lunchtime, the mouth-watering aroma of Onam Sadhya filled the air. A long, traditional meal served on fresh banana leaves awaited the team. Everyone relished the variety of dishes, from tangy sambar and crispy banana chips to creamy payasam, which brought a sweet ending to the feast.The Sadhya was more than just food; it was a moment to sit together, share stories, and enjoy the flavors of Onam."
+        },
+        {
+          "type": "h2",
+          "text": "Laughter and Fun with Traditional Games"
+        },
+        {
+          "type": "p",
+          "text": "After the delicious feast, it was time to bring out the playful side of everyone. The team participated in traditional Onam games like tug-of-war, uriyadi, and other fun-filled activities. Cheers and laughter echoed all around as colleagues cheered each other on, turning every game into a celebration of teamwork and joy.The games reminded everyone that festivals are not just about traditions but also about creating happy memories together."
+        },
+        {
+          "type": "h2",
+          "text": "Music, Dance, and Togetherness"
+        },
+        {
+          "type": "p",
+          "text": "The celebration continued with energetic dance performances and soulful Onam songs. The rhythm of the music brought everyone together as they clapped, sang along, and swayed to the beats. The enthusiasm and hidden talents of the team made this part of the day truly special.The joy on everyone’s faces reflected the spirit of Onam—celebrating life with happiness and togetherness."
+        },
+        {
+          "type": "h2",
+          "text": "Capturing Moments to Treasure"
+        },
+        {
+          "type": "p",
+          "text": "As the day drew to an end, the entire team came together for a group photo, capturing the smiles, laughter, and bonds created during the celebration. These pictures are not just photographs; they are memories of a day filled with joy, unity, and cultural pride."
+        },
+        {
+          "type": "h2",
+          "text": "The Spirit of Onam at Ladder7"
+        },
+        {
+          "type": "p",
+          "text": "Onam at Ladder7 Next Step Solution was more than just an event; it was a celebration of teamwork, culture, and the simple joys of life. The day brought everyone closer, reminding us of the importance of unity and shared happiness.As we look back at this wonderful celebration, we carry forward the spirit of Onam—spreading joy, harmony, and positivity wherever we go. Here's to many more celebrations together at Ladder7"
+        },
+        {
+          "type": "cta-link",
+          "text": "All insights"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [
+        {
+          "element": "article.blog-article",
+          "heading": "A Colorful Start with Pookalam",
+          "text": [
+            "Tradition meets tech at Ladder7! Experience the vibrant colors, festive feasts, and lasting memories from our grand Onam celebration in Kerala.",
+            "Onam, the festival that brings people together with flowers, food, and fun, was celebrated with great enthusiasm at Ladder7 Next Step Solution on September 10, 2024. The event was filled with moments of happiness, cultural pride, and togetherness, making it a day to remember for everyone.",
+            "The celebration began with the creation of Pookalam, the traditional floral carpet. Teams gathered together, their hands carefully arranging colorful flower petals into beautiful patterns. The courtyard soon turned into a canvas of creativity, where each design reflected both teamwork and Kerala’s rich cultural heritage.The vibrant Pookalams were not just decorations but a symbol of harmony and unity—values that Onam and Ladder7 hold close to heart.",
+            "May your home be filled with happiness as bright as the Pookalam",
+            "A Feast to Remember: Onam Sadhya",
+            "As the clock approached lunchtime, the mouth-watering aroma of Onam Sadhya filled the air. A long, traditional meal served on fresh banana leaves awaited the team. Everyone relished the variety of dishes, from tangy sambar and crispy banana chips to creamy payasam, which brought a sweet ending to the feast.The Sadhya was more than just food; it was a moment to sit together, share stories, and enjoy the flavors of Onam.",
+            "Laughter and Fun with Traditional Games",
+            "After the delicious feast, it was time to bring out the playful side of everyone. The team participated in traditional Onam games like tug-of-war, uriyadi, and other fun-filled activities. Cheers and laughter echoed all around as colleagues cheered each other on, turning every game into a celebration of teamwork and joy.The games reminded everyone that festivals are not just about traditions but also about creating happy memories together.",
+            "Music, Dance, and Togetherness",
+            "The celebration continued with energetic dance performances and soulful Onam songs. The rhythm of the music brought everyone together as they clapped, sang along, and swayed to the beats. The enthusiasm and hidden talents of the team made this part of the day truly special.The joy on everyone’s faces reflected the spirit of Onam—celebrating life with happiness and togetherness.",
+            "Capturing Moments to Treasure",
+            "As the day drew to an end, the entire team came together for a group photo, capturing the smiles, laughter, and bonds created during the celebration. These pictures are not just photographs; they are memories of a day filled with joy, unity, and cultural pride.",
+            "The Spirit of Onam at Ladder7",
+            "Onam at Ladder7 Next Step Solution was more than just an event; it was a celebration of teamwork, culture, and the simple joys of life. The day brought everyone closer, reminding us of the importance of unity and shared happiness.As we look back at this wonderful celebration, we carry forward the spirit of Onam—spreading joy, harmony, and positivity wherever we go. Here's to many more celebrations together at Ladder7",
+            "All insights"
+          ],
+          "links": [
+            {
+              "text": "All insights",
+              "href": "/blogs"
+            }
+          ],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "All insights",
+          "url": "/blogs",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "All insights",
+          "href": "/blogs",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "All insights",
+          "href": "/blogs",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/BlogArticle/BlogArticle.css",
+        "component": "src/components/sections/BlogArticle/BlogArticle.tsx",
+        "via": "descendant class .blog-article"
+      }
+    },
+    {
+      "section_id": "blogonam_03_contact",
+      "section_order": 3,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

@@ -1,0 +1,791 @@
+{
+  "page_key": "trainingDigitalContentCreation",
+  "page_url": "/corporate-training-kerala/digital-content-creation",
+  "document_title": "Digital Content Creation | Corporate Training | Ladder7",
+  "seo": {
+    "meta_title": "Digital Content Creation | Corporate Training | Ladder7",
+    "meta_description": "Ladder7 delivers hands-on content creation training for corporate marketing and comms teams in Kerala and virtually across India.",
+    "canonical_url": "https://www.ladder7.in/corporate-training-kerala/digital-content-creation",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Digital Content Creation."
+  },
+  "sections": [
+    {
+      "section_id": "trainingdigitalcontentcreation_01_page",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Page",
+      "section_heading": "Digital Content Creation.",
+      "heading_level": "h1",
+      "eyebrow": "Corporate course",
+      "subheading": "",
+      "description": "Digital Content Creation training shaped around your team. 6–15 per batch. On-site or Virtual.",
+      "paragraphs": [
+        "Corporate course",
+        "Digital Content Creation training shaped around your team. 6–15 per batch. On-site or Virtual."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Corporate course"
+        },
+        {
+          "type": "h1",
+          "text": "Digital Content Creation."
+        },
+        {
+          "type": "p",
+          "text": "Digital Content Creation training shaped around your team. 6–15 per batch. On-site or Virtual."
+        },
+        {
+          "type": "cta-link",
+          "text": "Let's talk"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore the details"
+        },
+        {
+          "type": "li",
+          "text": "Writing / Design / Video / Social"
+        },
+        {
+          "type": "li",
+          "text": "6–15 per batch"
+        },
+        {
+          "type": "li",
+          "text": "On-site or Virtual"
+        },
+        {
+          "type": "figcaption",
+          "text": "Ladder7 / Your next chapter"
+        }
+      ],
+      "bullet_points": [
+        "Writing / Design / Video / Social",
+        "6–15 per batch",
+        "On-site or Virtual"
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Let's talk",
+          "url": "/corporate-training-kerala/digital-content-creation#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore the details",
+          "url": "/corporate-training-kerala/digital-content-creation#page-content",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/training-video-editing-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "800",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high",
+          "srcset": "/images/photos/training-video-editing-480.webp 480w, /images/photos/training-video-editing-800.webp 800w, /images/photos/training-video-editing-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 100vw, 40vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Let's talk",
+          "href": "/corporate-training-kerala/digital-content-creation#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/corporate-training-kerala/digital-content-creation#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Let's talk",
+          "href": "/corporate-training-kerala/digital-content-creation#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/corporate-training-kerala/digital-content-creation#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/LandingHero/LandingHero.css",
+        "component": "src/components/sections/LandingHero/LandingHero.tsx"
+      }
+    },
+    {
+      "section_id": "trainingdigitalcontentcreation_02_detail_section",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Practical learning. A clearer next step.",
+      "heading_level": "h2",
+      "eyebrow": "The program",
+      "subheading": "",
+      "description": "Smaller marketing teams end up outsourcing content because nobody in-house has the full toolkit: writing, design and video usually sit with three different people, or three different vendors.\n\nThis program is meant to close that gap for one or two people on your team, not turn everyone into a full-time designer. By the end, your team should be able to take a piece of content from idea to published post without waiting on an agency.",
+      "paragraphs": [
+        "The program",
+        "Smaller marketing teams end up outsourcing content because nobody in-house has the full toolkit: writing, design and video usually sit with three different people, or three different vendors.",
+        "This program is meant to close that gap for one or two people on your team, not turn everyone into a full-time designer. By the end, your team should be able to take a piece of content from idea to published post without waiting on an agency."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The program"
+        },
+        {
+          "type": "h2",
+          "text": "Practical learning. A clearer next step."
+        },
+        {
+          "type": "p",
+          "text": "Smaller marketing teams end up outsourcing content because nobody in-house has the full toolkit: writing, design and video usually sit with three different people, or three different vendors."
+        },
+        {
+          "type": "p",
+          "text": "This program is meant to close that gap for one or two people on your team, not turn everyone into a full-time designer. By the end, your team should be able to take a piece of content from idea to published post without waiting on an agency."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "trainingdigitalcontentcreation_03_detail_section",
+      "section_order": 3,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "What your team will explore.",
+      "heading_level": "h2",
+      "eyebrow": "The curriculum",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "The curriculum",
+        "Writing for the web, not a brochure: structure, tone and SEO basics.",
+        "Practical design fundamentals using tools your team can actually license.",
+        "Cutting, pacing and exporting video content that doesn't need an agency.",
+        "Planning and posting content that fits how each platform actually works."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The curriculum"
+        },
+        {
+          "type": "h2",
+          "text": "What your team will explore."
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "Content Writing"
+        },
+        {
+          "type": "span",
+          "text": "–"
+        },
+        {
+          "type": "p",
+          "text": "Writing for the web, not a brochure: structure, tone and SEO basics."
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "Graphic Design"
+        },
+        {
+          "type": "span",
+          "text": "+"
+        },
+        {
+          "type": "p",
+          "text": "Practical design fundamentals using tools your team can actually license."
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "Video Editing"
+        },
+        {
+          "type": "span",
+          "text": "+"
+        },
+        {
+          "type": "p",
+          "text": "Cutting, pacing and exporting video content that doesn't need an agency."
+        },
+        {
+          "type": "span",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "Social Media Marketing"
+        },
+        {
+          "type": "span",
+          "text": "+"
+        },
+        {
+          "type": "p",
+          "text": "Planning and posting content that fits how each platform actually works."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "01",
+          "detail": "",
+          "source": ".detail-curriculum__number"
+        },
+        {
+          "term": "02",
+          "detail": "",
+          "source": ".detail-curriculum__number"
+        },
+        {
+          "term": "03",
+          "detail": "",
+          "source": ".detail-curriculum__number"
+        },
+        {
+          "term": "04",
+          "detail": "",
+          "source": ".detail-curriculum__number"
+        }
+      ],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "01\nContent Writing\n–",
+          "open": true
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "02\nGraphic Design\n+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "03\nVideo Editing\n+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "04\nSocial Media Marketing\n+",
+          "open": false
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "trainingdigitalcontentcreation_04_detail_section",
+      "section_order": 4,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Built for people like you.",
+      "heading_level": "h2",
+      "eyebrow": "Who it’s for",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "Who it’s for"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Who it’s for"
+        },
+        {
+          "type": "h2",
+          "text": "Built for people like you."
+        },
+        {
+          "type": "li",
+          "text": "Marketing teams currently outsourcing most of their content"
+        },
+        {
+          "type": "li",
+          "text": "Small teams that need one person to cover writing, design and video"
+        },
+        {
+          "type": "li",
+          "text": "Founders and comms leads who want more control over their own output"
+        }
+      ],
+      "bullet_points": [
+        "Marketing teams currently outsourcing most of their content",
+        "Small teams that need one person to cover writing, design and video",
+        "Founders and comms leads who want more control over their own output"
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "trainingdigitalcontentcreation_05_detail_section",
+      "section_order": 5,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Take the learning into your work.",
+      "heading_level": "h2",
+      "eyebrow": "Your next chapter",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "Your next chapter"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Your next chapter"
+        },
+        {
+          "type": "h2",
+          "text": "Take the learning into your work."
+        },
+        {
+          "type": "li",
+          "text": "A small content calendar built and ready to publish"
+        },
+        {
+          "type": "li",
+          "text": "Comfort using at least one design and one video tool end to end"
+        },
+        {
+          "type": "li",
+          "text": "Less dependency on outside agencies for routine content"
+        }
+      ],
+      "bullet_points": [
+        "A small content calendar built and ready to publish",
+        "Comfort using at least one design and one video tool end to end",
+        "Less dependency on outside agencies for routine content"
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "trainingdigitalcontentcreation_06_detail_section",
+      "section_order": 6,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Good questions.",
+      "heading_level": "h2",
+      "eyebrow": "A little more clarity",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "A little more clarity",
+        "Tools your team can realistically license or use free (for example Canva-class design tools and accessible video editors), configured around what you already have. If you're on Adobe, we train on Adobe.",
+        "Where they genuinely help, yes: drafting, repurposing and ideation are covered honestly, including where AI output needs human editing before it's publishable. For a deeper AI-at-work program, see the Prompt Engineering track.",
+        "No; this track exists for exactly that team. Small batches run as intensive working sessions built around your actual upcoming content calendar.",
+        "Yes. Social media training for employees runs well as a standalone session (planning, platform-fit content and posting workflow); many teams start there and add writing, design or video later."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "A little more clarity"
+        },
+        {
+          "type": "h2",
+          "text": "Good questions."
+        },
+        {
+          "type": "summary",
+          "text": "Which design and video tools does the training use?+"
+        },
+        {
+          "type": "p",
+          "text": "Tools your team can realistically license or use free (for example Canva-class design tools and accessible video editors), configured around what you already have. If you're on Adobe, we train on Adobe."
+        },
+        {
+          "type": "summary",
+          "text": "Does this cover using AI tools for content?+"
+        },
+        {
+          "type": "p",
+          "text": "Where they genuinely help, yes: drafting, repurposing and ideation are covered honestly, including where AI output needs human editing before it's publishable. For a deeper AI-at-work program, see the Prompt Engineering track."
+        },
+        {
+          "type": "summary",
+          "text": "Our whole marketing team is two people. Is that too small a batch?+"
+        },
+        {
+          "type": "p",
+          "text": "No; this track exists for exactly that team. Small batches run as intensive working sessions built around your actual upcoming content calendar."
+        },
+        {
+          "type": "summary",
+          "text": "Can we book just the social media module as standalone training for employees?+"
+        },
+        {
+          "type": "p",
+          "text": "Yes. Social media training for employees runs well as a standalone session (planning, platform-fit content and posting workflow); many teams start there and add writing, design or video later."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Which design and video tools does the training use?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Does this cover using AI tools for content?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Our whole marketing team is two people. Is that too small a batch?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Can we book just the social media module as standalone training for employees?+",
+          "open": false
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "trainingdigitalcontentcreation_07_contact",
+      "section_order": 7,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

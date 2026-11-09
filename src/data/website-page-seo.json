@@ -1,0 +1,392 @@
+[
+  {
+    "page_key": "home",
+    "title": "Custom Software Development Company in India | Ladder7",
+    "description": "India-based software development company building custom software, web and mobile apps and AI for clients in the UAE, Saudi Arabia, UK, Europe and Africa.",
+    "h1": "Custom software, web and AI development from India for global businesses."
+  },
+  {
+    "page_key": "services",
+    "title": "Software Development Services from India | Ladder7",
+    "description": "Web development, custom software, mobile apps, AI assistants, automation and dedicated developers, delivered from India for GCC, European and African clients.",
+    "h1": "Software development services, from strategy to support."
+  },
+  {
+    "page_key": "about",
+    "title": "About Ladder7 | Software Development Company in Kerala",
+    "description": "Ladder7 NextStep Solutions is a software firm in Kochi and Trivandrum, India, building web, AI and custom software for clients in the UAE, UK, EU, US and Asia.",
+    "h1": "About Ladder7: an Indian software engineering partner for global teams."
+  },
+  {
+    "page_key": "contact",
+    "title": "Contact Ladder7 | Get a Software Development Quote",
+    "description": "Tell us about your software, web, mobile or AI project. Email info@ladder7.in or WhatsApp +91 8137979401. We work with clients in the GCC, Europe and Africa.",
+    "h1": "Talk to us about your software project."
+  },
+  {
+    "page_key": "education",
+    "title": "Ladder7 Education | IT Courses & Internships in Kerala",
+    "description": "Discover your next step with Ladder7 Education. Career-focused learning, practical internships and a framework for personal growth, from Cochin and Trivandrum.",
+    "h1": "Learn. Build. Grow."
+  },
+  {
+    "page_key": "faq",
+    "title": "FAQ: Software Development, AI & Training | Ladder7",
+    "description": "Answers on cost, time zones, contracts, IP and engagement models for outsourcing software development to Ladder7 in India, plus our training programmes.",
+    "h1": "Good questions. Clear answers."
+  },
+  {
+    "page_key": "careers",
+    "title": "Careers at Ladder7 | Software & AI Jobs in Kochi, Trivandrum",
+    "description": "Join Ladder7 in Kochi and Trivandrum to build web platforms, AI systems and custom software for clients in the GCC, Europe and Africa. Join our talent network.",
+    "h1": "Good people. Meaningful work."
+  },
+  {
+    "page_key": "portfolio",
+    "title": "Portfolio | Software, Web & AI Projects by Ladder7",
+    "description": "Selected Ladder7 work in AI, automation, web platforms and SEO/AEO-ready websites for clients in the UAE, UK, Germany, USA and Australia.",
+    "h1": "Our work: software, web and AI projects delivered from India."
+  },
+  {
+    "page_key": "products",
+    "title": "Ladder7 Products | AI Tools for Growing Businesses",
+    "description": "Site 360, L7 Nexus, Outreach Engine, L7 Insights and Infinite Insights — five AI products from Ladder7 NextStep Solutions, built around real business needs.",
+    "h1": "Tools for your next chapter."
+  },
+  {
+    "page_key": "productSite360",
+    "title": "Site 360 | Website Intelligence Platform | Ladder7",
+    "description": "Audit your website across twelve lenses — performance, accessibility, SEO, AEO, GEO, AI readiness and security — into one Digital Health score.",
+    "h1": "One website audit across twelve lenses."
+  },
+  {
+    "page_key": "productL7Nexus",
+    "title": "L7 Nexus | An AI Executive Team | Ladder7",
+    "description": "L7 Nexus is a leased AI executive team for businesses of any size. It builds a permanent company brain and puts named executives and specialists to work on it.",
+    "h1": "An AI executive team for your business."
+  },
+  {
+    "page_key": "productOutreachEngine",
+    "title": "Outreach Engine | B2B Email Outreach | Ladder7",
+    "description": "Outreach Engine is a B2B email outreach platform. It researches each prospect and writes a single email for that person, rather than filling a template.",
+    "h1": "B2B email written one at a time."
+  },
+  {
+    "page_key": "productL7Insights",
+    "title": "L7 Insights | Multi-Source Business Dashboards | Ladder7",
+    "description": "Connect Google Sheets, BigQuery, Snowflake, Zoho, SharePoint, SAP or a CSV, and each source becomes a table you can chart in one dashboard.",
+    "h1": "One view across the systems you already use."
+  },
+  {
+    "page_key": "productInfiniteInsights",
+    "title": "Infinite Insights | Marketing Analytics Platform | Ladder7",
+    "description": "Infinite Insights is an AI-powered marketing analytics platform that unifies Meta, Google Ads, LinkedIn and GA4 into a single dashboard.",
+    "h1": "Every ad channel in one marketing analytics view."
+  },
+  {
+    "page_key": "productMyLadder",
+    "title": "My Ladder | Career Planning & Growth | Ladder7",
+    "description": "Take control of your professional journey with MyLadder. A dedicated platform for structured career planning, skill tracking, and continuous personal growth.",
+    "h1": "Your growth. One step at a time."
+  },
+  {
+    "page_key": "productMindGym",
+    "title": "Mind Gym | Train Your Mind, Build Focus | Ladder7",
+    "description": "Train your brain for success. MyndGym offers interactive exercises and assessments designed to enhance cognitive skills, focus, and analytical thinking.",
+    "h1": "Train your mind. Move forward."
+  },
+  {
+    "page_key": "productMirrorMe",
+    "title": "Mirror Me | Psychometric Self-Assessment | Ladder7",
+    "description": "Mirror Me offers psychometric and behavioural assessments that help students and professionals match their strengths to the right career paths.",
+    "h1": "Know yourself. Grow with clarity."
+  },
+  {
+    "page_key": "productFillDots",
+    "title": "Fill Dots | Bridge Your Career Skill Gaps | Ladder7",
+    "description": "Fill Dots maps the gap between where you are and where you want to be, then builds a custom learning pathway to close your skill gaps.",
+    "h1": "Connect the dots. Shape your career."
+  },
+  {
+    "page_key": "productAmiu",
+    "title": "AMIU | AI Career Mentor | Ladder7",
+    "description": "AMIU is an AI career mentor that matches your skills, interests and personality with future-ready education and career pathways.",
+    "h1": "Meet AMIU. Find your direction."
+  },
+  {
+    "page_key": "serviceAemDigitalExperience",
+    "title": "AEM Implementation & Migration Services | Ladder7",
+    "description": "Adobe Experience Manager implementation, AEM as a Cloud Service migration and headless AEM builds by senior AEM engineers in India for global enterprises.",
+    "h1": "AEM implementation and cloud migration services."
+  },
+  {
+    "page_key": "serviceAnalyticsExperimentation",
+    "title": "Analytics & A/B Testing Services | Ladder7",
+    "description": "Analytics setup, behaviour analysis and A/B testing that show what users do and what to change next. Delivered remotely from India for global digital teams.",
+    "h1": "Turn insight into better experiences."
+  },
+  {
+    "page_key": "serviceHeadlessCms",
+    "title": "Headless CMS Development Services | Ladder7",
+    "description": "API-first headless CMS architecture, migration and omnichannel content delivery, built by Ladder7's engineering team in India for brands in the GCC and Europe.",
+    "h1": "Headless CMS development: create content once, deliver it everywhere."
+  },
+  {
+    "page_key": "serviceWebExperience",
+    "title": "Web Development Company in India | React, Next.js | Ladder7",
+    "description": "Custom web development with React, Next.js and WordPress. Fast, SEO-ready websites and web apps built in India for clients in the UAE, Saudi Arabia, UK and EU.",
+    "h1": "Web development services with React, Next.js and WordPress."
+  },
+  {
+    "page_key": "serviceLocalizationUiux",
+    "title": "UI/UX Design, Localisation, Accessibility & QA | Ladder7",
+    "description": "UI/UX design, multilingual localisation, WCAG accessibility testing and QA for web and mobile products, delivered by Ladder7 in India for global teams.",
+    "h1": "Digital experiences. Built around people."
+  },
+  {
+    "page_key": "serviceAiAssistant",
+    "title": "AI Chatbot & Assistant Development Company | Ladder7",
+    "description": "Custom LLM-powered chatbots and internal knowledge assistants for support, sales and operations, built in India for businesses in the GCC, Europe and Africa.",
+    "h1": "AI chatbot and assistant development."
+  },
+  {
+    "page_key": "serviceAgenticAi",
+    "title": "Agentic AI Development & Multi-Agent Systems | Ladder7",
+    "description": "We design and build agentic AI: specialised agents that reason, collaborate and run multi-step business workflows. Engineered in India for global companies.",
+    "h1": "Connected agents. Smarter ways to work."
+  },
+  {
+    "page_key": "serviceIntelligentWebsites",
+    "title": "AI-Powered Personalised Websites | Ladder7",
+    "description": "AI-driven websites that adapt content to visitor intent, with predictive personalisation and SEO, AEO and GEO built in. Designed and engineered by Ladder7.",
+    "h1": "Websites that think, learn and adapt."
+  },
+  {
+    "page_key": "serviceAiProduct",
+    "title": "Custom AI Product Development & POCs | Ladder7",
+    "description": "Prototype AI-first features, test product concepts with rapid proofs of concept and take validated AI products to production with Ladder7's team in India.",
+    "h1": "Turn your AI vision into a working product."
+  },
+  {
+    "page_key": "serviceHyperautomation",
+    "title": "Hyperautomation Consulting Services: AI + RPA | Ladder7",
+    "description": "Hyperautomation consulting and implementation that combines RPA, AI and workflow integration to remove manual work. Delivered from India for global operations.",
+    "h1": "Hyperautomation consulting and implementation services."
+  },
+  {
+    "page_key": "serviceTechnology",
+    "title": "IT & Technology Consulting Services | Ladder7",
+    "description": "Vendor-neutral technology consulting: stack selection, cloud platform choice, architecture reviews and legacy modernisation roadmaps from senior architects.",
+    "h1": "Clear technology choices. A stronger foundation."
+  },
+  {
+    "page_key": "serviceSkilledResource",
+    "title": "IT Staff Augmentation from India | Hire Engineers | Ladder7",
+    "description": "Pre-vetted developers, QA engineers and architects from India who join your team on monthly contracts. Dedicated squads, offshore centres and BOT models.",
+    "h1": "IT staff augmentation: Indian engineers embedded in your team."
+  },
+  {
+    "page_key": "serviceGreenRecovery",
+    "title": "Software Project Rescue & Recovery Services | Ladder7",
+    "description": "Struggling software project? Ladder7 audits code and delivery, stabilises the build and restores velocity with a clear get-to-green recovery plan.",
+    "h1": "Bring your project back on track."
+  },
+  {
+    "page_key": "serviceProductSolution",
+    "title": "Product Discovery, MVP Scoping & Blueprinting | Ladder7",
+    "description": "Turn a product idea into architecture, MVP scope and a costed development roadmap. Discovery and solution blueprinting for startups and enterprises.",
+    "h1": "From a promising idea to a practical blueprint."
+  },
+  {
+    "page_key": "corporateTraining",
+    "title": "Corporate Training in Kerala | IT, Cloud & AI | Ladder7",
+    "description": "Hands-on IT, data, cloud, AI and marketing training for company teams: on-site in Trivandrum, Kochi and across Kerala, or fully virtual.",
+    "h1": "Grow your team. Build what comes next."
+  },
+  {
+    "page_key": "trainingFullStackDevelopment",
+    "title": "Full Stack Development | Corporate Training | Ladder7",
+    "description": "Ladder7 delivers hands-on full stack development training for corporate teams in Kerala and virtually across India.",
+    "h1": "Full Stack Development."
+  },
+  {
+    "page_key": "trainingDataScience",
+    "title": "Data Science | Corporate Training | Ladder7",
+    "description": "Ladder7 delivers hands-on data science training for corporate teams in Kerala and virtually across India.",
+    "h1": "Data Science."
+  },
+  {
+    "page_key": "trainingMobileAppDevelopment",
+    "title": "Mobile App Development Corporate Training | Ladder7",
+    "description": "Ladder7 delivers hands-on mobile development training for corporate teams in Kerala and virtually across India.",
+    "h1": "Mobile Application Development."
+  },
+  {
+    "page_key": "trainingPromptEngineeringAiTraining",
+    "title": "AI Training | Corporate Training | Ladder7",
+    "description": "Ladder7 delivers hands-on AI training for employees, on-site in Kerala (Trivandrum, Kochi and beyond) or virtually.",
+    "h1": "AI Training."
+  },
+  {
+    "page_key": "trainingDataVisualization",
+    "title": "Data Visualization | Corporate Training | Ladder7",
+    "description": "Ladder7 delivers hands-on data visualization training for corporate teams in Kerala and virtually across India.",
+    "h1": "Data Visualization."
+  },
+  {
+    "page_key": "trainingCloudComputingBootcamp",
+    "title": "Cloud Computing Bootcamp | Corporate Training | Ladder7",
+    "description": "Ladder7 delivers a hands-on cloud computing bootcamp for corporate teams in Kerala and virtually across India.",
+    "h1": "Cloud Computing Bootcamp."
+  },
+  {
+    "page_key": "trainingDigitalContentCreation",
+    "title": "Digital Content Creation | Corporate Training | Ladder7",
+    "description": "Ladder7 delivers hands-on content creation training for corporate marketing and comms teams in Kerala and virtually across India.",
+    "h1": "Digital Content Creation."
+  },
+  {
+    "page_key": "trainingBusinessAnalytics",
+    "title": "Business Analytics | Corporate Training | Ladder7",
+    "description": "Ladder7 delivers hands-on business analytics training for corporate teams in Kerala and virtually across India.",
+    "h1": "Business Analytics."
+  },
+  {
+    "page_key": "trainingBusinessIntelligenceDataAnalytics",
+    "title": "BI & Data Analytics Corporate Training | Ladder7",
+    "description": "Ladder7 delivers hands-on BI and data analytics training for corporate teams in Kerala and virtually across India.",
+    "h1": "Business Intelligence & Data Analytics."
+  },
+  {
+    "page_key": "trainingMarketingAutomationCrm",
+    "title": "CRM & Automation Training | Corporate Training | Ladder7",
+    "description": "Ladder7 delivers hands-on CRM and marketing automation training for corporate sales and marketing teams in Kerala and virtually across India.",
+    "h1": "CRM & Automation Training."
+  },
+  {
+    "page_key": "trainingWebopsAiMl",
+    "title": "WebOps & AI/ML Training | Corporate Training | Ladder7",
+    "description": "Ladder7 delivers hands-on WebOps and AI/ML training for corporate ops and infrastructure teams in Kerala and virtually across India.",
+    "h1": "WebOps & AI/ML Training."
+  },
+  {
+    "page_key": "blog",
+    "title": "Insights: Software Outsourcing, AI & Web | Ladder7",
+    "description": "Practical guides on outsourcing software development to India, applied AI and web engineering, plus stories from the Ladder7 team in Kochi and Trivandrum.",
+    "h1": "Ideas for your next step.\nIn technology, work and life."
+  },
+  {
+    "page_key": "blogAiPersonalization",
+    "title": "The Role of AI in Personalizing Web Experiences | Ladder7",
+    "description": "Discover how Artificial Intelligence and machine learning are revolutionizing web design through predictive personalization and dynamic content delivery.",
+    "h1": "The Role of AI in Personalizing Web Experiences."
+  },
+  {
+    "page_key": "blogAiToolsWebTeams",
+    "title": "AI Tools for Web Development Teams | Ladder7",
+    "description": "How web development teams can use AI tools to build intelligent websites that improve collaboration, automate repetitive work and support conversion.",
+    "h1": "AI Tools for Web Development Teams: How to Build Intelligent Websites That Convert."
+  },
+  {
+    "page_key": "blogConversationalAi",
+    "title": "Conversational AI for Customer Experience | Ladder7",
+    "description": "How enterprise teams use conversational AI, private knowledge, workflow orchestration and analytics to improve customer experience beyond scripted chatbots.",
+    "h1": "Conversational AI for Customer Experience: When Chatbots Need to Do More."
+  },
+  {
+    "page_key": "blogWebsiteChecks",
+    "title": "Website Checks Must Go Beyond Performance Scores | Ladder7",
+    "description": "A fast site can still fail if buyers, search engines and AI answer engines cannot understand it or act on it. What a complete website check should cover.",
+    "h1": "Why Website Checks Need to Go Beyond Performance Scores."
+  },
+  {
+    "page_key": "blogOnam",
+    "title": "Ladder7’s Grand Onam Celebration | Life at Ladder7",
+    "description": "Tradition meets tech at Ladder7! Experience the vibrant colors, festive feasts, and lasting memories from our grand Onam celebration in Kerala.",
+    "h1": "Festive Moments and Lasting Memories: Ladder7’s Grand Onam Celebration."
+  },
+  {
+    "page_key": "blogChristmas",
+    "title": "Lux Noel: A Magical Christmas Celebration | Ladder7",
+    "description": "Explore the festive spirit at Ladder7! Read about \"Lux Noel,\" our magical Christmas celebration filled with team bonding, joy, and holiday cheer.",
+    "h1": "Lux Noel: A Magical Christmas Celebration."
+  },
+  {
+    "page_key": "blogIndependenceDay",
+    "title": "Independence Day at Ladder7 | Life at Ladder7",
+    "description": "Get an inside look at Ladder7's company culture as we celebrate Independence Day with a focus on unity, corporate social responsibility, and national pride.",
+    "h1": "Celebrating Unity and Responsibility: Independence Day at Ladder7."
+  },
+  {
+    "page_key": "privacy",
+    "title": "Privacy Policy | Ladder7 NextStep Solutions LLP",
+    "description": "Ladder7’s privacy policy: how we collect, use and safeguard information gathered through Facebook Ads and related services.",
+    "h1": "Your privacy. In clear terms."
+  },
+  {
+    "page_key": "thankYou",
+    "title": "Thank You | Ladder7",
+    "description": "Your message has been sent to the Ladder7 team. One of our experts will get back to you shortly, usually within one business day.",
+    "h1": "Your next step starts here."
+  },
+  {
+    "page_key": "sitemap",
+    "title": "Sitemap | Every Ladder7 Page in One Place",
+    "description": "Explore Ladder7’s technology, products, learning programs and company pages.",
+    "h1": "Every path. One place."
+  },
+  {
+    "page_key": "bootcamp",
+    "title": "30-Day AI E-commerce Bootcamp | Ladder7",
+    "description": "A 30-day hands-on bootcamp where you build, launch, and scale an AI-powered e-commerce business — from zero to your first sale.",
+    "h1": "Bring your ambition. Build your skills."
+  },
+  {
+    "page_key": "earnMore",
+    "title": "EarnMore | Mentor & IT Consultant Programme | Ladder7",
+    "description": "Accelerate your earning potential. Discover targeted upskilling resources, industry certifications, and strategies designed to maximize your professional value.",
+    "h1": "Learn. Grow. Earn more."
+  },
+  {
+    "page_key": "trainingInternship",
+    "title": "IT Training & Internships in Trivandrum | Ladder7",
+    "description": "Live, mentor-led IT courses in Trivandrum, Kerala: MERN full stack, Python & AI, software testing and Shopify, with internship support and certification.",
+    "h1": "Learn by doing. Grow with direction."
+  },
+  {
+    "page_key": "courseFullStack",
+    "title": "Full Stack Developer Course in Trivandrum | MERN | Ladder7",
+    "description": "A live, mentor-led MERN full stack developer course in Trivandrum, Kerala. Build and deploy real applications on 1-month and 3-month tracks.",
+    "h1": "Full stack. Real possibilities."
+  },
+  {
+    "page_key": "courseAiDataScience",
+    "title": "AI, Data Science & Python Course in Trivandrum | Ladder7",
+    "description": "A live, mentor-led AI, data science and analytics course in Trivandrum, Kerala. Learn Python, web development and machine learning on real datasets.",
+    "h1": "Python. AI. Your next step."
+  },
+  {
+    "page_key": "courseSoftwareTesting",
+    "title": "Software Testing Course in Trivandrum | Ladder7",
+    "description": "A live, mentor-led software testing course in Trivandrum, Kerala covering manual and automation testing with Selenium, plus API testing and placement support.",
+    "h1": "Build confidence in quality."
+  },
+  {
+    "page_key": "courseShopify",
+    "title": "Shopify Course in Trivandrum | 5-Day Workshop | Ladder7",
+    "description": "A focused, hands-on 5-day Shopify workshop in Trivandrum, Kerala that takes you from a blank account to a live, functioning online store.",
+    "h1": "From an idea to a storefront."
+  },
+  {
+    "page_key": "firstJob",
+    "title": "Experience the First Job | Internships | Ladder7",
+    "description": "Bridge the gap between academia and industry. Immersive, real-world project simulations and internships for youth entering the workforce.",
+    "h1": "Experience your first real step."
+  },
+  {
+    "page_key": "careerGoalFinding",
+    "title": "Career Goal Finding Session | Ladder7",
+    "description": "A focused, one-on-one session to help you understand your strengths and interests, and find a career direction in tech that actually fits you.",
+    "h1": "Find a direction that feels like you."
+  }
+]

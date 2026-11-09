@@ -185,11 +185,11 @@
 .service-screen__top {
   display: flex;
   justify-content: space-between;
-  font-size: 7px;
+  font-size: 10px;
 }
 
 .service-screen__top strong {
-  font-size: 9px;
+  font-size: 10px;
 }
 
 .service-screen__top span {
@@ -213,7 +213,7 @@
 }
 
 .service-screen__body small {
-  font-size: 5px;
+  font-size: 10px;
   letter-spacing: 1px;
   color: #acb6bb;
 }
@@ -225,7 +225,7 @@
 }
 
 .service-screen__body > span {
-  font-size: 5px;
+  font-size: 10px;
   color: #abb8be;
 }
 
@@ -241,7 +241,7 @@
   border: 1px solid #66747c;
   border-radius: 12px;
   font-style: normal;
-  font-size: 5px;
+  font-size: 10px;
 }
 
 .service-screen__buttons i:first-child {
@@ -415,7 +415,7 @@
   }
 
   .service-screen__top {
-    font-size: 5px;
+    font-size: 10px;
   }
 
   .service-screen__body > p {

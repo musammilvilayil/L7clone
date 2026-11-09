@@ -1,0 +1,594 @@
+{
+  "page_key": "firstJob",
+  "page_url": "/experience-the-first-job",
+  "document_title": "Experience the First Job | Internships | Ladder7",
+  "seo": {
+    "meta_title": "Experience the First Job | Internships | Ladder7",
+    "meta_description": "Bridge the gap between academia and industry. Immersive, real-world project simulations and internships for youth entering the workforce.",
+    "canonical_url": "https://www.ladder7.in/experience-the-first-job",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Experience your first real step."
+  },
+  "sections": [
+    {
+      "section_id": "firstjob_01_page",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Page",
+      "section_heading": "Experience your first real step.",
+      "heading_level": "h1",
+      "eyebrow": "Your next step",
+      "subheading": "",
+      "description": "Bridge the gap between academia and industry. \"Experience the First Job\" provides immersive, real-world project simulations for youth entering the workforce.",
+      "paragraphs": [
+        "Your next step",
+        "Bridge the gap between academia and industry. \"Experience the First Job\" provides immersive, real-world project simulations for youth entering the workforce."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Your next step"
+        },
+        {
+          "type": "h1",
+          "text": "Experience your first real step."
+        },
+        {
+          "type": "p",
+          "text": "Bridge the gap between academia and industry. \"Experience the First Job\" provides immersive, real-world project simulations for youth entering the workforce."
+        },
+        {
+          "type": "cta-link",
+          "text": "Let's talk"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore the details"
+        },
+        {
+          "type": "figcaption",
+          "text": "Ladder7 / Your next chapter"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Let's talk",
+          "url": "/experience-the-first-job#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore the details",
+          "url": "/experience-the-first-job#page-content",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/first-job-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "800",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high",
+          "srcset": "/images/photos/first-job-480.webp 480w, /images/photos/first-job-800.webp 800w, /images/photos/first-job-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 100vw, 40vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Let's talk",
+          "href": "/experience-the-first-job#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/experience-the-first-job#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Let's talk",
+          "href": "/experience-the-first-job#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/experience-the-first-job#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/LandingHero/LandingHero.css",
+        "component": "src/components/sections/LandingHero/LandingHero.tsx"
+      }
+    },
+    {
+      "section_id": "firstjob_02_detail_section",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Take your first step.",
+      "heading_level": "h2",
+      "eyebrow": "Get started",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "Get started"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Get started"
+        },
+        {
+          "type": "h2",
+          "text": "Take your first step."
+        },
+        {
+          "type": "cta-link",
+          "text": "Apply for the program (opens in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Apply for the program (opens in a new tab)",
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSeSdfZjshBaIB2PATDu-x1xpwJ6V85LqVbocumsyJz5uO915A/viewform?usp=header",
+          "element": "a",
+          "kind": "external",
+          "target": "_blank"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "Apply for the program (opens in a new tab)",
+          "href": "https://docs.google.com/forms/d/e/1FAIpQLSeSdfZjshBaIB2PATDu-x1xpwJ6V85LqVbocumsyJz5uO915A/viewform?usp=header",
+          "type": "external",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [
+        {
+          "text": "Apply for the program (opens in a new tab)",
+          "href": "https://docs.google.com/forms/d/e/1FAIpQLSeSdfZjshBaIB2PATDu-x1xpwJ6V85LqVbocumsyJz5uO915A/viewform?usp=header",
+          "type": "external",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [
+        "(opens in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "firstjob_03_detail_section",
+      "section_order": 3,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Explore what’s possible.",
+      "heading_level": "h2",
+      "eyebrow": "The details",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "The details",
+        "Join our engineering team to bridge the gap between raw data and intelligent insights. Assist in building, testing, and deploying models that solve real-world problems.",
+        "Budding Full-Stack Developer to scale web platforms. Perfect for JS lovers who want to see code in production and impact real users.",
+        "First point of contact for candidates, helping maintain a high-energy company culture and sourcing the best talent.",
+        "Creative, data-curious intern to support digital marketing across channels and help tell our brand's story."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The details"
+        },
+        {
+          "type": "h2",
+          "text": "Explore what’s possible."
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "Jr. AI/ML Developer (Intern)"
+        },
+        {
+          "type": "p",
+          "text": "Join our engineering team to bridge the gap between raw data and intelligent insights. Assist in building, testing, and deploying models that solve real-world problems."
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "Jr. MERN Developer (Intern)"
+        },
+        {
+          "type": "p",
+          "text": "Budding Full-Stack Developer to scale web platforms. Perfect for JS lovers who want to see code in production and impact real users."
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "Jr. HR (Intern)"
+        },
+        {
+          "type": "p",
+          "text": "First point of contact for candidates, helping maintain a high-energy company culture and sourcing the best talent."
+        },
+        {
+          "type": "span",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "Jr. Digital Marketing Executive (Intern)"
+        },
+        {
+          "type": "p",
+          "text": "Creative, data-curious intern to support digital marketing across channels and help tell our brand's story."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "01",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "02",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "03",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "04",
+          "detail": "",
+          "source": ".detail-cards__number"
+        }
+      ],
+      "cards": [
+        {
+          "element": "article",
+          "heading": "Jr. AI/ML Developer (Intern)",
+          "text": [
+            "01",
+            "Join our engineering team to bridge the gap between raw data and intelligent insights. Assist in building, testing, and deploying models that solve real-world problems."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Jr. MERN Developer (Intern)",
+          "text": [
+            "02",
+            "Budding Full-Stack Developer to scale web platforms. Perfect for JS lovers who want to see code in production and impact real users."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Jr. HR (Intern)",
+          "text": [
+            "03",
+            "First point of contact for candidates, helping maintain a high-energy company culture and sourcing the best talent."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Jr. Digital Marketing Executive (Intern)",
+          "text": [
+            "04",
+            "Creative, data-curious intern to support digital marketing across channels and help tell our brand's story."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "firstjob_04_contact",
+      "section_order": 4,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

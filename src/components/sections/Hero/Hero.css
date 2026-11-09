@@ -283,7 +283,7 @@
 
   .hero__tagline {
     text-align: left;
-    font-size: var(--font-size-micro);
+    font-size: 1.125rem;
     line-height: var(--line-height-body);
   }
 

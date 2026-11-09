@@ -15,7 +15,7 @@ export interface PossibilitiesContent {
   text: string;
   buttonLabel: string;
   buttonTo: string;
-  /** Three columns of three images each; each column is shown twice for a seamless loop. */
+  /** Three columns of distinct images. */
   columns: ImageName[][];
 }
 
@@ -51,8 +51,8 @@ export function PossibilitiesWall({ content = IT_CONTENT }: { content?: Possibil
       <div className="wall__collage" aria-hidden="true">
         {content.columns.map((column, c) => (
           <div className="wall__column" key={c}>
-            {[...column, ...column].map((image, i) => (
-              <ResponsiveImage key={i} name={image} alt="" sizes="(max-width: 700px) 48vw, 24vw" />
+            {column.map((image) => (
+              <ResponsiveImage key={image} name={image} alt="" sizes="(max-width: 700px) 48vw, 24vw" />
             ))}
           </div>
         ))}

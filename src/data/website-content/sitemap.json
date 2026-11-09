@@ -1,0 +1,1489 @@
+{
+  "page_key": "sitemap",
+  "page_url": "/sitemap",
+  "document_title": "Sitemap | Every Ladder7 Page in One Place",
+  "seo": {
+    "meta_title": "Sitemap | Every Ladder7 Page in One Place",
+    "meta_description": "Explore Ladder7’s technology, products, learning programs and company pages.",
+    "canonical_url": "https://www.ladder7.in/sitemap",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Every path. One place."
+  },
+  "sections": [
+    {
+      "section_id": "sitemap_01_page",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Page",
+      "section_heading": "Every path. One place.",
+      "heading_level": "h1",
+      "eyebrow": "Explore Ladder7",
+      "subheading": "",
+      "description": "Explore Ladder7’s technology, products, learning programs and company pages.",
+      "paragraphs": [
+        "Explore Ladder7",
+        "Explore Ladder7’s technology, products, learning programs and company pages."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore Ladder7"
+        },
+        {
+          "type": "h1",
+          "text": "Every path. One place."
+        },
+        {
+          "type": "p",
+          "text": "Explore Ladder7’s technology, products, learning programs and company pages."
+        },
+        {
+          "type": "cta-link",
+          "text": "Let's talk"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore the details"
+        },
+        {
+          "type": "figcaption",
+          "text": "Ladder7 / Your next chapter"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Let's talk",
+          "url": "/sitemap#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore the details",
+          "url": "/sitemap#page-content",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/team-collaboration-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "799",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high",
+          "srcset": "/images/photos/team-collaboration-480.webp 480w, /images/photos/team-collaboration-800.webp 800w, /images/photos/team-collaboration-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 100vw, 40vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Let's talk",
+          "href": "/sitemap#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/sitemap#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Let's talk",
+          "href": "/sitemap#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/sitemap#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/LandingHero/LandingHero.css",
+        "component": "src/components/sections/LandingHero/LandingHero.tsx"
+      }
+    },
+    {
+      "section_id": "sitemap_02_detail_section",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Explore the whole site.",
+      "heading_level": "h2",
+      "eyebrow": "All pages",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "All pages"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "All pages"
+        },
+        {
+          "type": "h2",
+          "text": "Explore the whole site."
+        },
+        {
+          "type": "li",
+          "text": "Site 360"
+        },
+        {
+          "type": "li",
+          "text": "Digital Engineering, AI Solutions & Skilling"
+        },
+        {
+          "type": "li",
+          "text": "Empowering Your Business with Cutting-Edge Solutions"
+        },
+        {
+          "type": "li",
+          "text": "Engineering the Next Era of Digital Business."
+        },
+        {
+          "type": "li",
+          "text": "Good people. Meaningful work."
+        },
+        {
+          "type": "li",
+          "text": "Grow your team. Build what comes next."
+        },
+        {
+          "type": "li",
+          "text": "Learn by doing. Grow with direction."
+        },
+        {
+          "type": "li",
+          "text": "Full stack. Real possibilities."
+        },
+        {
+          "type": "li",
+          "text": "Python. AI. Your next step."
+        },
+        {
+          "type": "li",
+          "text": "Build confidence in quality."
+        },
+        {
+          "type": "li",
+          "text": "From an idea to a storefront."
+        },
+        {
+          "type": "li",
+          "text": "Find a direction that feels like you."
+        },
+        {
+          "type": "li",
+          "text": "Full Stack Development"
+        },
+        {
+          "type": "li",
+          "text": "Data Science"
+        },
+        {
+          "type": "li",
+          "text": "Mobile Application Development"
+        },
+        {
+          "type": "li",
+          "text": "AI Training"
+        },
+        {
+          "type": "li",
+          "text": "Data Visualization"
+        },
+        {
+          "type": "li",
+          "text": "Cloud Computing Bootcamp"
+        },
+        {
+          "type": "li",
+          "text": "Digital Content Creation"
+        },
+        {
+          "type": "li",
+          "text": "Business Analytics"
+        },
+        {
+          "type": "li",
+          "text": "Business Intelligence & Data Analytics"
+        },
+        {
+          "type": "li",
+          "text": "CRM & Automation Training"
+        },
+        {
+          "type": "li",
+          "text": "WebOps & AI/ML Training"
+        },
+        {
+          "type": "li",
+          "text": "Ideas for what comes next."
+        },
+        {
+          "type": "li",
+          "text": "Contact us"
+        },
+        {
+          "type": "li",
+          "text": "Your privacy. In clear terms."
+        },
+        {
+          "type": "li",
+          "text": "Transform Enterprise Digital Experiences with Adobe Experience Manager"
+        },
+        {
+          "type": "li",
+          "text": "Turn Insight Into Intelligent Experience"
+        },
+        {
+          "type": "li",
+          "text": "Build Once. Deliver Everywhere."
+        },
+        {
+          "type": "li",
+          "text": "Architecting Intelligent, High-Performance Web Experiences."
+        },
+        {
+          "type": "li",
+          "text": "Engineering Digital Experiences That Perform at Scale."
+        },
+        {
+          "type": "li",
+          "text": "AI assistants & chatbots"
+        },
+        {
+          "type": "li",
+          "text": "Agentic AI & multi-agent systems"
+        },
+        {
+          "type": "li",
+          "text": "Engineer the Future: AI Product Development & Research POCs"
+        },
+        {
+          "type": "li",
+          "text": "Accelerate Business Agility with Intelligent Hyperautomation"
+        },
+        {
+          "type": "li",
+          "text": "Transform Your Digital Presence into Predictive Intelligence."
+        },
+        {
+          "type": "li",
+          "text": "Regain Control, Accelerate Your Path to 'Green.'"
+        },
+        {
+          "type": "li",
+          "text": "Scale Your Capabilities with Elite Engineering Augmentation"
+        },
+        {
+          "type": "li",
+          "text": "Architect the right technology foundation for your future."
+        },
+        {
+          "type": "li",
+          "text": "Architect Your Vision. Engineer Your Success."
+        },
+        {
+          "type": "li",
+          "text": "Tools for your next chapter."
+        },
+        {
+          "type": "li",
+          "text": "Site 360"
+        },
+        {
+          "type": "li",
+          "text": "L7 Nexus"
+        },
+        {
+          "type": "li",
+          "text": "Outreach Engine"
+        },
+        {
+          "type": "li",
+          "text": "L7 Insights"
+        },
+        {
+          "type": "li",
+          "text": "Infinite Insights"
+        },
+        {
+          "type": "li",
+          "text": "Your growth. One step at a time."
+        },
+        {
+          "type": "li",
+          "text": "Train your mind. Move forward."
+        },
+        {
+          "type": "li",
+          "text": "Know yourself. Grow with clarity."
+        },
+        {
+          "type": "li",
+          "text": "Connect the dots. Shape your career."
+        },
+        {
+          "type": "li",
+          "text": "Meet AMIU. Find your direction."
+        },
+        {
+          "type": "li",
+          "text": "Learn. Grow. Earn more."
+        },
+        {
+          "type": "li",
+          "text": "Experience your first real step."
+        },
+        {
+          "type": "li",
+          "text": "Celebrating Unity and Responsibility: Independence Day at Ladder7"
+        },
+        {
+          "type": "li",
+          "text": "The Role of AI in Personalizing Web Experiences"
+        },
+        {
+          "type": "li",
+          "text": "Lux Noel: A Magical Christmas Celebration"
+        },
+        {
+          "type": "li",
+          "text": "AI Tools for Web Development Teams: How to Build Intelligent Websites That Convert"
+        },
+        {
+          "type": "li",
+          "text": "Conversational AI for Customer Experience: When Chatbots Need to Do More"
+        },
+        {
+          "type": "li",
+          "text": "Why Website Checks Need to Go Beyond Performance Scores"
+        },
+        {
+          "type": "li",
+          "text": "Festive Moments and Lasting Memories: Ladder7’s Grand Onam Celebration"
+        },
+        {
+          "type": "li",
+          "text": "Work with purpose. Ideas in action."
+        },
+        {
+          "type": "li",
+          "text": "Good questions. Clear answers."
+        },
+        {
+          "type": "li",
+          "text": "Bring your ambition. Build your skills."
+        },
+        {
+          "type": "li",
+          "text": "Your next step starts here."
+        }
+      ],
+      "bullet_points": [
+        "Site 360",
+        "Digital Engineering, AI Solutions & Skilling",
+        "Empowering Your Business with Cutting-Edge Solutions",
+        "Engineering the Next Era of Digital Business.",
+        "Good people. Meaningful work.",
+        "Grow your team. Build what comes next.",
+        "Learn by doing. Grow with direction.",
+        "Full stack. Real possibilities.",
+        "Python. AI. Your next step.",
+        "Build confidence in quality.",
+        "From an idea to a storefront.",
+        "Find a direction that feels like you.",
+        "Full Stack Development",
+        "Data Science",
+        "Mobile Application Development",
+        "AI Training",
+        "Data Visualization",
+        "Cloud Computing Bootcamp",
+        "Digital Content Creation",
+        "Business Analytics",
+        "Business Intelligence & Data Analytics",
+        "CRM & Automation Training",
+        "WebOps & AI/ML Training",
+        "Ideas for what comes next.",
+        "Contact us",
+        "Your privacy. In clear terms.",
+        "Transform Enterprise Digital Experiences with Adobe Experience Manager",
+        "Turn Insight Into Intelligent Experience",
+        "Build Once. Deliver Everywhere.",
+        "Architecting Intelligent, High-Performance Web Experiences.",
+        "Engineering Digital Experiences That Perform at Scale.",
+        "AI assistants & chatbots",
+        "Agentic AI & multi-agent systems",
+        "Engineer the Future: AI Product Development & Research POCs",
+        "Accelerate Business Agility with Intelligent Hyperautomation",
+        "Transform Your Digital Presence into Predictive Intelligence.",
+        "Regain Control, Accelerate Your Path to 'Green.'",
+        "Scale Your Capabilities with Elite Engineering Augmentation",
+        "Architect the right technology foundation for your future.",
+        "Architect Your Vision. Engineer Your Success.",
+        "Tools for your next chapter.",
+        "Site 360",
+        "L7 Nexus",
+        "Outreach Engine",
+        "L7 Insights",
+        "Infinite Insights",
+        "Your growth. One step at a time.",
+        "Train your mind. Move forward.",
+        "Know yourself. Grow with clarity.",
+        "Connect the dots. Shape your career.",
+        "Meet AMIU. Find your direction.",
+        "Learn. Grow. Earn more.",
+        "Experience your first real step.",
+        "Celebrating Unity and Responsibility: Independence Day at Ladder7",
+        "The Role of AI in Personalizing Web Experiences",
+        "Lux Noel: A Magical Christmas Celebration",
+        "AI Tools for Web Development Teams: How to Build Intelligent Websites That Convert",
+        "Conversational AI for Customer Experience: When Chatbots Need to Do More",
+        "Why Website Checks Need to Go Beyond Performance Scores",
+        "Festive Moments and Lasting Memories: Ladder7’s Grand Onam Celebration",
+        "Work with purpose. Ideas in action.",
+        "Good questions. Clear answers.",
+        "Bring your ambition. Build your skills.",
+        "Your next step starts here."
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [
+        {
+          "text": "Site 360",
+          "href": "/",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Digital Engineering, AI Solutions & Skilling",
+          "href": "/education",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Empowering Your Business with Cutting-Edge Solutions",
+          "href": "/services",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Engineering the Next Era of Digital Business.",
+          "href": "/about",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Good people. Meaningful work.",
+          "href": "/careers",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Grow your team. Build what comes next.",
+          "href": "/corporate-training-kerala",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Learn by doing. Grow with direction.",
+          "href": "/it-training-internship-trivandrum",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Full stack. Real possibilities.",
+          "href": "/full-stack-developer-course-trivandrum",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Python. AI. Your next step.",
+          "href": "/ai-data-science-course-trivandrum",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Build confidence in quality.",
+          "href": "/software-testing-course-trivandrum",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "From an idea to a storefront.",
+          "href": "/shopify-developer-course-workshop",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Find a direction that feels like you.",
+          "href": "/training-internship/career-goal-finding",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Full Stack Development",
+          "href": "/corporate-training-kerala/full-stack-development",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Data Science",
+          "href": "/corporate-training-kerala/data-science",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Mobile Application Development",
+          "href": "/corporate-training-kerala/mobile-app-development",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "AI Training",
+          "href": "/corporate-training-kerala/prompt-engineering-ai-training",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Data Visualization",
+          "href": "/corporate-training-kerala/data-visualization",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Cloud Computing Bootcamp",
+          "href": "/corporate-training-kerala/cloud-computing-bootcamp",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Digital Content Creation",
+          "href": "/corporate-training-kerala/digital-content-creation",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Business Analytics",
+          "href": "/corporate-training-kerala/business-analytics",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Business Intelligence & Data Analytics",
+          "href": "/corporate-training-kerala/business-intelligence-data-analytics",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "CRM & Automation Training",
+          "href": "/corporate-training-kerala/marketing-automation-crm",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "WebOps & AI/ML Training",
+          "href": "/corporate-training-kerala/webops-ai-ml",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Ideas for what comes next.",
+          "href": "/blogs",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Contact us",
+          "href": "/contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Your privacy. In clear terms.",
+          "href": "/privacy",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Transform Enterprise Digital Experiences with Adobe Experience Manager",
+          "href": "/services/aem-digital-experience",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Turn Insight Into Intelligent Experience",
+          "href": "/services/analytics-experimentation",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Build Once. Deliver Everywhere.",
+          "href": "/services/headless-cms",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Architecting Intelligent, High-Performance Web Experiences.",
+          "href": "/services/web-experience",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Engineering Digital Experiences That Perform at Scale.",
+          "href": "/services/localization-uiux",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "AI assistants & chatbots",
+          "href": "/services/ai-assistant",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Agentic AI & multi-agent systems",
+          "href": "/services/agenticai",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Engineer the Future: AI Product Development & Research POCs",
+          "href": "/services/aiproduct",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Accelerate Business Agility with Intelligent Hyperautomation",
+          "href": "/services/hyperautomation",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Transform Your Digital Presence into Predictive Intelligence.",
+          "href": "/services/intelligent-websites",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Regain Control, Accelerate Your Path to 'Green.'",
+          "href": "/services/green-recovery",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Scale Your Capabilities with Elite Engineering Augmentation",
+          "href": "/services/skilled-resource",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Architect the right technology foundation for your future.",
+          "href": "/services/technology",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Architect Your Vision. Engineer Your Success.",
+          "href": "/services/product-solution",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Tools for your next chapter.",
+          "href": "/products",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Site 360",
+          "href": "/products/site-360",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "L7 Nexus",
+          "href": "/products/l7-nexus",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Outreach Engine",
+          "href": "/products/outreach-engine",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "L7 Insights",
+          "href": "/products/l7-insights",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Infinite Insights",
+          "href": "/products/infinite-insights",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Your growth. One step at a time.",
+          "href": "/myladder",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Train your mind. Move forward.",
+          "href": "/mindgym",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Know yourself. Grow with clarity.",
+          "href": "/mirrorme",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Connect the dots. Shape your career.",
+          "href": "/filldots",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Meet AMIU. Find your direction.",
+          "href": "/amiu",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Learn. Grow. Earn more.",
+          "href": "/earnmore",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Experience your first real step.",
+          "href": "/experience-the-first-job",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Celebrating Unity and Responsibility: Independence Day at Ladder7",
+          "href": "/blogs/independence-day-ladder7",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "The Role of AI in Personalizing Web Experiences",
+          "href": "/blogs/ai-personalize-web-experince",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Lux Noel: A Magical Christmas Celebration",
+          "href": "/blogs/magical-christmas-celebration",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "AI Tools for Web Development Teams: How to Build Intelligent Websites That Convert",
+          "href": "/blogs/ai-tools-web-development-team",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Conversational AI for Customer Experience: When Chatbots Need to Do More",
+          "href": "/blogs/conversational-ai-customer-experience",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Why Website Checks Need to Go Beyond Performance Scores",
+          "href": "/blogs/why-website-checks-need-to-go-beyond-performance-scores",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Festive Moments and Lasting Memories: Ladder7’s Grand Onam Celebration",
+          "href": "/blogs/festive-onam-ladder7",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Work with purpose. Ideas in action.",
+          "href": "/portfolio",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Good questions. Clear answers.",
+          "href": "/faq",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Bring your ambition. Build your skills.",
+          "href": "/bootcamp",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Your next step starts here.",
+          "href": "/thank-you",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Site 360",
+          "href": "/",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Digital Engineering, AI Solutions & Skilling",
+          "href": "/education",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Empowering Your Business with Cutting-Edge Solutions",
+          "href": "/services",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Engineering the Next Era of Digital Business.",
+          "href": "/about",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Good people. Meaningful work.",
+          "href": "/careers",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Grow your team. Build what comes next.",
+          "href": "/corporate-training-kerala",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Learn by doing. Grow with direction.",
+          "href": "/it-training-internship-trivandrum",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Full stack. Real possibilities.",
+          "href": "/full-stack-developer-course-trivandrum",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Python. AI. Your next step.",
+          "href": "/ai-data-science-course-trivandrum",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Build confidence in quality.",
+          "href": "/software-testing-course-trivandrum",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "From an idea to a storefront.",
+          "href": "/shopify-developer-course-workshop",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Find a direction that feels like you.",
+          "href": "/training-internship/career-goal-finding",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Full Stack Development",
+          "href": "/corporate-training-kerala/full-stack-development",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Data Science",
+          "href": "/corporate-training-kerala/data-science",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Mobile Application Development",
+          "href": "/corporate-training-kerala/mobile-app-development",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "AI Training",
+          "href": "/corporate-training-kerala/prompt-engineering-ai-training",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Data Visualization",
+          "href": "/corporate-training-kerala/data-visualization",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Cloud Computing Bootcamp",
+          "href": "/corporate-training-kerala/cloud-computing-bootcamp",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Digital Content Creation",
+          "href": "/corporate-training-kerala/digital-content-creation",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Business Analytics",
+          "href": "/corporate-training-kerala/business-analytics",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Business Intelligence & Data Analytics",
+          "href": "/corporate-training-kerala/business-intelligence-data-analytics",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "CRM & Automation Training",
+          "href": "/corporate-training-kerala/marketing-automation-crm",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "WebOps & AI/ML Training",
+          "href": "/corporate-training-kerala/webops-ai-ml",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Ideas for what comes next.",
+          "href": "/blogs",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Contact us",
+          "href": "/contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Your privacy. In clear terms.",
+          "href": "/privacy",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Transform Enterprise Digital Experiences with Adobe Experience Manager",
+          "href": "/services/aem-digital-experience",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Turn Insight Into Intelligent Experience",
+          "href": "/services/analytics-experimentation",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Build Once. Deliver Everywhere.",
+          "href": "/services/headless-cms",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Architecting Intelligent, High-Performance Web Experiences.",
+          "href": "/services/web-experience",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Engineering Digital Experiences That Perform at Scale.",
+          "href": "/services/localization-uiux",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "AI assistants & chatbots",
+          "href": "/services/ai-assistant",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Agentic AI & multi-agent systems",
+          "href": "/services/agenticai",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Engineer the Future: AI Product Development & Research POCs",
+          "href": "/services/aiproduct",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Accelerate Business Agility with Intelligent Hyperautomation",
+          "href": "/services/hyperautomation",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Transform Your Digital Presence into Predictive Intelligence.",
+          "href": "/services/intelligent-websites",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Regain Control, Accelerate Your Path to 'Green.'",
+          "href": "/services/green-recovery",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Scale Your Capabilities with Elite Engineering Augmentation",
+          "href": "/services/skilled-resource",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Architect the right technology foundation for your future.",
+          "href": "/services/technology",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Architect Your Vision. Engineer Your Success.",
+          "href": "/services/product-solution",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Tools for your next chapter.",
+          "href": "/products",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Site 360",
+          "href": "/products/site-360",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "L7 Nexus",
+          "href": "/products/l7-nexus",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Outreach Engine",
+          "href": "/products/outreach-engine",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "L7 Insights",
+          "href": "/products/l7-insights",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Infinite Insights",
+          "href": "/products/infinite-insights",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Your growth. One step at a time.",
+          "href": "/myladder",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Train your mind. Move forward.",
+          "href": "/mindgym",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Know yourself. Grow with clarity.",
+          "href": "/mirrorme",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Connect the dots. Shape your career.",
+          "href": "/filldots",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Meet AMIU. Find your direction.",
+          "href": "/amiu",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Learn. Grow. Earn more.",
+          "href": "/earnmore",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Experience your first real step.",
+          "href": "/experience-the-first-job",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Celebrating Unity and Responsibility: Independence Day at Ladder7",
+          "href": "/blogs/independence-day-ladder7",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "The Role of AI in Personalizing Web Experiences",
+          "href": "/blogs/ai-personalize-web-experince",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Lux Noel: A Magical Christmas Celebration",
+          "href": "/blogs/magical-christmas-celebration",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "AI Tools for Web Development Teams: How to Build Intelligent Websites That Convert",
+          "href": "/blogs/ai-tools-web-development-team",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Conversational AI for Customer Experience: When Chatbots Need to Do More",
+          "href": "/blogs/conversational-ai-customer-experience",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Why Website Checks Need to Go Beyond Performance Scores",
+          "href": "/blogs/why-website-checks-need-to-go-beyond-performance-scores",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Festive Moments and Lasting Memories: Ladder7’s Grand Onam Celebration",
+          "href": "/blogs/festive-onam-ladder7",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Work with purpose. Ideas in action.",
+          "href": "/portfolio",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Good questions. Clear answers.",
+          "href": "/faq",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Bring your ambition. Build your skills.",
+          "href": "/bootcamp",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Your next step starts here.",
+          "href": "/thank-you",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "sitemap_03_contact",
+      "section_order": 3,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

@@ -1,0 +1,777 @@
+{
+  "page_key": "trainingWebopsAiMl",
+  "page_url": "/corporate-training-kerala/webops-ai-ml",
+  "document_title": "WebOps & AI/ML Training | Corporate Training | Ladder7",
+  "seo": {
+    "meta_title": "WebOps & AI/ML Training | Corporate Training | Ladder7",
+    "meta_description": "Ladder7 delivers hands-on WebOps and AI/ML training for corporate ops and infrastructure teams in Kerala and virtually across India.",
+    "canonical_url": "https://www.ladder7.in/corporate-training-kerala/webops-ai-ml",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "WebOps & AI/ML Training."
+  },
+  "sections": [
+    {
+      "section_id": "trainingwebopsaiml_01_page",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Page",
+      "section_heading": "WebOps & AI/ML Training.",
+      "heading_level": "h1",
+      "eyebrow": "Corporate course",
+      "subheading": "",
+      "description": "WebOps & AI/ML Training training shaped around your team. 6–15 per batch. On-site or Virtual.",
+      "paragraphs": [
+        "Corporate course",
+        "WebOps & AI/ML Training training shaped around your team. 6–15 per batch. On-site or Virtual."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Corporate course"
+        },
+        {
+          "type": "h1",
+          "text": "WebOps & AI/ML Training."
+        },
+        {
+          "type": "p",
+          "text": "WebOps & AI/ML Training training shaped around your team. 6–15 per batch. On-site or Virtual."
+        },
+        {
+          "type": "cta-link",
+          "text": "Let's talk"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore the details"
+        },
+        {
+          "type": "li",
+          "text": "WebOps + AI/ML"
+        },
+        {
+          "type": "li",
+          "text": "6–15 per batch"
+        },
+        {
+          "type": "li",
+          "text": "On-site or Virtual"
+        },
+        {
+          "type": "figcaption",
+          "text": "Ladder7 / Your next chapter"
+        }
+      ],
+      "bullet_points": [
+        "WebOps + AI/ML",
+        "6–15 per batch",
+        "On-site or Virtual"
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Let's talk",
+          "url": "/corporate-training-kerala/webops-ai-ml#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore the details",
+          "url": "/corporate-training-kerala/webops-ai-ml#page-content",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/training-robot-ai-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "675",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high",
+          "srcset": "/images/photos/training-robot-ai-480.webp 480w, /images/photos/training-robot-ai-800.webp 800w, /images/photos/training-robot-ai-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 100vw, 40vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Let's talk",
+          "href": "/corporate-training-kerala/webops-ai-ml#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/corporate-training-kerala/webops-ai-ml#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Let's talk",
+          "href": "/corporate-training-kerala/webops-ai-ml#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/corporate-training-kerala/webops-ai-ml#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/LandingHero/LandingHero.css",
+        "component": "src/components/sections/LandingHero/LandingHero.tsx"
+      }
+    },
+    {
+      "section_id": "trainingwebopsaiml_02_detail_section",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Practical learning. A clearer next step.",
+      "heading_level": "h2",
+      "eyebrow": "The program",
+      "subheading": "",
+      "description": "Ops teams keep getting asked to 'add some AI' to their monitoring and workflows, usually without much guidance on what that actually means in practice. This program covers both halves of that request together, rather than treating them as separate courses.\n\nHalf the time goes to the operational fundamentals (deployment, monitoring, incident response) and the other half to practical AI/ML skills your team can plug into that same workflow.",
+      "paragraphs": [
+        "The program",
+        "Ops teams keep getting asked to 'add some AI' to their monitoring and workflows, usually without much guidance on what that actually means in practice. This program covers both halves of that request together, rather than treating them as separate courses.",
+        "Half the time goes to the operational fundamentals (deployment, monitoring, incident response) and the other half to practical AI/ML skills your team can plug into that same workflow."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The program"
+        },
+        {
+          "type": "h2",
+          "text": "Practical learning. A clearer next step."
+        },
+        {
+          "type": "p",
+          "text": "Ops teams keep getting asked to 'add some AI' to their monitoring and workflows, usually without much guidance on what that actually means in practice. This program covers both halves of that request together, rather than treating them as separate courses."
+        },
+        {
+          "type": "p",
+          "text": "Half the time goes to the operational fundamentals (deployment, monitoring, incident response) and the other half to practical AI/ML skills your team can plug into that same workflow."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "trainingwebopsaiml_03_detail_section",
+      "section_order": 3,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "What your team will explore.",
+      "heading_level": "h2",
+      "eyebrow": "The curriculum",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "The curriculum",
+        "Monitoring, deployment and incident response for production web systems.",
+        "Practical machine learning basics, taught alongside the ops work, not separately.",
+        "Where AI genuinely helps with monitoring and triage, and where it just adds noise.",
+        "The unglamorous habits (logging, alerting, runbooks) that prevent 2am pages."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The curriculum"
+        },
+        {
+          "type": "h2",
+          "text": "What your team will explore."
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "Web Operations"
+        },
+        {
+          "type": "span",
+          "text": "–"
+        },
+        {
+          "type": "p",
+          "text": "Monitoring, deployment and incident response for production web systems."
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "AI/ML Fundamentals"
+        },
+        {
+          "type": "span",
+          "text": "+"
+        },
+        {
+          "type": "p",
+          "text": "Practical machine learning basics, taught alongside the ops work, not separately."
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "Automating Ops with AI"
+        },
+        {
+          "type": "span",
+          "text": "+"
+        },
+        {
+          "type": "p",
+          "text": "Where AI genuinely helps with monitoring and triage, and where it just adds noise."
+        },
+        {
+          "type": "span",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "Reliability Practices"
+        },
+        {
+          "type": "span",
+          "text": "+"
+        },
+        {
+          "type": "p",
+          "text": "The unglamorous habits (logging, alerting, runbooks) that prevent 2am pages."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "01",
+          "detail": "",
+          "source": ".detail-curriculum__number"
+        },
+        {
+          "term": "02",
+          "detail": "",
+          "source": ".detail-curriculum__number"
+        },
+        {
+          "term": "03",
+          "detail": "",
+          "source": ".detail-curriculum__number"
+        },
+        {
+          "term": "04",
+          "detail": "",
+          "source": ".detail-curriculum__number"
+        }
+      ],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "01\nWeb Operations\n–",
+          "open": true
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "02\nAI/ML Fundamentals\n+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "03\nAutomating Ops with AI\n+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "04\nReliability Practices\n+",
+          "open": false
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "trainingwebopsaiml_04_detail_section",
+      "section_order": 4,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Built for people like you.",
+      "heading_level": "h2",
+      "eyebrow": "Who it’s for",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "Who it’s for"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Who it’s for"
+        },
+        {
+          "type": "h2",
+          "text": "Built for people like you."
+        },
+        {
+          "type": "li",
+          "text": "Ops and infrastructure teams curious about applying AI to their own workflows"
+        },
+        {
+          "type": "li",
+          "text": "Engineers who handle both deployment and a bit of everything else"
+        },
+        {
+          "type": "li",
+          "text": "Teams that want one program covering both reliability and AI basics"
+        }
+      ],
+      "bullet_points": [
+        "Ops and infrastructure teams curious about applying AI to their own workflows",
+        "Engineers who handle both deployment and a bit of everything else",
+        "Teams that want one program covering both reliability and AI basics"
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "trainingwebopsaiml_05_detail_section",
+      "section_order": 5,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Take the learning into your work.",
+      "heading_level": "h2",
+      "eyebrow": "Your next chapter",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "Your next chapter"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Your next chapter"
+        },
+        {
+          "type": "h2",
+          "text": "Take the learning into your work."
+        },
+        {
+          "type": "li",
+          "text": "A more reliable deployment and monitoring setup"
+        },
+        {
+          "type": "li",
+          "text": "A working AI-assisted tool built during training"
+        },
+        {
+          "type": "li",
+          "text": "A team that can tell the difference between AI hype and AI that helps"
+        }
+      ],
+      "bullet_points": [
+        "A more reliable deployment and monitoring setup",
+        "A working AI-assisted tool built during training",
+        "A team that can tell the difference between AI hype and AI that helps"
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "trainingwebopsaiml_06_detail_section",
+      "section_order": 6,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Good questions.",
+      "heading_level": "h2",
+      "eyebrow": "A little more clarity",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "A little more clarity",
+        "The Cloud Bootcamp teaches cloud platforms and DevOps from the ground up. WebOps & AI/ML assumes your team already runs production systems and adds two things: sharper reliability practice and applied AI on top of it. Cloud-first teams often run the Bootcamp first.",
+        "Against a staging or sandboxed mirror of it, yes, under NDA if required, which is where the monitoring and incident-response exercises get real. We don't run break-and-fix drills on live production, for obvious reasons.",
+        "Something small and genuinely yours: for example a log-triage assistant or an alert summarizer wired into your stack during the sessions. The point is your team shipping one real AI-assisted improvement, not a slide about possibilities."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "A little more clarity"
+        },
+        {
+          "type": "h2",
+          "text": "Good questions."
+        },
+        {
+          "type": "summary",
+          "text": "How does this differ from the Cloud Computing Bootcamp?+"
+        },
+        {
+          "type": "p",
+          "text": "The Cloud Bootcamp teaches cloud platforms and DevOps from the ground up. WebOps & AI/ML assumes your team already runs production systems and adds two things: sharper reliability practice and applied AI on top of it. Cloud-first teams often run the Bootcamp first."
+        },
+        {
+          "type": "summary",
+          "text": "Can the training run against our actual infrastructure?+"
+        },
+        {
+          "type": "p",
+          "text": "Against a staging or sandboxed mirror of it, yes, under NDA if required, which is where the monitoring and incident-response exercises get real. We don't run break-and-fix drills on live production, for obvious reasons."
+        },
+        {
+          "type": "summary",
+          "text": "What does \"a working AI-assisted tool\" actually mean?+"
+        },
+        {
+          "type": "p",
+          "text": "Something small and genuinely yours: for example a log-triage assistant or an alert summarizer wired into your stack during the sessions. The point is your team shipping one real AI-assisted improvement, not a slide about possibilities."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "How does this differ from the Cloud Computing Bootcamp?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Can the training run against our actual infrastructure?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "What does \"a working AI-assisted tool\" actually mean?+",
+          "open": false
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "trainingwebopsaiml_07_contact",
+      "section_order": 7,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

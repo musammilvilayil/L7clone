@@ -1,0 +1,1212 @@
+{
+  "page_key": "productSite360",
+  "page_url": "/products/site-360",
+  "document_title": "Site 360 | Website Intelligence Platform | Ladder7",
+  "seo": {
+    "meta_title": "Site 360 | Website Intelligence Platform | Ladder7",
+    "meta_description": "Audit your website across twelve lenses — performance, accessibility, SEO, AEO, GEO, AI readiness and security — into one Digital Health score.",
+    "canonical_url": "https://www.ladder7.in/products/site-360",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "One website audit across twelve lenses."
+  },
+  "sections": [
+    {
+      "section_id": "productsite360_01_page",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Page",
+      "section_heading": "One website audit across twelve lenses.",
+      "heading_level": "h1",
+      "eyebrow": "Site 360",
+      "subheading": "",
+      "description": "Audit your website across twelve lenses. Turn performance, accessibility, search, AI readiness and security findings into one Digital Health score and a prioritised plan.",
+      "paragraphs": [
+        "Site 360",
+        "Audit your website across twelve lenses. Turn performance, accessibility, search, AI readiness and security findings into one Digital Health score and a prioritised plan."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Site 360"
+        },
+        {
+          "type": "h1",
+          "text": "One website audit across twelve lenses."
+        },
+        {
+          "type": "p",
+          "text": "Audit your website across twelve lenses. Turn performance, accessibility, search, AI readiness and security findings into one Digital Health score and a prioritised plan."
+        },
+        {
+          "type": "cta-link",
+          "text": "Let's talk"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore the details"
+        },
+        {
+          "type": "figcaption",
+          "text": "Site 360"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Let's talk",
+          "url": "/products/site-360#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore the details",
+          "url": "/products/site-360#page-content",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/product-dashboard-agents-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "900",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high",
+          "srcset": "/images/photos/product-dashboard-agents-300.webp 300w, /images/photos/product-dashboard-agents-600.webp 600w, /images/photos/product-dashboard-agents-900.webp 900w",
+          "sizes": "(max-width: 700px) 100vw, 40vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Let's talk",
+          "href": "/products/site-360#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/products/site-360#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Let's talk",
+          "href": "/products/site-360#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/products/site-360#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/LandingHero/LandingHero.css",
+        "component": "src/components/sections/LandingHero/LandingHero.tsx"
+      }
+    },
+    {
+      "section_id": "productsite360_02_detail_section",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Six tools, six verdicts, and nothing that ships the fix",
+      "heading_level": "h2",
+      "eyebrow": "The Problem",
+      "subheading": "",
+      "description": "Your SEO platform does not know whether an answer engine can read the page. Your accessibility scanner does not know which pages carry revenue. Your performance tool grades a lab simulation rather than the site your customers load. Each one is confident, and no two agree on what to fix first.\n\nThe findings are saved as a PDF. The fix never reaches the backlog.",
+      "paragraphs": [
+        "The Problem",
+        "Your SEO platform does not know whether an answer engine can read the page. Your accessibility scanner does not know which pages carry revenue. Your performance tool grades a lab simulation rather than the site your customers load. Each one is confident, and no two agree on what to fix first.",
+        "The findings are saved as a PDF. The fix never reaches the backlog."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The Problem"
+        },
+        {
+          "type": "h2",
+          "text": "Six tools, six verdicts, and nothing that ships the fix"
+        },
+        {
+          "type": "p",
+          "text": "Your SEO platform does not know whether an answer engine can read the page. Your accessibility scanner does not know which pages carry revenue. Your performance tool grades a lab simulation rather than the site your customers load. Each one is confident, and no two agree on what to fix first."
+        },
+        {
+          "type": "p",
+          "text": "The findings are saved as a PDF. The fix never reaches the backlog."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productsite360_03_detail_section",
+      "section_order": 3,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Twelve lenses, one scan",
+      "heading_level": "h2",
+      "eyebrow": "What it checks",
+      "subheading": "",
+      "description": "Every lens runs against your live site. No simulations, no sampled estimates, no cached approximations.",
+      "paragraphs": [
+        "What it checks",
+        "Core Web Vitals against Google's thresholds, plus which JavaScript files consume startup CPU, by file URL",
+        "Automated WCAG 2.2 AA testing with the failing element named",
+        "Crawlability, metadata, headings, internal structure and indexation",
+        "Whether your pages answer the question a search engine can lift",
+        "Whether generative engines can read, understand and cite you",
+        "Schema coverage, robots and AI-crawler access, citation worthiness",
+        "Product-page diagnostics for buying agents: structured pricing, availability, identifiers",
+        "Real-device testing across a handset matrix, not one emulator",
+        "Headers, transport, exposure and configuration",
+        "How the brand reads, benchmarked against tracked rivals",
+        "Experience and expertise signals, freshness drift, topical gaps",
+        "Where intent leaks on the path to conversion, by device and step",
+        "Every lens runs against your live site. No simulations, no sampled estimates, no cached approximations."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "What it checks"
+        },
+        {
+          "type": "h2",
+          "text": "Twelve lenses, one scan"
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "Performance"
+        },
+        {
+          "type": "p",
+          "text": "Core Web Vitals against Google's thresholds, plus which JavaScript files consume startup CPU, by file URL"
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "Accessibility"
+        },
+        {
+          "type": "p",
+          "text": "Automated WCAG 2.2 AA testing with the failing element named"
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "SEO"
+        },
+        {
+          "type": "p",
+          "text": "Crawlability, metadata, headings, internal structure and indexation"
+        },
+        {
+          "type": "span",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "AEO"
+        },
+        {
+          "type": "p",
+          "text": "Whether your pages answer the question a search engine can lift"
+        },
+        {
+          "type": "span",
+          "text": "05"
+        },
+        {
+          "type": "h3",
+          "text": "GEO"
+        },
+        {
+          "type": "p",
+          "text": "Whether generative engines can read, understand and cite you"
+        },
+        {
+          "type": "span",
+          "text": "06"
+        },
+        {
+          "type": "h3",
+          "text": "AI readiness"
+        },
+        {
+          "type": "p",
+          "text": "Schema coverage, robots and AI-crawler access, citation worthiness"
+        },
+        {
+          "type": "span",
+          "text": "07"
+        },
+        {
+          "type": "h3",
+          "text": "AI shopping"
+        },
+        {
+          "type": "p",
+          "text": "Product-page diagnostics for buying agents: structured pricing, availability, identifiers"
+        },
+        {
+          "type": "span",
+          "text": "08"
+        },
+        {
+          "type": "h3",
+          "text": "Mobile readiness"
+        },
+        {
+          "type": "p",
+          "text": "Real-device testing across a handset matrix, not one emulator"
+        },
+        {
+          "type": "span",
+          "text": "09"
+        },
+        {
+          "type": "h3",
+          "text": "Security"
+        },
+        {
+          "type": "p",
+          "text": "Headers, transport, exposure and configuration"
+        },
+        {
+          "type": "span",
+          "text": "10"
+        },
+        {
+          "type": "h3",
+          "text": "Sentiment"
+        },
+        {
+          "type": "p",
+          "text": "How the brand reads, benchmarked against tracked rivals"
+        },
+        {
+          "type": "span",
+          "text": "11"
+        },
+        {
+          "type": "h3",
+          "text": "Content optimization"
+        },
+        {
+          "type": "p",
+          "text": "Experience and expertise signals, freshness drift, topical gaps"
+        },
+        {
+          "type": "span",
+          "text": "12"
+        },
+        {
+          "type": "h3",
+          "text": "Journey optimization"
+        },
+        {
+          "type": "p",
+          "text": "Where intent leaks on the path to conversion, by device and step"
+        },
+        {
+          "type": "p",
+          "text": "Every lens runs against your live site. No simulations, no sampled estimates, no cached approximations."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "01",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "02",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "03",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "04",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "05",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "06",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "07",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "08",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "09",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "10",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "11",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "12",
+          "detail": "",
+          "source": ".detail-cards__number"
+        }
+      ],
+      "cards": [
+        {
+          "element": "article",
+          "heading": "Performance",
+          "text": [
+            "01",
+            "Core Web Vitals against Google's thresholds, plus which JavaScript files consume startup CPU, by file URL"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Accessibility",
+          "text": [
+            "02",
+            "Automated WCAG 2.2 AA testing with the failing element named"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "SEO",
+          "text": [
+            "03",
+            "Crawlability, metadata, headings, internal structure and indexation"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "AEO",
+          "text": [
+            "04",
+            "Whether your pages answer the question a search engine can lift"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "GEO",
+          "text": [
+            "05",
+            "Whether generative engines can read, understand and cite you"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "AI readiness",
+          "text": [
+            "06",
+            "Schema coverage, robots and AI-crawler access, citation worthiness"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "AI shopping",
+          "text": [
+            "07",
+            "Product-page diagnostics for buying agents: structured pricing, availability, identifiers"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Mobile readiness",
+          "text": [
+            "08",
+            "Real-device testing across a handset matrix, not one emulator"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Security",
+          "text": [
+            "09",
+            "Headers, transport, exposure and configuration"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Sentiment",
+          "text": [
+            "10",
+            "How the brand reads, benchmarked against tracked rivals"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Content optimization",
+          "text": [
+            "11",
+            "Experience and expertise signals, freshness drift, topical gaps"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Journey optimization",
+          "text": [
+            "12",
+            "Where intent leaks on the path to conversion, by device and step"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productsite360_04_detail_section",
+      "section_order": 4,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Five steps, and the loop closes itself",
+      "heading_level": "h2",
+      "eyebrow": "How it works",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "How it works",
+        "Twelve lenses run in one pass and return severity-weighted scores, with page-level intelligence on intent, audience and category.",
+        "Every diagnosis ships with a proposed patch, a ticket and a confidence score, opened straight against your repo or CMS.",
+        "Each issue carries an estimated revenue exposure drawn from your own analytics, so a sprint gets allocated against dollars rather than a hunch.",
+        "Per-release scoring and diffs, across geography, device and network, with alerts into Slack or Teams.",
+        "Known-safe regressions auto-merge inside the guardrails you set. Everything else queues with a recommendation."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "How it works"
+        },
+        {
+          "type": "h2",
+          "text": "Five steps, and the loop closes itself"
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "See why"
+        },
+        {
+          "type": "p",
+          "text": "Twelve lenses run in one pass and return severity-weighted scores, with page-level intelligence on intent, audience and category."
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "Fix smarter"
+        },
+        {
+          "type": "p",
+          "text": "Every diagnosis ships with a proposed patch, a ticket and a confidence score, opened straight against your repo or CMS."
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "Predict"
+        },
+        {
+          "type": "p",
+          "text": "Each issue carries an estimated revenue exposure drawn from your own analytics, so a sprint gets allocated against dollars rather than a hunch."
+        },
+        {
+          "type": "span",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "Monitor"
+        },
+        {
+          "type": "p",
+          "text": "Per-release scoring and diffs, across geography, device and network, with alerts into Slack or Teams."
+        },
+        {
+          "type": "span",
+          "text": "05"
+        },
+        {
+          "type": "h3",
+          "text": "Heal"
+        },
+        {
+          "type": "p",
+          "text": "Known-safe regressions auto-merge inside the guardrails you set. Everything else queues with a recommendation."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "01",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "02",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "03",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "04",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "05",
+          "detail": "",
+          "source": ".detail-cards__number"
+        }
+      ],
+      "cards": [
+        {
+          "element": "article",
+          "heading": "See why",
+          "text": [
+            "01",
+            "Twelve lenses run in one pass and return severity-weighted scores, with page-level intelligence on intent, audience and category."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Fix smarter",
+          "text": [
+            "02",
+            "Every diagnosis ships with a proposed patch, a ticket and a confidence score, opened straight against your repo or CMS."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Predict",
+          "text": [
+            "03",
+            "Each issue carries an estimated revenue exposure drawn from your own analytics, so a sprint gets allocated against dollars rather than a hunch."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Monitor",
+          "text": [
+            "04",
+            "Per-release scoring and diffs, across geography, device and network, with alerts into Slack or Teams."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Heal",
+          "text": [
+            "05",
+            "Known-safe regressions auto-merge inside the guardrails you set. Everything else queues with a recommendation."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productsite360_05_detail_section",
+      "section_order": 5,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "It decides what matters, then routes the work",
+      "heading_level": "h2",
+      "eyebrow": "The Supervisor",
+      "subheading": "",
+      "description": "The Supervisor is the orchestration layer, not a thirteenth lens. It sequences the twelve module agents by effort, risk and revenue impact, auto-merges patterns you have already approved, queues the rest with a recommendation, and escalates to a named human owner whenever confidence drops below the threshold you set.",
+      "paragraphs": [
+        "The Supervisor",
+        "The Supervisor is the orchestration layer, not a thirteenth lens. It sequences the twelve module agents by effort, risk and revenue impact, auto-merges patterns you have already approved, queues the rest with a recommendation, and escalates to a named human owner whenever confidence drops below the threshold you set."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The Supervisor"
+        },
+        {
+          "type": "h2",
+          "text": "It decides what matters, then routes the work"
+        },
+        {
+          "type": "p",
+          "text": "The Supervisor is the orchestration layer, not a thirteenth lens. It sequences the twelve module agents by effort, risk and revenue impact, auto-merges patterns you have already approved, queues the rest with a recommendation, and escalates to a named human owner whenever confidence drops below the threshold you set."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productsite360_06_detail_section",
+      "section_order": 6,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Data in, fixes out",
+      "heading_level": "h2",
+      "eyebrow": "Your Stack",
+      "subheading": "",
+      "description": "No copy-paste, and nothing that ends its life as an exported CSV.",
+      "paragraphs": [
+        "Your Stack",
+        "No copy-paste, and nothing that ends its life as an exported CSV."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Your Stack"
+        },
+        {
+          "type": "h2",
+          "text": "Data in, fixes out"
+        },
+        {
+          "type": "p",
+          "text": "No copy-paste, and nothing that ends its life as an exported CSV."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productsite360_07_detail_section",
+      "section_order": 7,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Good questions.",
+      "heading_level": "h2",
+      "eyebrow": "A LITTLE MORE CLARITY",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "A LITTLE MORE CLARITY",
+        "A website-intelligence platform from Ladder7 NextStep Solutions. It audits your live site across twelve lenses, including performance, accessibility, SEO, AEO, GEO, AI readiness and security, and unifies the results into a single Digital Health score with fixes ranked by impact.",
+        "Real checks against your actual live website, rather than estimates from cached or sampled data, so findings reflect how search engines, auditors and AI systems really read your site.",
+        "One number summarising your site's health across all twelve lenses, so teams track a single shared metric over time instead of a dozen disconnected ones.",
+        "By impact. Findings are tied to traffic, conversion and revenue through your analytics connectors, so the ranking reflects what moves the numbers rather than the order a checklist happened to run in.",
+        "Yes. Name your rivals and they are scored on the same twelve lenses weekly, including share of voice and citation share on AI surfaces.",
+        "Only within limits you set. Patterns you have approved can auto-merge; everything else waits for review, every patch is editable, and rollback is one click.",
+        "Enter your URL to run a scan, or book a demo for a guided walkthrough on your own site."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "A LITTLE MORE CLARITY"
+        },
+        {
+          "type": "h2",
+          "text": "Good questions."
+        },
+        {
+          "type": "summary",
+          "text": "What is Site 360?–"
+        },
+        {
+          "type": "p",
+          "text": "A website-intelligence platform from Ladder7 NextStep Solutions. It audits your live site across twelve lenses, including performance, accessibility, SEO, AEO, GEO, AI readiness and security, and unifies the results into a single Digital Health score with fixes ranked by impact."
+        },
+        {
+          "type": "summary",
+          "text": "Does it run real checks or simulations?+"
+        },
+        {
+          "type": "p",
+          "text": "Real checks against your actual live website, rather than estimates from cached or sampled data, so findings reflect how search engines, auditors and AI systems really read your site."
+        },
+        {
+          "type": "summary",
+          "text": "What is the Digital Health score?+"
+        },
+        {
+          "type": "p",
+          "text": "One number summarising your site's health across all twelve lenses, so teams track a single shared metric over time instead of a dozen disconnected ones."
+        },
+        {
+          "type": "summary",
+          "text": "How does it decide what to fix first?+"
+        },
+        {
+          "type": "p",
+          "text": "By impact. Findings are tied to traffic, conversion and revenue through your analytics connectors, so the ranking reflects what moves the numbers rather than the order a checklist happened to run in."
+        },
+        {
+          "type": "summary",
+          "text": "Can it benchmark against competitors?+"
+        },
+        {
+          "type": "p",
+          "text": "Yes. Name your rivals and they are scored on the same twelve lenses weekly, including share of voice and citation share on AI surfaces."
+        },
+        {
+          "type": "summary",
+          "text": "Does it change my site without asking?+"
+        },
+        {
+          "type": "p",
+          "text": "Only within limits you set. Patterns you have approved can auto-merge; everything else waits for review, every patch is editable, and rollback is one click."
+        },
+        {
+          "type": "summary",
+          "text": "How do I get started?+"
+        },
+        {
+          "type": "p",
+          "text": "Enter your URL to run a scan, or book a demo for a guided walkthrough on your own site."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "What is Site 360?–",
+          "open": true
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Does it run real checks or simulations?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "What is the Digital Health score?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "How does it decide what to fix first?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Can it benchmark against competitors?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Does it change my site without asking?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "How do I get started?+",
+          "open": false
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productsite360_08_contact",
+      "section_order": 8,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

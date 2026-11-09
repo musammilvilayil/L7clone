@@ -1,0 +1,1365 @@
+{
+  "page_key": "portfolio",
+  "page_url": "/portfolio",
+  "document_title": "Portfolio | Software, Web & AI Projects by Ladder7",
+  "seo": {
+    "meta_title": "Portfolio | Software, Web & AI Projects by Ladder7",
+    "meta_description": "Selected Ladder7 work in AI, automation, web platforms and SEO/AEO-ready websites for clients in the UAE, UK, Germany, USA and Australia.",
+    "canonical_url": "https://www.ladder7.in/portfolio",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Our work: software, web and AI projects delivered from India."
+  },
+  "sections": [
+    {
+      "section_id": "portfolio_01_page",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Page",
+      "section_heading": "Our work: software, web and AI projects delivered from India.",
+      "heading_level": "h1",
+      "eyebrow": "Selected work",
+      "subheading": "",
+      "description": "From AI-driven innovation to hyper-automation and experience-led transformation, we turn ambitious ideas into scalable digital experiences that move businesses forward.",
+      "paragraphs": [
+        "Selected work",
+        "From AI-driven innovation to hyper-automation and experience-led transformation, we turn ambitious ideas into scalable digital experiences that move businesses forward."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Selected work"
+        },
+        {
+          "type": "h1",
+          "text": "Our work: software, web and AI projects delivered from India."
+        },
+        {
+          "type": "p",
+          "text": "From AI-driven innovation to hyper-automation and experience-led transformation, we turn ambitious ideas into scalable digital experiences that move businesses forward."
+        },
+        {
+          "type": "cta-link",
+          "text": "Let's talk"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore the details"
+        },
+        {
+          "type": "figcaption",
+          "text": "Ladder7 / Your next chapter"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Let's talk",
+          "url": "/portfolio#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore the details",
+          "url": "/portfolio#page-content",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/team-collaboration-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "799",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high",
+          "srcset": "/images/photos/team-collaboration-480.webp 480w, /images/photos/team-collaboration-800.webp 800w, /images/photos/team-collaboration-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 100vw, 40vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Let's talk",
+          "href": "/portfolio#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/portfolio#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Let's talk",
+          "href": "/portfolio#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/portfolio#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/LandingHero/LandingHero.css",
+        "component": "src/components/sections/LandingHero/LandingHero.tsx"
+      }
+    },
+    {
+      "section_id": "portfolio_02_detail_section",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Blend deep technical expertise with a commitment to outcomes.",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "We empower organizations to scale intelligently through AI-driven innovation, hyper-automation, and experience-led digital transformation — enabling faster growth, greater efficiency, and exceptional user experiences across web, mobile, and enterprise platforms.",
+      "paragraphs": [
+        "Explore",
+        "We empower organizations to scale intelligently through AI-driven innovation, hyper-automation, and experience-led digital transformation — enabling faster growth, greater efficiency, and exceptional user experiences across web, mobile, and enterprise platforms."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "Blend deep technical expertise with a commitment to outcomes."
+        },
+        {
+          "type": "p",
+          "text": "We empower organizations to scale intelligently through AI-driven innovation, hyper-automation, and experience-led digital transformation — enabling faster growth, greater efficiency, and exceptional user experiences across web, mobile, and enterprise platforms."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "portfolio_03_detail_section",
+      "section_order": 3,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Our Vision",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "To empower businesses through intelligent, accessible, and scalable digital ecosystems, blending technology, automation, and creativity to drive measurable impact.",
+      "paragraphs": [
+        "Explore",
+        "To empower businesses through intelligent, accessible, and scalable digital ecosystems, blending technology, automation, and creativity to drive measurable impact."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "Our Vision"
+        },
+        {
+          "type": "p",
+          "text": "To empower businesses through intelligent, accessible, and scalable digital ecosystems, blending technology, automation, and creativity to drive measurable impact."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "portfolio_04_detail_section",
+      "section_order": 4,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Our Mission",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "To become a trusted global innovation partner, transforming how organizations think, operate, and grow in the age of AI and automation.",
+      "paragraphs": [
+        "Explore",
+        "To become a trusted global innovation partner, transforming how organizations think, operate, and grow in the age of AI and automation."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "Our Mission"
+        },
+        {
+          "type": "p",
+          "text": "To become a trusted global innovation partner, transforming how organizations think, operate, and grow in the age of AI and automation."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "portfolio_05_detail_section",
+      "section_order": 5,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "How We Build Intelligent Sites",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "SEO, AEO, and GEO optimized platforms driven by AI for high conversions.",
+      "paragraphs": [
+        "Explore",
+        "SEO, AEO, and GEO optimized platforms driven by AI for high conversions."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "How We Build Intelligent Sites"
+        },
+        {
+          "type": "p",
+          "text": "SEO, AEO, and GEO optimized platforms driven by AI for high conversions."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "portfolio_06_detail_section",
+      "section_order": 6,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Real results delivered through intelligent solutions.",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "Explore how we help organizations scale intelligently and overcome complex operational bottlenecks using AI-driven innovation.",
+      "paragraphs": [
+        "Explore",
+        "Explore how we help organizations scale intelligently and overcome complex operational bottlenecks using AI-driven innovation."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "Real results delivered through intelligent solutions."
+        },
+        {
+          "type": "p",
+          "text": "Explore how we help organizations scale intelligently and overcome complex operational bottlenecks using AI-driven innovation."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "portfolio_07_detail_section",
+      "section_order": 7,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "The tools and platforms behind every build.",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "Explore"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "The tools and platforms behind every build."
+        },
+        {
+          "type": "li",
+          "text": "Technology Stack — the tools and platforms behind every build."
+        }
+      ],
+      "bullet_points": [
+        "Technology Stack — the tools and platforms behind every build."
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "portfolio_08_detail_section",
+      "section_order": 8,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Have a project in mind? Let's talk.",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "Tell us a bit about what you're building and we'll get back to you shortly.",
+      "paragraphs": [
+        "Explore",
+        "Tell us a bit about what you're building and we'll get back to you shortly."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "Have a project in mind? Let's talk."
+        },
+        {
+          "type": "p",
+          "text": "Tell us a bit about what you're building and we'll get back to you shortly."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "portfolio_09_detail_section",
+      "section_order": 9,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Let's build something intelligent together.",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "We look forward to partnering with you to build an intelligent, high-performance website — optimized for SEO, AEO, and AI-driven conversions.",
+      "paragraphs": [
+        "Explore",
+        "We look forward to partnering with you to build an intelligent, high-performance website — optimized for SEO, AEO, and AI-driven conversions."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build something intelligent together."
+        },
+        {
+          "type": "p",
+          "text": "We look forward to partnering with you to build an intelligent, high-performance website — optimized for SEO, AEO, and AI-driven conversions."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "portfolio_10_detail_section",
+      "section_order": 10,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Selected work. Real challenges.",
+      "heading_level": "h2",
+      "eyebrow": "The details",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "The details",
+        "Every solution built with AI at its core",
+        "Serving clients across 10+ countries",
+        "Robust, secure, scalable architecture",
+        "Long-term relationships over transactions",
+        "Full compliance with search & AI engine optimization",
+        "Automated detection and remediation of a11y issues",
+        "Real-time scans for legal, content, and data policies",
+        "Smart fixes delivered with explanations and priority",
+        "Optimised processes delivering rapid results at enterprise scale, with robust security baked in.",
+        "9/10 client satisfaction score — consistent delivery and quality are non-negotiable.",
+        "Improvement cycles built into every delivery; we evolve with your needs.",
+        "Senior architects and engineers from Accenture, Infosys, Cognizant backgrounds.",
+        "Deep expertise in AI, automation and next-gen digital platforms.",
+        "First-principles AI thinking applied to every product and solution we build.",
+        "Multi-layer QA, WCAG compliance, automated testing — zero compromise.",
+        "Flexible engagement: Technology, Innovation, Implementation, or Consulting partner.",
+        "Co-develop digital products and platforms with our full-stack engineering team.",
+        "Co-create AI, R&D, and emerging tech solutions for your industry.",
+        "Deliver and manage end-to-end client deployments with precision.",
+        "Strategic guidance, roadmaps, and mobilization for digital transformation.",
+        "Access best-in-class talent in AEM, AI, Web, and niche technologies."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The details"
+        },
+        {
+          "type": "h2",
+          "text": "Selected work. Real challenges."
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "AI-First Approach"
+        },
+        {
+          "type": "p",
+          "text": "Every solution built with AI at its core"
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "Global Delivery"
+        },
+        {
+          "type": "p",
+          "text": "Serving clients across 10+ countries"
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "Enterprise-Grade"
+        },
+        {
+          "type": "p",
+          "text": "Robust, secure, scalable architecture"
+        },
+        {
+          "type": "span",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "Partnership-Driven"
+        },
+        {
+          "type": "p",
+          "text": "Long-term relationships over transactions"
+        },
+        {
+          "type": "span",
+          "text": "05"
+        },
+        {
+          "type": "h3",
+          "text": "SEO / AEO / GEO Readiness"
+        },
+        {
+          "type": "p",
+          "text": "Full compliance with search & AI engine optimization"
+        },
+        {
+          "type": "span",
+          "text": "06"
+        },
+        {
+          "type": "h3",
+          "text": "WCAG Accessibility"
+        },
+        {
+          "type": "p",
+          "text": "Automated detection and remediation of a11y issues"
+        },
+        {
+          "type": "span",
+          "text": "07"
+        },
+        {
+          "type": "h3",
+          "text": "Compliance Monitoring"
+        },
+        {
+          "type": "p",
+          "text": "Real-time scans for legal, content, and data policies"
+        },
+        {
+          "type": "span",
+          "text": "08"
+        },
+        {
+          "type": "h3",
+          "text": "AI-Powered Recommendations"
+        },
+        {
+          "type": "p",
+          "text": "Smart fixes delivered with explanations and priority"
+        },
+        {
+          "type": "span",
+          "text": "09"
+        },
+        {
+          "type": "h3",
+          "text": "Speed, Scale & Security"
+        },
+        {
+          "type": "p",
+          "text": "Optimised processes delivering rapid results at enterprise scale, with robust security baked in."
+        },
+        {
+          "type": "span",
+          "text": "10"
+        },
+        {
+          "type": "h3",
+          "text": "Proven CSAT"
+        },
+        {
+          "type": "p",
+          "text": "9/10 client satisfaction score — consistent delivery and quality are non-negotiable."
+        },
+        {
+          "type": "span",
+          "text": "11"
+        },
+        {
+          "type": "h3",
+          "text": "Continuous Improvement"
+        },
+        {
+          "type": "p",
+          "text": "Improvement cycles built into every delivery; we evolve with your needs."
+        },
+        {
+          "type": "span",
+          "text": "12"
+        },
+        {
+          "type": "h3",
+          "text": "Strong Tech Leadership"
+        },
+        {
+          "type": "p",
+          "text": "Senior architects and engineers from Accenture, Infosys, Cognizant backgrounds."
+        },
+        {
+          "type": "span",
+          "text": "13"
+        },
+        {
+          "type": "h3",
+          "text": "Future-Ready Team"
+        },
+        {
+          "type": "p",
+          "text": "Deep expertise in AI, automation and next-gen digital platforms."
+        },
+        {
+          "type": "span",
+          "text": "14"
+        },
+        {
+          "type": "h3",
+          "text": "AI-Driven Innovation"
+        },
+        {
+          "type": "p",
+          "text": "First-principles AI thinking applied to every product and solution we build."
+        },
+        {
+          "type": "span",
+          "text": "15"
+        },
+        {
+          "type": "h3",
+          "text": "Layered Quality Framework"
+        },
+        {
+          "type": "p",
+          "text": "Multi-layer QA, WCAG compliance, automated testing — zero compromise."
+        },
+        {
+          "type": "span",
+          "text": "16"
+        },
+        {
+          "type": "h3",
+          "text": "Partnership Models"
+        },
+        {
+          "type": "p",
+          "text": "Flexible engagement: Technology, Innovation, Implementation, or Consulting partner."
+        },
+        {
+          "type": "span",
+          "text": "17"
+        },
+        {
+          "type": "h3",
+          "text": "Technology Partner"
+        },
+        {
+          "type": "p",
+          "text": "Co-develop digital products and platforms with our full-stack engineering team."
+        },
+        {
+          "type": "span",
+          "text": "18"
+        },
+        {
+          "type": "h3",
+          "text": "Innovation Partner"
+        },
+        {
+          "type": "p",
+          "text": "Co-create AI, R&D, and emerging tech solutions for your industry."
+        },
+        {
+          "type": "span",
+          "text": "19"
+        },
+        {
+          "type": "h3",
+          "text": "Implementation Partner"
+        },
+        {
+          "type": "p",
+          "text": "Deliver and manage end-to-end client deployments with precision."
+        },
+        {
+          "type": "span",
+          "text": "20"
+        },
+        {
+          "type": "h3",
+          "text": "Consulting Partner"
+        },
+        {
+          "type": "p",
+          "text": "Strategic guidance, roadmaps, and mobilization for digital transformation."
+        },
+        {
+          "type": "span",
+          "text": "21"
+        },
+        {
+          "type": "h3",
+          "text": "Hiring Partner"
+        },
+        {
+          "type": "p",
+          "text": "Access best-in-class talent in AEM, AI, Web, and niche technologies."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "01",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "02",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "03",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "04",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "05",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "06",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "07",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "08",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "09",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "10",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "11",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "12",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "13",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "14",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "15",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "16",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "17",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "18",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "19",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "20",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "21",
+          "detail": "",
+          "source": ".detail-cards__number"
+        }
+      ],
+      "cards": [
+        {
+          "element": "article",
+          "heading": "AI-First Approach",
+          "text": [
+            "01",
+            "Every solution built with AI at its core"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Global Delivery",
+          "text": [
+            "02",
+            "Serving clients across 10+ countries"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Enterprise-Grade",
+          "text": [
+            "03",
+            "Robust, secure, scalable architecture"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Partnership-Driven",
+          "text": [
+            "04",
+            "Long-term relationships over transactions"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "SEO / AEO / GEO Readiness",
+          "text": [
+            "05",
+            "Full compliance with search & AI engine optimization"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "WCAG Accessibility",
+          "text": [
+            "06",
+            "Automated detection and remediation of a11y issues"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Compliance Monitoring",
+          "text": [
+            "07",
+            "Real-time scans for legal, content, and data policies"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "AI-Powered Recommendations",
+          "text": [
+            "08",
+            "Smart fixes delivered with explanations and priority"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Speed, Scale & Security",
+          "text": [
+            "09",
+            "Optimised processes delivering rapid results at enterprise scale, with robust security baked in."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Proven CSAT",
+          "text": [
+            "10",
+            "9/10 client satisfaction score — consistent delivery and quality are non-negotiable."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Continuous Improvement",
+          "text": [
+            "11",
+            "Improvement cycles built into every delivery; we evolve with your needs."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Strong Tech Leadership",
+          "text": [
+            "12",
+            "Senior architects and engineers from Accenture, Infosys, Cognizant backgrounds."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Future-Ready Team",
+          "text": [
+            "13",
+            "Deep expertise in AI, automation and next-gen digital platforms."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "AI-Driven Innovation",
+          "text": [
+            "14",
+            "First-principles AI thinking applied to every product and solution we build."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Layered Quality Framework",
+          "text": [
+            "15",
+            "Multi-layer QA, WCAG compliance, automated testing — zero compromise."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Partnership Models",
+          "text": [
+            "16",
+            "Flexible engagement: Technology, Innovation, Implementation, or Consulting partner."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Technology Partner",
+          "text": [
+            "17",
+            "Co-develop digital products and platforms with our full-stack engineering team."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Innovation Partner",
+          "text": [
+            "18",
+            "Co-create AI, R&D, and emerging tech solutions for your industry."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Implementation Partner",
+          "text": [
+            "19",
+            "Deliver and manage end-to-end client deployments with precision."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Consulting Partner",
+          "text": [
+            "20",
+            "Strategic guidance, roadmaps, and mobilization for digital transformation."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Hiring Partner",
+          "text": [
+            "21",
+            "Access best-in-class talent in AEM, AI, Web, and niche technologies."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "portfolio_11_contact",
+      "section_order": 11,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

@@ -123,7 +123,7 @@
   align-self: start;
   gap: 18px;
   height: max-content;
-  animation: wall-drift 48s linear infinite;
+  animation: wall-drift 48s linear infinite alternate;
   animation-play-state: paused;
 }
 
@@ -134,7 +134,7 @@
 .about-hero__column:nth-child(2) {
   margin-top: 120px;
   animation-duration: 58s;
-  animation-direction: reverse;
+  animation-direction: alternate-reverse;
 }
 
 .about-hero__column:nth-child(3) {

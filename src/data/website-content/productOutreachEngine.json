@@ -1,0 +1,1106 @@
+{
+  "page_key": "productOutreachEngine",
+  "page_url": "/products/outreach-engine",
+  "document_title": "Outreach Engine | B2B Email Outreach | Ladder7",
+  "seo": {
+    "meta_title": "Outreach Engine | B2B Email Outreach | Ladder7",
+    "meta_description": "Outreach Engine is a B2B email outreach platform. It researches each prospect and writes a single email for that person, rather than filling a template.",
+    "canonical_url": "https://www.ladder7.in/products/outreach-engine",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "B2B email written one at a time."
+  },
+  "sections": [
+    {
+      "section_id": "productoutreachengine_01_page",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Page",
+      "section_heading": "B2B email written one at a time.",
+      "heading_level": "h1",
+      "eyebrow": "Outreach Engine",
+      "subheading": "",
+      "description": "Outreach Engine is a B2B email outreach platform.",
+      "paragraphs": [
+        "Outreach Engine",
+        "Outreach Engine is a B2B email outreach platform."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Outreach Engine"
+        },
+        {
+          "type": "h1",
+          "text": "B2B email written one at a time."
+        },
+        {
+          "type": "p",
+          "text": "Outreach Engine is a B2B email outreach platform."
+        },
+        {
+          "type": "cta-link",
+          "text": "Let's talk"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore the details"
+        },
+        {
+          "type": "figcaption",
+          "text": "Outreach Engine"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Let's talk",
+          "url": "/products/outreach-engine#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore the details",
+          "url": "/products/outreach-engine#page-content",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/product-outreach-dashboard-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "1200",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high",
+          "srcset": "/images/photos/product-outreach-dashboard-480.webp 480w, /images/photos/product-outreach-dashboard-800.webp 800w, /images/photos/product-outreach-dashboard-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 100vw, 40vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Let's talk",
+          "href": "/products/outreach-engine#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/products/outreach-engine#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Let's talk",
+          "href": "/products/outreach-engine#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/products/outreach-engine#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/LandingHero/LandingHero.css",
+        "component": "src/components/sections/LandingHero/LandingHero.tsx"
+      }
+    },
+    {
+      "section_id": "productoutreachengine_02_detail_section",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Cold email is broken. Warm outreach is not.",
+      "heading_level": "h2",
+      "eyebrow": "The Problem",
+      "subheading": "",
+      "description": "Every B2B inbox now receives the same morning delivery: identical templates with a first name dropped in, a subject line built from a formula, and a \"just circling back\" three days later. Recipients recognise the pattern in under a second and delete on sight.\n\nThe problem was never email. It was volume pretending to be attention. Reply rates fell because the messages stopped being worth reading, and no amount of extra sending fixes that.",
+      "paragraphs": [
+        "The Problem",
+        "Every B2B inbox now receives the same morning delivery: identical templates with a first name dropped in, a subject line built from a formula, and a \"just circling back\" three days later. Recipients recognise the pattern in under a second and delete on sight.",
+        "The problem was never email. It was volume pretending to be attention. Reply rates fell because the messages stopped being worth reading, and no amount of extra sending fixes that."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The Problem"
+        },
+        {
+          "type": "h2",
+          "text": "Cold email is broken. Warm outreach is not."
+        },
+        {
+          "type": "p",
+          "text": "Every B2B inbox now receives the same morning delivery: identical templates with a first name dropped in, a subject line built from a formula, and a \"just circling back\" three days later. Recipients recognise the pattern in under a second and delete on sight."
+        },
+        {
+          "type": "p",
+          "text": "The problem was never email. It was volume pretending to be attention. Reply rates fell because the messages stopped being worth reading, and no amount of extra sending fixes that."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productoutreachengine_03_detail_section",
+      "section_order": 3,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Written for one person, sent by real infrastructure",
+      "heading_level": "h2",
+      "eyebrow": "What it does",
+      "subheading": "",
+      "description": "Most tools give you good copy or good deliverability. The copy tools produce something worth reading that lands in spam. The deliverability tools land a template nobody answers. Both halves have to work.",
+      "paragraphs": [
+        "What it does",
+        "Most tools give you good copy or good deliverability. The copy tools produce something worth reading that lands in spam. The deliverability tools land a template nobody answers. Both halves have to work.",
+        "Each email is composed for a single recipient, using their role, their company and a specific reason the message is relevant. No merge tags, no template skeleton.",
+        "Send across multiple connected mailboxes so volume never concentrates on one domain.",
+        "Builds and maintains sender reputation on every connected mailbox automatically, before and during a campaign.",
+        "Validates SPF, DKIM and DMARC on your sending domains, flags misconfigurations, and tells you how to fix them.",
+        "Filters invalid and risky addresses before a send, so bounce rates stay low and your reputation survives.",
+        "Positive replies move toward a booked meeting rather than sitting in a reporting dashboard."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "What it does"
+        },
+        {
+          "type": "h2",
+          "text": "Written for one person, sent by real infrastructure"
+        },
+        {
+          "type": "p",
+          "text": "Most tools give you good copy or good deliverability. The copy tools produce something worth reading that lands in spam. The deliverability tools land a template nobody answers. Both halves have to work."
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "One-to-one writing"
+        },
+        {
+          "type": "p",
+          "text": "Each email is composed for a single recipient, using their role, their company and a specific reason the message is relevant. No merge tags, no template skeleton."
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "Inbox rotation"
+        },
+        {
+          "type": "p",
+          "text": "Send across multiple connected mailboxes so volume never concentrates on one domain."
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "Warmup engine"
+        },
+        {
+          "type": "p",
+          "text": "Builds and maintains sender reputation on every connected mailbox automatically, before and during a campaign."
+        },
+        {
+          "type": "span",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "Authentication checks"
+        },
+        {
+          "type": "p",
+          "text": "Validates SPF, DKIM and DMARC on your sending domains, flags misconfigurations, and tells you how to fix them."
+        },
+        {
+          "type": "span",
+          "text": "05"
+        },
+        {
+          "type": "h3",
+          "text": "Address verification"
+        },
+        {
+          "type": "p",
+          "text": "Filters invalid and risky addresses before a send, so bounce rates stay low and your reputation survives."
+        },
+        {
+          "type": "span",
+          "text": "06"
+        },
+        {
+          "type": "h3",
+          "text": "Reply handling"
+        },
+        {
+          "type": "p",
+          "text": "Positive replies move toward a booked meeting rather than sitting in a reporting dashboard."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "01",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "02",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "03",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "04",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "05",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "06",
+          "detail": "",
+          "source": ".detail-cards__number"
+        }
+      ],
+      "cards": [
+        {
+          "element": "article",
+          "heading": "One-to-one writing",
+          "text": [
+            "01",
+            "Each email is composed for a single recipient, using their role, their company and a specific reason the message is relevant. No merge tags, no template skeleton."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Inbox rotation",
+          "text": [
+            "02",
+            "Send across multiple connected mailboxes so volume never concentrates on one domain."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Warmup engine",
+          "text": [
+            "03",
+            "Builds and maintains sender reputation on every connected mailbox automatically, before and during a campaign."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Authentication checks",
+          "text": [
+            "04",
+            "Validates SPF, DKIM and DMARC on your sending domains, flags misconfigurations, and tells you how to fix them."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Address verification",
+          "text": [
+            "05",
+            "Filters invalid and risky addresses before a send, so bounce rates stay low and your reputation survives."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Reply handling",
+          "text": [
+            "06",
+            "Positive replies move toward a booked meeting rather than sitting in a reporting dashboard."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productoutreachengine_04_detail_section",
+      "section_order": 4,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "If it reads like a template, it does not ship",
+      "heading_level": "h2",
+      "eyebrow": "The standard",
+      "subheading": "",
+      "description": "The bar is simple: an email should read the way it would if you had written it yourself, on a Tuesday, to one person you had a reason to contact. That means no formulaic openers, no borrowed urgency, and no phrasing that exists because it performs well in aggregate.\n\nPersonalisation here means the reason the email is relevant, not the recipient's first name in a subject line.",
+      "paragraphs": [
+        "The standard",
+        "The bar is simple: an email should read the way it would if you had written it yourself, on a Tuesday, to one person you had a reason to contact. That means no formulaic openers, no borrowed urgency, and no phrasing that exists because it performs well in aggregate.",
+        "Personalisation here means the reason the email is relevant, not the recipient's first name in a subject line."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The standard"
+        },
+        {
+          "type": "h2",
+          "text": "If it reads like a template, it does not ship"
+        },
+        {
+          "type": "p",
+          "text": "The bar is simple: an email should read the way it would if you had written it yourself, on a Tuesday, to one person you had a reason to contact. That means no formulaic openers, no borrowed urgency, and no phrasing that exists because it performs well in aggregate."
+        },
+        {
+          "type": "p",
+          "text": "Personalisation here means the reason the email is relevant, not the recipient's first name in a subject line."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productoutreachengine_05_detail_section",
+      "section_order": 5,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Finding the leads, not just writing to them",
+      "heading_level": "h2",
+      "eyebrow": "What is coming",
+      "subheading": "",
+      "description": "Intelligent Lead Identification is in development. It will surface right-fit prospects for your business automatically and hand each one to the writing engine, closing the loop from discovery to booked call.\n\nToday the platform writes and sends to the prospects you bring it. That is the honest state of it.",
+      "paragraphs": [
+        "What is coming",
+        "Intelligent Lead Identification is in development. It will surface right-fit prospects for your business automatically and hand each one to the writing engine, closing the loop from discovery to booked call.",
+        "Today the platform writes and sends to the prospects you bring it. That is the honest state of it."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "What is coming"
+        },
+        {
+          "type": "h2",
+          "text": "Finding the leads, not just writing to them"
+        },
+        {
+          "type": "p",
+          "text": "Intelligent Lead Identification is in development. It will surface right-fit prospects for your business automatically and hand each one to the writing engine, closing the loop from discovery to booked call."
+        },
+        {
+          "type": "p",
+          "text": "Today the platform writes and sends to the prospects you bring it. That is the honest state of it."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productoutreachengine_06_detail_section",
+      "section_order": 6,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "How it works",
+      "heading_level": "h2",
+      "eyebrow": "PRODUCT DETAILS",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "PRODUCT DETAILS",
+        "Add one or several. The warmup engine starts building sender reputation immediately.",
+        "Outreach Engine checks SPF, DKIM and DMARC and tells you what is misconfigured before a single email goes out.",
+        "Addresses are verified, and the risky ones are removed rather than sent to.",
+        "Each one is written for its recipient. Edit or approve.",
+        "Deliverability keeps running in the background while you have conversations."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "PRODUCT DETAILS"
+        },
+        {
+          "type": "h2",
+          "text": "How it works"
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "Connect your mailboxes."
+        },
+        {
+          "type": "p",
+          "text": "Add one or several. The warmup engine starts building sender reputation immediately."
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "Confirm your authentication."
+        },
+        {
+          "type": "p",
+          "text": "Outreach Engine checks SPF, DKIM and DMARC and tells you what is misconfigured before a single email goes out."
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "Add your prospects."
+        },
+        {
+          "type": "p",
+          "text": "Addresses are verified, and the risky ones are removed rather than sent to."
+        },
+        {
+          "type": "span",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "Review the drafts."
+        },
+        {
+          "type": "p",
+          "text": "Each one is written for its recipient. Edit or approve."
+        },
+        {
+          "type": "span",
+          "text": "05"
+        },
+        {
+          "type": "h3",
+          "text": "Take the replies."
+        },
+        {
+          "type": "p",
+          "text": "Deliverability keeps running in the background while you have conversations."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "01",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "02",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "03",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "04",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "05",
+          "detail": "",
+          "source": ".detail-cards__number"
+        }
+      ],
+      "cards": [
+        {
+          "element": "article",
+          "heading": "Connect your mailboxes.",
+          "text": [
+            "01",
+            "Add one or several. The warmup engine starts building sender reputation immediately."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Confirm your authentication.",
+          "text": [
+            "02",
+            "Outreach Engine checks SPF, DKIM and DMARC and tells you what is misconfigured before a single email goes out."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Add your prospects.",
+          "text": [
+            "03",
+            "Addresses are verified, and the risky ones are removed rather than sent to."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Review the drafts.",
+          "text": [
+            "04",
+            "Each one is written for its recipient. Edit or approve."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Take the replies.",
+          "text": [
+            "05",
+            "Deliverability keeps running in the background while you have conversations."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productoutreachengine_07_detail_section",
+      "section_order": 7,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Who it is for",
+      "heading_level": "h2",
+      "eyebrow": "PRODUCT DETAILS",
+      "subheading": "",
+      "description": "The people who live and die by pipeline: B2B founders doing their own selling, sales teams and SDRs, agencies running outreach for clients, and consultants who need conversations rather than another dashboard of unopened sends.\n\nWorks alongside L7 Nexus, which decides who is worth talking to and cannot send email itself.",
+      "paragraphs": [
+        "PRODUCT DETAILS",
+        "The people who live and die by pipeline: B2B founders doing their own selling, sales teams and SDRs, agencies running outreach for clients, and consultants who need conversations rather than another dashboard of unopened sends.",
+        "Works alongside L7 Nexus, which decides who is worth talking to and cannot send email itself."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "PRODUCT DETAILS"
+        },
+        {
+          "type": "h2",
+          "text": "Who it is for"
+        },
+        {
+          "type": "p",
+          "text": "The people who live and die by pipeline: B2B founders doing their own selling, sales teams and SDRs, agencies running outreach for clients, and consultants who need conversations rather than another dashboard of unopened sends."
+        },
+        {
+          "type": "p",
+          "text": "Works alongside L7 Nexus, which decides who is worth talking to and cannot send email itself."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productoutreachengine_08_detail_section",
+      "section_order": 8,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Good questions.",
+      "heading_level": "h2",
+      "eyebrow": "A LITTLE MORE CLARITY",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "A LITTLE MORE CLARITY",
+        "A B2B email outreach platform from Ladder7 NextStep Solutions. It writes each email for one recipient rather than filling a template, and runs the deliverability stack behind it: inbox rotation, automatic warmup, SPF, DKIM and DMARC validation, and address verification.",
+        "No. Cold email tools send one message to a list. Outreach Engine writes a separate email for each prospect, built on a specific reason the message is relevant to that person, which is what earns a reply rather than a spam report.",
+        "Through four mechanisms working together: multiple connected mailboxes with rotation, an automatic warmup engine that builds sender reputation, validation of your SPF, DKIM and DMARC records, and verification of every address before a send.",
+        "Not yet. Intelligent Lead Identification is in development and will surface right-fit prospects automatically. Today you bring the prospects and Outreach Engine writes and sends to them.",
+        "Replies and booked calls. Emails sent is not a success metric.",
+        "Ladder7 NextStep Solutions, which also builds Site 360 and L7 Nexus.",
+        "It is in limited beta. Request access and the team will be in touch."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "A LITTLE MORE CLARITY"
+        },
+        {
+          "type": "h2",
+          "text": "Good questions."
+        },
+        {
+          "type": "summary",
+          "text": "What is Outreach Engine?–"
+        },
+        {
+          "type": "p",
+          "text": "A B2B email outreach platform from Ladder7 NextStep Solutions. It writes each email for one recipient rather than filling a template, and runs the deliverability stack behind it: inbox rotation, automatic warmup, SPF, DKIM and DMARC validation, and address verification."
+        },
+        {
+          "type": "summary",
+          "text": "Is this a cold email tool?+"
+        },
+        {
+          "type": "p",
+          "text": "No. Cold email tools send one message to a list. Outreach Engine writes a separate email for each prospect, built on a specific reason the message is relevant to that person, which is what earns a reply rather than a spam report."
+        },
+        {
+          "type": "summary",
+          "text": "How is deliverability handled?+"
+        },
+        {
+          "type": "p",
+          "text": "Through four mechanisms working together: multiple connected mailboxes with rotation, an automatic warmup engine that builds sender reputation, validation of your SPF, DKIM and DMARC records, and verification of every address before a send."
+        },
+        {
+          "type": "summary",
+          "text": "Does it find leads for me?+"
+        },
+        {
+          "type": "p",
+          "text": "Not yet. Intelligent Lead Identification is in development and will surface right-fit prospects automatically. Today you bring the prospects and Outreach Engine writes and sends to them."
+        },
+        {
+          "type": "summary",
+          "text": "What is it measured on?+"
+        },
+        {
+          "type": "p",
+          "text": "Replies and booked calls. Emails sent is not a success metric."
+        },
+        {
+          "type": "summary",
+          "text": "Who built it?+"
+        },
+        {
+          "type": "p",
+          "text": "Ladder7 NextStep Solutions, which also builds Site 360 and L7 Nexus."
+        },
+        {
+          "type": "summary",
+          "text": "How do I get access?+"
+        },
+        {
+          "type": "p",
+          "text": "It is in limited beta. Request access and the team will be in touch."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "What is Outreach Engine?–",
+          "open": true
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Is this a cold email tool?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "How is deliverability handled?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Does it find leads for me?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "What is it measured on?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Who built it?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "How do I get access?+",
+          "open": false
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productoutreachengine_09_contact",
+      "section_order": 9,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

@@ -33,7 +33,7 @@ export type ButtonProps = AsLink | AsButton;
  * @example
  *   <Button to="#contact">Discuss your project</Button>
  *   <Button variant="outline" glass to="/#capabilities">Explore capabilities</Button>
- *   <Button variant="secondary" type="submit">Continue on WhatsApp</Button>
+ *   <Button variant="secondary" type="submit">Submit</Button>
  */
 export function Button(props: ButtonProps) {
   const { variant = "primary", size = "lg", glass, onBrand, block, arrow, className, children } = props;

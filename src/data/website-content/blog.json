@@ -1,0 +1,955 @@
+{
+  "page_key": "blog",
+  "page_url": "/blogs",
+  "document_title": "Insights: Software Outsourcing, AI & Web | Ladder7",
+  "seo": {
+    "meta_title": "Insights: Software Outsourcing, AI & Web | Ladder7",
+    "meta_description": "Practical guides on outsourcing software development to India, applied AI and web engineering, plus stories from the Ladder7 team in Kochi and Trivandrum.",
+    "canonical_url": "https://www.ladder7.in/blogs",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Ideas for your next step.\nIn technology, work and life."
+  },
+  "sections": [
+    {
+      "section_id": "blog_01_blog_index_sidebar",
+      "section_order": 1,
+      "html_id": null,
+      "element": "aside",
+      "section_name": "Blog Index",
+      "section_heading": "Explore more",
+      "heading_level": "h2",
+      "eyebrow": "Let's talk",
+      "subheading": "",
+      "description": "Home / Insights\n\n7 stories",
+      "paragraphs": [
+        "Home / Insights",
+        "7 stories"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Home / Insights"
+        },
+        {
+          "type": "button",
+          "text": "All topics"
+        },
+        {
+          "type": "button",
+          "text": "AI"
+        },
+        {
+          "type": "button",
+          "text": "Web engineering"
+        },
+        {
+          "type": "button",
+          "text": "Life at Ladder7"
+        },
+        {
+          "type": "p",
+          "text": "7 stories"
+        },
+        {
+          "type": "h2",
+          "text": "Explore more"
+        },
+        {
+          "type": "a",
+          "text": "Our work"
+        },
+        {
+          "type": "a",
+          "text": "Services"
+        },
+        {
+          "type": "a",
+          "text": "Education"
+        },
+        {
+          "type": "cta-link",
+          "text": "Let's talk"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "7 stories",
+          "detail": "",
+          "source": ".blog-index__count"
+        }
+      ],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Let's talk",
+          "url": "/contact",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "Home",
+          "href": "/",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Our work",
+          "href": "/portfolio",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Services",
+          "href": "/services",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Education",
+          "href": "/education",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Let's talk",
+          "href": "/contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Home",
+          "href": "/",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Our work",
+          "href": "/portfolio",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Services",
+          "href": "/services",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Education",
+          "href": "/education",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Let's talk",
+          "href": "/contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "All topics",
+          "attrs": {
+            "type": "button",
+            "aria-pressed": "true"
+          }
+        },
+        {
+          "element": "button",
+          "text": "AI",
+          "attrs": {
+            "type": "button",
+            "aria-pressed": "false"
+          }
+        },
+        {
+          "element": "button",
+          "text": "Web engineering",
+          "attrs": {
+            "type": "button",
+            "aria-pressed": "false"
+          }
+        },
+        {
+          "element": "button",
+          "text": "Life at Ladder7",
+          "attrs": {
+            "type": "button",
+            "aria-pressed": "false"
+          }
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/BlogIndex/BlogIndex.css",
+        "component": "src/components/sections/BlogIndex/BlogIndex.tsx"
+      }
+    },
+    {
+      "section_id": "blog_02_blog_index_intro",
+      "section_order": 2,
+      "html_id": null,
+      "element": "div",
+      "section_name": "Blog Index",
+      "section_heading": "Ideas for your next step.\nIn technology, work and life.",
+      "heading_level": "h1",
+      "eyebrow": "",
+      "subheading": "",
+      "description": "Practical perspectives on AI and digital experiences.\nStories from the people behind Ladder7.",
+      "paragraphs": [
+        "Practical perspectives on AI and digital experiences.\nStories from the people behind Ladder7."
+      ],
+      "content": [
+        {
+          "type": "h1",
+          "text": "Ideas for your next step.\nIn technology, work and life."
+        },
+        {
+          "type": "p",
+          "text": "Practical perspectives on AI and digital experiences.\nStories from the people behind Ladder7."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/BlogIndex/BlogIndex.css",
+        "component": "src/components/sections/BlogIndex/BlogIndex.tsx"
+      }
+    },
+    {
+      "section_id": "blog_03_blog_index_grid",
+      "section_order": 3,
+      "html_id": null,
+      "element": "div",
+      "section_name": "Blog Index",
+      "section_heading": "The Role of AI in Personalizing Web Experiences",
+      "heading_level": "h2",
+      "eyebrow": "",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [],
+      "content": [
+        {
+          "type": "span",
+          "text": "AI 2 min read"
+        },
+        {
+          "type": "h2",
+          "text": "The Role of AI in Personalizing Web Experiences"
+        },
+        {
+          "type": "span",
+          "text": "L7Ladder7 team"
+        },
+        {
+          "type": "span",
+          "text": "AI 4 min read"
+        },
+        {
+          "type": "h2",
+          "text": "AI Tools for Web Development Teams: How to Build Intelligent Websites That Convert"
+        },
+        {
+          "type": "span",
+          "text": "L7Ladder7 team"
+        },
+        {
+          "type": "span",
+          "text": "AI 3 min read"
+        },
+        {
+          "type": "h2",
+          "text": "Conversational AI for Customer Experience: When Chatbots Need to Do More"
+        },
+        {
+          "type": "span",
+          "text": "L7Ladder7 team"
+        },
+        {
+          "type": "span",
+          "text": "Web engineering 3 min read"
+        },
+        {
+          "type": "h2",
+          "text": "Why Website Checks Need to Go Beyond Performance Scores"
+        },
+        {
+          "type": "span",
+          "text": "L7Ladder7 team"
+        },
+        {
+          "type": "span",
+          "text": "Life at Ladder7 2 min read"
+        },
+        {
+          "type": "h2",
+          "text": "Festive Moments and Lasting Memories: Ladder7’s Grand Onam Celebration"
+        },
+        {
+          "type": "span",
+          "text": "L7Ladder7 team"
+        },
+        {
+          "type": "span",
+          "text": "Life at Ladder7 3 min read"
+        },
+        {
+          "type": "h2",
+          "text": "Lux Noel: A Magical Christmas Celebration"
+        },
+        {
+          "type": "span",
+          "text": "L7Ladder7 team"
+        },
+        {
+          "type": "span",
+          "text": "Life at Ladder7 3 min read"
+        },
+        {
+          "type": "h2",
+          "text": "Celebrating Unity and Responsibility: Independence Day at Ladder7"
+        },
+        {
+          "type": "span",
+          "text": "L7Ladder7 team"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [
+        {
+          "element": "article.card",
+          "heading": "India vs Eastern Europe vs Africa for software outsourcing: which fits your company?",
+          "text": [
+            "Outsourcing",
+            "Comparing India, Eastern Europe and Africa for software outsourcing: cost, talent pool, time zones and fit for buyers in the GCC, UK and the European Union."
+          ],
+          "links": [
+            {
+              "text": "Read article: India vs Eastern Europe vs Africa for Software Outsourcing",
+              "href": "/blogs/india-vs-eastern-europe-vs-africa-software-outsourcing"
+            }
+          ],
+          "images": []
+        },
+        {
+          "element": "article.card",
+          "heading": "How to choose a custom software development company in India: a buyer's checklist.",
+          "text": [
+            "Outsourcing",
+            "A practical checklist for GCC, European and African buyers choosing an Indian software development company: seniority, process, contracts, IP and cost."
+          ],
+          "links": [
+            {
+              "text": "Read article: How to Choose a Custom Software Development Company in India",
+              "href": "/blogs/how-to-choose-custom-software-development-company-india"
+            }
+          ],
+          "images": []
+        },
+        {
+          "element": "article.blog-index__story",
+          "heading": "The Role of AI in Personalizing Web Experiences",
+          "text": [
+            "AI 2 min read",
+            "L7Ladder7 team"
+          ],
+          "links": [
+            {
+              "text": "AI 2 min read\nThe Role of AI in Personalizing Web Experiences\nL7Ladder7 team",
+              "href": "/blogs/ai-personalize-web-experince"
+            }
+          ],
+          "images": [
+            {
+              "src": "/images/photos/blog-ai-personalization-800.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "article.blog-index__story",
+          "heading": "AI Tools for Web Development Teams: How to Build Intelligent Websites That Convert",
+          "text": [
+            "AI 4 min read",
+            "L7Ladder7 team"
+          ],
+          "links": [
+            {
+              "text": "AI 4 min read\nAI Tools for Web Development Teams: How to Build Intelligent Websites That Convert\nL7Ladder7 team",
+              "href": "/blogs/ai-tools-web-development-team"
+            }
+          ],
+          "images": [
+            {
+              "src": "/images/photos/blog-ai-tools-web-teams-800.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "article.blog-index__story",
+          "heading": "Conversational AI for Customer Experience: When Chatbots Need to Do More",
+          "text": [
+            "AI 3 min read",
+            "L7Ladder7 team"
+          ],
+          "links": [
+            {
+              "text": "AI 3 min read\nConversational AI for Customer Experience: When Chatbots Need to Do More\nL7Ladder7 team",
+              "href": "/blogs/conversational-ai-customer-experience"
+            }
+          ],
+          "images": [
+            {
+              "src": "/images/photos/blog-conversational-ai-800.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "article.blog-index__story",
+          "heading": "Why Website Checks Need to Go Beyond Performance Scores",
+          "text": [
+            "Web engineering 3 min read",
+            "L7Ladder7 team"
+          ],
+          "links": [
+            {
+              "text": "Web engineering 3 min read\nWhy Website Checks Need to Go Beyond Performance Scores\nL7Ladder7 team",
+              "href": "/blogs/why-website-checks-need-to-go-beyond-performance-scores"
+            }
+          ],
+          "images": [
+            {
+              "src": "/images/photos/blog-website-checks-800.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "article.blog-index__story",
+          "heading": "Festive Moments and Lasting Memories: Ladder7’s Grand Onam Celebration",
+          "text": [
+            "Life at Ladder7 2 min read",
+            "L7Ladder7 team"
+          ],
+          "links": [
+            {
+              "text": "Life at Ladder7 2 min read\nFestive Moments and Lasting Memories: Ladder7’s Grand Onam Celebration\nL7Ladder7 team",
+              "href": "/blogs/festive-onam-ladder7"
+            }
+          ],
+          "images": [
+            {
+              "src": "/images/photos/blog-onam-celebration-800.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "article.blog-index__story",
+          "heading": "Lux Noel: A Magical Christmas Celebration",
+          "text": [
+            "Life at Ladder7 3 min read",
+            "L7Ladder7 team"
+          ],
+          "links": [
+            {
+              "text": "Life at Ladder7 3 min read\nLux Noel: A Magical Christmas Celebration\nL7Ladder7 team",
+              "href": "/blogs/magical-christmas-celebration"
+            }
+          ],
+          "images": [
+            {
+              "src": "/images/photos/blog-christmas-celebration-800.webp",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "element": "article.blog-index__story",
+          "heading": "Celebrating Unity and Responsibility: Independence Day at Ladder7",
+          "text": [
+            "Life at Ladder7 3 min read",
+            "L7Ladder7 team"
+          ],
+          "links": [
+            {
+              "text": "Life at Ladder7 3 min read\nCelebrating Unity and Responsibility: Independence Day at Ladder7\nL7Ladder7 team",
+              "href": "/blogs/independence-day-ladder7"
+            }
+          ],
+          "images": [
+            {
+              "src": "/images/photos/blog-independence-day-800.webp",
+              "alt": ""
+            }
+          ]
+        }
+      ],
+      "cta_buttons": [],
+      "images": [
+        {
+          "src": "/images/photos/blog-ai-personalization-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "675",
+          "loading": "eager",
+          "decoding": "async",
+          "srcset": "/images/photos/blog-ai-personalization-480.webp 480w, /images/photos/blog-ai-personalization-800.webp 800w, /images/photos/blog-ai-personalization-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 88vw, (max-width: 1000px) 34vw, 23vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/blog-ai-tools-web-teams-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "675",
+          "loading": "eager",
+          "decoding": "async",
+          "srcset": "/images/photos/blog-ai-tools-web-teams-480.webp 480w, /images/photos/blog-ai-tools-web-teams-800.webp 800w, /images/photos/blog-ai-tools-web-teams-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 88vw, (max-width: 1000px) 34vw, 23vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/blog-conversational-ai-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "675",
+          "loading": "eager",
+          "decoding": "async",
+          "srcset": "/images/photos/blog-conversational-ai-480.webp 480w, /images/photos/blog-conversational-ai-800.webp 800w, /images/photos/blog-conversational-ai-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 88vw, (max-width: 1000px) 34vw, 23vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/blog-website-checks-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "675",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/blog-website-checks-480.webp 480w, /images/photos/blog-website-checks-800.webp 800w, /images/photos/blog-website-checks-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 88vw, (max-width: 1000px) 34vw, 23vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/blog-onam-celebration-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "675",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/blog-onam-celebration-480.webp 480w, /images/photos/blog-onam-celebration-800.webp 800w, /images/photos/blog-onam-celebration-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 88vw, (max-width: 1000px) 34vw, 23vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/blog-christmas-celebration-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "675",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/blog-christmas-celebration-480.webp 480w, /images/photos/blog-christmas-celebration-800.webp 800w, /images/photos/blog-christmas-celebration-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 88vw, (max-width: 1000px) 34vw, 23vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/blog-independence-day-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "675",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/blog-independence-day-480.webp 480w, /images/photos/blog-independence-day-800.webp 800w, /images/photos/blog-independence-day-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 88vw, (max-width: 1000px) 34vw, 23vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [],
+      "links": [
+        {
+          "text": "Read article: India vs Eastern Europe vs Africa for Software Outsourcing",
+          "href": "/blogs/india-vs-eastern-europe-vs-africa-software-outsourcing",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Read article: How to Choose a Custom Software Development Company in India",
+          "href": "/blogs/how-to-choose-custom-software-development-company-india",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "AI 2 min read\nThe Role of AI in Personalizing Web Experiences\nL7Ladder7 team",
+          "href": "/blogs/ai-personalize-web-experince",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "AI 4 min read\nAI Tools for Web Development Teams: How to Build Intelligent Websites That Convert\nL7Ladder7 team",
+          "href": "/blogs/ai-tools-web-development-team",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "AI 3 min read\nConversational AI for Customer Experience: When Chatbots Need to Do More\nL7Ladder7 team",
+          "href": "/blogs/conversational-ai-customer-experience",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Web engineering 3 min read\nWhy Website Checks Need to Go Beyond Performance Scores\nL7Ladder7 team",
+          "href": "/blogs/why-website-checks-need-to-go-beyond-performance-scores",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Life at Ladder7 2 min read\nFestive Moments and Lasting Memories: Ladder7’s Grand Onam Celebration\nL7Ladder7 team",
+          "href": "/blogs/festive-onam-ladder7",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Life at Ladder7 3 min read\nLux Noel: A Magical Christmas Celebration\nL7Ladder7 team",
+          "href": "/blogs/magical-christmas-celebration",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Life at Ladder7 3 min read\nCelebrating Unity and Responsibility: Independence Day at Ladder7\nL7Ladder7 team",
+          "href": "/blogs/independence-day-ladder7",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Read article: India vs Eastern Europe vs Africa for Software Outsourcing",
+          "href": "/blogs/india-vs-eastern-europe-vs-africa-software-outsourcing",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Read article: How to Choose a Custom Software Development Company in India",
+          "href": "/blogs/how-to-choose-custom-software-development-company-india",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "AI 2 min read\nThe Role of AI in Personalizing Web Experiences\nL7Ladder7 team",
+          "href": "/blogs/ai-personalize-web-experince",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "AI 4 min read\nAI Tools for Web Development Teams: How to Build Intelligent Websites That Convert\nL7Ladder7 team",
+          "href": "/blogs/ai-tools-web-development-team",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "AI 3 min read\nConversational AI for Customer Experience: When Chatbots Need to Do More\nL7Ladder7 team",
+          "href": "/blogs/conversational-ai-customer-experience",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Web engineering 3 min read\nWhy Website Checks Need to Go Beyond Performance Scores\nL7Ladder7 team",
+          "href": "/blogs/why-website-checks-need-to-go-beyond-performance-scores",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Life at Ladder7 2 min read\nFestive Moments and Lasting Memories: Ladder7’s Grand Onam Celebration\nL7Ladder7 team",
+          "href": "/blogs/festive-onam-ladder7",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Life at Ladder7 3 min read\nLux Noel: A Magical Christmas Celebration\nL7Ladder7 team",
+          "href": "/blogs/magical-christmas-celebration",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Life at Ladder7 3 min read\nCelebrating Unity and Responsibility: Independence Day at Ladder7\nL7Ladder7 team",
+          "href": "/blogs/independence-day-ladder7",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/BlogIndex/BlogIndex.css",
+        "component": "src/components/sections/BlogIndex/BlogIndex.tsx"
+      }
+    },
+    {
+      "section_id": "blog_04_contact",
+      "section_order": 4,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

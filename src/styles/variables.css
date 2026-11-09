@@ -78,10 +78,10 @@
   --font-size-h5: 1.1875rem;                                 /* 19 */
   --font-size-h6: 1.125rem;                                  /* 18 */
   --font-size-lead: 1.125rem;                                /* 18  hero description */
-  --font-size-body-lg: 1rem;                                 /* 16 */
-  --font-size-body: 1rem;                                    /* 16 */
-  --font-size-body-sm: 0.875rem;                              /* 14 */
-  --font-size-caption: 0.8125rem;                             /* 13 */
+  --font-size-body-lg: 1.125rem;                             /* 18 */
+  --font-size-body: 1.125rem;                                /* 18 */
+  --font-size-body-sm: 1.125rem;                             /* 18 */
+  --font-size-caption: 1rem;                                 /* 16 */
   --font-size-label: 0.75rem;                                 /* 12  eyebrows */
   --font-size-micro: 0.75rem;                                 /* 12  smallest meaningful text */
   --font-size-art: 0.625rem;                                 /* 10  decorative art text */

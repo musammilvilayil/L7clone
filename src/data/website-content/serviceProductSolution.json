@@ -1,0 +1,1033 @@
+{
+  "page_key": "serviceProductSolution",
+  "page_url": "/services/product-solution",
+  "document_title": "Product Discovery, MVP Scoping & Blueprinting | Ladder7",
+  "seo": {
+    "meta_title": "Product Discovery, MVP Scoping & Blueprinting | Ladder7",
+    "meta_description": "Turn a product idea into architecture, MVP scope and a costed development roadmap. Discovery and solution blueprinting for startups and enterprises.",
+    "canonical_url": "https://www.ladder7.in/services/product-solution",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "From a promising idea to a practical blueprint."
+  },
+  "sections": [
+    {
+      "section_id": "serviceproductsolution_01_service_hero",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Service Hero",
+      "section_heading": "From a promising idea to a practical blueprint.",
+      "heading_level": "h1",
+      "eyebrow": "Services / Strategy & Consulting",
+      "subheading": "",
+      "description": "Transform abstract concepts into viable software products. Ladder7 provides strategic ideation, MVP definition, and rigorous technical solution blueprinting.",
+      "paragraphs": [
+        "Services / Strategy & Consulting",
+        "Transform abstract concepts into viable software products. Ladder7 provides strategic ideation, MVP definition, and rigorous technical solution blueprinting."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Services / Strategy & Consulting"
+        },
+        {
+          "type": "h1",
+          "text": "From a promising idea to a practical blueprint."
+        },
+        {
+          "type": "p",
+          "text": "Transform abstract concepts into viable software products. Ladder7 provides strategic ideation, MVP definition, and rigorous technical solution blueprinting."
+        },
+        {
+          "type": "cta-link",
+          "text": "Discuss your project"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore capabilities"
+        },
+        {
+          "type": "dt",
+          "text": "Focus areas"
+        },
+        {
+          "type": "dd",
+          "text": "07."
+        },
+        {
+          "type": "dd",
+          "text": "Within this service"
+        },
+        {
+          "type": "dt",
+          "text": "Specialist services"
+        },
+        {
+          "type": "dd",
+          "text": "14."
+        },
+        {
+          "type": "dd",
+          "text": "Connected around your goal"
+        },
+        {
+          "type": "dt",
+          "text": "Core disciplines"
+        },
+        {
+          "type": "dd",
+          "text": "3."
+        },
+        {
+          "type": "dd",
+          "text": "Experience, AI and strategy"
+        },
+        {
+          "type": "dt",
+          "text": "Kerala bases"
+        },
+        {
+          "type": "dd",
+          "text": "2."
+        },
+        {
+          "type": "dd",
+          "text": "Cochin · Trivandrum"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Focus areas",
+          "detail": "07.",
+          "source": "dl"
+        },
+        {
+          "term": "Specialist services",
+          "detail": "14.",
+          "source": "dl"
+        },
+        {
+          "term": "Core disciplines",
+          "detail": "3.",
+          "source": "dl"
+        },
+        {
+          "term": "Kerala bases",
+          "detail": "2.",
+          "source": "dl"
+        }
+      ],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Discuss your project",
+          "url": "/services/product-solution#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore capabilities",
+          "url": "/services/product-solution#capabilities",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Services",
+          "href": "/services",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Discuss your project",
+          "href": "/services/product-solution#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore capabilities",
+          "href": "/services/product-solution#capabilities",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Services",
+          "href": "/services",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Discuss your project",
+          "href": "/services/product-solution#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore capabilities",
+          "href": "/services/product-solution#capabilities",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      }
+    },
+    {
+      "section_id": "serviceproductsolution_02_capabilities",
+      "section_order": 2,
+      "html_id": "capabilities",
+      "element": "section",
+      "section_name": "Capabilities",
+      "section_heading": "Product discovery capabilities",
+      "heading_level": "h2",
+      "eyebrow": "",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [],
+      "content": [
+        {
+          "type": "h2",
+          "text": "Product discovery capabilities"
+        },
+        {
+          "type": "li",
+          "text": "The Bridge Between Ambition and Execution ·"
+        },
+        {
+          "type": "li",
+          "text": "Strategic Ideation & Discovery ·"
+        },
+        {
+          "type": "li",
+          "text": "Solution Architecture ·"
+        },
+        {
+          "type": "li",
+          "text": "Feasibility & Risk Assessment ·"
+        },
+        {
+          "type": "li",
+          "text": "Experience Strategy (UX/UI) ·"
+        },
+        {
+          "type": "li",
+          "text": "MVP & GTM Strategy ·"
+        },
+        {
+          "type": "li",
+          "text": "The Value of Blueprinting with Ladder7"
+        }
+      ],
+      "bullet_points": [
+        "The Bridge Between Ambition and Execution ·",
+        "Strategic Ideation & Discovery ·",
+        "Solution Architecture ·",
+        "Feasibility & Risk Assessment ·",
+        "Experience Strategy (UX/UI) ·",
+        "MVP & GTM Strategy ·",
+        "The Value of Blueprinting with Ladder7"
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      }
+    },
+    {
+      "section_id": "serviceproductsolution_03_inner_process",
+      "section_order": 3,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Inner Process",
+      "section_heading": "One goal.\nA connected approach.",
+      "heading_level": "h2",
+      "eyebrow": "Understand Connect Engineer Evolve",
+      "subheading": "",
+      "description": "From ambition to action\n\nStart with the outcome.\nConnect the thinking, the technology\nand the people who will use it.",
+      "paragraphs": [
+        "From ambition to action",
+        "Start with the outcome.\nConnect the thinking, the technology\nand the people who will use it.",
+        "Start with your customers, workflows and business priorities.",
+        "Map the experience, architecture and integrations.",
+        "Build for the systems and people who will use it.",
+        "Learn from real use and improve the next useful detail.",
+        "A business goal becomes a practical plan. Build, learn and improve the next useful detail."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "From ambition to action"
+        },
+        {
+          "type": "h2",
+          "text": "One goal.\nA connected approach."
+        },
+        {
+          "type": "p",
+          "text": "Start with the outcome.\nConnect the thinking, the technology\nand the people who will use it."
+        },
+        {
+          "type": "div",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "01 / Understand"
+        },
+        {
+          "type": "p",
+          "text": "Start with your customers, workflows and business priorities."
+        },
+        {
+          "type": "div",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "02 / Connect"
+        },
+        {
+          "type": "p",
+          "text": "Map the experience, architecture and integrations."
+        },
+        {
+          "type": "div",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "03 / Engineer"
+        },
+        {
+          "type": "p",
+          "text": "Build for the systems and people who will use it."
+        },
+        {
+          "type": "div",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "04 / Evolve"
+        },
+        {
+          "type": "p",
+          "text": "Learn from real use and improve the next useful detail."
+        },
+        {
+          "type": "span",
+          "text": "Your next step / Connected from the start"
+        },
+        {
+          "type": "button",
+          "text": "↻ Replay"
+        },
+        {
+          "type": "div",
+          "text": "Understand Connect Engineer Evolve"
+        },
+        {
+          "type": "p",
+          "text": "A business goal becomes a practical plan. Build, learn and improve the next useful detail."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [
+        {
+          "element": "article",
+          "heading": "01 / Understand",
+          "text": [
+            "01",
+            "Start with your customers, workflows and business priorities."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "02 / Connect",
+          "text": [
+            "02",
+            "Map the experience, architecture and integrations."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "03 / Engineer",
+          "text": [
+            "03",
+            "Build for the systems and people who will use it."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "04 / Evolve",
+          "text": [
+            "04",
+            "Learn from real use and improve the next useful detail."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "div.inner-process__panel",
+          "heading": "",
+          "text": [
+            "Your next step / Connected from the start",
+            "↻ Replay",
+            "Understand Connect Engineer Evolve",
+            "A business goal becomes a practical plan. Build, learn and improve the next useful detail."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "div.inner-process__ring",
+          "count": 4
+        }
+      ],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "↻ Replay",
+          "attrs": {
+            "type": "button"
+          }
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      }
+    },
+    {
+      "section_id": "serviceproductsolution_04_inner_about",
+      "section_order": 4,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Inner About",
+      "section_heading": "The Bridge Between Ambition and Execution.",
+      "heading_level": "h2",
+      "eyebrow": "",
+      "subheading": "",
+      "description": "About this service\n\nProduct Ideation & Solution Blueprinting practice bridges the critical gap between business ambition and technical execution. Whether you are a high-growth SMB validating a disruptive new software concept, or a global enterprise mapping the modernization of complex legacy systems, we align your stakeholders around a unified roadmap.",
+      "paragraphs": [
+        "About this service",
+        "Product Ideation & Solution Blueprinting practice bridges the critical gap between business ambition and technical execution. Whether you are a high-growth SMB validating a disruptive new software concept, or a global enterprise mapping the modernization of complex legacy systems, we align your stakeholders around a unified roadmap.",
+        "Uncover the right problem to solve.",
+        "Design the foundation for limitless scale.",
+        "Mitigate investment risk early.",
+        "Aligning user journeys with business outcomes.",
+        "Accelerate your time-to-market.",
+        "Get a professional blueprint for your next breakthrough product.",
+        "Simplifying complex technical requirements into actionable steps.",
+        "Identifying bottlenecks and failure points before coding begins.",
+        "Cutting development waste with a precise build strategy.",
+        "Ensuring business goals and tech capabilities are in perfect sync.",
+        "Partner with Ladder7 to validate your next big idea and architect a product built for market dominance."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "About this service"
+        },
+        {
+          "type": "h2",
+          "text": "The Bridge Between Ambition and Execution."
+        },
+        {
+          "type": "p",
+          "text": "Product Ideation & Solution Blueprinting practice bridges the critical gap between business ambition and technical execution. Whether you are a high-growth SMB validating a disruptive new software concept, or a global enterprise mapping the modernization of complex legacy systems, we align your stakeholders around a unified roadmap."
+        },
+        {
+          "type": "h3",
+          "text": "Strategic Ideation & Discovery"
+        },
+        {
+          "type": "p",
+          "text": "Uncover the right problem to solve."
+        },
+        {
+          "type": "h3",
+          "text": "Solution Architecture"
+        },
+        {
+          "type": "p",
+          "text": "Design the foundation for limitless scale."
+        },
+        {
+          "type": "h3",
+          "text": "Feasibility & Risk Assessment"
+        },
+        {
+          "type": "p",
+          "text": "Mitigate investment risk early."
+        },
+        {
+          "type": "h3",
+          "text": "Experience Strategy (UX/UI)"
+        },
+        {
+          "type": "p",
+          "text": "Aligning user journeys with business outcomes."
+        },
+        {
+          "type": "h3",
+          "text": "MVP & GTM Strategy"
+        },
+        {
+          "type": "p",
+          "text": "Accelerate your time-to-market."
+        },
+        {
+          "type": "h3",
+          "text": "Ready to start?"
+        },
+        {
+          "type": "p",
+          "text": "Get a professional blueprint for your next breakthrough product."
+        },
+        {
+          "type": "h3",
+          "text": "The Value of Blueprinting with Ladder7"
+        },
+        {
+          "type": "p",
+          "text": "Simplifying complex technical requirements into actionable steps."
+        },
+        {
+          "type": "p",
+          "text": "Identifying bottlenecks and failure points before coding begins."
+        },
+        {
+          "type": "p",
+          "text": "Cutting development waste with a precise build strategy."
+        },
+        {
+          "type": "p",
+          "text": "Ensuring business goals and tech capabilities are in perfect sync."
+        },
+        {
+          "type": "h3",
+          "text": "Let’s Build the Future—One Blueprint at a Time."
+        },
+        {
+          "type": "p",
+          "text": "Partner with Ladder7 to validate your next big idea and architect a product built for market dominance."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [
+        {
+          "element": "article.inner-editorial-row",
+          "heading": "Strategic Ideation & Discovery",
+          "text": [
+            "Uncover the right problem to solve."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.inner-editorial-row",
+          "heading": "Solution Architecture",
+          "text": [
+            "Design the foundation for limitless scale."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.inner-editorial-row",
+          "heading": "Feasibility & Risk Assessment",
+          "text": [
+            "Mitigate investment risk early."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.inner-editorial-row",
+          "heading": "Experience Strategy (UX/UI)",
+          "text": [
+            "Aligning user journeys with business outcomes."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.inner-editorial-row",
+          "heading": "MVP & GTM Strategy",
+          "text": [
+            "Accelerate your time-to-market."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.inner-editorial-row",
+          "heading": "Ready to start?",
+          "text": [
+            "Get a professional blueprint for your next breakthrough product."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.inner-editorial-row",
+          "heading": "The Value of Blueprinting with Ladder7",
+          "text": [
+            "Simplifying complex technical requirements into actionable steps.",
+            "Identifying bottlenecks and failure points before coding begins.",
+            "Cutting development waste with a precise build strategy.",
+            "Ensuring business goals and tech capabilities are in perfect sync."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.inner-editorial-row",
+          "heading": "Let’s Build the Future—One Blueprint at a Time.",
+          "text": [
+            "Partner with Ladder7 to validate your next big idea and architect a product built for market dominance."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      }
+    },
+    {
+      "section_id": "serviceproductsolution_05_inner_next",
+      "section_order": 5,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Inner Next",
+      "section_heading": "Your starting point.\nOur next conversation.",
+      "heading_level": "h2",
+      "eyebrow": "Talk to our team",
+      "subheading": "",
+      "description": "Bring your goal and your current situation.\nWe'll help connect it with a useful next step.",
+      "paragraphs": [
+        "Bring your goal and your current situation.\nWe'll help connect it with a useful next step."
+      ],
+      "content": [
+        {
+          "type": "h2",
+          "text": "Your starting point.\nOur next conversation."
+        },
+        {
+          "type": "p",
+          "text": "Bring your goal and your current situation.\nWe'll help connect it with a useful next step."
+        },
+        {
+          "type": "h3",
+          "text": "Tell us about"
+        },
+        {
+          "type": "li",
+          "text": "The business goal you want to achieve"
+        },
+        {
+          "type": "li",
+          "text": "The people and workflows involved"
+        },
+        {
+          "type": "li",
+          "text": "Your current systems and the challenge ahead"
+        },
+        {
+          "type": "h3",
+          "text": "Let's explore"
+        },
+        {
+          "type": "li",
+          "text": "The capabilities that fit your priorities"
+        },
+        {
+          "type": "li",
+          "text": "How the right services can work together"
+        },
+        {
+          "type": "li",
+          "text": "A practical direction for your next step"
+        },
+        {
+          "type": "cta-link",
+          "text": "Talk to our team"
+        }
+      ],
+      "bullet_points": [
+        "The business goal you want to achieve",
+        "The people and workflows involved",
+        "Your current systems and the challenge ahead",
+        "The capabilities that fit your priorities",
+        "How the right services can work together",
+        "A practical direction for your next step"
+      ],
+      "key_highlights": [],
+      "cards": [
+        {
+          "element": "article.reveal",
+          "heading": "Tell us about",
+          "text": [
+            "The business goal you want to achieve",
+            "The people and workflows involved",
+            "Your current systems and the challenge ahead"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.reveal",
+          "heading": "Let's explore",
+          "text": [
+            "The capabilities that fit your priorities",
+            "How the right services can work together",
+            "A practical direction for your next step",
+            "Talk to our team"
+          ],
+          "links": [
+            {
+              "text": "Talk to our team",
+              "href": "/services/product-solution#contact"
+            }
+          ],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Talk to our team",
+          "url": "/services/product-solution#contact",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "Talk to our team",
+          "href": "/services/product-solution#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Talk to our team",
+          "href": "/services/product-solution#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      }
+    },
+    {
+      "section_id": "serviceproductsolution_06_contact",
+      "section_order": 6,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

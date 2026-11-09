@@ -1,0 +1,659 @@
+{
+  "page_key": "trainingInternship",
+  "page_url": "/it-training-internship-trivandrum",
+  "document_title": "IT Training & Internships in Trivandrum | Ladder7",
+  "seo": {
+    "meta_title": "IT Training & Internships in Trivandrum | Ladder7",
+    "meta_description": "Live, mentor-led IT courses in Trivandrum, Kerala: MERN full stack, Python & AI, software testing and Shopify, with internship support and certification.",
+    "canonical_url": "https://www.ladder7.in/it-training-internship-trivandrum",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Learn by doing. Grow with direction."
+  },
+  "sections": [
+    {
+      "section_id": "traininginternship_01_page",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Page",
+      "section_heading": "Learn by doing. Grow with direction.",
+      "heading_level": "h1",
+      "eyebrow": "Training index",
+      "subheading": "",
+      "description": "Ladder7 Nextstep Solutions is an IT training institute in Trivandrum, Kerala offering live, mentor-led courses in MERN full stack development, Python & AI development, software testing, and Shopify e-commerce with hands-on projects, internship support, and certification, at affordable, student-friendly fees.",
+      "paragraphs": [
+        "Training index",
+        "Ladder7 Nextstep Solutions is an IT training institute in Trivandrum, Kerala offering live, mentor-led courses in MERN full stack development, Python & AI development, software testing, and Shopify e-commerce with hands-on projects, internship support, and certification, at affordable, student-friendly fees."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Training index"
+        },
+        {
+          "type": "h1",
+          "text": "Learn by doing. Grow with direction."
+        },
+        {
+          "type": "p",
+          "text": "Ladder7 Nextstep Solutions is an IT training institute in Trivandrum, Kerala offering live, mentor-led courses in MERN full stack development, Python & AI development, software testing, and Shopify e-commerce with hands-on projects, internship support, and certification, at affordable, student-friendly fees."
+        },
+        {
+          "type": "cta-link",
+          "text": "Let's talk"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore the details"
+        },
+        {
+          "type": "figcaption",
+          "text": "Ladder7 / Your next chapter"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Let's talk",
+          "url": "/it-training-internship-trivandrum#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore the details",
+          "url": "/it-training-internship-trivandrum#page-content",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/team-collaboration-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "799",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high",
+          "srcset": "/images/photos/team-collaboration-480.webp 480w, /images/photos/team-collaboration-800.webp 800w, /images/photos/team-collaboration-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 100vw, 40vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Let's talk",
+          "href": "/it-training-internship-trivandrum#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/it-training-internship-trivandrum#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Let's talk",
+          "href": "/it-training-internship-trivandrum#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/it-training-internship-trivandrum#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/LandingHero/LandingHero.css",
+        "component": "src/components/sections/LandingHero/LandingHero.tsx"
+      }
+    },
+    {
+      "section_id": "traininginternship_02_detail_section",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Choose your next learning step.",
+      "heading_level": "h2",
+      "eyebrow": "Training & internships",
+      "subheading": "",
+      "description": "This is a live, mentor-led full stack developer course in Trivandrum, Kerala that teaches you to build and deploy complete web applications with the…\n\nThis is a live, mentor-led AI, data science and data analytics course in Trivandrum, Kerala that teaches you Python programming, web development, and…\n\nThis is a live, mentor-led software testing course in Trivandrum, Kerala covering manual testing and automation testing with Selenium, plus API…\n\nThis is a focused, hands-on 5-day Shopify workshop in Trivandrum, Kerala that takes you from a blank account to a live, functioning online store:…",
+      "paragraphs": [
+        "Training & internships",
+        "This is a live, mentor-led full stack developer course in Trivandrum, Kerala that teaches you to build and deploy complete web applications with the…",
+        "This is a live, mentor-led AI, data science and data analytics course in Trivandrum, Kerala that teaches you Python programming, web development, and…",
+        "This is a live, mentor-led software testing course in Trivandrum, Kerala covering manual testing and automation testing with Selenium, plus API…",
+        "This is a focused, hands-on 5-day Shopify workshop in Trivandrum, Kerala that takes you from a blank account to a live, functioning online store:…"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Training & internships"
+        },
+        {
+          "type": "h2",
+          "text": "Choose your next learning step."
+        },
+        {
+          "type": "div",
+          "text": "↗"
+        },
+        {
+          "type": "span",
+          "text": "course / 01"
+        },
+        {
+          "type": "h3",
+          "text": "Full Stack Developer Course in Trivandrum, Kerala"
+        },
+        {
+          "type": "p",
+          "text": "This is a live, mentor-led full stack developer course in Trivandrum, Kerala that teaches you to build and deploy complete web applications with the…"
+        },
+        {
+          "type": "div",
+          "text": "↗"
+        },
+        {
+          "type": "span",
+          "text": "course / 02"
+        },
+        {
+          "type": "h3",
+          "text": "AI, Data Science & Analytics Course in Trivandrum, Kerala — Python Full Stack Training with Real Datasets"
+        },
+        {
+          "type": "p",
+          "text": "This is a live, mentor-led AI, data science and data analytics course in Trivandrum, Kerala that teaches you Python programming, web development, and…"
+        },
+        {
+          "type": "div",
+          "text": "↗"
+        },
+        {
+          "type": "span",
+          "text": "course / 03"
+        },
+        {
+          "type": "h3",
+          "text": "Software Testing Course in Trivandrum, Kerala with Placement Support: Manual + Automation Testing Training"
+        },
+        {
+          "type": "p",
+          "text": "This is a live, mentor-led software testing course in Trivandrum, Kerala covering manual testing and automation testing with Selenium, plus API…"
+        },
+        {
+          "type": "div",
+          "text": "↗"
+        },
+        {
+          "type": "span",
+          "text": "course / 04"
+        },
+        {
+          "type": "h3",
+          "text": "Shopify Course in Trivandrum, Kerala: 5-Day Workshop to Build Stores for Clients or Yourself"
+        },
+        {
+          "type": "p",
+          "text": "This is a focused, hands-on 5-day Shopify workshop in Trivandrum, Kerala that takes you from a blank account to a live, functioning online store:…"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [
+        {
+          "src": "/images/photos/training-laptop-code-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "800",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/training-laptop-code-480.webp 480w, /images/photos/training-laptop-code-800.webp 800w, /images/photos/training-laptop-code-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 100vw, 46vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/training-robot-ai-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "675",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/training-robot-ai-480.webp 480w, /images/photos/training-robot-ai-800.webp 800w, /images/photos/training-robot-ai-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 100vw, 46vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/course-software-testing-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "800",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/course-software-testing-480.webp 480w, /images/photos/course-software-testing-800.webp 800w, /images/photos/course-software-testing-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 100vw, 46vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/course-shopify-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "801",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/course-shopify-480.webp 480w, /images/photos/course-shopify-800.webp 800w, /images/photos/course-shopify-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 100vw, 46vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [],
+      "links": [
+        {
+          "text": "↗\ncourse / 01\nFull Stack Developer Course in Trivandrum, Kerala\nThis is a live, mentor-led full stack developer course in Trivandrum, Kerala that teaches you to build and deploy complete web applications with the…",
+          "href": "/full-stack-developer-course-trivandrum",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "↗\ncourse / 02\nAI, Data Science & Analytics Course in Trivandrum, Kerala — Python Full Stack Training with Real Datasets\nThis is a live, mentor-led AI, data science and data analytics course in Trivandrum, Kerala that teaches you Python programming, web development, and…",
+          "href": "/ai-data-science-course-trivandrum",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "↗\ncourse / 03\nSoftware Testing Course in Trivandrum, Kerala with Placement Support: Manual + Automation Testing Training\nThis is a live, mentor-led software testing course in Trivandrum, Kerala covering manual testing and automation testing with Selenium, plus API…",
+          "href": "/software-testing-course-trivandrum",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "↗\ncourse / 04\nShopify Course in Trivandrum, Kerala: 5-Day Workshop to Build Stores for Clients or Yourself\nThis is a focused, hands-on 5-day Shopify workshop in Trivandrum, Kerala that takes you from a blank account to a live, functioning online store:…",
+          "href": "/shopify-developer-course-workshop",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "↗\ncourse / 01\nFull Stack Developer Course in Trivandrum, Kerala\nThis is a live, mentor-led full stack developer course in Trivandrum, Kerala that teaches you to build and deploy complete web applications with the…",
+          "href": "/full-stack-developer-course-trivandrum",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "↗\ncourse / 02\nAI, Data Science & Analytics Course in Trivandrum, Kerala — Python Full Stack Training with Real Datasets\nThis is a live, mentor-led AI, data science and data analytics course in Trivandrum, Kerala that teaches you Python programming, web development, and…",
+          "href": "/ai-data-science-course-trivandrum",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "↗\ncourse / 03\nSoftware Testing Course in Trivandrum, Kerala with Placement Support: Manual + Automation Testing Training\nThis is a live, mentor-led software testing course in Trivandrum, Kerala covering manual testing and automation testing with Selenium, plus API…",
+          "href": "/software-testing-course-trivandrum",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "↗\ncourse / 04\nShopify Course in Trivandrum, Kerala: 5-Day Workshop to Build Stores for Clients or Yourself\nThis is a focused, hands-on 5-day Shopify workshop in Trivandrum, Kerala that takes you from a blank account to a live, functioning online store:…",
+          "href": "/shopify-developer-course-workshop",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "traininginternship_03_detail_section",
+      "section_order": 3,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Which course is right for you?",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "Each of our 5 programs is a complete, standalone course you enrol directly in the one that fits your goal, with no prerequisites or bundled tracks. Choose based on where you are in your career journey from in-depth technical training to a 5-day workshop or a quick career-direction session. Not sure which fits? Our Career Goal Finding session exists exactly for that.",
+      "paragraphs": [
+        "Explore",
+        "Each of our 5 programs is a complete, standalone course you enrol directly in the one that fits your goal, with no prerequisites or bundled tracks. Choose based on where you are in your career journey from in-depth technical training to a 5-day workshop or a quick career-direction session. Not sure which fits? Our Career Goal Finding session exists exactly for that."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "Which course is right for you?"
+        },
+        {
+          "type": "p",
+          "text": "Each of our 5 programs is a complete, standalone course you enrol directly in the one that fits your goal, with no prerequisites or bundled tracks. Choose based on where you are in your career journey from in-depth technical training to a 5-day workshop or a quick career-direction session. Not sure which fits? Our Career Goal Finding session exists exactly for that."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "traininginternship_04_detail_section",
+      "section_order": 4,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Ready to start? Talk to a course advisor — free.",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "Tell us your background and goals, and we'll recommend the right program, share the full syllabus and fees, and book you into a free demo class. No pressure, no spam.",
+      "paragraphs": [
+        "Explore",
+        "Tell us your background and goals, and we'll recommend the right program, share the full syllabus and fees, and book you into a free demo class. No pressure, no spam."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "Ready to start? Talk to a course advisor — free."
+        },
+        {
+          "type": "p",
+          "text": "Tell us your background and goals, and we'll recommend the right program, share the full syllabus and fees, and book you into a free demo class. No pressure, no spam."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "traininginternship_05_contact",
+      "section_order": 5,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

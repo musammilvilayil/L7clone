@@ -1,0 +1,1908 @@
+{
+  "page_key": "education",
+  "page_url": "/education",
+  "document_title": "Ladder7 Education | IT Courses & Internships in Kerala",
+  "seo": {
+    "meta_title": "Ladder7 Education | IT Courses & Internships in Kerala",
+    "meta_description": "Discover your next step with Ladder7 Education. Career-focused learning, practical internships and a framework for personal growth, from Cochin and Trivandrum.",
+    "canonical_url": "https://www.ladder7.in/education",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Learn. Build. Grow."
+  },
+  "sections": [
+    {
+      "section_id": "education_01_hero",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Hero",
+      "section_heading": "Learn. Build. Grow.",
+      "heading_level": "h1",
+      "eyebrow": "Education, built around you",
+      "subheading": "Career-focused learning.\nDesigned for your next step.",
+      "description": "Find your direction. Build real-world skills. Create a career\nthat moves you forward, with well-being at its heart.\n\nCareer-focused learning.\nDesigned for your next step.",
+      "paragraphs": [
+        "Education, built around you",
+        "Find your direction. Build real-world skills. Create a career\nthat moves you forward, with well-being at its heart.",
+        "Career-focused learning.\nDesigned for your next step."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Education, built around you"
+        },
+        {
+          "type": "h1",
+          "text": "Learn. Build. Grow."
+        },
+        {
+          "type": "p",
+          "text": "Find your direction. Build real-world skills. Create a career\nthat moves you forward, with well-being at its heart."
+        },
+        {
+          "type": "cta-link",
+          "text": "Talk to an advisor"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore programs"
+        },
+        {
+          "type": "dt",
+          "text": "Growth products"
+        },
+        {
+          "type": "dd",
+          "text": "0"
+        },
+        {
+          "type": "dt",
+          "text": "Framework phases"
+        },
+        {
+          "type": "dd",
+          "text": "0"
+        },
+        {
+          "type": "dt",
+          "text": "Learning pathways"
+        },
+        {
+          "type": "dd",
+          "text": "0"
+        },
+        {
+          "type": "a",
+          "text": "Scroll"
+        },
+        {
+          "type": "p",
+          "text": "Career-focused learning.\nDesigned for your next step."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Growth products",
+          "detail": "0",
+          "source": "dl"
+        },
+        {
+          "term": "Framework phases",
+          "detail": "0",
+          "source": "dl"
+        },
+        {
+          "term": "Learning pathways",
+          "detail": "0",
+          "source": "dl"
+        }
+      ],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Talk to an advisor",
+          "url": "/education#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore programs",
+          "url": "/education#products",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Talk to an advisor",
+          "href": "/education#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore programs",
+          "href": "/education#products",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Scroll",
+          "href": "/education#products",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Talk to an advisor",
+          "href": "/education#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore programs",
+          "href": "/education#products",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Scroll",
+          "href": "/education#products",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Hero/Hero.css",
+        "component": "src/components/sections/Hero/Hero.tsx"
+      }
+    },
+    {
+      "section_id": "education_02_products",
+      "section_order": 2,
+      "html_id": "products",
+      "element": "section",
+      "section_name": "Products",
+      "section_heading": "Four products.\nOne better you.",
+      "heading_level": "h2",
+      "eyebrow": "Your growth toolkit",
+      "subheading": "Know yourself. Find your focus.\nBuild a path that feels like yours.",
+      "description": "Know yourself. Find your focus.\nBuild a path that feels like yours.",
+      "paragraphs": [
+        "Your growth toolkit",
+        "Know yourself. Find your focus.\nBuild a path that feels like yours.",
+        "Your goals. Your way forward.",
+        "A stronger mind for what's next",
+        "Get to know your potential",
+        "Connect you to your next career"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Your growth toolkit"
+        },
+        {
+          "type": "h2",
+          "text": "Four products.\nOne better you."
+        },
+        {
+          "type": "p",
+          "text": "Know yourself. Find your focus.\nBuild a path that feels like yours."
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "My Ladder"
+        },
+        {
+          "type": "p",
+          "text": "Your goals. Your way forward."
+        },
+        {
+          "type": "li",
+          "text": "Personalized goals"
+        },
+        {
+          "type": "li",
+          "text": "Step-by-step guidance"
+        },
+        {
+          "type": "li",
+          "text": "Skill alignment"
+        },
+        {
+          "type": "li",
+          "text": "Progress planning"
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "Mind Gym"
+        },
+        {
+          "type": "p",
+          "text": "A stronger mind for what's next"
+        },
+        {
+          "type": "li",
+          "text": "Mental conditioning"
+        },
+        {
+          "type": "li",
+          "text": "Stress management"
+        },
+        {
+          "type": "li",
+          "text": "Decision making"
+        },
+        {
+          "type": "li",
+          "text": "Resilience"
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "Mirror Me"
+        },
+        {
+          "type": "p",
+          "text": "Get to know your potential"
+        },
+        {
+          "type": "li",
+          "text": "Self-reflection"
+        },
+        {
+          "type": "li",
+          "text": "Strengths & talents"
+        },
+        {
+          "type": "li",
+          "text": "IQ & EQ"
+        },
+        {
+          "type": "li",
+          "text": "Career clarity"
+        },
+        {
+          "type": "span",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "Fill Dots"
+        },
+        {
+          "type": "p",
+          "text": "Connect you to your next career"
+        },
+        {
+          "type": "li",
+          "text": "Upskilling"
+        },
+        {
+          "type": "li",
+          "text": "Bridge skill gaps"
+        },
+        {
+          "type": "li",
+          "text": "Career readiness"
+        },
+        {
+          "type": "li",
+          "text": "Personal growth"
+        }
+      ],
+      "bullet_points": [
+        "Personalized goals",
+        "Step-by-step guidance",
+        "Skill alignment",
+        "Progress planning",
+        "Mental conditioning",
+        "Stress management",
+        "Decision making",
+        "Resilience",
+        "Self-reflection",
+        "Strengths & talents",
+        "IQ & EQ",
+        "Career clarity",
+        "Upskilling",
+        "Bridge skill gaps",
+        "Career readiness",
+        "Personal growth"
+      ],
+      "key_highlights": [
+        {
+          "term": "01",
+          "detail": "",
+          "source": ".capability-row__number"
+        },
+        {
+          "term": "02",
+          "detail": "",
+          "source": ".capability-row__number"
+        },
+        {
+          "term": "03",
+          "detail": "",
+          "source": ".capability-row__number"
+        },
+        {
+          "term": "04",
+          "detail": "",
+          "source": ".capability-row__number"
+        }
+      ],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.capability-row__arrow",
+          "count": 4
+        }
+      ],
+      "links": [
+        {
+          "text": "01\nMy Ladder\nYour goals. Your way forward.\nPersonalized goals\nStep-by-step guidance\nSkill alignment\nProgress planning",
+          "href": "/myladder",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "02\nMind Gym\nA stronger mind for what's next\nMental conditioning\nStress management\nDecision making\nResilience",
+          "href": "/mindgym",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "03\nMirror Me\nGet to know your potential\nSelf-reflection\nStrengths & talents\nIQ & EQ\nCareer clarity",
+          "href": "/mirrorme",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "04\nFill Dots\nConnect you to your next career\nUpskilling\nBridge skill gaps\nCareer readiness\nPersonal growth",
+          "href": "/filldots",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "01\nMy Ladder\nYour goals. Your way forward.\nPersonalized goals\nStep-by-step guidance\nSkill alignment\nProgress planning",
+          "href": "/myladder",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "02\nMind Gym\nA stronger mind for what's next\nMental conditioning\nStress management\nDecision making\nResilience",
+          "href": "/mindgym",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "03\nMirror Me\nGet to know your potential\nSelf-reflection\nStrengths & talents\nIQ & EQ\nCareer clarity",
+          "href": "/mirrorme",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "04\nFill Dots\nConnect you to your next career\nUpskilling\nBridge skill gaps\nCareer readiness\nPersonal growth",
+          "href": "/filldots",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Capabilities/CapabilityList.css",
+        "component": "src/components/sections/Capabilities/CapabilityList.tsx"
+      }
+    },
+    {
+      "section_id": "education_03_amiu",
+      "section_order": 3,
+      "html_id": "amiu",
+      "element": "section",
+      "section_name": "Amiu",
+      "section_heading": "Know yourself.\nSee your possibilities.",
+      "heading_level": "h2",
+      "eyebrow": "Meet AMIU · Your AI career mentor",
+      "subheading": "",
+      "description": "For students and young professionals finding their direction. AMIU combines self-assessment with AI-assisted career mapping to help connect your strengths and interests to a personal learning pathway.\n\nA path that starts with you",
+      "paragraphs": [
+        "Meet AMIU · Your AI career mentor",
+        "For students and young professionals finding their direction. AMIU combines self-assessment with AI-assisted career mapping to help connect your strengths and interests to a personal learning pathway.",
+        "A path that starts with you",
+        "Reflect on your interests, abilities and goals.",
+        "Connect your profile to possible career pathways.",
+        "Build a clearer personal learning roadmap."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Meet AMIU · Your AI career mentor"
+        },
+        {
+          "type": "h2",
+          "text": "Know yourself.\nSee your possibilities."
+        },
+        {
+          "type": "p",
+          "text": "For students and young professionals finding their direction. AMIU combines self-assessment with AI-assisted career mapping to help connect your strengths and interests to a personal learning pathway."
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore AMIU"
+        },
+        {
+          "type": "p",
+          "text": "A path that starts with you"
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "Discover your strengths."
+        },
+        {
+          "type": "p",
+          "text": "Reflect on your interests, abilities and goals."
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "Explore your direction."
+        },
+        {
+          "type": "p",
+          "text": "Connect your profile to possible career pathways."
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "Plan your next step."
+        },
+        {
+          "type": "p",
+          "text": "Build a clearer personal learning roadmap."
+        },
+        {
+          "type": "span",
+          "text": "Self-discovery. With direction.↗"
+        }
+      ],
+      "bullet_points": [
+        "01\nDiscover your strengths.\nReflect on your interests, abilities and goals.",
+        "02\nExplore your direction.\nConnect your profile to possible career pathways.",
+        "03\nPlan your next step.\nBuild a clearer personal learning roadmap."
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Explore AMIU",
+          "url": "/amiu",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "Explore AMIU",
+          "href": "/amiu",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Explore AMIU",
+          "href": "/amiu",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Mentor/MentorSection.css",
+        "component": "src/components/sections/Mentor/MentorSection.tsx"
+      }
+    },
+    {
+      "section_id": "education_04_programs",
+      "section_order": 4,
+      "html_id": "programs",
+      "element": "section",
+      "section_name": "Programs",
+      "section_heading": "Your next chapter.",
+      "heading_level": "h2",
+      "eyebrow": "Learn by doing",
+      "subheading": "Practical training. Hands-on projects.\nSkills you can take into the real world.",
+      "description": "Practical training. Hands-on projects.\nSkills you can take into the real world.",
+      "paragraphs": [
+        "Learn by doing",
+        "Practical training. Hands-on projects.\nSkills you can take into the real world.",
+        "1 or 3 months · Live + hands-on projects",
+        "1 or 3 months · Live + hands-on projects",
+        "1 or 3 months · Live + practical labs",
+        "5 days · Intensive workshop",
+        "1 hour · One-on-one session"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Learn by doing"
+        },
+        {
+          "type": "h2",
+          "text": "Your next chapter."
+        },
+        {
+          "type": "p",
+          "text": "Practical training. Hands-on projects.\nSkills you can take into the real world."
+        },
+        {
+          "type": "button",
+          "text": "All programs05"
+        },
+        {
+          "type": "button",
+          "text": "Internships"
+        },
+        {
+          "type": "button",
+          "text": "Workshops & guidance"
+        },
+        {
+          "type": "button",
+          "text": "MongoDB / Express / React / Node.js Build the\nwhole picture."
+        },
+        {
+          "type": "button",
+          "text": "Full Stack Development (MERN)\n1 or 3 months · Live + hands-on projects"
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "button",
+          "text": "Python / Full stack / Applied AI Make your\nideas intelligent."
+        },
+        {
+          "type": "button",
+          "text": "AI Development / Python Full Stack\n1 or 3 months · Live + hands-on projects"
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "button",
+          "text": "Quality assurance / Manual & automation An eye for\nwhat works."
+        },
+        {
+          "type": "button",
+          "text": "Software Testing\n1 or 3 months · Live + practical labs"
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "button",
+          "text": "Shopify / E-commerce / Store setup From an idea\nto a storefront."
+        },
+        {
+          "type": "button",
+          "text": "E-commerce Workshop — Shopify\n5 days · Intensive workshop"
+        },
+        {
+          "type": "span",
+          "text": "04"
+        },
+        {
+          "type": "button",
+          "text": "Self-discovery / Strengths / Career goals Find your\nown direction."
+        },
+        {
+          "type": "button",
+          "text": "Career Goal Finding Program\n1 hour · One-on-one session"
+        },
+        {
+          "type": "span",
+          "text": "05"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore training & internships"
+        },
+        {
+          "type": "div",
+          "text": "View"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "01",
+          "detail": "",
+          "source": ".program-card__number"
+        },
+        {
+          "term": "02",
+          "detail": "",
+          "source": ".program-card__number"
+        },
+        {
+          "term": "03",
+          "detail": "",
+          "source": ".program-card__number"
+        },
+        {
+          "term": "04",
+          "detail": "",
+          "source": ".program-card__number"
+        },
+        {
+          "term": "05",
+          "detail": "",
+          "source": ".program-card__number"
+        }
+      ],
+      "cards": [
+        {
+          "element": "article.program-card.reveal",
+          "heading": "Full Stack Development (MERN)",
+          "text": [
+            "MongoDB / Express / React / Node.js Build the\nwhole picture.",
+            "Full Stack Development (MERN)\n1 or 3 months · Live + hands-on projects",
+            "01"
+          ],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/workspace-laptop-800.webp",
+              "alt": "A laptop showing code beside a stack of notebooks on a desk"
+            }
+          ]
+        },
+        {
+          "element": "article.program-card.reveal",
+          "heading": "AI Development / Python Full Stack",
+          "text": [
+            "Python / Full stack / Applied AI Make your\nideas intelligent.",
+            "AI Development / Python Full Stack\n1 or 3 months · Live + hands-on projects",
+            "02"
+          ],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/ai-processor-800.webp",
+              "alt": "A close-up of a circuit board labelled AI"
+            }
+          ]
+        },
+        {
+          "element": "article.program-card.reveal",
+          "heading": "Software Testing",
+          "text": [
+            "Quality assurance / Manual & automation An eye for\nwhat works.",
+            "Software Testing\n1 or 3 months · Live + practical labs",
+            "03"
+          ],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/code-editor-800.webp",
+              "alt": "Computer setup for software development"
+            }
+          ]
+        },
+        {
+          "element": "article.program-card.reveal",
+          "heading": "E-commerce Workshop — Shopify",
+          "text": [
+            "Shopify / E-commerce / Store setup From an idea\nto a storefront.",
+            "E-commerce Workshop — Shopify\n5 days · Intensive workshop",
+            "04"
+          ],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/online-checkout-800.webp",
+              "alt": "Digital commerce and online payments"
+            }
+          ]
+        },
+        {
+          "element": "article.program-card.reveal",
+          "heading": "Career Goal Finding Program",
+          "text": [
+            "Self-discovery / Strengths / Career goals Find your\nown direction.",
+            "Career Goal Finding Program\n1 hour · One-on-one session",
+            "05"
+          ],
+          "links": [],
+          "images": [
+            {
+              "src": "/images/photos/mentorship-interview-800.webp",
+              "alt": "A career guidance conversation"
+            }
+          ]
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Explore training & internships",
+          "url": "/it-training-internship-trivandrum",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/workspace-laptop-800.webp",
+          "alt": "A laptop showing code beside a stack of notebooks on a desk",
+          "description": "A laptop showing code beside a stack of notebooks on a desk",
+          "width": "1200",
+          "height": "675",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/workspace-laptop-480.webp 480w, /images/photos/workspace-laptop-800.webp 800w, /images/photos/workspace-laptop-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 92vw, (max-width: 1000px) 46vw, 42vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/ai-processor-800.webp",
+          "alt": "A close-up of a circuit board labelled AI",
+          "description": "A close-up of a circuit board labelled AI",
+          "width": "1200",
+          "height": "1000",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/ai-processor-480.webp 480w, /images/photos/ai-processor-800.webp 800w, /images/photos/ai-processor-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 92vw, (max-width: 1000px) 46vw, 42vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/code-editor-800.webp",
+          "alt": "Computer setup for software development",
+          "description": "Computer setup for software development",
+          "width": "1200",
+          "height": "800",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/code-editor-480.webp 480w, /images/photos/code-editor-800.webp 800w, /images/photos/code-editor-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 92vw, (max-width: 1000px) 46vw, 42vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/online-checkout-800.webp",
+          "alt": "Digital commerce and online payments",
+          "description": "Digital commerce and online payments",
+          "width": "1200",
+          "height": "800",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/online-checkout-480.webp 480w, /images/photos/online-checkout-800.webp 800w, /images/photos/online-checkout-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 92vw, (max-width: 1000px) 46vw, 42vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/mentorship-interview-800.webp",
+          "alt": "A career guidance conversation",
+          "description": "A career guidance conversation",
+          "width": "1200",
+          "height": "800",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/mentorship-interview-480.webp 480w, /images/photos/mentorship-interview-800.webp 800w, /images/photos/mentorship-interview-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 92vw, (max-width: 1000px) 46vw, 42vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.program-art__arrow",
+          "count": 5
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "Explore training & internships",
+          "href": "/it-training-internship-trivandrum",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Explore training & internships",
+          "href": "/it-training-internship-trivandrum",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "All programs05",
+          "attrs": {
+            "type": "button",
+            "aria-pressed": "true"
+          }
+        },
+        {
+          "element": "button",
+          "text": "Internships",
+          "attrs": {
+            "type": "button",
+            "aria-pressed": "false"
+          }
+        },
+        {
+          "element": "button",
+          "text": "Workshops & guidance",
+          "attrs": {
+            "type": "button",
+            "aria-pressed": "false"
+          }
+        },
+        {
+          "element": "button",
+          "text": "MongoDB / Express / React / Node.js Build the\nwhole picture.",
+          "attrs": {
+            "type": "button",
+            "aria-label": "View details: Full Stack Development (MERN)"
+          }
+        },
+        {
+          "element": "button",
+          "text": "Full Stack Development (MERN)\n1 or 3 months · Live + hands-on projects",
+          "attrs": {
+            "type": "button"
+          }
+        },
+        {
+          "element": "button",
+          "text": "Python / Full stack / Applied AI Make your\nideas intelligent.",
+          "attrs": {
+            "type": "button",
+            "aria-label": "View details: AI Development / Python Full Stack"
+          }
+        },
+        {
+          "element": "button",
+          "text": "AI Development / Python Full Stack\n1 or 3 months · Live + hands-on projects",
+          "attrs": {
+            "type": "button"
+          }
+        },
+        {
+          "element": "button",
+          "text": "Quality assurance / Manual & automation An eye for\nwhat works.",
+          "attrs": {
+            "type": "button",
+            "aria-label": "View details: Software Testing"
+          }
+        },
+        {
+          "element": "button",
+          "text": "Software Testing\n1 or 3 months · Live + practical labs",
+          "attrs": {
+            "type": "button"
+          }
+        },
+        {
+          "element": "button",
+          "text": "Shopify / E-commerce / Store setup From an idea\nto a storefront.",
+          "attrs": {
+            "type": "button",
+            "aria-label": "View details: E-commerce Workshop — Shopify"
+          }
+        },
+        {
+          "element": "button",
+          "text": "E-commerce Workshop — Shopify\n5 days · Intensive workshop",
+          "attrs": {
+            "type": "button"
+          }
+        },
+        {
+          "element": "button",
+          "text": "Self-discovery / Strengths / Career goals Find your\nown direction.",
+          "attrs": {
+            "type": "button",
+            "aria-label": "View details: Career Goal Finding Program"
+          }
+        },
+        {
+          "element": "button",
+          "text": "Career Goal Finding Program\n1 hour · One-on-one session",
+          "attrs": {
+            "type": "button"
+          }
+        },
+        {
+          "element": "dialog",
+          "class": "program-dialog"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Programs/ProgramsSection.css",
+        "component": "src/components/sections/Programs/ProgramsSection.tsx"
+      }
+    },
+    {
+      "section_id": "education_05_approach",
+      "section_order": 5,
+      "html_id": "approach",
+      "element": "section",
+      "section_name": "Approach",
+      "section_heading": "From possibility\nto progress.",
+      "heading_level": "h2",
+      "eyebrow": "The Ladder7 framework",
+      "subheading": "A practical framework to help you\nmove forward with confidence.",
+      "description": "A practical framework to help you\nmove forward with confidence.\n\n01 What growth can look like\n\nSelf-discovery • Career clarity • Stronger habits • Practical skills • Real-world projects • A clear action plan • Your next step\n\n02 Your journey, in motion",
+      "paragraphs": [
+        "The Ladder7 framework",
+        "A practical framework to help you\nmove forward with confidence.",
+        "01 What growth can look like",
+        "Self-discovery • Career clarity • Stronger habits • Practical skills • Real-world projects • A clear action plan • Your next step",
+        "02 Your journey, in motion",
+        "Reflect on your experiences. Recognize your strengths and where you are today.",
+        "Set meaningful goals and visualize the direction you want to take.",
+        "Make an action plan. Put your skills into practice and track your progress.",
+        "Improve as you go. Celebrate your milestones and take the next step."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The Ladder7 framework"
+        },
+        {
+          "type": "h2",
+          "text": "From possibility\nto progress."
+        },
+        {
+          "type": "p",
+          "text": "A practical framework to help you\nmove forward with confidence."
+        },
+        {
+          "type": "cta-link",
+          "text": "Find your starting point"
+        },
+        {
+          "type": "p",
+          "text": "01 What growth can look like"
+        },
+        {
+          "type": "p",
+          "text": "Self-discovery • Career clarity • Stronger habits • Practical skills • Real-world projects • A clear action plan • Your next step"
+        },
+        {
+          "type": "p",
+          "text": "02 Your journey, in motion"
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "Discover"
+        },
+        {
+          "type": "p",
+          "text": "Reflect on your experiences. Recognize your strengths and where you are today."
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "Define"
+        },
+        {
+          "type": "p",
+          "text": "Set meaningful goals and visualize the direction you want to take."
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "Develop"
+        },
+        {
+          "type": "p",
+          "text": "Make an action plan. Put your skills into practice and track your progress."
+        },
+        {
+          "type": "span",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "Grow"
+        },
+        {
+          "type": "p",
+          "text": "Improve as you go. Celebrate your milestones and take the next step."
+        }
+      ],
+      "bullet_points": [
+        "01\nDiscover\nReflect on your experiences. Recognize your strengths and where you are today.",
+        "02\nDefine\nSet meaningful goals and visualize the direction you want to take.",
+        "03\nDevelop\nMake an action plan. Put your skills into practice and track your progress.",
+        "04\nGrow\nImprove as you go. Celebrate your milestones and take the next step."
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Find your starting point",
+          "url": "/education#contact",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "Find your starting point",
+          "href": "/education#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Find your starting point",
+          "href": "/education#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/pages/Education/EducationPage.css",
+        "component": "src/pages/Education/EducationPage.tsx"
+      }
+    },
+    {
+      "section_id": "education_06_wall",
+      "section_order": 6,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Wall",
+      "section_heading": "Different paths.\nYour next step.",
+      "heading_level": "h2",
+      "eyebrow": "The possibilities",
+      "subheading": "",
+      "description": "From hands-on technology programs to personal growth. Find the direction that works for you.",
+      "paragraphs": [
+        "The possibilities",
+        "From hands-on technology programs to personal growth. Find the direction that works for you."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The possibilities"
+        },
+        {
+          "type": "h2",
+          "text": "Different paths.\nYour next step."
+        },
+        {
+          "type": "p",
+          "text": "From hands-on technology programs to personal growth. Find the direction that works for you."
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore all programs"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Explore all programs",
+          "url": "/education#programs",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/workspace-laptop-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "675",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/workspace-laptop-480.webp 480w, /images/photos/workspace-laptop-800.webp 800w, /images/photos/workspace-laptop-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/ai-processor-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "1000",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/ai-processor-480.webp 480w, /images/photos/ai-processor-800.webp 800w, /images/photos/ai-processor-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/mentorship-interview-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "800",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/mentorship-interview-480.webp 480w, /images/photos/mentorship-interview-800.webp 800w, /images/photos/mentorship-interview-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/workspace-laptop-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "675",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/workspace-laptop-480.webp 480w, /images/photos/workspace-laptop-800.webp 800w, /images/photos/workspace-laptop-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/ai-processor-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "1000",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/ai-processor-480.webp 480w, /images/photos/ai-processor-800.webp 800w, /images/photos/ai-processor-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/mentorship-interview-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "800",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/mentorship-interview-480.webp 480w, /images/photos/mentorship-interview-800.webp 800w, /images/photos/mentorship-interview-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/mountain-climb-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "900",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/mountain-climb-480.webp 480w, /images/photos/mountain-climb-800.webp 800w, /images/photos/mountain-climb-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/online-checkout-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "800",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/online-checkout-480.webp 480w, /images/photos/online-checkout-800.webp 800w, /images/photos/online-checkout-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/team-workshop-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "800",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/team-workshop-480.webp 480w, /images/photos/team-workshop-800.webp 800w, /images/photos/team-workshop-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/mountain-climb-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "900",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/mountain-climb-480.webp 480w, /images/photos/mountain-climb-800.webp 800w, /images/photos/mountain-climb-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/online-checkout-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "800",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/online-checkout-480.webp 480w, /images/photos/online-checkout-800.webp 800w, /images/photos/online-checkout-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/team-workshop-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "800",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/team-workshop-480.webp 480w, /images/photos/team-workshop-800.webp 800w, /images/photos/team-workshop-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/mindful-reflection-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "1800",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/mindful-reflection-480.webp 480w, /images/photos/mindful-reflection-800.webp 800w, /images/photos/mindful-reflection-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/code-editor-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "800",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/code-editor-480.webp 480w, /images/photos/code-editor-800.webp 800w, /images/photos/code-editor-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/self-reflection-mirror-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "800",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/self-reflection-mirror-480.webp 480w, /images/photos/self-reflection-mirror-800.webp 800w, /images/photos/self-reflection-mirror-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/mindful-reflection-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "1800",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/mindful-reflection-480.webp 480w, /images/photos/mindful-reflection-800.webp 800w, /images/photos/mindful-reflection-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/code-editor-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "800",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/code-editor-480.webp 480w, /images/photos/code-editor-800.webp 800w, /images/photos/code-editor-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        },
+        {
+          "src": "/images/photos/self-reflection-mirror-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "800",
+          "loading": "lazy",
+          "decoding": "async",
+          "srcset": "/images/photos/self-reflection-mirror-480.webp 480w, /images/photos/self-reflection-mirror-800.webp 800w, /images/photos/self-reflection-mirror-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 48vw, 24vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "Explore all programs",
+          "href": "/education#programs",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Explore all programs",
+          "href": "/education#programs",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/PossibilitiesWall/PossibilitiesWall.css",
+        "component": "src/components/sections/PossibilitiesWall/PossibilitiesWall.tsx"
+      }
+    },
+    {
+      "section_id": "education_07_stories",
+      "section_order": 7,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Stories",
+      "section_heading": "Built through experience.",
+      "heading_level": "h2",
+      "eyebrow": "A learner's perspective",
+      "subheading": "",
+      "description": "Intern, Ladder7 Next Step Solutions",
+      "paragraphs": [
+        "A learner's perspective",
+        "Intern, Ladder7 Next Step Solutions"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "A learner's perspective"
+        },
+        {
+          "type": "h2",
+          "text": "Built through experience."
+        },
+        {
+          "type": "span",
+          "text": "01 / 01"
+        },
+        {
+          "type": "span",
+          "text": "“"
+        },
+        {
+          "type": "blockquote",
+          "text": "The MERN Stack internship was highly practical and project-driven. I built full-stack applications using MongoDB, Express, React, and Node.js, which helped me understand how modern web applications are developed and deployed."
+        },
+        {
+          "type": "span",
+          "text": "R"
+        },
+        {
+          "type": "strong",
+          "text": "Rahul R"
+        },
+        {
+          "type": "p",
+          "text": "Intern, Ladder7 Next Step Solutions"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Stories/StoriesSection.css",
+        "component": "src/components/sections/Stories/StoriesSection.tsx"
+      }
+    },
+    {
+      "section_id": "education_08_team_training",
+      "section_order": 8,
+      "html_id": "team-training",
+      "element": "section",
+      "section_name": "Team Training",
+      "section_heading": "Grow your team.\nBuild what comes next.",
+      "heading_level": "h2",
+      "eyebrow": "For the people behind your business",
+      "subheading": "Practical training shaped around your stack,\nyour people, and your schedule.",
+      "description": "Practical training shaped around your stack,\nyour people, and your schedule.\n\nOn-site in Kerala or delivered virtually. Ladder7 adapts each program to the tools your team uses, with hands-on guidance from working practitioners.",
+      "paragraphs": [
+        "For the people behind your business",
+        "Practical training shaped around your stack,\nyour people, and your schedule.",
+        "On-site in Kerala or delivered virtually. Ladder7 adapts each program to the tools your team uses, with hands-on guidance from working practitioners.",
+        "Full stack · Mobile development\nCloud & DevOps · WebOps",
+        "Data science · AI at work\nAnalytics · Power BI, Excel & Tableau",
+        "Digital content creation\nMarketing automation & CRM"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "For the people behind your business"
+        },
+        {
+          "type": "h2",
+          "text": "Grow your team.\nBuild what comes next."
+        },
+        {
+          "type": "p",
+          "text": "Practical training shaped around your stack,\nyour people, and your schedule."
+        },
+        {
+          "type": "p",
+          "text": "On-site in Kerala or delivered virtually. Ladder7 adapts each program to the tools your team uses, with hands-on guidance from working practitioners."
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore corporate training"
+        },
+        {
+          "type": "span",
+          "text": "01 / Engineering"
+        },
+        {
+          "type": "h3",
+          "text": "Build with confidence."
+        },
+        {
+          "type": "p",
+          "text": "Full stack · Mobile development\nCloud & DevOps · WebOps"
+        },
+        {
+          "type": "span",
+          "text": "02 / Data & AI"
+        },
+        {
+          "type": "h3",
+          "text": "Turn knowledge into action."
+        },
+        {
+          "type": "p",
+          "text": "Data science · AI at work\nAnalytics · Power BI, Excel & Tableau"
+        },
+        {
+          "type": "span",
+          "text": "03 / Business"
+        },
+        {
+          "type": "h3",
+          "text": "Connect the whole team."
+        },
+        {
+          "type": "p",
+          "text": "Digital content creation\nMarketing automation & CRM"
+        },
+        {
+          "type": "span",
+          "text": "A syllabus that fits. A schedule that works."
+        },
+        {
+          "type": "button",
+          "text": "Plan your team's next step"
+        }
+      ],
+      "bullet_points": [
+        "01 / Engineering\nBuild with confidence.\nFull stack · Mobile development\nCloud & DevOps · WebOps",
+        "02 / Data & AI\nTurn knowledge into action.\nData science · AI at work\nAnalytics · Power BI, Excel & Tableau",
+        "03 / Business\nConnect the whole team.\nDigital content creation\nMarketing automation & CRM"
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Explore corporate training",
+          "url": "/corporate-training-kerala",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Plan your team's next step",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "button",
+          "controls": "menu",
+          "haspopup": "true",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "Explore corporate training",
+          "href": "/corporate-training-kerala",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Explore corporate training",
+          "href": "/corporate-training-kerala",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Plan your team's next step",
+          "attrs": {
+            "type": "button",
+            "aria-haspopup": "true",
+            "aria-controls": "menu"
+          }
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Training/TrainingSection.css",
+        "component": "src/components/sections/Training/TrainingSection.tsx"
+      }
+    },
+    {
+      "section_id": "education_09_contact",
+      "section_order": 9,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nyour future.",
+      "heading_level": "h2",
+      "eyebrow": "Take your next step",
+      "subheading": "You don't need to have it all figured out.\nA conversation is a good place to start.",
+      "description": "You don't need to have it all figured out.\nA conversation is a good place to start.\n\nLet's find your direction",
+      "paragraphs": [
+        "Take your next step",
+        "You don't need to have it all figured out.\nA conversation is a good place to start.",
+        "Let's find your direction",
+        "A few details will help our advisors guide you.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take your next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nyour future."
+        },
+        {
+          "type": "p",
+          "text": "You don't need to have it all figured out.\nA conversation is a good place to start."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "p",
+          "text": "Let's find your direction"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us about your next step."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help our advisors guide you."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Internships"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "My Ladder"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Email*"
+        },
+        {
+          "type": "label",
+          "text": "Tell us a little about your goals*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Let's find your direction",
+          "detail": "",
+          "source": ".status.contact__status"
+        },
+        {
+          "term": "Internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "My Ladder",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

@@ -21,10 +21,10 @@
 }
 
 .about-audience__heading p {
-  max-width: 300px;
+  max-width: 320px;
   margin: 0 0 5px;
-  font-size: var(--font-size-caption);
-  line-height: 1.7;
+  font-size: 1.125rem;
+  line-height: 1.6;
   color: #8799a1;
 }
 
@@ -55,8 +55,8 @@
   margin: 0 0 35px;
   padding: 0;
   list-style: none;
-  font-size: var(--font-size-caption);
-  line-height: 2.3;
+  font-size: 1.125rem;
+  line-height: 2;
   color: #93a3ac;
 }
 
@@ -85,7 +85,7 @@
 
   .about-audience__heading p {
     margin-top: 27px;
-    font-size: var(--font-size-body-sm);
+    font-size: 1.125rem;
   }
 
   .about-audience__grid {
@@ -110,7 +110,7 @@
 
   .about-audience__grid ul {
     margin-bottom: 28px;
-    font-size: var(--font-size-caption);
+    font-size: 1.125rem;
     line-height: 2.25;
   }
 

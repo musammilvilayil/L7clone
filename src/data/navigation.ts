@@ -48,9 +48,9 @@ function liveGroups(groups: NavGroup[]): NavGroup[] {
 
 /** Header desktop nav — identical on every page. */
 const HEADER_NAV: NavItem[] = [
+  { label: "About", to: "/about" },
   { label: "Services", to: "/services" },
   { label: "Products", to: "/products" },
-  { label: "About", to: "/about" },
   { label: "Insights", to: "/blogs" },
   { label: "Contact us", to: "/contact" },
 ];

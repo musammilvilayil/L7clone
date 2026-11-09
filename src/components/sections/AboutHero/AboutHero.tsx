@@ -5,14 +5,31 @@ import { ResponsiveImage } from "../../common/ResponsiveImage";
 import { Button } from "../../ui/Button";
 import "./AboutHero.css";
 
-const COLLAGE: ImageName[] = [
-  "photos/idea-lightbulb",
-  "photos/ai-network-brain",
-  "photos/team-collaboration",
-  "photos/product-dashboard-scan",
-  "photos/product-dashboard-agents",
-  "photos/product-dashboard-nocode",
-  "photos/team-whiteboard-session",
+const COLLAGE: ImageName[][] = [
+  [
+    "photos/idea-lightbulb",
+    "photos/team-collaboration",
+    "photos/team-workshop",
+    "photos/team-whiteboard-session",
+    "photos/mentorship-interview",
+    "photos/team-analytics-review",
+  ],
+  [
+    "photos/ai-network-brain",
+    "photos/product-dashboard-scan",
+    "photos/product-dashboard-agents",
+    "photos/product-dashboard-nocode",
+    "photos/product-outreach-dashboard",
+    "photos/product-insights-dashboard",
+  ],
+  [
+    "photos/workspace-laptop",
+    "photos/ai-processor",
+    "photos/code-editor",
+    "photos/online-checkout",
+    "photos/training-analytics-meeting",
+    "photos/training-laptop-code",
+  ],
 ];
 
 const FACTS = [
@@ -70,10 +87,10 @@ export function AboutHero() {
       </div>
 
       <div className="about-hero__collage" aria-hidden="true">
-        {[0, 1, 2].map((column) => (
+        {COLLAGE.map((images, column) => (
           <div className="about-hero__column" key={column} data-reverse={column === 1 || undefined}>
-            {[...COLLAGE, ...COLLAGE].map((image, i) => (
-              <div className="about-hero__card" key={i}>
+            {images.map((image) => (
+              <div className="about-hero__card" key={image}>
                 <ResponsiveImage name={image} alt="" sizes="(max-width: 700px) 45vw, 20vw" />
               </div>
             ))}

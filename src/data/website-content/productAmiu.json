@@ -1,0 +1,1132 @@
+{
+  "page_key": "productAmiu",
+  "page_url": "/amiu",
+  "document_title": "AMIU | AI Career Mentor | Ladder7",
+  "seo": {
+    "meta_title": "AMIU | AI Career Mentor | Ladder7",
+    "meta_description": "AMIU is an AI career mentor that matches your skills, interests and personality with future-ready education and career pathways.",
+    "canonical_url": "https://www.ladder7.in/amiu",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Meet AMIU. Find your direction."
+  },
+  "sections": [
+    {
+      "section_id": "productamiu_01_page",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Page",
+      "section_heading": "Meet AMIU. Find your direction.",
+      "heading_level": "h1",
+      "eyebrow": "AMIU",
+      "subheading": "",
+      "description": "Make the right career choices early. amiu is an AI mentor that aligns your skills, interests, and personality with future-ready educational and professional pathways.",
+      "paragraphs": [
+        "AMIU",
+        "Make the right career choices early. amiu is an AI mentor that aligns your skills, interests, and personality with future-ready educational and professional pathways."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "AMIU"
+        },
+        {
+          "type": "h1",
+          "text": "Meet AMIU. Find your direction."
+        },
+        {
+          "type": "p",
+          "text": "Make the right career choices early. amiu is an AI mentor that aligns your skills, interests, and personality with future-ready educational and professional pathways."
+        },
+        {
+          "type": "cta-link",
+          "text": "Let's talk"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore the details"
+        },
+        {
+          "type": "figcaption",
+          "text": "AMIU"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Let's talk",
+          "url": "/amiu#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore the details",
+          "url": "/amiu#page-content",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/students-laptop-group-900.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "900",
+          "height": "600",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high",
+          "srcset": "/images/photos/students-laptop-group-300.webp 300w, /images/photos/students-laptop-group-600.webp 600w, /images/photos/students-laptop-group-900.webp 900w",
+          "sizes": "(max-width: 700px) 100vw, 40vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Let's talk",
+          "href": "/amiu#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/amiu#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Let's talk",
+          "href": "/amiu#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/amiu#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/LandingHero/LandingHero.css",
+        "component": "src/components/sections/LandingHero/LandingHero.tsx"
+      }
+    },
+    {
+      "section_id": "productamiu_02_detail_section",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Your Growth Journey",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "Seven steps to your best self.\n\nRight Choice. Right Now. Bridge the gap between your raw potential and future success with data-driven guidance.",
+      "paragraphs": [
+        "Explore",
+        "Seven steps to your best self.",
+        "Right Choice. Right Now. Bridge the gap between your raw potential and future success with data-driven guidance."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "Your Growth Journey"
+        },
+        {
+          "type": "p",
+          "text": "Seven steps to your best self."
+        },
+        {
+          "type": "p",
+          "text": "Right Choice. Right Now. Bridge the gap between your raw potential and future success with data-driven guidance."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productamiu_03_detail_section",
+      "section_order": 3,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Why Choose AMIU ?",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "Built on science. Powered by AI. Focused on your happiness.",
+      "paragraphs": [
+        "Explore",
+        "Built on science. Powered by AI. Focused on your happiness."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "Why Choose AMIU ?"
+        },
+        {
+          "type": "p",
+          "text": "Built on science. Powered by AI. Focused on your happiness."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productamiu_04_detail_section",
+      "section_order": 4,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Choose the Right Path.",
+      "heading_level": "h2",
+      "eyebrow": "Explore",
+      "subheading": "",
+      "description": "Early, confidently, and intelligently.",
+      "paragraphs": [
+        "Explore",
+        "Early, confidently, and intelligently."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore"
+        },
+        {
+          "type": "h2",
+          "text": "Choose the Right Path."
+        },
+        {
+          "type": "p",
+          "text": "Early, confidently, and intelligently."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productamiu_05_detail_section",
+      "section_order": 5,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Explore what’s possible.",
+      "heading_level": "h2",
+      "eyebrow": "The details",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "The details",
+        "Look inward to understand your current state.",
+        "Discover what you are truly capable of achieving.",
+        "Define clear, ambitious, and achievable milestones.",
+        "See your future path clearly mapped out.",
+        "Get the step-by-step strategy to get there.",
+        "Monitor your progress and adapt as you grow.",
+        "Reach your goals and set your sights higher.",
+        "Built upon globally accepted standards for youth development.",
+        "Engineered for highly accurate and relevant career matches.",
+        "Deep psychometric alignment ensures recommendations fit your personality.",
+        "Targeted educational steps to close your specific skill gaps.",
+        "Beyond job suggestions to build a fulfilling life path.",
+        "Recommendations aligned with emerging global industry trends.",
+        "Direct access to real-world exposure and industry professionals.",
+        "Designed with your ultimate well-being as the core outcome.",
+        "Discover your true self. Uncover your core strengths, deep-rooted interests, and hidden potential through our scientifically backed assessment tools.",
+        "Data-driven career mapping. Our advanced AI engine processes your unique profile, mapping it directly to future-ready educational and career pathways.",
+        "Your roadmap to success. Receive clear, highly accurate, and actionable career guidance that tells you exactly what steps to take next."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The details"
+        },
+        {
+          "type": "h2",
+          "text": "Explore what’s possible."
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "Reflection"
+        },
+        {
+          "type": "p",
+          "text": "Look inward to understand your current state."
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "Realisation"
+        },
+        {
+          "type": "p",
+          "text": "Discover what you are truly capable of achieving."
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "Goal Setting"
+        },
+        {
+          "type": "p",
+          "text": "Define clear, ambitious, and achievable milestones."
+        },
+        {
+          "type": "span",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "Visualisation"
+        },
+        {
+          "type": "p",
+          "text": "See your future path clearly mapped out."
+        },
+        {
+          "type": "span",
+          "text": "05"
+        },
+        {
+          "type": "h3",
+          "text": "Action Plan"
+        },
+        {
+          "type": "p",
+          "text": "Get the step-by-step strategy to get there."
+        },
+        {
+          "type": "span",
+          "text": "06"
+        },
+        {
+          "type": "h3",
+          "text": "Tracking & Improving"
+        },
+        {
+          "type": "p",
+          "text": "Monitor your progress and adapt as you grow."
+        },
+        {
+          "type": "span",
+          "text": "07"
+        },
+        {
+          "type": "h3",
+          "text": "Achieve & Celebrate"
+        },
+        {
+          "type": "p",
+          "text": "Reach your goals and set your sights higher."
+        },
+        {
+          "type": "span",
+          "text": "08"
+        },
+        {
+          "type": "h3",
+          "text": "Unicef's Framework"
+        },
+        {
+          "type": "p",
+          "text": "Built upon globally accepted standards for youth development."
+        },
+        {
+          "type": "span",
+          "text": "09"
+        },
+        {
+          "type": "h3",
+          "text": "AI-Powered Precision"
+        },
+        {
+          "type": "p",
+          "text": "Engineered for highly accurate and relevant career matches."
+        },
+        {
+          "type": "span",
+          "text": "10"
+        },
+        {
+          "type": "h3",
+          "text": "Personalised Guidance"
+        },
+        {
+          "type": "p",
+          "text": "Deep psychometric alignment ensures recommendations fit your personality."
+        },
+        {
+          "type": "span",
+          "text": "11"
+        },
+        {
+          "type": "h3",
+          "text": "Customised Learning"
+        },
+        {
+          "type": "p",
+          "text": "Targeted educational steps to close your specific skill gaps."
+        },
+        {
+          "type": "span",
+          "text": "12"
+        },
+        {
+          "type": "h3",
+          "text": "Holistic Discovery"
+        },
+        {
+          "type": "p",
+          "text": "Beyond job suggestions to build a fulfilling life path."
+        },
+        {
+          "type": "span",
+          "text": "13"
+        },
+        {
+          "type": "h3",
+          "text": "Future-Proofed"
+        },
+        {
+          "type": "p",
+          "text": "Recommendations aligned with emerging global industry trends."
+        },
+        {
+          "type": "span",
+          "text": "14"
+        },
+        {
+          "type": "h3",
+          "text": "Mentorship Network"
+        },
+        {
+          "type": "p",
+          "text": "Direct access to real-world exposure and industry professionals."
+        },
+        {
+          "type": "span",
+          "text": "15"
+        },
+        {
+          "type": "h3",
+          "text": "Happiness First"
+        },
+        {
+          "type": "p",
+          "text": "Designed with your ultimate well-being as the core outcome."
+        },
+        {
+          "type": "span",
+          "text": "16"
+        },
+        {
+          "type": "h3",
+          "text": "Self-Assessment"
+        },
+        {
+          "type": "p",
+          "text": "Discover your true self. Uncover your core strengths, deep-rooted interests, and hidden potential through our scientifically backed assessment tools."
+        },
+        {
+          "type": "span",
+          "text": "17"
+        },
+        {
+          "type": "h3",
+          "text": "AI Analysis"
+        },
+        {
+          "type": "p",
+          "text": "Data-driven career mapping. Our advanced AI engine processes your unique profile, mapping it directly to future-ready educational and career pathways."
+        },
+        {
+          "type": "span",
+          "text": "18"
+        },
+        {
+          "type": "h3",
+          "text": "Recommendations"
+        },
+        {
+          "type": "p",
+          "text": "Your roadmap to success. Receive clear, highly accurate, and actionable career guidance that tells you exactly what steps to take next."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "01",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "02",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "03",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "04",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "05",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "06",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "07",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "08",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "09",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "10",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "11",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "12",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "13",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "14",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "15",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "16",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "17",
+          "detail": "",
+          "source": ".detail-cards__number"
+        },
+        {
+          "term": "18",
+          "detail": "",
+          "source": ".detail-cards__number"
+        }
+      ],
+      "cards": [
+        {
+          "element": "article",
+          "heading": "Reflection",
+          "text": [
+            "01",
+            "Look inward to understand your current state."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Realisation",
+          "text": [
+            "02",
+            "Discover what you are truly capable of achieving."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Goal Setting",
+          "text": [
+            "03",
+            "Define clear, ambitious, and achievable milestones."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Visualisation",
+          "text": [
+            "04",
+            "See your future path clearly mapped out."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Action Plan",
+          "text": [
+            "05",
+            "Get the step-by-step strategy to get there."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Tracking & Improving",
+          "text": [
+            "06",
+            "Monitor your progress and adapt as you grow."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Achieve & Celebrate",
+          "text": [
+            "07",
+            "Reach your goals and set your sights higher."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Unicef's Framework",
+          "text": [
+            "08",
+            "Built upon globally accepted standards for youth development."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "AI-Powered Precision",
+          "text": [
+            "09",
+            "Engineered for highly accurate and relevant career matches."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Personalised Guidance",
+          "text": [
+            "10",
+            "Deep psychometric alignment ensures recommendations fit your personality."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Customised Learning",
+          "text": [
+            "11",
+            "Targeted educational steps to close your specific skill gaps."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Holistic Discovery",
+          "text": [
+            "12",
+            "Beyond job suggestions to build a fulfilling life path."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Future-Proofed",
+          "text": [
+            "13",
+            "Recommendations aligned with emerging global industry trends."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Mentorship Network",
+          "text": [
+            "14",
+            "Direct access to real-world exposure and industry professionals."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Happiness First",
+          "text": [
+            "15",
+            "Designed with your ultimate well-being as the core outcome."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Self-Assessment",
+          "text": [
+            "16",
+            "Discover your true self. Uncover your core strengths, deep-rooted interests, and hidden potential through our scientifically backed assessment tools."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "AI Analysis",
+          "text": [
+            "17",
+            "Data-driven career mapping. Our advanced AI engine processes your unique profile, mapping it directly to future-ready educational and career pathways."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "Recommendations",
+          "text": [
+            "18",
+            "Your roadmap to success. Receive clear, highly accurate, and actionable career guidance that tells you exactly what steps to take next."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productamiu_06_detail_section",
+      "section_order": 6,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Start a conversation with AMIU.",
+      "heading_level": "h2",
+      "eyebrow": "Your AI career mentor",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "Your AI career mentor"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Your AI career mentor"
+        },
+        {
+          "type": "h2",
+          "text": "Start a conversation with AMIU."
+        },
+        {
+          "type": "cta-link",
+          "text": "Open AMIU (opens in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Open AMIU (opens in a new tab)",
+          "url": "https://amiu.azurewebsites.net/",
+          "element": "a",
+          "kind": "external",
+          "target": "_blank"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "Open AMIU (opens in a new tab)",
+          "href": "https://amiu.azurewebsites.net/",
+          "type": "external",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [
+        {
+          "text": "Open AMIU (opens in a new tab)",
+          "href": "https://amiu.azurewebsites.net/",
+          "type": "external",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [
+        "(opens in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "productamiu_07_contact",
+      "section_order": 7,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

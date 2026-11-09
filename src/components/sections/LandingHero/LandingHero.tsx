@@ -1,5 +1,7 @@
 import { useRef } from "react";
+import { useLocation } from "react-router";
 import type { ImageName } from "../../../data/images.generated";
+import { websitePageContentForPath } from "../../../data/websiteContent";
 import { cn } from "../../../utils/cn";
 import { ResponsiveImage } from "../../common/ResponsiveImage";
 import { Button } from "../../ui/Button";
@@ -47,18 +49,26 @@ export function LandingHero({
   actions?: [LandingHeroAction, LandingHeroAction];
 }) {
   const ref = useRef<HTMLElement>(null);
-  const [primary, secondary] = actions ?? DEFAULT_ACTIONS;
+  const { pathname } = useLocation();
+  const heroContent = websitePageContentForPath(pathname)?.sections[0];
+  const pageTitle = heroContent?.section_heading?.replace(/\.$/, "") ?? title;
+  const pageEyebrow = heroContent?.eyebrow || eyebrow;
+  const pageDescription = heroContent?.description || description;
+  const pageActions = heroContent?.cta_buttons
+    ?.filter((action): action is typeof action & { url: string } => Boolean(action.url))
+    .map((action) => ({ label: action.text, to: action.url }));
+  const [primary, secondary] = actions ?? (pageActions?.length === 2 ? pageActions : DEFAULT_ACTIONS);
 
   return (
     <section ref={ref} className={cn("landing-hero", "wave-hero", !image && "landing-hero--text")} aria-labelledby="page-title">
       <ParticleField pointerTarget={ref} />
       <div className="landing-hero__copy">
-        <p className="eyebrow eyebrow--live">{eyebrow}</p>
+        <p className="eyebrow eyebrow--live">{pageEyebrow}</p>
         <h1 id="page-title">
-          {title}
+          {pageTitle}
           <span className="accent">.</span>
         </h1>
-        <p>{description}</p>
+        <p>{pageDescription}</p>
         <div className="landing-hero__actions">
           <Button to={primary.to}>{primary.label}</Button>
           <Button variant="outline" glass to={secondary.to}>

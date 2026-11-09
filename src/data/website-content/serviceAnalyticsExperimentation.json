@@ -1,0 +1,1157 @@
+{
+  "page_key": "serviceAnalyticsExperimentation",
+  "page_url": "/services/analytics-experimentation",
+  "document_title": "Analytics & A/B Testing Services | Ladder7",
+  "seo": {
+    "meta_title": "Analytics & A/B Testing Services | Ladder7",
+    "meta_description": "Analytics setup, behaviour analysis and A/B testing that show what users do and what to change next. Delivered remotely from India for global digital teams.",
+    "canonical_url": "https://www.ladder7.in/services/analytics-experimentation",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Turn insight into better experiences."
+  },
+  "sections": [
+    {
+      "section_id": "serviceanalyticsexperimentation_01_service_hero",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Service Hero",
+      "section_heading": "Turn insight into better experiences.",
+      "heading_level": "h1",
+      "eyebrow": "Services / Digital Experience",
+      "subheading": "",
+      "description": "Measure what matters. Experiment with purpose.",
+      "paragraphs": [
+        "Services / Digital Experience",
+        "Measure what matters. Experiment with purpose."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Services / Digital Experience"
+        },
+        {
+          "type": "h1",
+          "text": "Turn insight into better experiences."
+        },
+        {
+          "type": "p",
+          "text": "Measure what matters. Experiment with purpose."
+        },
+        {
+          "type": "cta-link",
+          "text": "Discuss your project"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore capabilities"
+        },
+        {
+          "type": "dt",
+          "text": "Focus areas"
+        },
+        {
+          "type": "dd",
+          "text": "07."
+        },
+        {
+          "type": "dd",
+          "text": "Within this service"
+        },
+        {
+          "type": "dt",
+          "text": "Specialist services"
+        },
+        {
+          "type": "dd",
+          "text": "14."
+        },
+        {
+          "type": "dd",
+          "text": "Connected around your goal"
+        },
+        {
+          "type": "dt",
+          "text": "Core disciplines"
+        },
+        {
+          "type": "dd",
+          "text": "3."
+        },
+        {
+          "type": "dd",
+          "text": "Experience, AI and strategy"
+        },
+        {
+          "type": "dt",
+          "text": "Kerala bases"
+        },
+        {
+          "type": "dd",
+          "text": "2."
+        },
+        {
+          "type": "dd",
+          "text": "Cochin · Trivandrum"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Focus areas",
+          "detail": "07.",
+          "source": "dl"
+        },
+        {
+          "term": "Specialist services",
+          "detail": "14.",
+          "source": "dl"
+        },
+        {
+          "term": "Core disciplines",
+          "detail": "3.",
+          "source": "dl"
+        },
+        {
+          "term": "Kerala bases",
+          "detail": "2.",
+          "source": "dl"
+        }
+      ],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Discuss your project",
+          "url": "/services/analytics-experimentation#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore capabilities",
+          "url": "/services/analytics-experimentation#capabilities",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Services",
+          "href": "/services",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Discuss your project",
+          "href": "/services/analytics-experimentation#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore capabilities",
+          "href": "/services/analytics-experimentation#capabilities",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Services",
+          "href": "/services",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Discuss your project",
+          "href": "/services/analytics-experimentation#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore capabilities",
+          "href": "/services/analytics-experimentation#capabilities",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      }
+    },
+    {
+      "section_id": "serviceanalyticsexperimentation_02_capabilities",
+      "section_order": 2,
+      "html_id": "capabilities",
+      "element": "section",
+      "section_name": "Capabilities",
+      "section_heading": "Analytics and experimentation capabilities",
+      "heading_level": "h2",
+      "eyebrow": "",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [],
+      "content": [
+        {
+          "type": "h2",
+          "text": "Analytics and experimentation capabilities"
+        },
+        {
+          "type": "li",
+          "text": "Unified Experience Analytics ·"
+        },
+        {
+          "type": "li",
+          "text": "Experimentation at Scale ·"
+        },
+        {
+          "type": "li",
+          "text": "Predictive & Prescriptive Insights ·"
+        },
+        {
+          "type": "li",
+          "text": "Personalisation & Optimisation ·"
+        },
+        {
+          "type": "li",
+          "text": "Privacy & Governance ·"
+        },
+        {
+          "type": "li",
+          "text": "Strategic Depth ·"
+        },
+        {
+          "type": "li",
+          "text": "Engineering Precision"
+        }
+      ],
+      "bullet_points": [
+        "Unified Experience Analytics ·",
+        "Experimentation at Scale ·",
+        "Predictive & Prescriptive Insights ·",
+        "Personalisation & Optimisation ·",
+        "Privacy & Governance ·",
+        "Strategic Depth ·",
+        "Engineering Precision"
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      }
+    },
+    {
+      "section_id": "serviceanalyticsexperimentation_03_inner_process",
+      "section_order": 3,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Inner Process",
+      "section_heading": "One goal.\nA connected approach.",
+      "heading_level": "h2",
+      "eyebrow": "Understand Connect Engineer Evolve",
+      "subheading": "",
+      "description": "From ambition to action\n\nStart with the outcome.\nConnect the thinking, the technology\nand the people who will use it.",
+      "paragraphs": [
+        "From ambition to action",
+        "Start with the outcome.\nConnect the thinking, the technology\nand the people who will use it.",
+        "Start with your customers, workflows and business priorities.",
+        "Map the experience, architecture and integrations.",
+        "Build for the systems and people who will use it.",
+        "Learn from real use and improve the next useful detail.",
+        "A business goal becomes a practical plan. Build, learn and improve the next useful detail."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "From ambition to action"
+        },
+        {
+          "type": "h2",
+          "text": "One goal.\nA connected approach."
+        },
+        {
+          "type": "p",
+          "text": "Start with the outcome.\nConnect the thinking, the technology\nand the people who will use it."
+        },
+        {
+          "type": "div",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "01 / Understand"
+        },
+        {
+          "type": "p",
+          "text": "Start with your customers, workflows and business priorities."
+        },
+        {
+          "type": "div",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "02 / Connect"
+        },
+        {
+          "type": "p",
+          "text": "Map the experience, architecture and integrations."
+        },
+        {
+          "type": "div",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "03 / Engineer"
+        },
+        {
+          "type": "p",
+          "text": "Build for the systems and people who will use it."
+        },
+        {
+          "type": "div",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "04 / Evolve"
+        },
+        {
+          "type": "p",
+          "text": "Learn from real use and improve the next useful detail."
+        },
+        {
+          "type": "span",
+          "text": "Your next step / Connected from the start"
+        },
+        {
+          "type": "button",
+          "text": "↻ Replay"
+        },
+        {
+          "type": "div",
+          "text": "Understand Connect Engineer Evolve"
+        },
+        {
+          "type": "p",
+          "text": "A business goal becomes a practical plan. Build, learn and improve the next useful detail."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [
+        {
+          "element": "article",
+          "heading": "01 / Understand",
+          "text": [
+            "01",
+            "Start with your customers, workflows and business priorities."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "02 / Connect",
+          "text": [
+            "02",
+            "Map the experience, architecture and integrations."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "03 / Engineer",
+          "text": [
+            "03",
+            "Build for the systems and people who will use it."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article",
+          "heading": "04 / Evolve",
+          "text": [
+            "04",
+            "Learn from real use and improve the next useful detail."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "div.inner-process__panel",
+          "heading": "",
+          "text": [
+            "Your next step / Connected from the start",
+            "↻ Replay",
+            "Understand Connect Engineer Evolve",
+            "A business goal becomes a practical plan. Build, learn and improve the next useful detail."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "div.inner-process__ring",
+          "count": 4
+        }
+      ],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "↻ Replay",
+          "attrs": {
+            "type": "button"
+          }
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      }
+    },
+    {
+      "section_id": "serviceanalyticsexperimentation_04_inner_about",
+      "section_order": 4,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Inner About",
+      "section_heading": "Intelligence That Drives Continuous Improvement.",
+      "heading_level": "h2",
+      "eyebrow": "",
+      "subheading": "",
+      "description": "About this service\n\nOur Analytics & Experimentation service helps SMB's and global enterprises move beyond assumptions to measurable, actionable, and scalable outcomes. We combine advanced behavioural analytics, A/B and multivariate testing, and real-time personalisation frameworks to uncover what truly engages your users — and why.",
+      "paragraphs": [
+        "About this service",
+        "Our Analytics & Experimentation service helps SMB's and global enterprises move beyond assumptions to measurable, actionable, and scalable outcomes. We combine advanced behavioural analytics, A/B and multivariate testing, and real-time personalisation frameworks to uncover what truly engages your users — and why.",
+        "Capture, visualise, and interpret every touchpoint across your digital ecosystem — from web to mobile to cloud interfaces. We build unified data pipelines and apply advanced analytics to reveal friction points.",
+        "Empower your teams to test, learn, and adapt faster. We architect experimentation frameworks — A/B, multivariate, or multi-page — that integrate seamlessly with enterprise environments.",
+        "Using machine learning and AI-driven models, we forecast user behaviours and recommend optimisations before friction occurs. Our predictive analytics transforms experience management from reactive to proactive.",
+        "Deliver moments that matter. We design real-time personalisation strategies powered by behavioural data, ensuring your users experience relevance and value at every interaction.",
+        "Contact us for bespoke analytics solutions tailored to your unique stack.",
+        "Empower your teams with analytics that inspire action and experimentation that scales innovation."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "About this service"
+        },
+        {
+          "type": "h2",
+          "text": "Intelligence That Drives Continuous Improvement."
+        },
+        {
+          "type": "p",
+          "text": "Our Analytics & Experimentation service helps SMB's and global enterprises move beyond assumptions to measurable, actionable, and scalable outcomes. We combine advanced behavioural analytics, A/B and multivariate testing, and real-time personalisation frameworks to uncover what truly engages your users — and why."
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "Unified Experience Analytics"
+        },
+        {
+          "type": "p",
+          "text": "Capture, visualise, and interpret every touchpoint across your digital ecosystem — from web to mobile to cloud interfaces. We build unified data pipelines and apply advanced analytics to reveal friction points."
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "Experimentation at Scale"
+        },
+        {
+          "type": "p",
+          "text": "Empower your teams to test, learn, and adapt faster. We architect experimentation frameworks — A/B, multivariate, or multi-page — that integrate seamlessly with enterprise environments."
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "Predictive & Prescriptive Insights"
+        },
+        {
+          "type": "p",
+          "text": "Using machine learning and AI-driven models, we forecast user behaviours and recommend optimisations before friction occurs. Our predictive analytics transforms experience management from reactive to proactive."
+        },
+        {
+          "type": "span",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "Personalisation & Optimisation"
+        },
+        {
+          "type": "p",
+          "text": "Deliver moments that matter. We design real-time personalisation strategies powered by behavioural data, ensuring your users experience relevance and value at every interaction."
+        },
+        {
+          "type": "h3",
+          "text": "Custom Engineering"
+        },
+        {
+          "type": "p",
+          "text": "Contact us for bespoke analytics solutions tailored to your unique stack."
+        },
+        {
+          "type": "h3",
+          "text": "Ready to Engineer Intelligent Experiences?"
+        },
+        {
+          "type": "p",
+          "text": "Empower your teams with analytics that inspire action and experimentation that scales innovation."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [
+        {
+          "element": "article.reveal",
+          "heading": "Unified Experience Analytics",
+          "text": [
+            "01",
+            "Capture, visualise, and interpret every touchpoint across your digital ecosystem — from web to mobile to cloud interfaces. We build unified data pipelines and apply advanced analytics to reveal friction points."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.reveal",
+          "heading": "Experimentation at Scale",
+          "text": [
+            "02",
+            "Empower your teams to test, learn, and adapt faster. We architect experimentation frameworks — A/B, multivariate, or multi-page — that integrate seamlessly with enterprise environments."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.reveal",
+          "heading": "Predictive & Prescriptive Insights",
+          "text": [
+            "03",
+            "Using machine learning and AI-driven models, we forecast user behaviours and recommend optimisations before friction occurs. Our predictive analytics transforms experience management from reactive to proactive."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.reveal",
+          "heading": "Personalisation & Optimisation",
+          "text": [
+            "04",
+            "Deliver moments that matter. We design real-time personalisation strategies powered by behavioural data, ensuring your users experience relevance and value at every interaction."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.inner-editorial-row",
+          "heading": "Custom Engineering",
+          "text": [
+            "Contact us for bespoke analytics solutions tailored to your unique stack."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.inner-editorial-row",
+          "heading": "Ready to Engineer Intelligent Experiences?",
+          "text": [
+            "Empower your teams with analytics that inspire action and experimentation that scales innovation."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      }
+    },
+    {
+      "section_id": "serviceanalyticsexperimentation_05_deliverables",
+      "section_order": 5,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Deliverables",
+      "section_heading": "Connected expertise.\nPractical possibilities.",
+      "heading_level": "h2",
+      "eyebrow": "",
+      "subheading": "",
+      "description": "The capabilities behind your next step",
+      "paragraphs": [
+        "The capabilities behind your next step",
+        "All insights are built on ethical data frameworks. We align with enterprise-grade governance, accessibility, and compliance standards — ensuring your ecosystems remain secure.",
+        "We translate complex analytics into business narratives that drive executive-level decisions.",
+        "Built by web engineers who understand both data and experience architectures.",
+        "Designed for global deployments with enterprise performance and security.",
+        "Every experiment leads to a measurable uplift in user satisfaction and business impact."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The capabilities behind your next step"
+        },
+        {
+          "type": "h2",
+          "text": "Connected expertise.\nPractical possibilities."
+        },
+        {
+          "type": "span",
+          "text": "05"
+        },
+        {
+          "type": "h3",
+          "text": "Privacy & Governance"
+        },
+        {
+          "type": "p",
+          "text": "All insights are built on ethical data frameworks. We align with enterprise-grade governance, accessibility, and compliance standards — ensuring your ecosystems remain secure."
+        },
+        {
+          "type": "span",
+          "text": "06"
+        },
+        {
+          "type": "h3",
+          "text": "Strategic Depth"
+        },
+        {
+          "type": "p",
+          "text": "We translate complex analytics into business narratives that drive executive-level decisions."
+        },
+        {
+          "type": "span",
+          "text": "07"
+        },
+        {
+          "type": "h3",
+          "text": "Engineering Precision"
+        },
+        {
+          "type": "p",
+          "text": "Built by web engineers who understand both data and experience architectures."
+        },
+        {
+          "type": "span",
+          "text": "08"
+        },
+        {
+          "type": "h3",
+          "text": "Scalable Frameworks"
+        },
+        {
+          "type": "p",
+          "text": "Designed for global deployments with enterprise performance and security."
+        },
+        {
+          "type": "span",
+          "text": "09"
+        },
+        {
+          "type": "h3",
+          "text": "Outcome-Driven"
+        },
+        {
+          "type": "p",
+          "text": "Every experiment leads to a measurable uplift in user satisfaction and business impact."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [
+        {
+          "element": "article.reveal",
+          "heading": "Privacy & Governance",
+          "text": [
+            "05",
+            "All insights are built on ethical data frameworks. We align with enterprise-grade governance, accessibility, and compliance standards — ensuring your ecosystems remain secure."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.reveal",
+          "heading": "Strategic Depth",
+          "text": [
+            "06",
+            "We translate complex analytics into business narratives that drive executive-level decisions."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.reveal",
+          "heading": "Engineering Precision",
+          "text": [
+            "07",
+            "Built by web engineers who understand both data and experience architectures."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.reveal",
+          "heading": "Scalable Frameworks",
+          "text": [
+            "08",
+            "Designed for global deployments with enterprise performance and security."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.reveal",
+          "heading": "Outcome-Driven",
+          "text": [
+            "09",
+            "Every experiment leads to a measurable uplift in user satisfaction and business impact."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      }
+    },
+    {
+      "section_id": "serviceanalyticsexperimentation_06_inner_next",
+      "section_order": 6,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Inner Next",
+      "section_heading": "Your starting point.\nOur next conversation.",
+      "heading_level": "h2",
+      "eyebrow": "Talk to our team",
+      "subheading": "",
+      "description": "Bring your goal and your current situation.\nWe'll help connect it with a useful next step.",
+      "paragraphs": [
+        "Bring your goal and your current situation.\nWe'll help connect it with a useful next step."
+      ],
+      "content": [
+        {
+          "type": "h2",
+          "text": "Your starting point.\nOur next conversation."
+        },
+        {
+          "type": "p",
+          "text": "Bring your goal and your current situation.\nWe'll help connect it with a useful next step."
+        },
+        {
+          "type": "h3",
+          "text": "Tell us about"
+        },
+        {
+          "type": "li",
+          "text": "The business goal you want to achieve"
+        },
+        {
+          "type": "li",
+          "text": "The people and workflows involved"
+        },
+        {
+          "type": "li",
+          "text": "Your current systems and the challenge ahead"
+        },
+        {
+          "type": "h3",
+          "text": "Let's explore"
+        },
+        {
+          "type": "li",
+          "text": "The capabilities that fit your priorities"
+        },
+        {
+          "type": "li",
+          "text": "How the right services can work together"
+        },
+        {
+          "type": "li",
+          "text": "A practical direction for your next step"
+        },
+        {
+          "type": "cta-link",
+          "text": "Talk to our team"
+        }
+      ],
+      "bullet_points": [
+        "The business goal you want to achieve",
+        "The people and workflows involved",
+        "Your current systems and the challenge ahead",
+        "The capabilities that fit your priorities",
+        "How the right services can work together",
+        "A practical direction for your next step"
+      ],
+      "key_highlights": [],
+      "cards": [
+        {
+          "element": "article.reveal",
+          "heading": "Tell us about",
+          "text": [
+            "The business goal you want to achieve",
+            "The people and workflows involved",
+            "Your current systems and the challenge ahead"
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.reveal",
+          "heading": "Let's explore",
+          "text": [
+            "The capabilities that fit your priorities",
+            "How the right services can work together",
+            "A practical direction for your next step",
+            "Talk to our team"
+          ],
+          "links": [
+            {
+              "text": "Talk to our team",
+              "href": "/services/analytics-experimentation#contact"
+            }
+          ],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Talk to our team",
+          "url": "/services/analytics-experimentation#contact",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "Talk to our team",
+          "href": "/services/analytics-experimentation#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Talk to our team",
+          "href": "/services/analytics-experimentation#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      }
+    },
+    {
+      "section_id": "serviceanalyticsexperimentation_07_contact",
+      "section_order": 7,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}

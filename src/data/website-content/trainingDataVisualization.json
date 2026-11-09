@@ -1,0 +1,791 @@
+{
+  "page_key": "trainingDataVisualization",
+  "page_url": "/corporate-training-kerala/data-visualization",
+  "document_title": "Data Visualization | Corporate Training | Ladder7",
+  "seo": {
+    "meta_title": "Data Visualization | Corporate Training | Ladder7",
+    "meta_description": "Ladder7 delivers hands-on data visualization training for corporate teams in Kerala and virtually across India.",
+    "canonical_url": "https://www.ladder7.in/corporate-training-kerala/data-visualization",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Data Visualization."
+  },
+  "sections": [
+    {
+      "section_id": "trainingdatavisualization_01_page",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Page",
+      "section_heading": "Data Visualization.",
+      "heading_level": "h1",
+      "eyebrow": "Corporate course",
+      "subheading": "",
+      "description": "Data Visualization training shaped around your team. 6–20 per batch. On-site or Virtual.",
+      "paragraphs": [
+        "Corporate course",
+        "Data Visualization training shaped around your team. 6–20 per batch. On-site or Virtual."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Corporate course"
+        },
+        {
+          "type": "h1",
+          "text": "Data Visualization."
+        },
+        {
+          "type": "p",
+          "text": "Data Visualization training shaped around your team. 6–20 per batch. On-site or Virtual."
+        },
+        {
+          "type": "cta-link",
+          "text": "Let's talk"
+        },
+        {
+          "type": "cta-link",
+          "text": "Explore the details"
+        },
+        {
+          "type": "li",
+          "text": "Power BI / Excel / Tableau"
+        },
+        {
+          "type": "li",
+          "text": "6–20 per batch"
+        },
+        {
+          "type": "li",
+          "text": "On-site or Virtual"
+        },
+        {
+          "type": "figcaption",
+          "text": "Ladder7 / Your next chapter"
+        }
+      ],
+      "bullet_points": [
+        "Power BI / Excel / Tableau",
+        "6–20 per batch",
+        "On-site or Virtual"
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Let's talk",
+          "url": "/corporate-training-kerala/data-visualization#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "Explore the details",
+          "url": "/corporate-training-kerala/data-visualization#page-content",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/photos/training-analytics-dashboard-800.webp",
+          "alt": "",
+          "description": "Decorative (empty alt)",
+          "width": "1200",
+          "height": "864",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high",
+          "srcset": "/images/photos/training-analytics-dashboard-480.webp 480w, /images/photos/training-analytics-dashboard-800.webp 800w, /images/photos/training-analytics-dashboard-1200.webp 1200w",
+          "sizes": "(max-width: 700px) 100vw, 40vw",
+          "picture_sources": []
+        }
+      ],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Let's talk",
+          "href": "/corporate-training-kerala/data-visualization#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/corporate-training-kerala/data-visualization#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Let's talk",
+          "href": "/corporate-training-kerala/data-visualization#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Explore the details",
+          "href": "/corporate-training-kerala/data-visualization#page-content",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/LandingHero/LandingHero.css",
+        "component": "src/components/sections/LandingHero/LandingHero.tsx"
+      }
+    },
+    {
+      "section_id": "trainingdatavisualization_02_detail_section",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Practical learning. A clearer next step.",
+      "heading_level": "h2",
+      "eyebrow": "The program",
+      "subheading": "",
+      "description": "There's usually nothing wrong with the data your team collects. The problem is that it lives in a spreadsheet nobody outside the team ever opens. This program is about presentation as much as it's about analysis.\n\nWe work across Power BI, advanced Excel, PowerPoint and Tableau, and let your team pick whichever tool fits what leadership already expects to see. The exercises use your own data wherever possible, not sample files.",
+      "paragraphs": [
+        "The program",
+        "There's usually nothing wrong with the data your team collects. The problem is that it lives in a spreadsheet nobody outside the team ever opens. This program is about presentation as much as it's about analysis.",
+        "We work across Power BI, advanced Excel, PowerPoint and Tableau, and let your team pick whichever tool fits what leadership already expects to see. The exercises use your own data wherever possible, not sample files."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The program"
+        },
+        {
+          "type": "h2",
+          "text": "Practical learning. A clearer next step."
+        },
+        {
+          "type": "p",
+          "text": "There's usually nothing wrong with the data your team collects. The problem is that it lives in a spreadsheet nobody outside the team ever opens. This program is about presentation as much as it's about analysis."
+        },
+        {
+          "type": "p",
+          "text": "We work across Power BI, advanced Excel, PowerPoint and Tableau, and let your team pick whichever tool fits what leadership already expects to see. The exercises use your own data wherever possible, not sample files."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "trainingdatavisualization_03_detail_section",
+      "section_order": 3,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "What your team will explore.",
+      "heading_level": "h2",
+      "eyebrow": "The curriculum",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "The curriculum",
+        "Building interactive dashboards straight from your existing data sources.",
+        "Pivot tables, formulas and formatting that go well past basic spreadsheets.",
+        "Presenting numbers to people who won't read a spreadsheet, only a slide.",
+        "For teams that need more visual flexibility than Excel or Power BI offer."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The curriculum"
+        },
+        {
+          "type": "h2",
+          "text": "What your team will explore."
+        },
+        {
+          "type": "span",
+          "text": "01"
+        },
+        {
+          "type": "h3",
+          "text": "Power BI"
+        },
+        {
+          "type": "span",
+          "text": "–"
+        },
+        {
+          "type": "p",
+          "text": "Building interactive dashboards straight from your existing data sources."
+        },
+        {
+          "type": "span",
+          "text": "02"
+        },
+        {
+          "type": "h3",
+          "text": "Advanced Excel"
+        },
+        {
+          "type": "span",
+          "text": "+"
+        },
+        {
+          "type": "p",
+          "text": "Pivot tables, formulas and formatting that go well past basic spreadsheets."
+        },
+        {
+          "type": "span",
+          "text": "03"
+        },
+        {
+          "type": "h3",
+          "text": "PowerPoint for Data"
+        },
+        {
+          "type": "span",
+          "text": "+"
+        },
+        {
+          "type": "p",
+          "text": "Presenting numbers to people who won't read a spreadsheet, only a slide."
+        },
+        {
+          "type": "span",
+          "text": "04"
+        },
+        {
+          "type": "h3",
+          "text": "Tableau"
+        },
+        {
+          "type": "span",
+          "text": "+"
+        },
+        {
+          "type": "p",
+          "text": "For teams that need more visual flexibility than Excel or Power BI offer."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "01",
+          "detail": "",
+          "source": ".detail-curriculum__number"
+        },
+        {
+          "term": "02",
+          "detail": "",
+          "source": ".detail-curriculum__number"
+        },
+        {
+          "term": "03",
+          "detail": "",
+          "source": ".detail-curriculum__number"
+        },
+        {
+          "term": "04",
+          "detail": "",
+          "source": ".detail-curriculum__number"
+        }
+      ],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "01\nPower BI\n–",
+          "open": true
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "02\nAdvanced Excel\n+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "03\nPowerPoint for Data\n+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "04\nTableau\n+",
+          "open": false
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "trainingdatavisualization_04_detail_section",
+      "section_order": 4,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Built for people like you.",
+      "heading_level": "h2",
+      "eyebrow": "Who it’s for",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "Who it’s for"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Who it’s for"
+        },
+        {
+          "type": "h2",
+          "text": "Built for people like you."
+        },
+        {
+          "type": "li",
+          "text": "Anyone who builds reports that get read by people outside their team"
+        },
+        {
+          "type": "li",
+          "text": "Analysts moving from static spreadsheets to interactive dashboards"
+        },
+        {
+          "type": "li",
+          "text": "Managers who want their team’s data to actually change decisions"
+        }
+      ],
+      "bullet_points": [
+        "Anyone who builds reports that get read by people outside their team",
+        "Analysts moving from static spreadsheets to interactive dashboards",
+        "Managers who want their team’s data to actually change decisions"
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "trainingdatavisualization_05_detail_section",
+      "section_order": 5,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Take the learning into your work.",
+      "heading_level": "h2",
+      "eyebrow": "Your next chapter",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "Your next chapter"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Your next chapter"
+        },
+        {
+          "type": "h2",
+          "text": "Take the learning into your work."
+        },
+        {
+          "type": "li",
+          "text": "A live dashboard built from your own data during the session"
+        },
+        {
+          "type": "li",
+          "text": "Reports people open instead of ignoring"
+        },
+        {
+          "type": "li",
+          "text": "A shared visual language across teams reading the same numbers"
+        }
+      ],
+      "bullet_points": [
+        "A live dashboard built from your own data during the session",
+        "Reports people open instead of ignoring",
+        "A shared visual language across teams reading the same numbers"
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "trainingdatavisualization_06_detail_section",
+      "section_order": 6,
+      "html_id": null,
+      "element": "section",
+      "section_name": "Detail Section",
+      "section_heading": "Good questions.",
+      "heading_level": "h2",
+      "eyebrow": "A little more clarity",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "A little more clarity",
+        "For Power BI, the free desktop version covers the whole program, so no upfront license cost. Tableau offers trial licenses that cover a training window. We'll confirm the exact setup checklist before day one.",
+        "Yes, that's the most common pairing: Excel for the analysts' daily work, Power BI for what leadership sees. Adding Tableau too usually means extending the schedule rather than diluting all three.",
+        "Wherever possible, yes, under NDA if required, because a dashboard built on your real numbers keeps getting used after the trainer leaves. Sanitised extracts work fine when live access isn't practical.",
+        "Yes. If your team's daily work lives in Excel, the program can run entirely as advanced Excel training for employees: pivot tables, formulas, data cleanup and report formatting, with the BI tools left out or added later."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "A little more clarity"
+        },
+        {
+          "type": "h2",
+          "text": "Good questions."
+        },
+        {
+          "type": "summary",
+          "text": "Do we need Power BI or Tableau licenses before the training?+"
+        },
+        {
+          "type": "p",
+          "text": "For Power BI, the free desktop version covers the whole program, so no upfront license cost. Tableau offers trial licenses that cover a training window. We'll confirm the exact setup checklist before day one."
+        },
+        {
+          "type": "summary",
+          "text": "Can one batch cover both Power BI and Excel?+"
+        },
+        {
+          "type": "p",
+          "text": "Yes, that's the most common pairing: Excel for the analysts' daily work, Power BI for what leadership sees. Adding Tableau too usually means extending the schedule rather than diluting all three."
+        },
+        {
+          "type": "summary",
+          "text": "Will you work with our actual company data?+"
+        },
+        {
+          "type": "p",
+          "text": "Wherever possible, yes, under NDA if required, because a dashboard built on your real numbers keeps getting used after the trainer leaves. Sanitised extracts work fine when live access isn't practical."
+        },
+        {
+          "type": "summary",
+          "text": "Do you run Excel-only training for employees?+"
+        },
+        {
+          "type": "p",
+          "text": "Yes. If your team's daily work lives in Excel, the program can run entirely as advanced Excel training for employees: pivot tables, formulas, data cleanup and report formatting, with the BI tools left out or added later."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "interactive_elements": [
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Do we need Power BI or Tableau licenses before the training?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Can one batch cover both Power BI and Excel?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Will you work with our actual company data?+",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Do you run Excel-only training for employees?+",
+          "open": false
+        }
+      ],
+      "screen_reader_only_text": [],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/DetailSection/DetailSection.css",
+        "component": "src/components/sections/DetailSection/DetailSection.tsx"
+      }
+    },
+    {
+      "section_id": "trainingdatavisualization_07_contact",
+      "section_order": 7,
+      "html_id": "contact",
+      "element": "section",
+      "section_name": "Contact",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Submit (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Submit (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "hidden_or_conditional_content": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      }
+    }
+  ]
+}
