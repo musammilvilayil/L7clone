@@ -57,7 +57,12 @@ export function LandingHero({
   const pageActions = heroContent?.cta_buttons
     ?.filter((action): action is typeof action & { url: string } => Boolean(action.url))
     .map((action) => ({ label: action.text, to: action.url }));
-  const [primary, secondary] = actions ?? (pageActions?.length === 2 ? pageActions : DEFAULT_ACTIONS);
+  const resolvedActions: [LandingHeroAction, LandingHeroAction] =
+    actions ??
+    (pageActions?.length === 2
+      ? [pageActions[0]!, pageActions[1]!]
+      : DEFAULT_ACTIONS);
+  const [primary, secondary] = resolvedActions;
 
   return (
     <section ref={ref} className={cn("landing-hero", "wave-hero", !image && "landing-hero--text")} aria-labelledby="page-title">

@@ -4,7 +4,6 @@ import { pageForPath } from "../../../routes";
 import {
   sectionTexts,
   websiteSection,
-  type WebsiteContentSection,
 } from "../../../data/websiteContent";
 import { useInView } from "../../../hooks/useInView";
 import { revealRef } from "../../../hooks/useReveal";
@@ -81,7 +80,7 @@ function serviceCopyFromPage(
   const editorialRows = (about?.cards ?? []).slice(4);
   const processCards = (process?.cards ?? []).slice(0, 4);
   const nextCards = next?.cards ?? [];
-  const heroFacts: ServiceDetailContent["heroFacts"] = [];
+  const heroFacts: NonNullable<ServiceDetailContent["heroFacts"]> = [];
   let currentFact: { term: string; value: string; note: string } | undefined;
   for (const item of hero?.content ?? []) {
     if (item.type === "dt") {
