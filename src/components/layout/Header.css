@@ -306,13 +306,67 @@ body.menu-open {
 }
 
 /* ── Responsive ──────────────────────────────────────────────────────────── */
-@media (max-width: 1100px) and (min-width: 701px) {
-  .menu-open .desktop-nav {
-    gap: 17px;
+
+/* Between 1101px and 1280px: tighten nav gap so it doesn't crowd switch or CTA */
+@media (max-width: 1280px) and (min-width: 1101px) {
+  .desktop-nav {
+    gap: 22px;
   }
 }
 
-@media (max-width: 1000px) {
+/* When the mega menu is open, hide desktop nav & CTA below 1150px to prevent header crowding */
+@media (max-width: 1150px) {
+  .menu-open .desktop-nav,
+  .menu-open .site-header__cta {
+    display: none !important;
+  }
+}
+
+/* Laptops / Landscape Tablets (951px to 1100px) */
+@media (max-width: 1100px) and (min-width: 951px) {
+  .site-header__main {
+    gap: 12px;
+  }
+
+  .site-header__brand img {
+    width: 130px;
+    height: auto;
+  }
+
+  /* Desktop nav becomes in-flow centered so it can NEVER overlap division-switch */
+  .desktop-nav {
+    position: static;
+    transform: none;
+    margin: 0 auto;
+    gap: 18px;
+    font-size: var(--font-size-caption);
+  }
+
+  .division-switch {
+    margin-left: 0;
+  }
+
+  .division-switch__link {
+    padding: 8px 11px;
+    font-size: var(--font-size-micro);
+  }
+
+  .site-header__cta {
+    display: none;
+  }
+}
+
+/* Tablets (≤ 950px): switch to mobile-style clean header (Brand + Switch + Hamburger) */
+@media (max-width: 950px) {
+  .desktop-nav,
+  .site-header__cta {
+    display: none;
+  }
+
+  .division-switch {
+    margin-left: auto;
+  }
+
   .site-header__main {
     gap: 10px;
   }
@@ -322,38 +376,14 @@ body.menu-open {
     height: auto;
   }
 
-  .desktop-nav {
-    gap: 20px;
-    font-size: var(--font-size-caption);
-  }
-
   .division-switch__link {
     padding: 8px 11px;
     font-size: var(--font-size-micro);
   }
 }
 
-@media (max-width: 850px) and (min-width: 701px) {
-  .menu-open .desktop-nav {
-    gap: 14px;
-  }
-}
-
-/* Between 701 and 900px the centred nav would collide with the switch + CTA. */
-@media (max-width: 900px) and (min-width: 701px) {
-  .desktop-nav {
-    position: static;
-    margin: 0 auto;
-    transform: none;
-    gap: 16px;
-  }
-
-  .division-switch {
-    margin-left: 0;
-  }
-}
-
-@media (max-width: 700px) {
+/* Small Tablets / Large Phones (≤ 850px) */
+@media (max-width: 850px) {
   .site-topbar__inner {
     justify-content: center;
   }
@@ -361,7 +391,10 @@ body.menu-open {
   .site-topbar__contact {
     display: none;
   }
+}
 
+/* Mobile (≤ 700px) */
+@media (max-width: 700px) {
   .site-topbar__social {
     gap: 8px;
   }
@@ -383,13 +416,7 @@ body.menu-open {
     height: auto;
   }
 
-  .desktop-nav,
-  .site-header__cta {
-    display: none;
-  }
-
   .division-switch {
-    margin-left: auto;
     padding: 3px;
     gap: 2px;
   }
