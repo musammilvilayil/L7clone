@@ -211,12 +211,13 @@ a:focus-visible>.nav-roll>span {
   width: 40px;
   height: 40px;
   margin-left: 4px;
+  cursor: pointer;
 }
 
 .menu-toggle span {
   display: block;
   width: 26px;
-  height: 1px;
+  height: 1.5px;
   background: #ddd;
   transition: transform var(--duration-fast), background var(--duration-fast), width var(--duration-fast);
 }
@@ -239,6 +240,9 @@ body.menu-open {
 }
 
 .menu-open .site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
   right: 82px;
   width: auto;
   padding-right: 18px;
@@ -261,29 +265,39 @@ body.menu-open {
   background: radial-gradient(circle at 0 0, transparent 25px, var(--color-menu) 26px);
 }
 
-.menu-open .site-header .menu-toggle {
-  position: absolute;
+.menu-open .menu-toggle {
+  position: fixed;
   top: 4px;
-  right: -66px;
+  right: 4px;
   width: 78px;
   height: 74px;
+  z-index: calc(var(--z-header) + 10);
   margin: 0;
   border-radius: 20px 20px 0 0;
   background: var(--color-menu);
+  transition: background var(--duration-fast);
 }
 
-.menu-open .site-header .menu-toggle span {
+.menu-open .menu-toggle:hover {
+  background: #d4d8d8;
+}
+
+.menu-open .menu-toggle span {
   width: 30px;
   height: 2.5px;
   border-radius: 2px;
-  background: #161c1f;
+  background: #111618;
 }
 
-.menu-open .site-header .menu-toggle[aria-expanded="true"] span:first-child {
+.menu-open .menu-toggle:hover span {
+  background: var(--color-brand);
+}
+
+.menu-open .menu-toggle[aria-expanded="true"] span:first-child {
   transform: translateY(5px) rotate(45deg);
 }
 
-.menu-open .site-header .menu-toggle[aria-expanded="true"] span:last-child {
+.menu-open .menu-toggle[aria-expanded="true"] span:last-child {
   transform: translateY(-5px) rotate(-45deg);
 }
 
@@ -401,19 +415,19 @@ body.menu-open {
     background: radial-gradient(circle at 0 0, transparent 19px, var(--color-menu) 20px);
   }
 
-  .menu-open .site-header .menu-toggle {
+  .menu-open .menu-toggle {
     top: 3px;
-    right: -42px;
+    right: 3px;
     width: 58px;
     height: 65px;
     border-radius: 18px 18px 0 0;
   }
 
-  .menu-open .site-header .menu-toggle span {
+  .menu-open .menu-toggle span {
     width: 26px;
     height: 2.5px;
     border-radius: 2px;
-    background: #161c1f;
+    background: #111618;
   }
 
   .menu-open .site-header__brand img {
