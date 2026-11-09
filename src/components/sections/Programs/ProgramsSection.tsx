@@ -75,7 +75,7 @@ export function ProgramsSection() {
       setActive(null);
       openEnquiry({
         target: "contact",
-        interest: "Internships",
+        interest: "Training & internships",
         message: `I'm interested in ${program.name}. Please share the program details and next steps.`,
       });
     },

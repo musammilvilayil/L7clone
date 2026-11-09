@@ -1,7 +1,10 @@
 import { useCallback } from "react";
 import { useEnquiry } from "../../../context/EnquiryContext";
-import { CONTACT_INTERESTS } from "../../../data/company";
+import { useLocation } from "react-router";
+import { IT_INTERESTS } from "../../../data/company";
+import { EDUCATION_CONTACT } from "../../../data/education";
 import { COMPANY } from "../../../data/site";
+import { contactDivisionForPath } from "../../../routes";
 import { prefersReducedMotion } from "../../../hooks/useMediaQuery";
 import { revealRef } from "../../../hooks/useReveal";
 import { cn } from "../../../utils/cn";
@@ -15,7 +18,7 @@ const IT_CONTENT = {
   title: ["Let's build", "what's next"] as [string, string],
   lead: "A business goal. A technology challenge.\nStart with a conversation.",
   availabilityText: undefined as string | undefined,
-  interests: CONTACT_INTERESTS,
+  interests: IT_INTERESTS,
   labels: { name: "Your name", email: "Work email", message: "What would you like to achieve?" },
   placeholders: { name: "Your name", email: "you@company.com", message: "Tell us about your business, challenge or idea." },
   formHeading: "Tell us what you're working on.",
@@ -46,16 +49,19 @@ export function ContactSection({
   headingLevel: Heading = "h2",
   interest,
   first = false,
-  content = IT_CONTENT,
+  content: contentProp,
 }: {
   headingLevel?: "h1" | "h2";
   /** Pre-selected interest (home: follows the solutions tabs). */
   interest?: string;
   /** Contact page: the section opens the page, below the header. */
   first?: boolean;
-  /** Copy bundle; defaults to the IT division's content. */
+  /** Copy bundle; defaults to the current page's division (IT or Education). */
   content?: ContactContent;
 }) {
+  const { pathname } = useLocation();
+  const content = contentProp ?? (contactDivisionForPath(pathname) === "education" ? EDUCATION_CONTACT : IT_CONTENT);
+
   // A program dialog's "Talk to an advisor" (openEnquiry({ target: "contact" }))
   // fills this form in place and scrolls/focuses it — the overlay menu ignores
   // a "contact"-targeted prefill (see MegaMenu).

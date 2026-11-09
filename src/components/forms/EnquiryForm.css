@@ -363,3 +363,18 @@
     font-size: var(--font-size-body);
   }
 }
+
+/* Form copy reads at 18px in every variant (intro, interest label and chips,
+   field labels and inputs, privacy note). Kept last so it wins the cascade. */
+.enquiry .enquiry__intro,
+.enquiry .enquiry__interests legend,
+.enquiry .chip span,
+.enquiry .field,
+.enquiry .field__control,
+.enquiry .enquiry__note {
+  font-size: 1.125rem;
+}
+
+.enquiry .chip span {
+  padding: 10px 16px;
+}

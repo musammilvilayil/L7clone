@@ -59,7 +59,19 @@ export const FAQS: Faq[] = [
   },
 ];
 
-/** Interest options of the two enquiry forms (as in the design). */
+/** Interest options of the IT division's enquiry form. */
+export const IT_INTERESTS = [
+  "Digital experience",
+  "AI & automation",
+  "Custom software",
+  "Consulting",
+  "Corporate training",
+];
+
+/** Interest options of the Education division's enquiry form. */
+export const EDUCATION_INTERESTS = ["Training & internships", "Career guidance", "My Ladder", "Personal growth"];
+
+/** Interest options of the common form on the Contact page (both divisions). */
 export const CONTACT_INTERESTS = [
   "Digital experience",
   "AI & automation",
@@ -67,12 +79,4 @@ export const CONTACT_INTERESTS = [
   "Corporate training",
   "Career guidance",
   "Personal growth",
-];
-export const MENU_INTERESTS = [
-  "Digital experience",
-  "Applied AI",
-  "Technology strategy",
-  "Training & internships",
-  "Personal growth",
-  "Corporate training",
 ];

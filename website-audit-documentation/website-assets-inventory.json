@@ -1,0 +1,3315 @@
+{
+  "scan_date": "2026-11-07",
+  "summary": {
+    "distinct_asset_urls_referenced_in_html": 140,
+    "img_elements_in_documents": 227,
+    "img_elements_in_sections": 161,
+    "referenced_but_missing_locally": [],
+    "images_in_dist_images_folder": 134,
+    "dist_images_not_referenced_by_html_css_or_source": 0
+  },
+  "assets_referenced_in_prerendered_html": [
+    {
+      "src": "/fonts/geist-latin-wght-normal.woff2",
+      "kind": "head-preload",
+      "format": "woff2",
+      "exists_locally": true,
+      "bytes": 29400,
+      "alt_texts": [],
+      "rendered_dimensions_attr": [],
+      "regions": [],
+      "used_on_pages": [
+        "/",
+        "/404 (unmatched URLs)",
+        "/about",
+        "/ai-data-science-course-trivandrum",
+        "/amiu",
+        "/blogs",
+        "/blogs/ai-personalize-web-experince",
+        "/blogs/ai-tools-web-development-team",
+        "/blogs/conversational-ai-customer-experience",
+        "/blogs/festive-onam-ladder7",
+        "/blogs/independence-day-ladder7",
+        "/blogs/magical-christmas-celebration",
+        "/blogs/why-website-checks-need-to-go-beyond-performance-scores",
+        "/bootcamp",
+        "/careers",
+        "/contact",
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/business-analytics",
+        "/corporate-training-kerala/business-intelligence-data-analytics",
+        "/corporate-training-kerala/cloud-computing-bootcamp",
+        "/corporate-training-kerala/data-science",
+        "/corporate-training-kerala/data-visualization",
+        "/corporate-training-kerala/digital-content-creation",
+        "/corporate-training-kerala/full-stack-development",
+        "/corporate-training-kerala/marketing-automation-crm",
+        "/corporate-training-kerala/mobile-app-development",
+        "/corporate-training-kerala/prompt-engineering-ai-training",
+        "/corporate-training-kerala/webops-ai-ml",
+        "/earnmore",
+        "/education",
+        "/experience-the-first-job",
+        "/faq",
+        "/filldots",
+        "/full-stack-developer-course-trivandrum",
+        "/it-training-internship-trivandrum",
+        "/mindgym",
+        "/mirrorme",
+        "/myladder",
+        "/portfolio",
+        "/privacy",
+        "/products",
+        "/products/infinite-insights",
+        "/products/l7-insights",
+        "/products/l7-nexus",
+        "/products/outreach-engine",
+        "/products/site-360",
+        "/services",
+        "/services/aem-digital-experience",
+        "/services/agenticai",
+        "/services/ai-assistant",
+        "/services/aiproduct",
+        "/services/analytics-experimentation",
+        "/services/green-recovery",
+        "/services/headless-cms",
+        "/services/hyperautomation",
+        "/services/intelligent-websites",
+        "/services/localization-uiux",
+        "/services/product-solution",
+        "/services/skilled-resource",
+        "/services/technology",
+        "/services/web-experience",
+        "/shopify-developer-course-workshop",
+        "/sitemap",
+        "/software-testing-course-trivandrum",
+        "/thank-you",
+        "/training-internship/career-goal-finding"
+      ],
+      "used_on_page_count": 66
+    },
+    {
+      "src": "/icons/apple-touch-icon.png",
+      "kind": "head-apple-touch-icon",
+      "format": "png",
+      "exists_locally": true,
+      "bytes": 3782,
+      "alt_texts": [],
+      "rendered_dimensions_attr": [],
+      "regions": [],
+      "used_on_pages": [
+        "/",
+        "/404 (unmatched URLs)",
+        "/about",
+        "/ai-data-science-course-trivandrum",
+        "/amiu",
+        "/blogs",
+        "/blogs/ai-personalize-web-experince",
+        "/blogs/ai-tools-web-development-team",
+        "/blogs/conversational-ai-customer-experience",
+        "/blogs/festive-onam-ladder7",
+        "/blogs/independence-day-ladder7",
+        "/blogs/magical-christmas-celebration",
+        "/blogs/why-website-checks-need-to-go-beyond-performance-scores",
+        "/bootcamp",
+        "/careers",
+        "/contact",
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/business-analytics",
+        "/corporate-training-kerala/business-intelligence-data-analytics",
+        "/corporate-training-kerala/cloud-computing-bootcamp",
+        "/corporate-training-kerala/data-science",
+        "/corporate-training-kerala/data-visualization",
+        "/corporate-training-kerala/digital-content-creation",
+        "/corporate-training-kerala/full-stack-development",
+        "/corporate-training-kerala/marketing-automation-crm",
+        "/corporate-training-kerala/mobile-app-development",
+        "/corporate-training-kerala/prompt-engineering-ai-training",
+        "/corporate-training-kerala/webops-ai-ml",
+        "/earnmore",
+        "/education",
+        "/experience-the-first-job",
+        "/faq",
+        "/filldots",
+        "/full-stack-developer-course-trivandrum",
+        "/it-training-internship-trivandrum",
+        "/mindgym",
+        "/mirrorme",
+        "/myladder",
+        "/portfolio",
+        "/privacy",
+        "/products",
+        "/products/infinite-insights",
+        "/products/l7-insights",
+        "/products/l7-nexus",
+        "/products/outreach-engine",
+        "/products/site-360",
+        "/services",
+        "/services/aem-digital-experience",
+        "/services/agenticai",
+        "/services/ai-assistant",
+        "/services/aiproduct",
+        "/services/analytics-experimentation",
+        "/services/green-recovery",
+        "/services/headless-cms",
+        "/services/hyperautomation",
+        "/services/intelligent-websites",
+        "/services/localization-uiux",
+        "/services/product-solution",
+        "/services/skilled-resource",
+        "/services/technology",
+        "/services/web-experience",
+        "/shopify-developer-course-workshop",
+        "/sitemap",
+        "/software-testing-course-trivandrum",
+        "/thank-you",
+        "/training-internship/career-goal-finding"
+      ],
+      "used_on_page_count": 66
+    },
+    {
+      "src": "/icons/favicon-32.png",
+      "kind": "head-icon",
+      "format": "png",
+      "exists_locally": true,
+      "bytes": 915,
+      "alt_texts": [],
+      "rendered_dimensions_attr": [],
+      "regions": [],
+      "used_on_pages": [
+        "/",
+        "/404 (unmatched URLs)",
+        "/about",
+        "/ai-data-science-course-trivandrum",
+        "/amiu",
+        "/blogs",
+        "/blogs/ai-personalize-web-experince",
+        "/blogs/ai-tools-web-development-team",
+        "/blogs/conversational-ai-customer-experience",
+        "/blogs/festive-onam-ladder7",
+        "/blogs/independence-day-ladder7",
+        "/blogs/magical-christmas-celebration",
+        "/blogs/why-website-checks-need-to-go-beyond-performance-scores",
+        "/bootcamp",
+        "/careers",
+        "/contact",
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/business-analytics",
+        "/corporate-training-kerala/business-intelligence-data-analytics",
+        "/corporate-training-kerala/cloud-computing-bootcamp",
+        "/corporate-training-kerala/data-science",
+        "/corporate-training-kerala/data-visualization",
+        "/corporate-training-kerala/digital-content-creation",
+        "/corporate-training-kerala/full-stack-development",
+        "/corporate-training-kerala/marketing-automation-crm",
+        "/corporate-training-kerala/mobile-app-development",
+        "/corporate-training-kerala/prompt-engineering-ai-training",
+        "/corporate-training-kerala/webops-ai-ml",
+        "/earnmore",
+        "/education",
+        "/experience-the-first-job",
+        "/faq",
+        "/filldots",
+        "/full-stack-developer-course-trivandrum",
+        "/it-training-internship-trivandrum",
+        "/mindgym",
+        "/mirrorme",
+        "/myladder",
+        "/portfolio",
+        "/privacy",
+        "/products",
+        "/products/infinite-insights",
+        "/products/l7-insights",
+        "/products/l7-nexus",
+        "/products/outreach-engine",
+        "/products/site-360",
+        "/services",
+        "/services/aem-digital-experience",
+        "/services/agenticai",
+        "/services/ai-assistant",
+        "/services/aiproduct",
+        "/services/analytics-experimentation",
+        "/services/green-recovery",
+        "/services/headless-cms",
+        "/services/hyperautomation",
+        "/services/intelligent-websites",
+        "/services/localization-uiux",
+        "/services/product-solution",
+        "/services/skilled-resource",
+        "/services/technology",
+        "/services/web-experience",
+        "/shopify-developer-course-workshop",
+        "/sitemap",
+        "/software-testing-course-trivandrum",
+        "/thank-you",
+        "/training-internship/career-goal-finding"
+      ],
+      "used_on_page_count": 66
+    },
+    {
+      "src": "/icons/favicon-48.png",
+      "kind": "head-icon",
+      "format": "png",
+      "exists_locally": true,
+      "bytes": 1289,
+      "alt_texts": [],
+      "rendered_dimensions_attr": [],
+      "regions": [],
+      "used_on_pages": [
+        "/",
+        "/404 (unmatched URLs)",
+        "/about",
+        "/ai-data-science-course-trivandrum",
+        "/amiu",
+        "/blogs",
+        "/blogs/ai-personalize-web-experince",
+        "/blogs/ai-tools-web-development-team",
+        "/blogs/conversational-ai-customer-experience",
+        "/blogs/festive-onam-ladder7",
+        "/blogs/independence-day-ladder7",
+        "/blogs/magical-christmas-celebration",
+        "/blogs/why-website-checks-need-to-go-beyond-performance-scores",
+        "/bootcamp",
+        "/careers",
+        "/contact",
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/business-analytics",
+        "/corporate-training-kerala/business-intelligence-data-analytics",
+        "/corporate-training-kerala/cloud-computing-bootcamp",
+        "/corporate-training-kerala/data-science",
+        "/corporate-training-kerala/data-visualization",
+        "/corporate-training-kerala/digital-content-creation",
+        "/corporate-training-kerala/full-stack-development",
+        "/corporate-training-kerala/marketing-automation-crm",
+        "/corporate-training-kerala/mobile-app-development",
+        "/corporate-training-kerala/prompt-engineering-ai-training",
+        "/corporate-training-kerala/webops-ai-ml",
+        "/earnmore",
+        "/education",
+        "/experience-the-first-job",
+        "/faq",
+        "/filldots",
+        "/full-stack-developer-course-trivandrum",
+        "/it-training-internship-trivandrum",
+        "/mindgym",
+        "/mirrorme",
+        "/myladder",
+        "/portfolio",
+        "/privacy",
+        "/products",
+        "/products/infinite-insights",
+        "/products/l7-insights",
+        "/products/l7-nexus",
+        "/products/outreach-engine",
+        "/products/site-360",
+        "/services",
+        "/services/aem-digital-experience",
+        "/services/agenticai",
+        "/services/ai-assistant",
+        "/services/aiproduct",
+        "/services/analytics-experimentation",
+        "/services/green-recovery",
+        "/services/headless-cms",
+        "/services/hyperautomation",
+        "/services/intelligent-websites",
+        "/services/localization-uiux",
+        "/services/product-solution",
+        "/services/skilled-resource",
+        "/services/technology",
+        "/services/web-experience",
+        "/shopify-developer-course-workshop",
+        "/sitemap",
+        "/software-testing-course-trivandrum",
+        "/thank-you",
+        "/training-internship/career-goal-finding"
+      ],
+      "used_on_page_count": 66
+    },
+    {
+      "src": "/images/brand/ladder7-logo-284.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 4896,
+      "alt_texts": [
+        "Ladder7 Nextstep Solutions"
+      ],
+      "rendered_dimensions_attr": [
+        "142x58"
+      ],
+      "regions": [
+        "header"
+      ],
+      "used_on_pages": [
+        "/",
+        "/404 (unmatched URLs)",
+        "/about",
+        "/ai-data-science-course-trivandrum",
+        "/amiu",
+        "/blogs",
+        "/blogs/ai-personalize-web-experince",
+        "/blogs/ai-tools-web-development-team",
+        "/blogs/conversational-ai-customer-experience",
+        "/blogs/festive-onam-ladder7",
+        "/blogs/independence-day-ladder7",
+        "/blogs/magical-christmas-celebration",
+        "/blogs/why-website-checks-need-to-go-beyond-performance-scores",
+        "/bootcamp",
+        "/careers",
+        "/contact",
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/business-analytics",
+        "/corporate-training-kerala/business-intelligence-data-analytics",
+        "/corporate-training-kerala/cloud-computing-bootcamp",
+        "/corporate-training-kerala/data-science",
+        "/corporate-training-kerala/data-visualization",
+        "/corporate-training-kerala/digital-content-creation",
+        "/corporate-training-kerala/full-stack-development",
+        "/corporate-training-kerala/marketing-automation-crm",
+        "/corporate-training-kerala/mobile-app-development",
+        "/corporate-training-kerala/prompt-engineering-ai-training",
+        "/corporate-training-kerala/webops-ai-ml",
+        "/earnmore",
+        "/education",
+        "/experience-the-first-job",
+        "/faq",
+        "/filldots",
+        "/full-stack-developer-course-trivandrum",
+        "/it-training-internship-trivandrum",
+        "/mindgym",
+        "/mirrorme",
+        "/myladder",
+        "/portfolio",
+        "/privacy",
+        "/products",
+        "/products/infinite-insights",
+        "/products/l7-insights",
+        "/products/l7-nexus",
+        "/products/outreach-engine",
+        "/products/site-360",
+        "/services",
+        "/services/aem-digital-experience",
+        "/services/agenticai",
+        "/services/ai-assistant",
+        "/services/aiproduct",
+        "/services/analytics-experimentation",
+        "/services/green-recovery",
+        "/services/headless-cms",
+        "/services/hyperautomation",
+        "/services/intelligent-websites",
+        "/services/localization-uiux",
+        "/services/product-solution",
+        "/services/skilled-resource",
+        "/services/technology",
+        "/services/web-experience",
+        "/shopify-developer-course-workshop",
+        "/sitemap",
+        "/software-testing-course-trivandrum",
+        "/thank-you",
+        "/training-internship/career-goal-finding"
+      ],
+      "used_on_page_count": 66
+    },
+    {
+      "src": "/images/brand/ladder7-logo-568.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 11950,
+      "alt_texts": [
+        "Ladder7 Nextstep Solutions"
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "header"
+      ],
+      "used_on_pages": [
+        "/",
+        "/404 (unmatched URLs)",
+        "/about",
+        "/ai-data-science-course-trivandrum",
+        "/amiu",
+        "/blogs",
+        "/blogs/ai-personalize-web-experince",
+        "/blogs/ai-tools-web-development-team",
+        "/blogs/conversational-ai-customer-experience",
+        "/blogs/festive-onam-ladder7",
+        "/blogs/independence-day-ladder7",
+        "/blogs/magical-christmas-celebration",
+        "/blogs/why-website-checks-need-to-go-beyond-performance-scores",
+        "/bootcamp",
+        "/careers",
+        "/contact",
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/business-analytics",
+        "/corporate-training-kerala/business-intelligence-data-analytics",
+        "/corporate-training-kerala/cloud-computing-bootcamp",
+        "/corporate-training-kerala/data-science",
+        "/corporate-training-kerala/data-visualization",
+        "/corporate-training-kerala/digital-content-creation",
+        "/corporate-training-kerala/full-stack-development",
+        "/corporate-training-kerala/marketing-automation-crm",
+        "/corporate-training-kerala/mobile-app-development",
+        "/corporate-training-kerala/prompt-engineering-ai-training",
+        "/corporate-training-kerala/webops-ai-ml",
+        "/earnmore",
+        "/education",
+        "/experience-the-first-job",
+        "/faq",
+        "/filldots",
+        "/full-stack-developer-course-trivandrum",
+        "/it-training-internship-trivandrum",
+        "/mindgym",
+        "/mirrorme",
+        "/myladder",
+        "/portfolio",
+        "/privacy",
+        "/products",
+        "/products/infinite-insights",
+        "/products/l7-insights",
+        "/products/l7-nexus",
+        "/products/outreach-engine",
+        "/products/site-360",
+        "/services",
+        "/services/aem-digital-experience",
+        "/services/agenticai",
+        "/services/ai-assistant",
+        "/services/aiproduct",
+        "/services/analytics-experimentation",
+        "/services/green-recovery",
+        "/services/headless-cms",
+        "/services/hyperautomation",
+        "/services/intelligent-websites",
+        "/services/localization-uiux",
+        "/services/product-solution",
+        "/services/skilled-resource",
+        "/services/technology",
+        "/services/web-experience",
+        "/shopify-developer-course-workshop",
+        "/sitemap",
+        "/software-testing-course-trivandrum",
+        "/thank-you",
+        "/training-internship/career-goal-finding"
+      ],
+      "used_on_page_count": 66
+    },
+    {
+      "src": "/images/photos/ai-network-brain-300.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 8972,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/about",
+        "/mindgym",
+        "/products"
+      ],
+      "used_on_page_count": 3
+    },
+    {
+      "src": "/images/photos/ai-network-brain-600.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 25694,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/about",
+        "/mindgym",
+        "/products"
+      ],
+      "used_on_page_count": 3
+    },
+    {
+      "src": "/images/photos/ai-network-brain-900.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 46576,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "900x720"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/about",
+        "/mindgym",
+        "/products"
+      ],
+      "used_on_page_count": 3
+    },
+    {
+      "src": "/images/photos/ai-processor-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 211300,
+      "alt_texts": [
+        "",
+        "A close-up of a circuit board labelled AI"
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/",
+        "/education"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/ai-processor-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 61846,
+      "alt_texts": [
+        "",
+        "A close-up of a circuit board labelled AI"
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/",
+        "/education"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/ai-processor-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 126820,
+      "alt_texts": [
+        "",
+        "A close-up of a circuit board labelled AI"
+      ],
+      "rendered_dimensions_attr": [
+        "1200x1000"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/",
+        "/education"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/blog-ai-personalization-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 18096,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/blogs",
+        "/blogs/ai-personalize-web-experince"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/blog-ai-personalization-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 5378,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/blogs",
+        "/blogs/ai-personalize-web-experince"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/blog-ai-personalization-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 10678,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "1200x675"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/blogs",
+        "/blogs/ai-personalize-web-experince"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/blog-ai-tools-web-teams-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 16110,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/blogs",
+        "/blogs/ai-tools-web-development-team"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/blog-ai-tools-web-teams-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 4810,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/blogs",
+        "/blogs/ai-tools-web-development-team"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/blog-ai-tools-web-teams-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 9962,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "1200x675"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/blogs",
+        "/blogs/ai-tools-web-development-team"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/blog-christmas-celebration-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 14252,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/blogs",
+        "/blogs/magical-christmas-celebration"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/blog-christmas-celebration-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 4432,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/blogs",
+        "/blogs/magical-christmas-celebration"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/blog-christmas-celebration-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 8782,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "1200x675"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/blogs",
+        "/blogs/magical-christmas-celebration"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/blog-conversational-ai-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 16832,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/blogs",
+        "/blogs/conversational-ai-customer-experience"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/blog-conversational-ai-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 5052,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/blogs",
+        "/blogs/conversational-ai-customer-experience"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/blog-conversational-ai-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 10318,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "1200x675"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/blogs",
+        "/blogs/conversational-ai-customer-experience"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/blog-independence-day-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 16872,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/blogs",
+        "/blogs/independence-day-ladder7"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/blog-independence-day-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 5070,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/blogs",
+        "/blogs/independence-day-ladder7"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/blog-independence-day-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 9846,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "1200x675"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/blogs",
+        "/blogs/independence-day-ladder7"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/blog-onam-celebration-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 28224,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/blogs",
+        "/blogs/festive-onam-ladder7"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/blog-onam-celebration-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 7434,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/blogs",
+        "/blogs/festive-onam-ladder7"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/blog-onam-celebration-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 16180,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "1200x675"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/blogs",
+        "/blogs/festive-onam-ladder7"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/blog-website-checks-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 19598,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/blogs",
+        "/blogs/why-website-checks-need-to-go-beyond-performance-scores"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/blog-website-checks-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 5922,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/blogs",
+        "/blogs/why-website-checks-need-to-go-beyond-performance-scores"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/blog-website-checks-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 11672,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "1200x675"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/blogs",
+        "/blogs/why-website-checks-need-to-go-beyond-performance-scores"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/code-editor-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 75948,
+      "alt_texts": [
+        "",
+        "Computer setup for software development"
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/",
+        "/education"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/code-editor-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 19708,
+      "alt_texts": [
+        "",
+        "Computer setup for software development"
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/",
+        "/education"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/code-editor-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 43718,
+      "alt_texts": [
+        "",
+        "Computer setup for software development"
+      ],
+      "rendered_dimensions_attr": [
+        "1200x800"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/",
+        "/education"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/course-shopify-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 39138,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/it-training-internship-trivandrum",
+        "/shopify-developer-course-workshop"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/course-shopify-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 11270,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/it-training-internship-trivandrum",
+        "/shopify-developer-course-workshop"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/course-shopify-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 22366,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "1200x801"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/it-training-internship-trivandrum",
+        "/shopify-developer-course-workshop"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/course-software-testing-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 71372,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/it-training-internship-trivandrum",
+        "/software-testing-course-trivandrum"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/course-software-testing-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 20166,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/it-training-internship-trivandrum",
+        "/software-testing-course-trivandrum"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/course-software-testing-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 41558,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "1200x800"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/it-training-internship-trivandrum",
+        "/software-testing-course-trivandrum"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/earnmore-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 18070,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "480x720"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/earnmore"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/photos/first-job-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 22510,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/experience-the-first-job"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/photos/first-job-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 7354,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/experience-the-first-job"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/photos/first-job-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 13724,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "1200x800"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/experience-the-first-job"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/photos/idea-lightbulb-300.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 4760,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/about",
+        "/myladder",
+        "/products"
+      ],
+      "used_on_page_count": 3
+    },
+    {
+      "src": "/images/photos/idea-lightbulb-600.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 12652,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/about",
+        "/myladder",
+        "/products"
+      ],
+      "used_on_page_count": 3
+    },
+    {
+      "src": "/images/photos/idea-lightbulb-900.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 22056,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "900x1350"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/about",
+        "/myladder",
+        "/products"
+      ],
+      "used_on_page_count": 3
+    },
+    {
+      "src": "/images/photos/mentorship-interview-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 33802,
+      "alt_texts": [
+        "A career guidance conversation",
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/education"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/photos/mentorship-interview-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 10798,
+      "alt_texts": [
+        "A career guidance conversation",
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/education"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/photos/mentorship-interview-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 20536,
+      "alt_texts": [
+        "A career guidance conversation",
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "1200x800"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/education"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/photos/mindful-reflection-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 38952,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/education"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/photos/mindful-reflection-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 12166,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/education"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/photos/mindful-reflection-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 23494,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "1200x1800"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/education"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/photos/mirror-reflection-portrait-300.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 5792,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/mirrorme",
+        "/products"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/mirror-reflection-portrait-600.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 13718,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/mirrorme",
+        "/products"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/mirror-reflection-portrait-900.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 23344,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "900x1350"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/mirrorme",
+        "/products"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/mountain-climb-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 60856,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/education",
+        "/filldots",
+        "/products"
+      ],
+      "used_on_page_count": 3
+    },
+    {
+      "src": "/images/photos/mountain-climb-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 16214,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/education",
+        "/filldots",
+        "/products"
+      ],
+      "used_on_page_count": 3
+    },
+    {
+      "src": "/images/photos/mountain-climb-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 34096,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "1200x900"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/education",
+        "/filldots",
+        "/products"
+      ],
+      "used_on_page_count": 3
+    },
+    {
+      "src": "/images/photos/online-checkout-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 20082,
+      "alt_texts": [
+        "",
+        "Digital commerce and online payments"
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/",
+        "/education"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/online-checkout-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 6702,
+      "alt_texts": [
+        "",
+        "Digital commerce and online payments"
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/",
+        "/education"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/online-checkout-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 12176,
+      "alt_texts": [
+        "",
+        "Digital commerce and online payments"
+      ],
+      "rendered_dimensions_attr": [
+        "1200x800"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/",
+        "/education"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/product-dashboard-agents-300.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 8622,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/about",
+        "/products",
+        "/products/site-360"
+      ],
+      "used_on_page_count": 3
+    },
+    {
+      "src": "/images/photos/product-dashboard-agents-600.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 23736,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/about",
+        "/products",
+        "/products/site-360"
+      ],
+      "used_on_page_count": 3
+    },
+    {
+      "src": "/images/photos/product-dashboard-agents-900.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 39838,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "900x900"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/about",
+        "/products",
+        "/products/site-360"
+      ],
+      "used_on_page_count": 3
+    },
+    {
+      "src": "/images/photos/product-dashboard-nocode-300.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 9780,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/about",
+        "/products",
+        "/products/l7-nexus"
+      ],
+      "used_on_page_count": 3
+    },
+    {
+      "src": "/images/photos/product-dashboard-nocode-600.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 29054,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/about",
+        "/products",
+        "/products/l7-nexus"
+      ],
+      "used_on_page_count": 3
+    },
+    {
+      "src": "/images/photos/product-dashboard-nocode-900.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 51908,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "900x900"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/about",
+        "/products",
+        "/products/l7-nexus"
+      ],
+      "used_on_page_count": 3
+    },
+    {
+      "src": "/images/photos/product-dashboard-scan-300.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 9382,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/about"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/photos/product-dashboard-scan-600.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 22338,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/about"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/photos/product-dashboard-scan-900.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 38112,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "900x599"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/about"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/photos/product-insights-dashboard-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 43296,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/products",
+        "/products/infinite-insights"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/product-insights-dashboard-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 11342,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/products",
+        "/products/infinite-insights"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/product-insights-dashboard-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 25008,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "1200x1200"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/products",
+        "/products/infinite-insights"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/product-outreach-dashboard-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 34472,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/products",
+        "/products/outreach-engine"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/product-outreach-dashboard-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 10384,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/products",
+        "/products/outreach-engine"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/product-outreach-dashboard-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 20976,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "1200x1200"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/products",
+        "/products/outreach-engine"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/self-reflection-mirror-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 89388,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/education"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/photos/self-reflection-mirror-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 19792,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/education"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/photos/self-reflection-mirror-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 48060,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "1200x800"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/education"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/photos/students-laptop-group-300.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 10316,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/amiu",
+        "/products"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/students-laptop-group-600.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 24438,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/amiu",
+        "/products"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/students-laptop-group-900.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 41200,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "900x600"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/amiu",
+        "/products"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/team-analytics-review-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 67424,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/products"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/photos/team-analytics-review-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 20270,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/products"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/photos/team-analytics-review-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 38564,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "1200x1200"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/products"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/photos/team-collaboration-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 37822,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/about",
+        "/bootcamp",
+        "/careers",
+        "/corporate-training-kerala",
+        "/it-training-internship-trivandrum",
+        "/portfolio",
+        "/sitemap"
+      ],
+      "used_on_page_count": 7
+    },
+    {
+      "src": "/images/photos/team-collaboration-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 12902,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/about",
+        "/bootcamp",
+        "/careers",
+        "/corporate-training-kerala",
+        "/it-training-internship-trivandrum",
+        "/portfolio",
+        "/sitemap"
+      ],
+      "used_on_page_count": 7
+    },
+    {
+      "src": "/images/photos/team-collaboration-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 23842,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "1200x799"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/about",
+        "/bootcamp",
+        "/careers",
+        "/corporate-training-kerala",
+        "/it-training-internship-trivandrum",
+        "/portfolio",
+        "/sitemap"
+      ],
+      "used_on_page_count": 7
+    },
+    {
+      "src": "/images/photos/team-collaboration-desks-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 48866,
+      "alt_texts": [
+        "People collaborating around a table in a bright workspace"
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/about"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/photos/team-collaboration-desks-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 14132,
+      "alt_texts": [
+        "People collaborating around a table in a bright workspace"
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/about"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/photos/team-collaboration-desks-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 28702,
+      "alt_texts": [
+        "People collaborating around a table in a bright workspace"
+      ],
+      "rendered_dimensions_attr": [
+        "1200x800"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/about"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/photos/team-whiteboard-session-300.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 7508,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/about",
+        "/products",
+        "/products/l7-insights"
+      ],
+      "used_on_page_count": 3
+    },
+    {
+      "src": "/images/photos/team-whiteboard-session-600.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 21548,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/about",
+        "/products",
+        "/products/l7-insights"
+      ],
+      "used_on_page_count": 3
+    },
+    {
+      "src": "/images/photos/team-whiteboard-session-900.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 38146,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "900x900"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/about",
+        "/products",
+        "/products/l7-insights"
+      ],
+      "used_on_page_count": 3
+    },
+    {
+      "src": "/images/photos/team-workshop-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 31070,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/",
+        "/education",
+        "/training-internship/career-goal-finding"
+      ],
+      "used_on_page_count": 3
+    },
+    {
+      "src": "/images/photos/team-workshop-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 10768,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/",
+        "/education",
+        "/training-internship/career-goal-finding"
+      ],
+      "used_on_page_count": 3
+    },
+    {
+      "src": "/images/photos/team-workshop-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 19450,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "1200x800"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/",
+        "/education",
+        "/training-internship/career-goal-finding"
+      ],
+      "used_on_page_count": 3
+    },
+    {
+      "src": "/images/photos/training-ai-prompt-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 20512,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/prompt-engineering-ai-training"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/training-ai-prompt-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 6786,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/prompt-engineering-ai-training"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/training-ai-prompt-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 12644,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "1200x857"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/prompt-engineering-ai-training"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/training-analytics-dashboard-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 34412,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/business-intelligence-data-analytics",
+        "/corporate-training-kerala/data-visualization"
+      ],
+      "used_on_page_count": 3
+    },
+    {
+      "src": "/images/photos/training-analytics-dashboard-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 9732,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/business-intelligence-data-analytics",
+        "/corporate-training-kerala/data-visualization"
+      ],
+      "used_on_page_count": 3
+    },
+    {
+      "src": "/images/photos/training-analytics-dashboard-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 18512,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "1200x864"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/business-intelligence-data-analytics",
+        "/corporate-training-kerala/data-visualization"
+      ],
+      "used_on_page_count": 3
+    },
+    {
+      "src": "/images/photos/training-analytics-meeting-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 42308,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/business-analytics",
+        "/corporate-training-kerala/marketing-automation-crm"
+      ],
+      "used_on_page_count": 3
+    },
+    {
+      "src": "/images/photos/training-analytics-meeting-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 12516,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/business-analytics",
+        "/corporate-training-kerala/marketing-automation-crm"
+      ],
+      "used_on_page_count": 3
+    },
+    {
+      "src": "/images/photos/training-analytics-meeting-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 25338,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "1200x800"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/business-analytics",
+        "/corporate-training-kerala/marketing-automation-crm"
+      ],
+      "used_on_page_count": 3
+    },
+    {
+      "src": "/images/photos/training-laptop-code-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 35478,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/full-stack-development",
+        "/full-stack-developer-course-trivandrum",
+        "/it-training-internship-trivandrum"
+      ],
+      "used_on_page_count": 4
+    },
+    {
+      "src": "/images/photos/training-laptop-code-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 9168,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/full-stack-development",
+        "/full-stack-developer-course-trivandrum",
+        "/it-training-internship-trivandrum"
+      ],
+      "used_on_page_count": 4
+    },
+    {
+      "src": "/images/photos/training-laptop-code-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 19668,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "1200x800"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/full-stack-development",
+        "/full-stack-developer-course-trivandrum",
+        "/it-training-internship-trivandrum"
+      ],
+      "used_on_page_count": 4
+    },
+    {
+      "src": "/images/photos/training-mobile-phone-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 43678,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/mobile-app-development"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/training-mobile-phone-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 12186,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/mobile-app-development"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/training-mobile-phone-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 23720,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "1200x792"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/mobile-app-development"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/training-python-code-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 112478,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/data-science"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/training-python-code-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 32962,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/data-science"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/training-python-code-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 66226,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "1200x2133"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/data-science"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/training-robot-ai-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 34778,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/ai-data-science-course-trivandrum",
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/webops-ai-ml",
+        "/it-training-internship-trivandrum"
+      ],
+      "used_on_page_count": 4
+    },
+    {
+      "src": "/images/photos/training-robot-ai-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 11232,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/ai-data-science-course-trivandrum",
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/webops-ai-ml",
+        "/it-training-internship-trivandrum"
+      ],
+      "used_on_page_count": 4
+    },
+    {
+      "src": "/images/photos/training-robot-ai-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 20954,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "1200x675"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/ai-data-science-course-trivandrum",
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/webops-ai-ml",
+        "/it-training-internship-trivandrum"
+      ],
+      "used_on_page_count": 4
+    },
+    {
+      "src": "/images/photos/training-server-rack-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 57122,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/cloud-computing-bootcamp"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/training-server-rack-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 16264,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/cloud-computing-bootcamp"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/training-server-rack-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 32978,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "1200x800"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/cloud-computing-bootcamp"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/training-video-editing-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 46042,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/digital-content-creation"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/training-video-editing-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 14312,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/digital-content-creation"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/training-video-editing-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 27820,
+      "alt_texts": [
+        ""
+      ],
+      "rendered_dimensions_attr": [
+        "1200x800"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/digital-content-creation"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/workspace-laptop-1200.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 28590,
+      "alt_texts": [
+        "",
+        "A laptop showing code beside a stack of notebooks on a desk"
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/",
+        "/education"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/workspace-laptop-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 6734,
+      "alt_texts": [
+        "",
+        "A laptop showing code beside a stack of notebooks on a desk"
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/",
+        "/education"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/photos/workspace-laptop-800.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 15014,
+      "alt_texts": [
+        "",
+        "A laptop showing code beside a stack of notebooks on a desk"
+      ],
+      "rendered_dimensions_attr": [
+        "1200x675"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/",
+        "/education"
+      ],
+      "used_on_page_count": 2
+    },
+    {
+      "src": "/images/why/statue-fractured-1024.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 260556,
+      "alt_texts": [
+        "A heavily fractured ivory and gold Kathakali-inspired Kerala sculpture with missing crown, cheek and shoulder pieces, facing inward"
+      ],
+      "rendered_dimensions_attr": [
+        "1024x1536"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/why/statue-fractured-400.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 71534,
+      "alt_texts": [
+        "A heavily fractured ivory and gold Kathakali-inspired Kerala sculpture with missing crown, cheek and shoulder pieces, facing inward"
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/why/statue-fractured-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 96136,
+      "alt_texts": [
+        "A heavily fractured ivory and gold Kathakali-inspired Kerala sculpture with missing crown, cheek and shoulder pieces, facing inward"
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/why/statue-fractured-640.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 153158,
+      "alt_texts": [
+        "A heavily fractured ivory and gold Kathakali-inspired Kerala sculpture with missing crown, cheek and shoulder pieces, facing inward"
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/why/statue-restored-1024.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 234024,
+      "alt_texts": [
+        "An intact ivory and gold Kathakali-inspired Kerala sculpture with an ornate crown, facing inward"
+      ],
+      "rendered_dimensions_attr": [
+        "1024x1536"
+      ],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/why/statue-restored-400.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 67316,
+      "alt_texts": [
+        "An intact ivory and gold Kathakali-inspired Kerala sculpture with an ornate crown, facing inward"
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/why/statue-restored-480.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 90310,
+      "alt_texts": [
+        "An intact ivory and gold Kathakali-inspired Kerala sculpture with an ornate crown, facing inward"
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/images/why/statue-restored-640.webp",
+      "kind": "image",
+      "format": "webp",
+      "exists_locally": true,
+      "bytes": 147200,
+      "alt_texts": [
+        "An intact ivory and gold Kathakali-inspired Kerala sculpture with an ornate crown, facing inward"
+      ],
+      "rendered_dimensions_attr": [],
+      "regions": [
+        "main"
+      ],
+      "used_on_pages": [
+        "/"
+      ],
+      "used_on_page_count": 1
+    },
+    {
+      "src": "/manifest.webmanifest",
+      "kind": "head-manifest",
+      "format": "webmanifest",
+      "exists_locally": true,
+      "bytes": 630,
+      "alt_texts": [],
+      "rendered_dimensions_attr": [],
+      "regions": [],
+      "used_on_pages": [
+        "/",
+        "/404 (unmatched URLs)",
+        "/about",
+        "/ai-data-science-course-trivandrum",
+        "/amiu",
+        "/blogs",
+        "/blogs/ai-personalize-web-experince",
+        "/blogs/ai-tools-web-development-team",
+        "/blogs/conversational-ai-customer-experience",
+        "/blogs/festive-onam-ladder7",
+        "/blogs/independence-day-ladder7",
+        "/blogs/magical-christmas-celebration",
+        "/blogs/why-website-checks-need-to-go-beyond-performance-scores",
+        "/bootcamp",
+        "/careers",
+        "/contact",
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/business-analytics",
+        "/corporate-training-kerala/business-intelligence-data-analytics",
+        "/corporate-training-kerala/cloud-computing-bootcamp",
+        "/corporate-training-kerala/data-science",
+        "/corporate-training-kerala/data-visualization",
+        "/corporate-training-kerala/digital-content-creation",
+        "/corporate-training-kerala/full-stack-development",
+        "/corporate-training-kerala/marketing-automation-crm",
+        "/corporate-training-kerala/mobile-app-development",
+        "/corporate-training-kerala/prompt-engineering-ai-training",
+        "/corporate-training-kerala/webops-ai-ml",
+        "/earnmore",
+        "/education",
+        "/experience-the-first-job",
+        "/faq",
+        "/filldots",
+        "/full-stack-developer-course-trivandrum",
+        "/it-training-internship-trivandrum",
+        "/mindgym",
+        "/mirrorme",
+        "/myladder",
+        "/portfolio",
+        "/privacy",
+        "/products",
+        "/products/infinite-insights",
+        "/products/l7-insights",
+        "/products/l7-nexus",
+        "/products/outreach-engine",
+        "/products/site-360",
+        "/services",
+        "/services/aem-digital-experience",
+        "/services/agenticai",
+        "/services/ai-assistant",
+        "/services/aiproduct",
+        "/services/analytics-experimentation",
+        "/services/green-recovery",
+        "/services/headless-cms",
+        "/services/hyperautomation",
+        "/services/intelligent-websites",
+        "/services/localization-uiux",
+        "/services/product-solution",
+        "/services/skilled-resource",
+        "/services/technology",
+        "/services/web-experience",
+        "/shopify-developer-course-workshop",
+        "/sitemap",
+        "/software-testing-course-trivandrum",
+        "/thank-you",
+        "/training-internship/career-goal-finding"
+      ],
+      "used_on_page_count": 66
+    },
+    {
+      "src": "https://www.ladder7.in/og/ladder7-og.jpg",
+      "kind": "social-share-image",
+      "format": "jpg",
+      "exists_locally": true,
+      "bytes": 59669,
+      "alt_texts": [],
+      "rendered_dimensions_attr": [],
+      "regions": [],
+      "used_on_pages": [
+        "/",
+        "/404 (unmatched URLs)",
+        "/about",
+        "/ai-data-science-course-trivandrum",
+        "/amiu",
+        "/blogs",
+        "/blogs/ai-personalize-web-experince",
+        "/blogs/ai-tools-web-development-team",
+        "/blogs/conversational-ai-customer-experience",
+        "/blogs/festive-onam-ladder7",
+        "/blogs/independence-day-ladder7",
+        "/blogs/magical-christmas-celebration",
+        "/blogs/why-website-checks-need-to-go-beyond-performance-scores",
+        "/bootcamp",
+        "/careers",
+        "/contact",
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/business-analytics",
+        "/corporate-training-kerala/business-intelligence-data-analytics",
+        "/corporate-training-kerala/cloud-computing-bootcamp",
+        "/corporate-training-kerala/data-science",
+        "/corporate-training-kerala/data-visualization",
+        "/corporate-training-kerala/digital-content-creation",
+        "/corporate-training-kerala/full-stack-development",
+        "/corporate-training-kerala/marketing-automation-crm",
+        "/corporate-training-kerala/mobile-app-development",
+        "/corporate-training-kerala/prompt-engineering-ai-training",
+        "/corporate-training-kerala/webops-ai-ml",
+        "/earnmore",
+        "/education",
+        "/experience-the-first-job",
+        "/faq",
+        "/filldots",
+        "/full-stack-developer-course-trivandrum",
+        "/it-training-internship-trivandrum",
+        "/mindgym",
+        "/mirrorme",
+        "/myladder",
+        "/portfolio",
+        "/privacy",
+        "/products",
+        "/products/infinite-insights",
+        "/products/l7-insights",
+        "/products/l7-nexus",
+        "/products/outreach-engine",
+        "/products/site-360",
+        "/services",
+        "/services/aem-digital-experience",
+        "/services/agenticai",
+        "/services/ai-assistant",
+        "/services/aiproduct",
+        "/services/analytics-experimentation",
+        "/services/green-recovery",
+        "/services/headless-cms",
+        "/services/hyperautomation",
+        "/services/intelligent-websites",
+        "/services/localization-uiux",
+        "/services/product-solution",
+        "/services/skilled-resource",
+        "/services/technology",
+        "/services/web-experience",
+        "/shopify-developer-course-workshop",
+        "/sitemap",
+        "/software-testing-course-trivandrum",
+        "/thank-you",
+        "/training-internship/career-goal-finding"
+      ],
+      "used_on_page_count": 66,
+      "note": "absolute production URL; local file check against dist/client"
+    }
+  ],
+  "css_url_references": [
+    {
+      "url": "#step-glow",
+      "stylesheet": "src/components/sections/Delivery/PathwayBoard.css"
+    },
+    {
+      "url": "/fonts/geist-latin-wght-normal.woff2",
+      "stylesheet": "src/styles/typography.css"
+    }
+  ],
+  "source_literal_asset_paths_not_found_in_html": [
+    {
+      "path": "/og/ladder7-og.jpg",
+      "source": "src/seo/pages.ts",
+      "exists_locally": true,
+      "bytes": 59669
+    }
+  ],
+  "dist_images_unreferenced_sample": [],
+  "notes": [
+    "Asset paths from <img>, <picture><source>, <video>, <link rel=icon/preload/manifest>, og:image/twitter:image.",
+    "Images set by CSS/JS (backgrounds, canvas, SVG sprites) appear under css_url_references / source_literal_asset_paths_not_found_in_html.",
+    "bytes are from dist/client at scan time."
+  ]
+}

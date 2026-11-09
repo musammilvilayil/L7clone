@@ -167,3 +167,30 @@ export type Division = "it" | "education";
 export function divisionForPath(pathname: string): Division {
   return normalisePath(pathname).startsWith("/education") ? "education" : "it";
 }
+
+const EDUCATION_CONTACT_PAGES: ReadonlySet<PageKey> = new Set<PageKey>([
+  "education",
+  "productMyLadder",
+  "productMindGym",
+  "productMirrorMe",
+  "productFillDots",
+  "productAmiu",
+  "bootcamp",
+  "earnMore",
+  "trainingInternship",
+  "courseFullStack",
+  "courseAiDataScience",
+  "courseSoftwareTesting",
+  "courseShopify",
+  "firstJob",
+  "careerGoalFinding",
+]);
+
+/**
+ * Which division's enquiry form a page ends with. Wider than divisionForPath
+ * (which drives the header): student-facing training, course and learning
+ * product pages get the Education form; everything else gets the IT form.
+ */
+export function contactDivisionForPath(pathname: string): Division {
+  return EDUCATION_CONTACT_PAGES.has(pageForPath(pathname)) ? "education" : "it";
+}

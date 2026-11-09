@@ -5,6 +5,7 @@
  * two divisions' copy, products and journeys are genuinely different things,
  * not variations of the same list.
  */
+import { EDUCATION_INTERESTS } from "./company";
 import type { Capability } from "./services";
 import type { ImageName } from "./images.generated";
 
@@ -267,7 +268,7 @@ export const EDUCATION_CONTACT = {
   title: ["Let's build", "your future"] as [string, string],
   lead: "You don't need to have it all figured out.\nA conversation is a good place to start.",
   availabilityText: "Let's find your direction",
-  interests: ["Internships", "Career guidance", "My Ladder", "Personal growth"],
+  interests: EDUCATION_INTERESTS,
   labels: { name: "Your name", email: "Email", message: "Tell us a little about your goals" },
   placeholders: { name: "Alex Thomas", email: "alex@example.com", message: "Where are you now, and where would you like to go?" },
   formHeading: "Tell us about your next step.",

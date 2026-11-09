@@ -48,3 +48,8 @@
     color: var(--color-text);
   }
 }
+
+/* The tracked label above the reading copy ("01 WHAT DIGITAL PROGRESS CAN LOOK LIKE") reads at 18px. */
+.reading .label-tiny {
+  font-size: 1.125rem;
+}

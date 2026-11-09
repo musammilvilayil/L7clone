@@ -1,13 +1,13 @@
 import { useCallback, useEffect, useRef, type RefObject } from "react";
 import { useLocation } from "react-router";
 import { useEnquiry } from "../../context/EnquiryContext";
-import { MENU_INTERESTS } from "../../data/company";
+import { EDUCATION_INTERESTS, IT_INTERESTS } from "../../data/company";
 import { menuColumns, MENU_FORM } from "../../data/navigation";
 import { COMPANY } from "../../data/site";
 import { useFocusTrap } from "../../hooks/useFocusTrap";
 import { prefersReducedMotion } from "../../hooks/useMediaQuery";
 import { cn } from "../../utils/cn";
-import { divisionForPath, normalisePath } from "../../routes";
+import { contactDivisionForPath, normalisePath } from "../../routes";
 import { SmartLink } from "../common/SmartLink";
 import { EnquiryForm } from "../forms/EnquiryForm";
 import "./MegaMenu.css";
@@ -24,7 +24,7 @@ export function MegaMenu({ headerRef }: { headerRef: RefObject<HTMLElement | nul
   const menuRef = useRef<HTMLDivElement>(null);
   const location = useLocation();
   const current = normalisePath(location.pathname);
-  const division = divisionForPath(location.pathname);
+  const division = contactDivisionForPath(location.pathname);
   const isEducation = division === "education";
 
   useFocusTrap([headerRef, menuRef], menuOpen, closeMenu);
@@ -70,7 +70,7 @@ export function MegaMenu({ headerRef }: { headerRef: RefObject<HTMLElement | nul
             eyebrow={MENU_FORM.eyebrow}
             heading={MENU_FORM.heading}
             headingLevel="h2"
-            interests={MENU_INTERESTS}
+            interests={isEducation ? EDUCATION_INTERESTS : IT_INTERESTS}
             labels={{
               name: "Your name",
               email: "Email",

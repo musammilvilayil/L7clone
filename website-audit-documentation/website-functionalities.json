@@ -1,0 +1,2189 @@
+{
+  "scan_date": "2026-11-07",
+  "verification_policy": "Items are labelled by evidence. 'source-code' = read from TypeScript/CSS source. 'prerendered markup' = observed in generated HTML. Runtime behaviour was NOT executed unless listed under observed_behavior.",
+  "functionalities": [
+    {
+      "id": "fn_enquiry_form",
+      "name": "Enquiry form → WhatsApp hand-off",
+      "category": "forms",
+      "description": "Validates name, email, interest and message; on valid submit opens https://wa.me/<number>?text=<prefilled message> in a new tab (window.open, noopener,noreferrer). Shows a 'Message ready' confirmation with a fallback link and a mailto: fallback. Submit button is never disabled so errors are always explained.",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/components/forms/EnquiryForm.tsx",
+          "src/services/enquiry.ts"
+        ]
+      },
+      "where_used": "contact sections on most pages + overlay menu",
+      "verification": "not tested at runtime in this audit (source-code finding only)"
+    },
+    {
+      "id": "fn_enquiry_validation",
+      "name": "Enquiry form validation rules",
+      "category": "forms",
+      "description": "name required, max 100 chars; email required, max 254 chars, pattern /^[^\\s@]+@[^\\s@]+\\.[^\\s@]{2,}$/; message required, max 2000 chars; interest must be one of the offered options. Validation runs on blur (touched) and on submit; first invalid field receives focus and a summary 'Please check N fields: …' is shown.",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/services/enquiry.ts",
+          "src/components/forms/EnquiryForm.tsx"
+        ]
+      },
+      "verification": "not tested at runtime in this audit (source-code finding only)",
+      "error_messages": [
+        "Please enter your name.",
+        "Please enter your email address.",
+        "Please enter a valid email address, like you@company.com.",
+        "Please tell us a little about your project.",
+        "Please choose what you're interested in."
+      ]
+    },
+    {
+      "id": "fn_enquiry_endpoint",
+      "name": "Optional enquiry recording endpoint (API integration)",
+      "category": "integrations",
+      "description": "If VITE_ENQUIRY_ENDPOINT is set (https or localhost), a JSON copy {name,email,interest,message,source,page,submittedAt} is POSTed with fetch keepalive. No endpoint is configured in .env.example, so by default no server-side recording exists.",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/services/enquiry.ts",
+          "src/config/env.ts",
+          ".env.example"
+        ]
+      },
+      "verification": "not tested at runtime in this audit (source-code finding only)"
+    },
+    {
+      "id": "fn_whatsapp",
+      "name": "WhatsApp number configuration",
+      "category": "integrations",
+      "description": "Number from VITE_WHATSAPP_NUMBER (default 918137979401) is compiled into the client bundle.",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/config/env.ts"
+        ]
+      },
+      "verification": "not tested at runtime in this audit (source-code finding only)"
+    },
+    {
+      "id": "fn_megamenu",
+      "name": "Overlay (mega) menu",
+      "category": "navigation",
+      "description": "Header 'menu-toggle' button (aria-controls=menu, aria-expanded) opens a full overlay with quick enquiry form + grouped site map. Page content behind it is inert, focus is trapped, Escape closes and returns focus, body scroll is locked (class menu-open), and any navigation closes it.",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/components/navigation/MegaMenu.tsx",
+          "src/components/layout/Header.tsx",
+          "src/hooks/useFocusTrap.ts",
+          "src/layouts/MainLayout.tsx"
+        ]
+      },
+      "verification": "not tested at runtime in this audit (source-code finding only)"
+    },
+    {
+      "id": "fn_header_roll",
+      "name": "Desktop nav 'roll' hover effect",
+      "category": "hover-effects",
+      "description": "Each desktop nav label is duplicated (.nav-roll) so the label rolls up to a copy on hover; the plain label is available to screen readers via .sr-only.",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/components/layout/Header.tsx",
+          "src/components/layout/Header.css"
+        ]
+      },
+      "verification": "not tested at runtime in this audit (source-code finding only)"
+    },
+    {
+      "id": "fn_division_switch",
+      "name": "Division switch (IT / Education)",
+      "category": "navigation",
+      "description": "Pill links to switch between Ladder7 IT and Ladder7 Education; brand logo links to '/' or '/education' depending on the current path (divisionForPath: paths starting /education = education).",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/components/layout/Header.tsx",
+          "src/data/navigation.ts",
+          "src/routes.ts"
+        ]
+      },
+      "verification": "not tested at runtime in this audit (source-code finding only)"
+    },
+    {
+      "id": "fn_route_transition",
+      "name": "Page-to-page loading animation",
+      "category": "animations",
+      "description": "Intercepts same-origin link clicks (capture phase): red then dark panel slide over the page showing the destination label, route changes underneath (780ms leave, 220ms hold, 1000ms reveal, 4500ms fail-safe), then panels lift away. Skipped for reduced motion, in-page anchors, same-page links, new-tab/download links and modified clicks.",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/components/common/RouteTransition.tsx",
+          "src/components/common/RouteTransition.css"
+        ]
+      },
+      "verification": "not tested at runtime in this audit (source-code finding only)"
+    },
+    {
+      "id": "fn_scroll_reveal",
+      "name": "Scroll-reveal entrance animations",
+      "category": "animations",
+      "description": "Shared IntersectionObserver (threshold 0.08) adds .is-visible to .reveal elements. Content is only hidden once <html> has .motion-ready; an inline script removes .motion-ready after 6s if hydration did not occur, so no-JS/crawlers see all content.",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/hooks/useReveal.ts",
+          "src/styles/animations.css",
+          "index.html"
+        ]
+      },
+      "verification": "not tested at runtime in this audit (source-code finding only)"
+    },
+    {
+      "id": "fn_prerender",
+      "name": "Static prerender + hydration (SSR output)",
+      "category": "rendering",
+      "description": "Build renders every route with react-dom/static into dist/client/<route>/index.html, injects head SEO tags and JSON-LD, writes 404.html, sitemap.xml and robots.txt, then hydrates in the browser. This audit's content extraction reads that prerendered output.",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "scripts/prerender.mjs",
+          "src/entry-server.tsx",
+          "src/main.tsx"
+        ]
+      },
+      "verification": "observed: prerendered HTML files exist and were parsed by this audit"
+    },
+    {
+      "id": "fn_routing",
+      "name": "Client-side routing + route prefetch",
+      "category": "navigation",
+      "description": "react-router with a data-driven ROUTES table; lazy page chunks in the browser; RoutePrefetch warms page chunks; ScrollManager handles scroll/hash navigation.",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/App.tsx",
+          "src/routes.ts",
+          "src/components/common/RoutePrefetch.tsx",
+          "src/components/common/ScrollManager.tsx"
+        ]
+      },
+      "verification": "not tested at runtime in this audit (source-code finding only)"
+    },
+    {
+      "id": "fn_indexing_toggle",
+      "name": "Staging noindex toggle",
+      "category": "seo",
+      "description": "VITE_ALLOW_INDEXING=false makes every page noindex and robots.txt disallow crawling.",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/config/env.ts",
+          "scripts/prerender.mjs"
+        ]
+      },
+      "verification": "not tested at runtime in this audit (source-code finding only)"
+    },
+    {
+      "id": "fn_particle_field",
+      "name": "Animated particle canvas",
+      "category": "animations",
+      "description": "<canvas class=particle-field> used in hero/intro areas.",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/components/sections/Hero/ParticleField.tsx"
+        ]
+      },
+      "verification": "not tested at runtime in this audit (source-code finding only)"
+    },
+    {
+      "id": "fn_auto_faqsection",
+      "name": "FaqSection (component behaviour)",
+      "category": "interactive-component",
+      "description": "\"Good questions.\" — native <details> accordion (keyboard and screen-reader support for free; answers are in the HTML for crawlers). Opening one closes the others, as in the design.",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/components/sections/Faq/FaqSection.tsx"
+        ]
+      },
+      "uses_react_state_or_effects": true,
+      "browser_apis_referenced": [],
+      "used_on_pages": [
+        "/"
+      ],
+      "verification": "not tested at runtime in this audit (source-code finding only)",
+      "basis": "auto-detected from component file name + its doc comment"
+    },
+    {
+      "id": "fn_auto_filmdialog",
+      "name": "FilmDialog (component behaviour)",
+      "category": "interactive-component",
+      "description": "Twenty-second visual overview (four cross-fading slides) in a native modal <dialog>: focus is contained by the browser, Escape closes, the backdrop click closes, and Pause/Replay meets WCAG 2.2.2. Slide images are only requested the first time the film is opened.",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/components/sections/MotionStory/FilmDialog.tsx"
+        ]
+      },
+      "uses_react_state_or_effects": true,
+      "browser_apis_referenced": [
+        "dialog",
+        "requestAnimationFrame",
+        "showModal"
+      ],
+      "used_on_pages": [
+        "/"
+      ],
+      "verification": "not tested at runtime in this audit (source-code finding only)",
+      "basis": "auto-detected from component file name + its doc comment"
+    },
+    {
+      "id": "fn_auto_journeytimeline",
+      "name": "JourneyTimeline (component behaviour)",
+      "category": "interactive-component",
+      "description": "Four-phase journey. A red line fills and phases light up as the timeline scrolls through the viewport (horizontal on desktop, vertical on phones).",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/components/sections/Approach/JourneyTimeline.tsx"
+        ]
+      },
+      "uses_react_state_or_effects": true,
+      "browser_apis_referenced": [],
+      "used_on_pages": [
+        "/",
+        "/education"
+      ],
+      "verification": "not tested at runtime in this audit (source-code finding only)",
+      "basis": "auto-detected from component file name + its doc comment"
+    },
+    {
+      "id": "fn_auto_motionstory",
+      "name": "MotionStory (component behaviour)",
+      "category": "interactive-component",
+      "description": "\"See the bigger picture.\" — a film card that scales up on scroll and opens the overview.",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/components/sections/MotionStory/MotionStory.tsx"
+        ]
+      },
+      "uses_react_state_or_effects": true,
+      "browser_apis_referenced": [
+        "matchMedia",
+        "dialog"
+      ],
+      "used_on_pages": [
+        "/"
+      ],
+      "verification": "not tested at runtime in this audit (source-code finding only)",
+      "basis": "auto-detected from component file name + its doc comment"
+    },
+    {
+      "id": "fn_auto_pathwayboard",
+      "name": "PathwayBoard (component behaviour)",
+      "category": "interactive-component",
+      "description": "\"The seven steps\" — a pinned scene: while the section scrolls past, the board stays fixed below the header and scroll position walks through the seven delivery steps (route draws, dot travels, panel tilts). Tabs and the prev/next buttons jump to a step by scrolling to its position. With reduced motion, or on screens shorter than 620px, it becomes a normal tabbed panel in the document flow.",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/components/sections/Delivery/PathwayBoard.tsx"
+        ]
+      },
+      "uses_react_state_or_effects": true,
+      "browser_apis_referenced": [
+        "matchMedia"
+      ],
+      "used_on_pages": [
+        "/"
+      ],
+      "verification": "not tested at runtime in this audit (source-code finding only)",
+      "basis": "auto-detected from component file name + its doc comment"
+    },
+    {
+      "id": "fn_auto_possibilitieswall",
+      "name": "PossibilitiesWall (component behaviour)",
+      "category": "interactive-component",
+      "description": "\"\\n\" marks a desktop-only line break; no trailing accent (the design never adds one here).",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/components/sections/PossibilitiesWall/PossibilitiesWall.tsx"
+        ]
+      },
+      "uses_react_state_or_effects": true,
+      "browser_apis_referenced": [],
+      "used_on_pages": [
+        "/",
+        "/education"
+      ],
+      "verification": "not tested at runtime in this audit (source-code finding only)",
+      "basis": "auto-detected from component file name + its doc comment"
+    },
+    {
+      "id": "fn_auto_programdialog",
+      "name": "ProgramDialog (component behaviour)",
+      "category": "interactive-component",
+      "description": "Program detail modal (native <dialog>): duration/format, full description and the skills list, plus an \"Talk to an advisor\" button that hands off to ContactSection's own form (see ProgramsSection's `applyFromDialog`).",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/components/sections/Programs/ProgramDialog.tsx"
+        ]
+      },
+      "uses_react_state_or_effects": true,
+      "browser_apis_referenced": [
+        "dialog",
+        "showModal"
+      ],
+      "used_on_pages": [
+        "/education"
+      ],
+      "verification": "not tested at runtime in this audit (source-code finding only)",
+      "basis": "auto-detected from component file name + its doc comment"
+    },
+    {
+      "id": "fn_auto_programssection",
+      "name": "ProgramsSection (component behaviour)",
+      "category": "interactive-component",
+      "description": "\"Your next chapter.\" — a filterable grid of training programs. Each card opens a detail dialog; \"Talk to an advisor\" there prefills the page's own contact form and scrolls to it (see ContactSection's \"contact\"-target prefill).",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/components/sections/Programs/ProgramsSection.tsx"
+        ]
+      },
+      "uses_react_state_or_effects": true,
+      "browser_apis_referenced": [
+        "dialog",
+        "matchMedia",
+        "requestAnimationFrame"
+      ],
+      "used_on_pages": [
+        "/education"
+      ],
+      "verification": "not tested at runtime in this audit (source-code finding only)",
+      "basis": "auto-detected from component file name + its doc comment"
+    },
+    {
+      "id": "fn_auto_servicefaq",
+      "name": "ServiceFaq (component behaviour)",
+      "category": "interactive-component",
+      "description": "Services hub FAQ (design: .service-faq) — its own 4 questions, not the generic FAQS.",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/components/sections/ServiceFaq/ServiceFaq.tsx"
+        ]
+      },
+      "uses_react_state_or_effects": true,
+      "browser_apis_referenced": [],
+      "used_on_pages": [
+        "/services"
+      ],
+      "verification": "not tested at runtime in this audit (source-code finding only)",
+      "basis": "auto-detected from component file name + its doc comment"
+    },
+    {
+      "id": "fn_auto_solutionssection",
+      "name": "SolutionsSection (component behaviour)",
+      "category": "interactive-component",
+      "description": "\"Make the next action happen.\" — light section with three solution tabs. Controlled by the page so capability rows and the contact form stay in sync with the selected tab (design behaviour).",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/components/sections/Solutions/SolutionsSection.tsx"
+        ]
+      },
+      "uses_react_state_or_effects": true,
+      "browser_apis_referenced": [],
+      "used_on_pages": [
+        "/"
+      ],
+      "verification": "not tested at runtime in this audit (source-code finding only)",
+      "basis": "auto-detected from component file name + its doc comment"
+    },
+    {
+      "id": "fn_auto_workflow",
+      "name": "Workflow (component behaviour)",
+      "category": "interactive-component",
+      "description": "\"Connected workflow\" diagram: three nodes joined by animated connectors. Decorative summary of the solution copy next to it, so it is aria-hidden.",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/components/sections/Solutions/Workflow.tsx"
+        ]
+      },
+      "uses_react_state_or_effects": false,
+      "browser_apis_referenced": [],
+      "used_on_pages": [
+        "/"
+      ],
+      "verification": "not tested at runtime in this audit (source-code finding only)",
+      "basis": "auto-detected from component file name + its doc comment"
+    },
+    {
+      "id": "fn_auto_worldmap",
+      "name": "WorldMap (component behaviour)",
+      "category": "interactive-component",
+      "description": "Dotted world map (design: .about-map), highlighting India/Kerala with three reach arcs. Geography from Natural Earth 1:50m land/country data (public domain, Equal Earth projection) — reused verbatim from the design so the dot placement stays exact; only colors are themed via CSS (.map-grid / .map-india-grid / .map-link / .map-pulse / .map-pin / .kerala-label in AboutReach.css).",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/components/sections/AboutReach/WorldMap.tsx"
+        ]
+      },
+      "uses_react_state_or_effects": false,
+      "browser_apis_referenced": [],
+      "used_on_pages": [
+        "/about"
+      ],
+      "verification": "not tested at runtime in this audit (source-code finding only)",
+      "basis": "auto-detected from component file name + its doc comment"
+    }
+  ],
+  "forms": [
+    {
+      "form_id": "form_01",
+      "region": "overlay-menu",
+      "fields": [
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "Digital experience",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "Applied AI",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "Technology strategy",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "Training & internships",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "Personal growth",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "Corporate training",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "name",
+          "type": "text",
+          "label": "Your name*",
+          "placeholder": null,
+          "required_attr": true,
+          "aria_required": null,
+          "autocomplete": "name",
+          "maxlength": "120",
+          "rows": null,
+          "aria_invalid": "false"
+        },
+        {
+          "element": "input",
+          "name": "email",
+          "type": "email",
+          "label": "Email*",
+          "placeholder": null,
+          "required_attr": true,
+          "aria_required": null,
+          "autocomplete": "email",
+          "maxlength": "254",
+          "rows": null,
+          "aria_invalid": "false"
+        },
+        {
+          "element": "textarea",
+          "name": "message",
+          "type": "textarea",
+          "label": "Tell us about your next step*",
+          "placeholder": null,
+          "required_attr": true,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": "2050",
+          "rows": "2",
+          "aria_invalid": "false"
+        }
+      ],
+      "submit_buttons": [
+        "Continue on WhatsApp (opens WhatsApp in a new tab)"
+      ],
+      "wrapper_class": "enquiry enquiry--menu",
+      "method": null,
+      "action": null,
+      "occurrences": [
+        {
+          "page": "/",
+          "section_id": null
+        },
+        {
+          "page": "/services",
+          "section_id": null
+        },
+        {
+          "page": "/about",
+          "section_id": null
+        },
+        {
+          "page": "/contact",
+          "section_id": null
+        },
+        {
+          "page": "/education",
+          "section_id": null
+        },
+        {
+          "page": "/faq",
+          "section_id": null
+        },
+        {
+          "page": "/careers",
+          "section_id": null
+        },
+        {
+          "page": "/portfolio",
+          "section_id": null
+        },
+        {
+          "page": "/products",
+          "section_id": null
+        },
+        {
+          "page": "/products/site-360",
+          "section_id": null
+        },
+        {
+          "page": "/products/l7-nexus",
+          "section_id": null
+        },
+        {
+          "page": "/products/outreach-engine",
+          "section_id": null
+        },
+        {
+          "page": "/products/l7-insights",
+          "section_id": null
+        },
+        {
+          "page": "/products/infinite-insights",
+          "section_id": null
+        },
+        {
+          "page": "/myladder",
+          "section_id": null
+        },
+        {
+          "page": "/mindgym",
+          "section_id": null
+        },
+        {
+          "page": "/mirrorme",
+          "section_id": null
+        },
+        {
+          "page": "/filldots",
+          "section_id": null
+        },
+        {
+          "page": "/amiu",
+          "section_id": null
+        },
+        {
+          "page": "/services/aem-digital-experience",
+          "section_id": null
+        },
+        {
+          "page": "/services/analytics-experimentation",
+          "section_id": null
+        },
+        {
+          "page": "/services/headless-cms",
+          "section_id": null
+        },
+        {
+          "page": "/services/web-experience",
+          "section_id": null
+        },
+        {
+          "page": "/services/localization-uiux",
+          "section_id": null
+        },
+        {
+          "page": "/services/ai-assistant",
+          "section_id": null
+        },
+        {
+          "page": "/services/agenticai",
+          "section_id": null
+        },
+        {
+          "page": "/services/intelligent-websites",
+          "section_id": null
+        },
+        {
+          "page": "/services/aiproduct",
+          "section_id": null
+        },
+        {
+          "page": "/services/hyperautomation",
+          "section_id": null
+        },
+        {
+          "page": "/services/technology",
+          "section_id": null
+        },
+        {
+          "page": "/services/skilled-resource",
+          "section_id": null
+        },
+        {
+          "page": "/services/green-recovery",
+          "section_id": null
+        },
+        {
+          "page": "/services/product-solution",
+          "section_id": null
+        },
+        {
+          "page": "/corporate-training-kerala",
+          "section_id": null
+        },
+        {
+          "page": "/corporate-training-kerala/full-stack-development",
+          "section_id": null
+        },
+        {
+          "page": "/corporate-training-kerala/data-science",
+          "section_id": null
+        },
+        {
+          "page": "/corporate-training-kerala/mobile-app-development",
+          "section_id": null
+        },
+        {
+          "page": "/corporate-training-kerala/prompt-engineering-ai-training",
+          "section_id": null
+        },
+        {
+          "page": "/corporate-training-kerala/data-visualization",
+          "section_id": null
+        },
+        {
+          "page": "/corporate-training-kerala/cloud-computing-bootcamp",
+          "section_id": null
+        },
+        {
+          "page": "/corporate-training-kerala/digital-content-creation",
+          "section_id": null
+        },
+        {
+          "page": "/corporate-training-kerala/business-analytics",
+          "section_id": null
+        },
+        {
+          "page": "/corporate-training-kerala/business-intelligence-data-analytics",
+          "section_id": null
+        },
+        {
+          "page": "/corporate-training-kerala/marketing-automation-crm",
+          "section_id": null
+        },
+        {
+          "page": "/corporate-training-kerala/webops-ai-ml",
+          "section_id": null
+        },
+        {
+          "page": "/blogs",
+          "section_id": null
+        },
+        {
+          "page": "/blogs/ai-personalize-web-experince",
+          "section_id": null
+        },
+        {
+          "page": "/blogs/ai-tools-web-development-team",
+          "section_id": null
+        },
+        {
+          "page": "/blogs/conversational-ai-customer-experience",
+          "section_id": null
+        },
+        {
+          "page": "/blogs/why-website-checks-need-to-go-beyond-performance-scores",
+          "section_id": null
+        },
+        {
+          "page": "/blogs/festive-onam-ladder7",
+          "section_id": null
+        },
+        {
+          "page": "/blogs/magical-christmas-celebration",
+          "section_id": null
+        },
+        {
+          "page": "/blogs/independence-day-ladder7",
+          "section_id": null
+        },
+        {
+          "page": "/privacy",
+          "section_id": null
+        },
+        {
+          "page": "/thank-you",
+          "section_id": null
+        },
+        {
+          "page": "/sitemap",
+          "section_id": null
+        },
+        {
+          "page": "/bootcamp",
+          "section_id": null
+        },
+        {
+          "page": "/earnmore",
+          "section_id": null
+        },
+        {
+          "page": "/it-training-internship-trivandrum",
+          "section_id": null
+        },
+        {
+          "page": "/full-stack-developer-course-trivandrum",
+          "section_id": null
+        },
+        {
+          "page": "/ai-data-science-course-trivandrum",
+          "section_id": null
+        },
+        {
+          "page": "/software-testing-course-trivandrum",
+          "section_id": null
+        },
+        {
+          "page": "/shopify-developer-course-workshop",
+          "section_id": null
+        },
+        {
+          "page": "/experience-the-first-job",
+          "section_id": null
+        },
+        {
+          "page": "/training-internship/career-goal-finding",
+          "section_id": null
+        },
+        {
+          "page": "/404 (unmatched URLs)",
+          "section_id": null
+        }
+      ],
+      "headings_seen": [
+        "What comes next for you?"
+      ],
+      "occurrence_count": 66,
+      "validation": "see fn_enquiry_validation (client-side, source-code finding). Native HTML5 'required' attributes: present",
+      "submit_action": "preventDefault → validate → window.open WhatsApp URL (source-code finding)",
+      "verified": false
+    },
+    {
+      "form_id": "form_02",
+      "region": "main",
+      "fields": [
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "Digital experience",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "AI & automation",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "Training & internships",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "Corporate training",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "Career guidance",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "Personal growth",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "name",
+          "type": "text",
+          "label": "Your name*",
+          "placeholder": "Your name",
+          "required_attr": true,
+          "aria_required": null,
+          "autocomplete": "name",
+          "maxlength": "120",
+          "rows": null,
+          "aria_invalid": "false"
+        },
+        {
+          "element": "input",
+          "name": "email",
+          "type": "email",
+          "label": "Work email*",
+          "placeholder": "you@company.com",
+          "required_attr": true,
+          "aria_required": null,
+          "autocomplete": "email",
+          "maxlength": "254",
+          "rows": null,
+          "aria_invalid": "false"
+        },
+        {
+          "element": "textarea",
+          "name": "message",
+          "type": "textarea",
+          "label": "What would you like to achieve?*",
+          "placeholder": "Tell us about your business, challenge or idea.",
+          "required_attr": true,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": "2050",
+          "rows": "3",
+          "aria_invalid": "false"
+        }
+      ],
+      "submit_buttons": [
+        "Continue on WhatsApp (opens WhatsApp in a new tab)"
+      ],
+      "wrapper_class": "enquiry enquiry--contact",
+      "method": null,
+      "action": null,
+      "occurrences": [
+        {
+          "page": "/",
+          "section_id": "home_13_contact"
+        },
+        {
+          "page": "/services",
+          "section_id": "services_06_contact"
+        },
+        {
+          "page": "/about",
+          "section_id": "about_07_contact"
+        },
+        {
+          "page": "/contact",
+          "section_id": "contact_01_contact"
+        },
+        {
+          "page": "/faq",
+          "section_id": "faq_03_contact"
+        },
+        {
+          "page": "/careers",
+          "section_id": "careers_07_contact"
+        },
+        {
+          "page": "/portfolio",
+          "section_id": "portfolio_11_contact"
+        },
+        {
+          "page": "/products",
+          "section_id": "products_03_contact"
+        },
+        {
+          "page": "/products/site-360",
+          "section_id": "productsite360_08_contact"
+        },
+        {
+          "page": "/products/l7-nexus",
+          "section_id": "productl7nexus_11_contact"
+        },
+        {
+          "page": "/products/outreach-engine",
+          "section_id": "productoutreachengine_09_contact"
+        },
+        {
+          "page": "/products/l7-insights",
+          "section_id": "productl7insights_08_contact"
+        },
+        {
+          "page": "/products/infinite-insights",
+          "section_id": "productinfiniteinsights_07_contact"
+        },
+        {
+          "page": "/myladder",
+          "section_id": "productmyladder_07_contact"
+        },
+        {
+          "page": "/mindgym",
+          "section_id": "productmindgym_07_contact"
+        },
+        {
+          "page": "/mirrorme",
+          "section_id": "productmirrorme_06_contact"
+        },
+        {
+          "page": "/filldots",
+          "section_id": "productfilldots_06_contact"
+        },
+        {
+          "page": "/amiu",
+          "section_id": "productamiu_07_contact"
+        },
+        {
+          "page": "/services/aem-digital-experience",
+          "section_id": "serviceaemdigitalexperience_07_contact"
+        },
+        {
+          "page": "/services/analytics-experimentation",
+          "section_id": "serviceanalyticsexperimentation_07_contact"
+        },
+        {
+          "page": "/services/headless-cms",
+          "section_id": "serviceheadlesscms_07_contact"
+        },
+        {
+          "page": "/services/web-experience",
+          "section_id": "servicewebexperience_06_contact"
+        },
+        {
+          "page": "/services/localization-uiux",
+          "section_id": "servicelocalizationuiux_06_contact"
+        },
+        {
+          "page": "/services/ai-assistant",
+          "section_id": "serviceaiassistant_07_contact"
+        },
+        {
+          "page": "/services/agenticai",
+          "section_id": "serviceagenticai_07_contact"
+        },
+        {
+          "page": "/services/intelligent-websites",
+          "section_id": "serviceintelligentwebsites_07_contact"
+        },
+        {
+          "page": "/services/aiproduct",
+          "section_id": "serviceaiproduct_07_contact"
+        },
+        {
+          "page": "/services/hyperautomation",
+          "section_id": "servicehyperautomation_06_contact"
+        },
+        {
+          "page": "/services/technology",
+          "section_id": "servicetechnology_07_contact"
+        },
+        {
+          "page": "/services/skilled-resource",
+          "section_id": "serviceskilledresource_07_contact"
+        },
+        {
+          "page": "/services/green-recovery",
+          "section_id": "servicegreenrecovery_07_contact"
+        },
+        {
+          "page": "/services/product-solution",
+          "section_id": "serviceproductsolution_06_contact"
+        },
+        {
+          "page": "/corporate-training-kerala",
+          "section_id": "corporatetraining_05_contact"
+        },
+        {
+          "page": "/corporate-training-kerala/full-stack-development",
+          "section_id": "trainingfullstackdevelopment_07_contact"
+        },
+        {
+          "page": "/corporate-training-kerala/data-science",
+          "section_id": "trainingdatascience_07_contact"
+        },
+        {
+          "page": "/corporate-training-kerala/mobile-app-development",
+          "section_id": "trainingmobileappdevelopment_07_contact"
+        },
+        {
+          "page": "/corporate-training-kerala/prompt-engineering-ai-training",
+          "section_id": "trainingpromptengineeringaitraining_07_contact"
+        },
+        {
+          "page": "/corporate-training-kerala/data-visualization",
+          "section_id": "trainingdatavisualization_07_contact"
+        },
+        {
+          "page": "/corporate-training-kerala/cloud-computing-bootcamp",
+          "section_id": "trainingcloudcomputingbootcamp_07_contact"
+        },
+        {
+          "page": "/corporate-training-kerala/digital-content-creation",
+          "section_id": "trainingdigitalcontentcreation_07_contact"
+        },
+        {
+          "page": "/corporate-training-kerala/business-analytics",
+          "section_id": "trainingbusinessanalytics_07_contact"
+        },
+        {
+          "page": "/corporate-training-kerala/business-intelligence-data-analytics",
+          "section_id": "trainingbusinessintelligencedataanalytics_07_contact"
+        },
+        {
+          "page": "/corporate-training-kerala/marketing-automation-crm",
+          "section_id": "trainingmarketingautomationcrm_07_contact"
+        },
+        {
+          "page": "/corporate-training-kerala/webops-ai-ml",
+          "section_id": "trainingwebopsaiml_07_contact"
+        },
+        {
+          "page": "/blogs",
+          "section_id": "blog_04_contact"
+        },
+        {
+          "page": "/blogs/ai-personalize-web-experince",
+          "section_id": "blogaipersonalization_03_contact"
+        },
+        {
+          "page": "/blogs/ai-tools-web-development-team",
+          "section_id": "blogaitoolswebteams_03_contact"
+        },
+        {
+          "page": "/blogs/conversational-ai-customer-experience",
+          "section_id": "blogconversationalai_03_contact"
+        },
+        {
+          "page": "/blogs/why-website-checks-need-to-go-beyond-performance-scores",
+          "section_id": "blogwebsitechecks_03_contact"
+        },
+        {
+          "page": "/blogs/festive-onam-ladder7",
+          "section_id": "blogonam_03_contact"
+        },
+        {
+          "page": "/blogs/magical-christmas-celebration",
+          "section_id": "blogchristmas_03_contact"
+        },
+        {
+          "page": "/blogs/independence-day-ladder7",
+          "section_id": "blogindependenceday_03_contact"
+        },
+        {
+          "page": "/privacy",
+          "section_id": "privacy_03_contact"
+        },
+        {
+          "page": "/thank-you",
+          "section_id": "thankyou_03_contact"
+        },
+        {
+          "page": "/sitemap",
+          "section_id": "sitemap_03_contact"
+        },
+        {
+          "page": "/bootcamp",
+          "section_id": "bootcamp_08_contact"
+        },
+        {
+          "page": "/earnmore",
+          "section_id": "earnmore_07_contact"
+        },
+        {
+          "page": "/it-training-internship-trivandrum",
+          "section_id": "traininginternship_05_contact"
+        },
+        {
+          "page": "/full-stack-developer-course-trivandrum",
+          "section_id": "coursefullstack_08_contact"
+        },
+        {
+          "page": "/ai-data-science-course-trivandrum",
+          "section_id": "courseaidatascience_08_contact"
+        },
+        {
+          "page": "/software-testing-course-trivandrum",
+          "section_id": "coursesoftwaretesting_08_contact"
+        },
+        {
+          "page": "/shopify-developer-course-workshop",
+          "section_id": "courseshopify_07_contact"
+        },
+        {
+          "page": "/experience-the-first-job",
+          "section_id": "firstjob_04_contact"
+        },
+        {
+          "page": "/training-internship/career-goal-finding",
+          "section_id": "careergoalfinding_03_contact"
+        }
+      ],
+      "headings_seen": [
+        "Tell us what you're working on.",
+        "Tell us about your next step."
+      ],
+      "occurrence_count": 64,
+      "validation": "see fn_enquiry_validation (client-side, source-code finding). Native HTML5 'required' attributes: present",
+      "submit_action": "preventDefault → validate → window.open WhatsApp URL (source-code finding)",
+      "verified": false
+    },
+    {
+      "form_id": "form_03",
+      "region": "main",
+      "fields": [
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "Internships",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "Career guidance",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "My Ladder",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "interest",
+          "type": "radio",
+          "label": "Personal growth",
+          "placeholder": null,
+          "required_attr": false,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": null,
+          "rows": null,
+          "aria_invalid": null
+        },
+        {
+          "element": "input",
+          "name": "name",
+          "type": "text",
+          "label": "Your name*",
+          "placeholder": "Alex Thomas",
+          "required_attr": true,
+          "aria_required": null,
+          "autocomplete": "name",
+          "maxlength": "120",
+          "rows": null,
+          "aria_invalid": "false"
+        },
+        {
+          "element": "input",
+          "name": "email",
+          "type": "email",
+          "label": "Email*",
+          "placeholder": "alex@example.com",
+          "required_attr": true,
+          "aria_required": null,
+          "autocomplete": "email",
+          "maxlength": "254",
+          "rows": null,
+          "aria_invalid": "false"
+        },
+        {
+          "element": "textarea",
+          "name": "message",
+          "type": "textarea",
+          "label": "Tell us a little about your goals*",
+          "placeholder": "Where are you now, and where would you like to go?",
+          "required_attr": true,
+          "aria_required": null,
+          "autocomplete": null,
+          "maxlength": "2050",
+          "rows": "3",
+          "aria_invalid": "false"
+        }
+      ],
+      "submit_buttons": [
+        "Continue on WhatsApp (opens WhatsApp in a new tab)"
+      ],
+      "wrapper_class": "enquiry enquiry--contact",
+      "method": null,
+      "action": null,
+      "occurrences": [
+        {
+          "page": "/education",
+          "section_id": "education_09_contact"
+        }
+      ],
+      "headings_seen": [
+        "Tell us about your next step."
+      ],
+      "occurrence_count": 1,
+      "validation": "see fn_enquiry_validation (client-side, source-code finding). Native HTML5 'required' attributes: present",
+      "submit_action": "preventDefault → validate → window.open WhatsApp URL (source-code finding)",
+      "verified": false
+    }
+  ],
+  "integrations": [
+    {
+      "name": "WhatsApp (wa.me click-to-chat)",
+      "type": "external link / hand-off",
+      "details": "Enquiry forms open https://wa.me/918137979401?text=… (number configurable).",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/services/enquiry.ts",
+          "src/config/env.ts"
+        ]
+      },
+      "verified": false
+    },
+    {
+      "name": "Enquiry endpoint (JSON POST)",
+      "type": "optional API",
+      "details": "Disabled unless VITE_ENQUIRY_ENDPOINT is set.",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/services/enquiry.ts"
+        ]
+      },
+      "verified": false
+    },
+    {
+      "name": "mailto fallback",
+      "type": "email link",
+      "details": "mailto link built from COMPANY.email with subject/body from the form.",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/components/forms/EnquiryForm.tsx",
+          "src/data/site.ts"
+        ]
+      },
+      "verified": false
+    },
+    {
+      "name": "Google Docs links",
+      "type": "external links",
+      "details": "3 docs.google.com URL occurrences in src.",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src"
+        ]
+      },
+      "verified": false
+    },
+    {
+      "name": "AMIU web app (Azure)",
+      "type": "external link",
+      "details": "https://amiu.azurewebsites.net referenced in source.",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/data"
+        ]
+      },
+      "verified": false
+    },
+    {
+      "name": "Social profiles (LinkedIn, Instagram)",
+      "type": "external links",
+      "details": "SOCIAL list in src/data/site.ts; also JSON-LD sameAs.",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src/data/site.ts",
+          "src/seo/schema.ts"
+        ]
+      },
+      "verified": false
+    },
+    {
+      "name": "google.com link",
+      "type": "external link",
+      "details": "1 google.com reference in source.",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src"
+        ]
+      },
+      "verified": false
+    },
+    {
+      "name": "Analytics / tag manager",
+      "type": "none found",
+      "details": "No gtag, dataLayer, GTM or pixel found in src/ or index.html (grep of earlier scan).",
+      "evidence": {
+        "type": "source-code",
+        "files": [
+          "src",
+          "index.html"
+        ]
+      },
+      "verified": "grep only"
+    }
+  ],
+  "responsive": {
+    "breakpoints_in_css": [
+      "max-width:1000px",
+      "max-width:1100px",
+      "max-width:360px",
+      "max-width:700px",
+      "max-width:850px",
+      "max-width:900px",
+      "min-width:1600px",
+      "min-width:1700px",
+      "min-width:701px"
+    ],
+    "media_queries": [
+      {
+        "condition": "(max-width: 700px)",
+        "count": 52,
+        "files": [
+          "src/components/forms/EnquiryForm.css",
+          "src/components/layout/Footer.css",
+          "src/components/layout/Header.css",
+          "src/components/navigation/MegaMenu.css",
+          "src/components/sections/AboutAudience/AboutAudience.css",
+          "src/components/sections/AboutExpertise/AboutExpertise.css",
+          "src/components/sections/AboutHero/AboutHero.css",
+          "src/components/sections/AboutPrinciples/AboutPrinciples.css",
+          "src/components/sections/AboutReach/AboutReach.css",
+          "src/components/sections/AboutStory/AboutStory.css",
+          "src/components/sections/Approach/ApproachSection.css",
+          "src/components/sections/Approach/JourneyTimeline.css",
+          "src/components/sections/Audience/AudienceSection.css",
+          "src/components/sections/BlogArticle/BlogArticle.css",
+          "src/components/sections/BlogIndex/BlogIndex.css",
+          "src/components/sections/Capabilities/CapabilityList.css",
+          "src/components/sections/CatalogueGrid/CatalogueGrid.css",
+          "src/components/sections/Contact/ContactSection.css",
+          "src/components/sections/ContactHero/ContactHero.css",
+          "src/components/sections/ContactLocations/ContactLocations.css",
+          "src/components/sections/Delivery/DeliverySection.css",
+          "src/components/sections/Delivery/PathwayBoard.css",
+          "src/components/sections/Delivery/ReadingCopy.css",
+          "src/components/sections/DetailSection/DetailSection.css",
+          "src/components/sections/Faq/FaqSection.css",
+          "src/components/sections/Hero/Hero.css",
+          "src/components/sections/LandingHero/LandingHero.css",
+          "src/components/sections/Mentor/MentorSection.css",
+          "src/components/sections/MotionStory/FilmDialog.css",
+          "src/components/sections/MotionStory/MotionStory.css",
+          "src/components/sections/PossibilitiesWall/PossibilitiesWall.css",
+          "src/components/sections/ProductCatalogue/ProductCatalogue.css",
+          "src/components/sections/ProductSuite/ProductSuite.css",
+          "src/components/sections/Programs/ProgramDialog.css",
+          "src/components/sections/Programs/ProgramsSection.css",
+          "src/components/sections/ServiceCatalogue/ServiceCatalogue.css",
+          "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+          "src/components/sections/ServiceFaq/ServiceFaq.css",
+          "src/components/sections/ServiceHero/ServiceHero.css",
+          "src/components/sections/Solutions/SolutionsSection.css",
+          "src/components/sections/Solutions/Workflow.css",
+          "src/components/sections/Stories/StoriesSection.css",
+          "src/components/sections/Training/TrainingSection.css",
+          "src/components/sections/WhyLadder7/WhyLadder7.css",
+          "src/pages/Education/EducationPage.css",
+          "src/pages/Home/HomePage.css",
+          "src/pages/Sitemap/SitemapPage.css",
+          "src/styles/responsive.css"
+        ]
+      },
+      {
+        "condition": "(max-width: 1000px)",
+        "count": 26,
+        "files": [
+          "src/components/forms/EnquiryForm.css",
+          "src/components/layout/Header.css",
+          "src/components/sections/AboutAudience/AboutAudience.css",
+          "src/components/sections/AboutExpertise/AboutExpertise.css",
+          "src/components/sections/AboutHero/AboutHero.css",
+          "src/components/sections/AboutPrinciples/AboutPrinciples.css",
+          "src/components/sections/AboutStory/AboutStory.css",
+          "src/components/sections/Approach/JourneyTimeline.css",
+          "src/components/sections/BlogIndex/BlogIndex.css",
+          "src/components/sections/Contact/ContactSection.css",
+          "src/components/sections/ContactHero/ContactHero.css",
+          "src/components/sections/ContactLocations/ContactLocations.css",
+          "src/components/sections/Delivery/PathwayBoard.css",
+          "src/components/sections/DetailSection/DetailSection.css",
+          "src/components/sections/LandingHero/LandingHero.css",
+          "src/components/sections/Mentor/MentorSection.css",
+          "src/components/sections/MotionStory/MotionStory.css",
+          "src/components/sections/PossibilitiesWall/PossibilitiesWall.css",
+          "src/components/sections/Programs/ProgramsSection.css",
+          "src/components/sections/ServiceCatalogue/ServiceCatalogue.css",
+          "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+          "src/components/sections/ServiceHero/ServiceHero.css",
+          "src/components/sections/Solutions/SolutionsSection.css",
+          "src/components/sections/Solutions/Workflow.css",
+          "src/components/sections/Training/TrainingSection.css",
+          "src/styles/responsive.css"
+        ]
+      },
+      {
+        "condition": "(prefers-reduced-motion: reduce)",
+        "count": 19,
+        "files": [
+          "src/components/common/RouteTransition.css",
+          "src/components/navigation/MegaMenu.css",
+          "src/components/sections/AboutHero/AboutHero.css",
+          "src/components/sections/AboutReach/AboutReach.css",
+          "src/components/sections/Approach/JourneyTimeline.css",
+          "src/components/sections/BlogIndex/BlogIndex.css",
+          "src/components/sections/Delivery/PathwayBoard.css",
+          "src/components/sections/Delivery/ReadingCopy.css",
+          "src/components/sections/MotionStory/FilmDialog.css",
+          "src/components/sections/MotionStory/MotionStory.css",
+          "src/components/sections/PossibilitiesWall/PossibilitiesWall.css",
+          "src/components/sections/ProductSuite/ProductSuite.css",
+          "src/components/sections/Programs/ProgramsSection.css",
+          "src/components/sections/ServiceCatalogue/ServiceCatalogue.css",
+          "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+          "src/components/sections/ServiceFaq/ServiceFaq.css",
+          "src/components/sections/ServiceHero/ServiceHero.css",
+          "src/components/sections/WhyLadder7/WhyLadder7.css",
+          "src/styles/animations.css"
+        ]
+      },
+      {
+        "condition": "(max-width: 1100px) and (min-width: 701px)",
+        "count": 3,
+        "files": [
+          "src/components/forms/EnquiryForm.css",
+          "src/components/layout/Header.css",
+          "src/components/navigation/MegaMenu.css"
+        ]
+      },
+      {
+        "condition": "(max-width: 360px)",
+        "count": 3,
+        "files": [
+          "src/components/layout/Header.css",
+          "src/components/sections/Contact/ContactSection.css",
+          "src/styles/responsive.css"
+        ]
+      },
+      {
+        "condition": "(min-width: 701px) and (max-height: 760px)",
+        "count": 2,
+        "files": [
+          "src/components/forms/EnquiryForm.css",
+          "src/components/navigation/MegaMenu.css"
+        ]
+      },
+      {
+        "condition": "(max-width: 850px) and (min-width: 701px)",
+        "count": 2,
+        "files": [
+          "src/components/layout/Header.css",
+          "src/components/navigation/MegaMenu.css"
+        ]
+      },
+      {
+        "condition": "(max-width: 900px) and (min-width: 701px)",
+        "count": 1,
+        "files": [
+          "src/components/layout/Header.css"
+        ]
+      },
+      {
+        "condition": "(min-width: 1700px)",
+        "count": 1,
+        "files": [
+          "src/components/sections/BlogIndex/BlogIndex.css"
+        ]
+      },
+      {
+        "condition": "(min-width: 701px)",
+        "count": 1,
+        "files": [
+          "src/components/sections/Capabilities/CapabilityList.css"
+        ]
+      },
+      {
+        "condition": "(max-height: 740px) and (min-width: 701px)",
+        "count": 1,
+        "files": [
+          "src/components/sections/Delivery/PathwayBoard.css"
+        ]
+      },
+      {
+        "condition": "(max-height: 620px)",
+        "count": 1,
+        "files": [
+          "src/components/sections/Delivery/PathwayBoard.css"
+        ]
+      },
+      {
+        "condition": "(max-height: 620px) and (min-width: 701px)",
+        "count": 1,
+        "files": [
+          "src/components/sections/Hero/Hero.css"
+        ]
+      },
+      {
+        "condition": "(max-width: 1100px)",
+        "count": 1,
+        "files": [
+          "src/components/sections/ProductSuite/ProductSuite.css"
+        ]
+      },
+      {
+        "condition": "(hover: hover) and (pointer: fine)",
+        "count": 1,
+        "files": [
+          "src/components/sections/Programs/ProgramsSection.css"
+        ]
+      },
+      {
+        "condition": "(max-width: 700px), (prefers-reduced-motion: reduce)",
+        "count": 1,
+        "files": [
+          "src/components/sections/Programs/ProgramsSection.css"
+        ]
+      },
+      {
+        "condition": "(min-width: 701px) and (max-height: 740px)",
+        "count": 1,
+        "files": [
+          "src/components/sections/WhyLadder7/WhyLadder7.css"
+        ]
+      },
+      {
+        "condition": "(min-width: 701px) and (max-width: 1000px)",
+        "count": 1,
+        "files": [
+          "src/components/sections/WhyLadder7/WhyLadder7.css"
+        ]
+      },
+      {
+        "condition": "(prefers-reduced-motion: reduce) and (max-width: 700px)",
+        "count": 1,
+        "files": [
+          "src/components/sections/WhyLadder7/WhyLadder7.css"
+        ]
+      },
+      {
+        "condition": "(min-width: 1600px)",
+        "count": 1,
+        "files": [
+          "src/styles/responsive.css"
+        ]
+      }
+    ],
+    "css_custom_property_hits": [
+      "--container-max: 1500px;         /* content width on ≥1600px screens */"
+    ],
+    "mobile_navigation": "header .menu-toggle button opens the overlay menu (source: Header.tsx, MegaMenu.tsx); .desktop-nav visibility per breakpoint is defined in Header.css",
+    "basis": "source-code (CSS) — not rendered/tested",
+    "stylesheets_with_prefers_reduced_motion": 19
+  },
+  "animations": {
+    "keyframes": [
+      {
+        "name": "route-title-in",
+        "files": [
+          "src/components/common/RouteTransition.css"
+        ]
+      },
+      {
+        "name": "about-line-in",
+        "files": [
+          "src/components/sections/AboutHero/AboutHero.css"
+        ]
+      },
+      {
+        "name": "about-map-dash",
+        "files": [
+          "src/components/sections/AboutReach/AboutReach.css"
+        ]
+      },
+      {
+        "name": "about-map-pulse",
+        "files": [
+          "src/components/sections/AboutReach/AboutReach.css"
+        ]
+      },
+      {
+        "name": "service-art-in",
+        "files": [
+          "src/components/sections/ServiceHero/ServiceHero.css"
+        ]
+      },
+      {
+        "name": "hero-rise",
+        "files": [
+          "src/styles/animations.css"
+        ]
+      },
+      {
+        "name": "fade-rise",
+        "files": [
+          "src/styles/animations.css"
+        ]
+      },
+      {
+        "name": "scroll-mark",
+        "files": [
+          "src/styles/animations.css"
+        ]
+      },
+      {
+        "name": "status-pulse",
+        "files": [
+          "src/styles/animations.css"
+        ]
+      },
+      {
+        "name": "menu-enter",
+        "files": [
+          "src/styles/animations.css"
+        ]
+      },
+      {
+        "name": "wall-drift",
+        "files": [
+          "src/styles/animations.css"
+        ]
+      },
+      {
+        "name": "flow-signal",
+        "files": [
+          "src/styles/animations.css"
+        ]
+      },
+      {
+        "name": "panel-in",
+        "files": [
+          "src/styles/animations.css"
+        ]
+      }
+    ],
+    "css_transition_declarations": 69,
+    "hover_rules": 58,
+    "basis": "source-code (CSS)"
+  },
+  "interactive_hooks": [
+    {
+      "file": "src/hooks/useFocusTrap.ts",
+      "description_from_source_comment": "Keeps Tab / Shift+Tab inside the given containers while `active`, closes on Escape, and restores focus to the previously focused element afterwards. Several containers are allowed because the overlay menu shares focus with the header (which holds the close button).",
+      "used_by": [
+        "src/components/navigation/MegaMenu.tsx"
+      ]
+    },
+    {
+      "file": "src/hooks/useInView.ts",
+      "description_from_source_comment": "True while the element intersects the viewport (expanded by `rootMargin`).",
+      "used_by": [
+        "src/components/sections/AboutHero/AboutHero.tsx",
+        "src/components/sections/PossibilitiesWall/PossibilitiesWall.tsx",
+        "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      ]
+    },
+    {
+      "file": "src/hooks/useMediaQuery.ts",
+      "description_from_source_comment": "Subscribes to a CSS media query. Returns `false` during server rendering and hydration (getServerSnapshot), then the real value — no hydration mismatch.",
+      "used_by": [
+        "src/components/common/ScrollManager.tsx",
+        "src/components/navigation/MegaMenu.tsx",
+        "src/components/sections/Approach/JourneyTimeline.tsx",
+        "src/components/sections/Contact/ContactSection.tsx",
+        "src/components/sections/Delivery/PathwayBoard.tsx",
+        "src/components/sections/Delivery/ReadingCopy.tsx",
+        "src/components/sections/Hero/Hero.tsx",
+        "src/components/sections/Hero/ParticleField.tsx",
+        "src/components/sections/MotionStory/MotionStory.tsx",
+        "src/components/sections/ProductSuite/ProductSuite.tsx",
+        "src/components/sections/Programs/ProgramsSection.tsx",
+        "src/components/sections/Solutions/SolutionsSection.tsx",
+        "src/components/sections/WhyLadder7/WhyLadder7.tsx"
+      ]
+    },
+    {
+      "file": "src/hooks/useReveal.ts",
+      "description_from_source_comment": "Scroll reveal. Usage: <div className=\"reveal\" ref={revealRef}>…</div> One IntersectionObserver is shared by the whole page. When an element is 8% visible it receives `.is-visible` (animations.css) and is no longer observed. The `.reveal` class is in the server HTML, but it only hides content once `.motion-ready` is on <html>, so crawlers and no-JS visitors always see everything.",
+      "used_by": [
+        "src/components/sections/AboutAudience/AboutAudience.tsx",
+        "src/components/sections/AboutExpertise/AboutExpertise.tsx",
+        "src/components/sections/AboutPrinciples/AboutPrinciples.tsx",
+        "src/components/sections/AboutReach/AboutReach.tsx",
+        "src/components/sections/AboutStory/AboutStory.tsx",
+        "src/components/sections/Audience/AudienceSection.tsx",
+        "src/components/sections/Capabilities/CapabilityList.tsx",
+        "src/components/sections/CatalogueGrid/CatalogueGrid.tsx",
+        "src/components/sections/Contact/ContactSection.tsx",
+        "src/components/sections/Faq/FaqSection.tsx",
+        "src/components/sections/Mentor/MentorSection.tsx",
+        "src/components/sections/MotionStory/MotionStory.tsx",
+        "src/components/sections/PossibilitiesWall/PossibilitiesWall.tsx",
+        "src/components/sections/Programs/ProgramsSection.tsx",
+        "src/components/sections/ServiceCatalogue/ServiceCatalogue.tsx",
+        "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx",
+        "src/components/sections/ServiceFaq/ServiceFaq.tsx",
+        "src/components/sections/Solutions/SolutionsSection.tsx",
+        "src/components/sections/Stories/StoriesSection.tsx",
+        "src/components/sections/Training/TrainingSection.tsx",
+        "src/components/ui/SectionHeading.tsx"
+      ]
+    },
+    {
+      "file": "src/hooks/useRovingTabs.ts",
+      "description_from_source_comment": "WAI-ARIA tabs keyboard model (automatic activation): arrow keys move and select, Home/End jump to the ends, only the selected tab is in the tab order. Used by the product suite, solutions and delivery-pathway tabs.",
+      "used_by": [
+        "src/components/sections/Delivery/PathwayBoard.tsx",
+        "src/components/sections/ProductSuite/ProductSuite.tsx",
+        "src/components/sections/Solutions/SolutionsSection.tsx"
+      ]
+    },
+    {
+      "file": "src/hooks/useScrollFrame.ts",
+      "description_from_source_comment": "One shared, rAF-batched scroll/resize loop for every scroll-driven effect. Each subscriber is called once per frame with the viewport size. It should only READ layout (getBoundingClientRect) and return a function that WRITES (style.setProperty, classList). All reads run before all writes, so the page never forces a synchronous layout between effects — the same \"one read phase, one write phase\" rule the design's script used. Effects write CSS custom properties directly on DOM nodes: scrolling never triggers a React re-render.",
+      "used_by": [
+        "src/components/sections/Approach/JourneyTimeline.tsx",
+        "src/components/sections/Delivery/PathwayBoard.tsx",
+        "src/components/sections/Delivery/ReadingCopy.tsx",
+        "src/components/sections/MotionStory/MotionStory.tsx",
+        "src/components/sections/WhyLadder7/WhyLadder7.tsx"
+      ]
+    }
+  ],
+  "reusable_pattern_usage": [
+    {
+      "pattern": "Hero section",
+      "basis": "class-name / element detection in prerendered HTML",
+      "pages_count": 64,
+      "pages": [
+        "/",
+        "/services",
+        "/about",
+        "/contact",
+        "/education",
+        "/faq",
+        "/careers",
+        "/portfolio",
+        "/products",
+        "/products/site-360",
+        "/products/l7-nexus",
+        "/products/outreach-engine",
+        "/products/l7-insights",
+        "/products/infinite-insights",
+        "/myladder",
+        "/mindgym",
+        "/mirrorme",
+        "/filldots",
+        "/amiu",
+        "/services/aem-digital-experience",
+        "/services/analytics-experimentation",
+        "/services/headless-cms",
+        "/services/web-experience",
+        "/services/localization-uiux",
+        "/services/ai-assistant",
+        "/services/agenticai",
+        "/services/intelligent-websites",
+        "/services/aiproduct",
+        "/services/hyperautomation",
+        "/services/technology",
+        "/services/skilled-resource",
+        "/services/green-recovery",
+        "/services/product-solution",
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/full-stack-development",
+        "/corporate-training-kerala/data-science",
+        "/corporate-training-kerala/mobile-app-development",
+        "/corporate-training-kerala/prompt-engineering-ai-training",
+        "/corporate-training-kerala/data-visualization",
+        "/corporate-training-kerala/cloud-computing-bootcamp",
+        "/corporate-training-kerala/digital-content-creation",
+        "/corporate-training-kerala/business-analytics",
+        "/corporate-training-kerala/business-intelligence-data-analytics",
+        "/corporate-training-kerala/marketing-automation-crm",
+        "/corporate-training-kerala/webops-ai-ml",
+        "/blogs/ai-personalize-web-experince",
+        "/blogs/ai-tools-web-development-team",
+        "/blogs/conversational-ai-customer-experience",
+        "/blogs/why-website-checks-need-to-go-beyond-performance-scores",
+        "/blogs/festive-onam-ladder7",
+        "/blogs/magical-christmas-celebration",
+        "/blogs/independence-day-ladder7",
+        "/privacy",
+        "/thank-you",
+        "/sitemap",
+        "/bootcamp",
+        "/earnmore",
+        "/it-training-internship-trivandrum",
+        "/full-stack-developer-course-trivandrum",
+        "/ai-data-science-course-trivandrum",
+        "/software-testing-course-trivandrum",
+        "/shopify-developer-course-workshop",
+        "/experience-the-first-job",
+        "/training-internship/career-goal-finding"
+      ]
+    },
+    {
+      "pattern": "FAQ",
+      "basis": "class-name / element detection in prerendered HTML",
+      "pages_count": 2,
+      "pages": [
+        "/",
+        "/services"
+      ]
+    },
+    {
+      "pattern": "Cards (article/card classes)",
+      "basis": "class-name / element detection in prerendered HTML",
+      "pages_count": 3,
+      "pages": [
+        "/",
+        "/about",
+        "/education"
+      ]
+    },
+    {
+      "pattern": "Testimonials/stories",
+      "basis": "class-name / element detection in prerendered HTML",
+      "pages_count": 4,
+      "pages": [
+        "/",
+        "/about",
+        "/education",
+        "/blogs"
+      ]
+    },
+    {
+      "pattern": "Statistics (dl/metrics)",
+      "basis": "class-name / element detection in prerendered HTML",
+      "pages_count": 0,
+      "pages": []
+    },
+    {
+      "pattern": "CTA buttons",
+      "basis": "class-name / element detection in prerendered HTML",
+      "pages_count": 66,
+      "pages": [
+        "/",
+        "/services",
+        "/about",
+        "/contact",
+        "/education",
+        "/faq",
+        "/careers",
+        "/portfolio",
+        "/products",
+        "/products/site-360",
+        "/products/l7-nexus",
+        "/products/outreach-engine",
+        "/products/l7-insights",
+        "/products/infinite-insights",
+        "/myladder",
+        "/mindgym",
+        "/mirrorme",
+        "/filldots",
+        "/amiu",
+        "/services/aem-digital-experience",
+        "/services/analytics-experimentation",
+        "/services/headless-cms",
+        "/services/web-experience",
+        "/services/localization-uiux",
+        "/services/ai-assistant",
+        "/services/agenticai",
+        "/services/intelligent-websites",
+        "/services/aiproduct",
+        "/services/hyperautomation",
+        "/services/technology",
+        "/services/skilled-resource",
+        "/services/green-recovery",
+        "/services/product-solution",
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/full-stack-development",
+        "/corporate-training-kerala/data-science",
+        "/corporate-training-kerala/mobile-app-development",
+        "/corporate-training-kerala/prompt-engineering-ai-training",
+        "/corporate-training-kerala/data-visualization",
+        "/corporate-training-kerala/cloud-computing-bootcamp",
+        "/corporate-training-kerala/digital-content-creation",
+        "/corporate-training-kerala/business-analytics",
+        "/corporate-training-kerala/business-intelligence-data-analytics",
+        "/corporate-training-kerala/marketing-automation-crm",
+        "/corporate-training-kerala/webops-ai-ml",
+        "/blogs",
+        "/blogs/ai-personalize-web-experince",
+        "/blogs/ai-tools-web-development-team",
+        "/blogs/conversational-ai-customer-experience",
+        "/blogs/why-website-checks-need-to-go-beyond-performance-scores",
+        "/blogs/festive-onam-ladder7",
+        "/blogs/magical-christmas-celebration",
+        "/blogs/independence-day-ladder7",
+        "/privacy",
+        "/thank-you",
+        "/sitemap",
+        "/bootcamp",
+        "/earnmore",
+        "/it-training-internship-trivandrum",
+        "/full-stack-developer-course-trivandrum",
+        "/ai-data-science-course-trivandrum",
+        "/software-testing-course-trivandrum",
+        "/shopify-developer-course-workshop",
+        "/experience-the-first-job",
+        "/training-internship/career-goal-finding",
+        "/404 (unmatched URLs)"
+      ]
+    },
+    {
+      "pattern": "Contact/enquiry form",
+      "basis": "class-name / element detection in prerendered HTML",
+      "pages_count": 65,
+      "pages": [
+        "/",
+        "/services",
+        "/about",
+        "/contact",
+        "/education",
+        "/faq",
+        "/careers",
+        "/portfolio",
+        "/products",
+        "/products/site-360",
+        "/products/l7-nexus",
+        "/products/outreach-engine",
+        "/products/l7-insights",
+        "/products/infinite-insights",
+        "/myladder",
+        "/mindgym",
+        "/mirrorme",
+        "/filldots",
+        "/amiu",
+        "/services/aem-digital-experience",
+        "/services/analytics-experimentation",
+        "/services/headless-cms",
+        "/services/web-experience",
+        "/services/localization-uiux",
+        "/services/ai-assistant",
+        "/services/agenticai",
+        "/services/intelligent-websites",
+        "/services/aiproduct",
+        "/services/hyperautomation",
+        "/services/technology",
+        "/services/skilled-resource",
+        "/services/green-recovery",
+        "/services/product-solution",
+        "/corporate-training-kerala",
+        "/corporate-training-kerala/full-stack-development",
+        "/corporate-training-kerala/data-science",
+        "/corporate-training-kerala/mobile-app-development",
+        "/corporate-training-kerala/prompt-engineering-ai-training",
+        "/corporate-training-kerala/data-visualization",
+        "/corporate-training-kerala/cloud-computing-bootcamp",
+        "/corporate-training-kerala/digital-content-creation",
+        "/corporate-training-kerala/business-analytics",
+        "/corporate-training-kerala/business-intelligence-data-analytics",
+        "/corporate-training-kerala/marketing-automation-crm",
+        "/corporate-training-kerala/webops-ai-ml",
+        "/blogs",
+        "/blogs/ai-personalize-web-experince",
+        "/blogs/ai-tools-web-development-team",
+        "/blogs/conversational-ai-customer-experience",
+        "/blogs/why-website-checks-need-to-go-beyond-performance-scores",
+        "/blogs/festive-onam-ladder7",
+        "/blogs/magical-christmas-celebration",
+        "/blogs/independence-day-ladder7",
+        "/privacy",
+        "/thank-you",
+        "/sitemap",
+        "/bootcamp",
+        "/earnmore",
+        "/it-training-internship-trivandrum",
+        "/full-stack-developer-course-trivandrum",
+        "/ai-data-science-course-trivandrum",
+        "/software-testing-course-trivandrum",
+        "/shopify-developer-course-workshop",
+        "/experience-the-first-job",
+        "/training-internship/career-goal-finding"
+      ]
+    }
+  ],
+  "observed_behavior": [
+    {
+      "id": "obs_01_hydration",
+      "behavior": "Pages hydrate in the browser (window.__l7Hydrated === true) on / and /services",
+      "method": "Local production server (node server.mjs, dist/client) opened in the in-app browser; JS evaluated in page",
+      "result": "observed: true",
+      "environment": "http://localhost:8081, desktop 1024px and mobile 375px"
+    },
+    {
+      "id": "obs_02_overlay_menu",
+      "behavior": "Overlay menu opens/closes",
+      "method": "Clicked .menu-toggle, then dispatched Escape keydown",
+      "result": "observed: before open #menu.hidden=true & aria-expanded=false; after click hidden=false, aria-expanded=true, body.menu-open=true, #main inside an inert region; after Escape hidden=true, aria-expanded=false, body.menu-open=false",
+      "environment": "/ at 1024px"
+    },
+    {
+      "id": "obs_03_contact_form_validation",
+      "behavior": "Contact form validation and submit hand-off (home page contact section)",
+      "method": "Submitted empty form, then name+invalid email, then valid data; window.open was stubbed so WhatsApp was NOT opened and nothing was sent anywhere",
+      "result": "observed: empty submit showed 'Please enter your name.', 'Please enter your email address.', 'Please tell us a little about your project.' and summary 'Please check 3 fields: Your name, Work email, What would you like to achieve?.' (window.open calls 0, focus moved to name). Invalid email showed 'Please enter a valid email address, like you@company.com.' (0 calls). Valid submit called window.open once with https://wa.me/918137979401?text=Hi Ladder7! I'm <name>.\\nEmail: <email>\\nInterested in: Digital experience\\n\\n<message> and showed the .enquiry__done confirmation.",
+      "environment": "/ at 1024px; test values only"
+    },
+    {
+      "id": "obs_04_faq_disclosure",
+      "behavior": "Home FAQ accordion (native <details>) toggles",
+      "method": "Clicked the summary of the 2nd of 3 items",
+      "result": "observed: opened (false → true). Note: the prerendered HTML marks the first <details> as open, but after hydration details[0].open was false at load — SSR markup and hydrated DOM differ for that attribute.",
+      "environment": "/ at 1024px"
+    },
+    {
+      "id": "obs_05_responsive_header",
+      "behavior": "Header layout by viewport width",
+      "method": "Emulated 375, 768 and ~1024 widths and read computed display",
+      "result": "observed: 375px → .desktop-nav none, .site-header__cta none, .menu-toggle flex, .division-switch flex, no horizontal overflow. 768px → .desktop-nav flex, .site-header__cta flex, .menu-toggle flex, no horizontal overflow. 1024px → .desktop-nav flex, .menu-toggle flex.",
+      "environment": "/services (375, 768), / (1024)"
+    },
+    {
+      "id": "obs_06_client_navigation",
+      "behavior": "Client-side navigation with page transition",
+      "method": "Clicked header link to /about and watched class changes and window marker",
+      "result": "observed: URL changed /services → /about without full reload (window marker preserved); title became 'About Ladder7 NextStep Solutions | Cochin & Trivandrum'; a route-leaving/arriving/revealing class was seen on the transition overlay.",
+      "environment": "768px"
+    }
+  ]
+}
