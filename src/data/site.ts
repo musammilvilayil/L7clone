@@ -10,6 +10,7 @@ export const COMPANY = {
   summary:
     "Ladder7 IT connects intelligent websites, applied AI, custom software and technology strategy around your next business goal.",
   email: "info@ladder7.in",
+  mapUrl: "https://maps.app.goo.gl/ZugNAE6cHxEpPnzU8",
   phone: {
     display: "+91 8137979401",
     href: "tel:+918137979401",

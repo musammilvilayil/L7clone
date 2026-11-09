@@ -67,12 +67,13 @@ export function Footer({ inert }: { inert?: boolean }) {
             <span>{location.place}</span>
           </address>
         ))}
-        <Link to="/contact" className="site-footer__find">
+        <a className="site-footer__find" href={COMPANY.mapUrl} target="_blank" rel="noopener noreferrer">
           Find Ladder7
           <span aria-hidden="true">
             <ArrowUpRight />
           </span>
-        </Link>
+          <span className="sr-only"> on the map (opens in a new tab)</span>
+        </a>
       </div>
 
       <div className="site-footer__bottom">
