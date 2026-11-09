@@ -69,6 +69,18 @@ export type PageKey =
   | "courseShopify"
   | "firstJob"
   | "careerGoalFinding"
+  | "customSoftwareIndia"
+  | "hireDevelopersIndia"
+  | "offshoreDevelopmentIndia"
+  | "mobileAppDevelopment"
+  | "regionUAE"
+  | "regionKSA"
+  | "regionGCC"
+  | "regionEurope"
+  | "regionAfrica"
+  | "engagementModels"
+  | "blogChooseCompanyIndia"
+  | "blogOutsourcingComparison"
   | "notFound";
 
 export interface RouteDef {
@@ -142,6 +154,18 @@ export const ROUTES: RouteDef[] = [
   { path: "/shopify-developer-course-workshop", page: "courseShopify" },
   { path: "/experience-the-first-job", page: "firstJob" },
   { path: "/training-internship/career-goal-finding", page: "careerGoalFinding" },
+  { path: "/custom-software-development-company-india", page: "customSoftwareIndia" },
+  { path: "/hire-dedicated-developers-india", page: "hireDevelopersIndia" },
+  { path: "/offshore-software-development-india", page: "offshoreDevelopmentIndia" },
+  { path: "/mobile-app-development-company-india", page: "mobileAppDevelopment" },
+  { path: "/software-development-company-uae", page: "regionUAE" },
+  { path: "/software-development-company-saudi-arabia", page: "regionKSA" },
+  { path: "/software-development-gcc", page: "regionGCC" },
+  { path: "/offshore-software-development-uk-europe", page: "regionEurope" },
+  { path: "/software-development-outsourcing-africa", page: "regionAfrica" },
+  { path: "/engagement-models-pricing", page: "engagementModels" },
+  { path: "/blogs/how-to-choose-custom-software-development-company-india", page: "blogChooseCompanyIndia" },
+  { path: "/blogs/india-vs-eastern-europe-vs-africa-software-outsourcing", page: "blogOutsourcingComparison" },
 ];
 
 /** Normalises a pathname (no trailing slash except root, lower-case). */

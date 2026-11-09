@@ -25,6 +25,18 @@ import SoftwareTestingCoursePage from "./pages/Course/SoftwareTestingCoursePage"
 import ShopifyCoursePage from "./pages/Course/ShopifyCoursePage";
 import FirstJobPage from "./pages/Course/FirstJobPage";
 import CareerGoalFindingPage from "./pages/Course/CareerGoalFindingPage";
+import CustomSoftwareIndiaPage from "./pages/Landing/CustomSoftwareIndiaPage";
+import HireDevelopersIndiaPage from "./pages/Landing/HireDevelopersIndiaPage";
+import OffshoreDevelopmentIndiaPage from "./pages/Landing/OffshoreDevelopmentIndiaPage";
+import MobileAppDevelopmentCompanyPage from "./pages/Landing/MobileAppDevelopmentPage";
+import RegionUAEPage from "./pages/Landing/RegionUAEPage";
+import RegionKSAPage from "./pages/Landing/RegionKSAPage";
+import RegionGCCPage from "./pages/Landing/RegionGCCPage";
+import RegionEuropePage from "./pages/Landing/RegionEuropePage";
+import RegionAfricaPage from "./pages/Landing/RegionAfricaPage";
+import EngagementModelsPage from "./pages/Landing/EngagementModelsPage";
+import BlogChooseCompanyIndiaPage from "./pages/Landing/BlogChooseCompanyIndiaPage";
+import BlogOutsourcingComparisonPage from "./pages/Landing/BlogOutsourcingComparisonPage";
 import NotFoundPage from "./pages/NotFound/NotFoundPage";
 import PortfolioPage from "./pages/Portfolio/PortfolioPage";
 import L7InsightsPage from "./pages/ProductDetail/L7InsightsPage";
@@ -142,6 +154,18 @@ const pages: PageComponents = {
   courseShopify: ShopifyCoursePage,
   firstJob: FirstJobPage,
   careerGoalFinding: CareerGoalFindingPage,
+  customSoftwareIndia: CustomSoftwareIndiaPage,
+  hireDevelopersIndia: HireDevelopersIndiaPage,
+  offshoreDevelopmentIndia: OffshoreDevelopmentIndiaPage,
+  mobileAppDevelopment: MobileAppDevelopmentCompanyPage,
+  regionUAE: RegionUAEPage,
+  regionKSA: RegionKSAPage,
+  regionGCC: RegionGCCPage,
+  regionEurope: RegionEuropePage,
+  regionAfrica: RegionAfricaPage,
+  engagementModels: EngagementModelsPage,
+  blogChooseCompanyIndia: BlogChooseCompanyIndiaPage,
+  blogOutsourcingComparison: BlogOutsourcingComparisonPage,
   notFound: NotFoundPage,
 };
 

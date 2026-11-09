@@ -1,0 +1,4322 @@
+{
+  "common": {
+    "organization": {
+      "@type": "Organization",
+      "@id": "https://www.ladder7.in/#organization",
+      "name": "Ladder7 NextStep Solutions",
+      "alternateName": [
+        "Ladder7",
+        "Ladder7 IT",
+        "Ladder7 NextStep Solutions LLP",
+        "Ladder 7"
+      ],
+      "url": "https://www.ladder7.in/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.ladder7.in/icons/ladder7-logo-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "description": "Ladder7 NextStep Solutions is a custom software development company in Kochi and Trivandrum, India, building web applications, mobile apps, AI solutions and dedicated engineering teams for clients in the GCC, Europe and Africa.",
+      "slogan": "Build. Connect. Grow.",
+      "email": "info@ladder7.in",
+      "telephone": "+918137979401",
+      "address": [
+        {
+          "@type": "PostalAddress",
+          "name": "Kochi (Cochin)",
+          "streetAddress": "WEE SPACES, Ernakulam",
+          "addressLocality": "Kochi",
+          "addressRegion": "Kerala",
+          "addressCountry": "IN"
+        },
+        {
+          "@type": "PostalAddress",
+          "name": "Trivandrum",
+          "streetAddress": "Kinfra Film and IT Park",
+          "addressLocality": "Trivandrum",
+          "addressRegion": "Kerala",
+          "addressCountry": "IN"
+        }
+      ],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "sales",
+          "email": "info@ladder7.in",
+          "telephone": "+918137979401",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Malayalam"
+          ],
+          "areaServed": [
+            "United Arab Emirates",
+            "Saudi Arabia",
+            "Qatar",
+            "Kuwait",
+            "Bahrain",
+            "Oman",
+            "United Kingdom",
+            "Ireland",
+            "Germany",
+            "Netherlands",
+            "France",
+            "Belgium",
+            "Sweden",
+            "Norway",
+            "Denmark",
+            "Finland",
+            "Switzerland",
+            "Spain",
+            "Italy",
+            "Poland",
+            "Nigeria",
+            "Kenya",
+            "South Africa",
+            "Ghana",
+            "Egypt",
+            "Morocco",
+            "Tanzania",
+            "Uganda",
+            "Rwanda",
+            "India",
+            "United States",
+            "Singapore",
+            "Australia",
+            "Vietnam"
+          ]
+        }
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/company/ladder7-nextstep-solutions-llp/",
+        "https://www.instagram.com/ladder7_nextstep_solutions_/"
+      ],
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "United Arab Emirates"
+        },
+        {
+          "@type": "Country",
+          "name": "Saudi Arabia"
+        },
+        {
+          "@type": "Country",
+          "name": "Qatar"
+        },
+        {
+          "@type": "Country",
+          "name": "Kuwait"
+        },
+        {
+          "@type": "Country",
+          "name": "Bahrain"
+        },
+        {
+          "@type": "Country",
+          "name": "Oman"
+        },
+        {
+          "@type": "Country",
+          "name": "United Kingdom"
+        },
+        {
+          "@type": "Country",
+          "name": "Ireland"
+        },
+        {
+          "@type": "Country",
+          "name": "Germany"
+        },
+        {
+          "@type": "Country",
+          "name": "Netherlands"
+        },
+        {
+          "@type": "Country",
+          "name": "France"
+        },
+        {
+          "@type": "Country",
+          "name": "Belgium"
+        },
+        {
+          "@type": "Country",
+          "name": "Sweden"
+        },
+        {
+          "@type": "Country",
+          "name": "Norway"
+        },
+        {
+          "@type": "Country",
+          "name": "Denmark"
+        },
+        {
+          "@type": "Country",
+          "name": "Finland"
+        },
+        {
+          "@type": "Country",
+          "name": "Switzerland"
+        },
+        {
+          "@type": "Country",
+          "name": "Spain"
+        },
+        {
+          "@type": "Country",
+          "name": "Italy"
+        },
+        {
+          "@type": "Country",
+          "name": "Poland"
+        },
+        {
+          "@type": "Country",
+          "name": "Nigeria"
+        },
+        {
+          "@type": "Country",
+          "name": "Kenya"
+        },
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        },
+        {
+          "@type": "Country",
+          "name": "Ghana"
+        },
+        {
+          "@type": "Country",
+          "name": "Egypt"
+        },
+        {
+          "@type": "Country",
+          "name": "Morocco"
+        },
+        {
+          "@type": "Country",
+          "name": "Tanzania"
+        },
+        {
+          "@type": "Country",
+          "name": "Uganda"
+        },
+        {
+          "@type": "Country",
+          "name": "Rwanda"
+        },
+        {
+          "@type": "Country",
+          "name": "India"
+        },
+        {
+          "@type": "Country",
+          "name": "United States"
+        },
+        {
+          "@type": "Country",
+          "name": "Singapore"
+        },
+        {
+          "@type": "Country",
+          "name": "Australia"
+        },
+        {
+          "@type": "Country",
+          "name": "Vietnam"
+        }
+      ],
+      "knowsAbout": [
+        "Custom software development",
+        "Web application development",
+        "Mobile app development",
+        "Offshore software development",
+        "IT staff augmentation",
+        "Adobe Experience Manager",
+        "Headless CMS",
+        "Conversational AI",
+        "Agentic AI",
+        "Hyperautomation",
+        "React",
+        "Next.js",
+        "Node.js",
+        "Python",
+        "Flutter",
+        "Search engine optimisation",
+        "Answer engine optimisation"
+      ]
+    },
+    "website": {
+      "@type": "WebSite",
+      "@id": "https://www.ladder7.in/#website",
+      "url": "https://www.ladder7.in/",
+      "name": "Ladder7 IT",
+      "alternateName": "Ladder7 NextStep Solutions",
+      "description": "Ladder7 NextStep Solutions is a custom software development company in Kochi and Trivandrum, India, building web applications, mobile apps, AI solutions and dedicated engineering teams for clients in the GCC, Europe and Africa.",
+      "publisher": {
+        "@id": "https://www.ladder7.in/#organization"
+      },
+      "inLanguage": "en"
+    }
+  },
+  "pages": {
+    "home": [
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.ladder7.in/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What can Ladder7 help us build?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Custom software, web applications and websites, mobile apps, AI assistants and automation, integrations between business systems, and the technology strategy behind them."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you work with smaller businesses?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ladder7 works with startups and growing SMBs as well as established organisations. Start with a conversation about your goals and current priorities."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where should we start with AI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Start with a specific workflow or customer need. Explore where an assistant, chatbot, knowledge system or automated next action could make that work more useful."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you work with clients outside India?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Ladder7 has clients in the UAE, the UK (London), Germany, Ireland, the USA, Singapore, Australia, Vietnam and India, and takes on projects across the GCC, Europe and Africa with meetings in your business hours."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why outsource software development to India?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "India combines a very large engineering talent pool with lower cost than the GCC, UK or Europe, plus a working-hour overlap of most of the day with the Gulf and Africa and a shared afternoon with Europe."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who owns the code you build?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You do. Contracts assign all code and intellectual property to the client, and code is kept in your repository."
+            }
+          }
+        ]
+      }
+    ],
+    "services": [
+      {
+        "@type": "Service",
+        "@id": "https://www.ladder7.in/services#digital-experience",
+        "name": "Digital experience",
+        "serviceType": "Intelligent websites, Headless CMS, Web applications, CRM integration",
+        "description": "Bring your website, content, lead capture and CRM into a more connected experience for your customers and your team.",
+        "provider": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "url": "https://www.ladder7.in/services#digital-experience"
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.ladder7.in/services#applied-ai",
+        "name": "Applied AI",
+        "serviceType": "AI assistants, Chatbots, Agentic workflows, RAG systems",
+        "description": "Connect AI assistants, knowledge systems and agentic workflows to the tasks your customers and teams need to move forward.",
+        "provider": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "url": "https://www.ladder7.in/services#applied-ai"
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.ladder7.in/services#technology-strategy",
+        "name": "Technology strategy",
+        "serviceType": "Product ideation, Architecture, Research & development, Solution design",
+        "description": "Product ideation, architecture, research & development and solution design — a clearer route from idea to delivery.",
+        "provider": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "url": "https://www.ladder7.in/services#technology-strategy"
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.ladder7.in/services#custom-development",
+        "name": "Custom development",
+        "serviceType": "Custom applications, Business software, Product development, API integrations",
+        "description": "Create applications and integrations around your actual processes, from a focused business tool to a connected digital product.",
+        "provider": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "url": "https://www.ladder7.in/services#custom-development"
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.ladder7.in/services#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What can Ladder7 help us build?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Our services cover digital experience and web engineering, AI and intelligent automation, and strategy and technology consulting. Explore each service to see its capabilities."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can AI support our business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ladder7 works with AI assistants, multi-agent systems, intelligent websites, AI product development and hyperautomation. The starting point is your business workflow and the outcome you want to achieve."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you help with our existing technology?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Our services include AEM implementation and cloud migration, platform consulting, project recovery and skilled resource augmentation. Tell us about your current systems and the challenge you need to solve."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where do we start?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Share your business goal, your current situation and the next step you have in mind. Use the enquiry form below, email info@ladder7.in or call +91 8137979401."
+            }
+          }
+        ]
+      }
+    ],
+    "about": [
+      {
+        "@type": "AboutPage",
+        "@id": "https://www.ladder7.in/about#webpage",
+        "url": "https://www.ladder7.in/about",
+        "name": "About Ladder7 | Software Development Company in Kerala",
+        "description": "Ladder7 NextStep Solutions is a software firm in Kochi and Trivandrum, India, building web, AI and custom software for clients in the UAE, UK, EU, US and Asia.",
+        "isPartOf": {
+          "@id": "https://www.ladder7.in/#website"
+        },
+        "about": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "inLanguage": "en",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.ladder7.in/og/ladder7-og.jpg"
+        },
+        "breadcrumb": {
+          "@id": "https://www.ladder7.in/about#breadcrumb"
+        }
+      }
+    ],
+    "contact": [
+      {
+        "@type": "ContactPage",
+        "@id": "https://www.ladder7.in/contact#webpage",
+        "url": "https://www.ladder7.in/contact",
+        "name": "Contact Ladder7 | Get a Software Development Quote",
+        "description": "Tell us about your software, web, mobile or AI project. Email info@ladder7.in or WhatsApp +91 8137979401. We work with clients in the GCC, Europe and Africa.",
+        "isPartOf": {
+          "@id": "https://www.ladder7.in/#website"
+        },
+        "about": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "inLanguage": "en",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.ladder7.in/og/ladder7-og.jpg"
+        },
+        "breadcrumb": {
+          "@id": "https://www.ladder7.in/contact#breadcrumb"
+        }
+      }
+    ],
+    "education": [],
+    "faq": [
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.ladder7.in/faq#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much does it cost to outsource software development to Ladder7?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Cost depends on scope and engagement model. Ladder7 offers enterprise-grade quality at affordable, flexible pricing: fixed-price projects, monthly dedicated teams or time-and-materials work, with a costed estimate after reviewing your brief."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which countries does Ladder7 work with?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ladder7 has clients in the UAE, the UK (London), Germany, Ireland, the USA, Singapore, Australia, Vietnam and India. We take on projects from across the GCC, Europe and Africa."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the time difference with India?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "India is 1.5 hours ahead of the UAE, 2.5 hours ahead of Saudi Arabia and Kenya, 3.5 hours ahead of South Africa and Central Europe in summer, and 4.5 to 5.5 hours ahead of the UK and Nigeria."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who owns the intellectual property?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The client. Contracts assign all code and IP to you and include an NDA. For European clients we also sign Data Processing Agreements with Standard Contractual Clauses."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which currency do you invoice in?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We invoice in the client's local currency, or in USD or INR if the client prefers."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do we communicate during a project?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Through your preferred tools such as Slack, Teams, Jira or email, with sprint demos every two weeks and a named delivery manager."
+            }
+          }
+        ]
+      }
+    ],
+    "careers": [],
+    "portfolio": [],
+    "products": [],
+    "productSite360": [],
+    "productL7Nexus": [],
+    "productOutreachEngine": [],
+    "productL7Insights": [],
+    "productInfiniteInsights": [],
+    "productMyLadder": [],
+    "productMindGym": [],
+    "productMirrorMe": [],
+    "productFillDots": [],
+    "productAmiu": [],
+    "serviceAemDigitalExperience": [
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.ladder7.in/services/aem-digital-experience#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What do AEM implementation services include?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Architecture, component and template development, integrations, content migration, performance tuning and launch support for Adobe Experience Manager Sites."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you migrate us to AEM as a Cloud Service?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We assess your current AEM or other CMS, refactor code for cloud compatibility and move content with minimal downtime."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you offer offshore AEM developers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Senior AEM developers from India can join your team through staff augmentation or as a dedicated squad."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.ladder7.in/services/aem-digital-experience#service",
+        "name": "AEM implementation and cloud migration services",
+        "serviceType": "Adobe Experience Manager implementation",
+        "description": "Adobe Experience Manager implementation, AEM as a Cloud Service migration and headless AEM builds by senior AEM engineers in India for global enterprises.",
+        "url": "https://www.ladder7.in/services/aem-digital-experience",
+        "provider": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Saudi Arabia"
+          },
+          {
+            "@type": "Country",
+            "name": "Qatar"
+          },
+          {
+            "@type": "Country",
+            "name": "Kuwait"
+          },
+          {
+            "@type": "Country",
+            "name": "Bahrain"
+          },
+          {
+            "@type": "Country",
+            "name": "Oman"
+          },
+          {
+            "@type": "Country",
+            "name": "United Kingdom"
+          },
+          {
+            "@type": "Country",
+            "name": "Ireland"
+          },
+          {
+            "@type": "Country",
+            "name": "Germany"
+          },
+          {
+            "@type": "Country",
+            "name": "Netherlands"
+          },
+          {
+            "@type": "Country",
+            "name": "France"
+          },
+          {
+            "@type": "Country",
+            "name": "Belgium"
+          },
+          {
+            "@type": "Country",
+            "name": "Sweden"
+          },
+          {
+            "@type": "Country",
+            "name": "Norway"
+          },
+          {
+            "@type": "Country",
+            "name": "Denmark"
+          },
+          {
+            "@type": "Country",
+            "name": "Finland"
+          },
+          {
+            "@type": "Country",
+            "name": "Switzerland"
+          },
+          {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          {
+            "@type": "Country",
+            "name": "Italy"
+          },
+          {
+            "@type": "Country",
+            "name": "Poland"
+          },
+          {
+            "@type": "Country",
+            "name": "Nigeria"
+          },
+          {
+            "@type": "Country",
+            "name": "Kenya"
+          },
+          {
+            "@type": "Country",
+            "name": "South Africa"
+          },
+          {
+            "@type": "Country",
+            "name": "Ghana"
+          },
+          {
+            "@type": "Country",
+            "name": "Egypt"
+          },
+          {
+            "@type": "Country",
+            "name": "Morocco"
+          },
+          {
+            "@type": "Country",
+            "name": "Tanzania"
+          },
+          {
+            "@type": "Country",
+            "name": "Uganda"
+          },
+          {
+            "@type": "Country",
+            "name": "Rwanda"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Australia"
+          },
+          {
+            "@type": "Country",
+            "name": "Vietnam"
+          }
+        ],
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.ladder7.in/contact"
+        }
+      }
+    ],
+    "serviceAnalyticsExperimentation": [
+      {
+        "@type": "Service",
+        "@id": "https://www.ladder7.in/services/analytics-experimentation#service",
+        "name": "Turn insight into better experiences",
+        "serviceType": "Analytics & Experimentation Services",
+        "description": "Analytics setup, behaviour analysis and A/B testing that show what users do and what to change next. Delivered remotely from India for global digital teams.",
+        "url": "https://www.ladder7.in/services/analytics-experimentation",
+        "provider": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Saudi Arabia"
+          },
+          {
+            "@type": "Country",
+            "name": "Qatar"
+          },
+          {
+            "@type": "Country",
+            "name": "Kuwait"
+          },
+          {
+            "@type": "Country",
+            "name": "Bahrain"
+          },
+          {
+            "@type": "Country",
+            "name": "Oman"
+          },
+          {
+            "@type": "Country",
+            "name": "United Kingdom"
+          },
+          {
+            "@type": "Country",
+            "name": "Ireland"
+          },
+          {
+            "@type": "Country",
+            "name": "Germany"
+          },
+          {
+            "@type": "Country",
+            "name": "Netherlands"
+          },
+          {
+            "@type": "Country",
+            "name": "France"
+          },
+          {
+            "@type": "Country",
+            "name": "Belgium"
+          },
+          {
+            "@type": "Country",
+            "name": "Sweden"
+          },
+          {
+            "@type": "Country",
+            "name": "Norway"
+          },
+          {
+            "@type": "Country",
+            "name": "Denmark"
+          },
+          {
+            "@type": "Country",
+            "name": "Finland"
+          },
+          {
+            "@type": "Country",
+            "name": "Switzerland"
+          },
+          {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          {
+            "@type": "Country",
+            "name": "Italy"
+          },
+          {
+            "@type": "Country",
+            "name": "Poland"
+          },
+          {
+            "@type": "Country",
+            "name": "Nigeria"
+          },
+          {
+            "@type": "Country",
+            "name": "Kenya"
+          },
+          {
+            "@type": "Country",
+            "name": "South Africa"
+          },
+          {
+            "@type": "Country",
+            "name": "Ghana"
+          },
+          {
+            "@type": "Country",
+            "name": "Egypt"
+          },
+          {
+            "@type": "Country",
+            "name": "Morocco"
+          },
+          {
+            "@type": "Country",
+            "name": "Tanzania"
+          },
+          {
+            "@type": "Country",
+            "name": "Uganda"
+          },
+          {
+            "@type": "Country",
+            "name": "Rwanda"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Australia"
+          },
+          {
+            "@type": "Country",
+            "name": "Vietnam"
+          }
+        ],
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.ladder7.in/contact"
+        }
+      }
+    ],
+    "serviceHeadlessCms": [
+      {
+        "@type": "Service",
+        "@id": "https://www.ladder7.in/services/headless-cms#service",
+        "name": "Headless CMS development: create content once, deliver it everywhere",
+        "serviceType": "Headless CMS Services",
+        "description": "API-first headless CMS architecture, migration and omnichannel content delivery, built by Ladder7's engineering team in India for brands in the GCC and Europe.",
+        "url": "https://www.ladder7.in/services/headless-cms",
+        "provider": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Saudi Arabia"
+          },
+          {
+            "@type": "Country",
+            "name": "Qatar"
+          },
+          {
+            "@type": "Country",
+            "name": "Kuwait"
+          },
+          {
+            "@type": "Country",
+            "name": "Bahrain"
+          },
+          {
+            "@type": "Country",
+            "name": "Oman"
+          },
+          {
+            "@type": "Country",
+            "name": "United Kingdom"
+          },
+          {
+            "@type": "Country",
+            "name": "Ireland"
+          },
+          {
+            "@type": "Country",
+            "name": "Germany"
+          },
+          {
+            "@type": "Country",
+            "name": "Netherlands"
+          },
+          {
+            "@type": "Country",
+            "name": "France"
+          },
+          {
+            "@type": "Country",
+            "name": "Belgium"
+          },
+          {
+            "@type": "Country",
+            "name": "Sweden"
+          },
+          {
+            "@type": "Country",
+            "name": "Norway"
+          },
+          {
+            "@type": "Country",
+            "name": "Denmark"
+          },
+          {
+            "@type": "Country",
+            "name": "Finland"
+          },
+          {
+            "@type": "Country",
+            "name": "Switzerland"
+          },
+          {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          {
+            "@type": "Country",
+            "name": "Italy"
+          },
+          {
+            "@type": "Country",
+            "name": "Poland"
+          },
+          {
+            "@type": "Country",
+            "name": "Nigeria"
+          },
+          {
+            "@type": "Country",
+            "name": "Kenya"
+          },
+          {
+            "@type": "Country",
+            "name": "South Africa"
+          },
+          {
+            "@type": "Country",
+            "name": "Ghana"
+          },
+          {
+            "@type": "Country",
+            "name": "Egypt"
+          },
+          {
+            "@type": "Country",
+            "name": "Morocco"
+          },
+          {
+            "@type": "Country",
+            "name": "Tanzania"
+          },
+          {
+            "@type": "Country",
+            "name": "Uganda"
+          },
+          {
+            "@type": "Country",
+            "name": "Rwanda"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Australia"
+          },
+          {
+            "@type": "Country",
+            "name": "Vietnam"
+          }
+        ],
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.ladder7.in/contact"
+        }
+      }
+    ],
+    "serviceWebExperience": [
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.ladder7.in/services/web-experience#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much does a website cost to build in India?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It depends on pages, features and integrations. Building in India typically costs much less than in the GCC, UK or Europe. Ladder7 quotes a fixed price after a short scoping call."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which technologies do you use for web development?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "React and Next.js for fast, scalable web apps and sites, WordPress where editors need a familiar CMS, and Node.js for APIs."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you build SEO and AEO-ready websites?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Every build includes clean semantic markup, structured data, fast load times and content structure that search and AI answer engines can understand."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.ladder7.in/services/web-experience#service",
+        "name": "Web development services with React, Next.js and WordPress",
+        "serviceType": "Web development",
+        "description": "Custom web development with React, Next.js and WordPress. Fast, SEO-ready websites and web apps built in India for clients in the UAE, Saudi Arabia, UK and EU.",
+        "url": "https://www.ladder7.in/services/web-experience",
+        "provider": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Saudi Arabia"
+          },
+          {
+            "@type": "Country",
+            "name": "Qatar"
+          },
+          {
+            "@type": "Country",
+            "name": "Kuwait"
+          },
+          {
+            "@type": "Country",
+            "name": "Bahrain"
+          },
+          {
+            "@type": "Country",
+            "name": "Oman"
+          },
+          {
+            "@type": "Country",
+            "name": "United Kingdom"
+          },
+          {
+            "@type": "Country",
+            "name": "Ireland"
+          },
+          {
+            "@type": "Country",
+            "name": "Germany"
+          },
+          {
+            "@type": "Country",
+            "name": "Netherlands"
+          },
+          {
+            "@type": "Country",
+            "name": "France"
+          },
+          {
+            "@type": "Country",
+            "name": "Belgium"
+          },
+          {
+            "@type": "Country",
+            "name": "Sweden"
+          },
+          {
+            "@type": "Country",
+            "name": "Norway"
+          },
+          {
+            "@type": "Country",
+            "name": "Denmark"
+          },
+          {
+            "@type": "Country",
+            "name": "Finland"
+          },
+          {
+            "@type": "Country",
+            "name": "Switzerland"
+          },
+          {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          {
+            "@type": "Country",
+            "name": "Italy"
+          },
+          {
+            "@type": "Country",
+            "name": "Poland"
+          },
+          {
+            "@type": "Country",
+            "name": "Nigeria"
+          },
+          {
+            "@type": "Country",
+            "name": "Kenya"
+          },
+          {
+            "@type": "Country",
+            "name": "South Africa"
+          },
+          {
+            "@type": "Country",
+            "name": "Ghana"
+          },
+          {
+            "@type": "Country",
+            "name": "Egypt"
+          },
+          {
+            "@type": "Country",
+            "name": "Morocco"
+          },
+          {
+            "@type": "Country",
+            "name": "Tanzania"
+          },
+          {
+            "@type": "Country",
+            "name": "Uganda"
+          },
+          {
+            "@type": "Country",
+            "name": "Rwanda"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Australia"
+          },
+          {
+            "@type": "Country",
+            "name": "Vietnam"
+          }
+        ],
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.ladder7.in/contact"
+        }
+      }
+    ],
+    "serviceLocalizationUiux": [
+      {
+        "@type": "Service",
+        "@id": "https://www.ladder7.in/services/localization-uiux#service",
+        "name": "Digital experiences. Built around people",
+        "serviceType": "UI/UX, Accessibility & QA Services",
+        "description": "UI/UX design, multilingual localisation, WCAG accessibility testing and QA for web and mobile products, delivered by Ladder7 in India for global teams.",
+        "url": "https://www.ladder7.in/services/localization-uiux",
+        "provider": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Saudi Arabia"
+          },
+          {
+            "@type": "Country",
+            "name": "Qatar"
+          },
+          {
+            "@type": "Country",
+            "name": "Kuwait"
+          },
+          {
+            "@type": "Country",
+            "name": "Bahrain"
+          },
+          {
+            "@type": "Country",
+            "name": "Oman"
+          },
+          {
+            "@type": "Country",
+            "name": "United Kingdom"
+          },
+          {
+            "@type": "Country",
+            "name": "Ireland"
+          },
+          {
+            "@type": "Country",
+            "name": "Germany"
+          },
+          {
+            "@type": "Country",
+            "name": "Netherlands"
+          },
+          {
+            "@type": "Country",
+            "name": "France"
+          },
+          {
+            "@type": "Country",
+            "name": "Belgium"
+          },
+          {
+            "@type": "Country",
+            "name": "Sweden"
+          },
+          {
+            "@type": "Country",
+            "name": "Norway"
+          },
+          {
+            "@type": "Country",
+            "name": "Denmark"
+          },
+          {
+            "@type": "Country",
+            "name": "Finland"
+          },
+          {
+            "@type": "Country",
+            "name": "Switzerland"
+          },
+          {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          {
+            "@type": "Country",
+            "name": "Italy"
+          },
+          {
+            "@type": "Country",
+            "name": "Poland"
+          },
+          {
+            "@type": "Country",
+            "name": "Nigeria"
+          },
+          {
+            "@type": "Country",
+            "name": "Kenya"
+          },
+          {
+            "@type": "Country",
+            "name": "South Africa"
+          },
+          {
+            "@type": "Country",
+            "name": "Ghana"
+          },
+          {
+            "@type": "Country",
+            "name": "Egypt"
+          },
+          {
+            "@type": "Country",
+            "name": "Morocco"
+          },
+          {
+            "@type": "Country",
+            "name": "Tanzania"
+          },
+          {
+            "@type": "Country",
+            "name": "Uganda"
+          },
+          {
+            "@type": "Country",
+            "name": "Rwanda"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Australia"
+          },
+          {
+            "@type": "Country",
+            "name": "Vietnam"
+          }
+        ],
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.ladder7.in/contact"
+        }
+      }
+    ],
+    "serviceAiAssistant": [
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.ladder7.in/services/ai-assistant#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the difference between a chatbot and an AI assistant?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Rule-based chatbots follow scripts. AI assistants use large language models and your own knowledge to understand questions, reason and take actions in connected systems."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can your chatbots speak Arabic?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Ladder7 has delivered Arabic, right-to-left projects, and we build and test bilingual Arabic and English assistants for GCC clients."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is our data safe with an AI assistant?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We design assistants with private knowledge retrieval, access controls and logging, and can deploy in the cloud region you choose."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.ladder7.in/services/ai-assistant#service",
+        "name": "AI chatbot and assistant development",
+        "serviceType": "AI chatbot development",
+        "description": "Custom LLM-powered chatbots and internal knowledge assistants for support, sales and operations, built in India for businesses in the GCC, Europe and Africa.",
+        "url": "https://www.ladder7.in/services/ai-assistant",
+        "provider": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Saudi Arabia"
+          },
+          {
+            "@type": "Country",
+            "name": "Qatar"
+          },
+          {
+            "@type": "Country",
+            "name": "Kuwait"
+          },
+          {
+            "@type": "Country",
+            "name": "Bahrain"
+          },
+          {
+            "@type": "Country",
+            "name": "Oman"
+          },
+          {
+            "@type": "Country",
+            "name": "United Kingdom"
+          },
+          {
+            "@type": "Country",
+            "name": "Ireland"
+          },
+          {
+            "@type": "Country",
+            "name": "Germany"
+          },
+          {
+            "@type": "Country",
+            "name": "Netherlands"
+          },
+          {
+            "@type": "Country",
+            "name": "France"
+          },
+          {
+            "@type": "Country",
+            "name": "Belgium"
+          },
+          {
+            "@type": "Country",
+            "name": "Sweden"
+          },
+          {
+            "@type": "Country",
+            "name": "Norway"
+          },
+          {
+            "@type": "Country",
+            "name": "Denmark"
+          },
+          {
+            "@type": "Country",
+            "name": "Finland"
+          },
+          {
+            "@type": "Country",
+            "name": "Switzerland"
+          },
+          {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          {
+            "@type": "Country",
+            "name": "Italy"
+          },
+          {
+            "@type": "Country",
+            "name": "Poland"
+          },
+          {
+            "@type": "Country",
+            "name": "Nigeria"
+          },
+          {
+            "@type": "Country",
+            "name": "Kenya"
+          },
+          {
+            "@type": "Country",
+            "name": "South Africa"
+          },
+          {
+            "@type": "Country",
+            "name": "Ghana"
+          },
+          {
+            "@type": "Country",
+            "name": "Egypt"
+          },
+          {
+            "@type": "Country",
+            "name": "Morocco"
+          },
+          {
+            "@type": "Country",
+            "name": "Tanzania"
+          },
+          {
+            "@type": "Country",
+            "name": "Uganda"
+          },
+          {
+            "@type": "Country",
+            "name": "Rwanda"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Australia"
+          },
+          {
+            "@type": "Country",
+            "name": "Vietnam"
+          }
+        ],
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.ladder7.in/contact"
+        }
+      }
+    ],
+    "serviceAgenticAi": [
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.ladder7.in/services/agenticai#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is agentic AI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Agentic AI uses autonomous AI agents that plan, use tools and collaborate to complete multi-step tasks, with human approval where needed."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What business tasks suit multi-agent systems?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Research, report generation, lead qualification, document processing and operations workflows that cross several systems."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you keep AI agents under control?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "With defined permissions, human-in-the-loop checkpoints, evaluation tests and full activity logs."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.ladder7.in/services/agenticai#service",
+        "name": "Connected agents. Smarter ways to work",
+        "serviceType": "Agentic AI development",
+        "description": "We design and build agentic AI: specialised agents that reason, collaborate and run multi-step business workflows. Engineered in India for global companies.",
+        "url": "https://www.ladder7.in/services/agenticai",
+        "provider": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Saudi Arabia"
+          },
+          {
+            "@type": "Country",
+            "name": "Qatar"
+          },
+          {
+            "@type": "Country",
+            "name": "Kuwait"
+          },
+          {
+            "@type": "Country",
+            "name": "Bahrain"
+          },
+          {
+            "@type": "Country",
+            "name": "Oman"
+          },
+          {
+            "@type": "Country",
+            "name": "United Kingdom"
+          },
+          {
+            "@type": "Country",
+            "name": "Ireland"
+          },
+          {
+            "@type": "Country",
+            "name": "Germany"
+          },
+          {
+            "@type": "Country",
+            "name": "Netherlands"
+          },
+          {
+            "@type": "Country",
+            "name": "France"
+          },
+          {
+            "@type": "Country",
+            "name": "Belgium"
+          },
+          {
+            "@type": "Country",
+            "name": "Sweden"
+          },
+          {
+            "@type": "Country",
+            "name": "Norway"
+          },
+          {
+            "@type": "Country",
+            "name": "Denmark"
+          },
+          {
+            "@type": "Country",
+            "name": "Finland"
+          },
+          {
+            "@type": "Country",
+            "name": "Switzerland"
+          },
+          {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          {
+            "@type": "Country",
+            "name": "Italy"
+          },
+          {
+            "@type": "Country",
+            "name": "Poland"
+          },
+          {
+            "@type": "Country",
+            "name": "Nigeria"
+          },
+          {
+            "@type": "Country",
+            "name": "Kenya"
+          },
+          {
+            "@type": "Country",
+            "name": "South Africa"
+          },
+          {
+            "@type": "Country",
+            "name": "Ghana"
+          },
+          {
+            "@type": "Country",
+            "name": "Egypt"
+          },
+          {
+            "@type": "Country",
+            "name": "Morocco"
+          },
+          {
+            "@type": "Country",
+            "name": "Tanzania"
+          },
+          {
+            "@type": "Country",
+            "name": "Uganda"
+          },
+          {
+            "@type": "Country",
+            "name": "Rwanda"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Australia"
+          },
+          {
+            "@type": "Country",
+            "name": "Vietnam"
+          }
+        ],
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.ladder7.in/contact"
+        }
+      }
+    ],
+    "serviceIntelligentWebsites": [
+      {
+        "@type": "Service",
+        "@id": "https://www.ladder7.in/services/intelligent-websites#service",
+        "name": "Websites that think, learn and adapt",
+        "serviceType": "Intelligent, Predictive Websites",
+        "description": "AI-driven websites that adapt content to visitor intent, with predictive personalisation and SEO, AEO and GEO built in. Designed and engineered by Ladder7.",
+        "url": "https://www.ladder7.in/services/intelligent-websites",
+        "provider": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Saudi Arabia"
+          },
+          {
+            "@type": "Country",
+            "name": "Qatar"
+          },
+          {
+            "@type": "Country",
+            "name": "Kuwait"
+          },
+          {
+            "@type": "Country",
+            "name": "Bahrain"
+          },
+          {
+            "@type": "Country",
+            "name": "Oman"
+          },
+          {
+            "@type": "Country",
+            "name": "United Kingdom"
+          },
+          {
+            "@type": "Country",
+            "name": "Ireland"
+          },
+          {
+            "@type": "Country",
+            "name": "Germany"
+          },
+          {
+            "@type": "Country",
+            "name": "Netherlands"
+          },
+          {
+            "@type": "Country",
+            "name": "France"
+          },
+          {
+            "@type": "Country",
+            "name": "Belgium"
+          },
+          {
+            "@type": "Country",
+            "name": "Sweden"
+          },
+          {
+            "@type": "Country",
+            "name": "Norway"
+          },
+          {
+            "@type": "Country",
+            "name": "Denmark"
+          },
+          {
+            "@type": "Country",
+            "name": "Finland"
+          },
+          {
+            "@type": "Country",
+            "name": "Switzerland"
+          },
+          {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          {
+            "@type": "Country",
+            "name": "Italy"
+          },
+          {
+            "@type": "Country",
+            "name": "Poland"
+          },
+          {
+            "@type": "Country",
+            "name": "Nigeria"
+          },
+          {
+            "@type": "Country",
+            "name": "Kenya"
+          },
+          {
+            "@type": "Country",
+            "name": "South Africa"
+          },
+          {
+            "@type": "Country",
+            "name": "Ghana"
+          },
+          {
+            "@type": "Country",
+            "name": "Egypt"
+          },
+          {
+            "@type": "Country",
+            "name": "Morocco"
+          },
+          {
+            "@type": "Country",
+            "name": "Tanzania"
+          },
+          {
+            "@type": "Country",
+            "name": "Uganda"
+          },
+          {
+            "@type": "Country",
+            "name": "Rwanda"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Australia"
+          },
+          {
+            "@type": "Country",
+            "name": "Vietnam"
+          }
+        ],
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.ladder7.in/contact"
+        }
+      }
+    ],
+    "serviceAiProduct": [
+      {
+        "@type": "Service",
+        "@id": "https://www.ladder7.in/services/aiproduct#service",
+        "name": "Turn your AI vision into a working product",
+        "serviceType": "AI Products & Research POCs",
+        "description": "Prototype AI-first features, test product concepts with rapid proofs of concept and take validated AI products to production with Ladder7's team in India.",
+        "url": "https://www.ladder7.in/services/aiproduct",
+        "provider": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Saudi Arabia"
+          },
+          {
+            "@type": "Country",
+            "name": "Qatar"
+          },
+          {
+            "@type": "Country",
+            "name": "Kuwait"
+          },
+          {
+            "@type": "Country",
+            "name": "Bahrain"
+          },
+          {
+            "@type": "Country",
+            "name": "Oman"
+          },
+          {
+            "@type": "Country",
+            "name": "United Kingdom"
+          },
+          {
+            "@type": "Country",
+            "name": "Ireland"
+          },
+          {
+            "@type": "Country",
+            "name": "Germany"
+          },
+          {
+            "@type": "Country",
+            "name": "Netherlands"
+          },
+          {
+            "@type": "Country",
+            "name": "France"
+          },
+          {
+            "@type": "Country",
+            "name": "Belgium"
+          },
+          {
+            "@type": "Country",
+            "name": "Sweden"
+          },
+          {
+            "@type": "Country",
+            "name": "Norway"
+          },
+          {
+            "@type": "Country",
+            "name": "Denmark"
+          },
+          {
+            "@type": "Country",
+            "name": "Finland"
+          },
+          {
+            "@type": "Country",
+            "name": "Switzerland"
+          },
+          {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          {
+            "@type": "Country",
+            "name": "Italy"
+          },
+          {
+            "@type": "Country",
+            "name": "Poland"
+          },
+          {
+            "@type": "Country",
+            "name": "Nigeria"
+          },
+          {
+            "@type": "Country",
+            "name": "Kenya"
+          },
+          {
+            "@type": "Country",
+            "name": "South Africa"
+          },
+          {
+            "@type": "Country",
+            "name": "Ghana"
+          },
+          {
+            "@type": "Country",
+            "name": "Egypt"
+          },
+          {
+            "@type": "Country",
+            "name": "Morocco"
+          },
+          {
+            "@type": "Country",
+            "name": "Tanzania"
+          },
+          {
+            "@type": "Country",
+            "name": "Uganda"
+          },
+          {
+            "@type": "Country",
+            "name": "Rwanda"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Australia"
+          },
+          {
+            "@type": "Country",
+            "name": "Vietnam"
+          }
+        ],
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.ladder7.in/contact"
+        }
+      }
+    ],
+    "serviceHyperautomation": [
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.ladder7.in/services/hyperautomation#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is hyperautomation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hyperautomation combines robotic process automation (RPA), AI, workflow tools and system integration to automate end-to-end business processes rather than single tasks."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does a hyperautomation consultant do?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "They find high-value processes to automate, design the target workflow, choose tools and build and monitor the automations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where should we start with hyperautomation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Start with a repetitive, rules-heavy process with clear volume, such as invoice processing, onboarding or reporting, then scale from there."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.ladder7.in/services/hyperautomation#service",
+        "name": "Hyperautomation consulting and implementation services",
+        "serviceType": "Hyperautomation consulting",
+        "description": "Hyperautomation consulting and implementation that combines RPA, AI and workflow integration to remove manual work. Delivered from India for global operations.",
+        "url": "https://www.ladder7.in/services/hyperautomation",
+        "provider": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Saudi Arabia"
+          },
+          {
+            "@type": "Country",
+            "name": "Qatar"
+          },
+          {
+            "@type": "Country",
+            "name": "Kuwait"
+          },
+          {
+            "@type": "Country",
+            "name": "Bahrain"
+          },
+          {
+            "@type": "Country",
+            "name": "Oman"
+          },
+          {
+            "@type": "Country",
+            "name": "United Kingdom"
+          },
+          {
+            "@type": "Country",
+            "name": "Ireland"
+          },
+          {
+            "@type": "Country",
+            "name": "Germany"
+          },
+          {
+            "@type": "Country",
+            "name": "Netherlands"
+          },
+          {
+            "@type": "Country",
+            "name": "France"
+          },
+          {
+            "@type": "Country",
+            "name": "Belgium"
+          },
+          {
+            "@type": "Country",
+            "name": "Sweden"
+          },
+          {
+            "@type": "Country",
+            "name": "Norway"
+          },
+          {
+            "@type": "Country",
+            "name": "Denmark"
+          },
+          {
+            "@type": "Country",
+            "name": "Finland"
+          },
+          {
+            "@type": "Country",
+            "name": "Switzerland"
+          },
+          {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          {
+            "@type": "Country",
+            "name": "Italy"
+          },
+          {
+            "@type": "Country",
+            "name": "Poland"
+          },
+          {
+            "@type": "Country",
+            "name": "Nigeria"
+          },
+          {
+            "@type": "Country",
+            "name": "Kenya"
+          },
+          {
+            "@type": "Country",
+            "name": "South Africa"
+          },
+          {
+            "@type": "Country",
+            "name": "Ghana"
+          },
+          {
+            "@type": "Country",
+            "name": "Egypt"
+          },
+          {
+            "@type": "Country",
+            "name": "Morocco"
+          },
+          {
+            "@type": "Country",
+            "name": "Tanzania"
+          },
+          {
+            "@type": "Country",
+            "name": "Uganda"
+          },
+          {
+            "@type": "Country",
+            "name": "Rwanda"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Australia"
+          },
+          {
+            "@type": "Country",
+            "name": "Vietnam"
+          }
+        ],
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.ladder7.in/contact"
+        }
+      }
+    ],
+    "serviceTechnology": [
+      {
+        "@type": "Service",
+        "@id": "https://www.ladder7.in/services/technology#service",
+        "name": "Clear technology choices. A stronger foundation",
+        "serviceType": "Technology & Platform Consulting",
+        "description": "Vendor-neutral technology consulting: stack selection, cloud platform choice, architecture reviews and legacy modernisation roadmaps from senior architects.",
+        "url": "https://www.ladder7.in/services/technology",
+        "provider": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Saudi Arabia"
+          },
+          {
+            "@type": "Country",
+            "name": "Qatar"
+          },
+          {
+            "@type": "Country",
+            "name": "Kuwait"
+          },
+          {
+            "@type": "Country",
+            "name": "Bahrain"
+          },
+          {
+            "@type": "Country",
+            "name": "Oman"
+          },
+          {
+            "@type": "Country",
+            "name": "United Kingdom"
+          },
+          {
+            "@type": "Country",
+            "name": "Ireland"
+          },
+          {
+            "@type": "Country",
+            "name": "Germany"
+          },
+          {
+            "@type": "Country",
+            "name": "Netherlands"
+          },
+          {
+            "@type": "Country",
+            "name": "France"
+          },
+          {
+            "@type": "Country",
+            "name": "Belgium"
+          },
+          {
+            "@type": "Country",
+            "name": "Sweden"
+          },
+          {
+            "@type": "Country",
+            "name": "Norway"
+          },
+          {
+            "@type": "Country",
+            "name": "Denmark"
+          },
+          {
+            "@type": "Country",
+            "name": "Finland"
+          },
+          {
+            "@type": "Country",
+            "name": "Switzerland"
+          },
+          {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          {
+            "@type": "Country",
+            "name": "Italy"
+          },
+          {
+            "@type": "Country",
+            "name": "Poland"
+          },
+          {
+            "@type": "Country",
+            "name": "Nigeria"
+          },
+          {
+            "@type": "Country",
+            "name": "Kenya"
+          },
+          {
+            "@type": "Country",
+            "name": "South Africa"
+          },
+          {
+            "@type": "Country",
+            "name": "Ghana"
+          },
+          {
+            "@type": "Country",
+            "name": "Egypt"
+          },
+          {
+            "@type": "Country",
+            "name": "Morocco"
+          },
+          {
+            "@type": "Country",
+            "name": "Tanzania"
+          },
+          {
+            "@type": "Country",
+            "name": "Uganda"
+          },
+          {
+            "@type": "Country",
+            "name": "Rwanda"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Australia"
+          },
+          {
+            "@type": "Country",
+            "name": "Vietnam"
+          }
+        ],
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.ladder7.in/contact"
+        }
+      }
+    ],
+    "serviceSkilledResource": [
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.ladder7.in/services/skilled-resource#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is IT staff augmentation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Staff augmentation adds external engineers to your in-house team on a flexible contract. They work in your tools and processes while the partner handles hiring, payroll and HR."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How fast can augmented engineers start?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Our integration framework gets new engineers productive within days. Shortlists are usually shared within a week."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is staff augmentation cheaper than hiring?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For most GCC, UK and European companies, augmenting with Indian engineers costs significantly less than local hiring, with no recruitment fees."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.ladder7.in/services/skilled-resource#service",
+        "name": "IT staff augmentation: Indian engineers embedded in your team",
+        "serviceType": "IT staff augmentation",
+        "description": "Pre-vetted developers, QA engineers and architects from India who join your team on monthly contracts. Dedicated squads, offshore centres and BOT models.",
+        "url": "https://www.ladder7.in/services/skilled-resource",
+        "provider": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Saudi Arabia"
+          },
+          {
+            "@type": "Country",
+            "name": "Qatar"
+          },
+          {
+            "@type": "Country",
+            "name": "Kuwait"
+          },
+          {
+            "@type": "Country",
+            "name": "Bahrain"
+          },
+          {
+            "@type": "Country",
+            "name": "Oman"
+          },
+          {
+            "@type": "Country",
+            "name": "United Kingdom"
+          },
+          {
+            "@type": "Country",
+            "name": "Ireland"
+          },
+          {
+            "@type": "Country",
+            "name": "Germany"
+          },
+          {
+            "@type": "Country",
+            "name": "Netherlands"
+          },
+          {
+            "@type": "Country",
+            "name": "France"
+          },
+          {
+            "@type": "Country",
+            "name": "Belgium"
+          },
+          {
+            "@type": "Country",
+            "name": "Sweden"
+          },
+          {
+            "@type": "Country",
+            "name": "Norway"
+          },
+          {
+            "@type": "Country",
+            "name": "Denmark"
+          },
+          {
+            "@type": "Country",
+            "name": "Finland"
+          },
+          {
+            "@type": "Country",
+            "name": "Switzerland"
+          },
+          {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          {
+            "@type": "Country",
+            "name": "Italy"
+          },
+          {
+            "@type": "Country",
+            "name": "Poland"
+          },
+          {
+            "@type": "Country",
+            "name": "Nigeria"
+          },
+          {
+            "@type": "Country",
+            "name": "Kenya"
+          },
+          {
+            "@type": "Country",
+            "name": "South Africa"
+          },
+          {
+            "@type": "Country",
+            "name": "Ghana"
+          },
+          {
+            "@type": "Country",
+            "name": "Egypt"
+          },
+          {
+            "@type": "Country",
+            "name": "Morocco"
+          },
+          {
+            "@type": "Country",
+            "name": "Tanzania"
+          },
+          {
+            "@type": "Country",
+            "name": "Uganda"
+          },
+          {
+            "@type": "Country",
+            "name": "Rwanda"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Australia"
+          },
+          {
+            "@type": "Country",
+            "name": "Vietnam"
+          }
+        ],
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.ladder7.in/contact"
+        }
+      }
+    ],
+    "serviceGreenRecovery": [
+      {
+        "@type": "Service",
+        "@id": "https://www.ladder7.in/services/green-recovery#service",
+        "name": "Bring your project back on track",
+        "serviceType": "Get-to-Green Project Recovery",
+        "description": "Struggling software project? Ladder7 audits code and delivery, stabilises the build and restores velocity with a clear get-to-green recovery plan.",
+        "url": "https://www.ladder7.in/services/green-recovery",
+        "provider": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Saudi Arabia"
+          },
+          {
+            "@type": "Country",
+            "name": "Qatar"
+          },
+          {
+            "@type": "Country",
+            "name": "Kuwait"
+          },
+          {
+            "@type": "Country",
+            "name": "Bahrain"
+          },
+          {
+            "@type": "Country",
+            "name": "Oman"
+          },
+          {
+            "@type": "Country",
+            "name": "United Kingdom"
+          },
+          {
+            "@type": "Country",
+            "name": "Ireland"
+          },
+          {
+            "@type": "Country",
+            "name": "Germany"
+          },
+          {
+            "@type": "Country",
+            "name": "Netherlands"
+          },
+          {
+            "@type": "Country",
+            "name": "France"
+          },
+          {
+            "@type": "Country",
+            "name": "Belgium"
+          },
+          {
+            "@type": "Country",
+            "name": "Sweden"
+          },
+          {
+            "@type": "Country",
+            "name": "Norway"
+          },
+          {
+            "@type": "Country",
+            "name": "Denmark"
+          },
+          {
+            "@type": "Country",
+            "name": "Finland"
+          },
+          {
+            "@type": "Country",
+            "name": "Switzerland"
+          },
+          {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          {
+            "@type": "Country",
+            "name": "Italy"
+          },
+          {
+            "@type": "Country",
+            "name": "Poland"
+          },
+          {
+            "@type": "Country",
+            "name": "Nigeria"
+          },
+          {
+            "@type": "Country",
+            "name": "Kenya"
+          },
+          {
+            "@type": "Country",
+            "name": "South Africa"
+          },
+          {
+            "@type": "Country",
+            "name": "Ghana"
+          },
+          {
+            "@type": "Country",
+            "name": "Egypt"
+          },
+          {
+            "@type": "Country",
+            "name": "Morocco"
+          },
+          {
+            "@type": "Country",
+            "name": "Tanzania"
+          },
+          {
+            "@type": "Country",
+            "name": "Uganda"
+          },
+          {
+            "@type": "Country",
+            "name": "Rwanda"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Australia"
+          },
+          {
+            "@type": "Country",
+            "name": "Vietnam"
+          }
+        ],
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.ladder7.in/contact"
+        }
+      }
+    ],
+    "serviceProductSolution": [
+      {
+        "@type": "Service",
+        "@id": "https://www.ladder7.in/services/product-solution#service",
+        "name": "From a promising idea to a practical blueprint",
+        "serviceType": "Product Ideation & Blueprinting",
+        "description": "Turn a product idea into architecture, MVP scope and a costed development roadmap. Discovery and solution blueprinting for startups and enterprises.",
+        "url": "https://www.ladder7.in/services/product-solution",
+        "provider": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Saudi Arabia"
+          },
+          {
+            "@type": "Country",
+            "name": "Qatar"
+          },
+          {
+            "@type": "Country",
+            "name": "Kuwait"
+          },
+          {
+            "@type": "Country",
+            "name": "Bahrain"
+          },
+          {
+            "@type": "Country",
+            "name": "Oman"
+          },
+          {
+            "@type": "Country",
+            "name": "United Kingdom"
+          },
+          {
+            "@type": "Country",
+            "name": "Ireland"
+          },
+          {
+            "@type": "Country",
+            "name": "Germany"
+          },
+          {
+            "@type": "Country",
+            "name": "Netherlands"
+          },
+          {
+            "@type": "Country",
+            "name": "France"
+          },
+          {
+            "@type": "Country",
+            "name": "Belgium"
+          },
+          {
+            "@type": "Country",
+            "name": "Sweden"
+          },
+          {
+            "@type": "Country",
+            "name": "Norway"
+          },
+          {
+            "@type": "Country",
+            "name": "Denmark"
+          },
+          {
+            "@type": "Country",
+            "name": "Finland"
+          },
+          {
+            "@type": "Country",
+            "name": "Switzerland"
+          },
+          {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          {
+            "@type": "Country",
+            "name": "Italy"
+          },
+          {
+            "@type": "Country",
+            "name": "Poland"
+          },
+          {
+            "@type": "Country",
+            "name": "Nigeria"
+          },
+          {
+            "@type": "Country",
+            "name": "Kenya"
+          },
+          {
+            "@type": "Country",
+            "name": "South Africa"
+          },
+          {
+            "@type": "Country",
+            "name": "Ghana"
+          },
+          {
+            "@type": "Country",
+            "name": "Egypt"
+          },
+          {
+            "@type": "Country",
+            "name": "Morocco"
+          },
+          {
+            "@type": "Country",
+            "name": "Tanzania"
+          },
+          {
+            "@type": "Country",
+            "name": "Uganda"
+          },
+          {
+            "@type": "Country",
+            "name": "Rwanda"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Australia"
+          },
+          {
+            "@type": "Country",
+            "name": "Vietnam"
+          }
+        ],
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.ladder7.in/contact"
+        }
+      }
+    ],
+    "corporateTraining": [],
+    "trainingFullStackDevelopment": [],
+    "trainingDataScience": [],
+    "trainingMobileAppDevelopment": [],
+    "trainingPromptEngineeringAiTraining": [],
+    "trainingDataVisualization": [],
+    "trainingCloudComputingBootcamp": [],
+    "trainingDigitalContentCreation": [],
+    "trainingBusinessAnalytics": [],
+    "trainingBusinessIntelligenceDataAnalytics": [],
+    "trainingMarketingAutomationCrm": [],
+    "trainingWebopsAiMl": [],
+    "blog": [],
+    "blogAiPersonalization": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://www.ladder7.in/blogs/ai-personalize-web-experince#article",
+        "headline": "The Role of AI in Personalizing Web Experiences",
+        "description": "Discover how Artificial Intelligence and machine learning are revolutionizing web design through predictive personalization and dynamic content delivery.",
+        "image": "https://www.ladder7.in/images/photos/blog-ai-personalization-1200.webp",
+        "articleSection": "AI",
+        "author": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "publisher": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "mainEntityOfPage": {
+          "@id": "https://www.ladder7.in/blogs/ai-personalize-web-experince#webpage"
+        },
+        "inLanguage": "en"
+      }
+    ],
+    "blogAiToolsWebTeams": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://www.ladder7.in/blogs/ai-tools-web-development-team#article",
+        "headline": "AI Tools for Web Development Teams: How to Build Intelligent Websites That Convert",
+        "description": "How web development teams can use AI tools to build intelligent websites that improve collaboration, automate repetitive work, and support conversion-focused digital experiences.",
+        "image": "https://www.ladder7.in/images/photos/blog-ai-tools-web-teams-1200.webp",
+        "articleSection": "AI",
+        "author": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "publisher": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "mainEntityOfPage": {
+          "@id": "https://www.ladder7.in/blogs/ai-tools-web-development-team#webpage"
+        },
+        "inLanguage": "en"
+      }
+    ],
+    "blogConversationalAi": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://www.ladder7.in/blogs/conversational-ai-customer-experience#article",
+        "headline": "Conversational AI for Customer Experience: When Chatbots Need to Do More",
+        "description": "How enterprise teams can use conversational AI, private knowledge, workflow orchestration, and analytics to improve customer experience beyond scripted chatbots.",
+        "image": "https://www.ladder7.in/images/photos/blog-conversational-ai-1200.webp",
+        "articleSection": "AI",
+        "author": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "publisher": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "mainEntityOfPage": {
+          "@id": "https://www.ladder7.in/blogs/conversational-ai-customer-experience#webpage"
+        },
+        "inLanguage": "en"
+      }
+    ],
+    "blogWebsiteChecks": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://www.ladder7.in/blogs/why-website-checks-need-to-go-beyond-performance-scores#article",
+        "headline": "Why Website Checks Need to Go Beyond Performance Scores",
+        "description": "A fast site can still fail if buyers, search engines and AI systems cannot understand it or act on it.",
+        "image": "https://www.ladder7.in/images/photos/blog-website-checks-1200.webp",
+        "articleSection": "Web engineering",
+        "author": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "publisher": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "mainEntityOfPage": {
+          "@id": "https://www.ladder7.in/blogs/why-website-checks-need-to-go-beyond-performance-scores#webpage"
+        },
+        "inLanguage": "en"
+      }
+    ],
+    "blogOnam": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://www.ladder7.in/blogs/festive-onam-ladder7#article",
+        "headline": "Festive Moments and Lasting Memories: Ladder7’s Grand Onam Celebration",
+        "description": "Tradition meets tech at Ladder7! Experience the vibrant colors, festive feasts, and lasting memories from our grand Onam celebration in Kerala.",
+        "image": "https://www.ladder7.in/images/photos/blog-onam-celebration-1200.webp",
+        "articleSection": "Life at Ladder7",
+        "author": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "publisher": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "mainEntityOfPage": {
+          "@id": "https://www.ladder7.in/blogs/festive-onam-ladder7#webpage"
+        },
+        "inLanguage": "en"
+      }
+    ],
+    "blogChristmas": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://www.ladder7.in/blogs/magical-christmas-celebration#article",
+        "headline": "Lux Noel: A Magical Christmas Celebration",
+        "description": "Explore the festive spirit at Ladder7! Read about \"Lux Noel,\" our magical Christmas celebration filled with team bonding, joy, and holiday cheer.",
+        "image": "https://www.ladder7.in/images/photos/blog-christmas-celebration-1200.webp",
+        "articleSection": "Life at Ladder7",
+        "author": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "publisher": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "mainEntityOfPage": {
+          "@id": "https://www.ladder7.in/blogs/magical-christmas-celebration#webpage"
+        },
+        "inLanguage": "en"
+      }
+    ],
+    "blogIndependenceDay": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://www.ladder7.in/blogs/independence-day-ladder7#article",
+        "headline": "Celebrating Unity and Responsibility: Independence Day at Ladder7",
+        "description": "Get an inside look at Ladder7's company culture as we celebrate Independence Day with a focus on unity, corporate social responsibility, and national pride.",
+        "image": "https://www.ladder7.in/images/photos/blog-independence-day-1200.webp",
+        "articleSection": "Life at Ladder7",
+        "author": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "publisher": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "mainEntityOfPage": {
+          "@id": "https://www.ladder7.in/blogs/independence-day-ladder7#webpage"
+        },
+        "inLanguage": "en"
+      }
+    ],
+    "privacy": [],
+    "thankYou": [],
+    "sitemap": [],
+    "bootcamp": [],
+    "earnMore": [],
+    "trainingInternship": [],
+    "courseFullStack": [],
+    "courseAiDataScience": [],
+    "courseSoftwareTesting": [],
+    "courseShopify": [],
+    "firstJob": [],
+    "careerGoalFinding": [],
+    "customSoftwareIndia": [
+      {
+        "@type": "Service",
+        "@id": "https://www.ladder7.in/custom-software-development-company-india#service",
+        "name": "Custom software development",
+        "serviceType": "Custom Software Development",
+        "description": "Affordable custom software development from India. Ladder7 builds web apps, business software, mobile apps and AI for clients in the GCC, Europe and Africa.",
+        "url": "https://www.ladder7.in/custom-software-development-company-india",
+        "provider": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Saudi Arabia"
+          },
+          {
+            "@type": "Country",
+            "name": "Qatar"
+          },
+          {
+            "@type": "Country",
+            "name": "Kuwait"
+          },
+          {
+            "@type": "Country",
+            "name": "Bahrain"
+          },
+          {
+            "@type": "Country",
+            "name": "Oman"
+          },
+          {
+            "@type": "Country",
+            "name": "United Kingdom"
+          },
+          {
+            "@type": "Country",
+            "name": "Ireland"
+          },
+          {
+            "@type": "Country",
+            "name": "Germany"
+          },
+          {
+            "@type": "Country",
+            "name": "Netherlands"
+          },
+          {
+            "@type": "Country",
+            "name": "France"
+          },
+          {
+            "@type": "Country",
+            "name": "Belgium"
+          },
+          {
+            "@type": "Country",
+            "name": "Sweden"
+          },
+          {
+            "@type": "Country",
+            "name": "Norway"
+          },
+          {
+            "@type": "Country",
+            "name": "Denmark"
+          },
+          {
+            "@type": "Country",
+            "name": "Finland"
+          },
+          {
+            "@type": "Country",
+            "name": "Switzerland"
+          },
+          {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          {
+            "@type": "Country",
+            "name": "Italy"
+          },
+          {
+            "@type": "Country",
+            "name": "Poland"
+          },
+          {
+            "@type": "Country",
+            "name": "Nigeria"
+          },
+          {
+            "@type": "Country",
+            "name": "Kenya"
+          },
+          {
+            "@type": "Country",
+            "name": "South Africa"
+          },
+          {
+            "@type": "Country",
+            "name": "Ghana"
+          },
+          {
+            "@type": "Country",
+            "name": "Egypt"
+          },
+          {
+            "@type": "Country",
+            "name": "Morocco"
+          },
+          {
+            "@type": "Country",
+            "name": "Tanzania"
+          },
+          {
+            "@type": "Country",
+            "name": "Uganda"
+          },
+          {
+            "@type": "Country",
+            "name": "Rwanda"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Australia"
+          },
+          {
+            "@type": "Country",
+            "name": "Vietnam"
+          }
+        ],
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.ladder7.in/contact"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.ladder7.in/custom-software-development-company-india#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much does custom software development in India cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Cost depends on scope, integrations and team size. Ladder7 offers enterprise-grade quality at affordable, flexible pricing: a fixed quote for defined projects, a monthly fee for dedicated teams, or time and materials, agreed after a short discovery call."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it safe to outsource software development to India?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, when the contract and process are right. Ladder7 works under an NDA, assigns code and IP to you, keeps code in your repository, and gives you access to staging environments and sprint demos throughout."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does a custom software project take?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A focused MVP usually takes 8 to 16 weeks. Larger business systems run in phases, with a usable release in each phase rather than one launch at the end."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you work with our existing developers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We can take full ownership of a product or add engineers to your team through staff augmentation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you only work with clients in India?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Ladder7 has clients in the UAE, the UK (London), Germany, Ireland, the USA, Singapore, Australia, Vietnam and India, and takes on projects across the GCC, Europe and Africa, working remotely with meetings in your business hours."
+            }
+          }
+        ]
+      }
+    ],
+    "hireDevelopersIndia": [
+      {
+        "@type": "Service",
+        "@id": "https://www.ladder7.in/hire-dedicated-developers-india#service",
+        "name": "Dedicated software developers",
+        "serviceType": "IT Staff Augmentation",
+        "description": "Hire pre-vetted React, Node.js, Python, AI and mobile developers from India on monthly contracts. Cost-effective teams for GCC, European and African firms.",
+        "url": "https://www.ladder7.in/hire-dedicated-developers-india",
+        "provider": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Saudi Arabia"
+          },
+          {
+            "@type": "Country",
+            "name": "Qatar"
+          },
+          {
+            "@type": "Country",
+            "name": "Kuwait"
+          },
+          {
+            "@type": "Country",
+            "name": "Bahrain"
+          },
+          {
+            "@type": "Country",
+            "name": "Oman"
+          },
+          {
+            "@type": "Country",
+            "name": "United Kingdom"
+          },
+          {
+            "@type": "Country",
+            "name": "Ireland"
+          },
+          {
+            "@type": "Country",
+            "name": "Germany"
+          },
+          {
+            "@type": "Country",
+            "name": "Netherlands"
+          },
+          {
+            "@type": "Country",
+            "name": "France"
+          },
+          {
+            "@type": "Country",
+            "name": "Belgium"
+          },
+          {
+            "@type": "Country",
+            "name": "Sweden"
+          },
+          {
+            "@type": "Country",
+            "name": "Norway"
+          },
+          {
+            "@type": "Country",
+            "name": "Denmark"
+          },
+          {
+            "@type": "Country",
+            "name": "Finland"
+          },
+          {
+            "@type": "Country",
+            "name": "Switzerland"
+          },
+          {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          {
+            "@type": "Country",
+            "name": "Italy"
+          },
+          {
+            "@type": "Country",
+            "name": "Poland"
+          },
+          {
+            "@type": "Country",
+            "name": "Nigeria"
+          },
+          {
+            "@type": "Country",
+            "name": "Kenya"
+          },
+          {
+            "@type": "Country",
+            "name": "South Africa"
+          },
+          {
+            "@type": "Country",
+            "name": "Ghana"
+          },
+          {
+            "@type": "Country",
+            "name": "Egypt"
+          },
+          {
+            "@type": "Country",
+            "name": "Morocco"
+          },
+          {
+            "@type": "Country",
+            "name": "Tanzania"
+          },
+          {
+            "@type": "Country",
+            "name": "Uganda"
+          },
+          {
+            "@type": "Country",
+            "name": "Rwanda"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Australia"
+          },
+          {
+            "@type": "Country",
+            "name": "Vietnam"
+          }
+        ],
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.ladder7.in/contact"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.ladder7.in/hire-dedicated-developers-india#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What does it cost to hire a dedicated developer in India?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Monthly cost depends on role and seniority. Indian dedicated developers usually cost significantly less than equivalent hires in the GCC, UK or Western Europe. Ladder7 keeps pricing affordable and flexible, so share the roles you need and we will propose a team and monthly fee."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How quickly can a developer start?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Shortlists are typically shared within a week. Start dates depend on the role and the developer's current commitments."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will the developer work in my time zone?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Developers align their day for overlap with your core hours. India is 1.5 to 2.5 hours ahead of the Gulf and 3.5 to 5.5 hours ahead of Europe, so a shared working window is easy to arrange."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is pricing flexible?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Teams run on monthly terms, so you can scale developers up or down as your roadmap changes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who owns the code?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You do. The contract assigns all intellectual property to you, and code lives in your repositories."
+            }
+          }
+        ]
+      }
+    ],
+    "offshoreDevelopmentIndia": [
+      {
+        "@type": "Service",
+        "@id": "https://www.ladder7.in/offshore-software-development-india#service",
+        "name": "Offshore software development",
+        "serviceType": "Offshore Software Development",
+        "description": "Set up an offshore software development team or centre in India with Ladder7. Dedicated squads, onsite-offshore delivery and build-operate-transfer models.",
+        "url": "https://www.ladder7.in/offshore-software-development-india",
+        "provider": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Saudi Arabia"
+          },
+          {
+            "@type": "Country",
+            "name": "Qatar"
+          },
+          {
+            "@type": "Country",
+            "name": "Kuwait"
+          },
+          {
+            "@type": "Country",
+            "name": "Bahrain"
+          },
+          {
+            "@type": "Country",
+            "name": "Oman"
+          },
+          {
+            "@type": "Country",
+            "name": "United Kingdom"
+          },
+          {
+            "@type": "Country",
+            "name": "Ireland"
+          },
+          {
+            "@type": "Country",
+            "name": "Germany"
+          },
+          {
+            "@type": "Country",
+            "name": "Netherlands"
+          },
+          {
+            "@type": "Country",
+            "name": "France"
+          },
+          {
+            "@type": "Country",
+            "name": "Belgium"
+          },
+          {
+            "@type": "Country",
+            "name": "Sweden"
+          },
+          {
+            "@type": "Country",
+            "name": "Norway"
+          },
+          {
+            "@type": "Country",
+            "name": "Denmark"
+          },
+          {
+            "@type": "Country",
+            "name": "Finland"
+          },
+          {
+            "@type": "Country",
+            "name": "Switzerland"
+          },
+          {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          {
+            "@type": "Country",
+            "name": "Italy"
+          },
+          {
+            "@type": "Country",
+            "name": "Poland"
+          },
+          {
+            "@type": "Country",
+            "name": "Nigeria"
+          },
+          {
+            "@type": "Country",
+            "name": "Kenya"
+          },
+          {
+            "@type": "Country",
+            "name": "South Africa"
+          },
+          {
+            "@type": "Country",
+            "name": "Ghana"
+          },
+          {
+            "@type": "Country",
+            "name": "Egypt"
+          },
+          {
+            "@type": "Country",
+            "name": "Morocco"
+          },
+          {
+            "@type": "Country",
+            "name": "Tanzania"
+          },
+          {
+            "@type": "Country",
+            "name": "Uganda"
+          },
+          {
+            "@type": "Country",
+            "name": "Rwanda"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Australia"
+          },
+          {
+            "@type": "Country",
+            "name": "Vietnam"
+          }
+        ],
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.ladder7.in/contact"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.ladder7.in/offshore-software-development-india#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is an offshore development centre?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "An offshore development centre is a dedicated engineering team in another country, here India, that works exclusively for one client under that client's direction, while the partner handles hiring, facilities, HR and operations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between offshore and outsourcing?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Project outsourcing hands over a defined piece of work. Offshore development gives you a long-term team you direct, much like an internal department, with lower cost."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How big does an offshore team need to be?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Teams can start with two or three engineers and grow as the roadmap expands."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can we take over the team later?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Under a build-operate-transfer model, Ladder7 sets up and runs the team, then transfers it to your own legal entity."
+            }
+          }
+        ]
+      }
+    ],
+    "mobileAppDevelopment": [
+      {
+        "@type": "Service",
+        "@id": "https://www.ladder7.in/mobile-app-development-company-india#service",
+        "name": "Mobile app development",
+        "serviceType": "Mobile Application Development",
+        "description": "Android, iOS and Flutter app development from India. Ladder7 builds affordable, scalable apps with secure backends for clients in the GCC, Europe and Africa.",
+        "url": "https://www.ladder7.in/mobile-app-development-company-india",
+        "provider": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Saudi Arabia"
+          },
+          {
+            "@type": "Country",
+            "name": "Qatar"
+          },
+          {
+            "@type": "Country",
+            "name": "Kuwait"
+          },
+          {
+            "@type": "Country",
+            "name": "Bahrain"
+          },
+          {
+            "@type": "Country",
+            "name": "Oman"
+          },
+          {
+            "@type": "Country",
+            "name": "United Kingdom"
+          },
+          {
+            "@type": "Country",
+            "name": "Ireland"
+          },
+          {
+            "@type": "Country",
+            "name": "Germany"
+          },
+          {
+            "@type": "Country",
+            "name": "Netherlands"
+          },
+          {
+            "@type": "Country",
+            "name": "France"
+          },
+          {
+            "@type": "Country",
+            "name": "Belgium"
+          },
+          {
+            "@type": "Country",
+            "name": "Sweden"
+          },
+          {
+            "@type": "Country",
+            "name": "Norway"
+          },
+          {
+            "@type": "Country",
+            "name": "Denmark"
+          },
+          {
+            "@type": "Country",
+            "name": "Finland"
+          },
+          {
+            "@type": "Country",
+            "name": "Switzerland"
+          },
+          {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          {
+            "@type": "Country",
+            "name": "Italy"
+          },
+          {
+            "@type": "Country",
+            "name": "Poland"
+          },
+          {
+            "@type": "Country",
+            "name": "Nigeria"
+          },
+          {
+            "@type": "Country",
+            "name": "Kenya"
+          },
+          {
+            "@type": "Country",
+            "name": "South Africa"
+          },
+          {
+            "@type": "Country",
+            "name": "Ghana"
+          },
+          {
+            "@type": "Country",
+            "name": "Egypt"
+          },
+          {
+            "@type": "Country",
+            "name": "Morocco"
+          },
+          {
+            "@type": "Country",
+            "name": "Tanzania"
+          },
+          {
+            "@type": "Country",
+            "name": "Uganda"
+          },
+          {
+            "@type": "Country",
+            "name": "Rwanda"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Australia"
+          },
+          {
+            "@type": "Country",
+            "name": "Vietnam"
+          }
+        ],
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.ladder7.in/contact"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.ladder7.in/mobile-app-development-company-india#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much does it cost to build an app in India?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A simple app costs far less than a complex marketplace or fintech app. Ladder7 builds enterprise-grade apps at affordable, flexible pricing and provides a fixed estimate after a short discovery session."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Flutter or native: which should we choose?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Flutter suits most business apps because one codebase serves Android and iOS. Native is better for heavy device integration, complex animation or very high performance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to build a mobile app?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A focused first version usually takes 10 to 16 weeks including design, build, testing and store submission."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you publish the app to the stores?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We handle App Store and Google Play submission under your developer accounts, so you own the listings."
+            }
+          }
+        ]
+      }
+    ],
+    "regionUAE": [
+      {
+        "@type": "Service",
+        "@id": "https://www.ladder7.in/software-development-company-uae#service",
+        "name": "Software development for UAE businesses",
+        "serviceType": "Custom Software Development",
+        "description": "Offshore software development for Dubai and Abu Dhabi businesses. Ladder7 builds custom software, web and mobile apps from India, 1.5 hours ahead of UAE time.",
+        "url": "https://www.ladder7.in/software-development-company-uae",
+        "provider": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          }
+        ],
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.ladder7.in/contact"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.ladder7.in/software-development-company-uae#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can an Indian company build software for a UAE business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Many UAE companies outsource development to India for cost and talent reasons. Ladder7 works remotely with UAE clients, with meetings in Gulf business hours and visits when needed."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the time difference between India and the UAE?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "India Standard Time is 1.5 hours ahead of Gulf Standard Time, giving almost a full day of overlapping working hours."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you support Arabic websites and apps?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Ladder7 has delivered Arabic, right-to-left projects and builds bilingual Arabic and English websites and apps."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do UAE clients pay?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We invoice in your local currency (AED for UAE clients), or in USD or INR if you prefer, by agreed milestone or monthly for dedicated teams."
+            }
+          }
+        ]
+      }
+    ],
+    "regionKSA": [
+      {
+        "@type": "Service",
+        "@id": "https://www.ladder7.in/software-development-company-saudi-arabia#service",
+        "name": "Software development for Saudi businesses",
+        "serviceType": "Custom Software Development",
+        "description": "Affordable custom software, web and mobile app development for Saudi businesses in Riyadh, Jeddah and Dammam. Indian engineers, Arabic-ready builds, KSA hours.",
+        "url": "https://www.ladder7.in/software-development-company-saudi-arabia",
+        "provider": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "Saudi Arabia"
+          }
+        ],
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.ladder7.in/contact"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.ladder7.in/software-development-company-saudi-arabia#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can you build Arabic software for the Saudi market?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Ladder7 has delivered Arabic, right-to-left projects. We build Arabic-first interfaces with English as a second language, and plan local requirements such as e-invoicing and local payment methods in discovery."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the time difference between India and Saudi Arabia?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "India is 2.5 hours ahead of Saudi Arabia, so a full shared working window is easy to set up."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can data be hosted inside Saudi Arabia?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We can deploy to cloud regions inside the Kingdom when data residency rules apply to your project."
+            }
+          }
+        ]
+      }
+    ],
+    "regionGCC": [
+      {
+        "@type": "Service",
+        "@id": "https://www.ladder7.in/software-development-gcc#service",
+        "name": "Software development for GCC businesses",
+        "serviceType": "Custom Software Development",
+        "description": "Offshore software development for companies in Qatar, Kuwait, Bahrain, Oman, the UAE and Saudi Arabia. Indian engineering teams aligned with Gulf working hours.",
+        "url": "https://www.ladder7.in/software-development-gcc",
+        "provider": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "Qatar"
+          },
+          {
+            "@type": "Country",
+            "name": "Kuwait"
+          },
+          {
+            "@type": "Country",
+            "name": "Bahrain"
+          },
+          {
+            "@type": "Country",
+            "name": "Oman"
+          },
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Saudi Arabia"
+          }
+        ],
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.ladder7.in/contact"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.ladder7.in/software-development-gcc#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Which GCC countries do you work with?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ladder7 has active clients in the UAE and takes on projects in Saudi Arabia, Qatar, Kuwait, Bahrain and Oman."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why outsource software development from the GCC to India?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Lower cost than local hiring, a large engineering talent pool, a 1.5 to 2.5 hour time difference and short direct flights make India a practical development base for Gulf companies."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you travel to the Gulf for workshops?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, for discovery workshops and key milestones when the project needs in-person time."
+            }
+          }
+        ]
+      }
+    ],
+    "regionEurope": [
+      {
+        "@type": "Service",
+        "@id": "https://www.ladder7.in/offshore-software-development-uk-europe#service",
+        "name": "Offshore software development for European businesses",
+        "serviceType": "Offshore Software Development",
+        "description": "Cost-effective offshore software development for UK, Irish, German, Dutch and Nordic firms. GDPR-aware Indian engineering teams with a shared working window.",
+        "url": "https://www.ladder7.in/offshore-software-development-uk-europe",
+        "provider": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United Kingdom"
+          },
+          {
+            "@type": "Country",
+            "name": "Ireland"
+          },
+          {
+            "@type": "Country",
+            "name": "Germany"
+          },
+          {
+            "@type": "Country",
+            "name": "Netherlands"
+          },
+          {
+            "@type": "Country",
+            "name": "France"
+          },
+          {
+            "@type": "Country",
+            "name": "Belgium"
+          },
+          {
+            "@type": "Country",
+            "name": "Sweden"
+          },
+          {
+            "@type": "Country",
+            "name": "Norway"
+          },
+          {
+            "@type": "Country",
+            "name": "Denmark"
+          },
+          {
+            "@type": "Country",
+            "name": "Finland"
+          },
+          {
+            "@type": "Country",
+            "name": "Switzerland"
+          },
+          {
+            "@type": "Country",
+            "name": "Spain"
+          },
+          {
+            "@type": "Country",
+            "name": "Poland"
+          }
+        ],
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.ladder7.in/contact"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.ladder7.in/offshore-software-development-uk-europe#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is offshore development to India GDPR compliant?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It can be. GDPR allows transfers outside the EU with appropriate safeguards such as Standard Contractual Clauses. Ladder7 signs Data Processing Agreements including Standard Contractual Clauses, and can host data in EU or UK regions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the time difference between India and the UK?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "India is 5.5 hours ahead of the UK in winter and 4.5 hours ahead in summer, leaving a shared window from your morning to our evening."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you help with European Accessibility Act requirements?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Our QA team tests against WCAG and fixes accessibility issues in web and mobile products."
+            }
+          }
+        ]
+      }
+    ],
+    "regionAfrica": [
+      {
+        "@type": "Service",
+        "@id": "https://www.ladder7.in/software-development-outsourcing-africa#service",
+        "name": "Software development for African businesses",
+        "serviceType": "Custom Software Development",
+        "description": "Affordable custom software, fintech and mobile app development for firms in Nigeria, Kenya, South Africa, Ghana and Egypt, built by Indian engineering teams.",
+        "url": "https://www.ladder7.in/software-development-outsourcing-africa",
+        "provider": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "Nigeria"
+          },
+          {
+            "@type": "Country",
+            "name": "Kenya"
+          },
+          {
+            "@type": "Country",
+            "name": "South Africa"
+          },
+          {
+            "@type": "Country",
+            "name": "Ghana"
+          },
+          {
+            "@type": "Country",
+            "name": "Egypt"
+          },
+          {
+            "@type": "Country",
+            "name": "Morocco"
+          },
+          {
+            "@type": "Country",
+            "name": "Tanzania"
+          },
+          {
+            "@type": "Country",
+            "name": "Uganda"
+          },
+          {
+            "@type": "Country",
+            "name": "Rwanda"
+          },
+          {
+            "@type": "Country",
+            "name": "Ethiopia"
+          }
+        ],
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.ladder7.in/contact"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.ladder7.in/software-development-outsourcing-africa#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Why outsource software development from Africa to India?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "India offers a large pool of experienced engineers at competitive rates, English-language delivery and a 2.5 to 4.5 hour time difference with most African business hubs."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which payment gateways have you integrated?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ladder7 has integrated global gateways including Stripe and PayPal. Regional and mobile-money providers are scoped in discovery and built against each provider's official API documentation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you build apps for low-bandwidth users?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We design for mid-range Android devices, offline-first behaviour where useful, and small app sizes."
+            }
+          }
+        ]
+      }
+    ],
+    "engagementModels": [
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.ladder7.in/engagement-models-pricing#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Are Indian software developers cheap?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Indian developers usually cost much less than equivalent engineers in the GCC, UK, Europe or South Africa. At Ladder7, affordable pricing comes with enterprise-grade delivery: senior architects, code reviews, automated testing and full IP ownership for the client."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which engagement model is cheapest?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For a clearly defined project, fixed price gives the most cost certainty. For long-term development, a dedicated team usually has the lowest cost per delivered feature."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you require a long contract?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Dedicated teams run on monthly terms, and fixed-price work is paid by milestone."
+            }
+          }
+        ]
+      }
+    ],
+    "blogChooseCompanyIndia": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://www.ladder7.in/blogs/how-to-choose-custom-software-development-company-india#article",
+        "headline": "How to choose a custom software development company in India: a buyer's checklist.",
+        "description": "A practical checklist for GCC, European and African buyers choosing an Indian software development company: seniority, process, contracts, IP and cost.",
+        "datePublished": "2026-11-09",
+        "dateModified": "2026-11-09",
+        "inLanguage": "en",
+        "author": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "publisher": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "mainEntityOfPage": {
+          "@id": "https://www.ladder7.in/blogs/how-to-choose-custom-software-development-company-india#webpage"
+        },
+        "image": "https://www.ladder7.in/og/ladder7-og.jpg"
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.ladder7.in/blogs/how-to-choose-custom-software-development-company-india#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What should I ask an Indian software company before hiring?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ask who will do the work, how sprints and QA run, who owns the IP, how data is protected, which time zone overlap they offer and for references from clients in your region."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I avoid poor quality when outsourcing to India?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Start with a paid discovery or pilot, insist on code in your repository, review demos every sprint and agree acceptance criteria in advance."
+            }
+          }
+        ]
+      }
+    ],
+    "blogOutsourcingComparison": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://www.ladder7.in/blogs/india-vs-eastern-europe-vs-africa-software-outsourcing#article",
+        "headline": "India vs Eastern Europe vs Africa for software outsourcing: which fits your company?",
+        "description": "Comparing India, Eastern Europe and Africa for software outsourcing: cost, talent pool, time zones and fit for buyers in the GCC, UK and the European Union.",
+        "datePublished": "2026-11-09",
+        "dateModified": "2026-11-09",
+        "inLanguage": "en",
+        "author": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "publisher": {
+          "@id": "https://www.ladder7.in/#organization"
+        },
+        "mainEntityOfPage": {
+          "@id": "https://www.ladder7.in/blogs/india-vs-eastern-europe-vs-africa-software-outsourcing#webpage"
+        },
+        "image": "https://www.ladder7.in/og/ladder7-og.jpg"
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.ladder7.in/blogs/india-vs-eastern-europe-vs-africa-software-outsourcing#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is India cheaper than Eastern Europe for software development?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "In most cases yes. India typically offers lower rates for comparable seniority, along with a larger talent pool."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which outsourcing region is best for Gulf companies?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "India is usually the strongest fit for GCC companies because of cost, a 1.5 to 2.5 hour time difference, short flights and long-standing business ties."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,12 +1,3 @@
-import pageContentData from "./website-pages.json";
-import { pageForPath } from "../routes";
-
-export interface WebsitePageSeoContent {
-  title: string;
-  description: string;
-  h1: string;
-}
-
 export interface WebsiteContentItem {
   type: string;
   text: string;
@@ -55,42 +46,4 @@ export interface WebsitePageContent {
     h1: string;
   };
   sections: WebsiteContentSection[];
-}
-
-const websitePages = pageContentData as WebsitePageContent[];
-const pagesByKey = new Map(websitePages.map((page) => [page.page_key, page]));
-
-export function websitePageContent(pageKey: string): WebsitePageContent | undefined {
-  return pagesByKey.get(pageKey);
-}
-
-export function websitePageSeo(pageKey: string): WebsitePageSeoContent | undefined {
-  const page = websitePageContent(pageKey);
-  return page
-    ? {
-        title: page.seo.meta_title,
-        description: page.seo.meta_description,
-        h1: page.seo.h1,
-      }
-    : undefined;
-}
-
-export function websitePageContentForPath(pathname: string): WebsitePageContent | undefined {
-  return websitePageContent(pageForPath(pathname));
-}
-
-export function websiteSection(
-  pageKey: string,
-  sectionName: string,
-): WebsiteContentSection | undefined {
-  return websitePageContent(pageKey)?.sections.find(
-    (section) => section.section_name === sectionName || section.section_id === sectionName,
-  );
-}
-
-export function sectionTexts(
-  section: WebsiteContentSection | undefined,
-  type: string,
-): string[] {
-  return section?.content?.filter((item) => item.type === type).map((item) => item.text) ?? [];
 }

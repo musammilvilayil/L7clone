@@ -1,11 +1,12 @@
 import { useState } from "react";
-import { SERVICE_FAQS } from "../../../data/serviceCatalogue";
+import { websitePageFaqs } from "../../../data/websiteSeo";
 import { revealRef } from "../../../hooks/useReveal";
 import "./ServiceFaq.css";
 
 /** Services hub FAQ (design: .service-faq) — its own 4 questions, not the generic FAQS. */
 export function ServiceFaq() {
   const [open, setOpen] = useState(0);
+  const faqs = websitePageFaqs("services");
 
   return (
     <section className="service-faq" aria-labelledby="service-faq-title">
@@ -18,7 +19,7 @@ export function ServiceFaq() {
         </h2>
       </div>
       <div className="service-faq__list">
-        {SERVICE_FAQS.map((faq, index) => (
+        {faqs.map((faq, index) => (
           <details
             key={faq.question}
             open={open === index}

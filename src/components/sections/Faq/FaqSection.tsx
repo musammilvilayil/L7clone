@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FAQS } from "../../../data/company";
+import { websitePageFaqs } from "../../../data/websiteSeo";
 import { revealRef } from "../../../hooks/useReveal";
 import { Plus } from "../../common/Icons";
 import { Eyebrow } from "../../ui/Eyebrow";
@@ -12,6 +12,7 @@ import "./FaqSection.css";
  */
 export function FaqSection({ headingLevel: Heading = "h2" }: { headingLevel?: "h1" | "h2" }) {
   const [open, setOpen] = useState(0);
+  const faqs = websitePageFaqs("home");
 
   return (
     <section className="section section--lined split faq" id="faq" aria-labelledby="faq-title">
@@ -22,7 +23,7 @@ export function FaqSection({ headingLevel: Heading = "h2" }: { headingLevel?: "h
         </Heading>
       </div>
       <div className="faq__list reveal" ref={revealRef}>
-        {FAQS.map((faq, index) => (
+        {faqs.map((faq, index) => (
           <details
             key={faq.question}
             open={open === index}

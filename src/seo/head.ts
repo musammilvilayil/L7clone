@@ -19,7 +19,7 @@ export type HeadTag =
 export function buildHead(key: PageKey): HeadTag[] {
   const page = PAGE_SEO[key];
   const indexable = ALLOW_INDEXING && page.indexable;
-  const url = absoluteUrl(page.path);
+  const url = page.canonicalUrl ?? absoluteUrl(page.path);
   const image = `${SITE_URL}${page.image}`;
   const robots = indexable ? "index, follow, max-image-preview:large, max-snippet:-1" : "noindex, follow";
 
@@ -27,16 +27,16 @@ export function buildHead(key: PageKey): HeadTag[] {
     { kind: "title", text: page.title },
     { kind: "meta", key: "name", id: "description", content: page.description },
     { kind: "meta", key: "name", id: "robots", content: robots },
-    { kind: "meta", key: "property", id: "og:type", content: "website" },
+    { kind: "meta", key: "property", id: "og:type", content: page.openGraphType ?? "website" },
     { kind: "meta", key: "property", id: "og:site_name", content: COMPANY.name },
-    { kind: "meta", key: "property", id: "og:locale", content: "en_IN" },
+    { kind: "meta", key: "property", id: "og:locale", content: page.openGraphLocale ?? "en_IN" },
     { kind: "meta", key: "property", id: "og:title", content: page.title },
     { kind: "meta", key: "property", id: "og:description", content: page.description },
     { kind: "meta", key: "property", id: "og:image", content: image },
     { kind: "meta", key: "property", id: "og:image:width", content: "1200" },
     { kind: "meta", key: "property", id: "og:image:height", content: "630" },
     { kind: "meta", key: "property", id: "og:image:alt", content: page.imageAlt },
-    { kind: "meta", key: "name", id: "twitter:card", content: "summary_large_image" },
+    { kind: "meta", key: "name", id: "twitter:card", content: page.twitterCard ?? "summary_large_image" },
     { kind: "meta", key: "name", id: "twitter:title", content: page.title },
     { kind: "meta", key: "name", id: "twitter:description", content: page.description },
     { kind: "meta", key: "name", id: "twitter:image", content: image },

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { ABOUT_REACH_CONTENT } from "../../../data/aboutReachContent";
 import { revealRef } from "../../../hooks/useReveal";
 import { WorldMap } from "./WorldMap";
 import "./AboutReach.css";
@@ -10,6 +11,8 @@ const TOOLS = ["Adobe AEM", "React", "Python", "Azure", "Shopify", "MongoDB"];
 /** "Local attention. Connected thinking." (design: .about-reach) — Kerala map + tools. */
 export function AboutReach() {
   const [time, setTime] = useState<string | null>(null);
+  const content = ABOUT_REACH_CONTENT;
+  const headingLines = (content?.section_heading ?? "Local attention.\nConnected thinking.").split("\n");
 
   useEffect(() => {
     const tick = () => setTime(KERALA_TIME.format(new Date()));
@@ -22,11 +25,17 @@ export function AboutReach() {
     <section className="about-reach" aria-labelledby="reach-title">
       <div className="about-reach__top">
         <div className="reveal" ref={revealRef}>
-          <p className="eyebrow eyebrow--live">From Kerala. For your next chapter.</p>
+          <p className="eyebrow eyebrow--live">
+            {content?.content?.find((item: { type: string; text?: string }) => item.type === "p")?.text ?? "From Kerala. For your next chapter."}
+          </p>
           <h2 id="reach-title">
-            Local attention.
-            <br />
-            Connected thinking<span className="accent">.</span>
+            {headingLines.map((line: string, index: number) => (
+              <span key={line}>
+                {index > 0 && <br />}
+                {line.replace(/\.$/, "")}
+                {index === headingLines.length - 1 && <span className="accent">.</span>}
+              </span>
+            ))}
           </h2>
         </div>
         <dl className="reveal" ref={revealRef}>

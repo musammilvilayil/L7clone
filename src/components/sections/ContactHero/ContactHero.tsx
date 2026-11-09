@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { CONTACT_INTERESTS } from "../../../data/company";
 import { COMPANY } from "../../../data/site";
-import { websitePageSeo } from "../../../data/websiteContent";
+import { websitePageSeo } from "../../../data/websiteSeo";
 import { ArrowUpRight } from "../../common/Icons";
 import { ParticleField } from "../Hero/ParticleField";
 import { EnquiryForm } from "../../forms/EnquiryForm";

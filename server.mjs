@@ -54,6 +54,16 @@ const SECURITY_HEADERS = {
   "Cross-Origin-Opener-Policy": "same-origin",
 };
 
+const LEGACY_REDIRECTS = new Map([
+  ["/it", "/"],
+  ["/services/Web-experience", "/services/web-experience"],
+  ["/services/Hyperautomation", "/services/hyperautomation"],
+  ["/programs/aem", "/services/aem-digital-experience"],
+  ["/programs/registrationforcareers", "/careers"],
+  ["/myndgym", "/mindgym"],
+  ["/blogs/how-to-choose-an-ai-consulting-company", "/blogs/how-to-choose-custom-software-development-company-india"],
+]);
+
 /** Resolves a URL path to a file inside ROOT, or null (blocks path traversal). */
 function resolveFile(pathname) {
   const file = normalize(join(ROOT, pathname));
@@ -106,11 +116,38 @@ const server = createServer((req, res) => {
     res.writeHead(400).end();
     return;
   }
+
+  const host = String(req.headers["x-forwarded-host"] ?? req.headers.host ?? "")
+    .split(",")[0]
+    ?.trim()
+    .toLowerCase()
+    .split(":")[0];
+  if (host === "ladder7.in" || host === "www.ladder7.in") {
+    const protocol = String(req.headers["x-forwarded-proto"] ?? "")
+      .split(",")[0]
+      ?.trim()
+      .toLowerCase();
+    if (host !== "www.ladder7.in" || protocol !== "https") {
+      res.writeHead(301, {
+        Location: `https://www.ladder7.in${url.pathname}${url.search}`,
+        ...SECURITY_HEADERS,
+      }).end();
+      return;
+    }
+  }
+
   let pathname;
   try {
     pathname = decodeURIComponent(url.pathname);
   } catch {
     res.writeHead(400).end();
+    return;
+  }
+
+  const normalizedPath = pathname.length > 1 ? pathname.replace(/\/+$/, "") || "/" : pathname;
+  const legacyTarget = LEGACY_REDIRECTS.get(normalizedPath);
+  if (legacyTarget) {
+    res.writeHead(301, { Location: legacyTarget + url.search, ...SECURITY_HEADERS }).end();
     return;
   }
 

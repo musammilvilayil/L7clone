@@ -1,0 +1,2197 @@
+{
+  "page_id": "page_066",
+  "page_key": "customSoftwareIndia",
+  "page_name": "Custom Software Development Company in India",
+  "page_url": "/custom-software-development-company-india",
+  "page_type": "route",
+  "prerendered_file": "dist/client/custom-software-development-company-india/index.html",
+  "source_page_component": "src/pages/Landing/CustomSoftwareIndiaPage.tsx  (PROPOSED - create)",
+  "html_lang": "en",
+  "document_title": "Custom Software Development Company in India | Ladder7",
+  "seo": {
+    "meta_title": "Custom Software Development Company in India | Ladder7",
+    "meta_description": "Affordable custom software development from India. Ladder7 builds web apps, business software, mobile apps and AI for clients in the GCC, Europe and Africa.",
+    "meta_keywords": null,
+    "canonical_url": "https://www.ladder7.in/custom-software-development-company-india",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Custom software development company in India, built for global clients.",
+    "headings": {
+      "h1": [
+        "Custom software development company in India, built for global clients."
+      ],
+      "h2": [
+        "What is custom software development?",
+        "What we build",
+        "Why companies outsource custom software to India",
+        "How a Ladder7 project runs",
+        "Engagement models",
+        "Who we work with",
+        "Frequently asked questions",
+        "Let's build\nwhat's next."
+      ],
+      "h3": [
+        "Web applications and portals",
+        "Internal business software",
+        "Mobile apps",
+        "AI features and assistants",
+        "Integrations and APIs",
+        "Modernisation and rescue",
+        "Fixed-scope project",
+        "Dedicated team",
+        "Staff augmentation",
+        "Tell us what you're working on."
+      ],
+      "h4_to_h6": []
+    },
+    "heading_hierarchy": [
+      {
+        "level": 2,
+        "text": "What comes next for you?",
+        "region": "overlay-menu"
+      },
+      {
+        "level": 3,
+        "text": "Navigation",
+        "region": "overlay-menu"
+      },
+      {
+        "level": 3,
+        "text": "Technology",
+        "region": "overlay-menu"
+      },
+      {
+        "level": 3,
+        "text": "Learning",
+        "region": "overlay-menu"
+      },
+      {
+        "level": 3,
+        "text": "Products",
+        "region": "overlay-menu"
+      },
+      {
+        "level": 3,
+        "text": "Explore",
+        "region": "overlay-menu"
+      },
+      {
+        "level": 1,
+        "text": "Custom software development company in India, built for global clients.",
+        "region": "main"
+      },
+      {
+        "level": 2,
+        "text": "What is custom software development?",
+        "region": "main"
+      },
+      {
+        "level": 2,
+        "text": "What we build",
+        "region": "main"
+      },
+      {
+        "level": 3,
+        "text": "Web applications and portals",
+        "region": "main"
+      },
+      {
+        "level": 3,
+        "text": "Internal business software",
+        "region": "main"
+      },
+      {
+        "level": 3,
+        "text": "Mobile apps",
+        "region": "main"
+      },
+      {
+        "level": 3,
+        "text": "AI features and assistants",
+        "region": "main"
+      },
+      {
+        "level": 3,
+        "text": "Integrations and APIs",
+        "region": "main"
+      },
+      {
+        "level": 3,
+        "text": "Modernisation and rescue",
+        "region": "main"
+      },
+      {
+        "level": 2,
+        "text": "Why companies outsource custom software to India",
+        "region": "main"
+      },
+      {
+        "level": 2,
+        "text": "How a Ladder7 project runs",
+        "region": "main"
+      },
+      {
+        "level": 2,
+        "text": "Engagement models",
+        "region": "main"
+      },
+      {
+        "level": 3,
+        "text": "Fixed-scope project",
+        "region": "main"
+      },
+      {
+        "level": 3,
+        "text": "Dedicated team",
+        "region": "main"
+      },
+      {
+        "level": 3,
+        "text": "Staff augmentation",
+        "region": "main"
+      },
+      {
+        "level": 2,
+        "text": "Who we work with",
+        "region": "main"
+      },
+      {
+        "level": 2,
+        "text": "Frequently asked questions",
+        "region": "main"
+      },
+      {
+        "level": 2,
+        "text": "Let's build\nwhat's next.",
+        "region": "main"
+      },
+      {
+        "level": 3,
+        "text": "Tell us what you're working on.",
+        "region": "main"
+      },
+      {
+        "level": 2,
+        "text": "Explore",
+        "region": "footer"
+      },
+      {
+        "level": 2,
+        "text": "Learn & grow",
+        "region": "footer"
+      },
+      {
+        "level": 2,
+        "text": "Connect",
+        "region": "footer"
+      }
+    ],
+    "heading_hierarchy_issues": [],
+    "open_graph": {
+      "og:type": "website",
+      "og:site_name": "Ladder7 NextStep Solutions",
+      "og:locale": "en_IN",
+      "og:title": "Custom Software Development Company in India | Ladder7",
+      "og:description": "Affordable custom software development from India. Ladder7 builds web apps, business software, mobile apps and AI for clients in the GCC, Europe and Africa.",
+      "og:image": "https://www.ladder7.in/og/ladder7-og.jpg",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:alt": "Custom software development company in India, built for global clients.",
+      "og:url": "https://www.ladder7.in/custom-software-development-company-india"
+    },
+    "twitter_card": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Custom Software Development Company in India | Ladder7",
+      "twitter:description": "Affordable custom software development from India. Ladder7 builds web apps, business software, mobile apps and AI for clients in the GCC, Europe and Africa.",
+      "twitter:image": "https://www.ladder7.in/og/ladder7-og.jpg",
+      "twitter:image:alt": "Custom software development company in India, built for global clients."
+    },
+    "structured_data_types": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.ladder7.in/#organization",
+            "name": "Ladder7 NextStep Solutions",
+            "alternateName": [
+              "Ladder7",
+              "Ladder7 IT",
+              "Ladder7 NextStep Solutions LLP",
+              "Ladder 7"
+            ],
+            "url": "https://www.ladder7.in/",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://www.ladder7.in/icons/ladder7-logo-512.png",
+              "width": 512,
+              "height": 512
+            },
+            "description": "Ladder7 NextStep Solutions is a custom software development company in Kochi and Trivandrum, India, building web applications, mobile apps, AI solutions and dedicated engineering teams for clients in the GCC, Europe and Africa.",
+            "slogan": "Build. Connect. Grow.",
+            "email": "info@ladder7.in",
+            "telephone": "+918137979401",
+            "address": [
+              {
+                "@type": "PostalAddress",
+                "name": "Kochi (Cochin)",
+                "streetAddress": "WEE SPACES, Ernakulam",
+                "addressLocality": "Kochi",
+                "addressRegion": "Kerala",
+                "addressCountry": "IN"
+              },
+              {
+                "@type": "PostalAddress",
+                "name": "Trivandrum",
+                "streetAddress": "Kinfra Film and IT Park",
+                "addressLocality": "Trivandrum",
+                "addressRegion": "Kerala",
+                "addressCountry": "IN"
+              }
+            ],
+            "contactPoint": [
+              {
+                "@type": "ContactPoint",
+                "contactType": "sales",
+                "email": "info@ladder7.in",
+                "telephone": "+918137979401",
+                "availableLanguage": [
+                  "English",
+                  "Hindi",
+                  "Malayalam"
+                ],
+                "areaServed": [
+                  "United Arab Emirates",
+                  "Saudi Arabia",
+                  "Qatar",
+                  "Kuwait",
+                  "Bahrain",
+                  "Oman",
+                  "United Kingdom",
+                  "Ireland",
+                  "Germany",
+                  "Netherlands",
+                  "France",
+                  "Belgium",
+                  "Sweden",
+                  "Norway",
+                  "Denmark",
+                  "Finland",
+                  "Switzerland",
+                  "Spain",
+                  "Italy",
+                  "Poland",
+                  "Nigeria",
+                  "Kenya",
+                  "South Africa",
+                  "Ghana",
+                  "Egypt",
+                  "Morocco",
+                  "Tanzania",
+                  "Uganda",
+                  "Rwanda",
+                  "India",
+                  "United States",
+                  "Singapore",
+                  "Australia",
+                  "Vietnam"
+                ]
+              }
+            ],
+            "sameAs": [
+              "https://www.linkedin.com/company/ladder7-nextstep-solutions-llp/",
+              "https://www.instagram.com/ladder7_nextstep_solutions_/"
+            ],
+            "areaServed": [
+              {
+                "@type": "Country",
+                "name": "United Arab Emirates"
+              },
+              {
+                "@type": "Country",
+                "name": "Saudi Arabia"
+              },
+              {
+                "@type": "Country",
+                "name": "Qatar"
+              },
+              {
+                "@type": "Country",
+                "name": "Kuwait"
+              },
+              {
+                "@type": "Country",
+                "name": "Bahrain"
+              },
+              {
+                "@type": "Country",
+                "name": "Oman"
+              },
+              {
+                "@type": "Country",
+                "name": "United Kingdom"
+              },
+              {
+                "@type": "Country",
+                "name": "Ireland"
+              },
+              {
+                "@type": "Country",
+                "name": "Germany"
+              },
+              {
+                "@type": "Country",
+                "name": "Netherlands"
+              },
+              {
+                "@type": "Country",
+                "name": "France"
+              },
+              {
+                "@type": "Country",
+                "name": "Belgium"
+              },
+              {
+                "@type": "Country",
+                "name": "Sweden"
+              },
+              {
+                "@type": "Country",
+                "name": "Norway"
+              },
+              {
+                "@type": "Country",
+                "name": "Denmark"
+              },
+              {
+                "@type": "Country",
+                "name": "Finland"
+              },
+              {
+                "@type": "Country",
+                "name": "Switzerland"
+              },
+              {
+                "@type": "Country",
+                "name": "Spain"
+              },
+              {
+                "@type": "Country",
+                "name": "Italy"
+              },
+              {
+                "@type": "Country",
+                "name": "Poland"
+              },
+              {
+                "@type": "Country",
+                "name": "Nigeria"
+              },
+              {
+                "@type": "Country",
+                "name": "Kenya"
+              },
+              {
+                "@type": "Country",
+                "name": "South Africa"
+              },
+              {
+                "@type": "Country",
+                "name": "Ghana"
+              },
+              {
+                "@type": "Country",
+                "name": "Egypt"
+              },
+              {
+                "@type": "Country",
+                "name": "Morocco"
+              },
+              {
+                "@type": "Country",
+                "name": "Tanzania"
+              },
+              {
+                "@type": "Country",
+                "name": "Uganda"
+              },
+              {
+                "@type": "Country",
+                "name": "Rwanda"
+              },
+              {
+                "@type": "Country",
+                "name": "India"
+              },
+              {
+                "@type": "Country",
+                "name": "United States"
+              },
+              {
+                "@type": "Country",
+                "name": "Singapore"
+              },
+              {
+                "@type": "Country",
+                "name": "Australia"
+              },
+              {
+                "@type": "Country",
+                "name": "Vietnam"
+              }
+            ],
+            "knowsAbout": [
+              "Custom software development",
+              "Web application development",
+              "Mobile app development",
+              "Offshore software development",
+              "IT staff augmentation",
+              "Adobe Experience Manager",
+              "Headless CMS",
+              "Conversational AI",
+              "Agentic AI",
+              "Hyperautomation",
+              "React",
+              "Next.js",
+              "Node.js",
+              "Python",
+              "Flutter",
+              "Search engine optimisation",
+              "Answer engine optimisation"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.ladder7.in/#website",
+            "url": "https://www.ladder7.in/",
+            "name": "Ladder7 IT",
+            "alternateName": "Ladder7 NextStep Solutions",
+            "description": "Ladder7 NextStep Solutions is a custom software development company in Kochi and Trivandrum, India, building web applications, mobile apps, AI solutions and dedicated engineering teams for clients in the GCC, Europe and Africa.",
+            "publisher": {
+              "@id": "https://www.ladder7.in/#organization"
+            },
+            "inLanguage": "en"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.ladder7.in/custom-software-development-company-india#webpage",
+            "url": "https://www.ladder7.in/custom-software-development-company-india",
+            "name": "Custom Software Development Company in India | Ladder7",
+            "description": "Affordable custom software development from India. Ladder7 builds web apps, business software, mobile apps and AI for clients in the GCC, Europe and Africa.",
+            "isPartOf": {
+              "@id": "https://www.ladder7.in/#website"
+            },
+            "about": {
+              "@id": "https://www.ladder7.in/#organization"
+            },
+            "inLanguage": "en",
+            "primaryImageOfPage": {
+              "@type": "ImageObject",
+              "url": "https://www.ladder7.in/og/ladder7-og.jpg"
+            },
+            "breadcrumb": {
+              "@id": "https://www.ladder7.in/custom-software-development-company-india#breadcrumb"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.ladder7.in/custom-software-development-company-india#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.ladder7.in/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Custom Software Development Company in India",
+                "item": "https://www.ladder7.in/custom-software-development-company-india"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://www.ladder7.in/custom-software-development-company-india#service",
+            "name": "Custom software development",
+            "serviceType": "Custom Software Development",
+            "description": "Affordable custom software development from India. Ladder7 builds web apps, business software, mobile apps and AI for clients in the GCC, Europe and Africa.",
+            "url": "https://www.ladder7.in/custom-software-development-company-india",
+            "provider": {
+              "@id": "https://www.ladder7.in/#organization"
+            },
+            "areaServed": [
+              {
+                "@type": "Country",
+                "name": "United Arab Emirates"
+              },
+              {
+                "@type": "Country",
+                "name": "Saudi Arabia"
+              },
+              {
+                "@type": "Country",
+                "name": "Qatar"
+              },
+              {
+                "@type": "Country",
+                "name": "Kuwait"
+              },
+              {
+                "@type": "Country",
+                "name": "Bahrain"
+              },
+              {
+                "@type": "Country",
+                "name": "Oman"
+              },
+              {
+                "@type": "Country",
+                "name": "United Kingdom"
+              },
+              {
+                "@type": "Country",
+                "name": "Ireland"
+              },
+              {
+                "@type": "Country",
+                "name": "Germany"
+              },
+              {
+                "@type": "Country",
+                "name": "Netherlands"
+              },
+              {
+                "@type": "Country",
+                "name": "France"
+              },
+              {
+                "@type": "Country",
+                "name": "Belgium"
+              },
+              {
+                "@type": "Country",
+                "name": "Sweden"
+              },
+              {
+                "@type": "Country",
+                "name": "Norway"
+              },
+              {
+                "@type": "Country",
+                "name": "Denmark"
+              },
+              {
+                "@type": "Country",
+                "name": "Finland"
+              },
+              {
+                "@type": "Country",
+                "name": "Switzerland"
+              },
+              {
+                "@type": "Country",
+                "name": "Spain"
+              },
+              {
+                "@type": "Country",
+                "name": "Italy"
+              },
+              {
+                "@type": "Country",
+                "name": "Poland"
+              },
+              {
+                "@type": "Country",
+                "name": "Nigeria"
+              },
+              {
+                "@type": "Country",
+                "name": "Kenya"
+              },
+              {
+                "@type": "Country",
+                "name": "South Africa"
+              },
+              {
+                "@type": "Country",
+                "name": "Ghana"
+              },
+              {
+                "@type": "Country",
+                "name": "Egypt"
+              },
+              {
+                "@type": "Country",
+                "name": "Morocco"
+              },
+              {
+                "@type": "Country",
+                "name": "Tanzania"
+              },
+              {
+                "@type": "Country",
+                "name": "Uganda"
+              },
+              {
+                "@type": "Country",
+                "name": "Rwanda"
+              },
+              {
+                "@type": "Country",
+                "name": "India"
+              },
+              {
+                "@type": "Country",
+                "name": "United States"
+              },
+              {
+                "@type": "Country",
+                "name": "Singapore"
+              },
+              {
+                "@type": "Country",
+                "name": "Australia"
+              },
+              {
+                "@type": "Country",
+                "name": "Vietnam"
+              }
+            ],
+            "availableChannel": {
+              "@type": "ServiceChannel",
+              "serviceUrl": "https://www.ladder7.in/contact"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://www.ladder7.in/custom-software-development-company-india#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "How much does custom software development in India cost?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Cost depends on scope, integrations and team size. Ladder7 offers enterprise-grade quality at affordable, flexible pricing: a fixed quote for defined projects, a monthly fee for dedicated teams, or time and materials, agreed after a short discovery call."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is it safe to outsource software development to India?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, when the contract and process are right. Ladder7 works under an NDA, assigns code and IP to you, keeps code in your repository, and gives you access to staging environments and sprint demos throughout."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long does a custom software project take?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A focused MVP usually takes 8 to 16 weeks. Larger business systems run in phases, with a usable release in each phase rather than one launch at the end."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can you work with our existing developers?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. We can take full ownership of a product or add engineers to your team through staff augmentation."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do you only work with clients in India?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. Ladder7 has clients in the UAE, the UK (London), Germany, Ireland, the USA, Singapore, Australia, Vietnam and India, and takes on projects across the GCC, Europe and Africa, working remotely with meetings in your business hours."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "viewport": "width=device-width, initial-scale=1",
+    "theme_color": "#101416",
+    "hreflang": [],
+    "image_optimization": {
+      "total_img_elements": 1,
+      "in_main": 0,
+      "missing_alt_attribute": 0,
+      "empty_alt_decorative": 0,
+      "with_width_and_height": 1,
+      "lazy_loaded": 0,
+      "eager_or_high_priority": 1,
+      "with_srcset": 1,
+      "in_picture_element": 0,
+      "formats": {
+        "webp": 1
+      }
+    },
+    "internal_linking": {
+      "total_links_in_document": 76,
+      "links_in_main": 12,
+      "internal_in_main": 12,
+      "anchor_in_main": 0,
+      "external_in_main": 0,
+      "unique_internal_targets_in_main": [
+        "/custom-software-development-company-india",
+        "/engagement-models-pricing",
+        "/hire-dedicated-developers-india",
+        "/offshore-software-development-uk-europe",
+        "/services/ai-assistant",
+        "/services/green-recovery",
+        "/services/product-solution",
+        "/services/web-experience",
+        "/software-development-company-saudi-arabia",
+        "/software-development-company-uae",
+        "/software-development-outsourcing-africa"
+      ],
+      "unresolved_internal_targets": []
+    },
+    "issues": []
+  },
+  "components_used": [
+    "src/components/common/Icons.tsx",
+    "src/components/common/Lines.tsx",
+    "src/components/common/Seo.tsx",
+    "src/components/common/SmartLink.tsx",
+    "src/components/forms/EnquiryForm.tsx",
+    "src/components/layout/Footer.tsx",
+    "src/components/layout/Header.tsx",
+    "src/components/navigation/MegaMenu.tsx",
+    "src/components/sections/Contact/ContactSection.tsx",
+    "src/components/sections/Hero/ParticleField.tsx",
+    "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx",
+    "src/components/ui/Button.tsx"
+  ],
+  "data_files_used": [
+    "src/data/blog.ts",
+    "src/data/company.ts",
+    "src/data/images.generated.ts",
+    "src/data/navigation.ts",
+    "src/data/services.ts",
+    "src/data/site.ts",
+    "src/data/landing/customSoftwareIndia.ts  (PROPOSED - create)"
+  ],
+  "section_count": 9,
+  "sections": [
+    {
+      "section_id": "customsoftwareindia_01_hero",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "css_classes": [
+        "inner-service-hero"
+      ],
+      "aria_labelledby": "service-hero-title",
+      "aria_label": null,
+      "section_name": "Hero",
+      "name_basis": "humanised from the section's HTML id / aria-labelledby / first specific CSS class (the site does not display section names)",
+      "section_heading": "Custom software development company in India, built for global clients.",
+      "heading_level": "h1",
+      "heading_other": [],
+      "eyebrow": "Custom software development / India",
+      "subheading": "",
+      "description": "Ladder7 is a custom software development company in Kochi and Trivandrum, Kerala. We design, build and support web applications, internal business systems, mobile apps and AI features for companies in the UAE, Saudi Arabia, the UK, Europe and Africa. You get enterprise-grade engineering, with senior architects on every project, at affordable and flexible pricing.",
+      "paragraphs": [
+        "Custom software development / India",
+        "Ladder7 is a custom software development company in Kochi and Trivandrum, Kerala. We design, build and support web applications, internal business systems, mobile apps and AI features for companies in the UAE, Saudi Arabia, the UK, Europe and Africa. You get enterprise-grade engineering, with senior architects on every project, at affordable and flexible pricing."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Custom software development / India"
+        },
+        {
+          "type": "h1",
+          "text": "Custom software development company in India, built for global clients."
+        },
+        {
+          "type": "p",
+          "text": "Ladder7 is a custom software development company in Kochi and Trivandrum, Kerala. We design, build and support web applications, internal business systems, mobile apps and AI features for companies in the UAE, Saudi Arabia, the UK, Europe and Africa. You get enterprise-grade engineering, with senior architects on every project, at affordable and flexible pricing."
+        },
+        {
+          "type": "cta-link",
+          "text": "Get a project estimate"
+        },
+        {
+          "type": "cta-link",
+          "text": "See engagement models"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Delivery base",
+          "detail": "Kochi · Trivandrum, India",
+          "source": "dl"
+        },
+        {
+          "term": "Clients in",
+          "detail": "UAE · UK · Germany · Ireland · USA · Singapore · Australia",
+          "source": "dl"
+        },
+        {
+          "term": "Time difference",
+          "detail": "+1.5h UAE · +2.5h KSA · +4.5h UK (summer)",
+          "source": "dl"
+        }
+      ],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Get a project estimate",
+          "url": "/custom-software-development-company-india#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "See engagement models",
+          "url": "/engagement-models-pricing",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Get a project estimate",
+          "href": "/custom-software-development-company-india#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "See engagement models",
+          "href": "/engagement-models-pricing",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Get a project estimate",
+          "href": "/custom-software-development-company-india#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "See engagement models",
+          "href": "/engagement-models-pricing",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "background": "animated canvas present (particle-field)",
+      "layout": {
+        "descriptors": [
+          "row"
+        ],
+        "notable_elements": [
+          "dl"
+        ],
+        "direct_child_elements": 5
+      },
+      "layout_basis": "CSS class tokens and element types (not computed styles)",
+      "purpose": "Page introduction / primary headline and calls to action",
+      "purpose_basis": "proposed by SEO audit (new section, not yet in source)",
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "forms_in_section": 0,
+      "hidden_or_conditional_content": [],
+      "screen_reader_only_text": [],
+      "child_sections": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      },
+      "seo": {
+        "headings_in_section": [
+          "h1"
+        ],
+        "has_h1": true,
+        "image_count": 0,
+        "images_missing_alt": 0,
+        "images_with_empty_alt": 0,
+        "link_count": 2
+      },
+      "flags": []
+    },
+    {
+      "section_id": "customsoftwareindia_02_section",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "css_classes": [
+        "inner-about"
+      ],
+      "aria_labelledby": "inner-about-title",
+      "aria_label": null,
+      "section_name": "Content Section",
+      "name_basis": "humanised from the section's HTML id / aria-labelledby / first specific CSS class (the site does not display section names)",
+      "section_heading": "What is custom software development?",
+      "heading_level": "h2",
+      "heading_other": [],
+      "eyebrow": "The short answer",
+      "subheading": "",
+      "description": "Custom software development is the design and build of an application around one company's own workflows, data and customers, instead of adapting a packaged product. It usually covers discovery, UX design, engineering, testing, cloud deployment and ongoing support.\n\nCompanies choose custom software when off-the-shelf tools force workarounds, when several systems need to share data, or when the software itself is part of what they sell.",
+      "paragraphs": [
+        "The short answer",
+        "Custom software development is the design and build of an application around one company's own workflows, data and customers, instead of adapting a packaged product. It usually covers discovery, UX design, engineering, testing, cloud deployment and ongoing support.",
+        "Companies choose custom software when off-the-shelf tools force workarounds, when several systems need to share data, or when the software itself is part of what they sell."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "The short answer"
+        },
+        {
+          "type": "h2",
+          "text": "What is custom software development?"
+        },
+        {
+          "type": "p",
+          "text": "Custom software development is the design and build of an application around one company's own workflows, data and customers, instead of adapting a packaged product. It usually covers discovery, UX design, engineering, testing, cloud deployment and ongoing support."
+        },
+        {
+          "type": "p",
+          "text": "Companies choose custom software when off-the-shelf tools force workarounds, when several systems need to share data, or when the software itself is part of what they sell."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "background": "not determinable from markup (see section stylesheet); no theme/video/canvas class found",
+      "layout": {
+        "descriptors": [
+          "row"
+        ],
+        "notable_elements": [],
+        "direct_child_elements": 4
+      },
+      "layout_basis": "CSS class tokens and element types (not computed styles)",
+      "purpose": "Answers a search-intent question with self-contained, citable copy (AEO/GEO)",
+      "purpose_basis": "proposed by SEO audit (new section, not yet in source)",
+      "interactive_elements": [],
+      "forms_in_section": 0,
+      "hidden_or_conditional_content": [],
+      "screen_reader_only_text": [],
+      "child_sections": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      },
+      "seo": {
+        "headings_in_section": [
+          "h2"
+        ],
+        "has_h1": false,
+        "image_count": 0,
+        "images_missing_alt": 0,
+        "images_with_empty_alt": 0,
+        "link_count": 0
+      },
+      "flags": []
+    },
+    {
+      "section_id": "customsoftwareindia_03_section",
+      "section_order": 3,
+      "html_id": null,
+      "element": "section",
+      "css_classes": [
+        "inner-about"
+      ],
+      "aria_labelledby": "inner-about-title",
+      "aria_label": null,
+      "section_name": "Content Section",
+      "name_basis": "humanised from the section's HTML id / aria-labelledby / first specific CSS class (the site does not display section names)",
+      "section_heading": "What we build",
+      "heading_level": "h2",
+      "heading_other": [],
+      "eyebrow": "Custom software services",
+      "subheading": "",
+      "description": "Most projects fall into one of six types. Many combine two or three.",
+      "paragraphs": [
+        "Custom software services",
+        "Most projects fall into one of six types. Many combine two or three."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Custom software services"
+        },
+        {
+          "type": "h2",
+          "text": "What we build"
+        },
+        {
+          "type": "p",
+          "text": "Most projects fall into one of six types. Many combine two or three."
+        },
+        {
+          "type": "h3",
+          "text": "Web applications and portals"
+        },
+        {
+          "type": "p",
+          "text": "Customer portals, booking and ordering systems, dashboards and SaaS products built with React, Next.js and Node.js."
+        },
+        {
+          "type": "h3",
+          "text": "Internal business software"
+        },
+        {
+          "type": "p",
+          "text": "Workflow, approval, inventory, field-service and reporting tools that replace spreadsheets and email chains."
+        },
+        {
+          "type": "h3",
+          "text": "Mobile apps"
+        },
+        {
+          "type": "p",
+          "text": "Android and iOS apps, including cross-platform builds with Flutter, connected to your existing backend."
+        },
+        {
+          "type": "h3",
+          "text": "AI features and assistants"
+        },
+        {
+          "type": "p",
+          "text": "LLM chatbots, document search, summarisation and agent workflows added to new or existing software."
+        },
+        {
+          "type": "h3",
+          "text": "Integrations and APIs"
+        },
+        {
+          "type": "p",
+          "text": "Connecting ERP, CRM, payment gateways such as Stripe and PayPal, and analytics so data moves without re-keying."
+        },
+        {
+          "type": "h3",
+          "text": "Modernisation and rescue"
+        },
+        {
+          "type": "p",
+          "text": "Re-platforming legacy systems and stabilising projects that have stalled with another vendor."
+        },
+        {
+          "type": "a",
+          "text": "Web development services"
+        },
+        {
+          "type": "a",
+          "text": "AI assistants and chatbots"
+        },
+        {
+          "type": "a",
+          "text": "Project rescue"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [
+        {
+          "element": "article.card",
+          "heading": "Web applications and portals",
+          "text": [
+            "Customer portals, booking and ordering systems, dashboards and SaaS products built with React, Next.js and Node.js."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.card",
+          "heading": "Internal business software",
+          "text": [
+            "Workflow, approval, inventory, field-service and reporting tools that replace spreadsheets and email chains."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.card",
+          "heading": "Mobile apps",
+          "text": [
+            "Android and iOS apps, including cross-platform builds with Flutter, connected to your existing backend."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.card",
+          "heading": "AI features and assistants",
+          "text": [
+            "LLM chatbots, document search, summarisation and agent workflows added to new or existing software."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.card",
+          "heading": "Integrations and APIs",
+          "text": [
+            "Connecting ERP, CRM, payment gateways such as Stripe and PayPal, and analytics so data moves without re-keying."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.card",
+          "heading": "Modernisation and rescue",
+          "text": [
+            "Re-platforming legacy systems and stabilising projects that have stalled with another vendor."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [
+        {
+          "text": "Web development services",
+          "href": "/services/web-experience",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "AI assistants and chatbots",
+          "href": "/services/ai-assistant",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Project rescue",
+          "href": "/services/green-recovery",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Web development services",
+          "href": "/services/web-experience",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "AI assistants and chatbots",
+          "href": "/services/ai-assistant",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Project rescue",
+          "href": "/services/green-recovery",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "background": "not determinable from markup (see section stylesheet); no theme/video/canvas class found",
+      "layout": {
+        "descriptors": [
+          "row"
+        ],
+        "notable_elements": [],
+        "direct_child_elements": 4
+      },
+      "layout_basis": "CSS class tokens and element types (not computed styles)",
+      "purpose": "Answers a search-intent question with self-contained, citable copy (AEO/GEO)",
+      "purpose_basis": "proposed by SEO audit (new section, not yet in source)",
+      "interactive_elements": [],
+      "forms_in_section": 0,
+      "hidden_or_conditional_content": [],
+      "screen_reader_only_text": [],
+      "child_sections": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      },
+      "seo": {
+        "headings_in_section": [
+          "h2",
+          "h3",
+          "h3",
+          "h3",
+          "h3",
+          "h3",
+          "h3"
+        ],
+        "has_h1": false,
+        "image_count": 0,
+        "images_missing_alt": 0,
+        "images_with_empty_alt": 0,
+        "link_count": 3
+      },
+      "flags": []
+    },
+    {
+      "section_id": "customsoftwareindia_04_section",
+      "section_order": 4,
+      "html_id": null,
+      "element": "section",
+      "css_classes": [
+        "inner-about"
+      ],
+      "aria_labelledby": "inner-about-title",
+      "aria_label": null,
+      "section_name": "Content Section",
+      "name_basis": "humanised from the section's HTML id / aria-labelledby / first specific CSS class (the site does not display section names)",
+      "section_heading": "Why companies outsource custom software to India",
+      "heading_level": "h2",
+      "heading_other": [],
+      "eyebrow": "Cost, talent and time zones",
+      "subheading": "",
+      "description": "India has one of the largest software engineering workforces in the world, and Kerala's IT parks (including Technopark and Kinfra in Trivandrum and Infopark in Kochi) add a stable, lower-attrition talent pool. For buyers in the Gulf, Europe and Africa that means three practical advantages:",
+      "paragraphs": [
+        "Cost, talent and time zones",
+        "India has one of the largest software engineering workforces in the world, and Kerala's IT parks (including Technopark and Kinfra in Trivandrum and Infopark in Kochi) add a stable, lower-attrition talent pool. For buyers in the Gulf, Europe and Africa that means three practical advantages:"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Cost, talent and time zones"
+        },
+        {
+          "type": "h2",
+          "text": "Why companies outsource custom software to India"
+        },
+        {
+          "type": "p",
+          "text": "India has one of the largest software engineering workforces in the world, and Kerala's IT parks (including Technopark and Kinfra in Trivandrum and Infopark in Kochi) add a stable, lower-attrition talent pool. For buyers in the Gulf, Europe and Africa that means three practical advantages:"
+        },
+        {
+          "type": "li",
+          "text": "Lower total cost than hiring locally in Dubai, Riyadh, London, Berlin or Johannesburg, without dropping to junior-only teams."
+        },
+        {
+          "type": "li",
+          "text": "Working-hour overlap: India is 1.5 hours ahead of the UAE, 2.5 hours ahead of Saudi Arabia and Kenya, and 3.5 to 5.5 hours ahead of the UK, Western Europe and Nigeria."
+        },
+        {
+          "type": "li",
+          "text": "English-first delivery, with written specifications, demos every sprint and direct access to the engineers doing the work."
+        }
+      ],
+      "bullet_points": [
+        "Lower total cost than hiring locally in Dubai, Riyadh, London, Berlin or Johannesburg, without dropping to junior-only teams.",
+        "Working-hour overlap: India is 1.5 hours ahead of the UAE, 2.5 hours ahead of Saudi Arabia and Kenya, and 3.5 to 5.5 hours ahead of the UK, Western Europe and Nigeria.",
+        "English-first delivery, with written specifications, demos every sprint and direct access to the engineers doing the work."
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "background": "not determinable from markup (see section stylesheet); no theme/video/canvas class found",
+      "layout": {
+        "descriptors": [
+          "row"
+        ],
+        "notable_elements": [],
+        "direct_child_elements": 4
+      },
+      "layout_basis": "CSS class tokens and element types (not computed styles)",
+      "purpose": "Answers a search-intent question with self-contained, citable copy (AEO/GEO)",
+      "purpose_basis": "proposed by SEO audit (new section, not yet in source)",
+      "interactive_elements": [],
+      "forms_in_section": 0,
+      "hidden_or_conditional_content": [],
+      "screen_reader_only_text": [],
+      "child_sections": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      },
+      "seo": {
+        "headings_in_section": [
+          "h2"
+        ],
+        "has_h1": false,
+        "image_count": 0,
+        "images_missing_alt": 0,
+        "images_with_empty_alt": 0,
+        "link_count": 0
+      },
+      "flags": []
+    },
+    {
+      "section_id": "customsoftwareindia_05_section",
+      "section_order": 5,
+      "html_id": null,
+      "element": "section",
+      "css_classes": [
+        "inner-about"
+      ],
+      "aria_labelledby": "inner-about-title",
+      "aria_label": null,
+      "section_name": "Content Section",
+      "name_basis": "humanised from the section's HTML id / aria-labelledby / first specific CSS class (the site does not display section names)",
+      "section_heading": "How a Ladder7 project runs",
+      "heading_level": "h2",
+      "heading_other": [],
+      "eyebrow": "From brief to launch",
+      "subheading": "",
+      "description": "Every project follows the same four stages, so you always know what happens next and what it costs.",
+      "paragraphs": [
+        "From brief to launch",
+        "Every project follows the same four stages, so you always know what happens next and what it costs."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "From brief to launch"
+        },
+        {
+          "type": "h2",
+          "text": "How a Ladder7 project runs"
+        },
+        {
+          "type": "p",
+          "text": "Every project follows the same four stages, so you always know what happens next and what it costs."
+        },
+        {
+          "type": "li",
+          "text": "Discovery: we map users, workflows, integrations and risks, then agree scope, milestones and a fixed or monthly price."
+        },
+        {
+          "type": "li",
+          "text": "Design: clickable prototypes and a technical blueprint you approve before build starts."
+        },
+        {
+          "type": "li",
+          "text": "Build and test: two-week sprints, a staging environment you can log into, and automated plus manual QA."
+        },
+        {
+          "type": "li",
+          "text": "Launch and support: cloud deployment, monitoring, documentation and an optional support retainer."
+        },
+        {
+          "type": "a",
+          "text": "Product discovery and blueprinting"
+        }
+      ],
+      "bullet_points": [
+        "Discovery: we map users, workflows, integrations and risks, then agree scope, milestones and a fixed or monthly price.",
+        "Design: clickable prototypes and a technical blueprint you approve before build starts.",
+        "Build and test: two-week sprints, a staging environment you can log into, and automated plus manual QA.",
+        "Launch and support: cloud deployment, monitoring, documentation and an optional support retainer."
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [
+        {
+          "text": "Product discovery and blueprinting",
+          "href": "/services/product-solution",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Product discovery and blueprinting",
+          "href": "/services/product-solution",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "background": "not determinable from markup (see section stylesheet); no theme/video/canvas class found",
+      "layout": {
+        "descriptors": [
+          "row"
+        ],
+        "notable_elements": [],
+        "direct_child_elements": 4
+      },
+      "layout_basis": "CSS class tokens and element types (not computed styles)",
+      "purpose": "Answers a search-intent question with self-contained, citable copy (AEO/GEO)",
+      "purpose_basis": "proposed by SEO audit (new section, not yet in source)",
+      "interactive_elements": [],
+      "forms_in_section": 0,
+      "hidden_or_conditional_content": [],
+      "screen_reader_only_text": [],
+      "child_sections": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      },
+      "seo": {
+        "headings_in_section": [
+          "h2"
+        ],
+        "has_h1": false,
+        "image_count": 0,
+        "images_missing_alt": 0,
+        "images_with_empty_alt": 0,
+        "link_count": 1
+      },
+      "flags": []
+    },
+    {
+      "section_id": "customsoftwareindia_06_section",
+      "section_order": 6,
+      "html_id": null,
+      "element": "section",
+      "css_classes": [
+        "inner-about"
+      ],
+      "aria_labelledby": "inner-about-title",
+      "aria_label": null,
+      "section_name": "Content Section",
+      "name_basis": "humanised from the section's HTML id / aria-labelledby / first specific CSS class (the site does not display section names)",
+      "section_heading": "Engagement models",
+      "heading_level": "h2",
+      "heading_other": [],
+      "eyebrow": "Choose how you work with us",
+      "subheading": "",
+      "description": "Pick the model that matches how clear your scope is and how much control you want.",
+      "paragraphs": [
+        "Choose how you work with us",
+        "Pick the model that matches how clear your scope is and how much control you want."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Choose how you work with us"
+        },
+        {
+          "type": "h2",
+          "text": "Engagement models"
+        },
+        {
+          "type": "p",
+          "text": "Pick the model that matches how clear your scope is and how much control you want."
+        },
+        {
+          "type": "h3",
+          "text": "Fixed-scope project"
+        },
+        {
+          "type": "p",
+          "text": "Best when requirements are defined. One price, agreed milestones."
+        },
+        {
+          "type": "h3",
+          "text": "Dedicated team"
+        },
+        {
+          "type": "p",
+          "text": "A monthly team of developers, QA and a lead who work only on your product."
+        },
+        {
+          "type": "h3",
+          "text": "Staff augmentation"
+        },
+        {
+          "type": "p",
+          "text": "Individual Indian engineers who join your in-house team and tools."
+        },
+        {
+          "type": "a",
+          "text": "Compare engagement models"
+        },
+        {
+          "type": "a",
+          "text": "Hire dedicated developers"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [
+        {
+          "element": "article.card",
+          "heading": "Fixed-scope project",
+          "text": [
+            "Best when requirements are defined. One price, agreed milestones."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.card",
+          "heading": "Dedicated team",
+          "text": [
+            "A monthly team of developers, QA and a lead who work only on your product."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.card",
+          "heading": "Staff augmentation",
+          "text": [
+            "Individual Indian engineers who join your in-house team and tools."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [
+        {
+          "text": "Compare engagement models",
+          "href": "/engagement-models-pricing",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Hire dedicated developers",
+          "href": "/hire-dedicated-developers-india",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Compare engagement models",
+          "href": "/engagement-models-pricing",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Hire dedicated developers",
+          "href": "/hire-dedicated-developers-india",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "background": "not determinable from markup (see section stylesheet); no theme/video/canvas class found",
+      "layout": {
+        "descriptors": [
+          "row"
+        ],
+        "notable_elements": [],
+        "direct_child_elements": 4
+      },
+      "layout_basis": "CSS class tokens and element types (not computed styles)",
+      "purpose": "Answers a search-intent question with self-contained, citable copy (AEO/GEO)",
+      "purpose_basis": "proposed by SEO audit (new section, not yet in source)",
+      "interactive_elements": [],
+      "forms_in_section": 0,
+      "hidden_or_conditional_content": [],
+      "screen_reader_only_text": [],
+      "child_sections": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      },
+      "seo": {
+        "headings_in_section": [
+          "h2",
+          "h3",
+          "h3",
+          "h3"
+        ],
+        "has_h1": false,
+        "image_count": 0,
+        "images_missing_alt": 0,
+        "images_with_empty_alt": 0,
+        "link_count": 2
+      },
+      "flags": []
+    },
+    {
+      "section_id": "customsoftwareindia_07_section",
+      "section_order": 7,
+      "html_id": null,
+      "element": "section",
+      "css_classes": [
+        "inner-about"
+      ],
+      "aria_labelledby": "inner-about-title",
+      "aria_label": null,
+      "section_name": "Content Section",
+      "name_basis": "humanised from the section's HTML id / aria-labelledby / first specific CSS class (the site does not display section names)",
+      "section_heading": "Who we work with",
+      "heading_level": "h2",
+      "heading_other": [],
+      "eyebrow": "Clients and industries",
+      "subheading": "",
+      "description": "Ladder7 serves clients in the UAE, the UK (London), Germany, Ireland, the USA, Singapore, Australia, Vietnam and India. Our senior architects come from Accenture, Infosys and Cognizant backgrounds, with project experience in fintech, healthcare, logistics and enterprise SaaS.",
+      "paragraphs": [
+        "Clients and industries",
+        "Ladder7 serves clients in the UAE, the UK (London), Germany, Ireland, the USA, Singapore, Australia, Vietnam and India. Our senior architects come from Accenture, Infosys and Cognizant backgrounds, with project experience in fintech, healthcare, logistics and enterprise SaaS."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Clients and industries"
+        },
+        {
+          "type": "h2",
+          "text": "Who we work with"
+        },
+        {
+          "type": "p",
+          "text": "Ladder7 serves clients in the UAE, the UK (London), Germany, Ireland, the USA, Singapore, Australia, Vietnam and India. Our senior architects come from Accenture, Infosys and Cognizant backgrounds, with project experience in fintech, healthcare, logistics and enterprise SaaS."
+        },
+        {
+          "type": "a",
+          "text": "Software development for UAE companies"
+        },
+        {
+          "type": "a",
+          "text": "Saudi Arabia"
+        },
+        {
+          "type": "a",
+          "text": "UK and Europe"
+        },
+        {
+          "type": "a",
+          "text": "Africa"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [
+        {
+          "text": "Software development for UAE companies",
+          "href": "/software-development-company-uae",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Saudi Arabia",
+          "href": "/software-development-company-saudi-arabia",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "UK and Europe",
+          "href": "/offshore-software-development-uk-europe",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Africa",
+          "href": "/software-development-outsourcing-africa",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Software development for UAE companies",
+          "href": "/software-development-company-uae",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Saudi Arabia",
+          "href": "/software-development-company-saudi-arabia",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "UK and Europe",
+          "href": "/offshore-software-development-uk-europe",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Africa",
+          "href": "/software-development-outsourcing-africa",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "background": "not determinable from markup (see section stylesheet); no theme/video/canvas class found",
+      "layout": {
+        "descriptors": [
+          "row"
+        ],
+        "notable_elements": [],
+        "direct_child_elements": 4
+      },
+      "layout_basis": "CSS class tokens and element types (not computed styles)",
+      "purpose": "Answers a search-intent question with self-contained, citable copy (AEO/GEO)",
+      "purpose_basis": "proposed by SEO audit (new section, not yet in source)",
+      "interactive_elements": [],
+      "forms_in_section": 0,
+      "hidden_or_conditional_content": [],
+      "screen_reader_only_text": [],
+      "child_sections": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      },
+      "seo": {
+        "headings_in_section": [
+          "h2"
+        ],
+        "has_h1": false,
+        "image_count": 0,
+        "images_missing_alt": 0,
+        "images_with_empty_alt": 0,
+        "link_count": 4
+      },
+      "flags": []
+    },
+    {
+      "section_id": "customsoftwareindia_08_faq",
+      "section_order": 8,
+      "html_id": null,
+      "element": "section",
+      "css_classes": [
+        "section",
+        "section--lined",
+        "split",
+        "faq"
+      ],
+      "aria_labelledby": "faq-title",
+      "aria_label": null,
+      "section_name": "Faq",
+      "name_basis": "humanised from the section's HTML id / aria-labelledby / first specific CSS class (the site does not display section names)",
+      "section_heading": "Frequently asked questions",
+      "heading_level": "h2",
+      "heading_other": [],
+      "eyebrow": "Questions buyers ask",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "Questions buyers ask",
+        "Cost depends on scope, integrations and team size. Ladder7 offers enterprise-grade quality at affordable, flexible pricing: a fixed quote for defined projects, a monthly fee for dedicated teams, or time and materials, agreed after a short discovery call.",
+        "Yes, when the contract and process are right. Ladder7 works under an NDA, assigns code and IP to you, keeps code in your repository, and gives you access to staging environments and sprint demos throughout.",
+        "A focused MVP usually takes 8 to 16 weeks. Larger business systems run in phases, with a usable release in each phase rather than one launch at the end.",
+        "Yes. We can take full ownership of a product or add engineers to your team through staff augmentation.",
+        "No. Ladder7 has clients in the UAE, the UK (London), Germany, Ireland, the USA, Singapore, Australia, Vietnam and India, and takes on projects across the GCC, Europe and Africa, working remotely with meetings in your business hours."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Questions buyers ask"
+        },
+        {
+          "type": "h2",
+          "text": "Frequently asked questions"
+        },
+        {
+          "type": "summary",
+          "text": "How much does custom software development in India cost?"
+        },
+        {
+          "type": "p",
+          "text": "Cost depends on scope, integrations and team size. Ladder7 offers enterprise-grade quality at affordable, flexible pricing: a fixed quote for defined projects, a monthly fee for dedicated teams, or time and materials, agreed after a short discovery call."
+        },
+        {
+          "type": "summary",
+          "text": "Is it safe to outsource software development to India?"
+        },
+        {
+          "type": "p",
+          "text": "Yes, when the contract and process are right. Ladder7 works under an NDA, assigns code and IP to you, keeps code in your repository, and gives you access to staging environments and sprint demos throughout."
+        },
+        {
+          "type": "summary",
+          "text": "How long does a custom software project take?"
+        },
+        {
+          "type": "p",
+          "text": "A focused MVP usually takes 8 to 16 weeks. Larger business systems run in phases, with a usable release in each phase rather than one launch at the end."
+        },
+        {
+          "type": "summary",
+          "text": "Can you work with our existing developers?"
+        },
+        {
+          "type": "p",
+          "text": "Yes. We can take full ownership of a product or add engineers to your team through staff augmentation."
+        },
+        {
+          "type": "summary",
+          "text": "Do you only work with clients in India?"
+        },
+        {
+          "type": "p",
+          "text": "No. Ladder7 has clients in the UAE, the UK (London), Germany, Ireland, the USA, Singapore, Australia, Vietnam and India, and takes on projects across the GCC, Europe and Africa, working remotely with meetings in your business hours."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "background": "not determinable from markup (see section stylesheet); no theme/video/canvas class found",
+      "layout": {
+        "descriptors": [
+          "list",
+          "row",
+          "split"
+        ],
+        "notable_elements": [
+          "details"
+        ],
+        "direct_child_elements": 2
+      },
+      "layout_basis": "CSS class tokens and element types (not computed styles)",
+      "purpose": "Answers common buyer questions (FAQPage schema)",
+      "purpose_basis": "proposed by SEO audit (new section, not yet in source)",
+      "interactive_elements": [
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "How much does custom software development in India cost?",
+          "open": true
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Is it safe to outsource software development to India?",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "How long does a custom software project take?",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Can you work with our existing developers?",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Do you only work with clients in India?",
+          "open": false
+        }
+      ],
+      "forms_in_section": 0,
+      "hidden_or_conditional_content": [],
+      "screen_reader_only_text": [],
+      "child_sections": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Faq/FaqSection.css",
+        "component": "src/components/sections/Faq/FaqSection.tsx"
+      },
+      "seo": {
+        "headings_in_section": [
+          "h2"
+        ],
+        "has_h1": false,
+        "image_count": 0,
+        "images_missing_alt": 0,
+        "images_with_empty_alt": 0,
+        "link_count": 0
+      },
+      "flags": []
+    },
+    {
+      "section_id": "customsoftwareindia_09_contact",
+      "section_order": 9,
+      "html_id": "contact",
+      "element": "section",
+      "css_classes": [
+        "section",
+        "section--sheet",
+        "theme-brand",
+        "contact"
+      ],
+      "aria_labelledby": "contact-title",
+      "aria_label": null,
+      "section_name": "Contact",
+      "name_basis": "humanised from the section's HTML id / aria-labelledby / first specific CSS class (the site does not display section names)",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "heading_other": [
+        {
+          "level": "h3",
+          "text": "Tell us what you're working on."
+        }
+      ],
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Continue on WhatsApp (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Continue on WhatsApp (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "background": "color theme (theme-brand); sheet surface (rounded panel) per class section--sheet",
+      "layout": {
+        "descriptors": [
+          "row"
+        ],
+        "notable_elements": [
+          "form"
+        ],
+        "direct_child_elements": 2
+      },
+      "layout_basis": "CSS class tokens and element types (not computed styles)",
+      "purpose": "Lead capture / contact",
+      "purpose_basis": "inferred by auditor from section name/classes; not text from the website",
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Continue on WhatsApp (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "forms_in_section": 1,
+      "hidden_or_conditional_content": [],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "child_sections": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      },
+      "seo": {
+        "headings_in_section": [
+          "h2",
+          "h3"
+        ],
+        "has_h1": false,
+        "image_count": 0,
+        "images_missing_alt": 0,
+        "images_with_empty_alt": 0,
+        "link_count": 2
+      },
+      "flags": []
+    }
+  ]
+}

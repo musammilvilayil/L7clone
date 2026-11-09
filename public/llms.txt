@@ -1,0 +1,60 @@
+# Ladder7
+
+> Ladder7 NextStep Solutions LLP is a custom software development company in Kochi and Trivandrum, Kerala, India.
+> It builds enterprise-grade custom software, web applications, mobile apps, AI assistants and automation at affordable, flexible pricing, and provides dedicated developers
+> and offshore teams. Current clients are in the UAE, UK, Germany, Ireland, USA, Singapore, Australia, Vietnam and India; it takes on projects across the GCC, Europe and Africa.
+> Contact: info@ladder7.in, +91 8137979401. A separate Education division offers IT training and internships in Kerala.
+
+## Work with Ladder7
+- [Custom software development company in India, built for global clients](https://www.ladder7.in/custom-software-development-company-india): Affordable custom software development from India. Ladder7 builds web apps, business software, mobile apps and AI for clients in the GCC, Europe and Africa.
+- [Hire dedicated developers in India](https://www.ladder7.in/hire-dedicated-developers-india): Hire pre-vetted React, Node.js, Python, AI and mobile developers from India on monthly contracts. Cost-effective teams for GCC, European and African firms.
+- [Offshore software development in India, run like part of your company](https://www.ladder7.in/offshore-software-development-india): Set up an offshore software development team or centre in India with Ladder7. Dedicated squads, onsite-offshore delivery and build-operate-transfer models.
+- [Mobile app development from India](https://www.ladder7.in/mobile-app-development-company-india): Android, iOS and Flutter app development from India. Ladder7 builds affordable, scalable apps with secure backends for clients in the GCC, Europe and Africa.
+- [Affordable, flexible pricing for enterprise-grade software](https://www.ladder7.in/engagement-models-pricing): Enterprise-grade software development at affordable, flexible pricing. Compare fixed-price, dedicated team and time-and-materials models from Ladder7 in India.
+- [Software development services, from strategy to support](https://www.ladder7.in/services): Web development, custom software, mobile apps, AI assistants, automation and dedicated developers, delivered from India for GCC, European and African clients.
+- [Our work: software, web and AI projects delivered from India](https://www.ladder7.in/portfolio): Selected Ladder7 work in AI, automation, web platforms and SEO/AEO-ready websites for clients in the UAE, UK, Germany, USA and Australia.
+- [About Ladder7: an Indian software engineering partner for global teams](https://www.ladder7.in/about): Ladder7 NextStep Solutions is a software firm in Kochi and Trivandrum, India, building web, AI and custom software for clients in the UAE, UK, EU, US and Asia.
+- [Talk to us about your software project](https://www.ladder7.in/contact): Tell us about your software, web, mobile or AI project. Email info@ladder7.in or WhatsApp +91 8137979401. We work with clients in the GCC, Europe and Africa.
+- [Good questions. Clear answers](https://www.ladder7.in/faq): Answers on cost, time zones, contracts, IP and engagement models for outsourcing software development to Ladder7 in India, plus our training programmes.
+
+## Regions served
+- [Software development for UAE companies, delivered from India](https://www.ladder7.in/software-development-company-uae): Offshore software development for Dubai and Abu Dhabi businesses. Ladder7 builds custom software, web and mobile apps from India, 1.5 hours ahead of UAE time.
+- [Software development for Saudi Arabian businesses](https://www.ladder7.in/software-development-company-saudi-arabia): Affordable custom software, web and mobile app development for Saudi businesses in Riyadh, Jeddah and Dammam. Indian engineers, Arabic-ready builds, KSA hours.
+- [Software development partner for the GCC](https://www.ladder7.in/software-development-gcc): Offshore software development for companies in Qatar, Kuwait, Bahrain, Oman, the UAE and Saudi Arabia. Indian engineering teams aligned with Gulf working hours.
+- [Offshore software development for the UK and Europe](https://www.ladder7.in/offshore-software-development-uk-europe): Cost-effective offshore software development for UK, Irish, German, Dutch and Nordic firms. GDPR-aware Indian engineering teams with a shared working window.
+- [Software development for businesses across Africa](https://www.ladder7.in/software-development-outsourcing-africa): Affordable custom software, fintech and mobile app development for firms in Nigeria, Kenya, South Africa, Ghana and Egypt, built by Indian engineering teams.
+
+## Services
+- [AEM implementation and cloud migration services](https://www.ladder7.in/services/aem-digital-experience): Adobe Experience Manager implementation, AEM as a Cloud Service migration and headless AEM builds by senior AEM engineers in India for global enterprises.
+- [Connected agents. Smarter ways to work](https://www.ladder7.in/services/agenticai): We design and build agentic AI: specialised agents that reason, collaborate and run multi-step business workflows. Engineered in India for global companies.
+- [AI chatbot and assistant development](https://www.ladder7.in/services/ai-assistant): Custom LLM-powered chatbots and internal knowledge assistants for support, sales and operations, built in India for businesses in the GCC, Europe and Africa.
+- [Turn your AI vision into a working product](https://www.ladder7.in/services/aiproduct): Prototype AI-first features, test product concepts with rapid proofs of concept and take validated AI products to production with Ladder7's team in India.
+- [Turn insight into better experiences](https://www.ladder7.in/services/analytics-experimentation): Analytics setup, behaviour analysis and A/B testing that show what users do and what to change next. Delivered remotely from India for global digital teams.
+- [Bring your project back on track](https://www.ladder7.in/services/green-recovery): Struggling software project? Ladder7 audits code and delivery, stabilises the build and restores velocity with a clear get-to-green recovery plan.
+- [Headless CMS development: create content once, deliver it everywhere](https://www.ladder7.in/services/headless-cms): API-first headless CMS architecture, migration and omnichannel content delivery, built by Ladder7's engineering team in India for brands in the GCC and Europe.
+- [Hyperautomation consulting and implementation services](https://www.ladder7.in/services/hyperautomation): Hyperautomation consulting and implementation that combines RPA, AI and workflow integration to remove manual work. Delivered from India for global operations.
+- [Websites that think, learn and adapt](https://www.ladder7.in/services/intelligent-websites): AI-driven websites that adapt content to visitor intent, with predictive personalisation and SEO, AEO and GEO built in. Designed and engineered by Ladder7.
+- [Digital experiences. Built around people](https://www.ladder7.in/services/localization-uiux): UI/UX design, multilingual localisation, WCAG accessibility testing and QA for web and mobile products, delivered by Ladder7 in India for global teams.
+- [From a promising idea to a practical blueprint](https://www.ladder7.in/services/product-solution): Turn a product idea into architecture, MVP scope and a costed development roadmap. Discovery and solution blueprinting for startups and enterprises.
+- [IT staff augmentation: Indian engineers embedded in your team](https://www.ladder7.in/services/skilled-resource): Pre-vetted developers, QA engineers and architects from India who join your team on monthly contracts. Dedicated squads, offshore centres and BOT models.
+- [Clear technology choices. A stronger foundation](https://www.ladder7.in/services/technology): Vendor-neutral technology consulting: stack selection, cloud platform choice, architecture reviews and legacy modernisation roadmaps from senior architects.
+- [Web development services with React, Next.js and WordPress](https://www.ladder7.in/services/web-experience): Custom web development with React, Next.js and WordPress. Fast, SEO-ready websites and web apps built in India for clients in the UAE, Saudi Arabia, UK and EU.
+
+## Products
+- [Every ad channel in one marketing analytics view](https://www.ladder7.in/products/infinite-insights): Infinite Insights is an AI-powered marketing analytics platform that unifies Meta, Google Ads, LinkedIn and GA4 into a single dashboard.
+- [One view across the systems you already use](https://www.ladder7.in/products/l7-insights): Connect Google Sheets, BigQuery, Snowflake, Zoho, SharePoint, SAP or a CSV, and each source becomes a table you can chart in one dashboard.
+- [An AI executive team for your business](https://www.ladder7.in/products/l7-nexus): L7 Nexus is a leased AI executive team for businesses of any size. It builds a permanent company brain and puts named executives and specialists to work on it.
+- [B2B email written one at a time](https://www.ladder7.in/products/outreach-engine): Outreach Engine is a B2B email outreach platform. It researches each prospect and writes a single email for that person, rather than filling a template.
+- [One website audit across twelve lenses](https://www.ladder7.in/products/site-360): Audit your website across twelve lenses — performance, accessibility, SEO, AEO, GEO, AI readiness and security — into one Digital Health score.
+
+## Guides
+- [How to choose a custom software development company in India: a buyer's checklist](https://www.ladder7.in/blogs/how-to-choose-custom-software-development-company-india): A practical checklist for GCC, European and African buyers choosing an Indian software development company: seniority, process, contracts, IP and cost.
+- [India vs Eastern Europe vs Africa for software outsourcing: which fits your company?](https://www.ladder7.in/blogs/india-vs-eastern-europe-vs-africa-software-outsourcing): Comparing India, Eastern Europe and Africa for software outsourcing: cost, talent pool, time zones and fit for buyers in the GCC, UK and the European Union.
+- [Conversational AI for Customer Experience: When Chatbots Need to Do More](https://www.ladder7.in/blogs/conversational-ai-customer-experience): How enterprise teams use conversational AI, private knowledge, workflow orchestration and analytics to improve customer experience beyond scripted chatbots.
+- [Why Website Checks Need to Go Beyond Performance Scores](https://www.ladder7.in/blogs/why-website-checks-need-to-go-beyond-performance-scores): A fast site can still fail if buyers, search engines and AI answer engines cannot understand it or act on it. What a complete website check should cover.
+- [AI Tools for Web Development Teams: How to Build Intelligent Websites That Convert](https://www.ladder7.in/blogs/ai-tools-web-development-team): How web development teams can use AI tools to build intelligent websites that improve collaboration, automate repetitive work and support conversion.
+- [The Role of AI in Personalizing Web Experiences](https://www.ladder7.in/blogs/ai-personalize-web-experince): Discover how Artificial Intelligence and machine learning are revolutionizing web design through predictive personalization and dynamic content delivery.
+
+## Education division (Kerala)
+- [Learn. Build. Grow](https://www.ladder7.in/education): Discover your next step with Ladder7 Education. Career-focused learning, practical internships and a framework for personal growth, from Cochin and Trivandrum.
+- [Grow your team. Build what comes next](https://www.ladder7.in/corporate-training-kerala): Hands-on IT, data, cloud, AI and marketing training for company teams: on-site in Trivandrum, Kochi and across Kerala, or fully virtual.

@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 import { footerNav } from "../../data/navigation";
-import { COMPANY, LOCATIONS } from "../../data/site";
-import { ArrowUpRight } from "../common/Icons";
+import { COMPANY, LOCATIONS, SOCIAL } from "../../data/site";
+import { ArrowUpRight, Facebook, Instagram, LinkedIn, WhatsApp } from "../common/Icons";
 import { SmartLink } from "../common/SmartLink";
 import "./Footer.css";
 
@@ -30,6 +30,42 @@ export function Footer({ inert }: { inert?: boolean }) {
 
       <div className="site-footer__main">
         <div className="site-footer__intro">
+          <Link to="/" className="site-footer__intro-logo" aria-label="Ladder7 home">
+            <img
+              src="/images/brand/ladder7-logo-284.webp"
+              srcSet="/images/brand/ladder7-logo-284.webp 284w, /images/brand/ladder7-logo-568.webp 568w"
+              sizes="142px"
+              width={142}
+              height={58}
+              alt="Ladder7 Nextstep Solutions"
+              loading="lazy"
+            />
+          </Link>
+          <div className="site-footer__social" aria-label="Ladder7 on social media">
+            {SOCIAL.map((item) => {
+              const Icon =
+                item.icon === "linkedin"
+                  ? LinkedIn
+                  : item.icon === "instagram"
+                    ? Instagram
+                    : item.icon === "facebook"
+                      ? Facebook
+                      : WhatsApp;
+
+              return (
+                <a
+                  key={item.label}
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="site-footer__social-link"
+                  aria-label={`Ladder7 on ${item.label} (opens in a new tab)`}
+                >
+                  <Icon className="site-footer__social-icon" />
+                </a>
+              );
+            })}
+          </div>
           <p>
             Technology with purpose.
             <br />
@@ -57,6 +93,21 @@ export function Footer({ inert }: { inert?: boolean }) {
             </ul>
           </nav>
         ))}
+
+        <div className="site-footer__powered">
+          <h2 className="label-tiny">Powered by</h2>
+          <div className="site-footer__powered-box">
+            <img
+              src="/images/brand/naventra-logo.png"
+              alt="Naventra"
+              className="site-footer__powered-logo"
+              width={100}
+              height={62}
+              loading="lazy"
+            />
+            <span className="site-footer__powered-text">Powered by Naventra</span>
+          </div>
+        </div>
       </div>
 
       <div className="site-footer__locations">

@@ -1,0 +1,1817 @@
+{
+  "page_id": "page_067",
+  "page_key": "hireDevelopersIndia",
+  "page_name": "Hire Dedicated Developers in India",
+  "page_url": "/hire-dedicated-developers-india",
+  "page_type": "route",
+  "prerendered_file": "dist/client/hire-dedicated-developers-india/index.html",
+  "source_page_component": "src/pages/Landing/HireDevelopersIndiaPage.tsx  (PROPOSED - create)",
+  "html_lang": "en",
+  "document_title": "Hire Dedicated Developers in India | Ladder7",
+  "seo": {
+    "meta_title": "Hire Dedicated Developers in India | Ladder7",
+    "meta_description": "Hire pre-vetted React, Node.js, Python, AI and mobile developers from India on monthly contracts. Cost-effective teams for GCC, European and African firms.",
+    "meta_keywords": null,
+    "canonical_url": "https://www.ladder7.in/hire-dedicated-developers-india",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Hire dedicated developers in India.",
+    "headings": {
+      "h1": [
+        "Hire dedicated developers in India."
+      ],
+      "h2": [
+        "Developers you can hire",
+        "How hiring works",
+        "Why hire developers from India through Ladder7",
+        "Dedicated developer vs. freelancer vs. local hire",
+        "Frequently asked questions",
+        "Let's build\nwhat's next."
+      ],
+      "h3": [
+        "Front-end developers",
+        "Back-end and full stack developers",
+        "AI and data engineers",
+        "Mobile developers",
+        "QA and test automation engineers",
+        "AEM and CMS developers",
+        "Tell us what you're working on."
+      ],
+      "h4_to_h6": []
+    },
+    "heading_hierarchy": [
+      {
+        "level": 2,
+        "text": "What comes next for you?",
+        "region": "overlay-menu"
+      },
+      {
+        "level": 3,
+        "text": "Navigation",
+        "region": "overlay-menu"
+      },
+      {
+        "level": 3,
+        "text": "Technology",
+        "region": "overlay-menu"
+      },
+      {
+        "level": 3,
+        "text": "Learning",
+        "region": "overlay-menu"
+      },
+      {
+        "level": 3,
+        "text": "Products",
+        "region": "overlay-menu"
+      },
+      {
+        "level": 3,
+        "text": "Explore",
+        "region": "overlay-menu"
+      },
+      {
+        "level": 1,
+        "text": "Hire dedicated developers in India.",
+        "region": "main"
+      },
+      {
+        "level": 2,
+        "text": "Developers you can hire",
+        "region": "main"
+      },
+      {
+        "level": 3,
+        "text": "Front-end developers",
+        "region": "main"
+      },
+      {
+        "level": 3,
+        "text": "Back-end and full stack developers",
+        "region": "main"
+      },
+      {
+        "level": 3,
+        "text": "AI and data engineers",
+        "region": "main"
+      },
+      {
+        "level": 3,
+        "text": "Mobile developers",
+        "region": "main"
+      },
+      {
+        "level": 3,
+        "text": "QA and test automation engineers",
+        "region": "main"
+      },
+      {
+        "level": 3,
+        "text": "AEM and CMS developers",
+        "region": "main"
+      },
+      {
+        "level": 2,
+        "text": "How hiring works",
+        "region": "main"
+      },
+      {
+        "level": 2,
+        "text": "Why hire developers from India through Ladder7",
+        "region": "main"
+      },
+      {
+        "level": 2,
+        "text": "Dedicated developer vs. freelancer vs. local hire",
+        "region": "main"
+      },
+      {
+        "level": 2,
+        "text": "Frequently asked questions",
+        "region": "main"
+      },
+      {
+        "level": 2,
+        "text": "Let's build\nwhat's next.",
+        "region": "main"
+      },
+      {
+        "level": 3,
+        "text": "Tell us what you're working on.",
+        "region": "main"
+      },
+      {
+        "level": 2,
+        "text": "Explore",
+        "region": "footer"
+      },
+      {
+        "level": 2,
+        "text": "Learn & grow",
+        "region": "footer"
+      },
+      {
+        "level": 2,
+        "text": "Connect",
+        "region": "footer"
+      }
+    ],
+    "heading_hierarchy_issues": [],
+    "open_graph": {
+      "og:type": "website",
+      "og:site_name": "Ladder7 NextStep Solutions",
+      "og:locale": "en_IN",
+      "og:title": "Hire Dedicated Developers in India | Ladder7",
+      "og:description": "Hire pre-vetted React, Node.js, Python, AI and mobile developers from India on monthly contracts. Cost-effective teams for GCC, European and African firms.",
+      "og:image": "https://www.ladder7.in/og/ladder7-og.jpg",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:alt": "Hire dedicated developers in India.",
+      "og:url": "https://www.ladder7.in/hire-dedicated-developers-india"
+    },
+    "twitter_card": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Hire Dedicated Developers in India | Ladder7",
+      "twitter:description": "Hire pre-vetted React, Node.js, Python, AI and mobile developers from India on monthly contracts. Cost-effective teams for GCC, European and African firms.",
+      "twitter:image": "https://www.ladder7.in/og/ladder7-og.jpg",
+      "twitter:image:alt": "Hire dedicated developers in India."
+    },
+    "structured_data_types": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.ladder7.in/#organization",
+            "name": "Ladder7 NextStep Solutions",
+            "alternateName": [
+              "Ladder7",
+              "Ladder7 IT",
+              "Ladder7 NextStep Solutions LLP",
+              "Ladder 7"
+            ],
+            "url": "https://www.ladder7.in/",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://www.ladder7.in/icons/ladder7-logo-512.png",
+              "width": 512,
+              "height": 512
+            },
+            "description": "Ladder7 NextStep Solutions is a custom software development company in Kochi and Trivandrum, India, building web applications, mobile apps, AI solutions and dedicated engineering teams for clients in the GCC, Europe and Africa.",
+            "slogan": "Build. Connect. Grow.",
+            "email": "info@ladder7.in",
+            "telephone": "+918137979401",
+            "address": [
+              {
+                "@type": "PostalAddress",
+                "name": "Kochi (Cochin)",
+                "streetAddress": "WEE SPACES, Ernakulam",
+                "addressLocality": "Kochi",
+                "addressRegion": "Kerala",
+                "addressCountry": "IN"
+              },
+              {
+                "@type": "PostalAddress",
+                "name": "Trivandrum",
+                "streetAddress": "Kinfra Film and IT Park",
+                "addressLocality": "Trivandrum",
+                "addressRegion": "Kerala",
+                "addressCountry": "IN"
+              }
+            ],
+            "contactPoint": [
+              {
+                "@type": "ContactPoint",
+                "contactType": "sales",
+                "email": "info@ladder7.in",
+                "telephone": "+918137979401",
+                "availableLanguage": [
+                  "English",
+                  "Hindi",
+                  "Malayalam"
+                ],
+                "areaServed": [
+                  "United Arab Emirates",
+                  "Saudi Arabia",
+                  "Qatar",
+                  "Kuwait",
+                  "Bahrain",
+                  "Oman",
+                  "United Kingdom",
+                  "Ireland",
+                  "Germany",
+                  "Netherlands",
+                  "France",
+                  "Belgium",
+                  "Sweden",
+                  "Norway",
+                  "Denmark",
+                  "Finland",
+                  "Switzerland",
+                  "Spain",
+                  "Italy",
+                  "Poland",
+                  "Nigeria",
+                  "Kenya",
+                  "South Africa",
+                  "Ghana",
+                  "Egypt",
+                  "Morocco",
+                  "Tanzania",
+                  "Uganda",
+                  "Rwanda",
+                  "India",
+                  "United States",
+                  "Singapore",
+                  "Australia",
+                  "Vietnam"
+                ]
+              }
+            ],
+            "sameAs": [
+              "https://www.linkedin.com/company/ladder7-nextstep-solutions-llp/",
+              "https://www.instagram.com/ladder7_nextstep_solutions_/"
+            ],
+            "areaServed": [
+              {
+                "@type": "Country",
+                "name": "United Arab Emirates"
+              },
+              {
+                "@type": "Country",
+                "name": "Saudi Arabia"
+              },
+              {
+                "@type": "Country",
+                "name": "Qatar"
+              },
+              {
+                "@type": "Country",
+                "name": "Kuwait"
+              },
+              {
+                "@type": "Country",
+                "name": "Bahrain"
+              },
+              {
+                "@type": "Country",
+                "name": "Oman"
+              },
+              {
+                "@type": "Country",
+                "name": "United Kingdom"
+              },
+              {
+                "@type": "Country",
+                "name": "Ireland"
+              },
+              {
+                "@type": "Country",
+                "name": "Germany"
+              },
+              {
+                "@type": "Country",
+                "name": "Netherlands"
+              },
+              {
+                "@type": "Country",
+                "name": "France"
+              },
+              {
+                "@type": "Country",
+                "name": "Belgium"
+              },
+              {
+                "@type": "Country",
+                "name": "Sweden"
+              },
+              {
+                "@type": "Country",
+                "name": "Norway"
+              },
+              {
+                "@type": "Country",
+                "name": "Denmark"
+              },
+              {
+                "@type": "Country",
+                "name": "Finland"
+              },
+              {
+                "@type": "Country",
+                "name": "Switzerland"
+              },
+              {
+                "@type": "Country",
+                "name": "Spain"
+              },
+              {
+                "@type": "Country",
+                "name": "Italy"
+              },
+              {
+                "@type": "Country",
+                "name": "Poland"
+              },
+              {
+                "@type": "Country",
+                "name": "Nigeria"
+              },
+              {
+                "@type": "Country",
+                "name": "Kenya"
+              },
+              {
+                "@type": "Country",
+                "name": "South Africa"
+              },
+              {
+                "@type": "Country",
+                "name": "Ghana"
+              },
+              {
+                "@type": "Country",
+                "name": "Egypt"
+              },
+              {
+                "@type": "Country",
+                "name": "Morocco"
+              },
+              {
+                "@type": "Country",
+                "name": "Tanzania"
+              },
+              {
+                "@type": "Country",
+                "name": "Uganda"
+              },
+              {
+                "@type": "Country",
+                "name": "Rwanda"
+              },
+              {
+                "@type": "Country",
+                "name": "India"
+              },
+              {
+                "@type": "Country",
+                "name": "United States"
+              },
+              {
+                "@type": "Country",
+                "name": "Singapore"
+              },
+              {
+                "@type": "Country",
+                "name": "Australia"
+              },
+              {
+                "@type": "Country",
+                "name": "Vietnam"
+              }
+            ],
+            "knowsAbout": [
+              "Custom software development",
+              "Web application development",
+              "Mobile app development",
+              "Offshore software development",
+              "IT staff augmentation",
+              "Adobe Experience Manager",
+              "Headless CMS",
+              "Conversational AI",
+              "Agentic AI",
+              "Hyperautomation",
+              "React",
+              "Next.js",
+              "Node.js",
+              "Python",
+              "Flutter",
+              "Search engine optimisation",
+              "Answer engine optimisation"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.ladder7.in/#website",
+            "url": "https://www.ladder7.in/",
+            "name": "Ladder7 IT",
+            "alternateName": "Ladder7 NextStep Solutions",
+            "description": "Ladder7 NextStep Solutions is a custom software development company in Kochi and Trivandrum, India, building web applications, mobile apps, AI solutions and dedicated engineering teams for clients in the GCC, Europe and Africa.",
+            "publisher": {
+              "@id": "https://www.ladder7.in/#organization"
+            },
+            "inLanguage": "en"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.ladder7.in/hire-dedicated-developers-india#webpage",
+            "url": "https://www.ladder7.in/hire-dedicated-developers-india",
+            "name": "Hire Dedicated Developers in India | Ladder7",
+            "description": "Hire pre-vetted React, Node.js, Python, AI and mobile developers from India on monthly contracts. Cost-effective teams for GCC, European and African firms.",
+            "isPartOf": {
+              "@id": "https://www.ladder7.in/#website"
+            },
+            "about": {
+              "@id": "https://www.ladder7.in/#organization"
+            },
+            "inLanguage": "en",
+            "primaryImageOfPage": {
+              "@type": "ImageObject",
+              "url": "https://www.ladder7.in/og/ladder7-og.jpg"
+            },
+            "breadcrumb": {
+              "@id": "https://www.ladder7.in/hire-dedicated-developers-india#breadcrumb"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.ladder7.in/hire-dedicated-developers-india#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.ladder7.in/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Hire Dedicated Developers in India",
+                "item": "https://www.ladder7.in/hire-dedicated-developers-india"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://www.ladder7.in/hire-dedicated-developers-india#service",
+            "name": "Dedicated software developers",
+            "serviceType": "IT Staff Augmentation",
+            "description": "Hire pre-vetted React, Node.js, Python, AI and mobile developers from India on monthly contracts. Cost-effective teams for GCC, European and African firms.",
+            "url": "https://www.ladder7.in/hire-dedicated-developers-india",
+            "provider": {
+              "@id": "https://www.ladder7.in/#organization"
+            },
+            "areaServed": [
+              {
+                "@type": "Country",
+                "name": "United Arab Emirates"
+              },
+              {
+                "@type": "Country",
+                "name": "Saudi Arabia"
+              },
+              {
+                "@type": "Country",
+                "name": "Qatar"
+              },
+              {
+                "@type": "Country",
+                "name": "Kuwait"
+              },
+              {
+                "@type": "Country",
+                "name": "Bahrain"
+              },
+              {
+                "@type": "Country",
+                "name": "Oman"
+              },
+              {
+                "@type": "Country",
+                "name": "United Kingdom"
+              },
+              {
+                "@type": "Country",
+                "name": "Ireland"
+              },
+              {
+                "@type": "Country",
+                "name": "Germany"
+              },
+              {
+                "@type": "Country",
+                "name": "Netherlands"
+              },
+              {
+                "@type": "Country",
+                "name": "France"
+              },
+              {
+                "@type": "Country",
+                "name": "Belgium"
+              },
+              {
+                "@type": "Country",
+                "name": "Sweden"
+              },
+              {
+                "@type": "Country",
+                "name": "Norway"
+              },
+              {
+                "@type": "Country",
+                "name": "Denmark"
+              },
+              {
+                "@type": "Country",
+                "name": "Finland"
+              },
+              {
+                "@type": "Country",
+                "name": "Switzerland"
+              },
+              {
+                "@type": "Country",
+                "name": "Spain"
+              },
+              {
+                "@type": "Country",
+                "name": "Italy"
+              },
+              {
+                "@type": "Country",
+                "name": "Poland"
+              },
+              {
+                "@type": "Country",
+                "name": "Nigeria"
+              },
+              {
+                "@type": "Country",
+                "name": "Kenya"
+              },
+              {
+                "@type": "Country",
+                "name": "South Africa"
+              },
+              {
+                "@type": "Country",
+                "name": "Ghana"
+              },
+              {
+                "@type": "Country",
+                "name": "Egypt"
+              },
+              {
+                "@type": "Country",
+                "name": "Morocco"
+              },
+              {
+                "@type": "Country",
+                "name": "Tanzania"
+              },
+              {
+                "@type": "Country",
+                "name": "Uganda"
+              },
+              {
+                "@type": "Country",
+                "name": "Rwanda"
+              },
+              {
+                "@type": "Country",
+                "name": "India"
+              },
+              {
+                "@type": "Country",
+                "name": "United States"
+              },
+              {
+                "@type": "Country",
+                "name": "Singapore"
+              },
+              {
+                "@type": "Country",
+                "name": "Australia"
+              },
+              {
+                "@type": "Country",
+                "name": "Vietnam"
+              }
+            ],
+            "availableChannel": {
+              "@type": "ServiceChannel",
+              "serviceUrl": "https://www.ladder7.in/contact"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://www.ladder7.in/hire-dedicated-developers-india#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What does it cost to hire a dedicated developer in India?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Monthly cost depends on role and seniority. Indian dedicated developers usually cost significantly less than equivalent hires in the GCC, UK or Western Europe. Ladder7 keeps pricing affordable and flexible, so share the roles you need and we will propose a team and monthly fee."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How quickly can a developer start?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Shortlists are typically shared within a week. Start dates depend on the role and the developer's current commitments."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Will the developer work in my time zone?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Developers align their day for overlap with your core hours. India is 1.5 to 2.5 hours ahead of the Gulf and 3.5 to 5.5 hours ahead of Europe, so a shared working window is easy to arrange."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is pricing flexible?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Teams run on monthly terms, so you can scale developers up or down as your roadmap changes."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Who owns the code?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "You do. The contract assigns all intellectual property to you, and code lives in your repositories."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "viewport": "width=device-width, initial-scale=1",
+    "theme_color": "#101416",
+    "hreflang": [],
+    "image_optimization": {
+      "total_img_elements": 1,
+      "in_main": 0,
+      "missing_alt_attribute": 0,
+      "empty_alt_decorative": 0,
+      "with_width_and_height": 1,
+      "lazy_loaded": 0,
+      "eager_or_high_priority": 1,
+      "with_srcset": 1,
+      "in_picture_element": 0,
+      "formats": {
+        "webp": 1
+      }
+    },
+    "internal_linking": {
+      "total_links_in_document": 68,
+      "links_in_main": 4,
+      "internal_in_main": 4,
+      "anchor_in_main": 0,
+      "external_in_main": 0,
+      "unique_internal_targets_in_main": [
+        "/blogs/india-vs-eastern-europe-vs-africa-software-outsourcing",
+        "/engagement-models-pricing",
+        "/hire-dedicated-developers-india",
+        "/services/aem-digital-experience"
+      ],
+      "unresolved_internal_targets": []
+    },
+    "issues": []
+  },
+  "components_used": [
+    "src/components/common/Icons.tsx",
+    "src/components/common/Lines.tsx",
+    "src/components/common/Seo.tsx",
+    "src/components/common/SmartLink.tsx",
+    "src/components/forms/EnquiryForm.tsx",
+    "src/components/layout/Footer.tsx",
+    "src/components/layout/Header.tsx",
+    "src/components/navigation/MegaMenu.tsx",
+    "src/components/sections/Contact/ContactSection.tsx",
+    "src/components/sections/Hero/ParticleField.tsx",
+    "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx",
+    "src/components/ui/Button.tsx"
+  ],
+  "data_files_used": [
+    "src/data/blog.ts",
+    "src/data/company.ts",
+    "src/data/images.generated.ts",
+    "src/data/navigation.ts",
+    "src/data/services.ts",
+    "src/data/site.ts",
+    "src/data/landing/hireDevelopersIndia.ts  (PROPOSED - create)"
+  ],
+  "section_count": 7,
+  "sections": [
+    {
+      "section_id": "hiredevelopersindia_01_hero",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "css_classes": [
+        "inner-service-hero"
+      ],
+      "aria_labelledby": "service-hero-title",
+      "aria_label": null,
+      "section_name": "Hero",
+      "name_basis": "humanised from the section's HTML id / aria-labelledby / first specific CSS class (the site does not display section names)",
+      "section_heading": "Hire dedicated developers in India.",
+      "heading_level": "h1",
+      "heading_other": [],
+      "eyebrow": "Hire developers / India",
+      "subheading": "",
+      "description": "Need engineers without a six-month hiring cycle? Ladder7 provides dedicated developers, QA engineers and tech leads from our teams in Kerala, India. They work only on your product, inside your tools and your sprint rhythm, on a monthly contract you can scale up or down.",
+      "paragraphs": [
+        "Hire developers / India",
+        "Need engineers without a six-month hiring cycle? Ladder7 provides dedicated developers, QA engineers and tech leads from our teams in Kerala, India. They work only on your product, inside your tools and your sprint rhythm, on a monthly contract you can scale up or down."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Hire developers / India"
+        },
+        {
+          "type": "h1",
+          "text": "Hire dedicated developers in India."
+        },
+        {
+          "type": "p",
+          "text": "Need engineers without a six-month hiring cycle? Ladder7 provides dedicated developers, QA engineers and tech leads from our teams in Kerala, India. They work only on your product, inside your tools and your sprint rhythm, on a monthly contract you can scale up or down."
+        },
+        {
+          "type": "cta-link",
+          "text": "Get a project estimate"
+        },
+        {
+          "type": "cta-link",
+          "text": "See engagement models"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Delivery base",
+          "detail": "Kochi · Trivandrum, India",
+          "source": "dl"
+        },
+        {
+          "term": "Clients in",
+          "detail": "UAE · UK · Germany · Ireland · USA · Singapore · Australia",
+          "source": "dl"
+        },
+        {
+          "term": "Time difference",
+          "detail": "+1.5h UAE · +2.5h KSA · +4.5h UK (summer)",
+          "source": "dl"
+        }
+      ],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Get a project estimate",
+          "url": "/hire-dedicated-developers-india#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "See engagement models",
+          "url": "/engagement-models-pricing",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Get a project estimate",
+          "href": "/hire-dedicated-developers-india#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "See engagement models",
+          "href": "/engagement-models-pricing",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Get a project estimate",
+          "href": "/hire-dedicated-developers-india#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "See engagement models",
+          "href": "/engagement-models-pricing",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "background": "animated canvas present (particle-field)",
+      "layout": {
+        "descriptors": [
+          "row"
+        ],
+        "notable_elements": [
+          "dl"
+        ],
+        "direct_child_elements": 5
+      },
+      "layout_basis": "CSS class tokens and element types (not computed styles)",
+      "purpose": "Page introduction / primary headline and calls to action",
+      "purpose_basis": "proposed by SEO audit (new section, not yet in source)",
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "forms_in_section": 0,
+      "hidden_or_conditional_content": [],
+      "screen_reader_only_text": [],
+      "child_sections": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      },
+      "seo": {
+        "headings_in_section": [
+          "h1"
+        ],
+        "has_h1": true,
+        "image_count": 0,
+        "images_missing_alt": 0,
+        "images_with_empty_alt": 0,
+        "link_count": 2
+      },
+      "flags": []
+    },
+    {
+      "section_id": "hiredevelopersindia_02_section",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "css_classes": [
+        "inner-about"
+      ],
+      "aria_labelledby": "inner-about-title",
+      "aria_label": null,
+      "section_name": "Content Section",
+      "name_basis": "humanised from the section's HTML id / aria-labelledby / first specific CSS class (the site does not display section names)",
+      "section_heading": "Developers you can hire",
+      "heading_level": "h2",
+      "heading_other": [],
+      "eyebrow": "Roles and skills",
+      "subheading": "",
+      "description": "Every engineer is screened for technical depth and written English before we propose them.",
+      "paragraphs": [
+        "Roles and skills",
+        "Every engineer is screened for technical depth and written English before we propose them."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Roles and skills"
+        },
+        {
+          "type": "h2",
+          "text": "Developers you can hire"
+        },
+        {
+          "type": "p",
+          "text": "Every engineer is screened for technical depth and written English before we propose them."
+        },
+        {
+          "type": "h3",
+          "text": "Front-end developers"
+        },
+        {
+          "type": "p",
+          "text": "React, Next.js, TypeScript and modern CSS for fast, SEO-ready interfaces."
+        },
+        {
+          "type": "h3",
+          "text": "Back-end and full stack developers"
+        },
+        {
+          "type": "p",
+          "text": "Node.js, Python, MERN and MEAN stacks, REST and GraphQL APIs."
+        },
+        {
+          "type": "h3",
+          "text": "AI and data engineers"
+        },
+        {
+          "type": "p",
+          "text": "LLM integration, retrieval-augmented generation, data pipelines and analytics."
+        },
+        {
+          "type": "h3",
+          "text": "Mobile developers"
+        },
+        {
+          "type": "p",
+          "text": "Flutter, Kotlin and native Android, plus cross-platform iOS builds."
+        },
+        {
+          "type": "h3",
+          "text": "QA and test automation engineers"
+        },
+        {
+          "type": "p",
+          "text": "Manual testing, Selenium automation and API testing."
+        },
+        {
+          "type": "h3",
+          "text": "AEM and CMS developers"
+        },
+        {
+          "type": "p",
+          "text": "Adobe Experience Manager, WordPress and headless CMS specialists."
+        },
+        {
+          "type": "a",
+          "text": "AEM services"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [
+        {
+          "element": "article.card",
+          "heading": "Front-end developers",
+          "text": [
+            "React, Next.js, TypeScript and modern CSS for fast, SEO-ready interfaces."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.card",
+          "heading": "Back-end and full stack developers",
+          "text": [
+            "Node.js, Python, MERN and MEAN stacks, REST and GraphQL APIs."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.card",
+          "heading": "AI and data engineers",
+          "text": [
+            "LLM integration, retrieval-augmented generation, data pipelines and analytics."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.card",
+          "heading": "Mobile developers",
+          "text": [
+            "Flutter, Kotlin and native Android, plus cross-platform iOS builds."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.card",
+          "heading": "QA and test automation engineers",
+          "text": [
+            "Manual testing, Selenium automation and API testing."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.card",
+          "heading": "AEM and CMS developers",
+          "text": [
+            "Adobe Experience Manager, WordPress and headless CMS specialists."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [
+        {
+          "text": "AEM services",
+          "href": "/services/aem-digital-experience",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "AEM services",
+          "href": "/services/aem-digital-experience",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "background": "not determinable from markup (see section stylesheet); no theme/video/canvas class found",
+      "layout": {
+        "descriptors": [
+          "row"
+        ],
+        "notable_elements": [],
+        "direct_child_elements": 4
+      },
+      "layout_basis": "CSS class tokens and element types (not computed styles)",
+      "purpose": "Answers a search-intent question with self-contained, citable copy (AEO/GEO)",
+      "purpose_basis": "proposed by SEO audit (new section, not yet in source)",
+      "interactive_elements": [],
+      "forms_in_section": 0,
+      "hidden_or_conditional_content": [],
+      "screen_reader_only_text": [],
+      "child_sections": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      },
+      "seo": {
+        "headings_in_section": [
+          "h2",
+          "h3",
+          "h3",
+          "h3",
+          "h3",
+          "h3",
+          "h3"
+        ],
+        "has_h1": false,
+        "image_count": 0,
+        "images_missing_alt": 0,
+        "images_with_empty_alt": 0,
+        "link_count": 1
+      },
+      "flags": []
+    },
+    {
+      "section_id": "hiredevelopersindia_03_section",
+      "section_order": 3,
+      "html_id": null,
+      "element": "section",
+      "css_classes": [
+        "inner-about"
+      ],
+      "aria_labelledby": "inner-about-title",
+      "aria_label": null,
+      "section_name": "Content Section",
+      "name_basis": "humanised from the section's HTML id / aria-labelledby / first specific CSS class (the site does not display section names)",
+      "section_heading": "How hiring works",
+      "heading_level": "h2",
+      "heading_other": [],
+      "eyebrow": "From request to first commit",
+      "subheading": "",
+      "description": "Most teams are proposed within days, not months.",
+      "paragraphs": [
+        "From request to first commit",
+        "Most teams are proposed within days, not months."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "From request to first commit"
+        },
+        {
+          "type": "h2",
+          "text": "How hiring works"
+        },
+        {
+          "type": "p",
+          "text": "Most teams are proposed within days, not months."
+        },
+        {
+          "type": "li",
+          "text": "Share the roles, skills, seniority and start date you need."
+        },
+        {
+          "type": "li",
+          "text": "We shortlist engineers and you interview them directly."
+        },
+        {
+          "type": "li",
+          "text": "Selected developers onboard to your Slack, Jira, GitHub or Azure DevOps."
+        },
+        {
+          "type": "li",
+          "text": "You review output in your sprints. We handle payroll, equipment and HR."
+        }
+      ],
+      "bullet_points": [
+        "Share the roles, skills, seniority and start date you need.",
+        "We shortlist engineers and you interview them directly.",
+        "Selected developers onboard to your Slack, Jira, GitHub or Azure DevOps.",
+        "You review output in your sprints. We handle payroll, equipment and HR."
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "background": "not determinable from markup (see section stylesheet); no theme/video/canvas class found",
+      "layout": {
+        "descriptors": [
+          "row"
+        ],
+        "notable_elements": [],
+        "direct_child_elements": 4
+      },
+      "layout_basis": "CSS class tokens and element types (not computed styles)",
+      "purpose": "Answers a search-intent question with self-contained, citable copy (AEO/GEO)",
+      "purpose_basis": "proposed by SEO audit (new section, not yet in source)",
+      "interactive_elements": [],
+      "forms_in_section": 0,
+      "hidden_or_conditional_content": [],
+      "screen_reader_only_text": [],
+      "child_sections": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      },
+      "seo": {
+        "headings_in_section": [
+          "h2"
+        ],
+        "has_h1": false,
+        "image_count": 0,
+        "images_missing_alt": 0,
+        "images_with_empty_alt": 0,
+        "link_count": 0
+      },
+      "flags": []
+    },
+    {
+      "section_id": "hiredevelopersindia_04_section",
+      "section_order": 4,
+      "html_id": null,
+      "element": "section",
+      "css_classes": [
+        "inner-about"
+      ],
+      "aria_labelledby": "inner-about-title",
+      "aria_label": null,
+      "section_name": "Content Section",
+      "name_basis": "humanised from the section's HTML id / aria-labelledby / first specific CSS class (the site does not display section names)",
+      "section_heading": "Why hire developers from India through Ladder7",
+      "heading_level": "h2",
+      "heading_other": [],
+      "eyebrow": "Benefits",
+      "subheading": "",
+      "description": "Hiring through a delivery partner gives you the cost advantage of India without managing an overseas entity.",
+      "paragraphs": [
+        "Benefits",
+        "Hiring through a delivery partner gives you the cost advantage of India without managing an overseas entity."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Benefits"
+        },
+        {
+          "type": "h2",
+          "text": "Why hire developers from India through Ladder7"
+        },
+        {
+          "type": "p",
+          "text": "Hiring through a delivery partner gives you the cost advantage of India without managing an overseas entity."
+        },
+        {
+          "type": "li",
+          "text": "Monthly contracts with no recruitment fees or long notice periods."
+        },
+        {
+          "type": "li",
+          "text": "Senior oversight: every dedicated developer is backed by our central delivery office."
+        },
+        {
+          "type": "li",
+          "text": "Working-hour overlap with the Gulf, Europe and Africa, with daily stand-ups in your morning."
+        },
+        {
+          "type": "li",
+          "text": "IP assignment and NDA in the contract, with all code in your repositories."
+        }
+      ],
+      "bullet_points": [
+        "Monthly contracts with no recruitment fees or long notice periods.",
+        "Senior oversight: every dedicated developer is backed by our central delivery office.",
+        "Working-hour overlap with the Gulf, Europe and Africa, with daily stand-ups in your morning.",
+        "IP assignment and NDA in the contract, with all code in your repositories."
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "background": "not determinable from markup (see section stylesheet); no theme/video/canvas class found",
+      "layout": {
+        "descriptors": [
+          "row"
+        ],
+        "notable_elements": [],
+        "direct_child_elements": 4
+      },
+      "layout_basis": "CSS class tokens and element types (not computed styles)",
+      "purpose": "Answers a search-intent question with self-contained, citable copy (AEO/GEO)",
+      "purpose_basis": "proposed by SEO audit (new section, not yet in source)",
+      "interactive_elements": [],
+      "forms_in_section": 0,
+      "hidden_or_conditional_content": [],
+      "screen_reader_only_text": [],
+      "child_sections": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      },
+      "seo": {
+        "headings_in_section": [
+          "h2"
+        ],
+        "has_h1": false,
+        "image_count": 0,
+        "images_missing_alt": 0,
+        "images_with_empty_alt": 0,
+        "link_count": 0
+      },
+      "flags": []
+    },
+    {
+      "section_id": "hiredevelopersindia_05_section",
+      "section_order": 5,
+      "html_id": null,
+      "element": "section",
+      "css_classes": [
+        "inner-about"
+      ],
+      "aria_labelledby": "inner-about-title",
+      "aria_label": null,
+      "section_name": "Content Section",
+      "name_basis": "humanised from the section's HTML id / aria-labelledby / first specific CSS class (the site does not display section names)",
+      "section_heading": "Dedicated developer vs. freelancer vs. local hire",
+      "heading_level": "h2",
+      "heading_other": [],
+      "eyebrow": "A quick comparison",
+      "subheading": "",
+      "description": "Freelance marketplaces are cheapest per hour but carry continuity and quality risk. Local hiring in Dubai, London or Lagos gives control but at higher salary and visa cost and slower hiring. A dedicated developer from an Indian partner sits in between: lower cost than a local hire, more accountability than a freelancer, and continuity managed by the partner's delivery office.",
+      "paragraphs": [
+        "A quick comparison",
+        "Freelance marketplaces are cheapest per hour but carry continuity and quality risk. Local hiring in Dubai, London or Lagos gives control but at higher salary and visa cost and slower hiring. A dedicated developer from an Indian partner sits in between: lower cost than a local hire, more accountability than a freelancer, and continuity managed by the partner's delivery office."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "A quick comparison"
+        },
+        {
+          "type": "h2",
+          "text": "Dedicated developer vs. freelancer vs. local hire"
+        },
+        {
+          "type": "p",
+          "text": "Freelance marketplaces are cheapest per hour but carry continuity and quality risk. Local hiring in Dubai, London or Lagos gives control but at higher salary and visa cost and slower hiring. A dedicated developer from an Indian partner sits in between: lower cost than a local hire, more accountability than a freelancer, and continuity managed by the partner's delivery office."
+        },
+        {
+          "type": "a",
+          "text": "Read the full outsourcing comparison"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [
+        {
+          "text": "Read the full outsourcing comparison",
+          "href": "/blogs/india-vs-eastern-europe-vs-africa-software-outsourcing",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Read the full outsourcing comparison",
+          "href": "/blogs/india-vs-eastern-europe-vs-africa-software-outsourcing",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "background": "not determinable from markup (see section stylesheet); no theme/video/canvas class found",
+      "layout": {
+        "descriptors": [
+          "row"
+        ],
+        "notable_elements": [],
+        "direct_child_elements": 4
+      },
+      "layout_basis": "CSS class tokens and element types (not computed styles)",
+      "purpose": "Answers a search-intent question with self-contained, citable copy (AEO/GEO)",
+      "purpose_basis": "proposed by SEO audit (new section, not yet in source)",
+      "interactive_elements": [],
+      "forms_in_section": 0,
+      "hidden_or_conditional_content": [],
+      "screen_reader_only_text": [],
+      "child_sections": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      },
+      "seo": {
+        "headings_in_section": [
+          "h2"
+        ],
+        "has_h1": false,
+        "image_count": 0,
+        "images_missing_alt": 0,
+        "images_with_empty_alt": 0,
+        "link_count": 1
+      },
+      "flags": []
+    },
+    {
+      "section_id": "hiredevelopersindia_06_faq",
+      "section_order": 6,
+      "html_id": null,
+      "element": "section",
+      "css_classes": [
+        "section",
+        "section--lined",
+        "split",
+        "faq"
+      ],
+      "aria_labelledby": "faq-title",
+      "aria_label": null,
+      "section_name": "Faq",
+      "name_basis": "humanised from the section's HTML id / aria-labelledby / first specific CSS class (the site does not display section names)",
+      "section_heading": "Frequently asked questions",
+      "heading_level": "h2",
+      "heading_other": [],
+      "eyebrow": "Questions buyers ask",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "Questions buyers ask",
+        "Monthly cost depends on role and seniority. Indian dedicated developers usually cost significantly less than equivalent hires in the GCC, UK or Western Europe. Ladder7 keeps pricing affordable and flexible, so share the roles you need and we will propose a team and monthly fee.",
+        "Shortlists are typically shared within a week. Start dates depend on the role and the developer's current commitments.",
+        "Developers align their day for overlap with your core hours. India is 1.5 to 2.5 hours ahead of the Gulf and 3.5 to 5.5 hours ahead of Europe, so a shared working window is easy to arrange.",
+        "Yes. Teams run on monthly terms, so you can scale developers up or down as your roadmap changes.",
+        "You do. The contract assigns all intellectual property to you, and code lives in your repositories."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Questions buyers ask"
+        },
+        {
+          "type": "h2",
+          "text": "Frequently asked questions"
+        },
+        {
+          "type": "summary",
+          "text": "What does it cost to hire a dedicated developer in India?"
+        },
+        {
+          "type": "p",
+          "text": "Monthly cost depends on role and seniority. Indian dedicated developers usually cost significantly less than equivalent hires in the GCC, UK or Western Europe. Ladder7 keeps pricing affordable and flexible, so share the roles you need and we will propose a team and monthly fee."
+        },
+        {
+          "type": "summary",
+          "text": "How quickly can a developer start?"
+        },
+        {
+          "type": "p",
+          "text": "Shortlists are typically shared within a week. Start dates depend on the role and the developer's current commitments."
+        },
+        {
+          "type": "summary",
+          "text": "Will the developer work in my time zone?"
+        },
+        {
+          "type": "p",
+          "text": "Developers align their day for overlap with your core hours. India is 1.5 to 2.5 hours ahead of the Gulf and 3.5 to 5.5 hours ahead of Europe, so a shared working window is easy to arrange."
+        },
+        {
+          "type": "summary",
+          "text": "Is pricing flexible?"
+        },
+        {
+          "type": "p",
+          "text": "Yes. Teams run on monthly terms, so you can scale developers up or down as your roadmap changes."
+        },
+        {
+          "type": "summary",
+          "text": "Who owns the code?"
+        },
+        {
+          "type": "p",
+          "text": "You do. The contract assigns all intellectual property to you, and code lives in your repositories."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "background": "not determinable from markup (see section stylesheet); no theme/video/canvas class found",
+      "layout": {
+        "descriptors": [
+          "list",
+          "row",
+          "split"
+        ],
+        "notable_elements": [
+          "details"
+        ],
+        "direct_child_elements": 2
+      },
+      "layout_basis": "CSS class tokens and element types (not computed styles)",
+      "purpose": "Answers common buyer questions (FAQPage schema)",
+      "purpose_basis": "proposed by SEO audit (new section, not yet in source)",
+      "interactive_elements": [
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "What does it cost to hire a dedicated developer in India?",
+          "open": true
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "How quickly can a developer start?",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Will the developer work in my time zone?",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Is pricing flexible?",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Who owns the code?",
+          "open": false
+        }
+      ],
+      "forms_in_section": 0,
+      "hidden_or_conditional_content": [],
+      "screen_reader_only_text": [],
+      "child_sections": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Faq/FaqSection.css",
+        "component": "src/components/sections/Faq/FaqSection.tsx"
+      },
+      "seo": {
+        "headings_in_section": [
+          "h2"
+        ],
+        "has_h1": false,
+        "image_count": 0,
+        "images_missing_alt": 0,
+        "images_with_empty_alt": 0,
+        "link_count": 0
+      },
+      "flags": []
+    },
+    {
+      "section_id": "hiredevelopersindia_07_contact",
+      "section_order": 7,
+      "html_id": "contact",
+      "element": "section",
+      "css_classes": [
+        "section",
+        "section--sheet",
+        "theme-brand",
+        "contact"
+      ],
+      "aria_labelledby": "contact-title",
+      "aria_label": null,
+      "section_name": "Contact",
+      "name_basis": "humanised from the section's HTML id / aria-labelledby / first specific CSS class (the site does not display section names)",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "heading_other": [
+        {
+          "level": "h3",
+          "text": "Tell us what you're working on."
+        }
+      ],
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Continue on WhatsApp (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Continue on WhatsApp (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "background": "color theme (theme-brand); sheet surface (rounded panel) per class section--sheet",
+      "layout": {
+        "descriptors": [
+          "row"
+        ],
+        "notable_elements": [
+          "form"
+        ],
+        "direct_child_elements": 2
+      },
+      "layout_basis": "CSS class tokens and element types (not computed styles)",
+      "purpose": "Lead capture / contact",
+      "purpose_basis": "inferred by auditor from section name/classes; not text from the website",
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Continue on WhatsApp (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "forms_in_section": 1,
+      "hidden_or_conditional_content": [],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "child_sections": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      },
+      "seo": {
+        "headings_in_section": [
+          "h2",
+          "h3"
+        ],
+        "has_h1": false,
+        "image_count": 0,
+        "images_missing_alt": 0,
+        "images_with_empty_alt": 0,
+        "link_count": 2
+      },
+      "flags": []
+    }
+  ]
+}

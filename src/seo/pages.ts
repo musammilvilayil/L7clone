@@ -6,7 +6,8 @@
  * src/routes.ts has no entry here.
  */
 import type { PageKey } from "../routes";
-import { websitePageSeo } from "../data/websiteContent";
+import { ROUTES } from "../routes";
+import { websitePageSeo } from "../data/websiteSeo";
 
 export interface PageSeo {
   path: string;
@@ -24,11 +25,39 @@ export interface PageSeo {
   priority: number;
   /** Breadcrumb trail below Home; empty for the home page. */
   breadcrumb: { name: string; path: string }[];
+  canonicalUrl?: string;
+  openGraphType?: string;
+  openGraphLocale?: string;
+  twitterCard?: string;
 }
 
 const DEFAULT_IMAGE = "/og/ladder7-og.jpg";
 const DEFAULT_IMAGE_ALT = "Ladder7 — Build. Connect. Grow. Websites, applied AI and custom software.";
 const RELEASE_DATE = "2026-11-05";
+
+function proposedPageSeo(pageKey: PageKey): PageSeo {
+  const route = ROUTES.find((item) => item.page === pageKey);
+  const seo = websitePageSeo(pageKey);
+  if (!route || !seo) throw new Error(`Missing JSON SEO content for proposed route: ${pageKey}`);
+
+  return {
+    path: route.path,
+    title: seo.title,
+    description: seo.description,
+    name: seo.h1,
+    image: seo.og_image ? new URL(seo.og_image).pathname : DEFAULT_IMAGE,
+    imageAlt: seo.og_image_alt || DEFAULT_IMAGE_ALT,
+    indexable: !seo.robots?.toLowerCase().includes("noindex"),
+    lastModified: "2026-11-09",
+    changeFrequency: "monthly",
+    priority: 0.7,
+    breadcrumb: seo.breadcrumb ?? [],
+    canonicalUrl: seo.canonical_url,
+    openGraphType: seo.og_type,
+    openGraphLocale: seo.og_locale,
+    twitterCard: seo.twitter_card,
+  };
+}
 
 export const PAGE_SEO: Record<PageKey, PageSeo> = {
   home: {
@@ -1064,6 +1093,18 @@ export const PAGE_SEO: Record<PageKey, PageSeo> = {
     priority: 0.6,
     breadcrumb: [{ name: "Training & internships", path: "/it-training-internship-trivandrum" }, { name: "Find a direction that feels like you.", path: "/training-internship/career-goal-finding" }],
   },
+  customSoftwareIndia: proposedPageSeo("customSoftwareIndia"),
+  hireDevelopersIndia: proposedPageSeo("hireDevelopersIndia"),
+  offshoreDevelopmentIndia: proposedPageSeo("offshoreDevelopmentIndia"),
+  mobileAppDevelopment: proposedPageSeo("mobileAppDevelopment"),
+  regionUAE: proposedPageSeo("regionUAE"),
+  regionKSA: proposedPageSeo("regionKSA"),
+  regionGCC: proposedPageSeo("regionGCC"),
+  regionEurope: proposedPageSeo("regionEurope"),
+  regionAfrica: proposedPageSeo("regionAfrica"),
+  engagementModels: proposedPageSeo("engagementModels"),
+  blogChooseCompanyIndia: proposedPageSeo("blogChooseCompanyIndia"),
+  blogOutsourcingComparison: proposedPageSeo("blogOutsourcingComparison"),
   notFound: {
     path: "/404",
     title: "Page Not Found | Ladder7",
@@ -1086,4 +1127,12 @@ for (const [pageKey, page] of Object.entries(PAGE_SEO)) {
   page.title = content.title;
   page.description = content.description;
   page.name = content.h1;
+  page.canonicalUrl = content.canonical_url;
+  page.image = content.og_image ? new URL(content.og_image).pathname : page.image;
+  page.imageAlt = content.og_image_alt || page.imageAlt;
+  page.openGraphType = content.og_type;
+  page.openGraphLocale = content.og_locale;
+  page.twitterCard = content.twitter_card;
+  page.indexable = !content.robots?.toLowerCase().includes("noindex");
+  if (content.breadcrumb) page.breadcrumb = content.breadcrumb;
 }

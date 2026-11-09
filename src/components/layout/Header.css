@@ -154,13 +154,13 @@
   vertical-align: middle;
 }
 
-.nav-roll > span {
+.nav-roll>span {
   display: block;
   transition: transform var(--duration-slow) var(--ease-out);
 }
 
-a:hover > .nav-roll > span,
-a:focus-visible > .nav-roll > span {
+a:hover>.nav-roll>span,
+a:focus-visible>.nav-roll>span {
   transform: translateY(-100%);
 }
 
@@ -240,6 +240,7 @@ body.menu-open {
 
 .menu-open .site-header {
   right: 82px;
+  width: auto;
   padding-right: 18px;
   border: 0;
   border-bottom-right-radius: 26px;
@@ -263,7 +264,7 @@ body.menu-open {
 .menu-open .site-header .menu-toggle {
   position: absolute;
   top: 4px;
-  right: -78px;
+  right: -66px;
   width: 78px;
   height: 74px;
   margin: 0;
@@ -273,7 +274,17 @@ body.menu-open {
 
 .menu-open .site-header .menu-toggle span {
   width: 30px;
+  height: 2.5px;
+  border-radius: 2px;
   background: #161c1f;
+}
+
+.menu-open .site-header .menu-toggle[aria-expanded="true"] span:first-child {
+  transform: translateY(5px) rotate(45deg);
+}
+
+.menu-open .site-header .menu-toggle[aria-expanded="true"] span:last-child {
+  transform: translateY(-5px) rotate(-45deg);
 }
 
 .menu-open .desktop-nav {
@@ -377,6 +388,7 @@ body.menu-open {
 
   .menu-open .site-header {
     right: 61px;
+    width: auto;
     gap: 7px;
     padding-left: 18px;
     padding-right: 10px;
@@ -391,7 +403,7 @@ body.menu-open {
 
   .menu-open .site-header .menu-toggle {
     top: 3px;
-    right: -58px;
+    right: -42px;
     width: 58px;
     height: 65px;
     border-radius: 18px 18px 0 0;
@@ -399,6 +411,9 @@ body.menu-open {
 
   .menu-open .site-header .menu-toggle span {
     width: 26px;
+    height: 2.5px;
+    border-radius: 2px;
+    background: #161c1f;
   }
 
   .menu-open .site-header__brand img {

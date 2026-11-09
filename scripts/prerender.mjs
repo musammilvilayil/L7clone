@@ -105,6 +105,18 @@ const PAGE_MODULES = {
   courseShopify: "src/pages/Course/ShopifyCoursePage.tsx",
   firstJob: "src/pages/Course/FirstJobPage.tsx",
   careerGoalFinding: "src/pages/Course/CareerGoalFindingPage.tsx",
+  customSoftwareIndia: "src/pages/Landing/CustomSoftwareIndiaPage.tsx",
+  hireDevelopersIndia: "src/pages/Landing/HireDevelopersIndiaPage.tsx",
+  offshoreDevelopmentIndia: "src/pages/Landing/OffshoreDevelopmentIndiaPage.tsx",
+  mobileAppDevelopment: "src/pages/Landing/MobileAppDevelopmentPage.tsx",
+  regionUAE: "src/pages/Landing/RegionUAEPage.tsx",
+  regionKSA: "src/pages/Landing/RegionKSAPage.tsx",
+  regionGCC: "src/pages/Landing/RegionGCCPage.tsx",
+  regionEurope: "src/pages/Landing/RegionEuropePage.tsx",
+  regionAfrica: "src/pages/Landing/RegionAfricaPage.tsx",
+  engagementModels: "src/pages/Landing/EngagementModelsPage.tsx",
+  blogChooseCompanyIndia: "src/pages/Landing/BlogChooseCompanyIndiaPage.tsx",
+  blogOutsourcingComparison: "src/pages/Landing/BlogOutsourcingComparisonPage.tsx",
   notFound: "src/pages/NotFound/NotFoundPage.tsx",
 };
 

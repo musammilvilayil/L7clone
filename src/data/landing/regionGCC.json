@@ -1,0 +1,1524 @@
+{
+  "page_id": "page_072",
+  "page_key": "regionGCC",
+  "page_name": "Software Development for GCC Businesses",
+  "page_url": "/software-development-gcc",
+  "page_type": "route",
+  "prerendered_file": "dist/client/software-development-gcc/index.html",
+  "source_page_component": "src/pages/Landing/RegionGCCPage.tsx  (PROPOSED - create)",
+  "html_lang": "en",
+  "document_title": "Software Outsourcing for GCC: Qatar, Kuwait, Oman | Ladder7",
+  "seo": {
+    "meta_title": "Software Outsourcing for GCC: Qatar, Kuwait, Oman | Ladder7",
+    "meta_description": "Offshore software development for companies in Qatar, Kuwait, Bahrain, Oman, the UAE and Saudi Arabia. Indian engineering teams aligned with Gulf working hours.",
+    "meta_keywords": null,
+    "canonical_url": "https://www.ladder7.in/software-development-gcc",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Software development partner for the GCC.",
+    "headings": {
+      "h1": [
+        "Software development partner for the GCC."
+      ],
+      "h2": [
+        "Working with Ladder7 across the Gulf",
+        "Country pages",
+        "What GCC companies hire us for",
+        "Frequently asked questions",
+        "Let's build\nwhat's next."
+      ],
+      "h3": [
+        "United Arab Emirates",
+        "Saudi Arabia",
+        "Qatar, Kuwait, Bahrain and Oman",
+        "Tell us what you're working on."
+      ],
+      "h4_to_h6": []
+    },
+    "heading_hierarchy": [
+      {
+        "level": 2,
+        "text": "What comes next for you?",
+        "region": "overlay-menu"
+      },
+      {
+        "level": 3,
+        "text": "Navigation",
+        "region": "overlay-menu"
+      },
+      {
+        "level": 3,
+        "text": "Technology",
+        "region": "overlay-menu"
+      },
+      {
+        "level": 3,
+        "text": "Learning",
+        "region": "overlay-menu"
+      },
+      {
+        "level": 3,
+        "text": "Products",
+        "region": "overlay-menu"
+      },
+      {
+        "level": 3,
+        "text": "Explore",
+        "region": "overlay-menu"
+      },
+      {
+        "level": 1,
+        "text": "Software development partner for the GCC.",
+        "region": "main"
+      },
+      {
+        "level": 2,
+        "text": "Working with Ladder7 across the Gulf",
+        "region": "main"
+      },
+      {
+        "level": 2,
+        "text": "Country pages",
+        "region": "main"
+      },
+      {
+        "level": 3,
+        "text": "United Arab Emirates",
+        "region": "main"
+      },
+      {
+        "level": 3,
+        "text": "Saudi Arabia",
+        "region": "main"
+      },
+      {
+        "level": 3,
+        "text": "Qatar, Kuwait, Bahrain and Oman",
+        "region": "main"
+      },
+      {
+        "level": 2,
+        "text": "What GCC companies hire us for",
+        "region": "main"
+      },
+      {
+        "level": 2,
+        "text": "Frequently asked questions",
+        "region": "main"
+      },
+      {
+        "level": 2,
+        "text": "Let's build\nwhat's next.",
+        "region": "main"
+      },
+      {
+        "level": 3,
+        "text": "Tell us what you're working on.",
+        "region": "main"
+      },
+      {
+        "level": 2,
+        "text": "Explore",
+        "region": "footer"
+      },
+      {
+        "level": 2,
+        "text": "Learn & grow",
+        "region": "footer"
+      },
+      {
+        "level": 2,
+        "text": "Connect",
+        "region": "footer"
+      }
+    ],
+    "heading_hierarchy_issues": [],
+    "open_graph": {
+      "og:type": "website",
+      "og:site_name": "Ladder7 NextStep Solutions",
+      "og:locale": "en_IN",
+      "og:title": "Software Outsourcing for GCC: Qatar, Kuwait, Oman | Ladder7",
+      "og:description": "Offshore software development for companies in Qatar, Kuwait, Bahrain, Oman, the UAE and Saudi Arabia. Indian engineering teams aligned with Gulf working hours.",
+      "og:image": "https://www.ladder7.in/og/ladder7-og.jpg",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:alt": "Software development partner for the GCC.",
+      "og:url": "https://www.ladder7.in/software-development-gcc"
+    },
+    "twitter_card": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Software Outsourcing for GCC: Qatar, Kuwait, Oman | Ladder7",
+      "twitter:description": "Offshore software development for companies in Qatar, Kuwait, Bahrain, Oman, the UAE and Saudi Arabia. Indian engineering teams aligned with Gulf working hours.",
+      "twitter:image": "https://www.ladder7.in/og/ladder7-og.jpg",
+      "twitter:image:alt": "Software development partner for the GCC."
+    },
+    "structured_data_types": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.ladder7.in/#organization",
+            "name": "Ladder7 NextStep Solutions",
+            "alternateName": [
+              "Ladder7",
+              "Ladder7 IT",
+              "Ladder7 NextStep Solutions LLP",
+              "Ladder 7"
+            ],
+            "url": "https://www.ladder7.in/",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://www.ladder7.in/icons/ladder7-logo-512.png",
+              "width": 512,
+              "height": 512
+            },
+            "description": "Ladder7 NextStep Solutions is a custom software development company in Kochi and Trivandrum, India, building web applications, mobile apps, AI solutions and dedicated engineering teams for clients in the GCC, Europe and Africa.",
+            "slogan": "Build. Connect. Grow.",
+            "email": "info@ladder7.in",
+            "telephone": "+918137979401",
+            "address": [
+              {
+                "@type": "PostalAddress",
+                "name": "Kochi (Cochin)",
+                "streetAddress": "WEE SPACES, Ernakulam",
+                "addressLocality": "Kochi",
+                "addressRegion": "Kerala",
+                "addressCountry": "IN"
+              },
+              {
+                "@type": "PostalAddress",
+                "name": "Trivandrum",
+                "streetAddress": "Kinfra Film and IT Park",
+                "addressLocality": "Trivandrum",
+                "addressRegion": "Kerala",
+                "addressCountry": "IN"
+              }
+            ],
+            "contactPoint": [
+              {
+                "@type": "ContactPoint",
+                "contactType": "sales",
+                "email": "info@ladder7.in",
+                "telephone": "+918137979401",
+                "availableLanguage": [
+                  "English",
+                  "Hindi",
+                  "Malayalam"
+                ],
+                "areaServed": [
+                  "United Arab Emirates",
+                  "Saudi Arabia",
+                  "Qatar",
+                  "Kuwait",
+                  "Bahrain",
+                  "Oman",
+                  "United Kingdom",
+                  "Ireland",
+                  "Germany",
+                  "Netherlands",
+                  "France",
+                  "Belgium",
+                  "Sweden",
+                  "Norway",
+                  "Denmark",
+                  "Finland",
+                  "Switzerland",
+                  "Spain",
+                  "Italy",
+                  "Poland",
+                  "Nigeria",
+                  "Kenya",
+                  "South Africa",
+                  "Ghana",
+                  "Egypt",
+                  "Morocco",
+                  "Tanzania",
+                  "Uganda",
+                  "Rwanda",
+                  "India",
+                  "United States",
+                  "Singapore",
+                  "Australia",
+                  "Vietnam"
+                ]
+              }
+            ],
+            "sameAs": [
+              "https://www.linkedin.com/company/ladder7-nextstep-solutions-llp/",
+              "https://www.instagram.com/ladder7_nextstep_solutions_/"
+            ],
+            "areaServed": [
+              {
+                "@type": "Country",
+                "name": "United Arab Emirates"
+              },
+              {
+                "@type": "Country",
+                "name": "Saudi Arabia"
+              },
+              {
+                "@type": "Country",
+                "name": "Qatar"
+              },
+              {
+                "@type": "Country",
+                "name": "Kuwait"
+              },
+              {
+                "@type": "Country",
+                "name": "Bahrain"
+              },
+              {
+                "@type": "Country",
+                "name": "Oman"
+              },
+              {
+                "@type": "Country",
+                "name": "United Kingdom"
+              },
+              {
+                "@type": "Country",
+                "name": "Ireland"
+              },
+              {
+                "@type": "Country",
+                "name": "Germany"
+              },
+              {
+                "@type": "Country",
+                "name": "Netherlands"
+              },
+              {
+                "@type": "Country",
+                "name": "France"
+              },
+              {
+                "@type": "Country",
+                "name": "Belgium"
+              },
+              {
+                "@type": "Country",
+                "name": "Sweden"
+              },
+              {
+                "@type": "Country",
+                "name": "Norway"
+              },
+              {
+                "@type": "Country",
+                "name": "Denmark"
+              },
+              {
+                "@type": "Country",
+                "name": "Finland"
+              },
+              {
+                "@type": "Country",
+                "name": "Switzerland"
+              },
+              {
+                "@type": "Country",
+                "name": "Spain"
+              },
+              {
+                "@type": "Country",
+                "name": "Italy"
+              },
+              {
+                "@type": "Country",
+                "name": "Poland"
+              },
+              {
+                "@type": "Country",
+                "name": "Nigeria"
+              },
+              {
+                "@type": "Country",
+                "name": "Kenya"
+              },
+              {
+                "@type": "Country",
+                "name": "South Africa"
+              },
+              {
+                "@type": "Country",
+                "name": "Ghana"
+              },
+              {
+                "@type": "Country",
+                "name": "Egypt"
+              },
+              {
+                "@type": "Country",
+                "name": "Morocco"
+              },
+              {
+                "@type": "Country",
+                "name": "Tanzania"
+              },
+              {
+                "@type": "Country",
+                "name": "Uganda"
+              },
+              {
+                "@type": "Country",
+                "name": "Rwanda"
+              },
+              {
+                "@type": "Country",
+                "name": "India"
+              },
+              {
+                "@type": "Country",
+                "name": "United States"
+              },
+              {
+                "@type": "Country",
+                "name": "Singapore"
+              },
+              {
+                "@type": "Country",
+                "name": "Australia"
+              },
+              {
+                "@type": "Country",
+                "name": "Vietnam"
+              }
+            ],
+            "knowsAbout": [
+              "Custom software development",
+              "Web application development",
+              "Mobile app development",
+              "Offshore software development",
+              "IT staff augmentation",
+              "Adobe Experience Manager",
+              "Headless CMS",
+              "Conversational AI",
+              "Agentic AI",
+              "Hyperautomation",
+              "React",
+              "Next.js",
+              "Node.js",
+              "Python",
+              "Flutter",
+              "Search engine optimisation",
+              "Answer engine optimisation"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.ladder7.in/#website",
+            "url": "https://www.ladder7.in/",
+            "name": "Ladder7 IT",
+            "alternateName": "Ladder7 NextStep Solutions",
+            "description": "Ladder7 NextStep Solutions is a custom software development company in Kochi and Trivandrum, India, building web applications, mobile apps, AI solutions and dedicated engineering teams for clients in the GCC, Europe and Africa.",
+            "publisher": {
+              "@id": "https://www.ladder7.in/#organization"
+            },
+            "inLanguage": "en"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.ladder7.in/software-development-gcc#webpage",
+            "url": "https://www.ladder7.in/software-development-gcc",
+            "name": "Software Outsourcing for GCC: Qatar, Kuwait, Oman | Ladder7",
+            "description": "Offshore software development for companies in Qatar, Kuwait, Bahrain, Oman, the UAE and Saudi Arabia. Indian engineering teams aligned with Gulf working hours.",
+            "isPartOf": {
+              "@id": "https://www.ladder7.in/#website"
+            },
+            "about": {
+              "@id": "https://www.ladder7.in/#organization"
+            },
+            "inLanguage": "en",
+            "primaryImageOfPage": {
+              "@type": "ImageObject",
+              "url": "https://www.ladder7.in/og/ladder7-og.jpg"
+            },
+            "breadcrumb": {
+              "@id": "https://www.ladder7.in/software-development-gcc#breadcrumb"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.ladder7.in/software-development-gcc#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.ladder7.in/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Software Development for GCC Businesses",
+                "item": "https://www.ladder7.in/software-development-gcc"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://www.ladder7.in/software-development-gcc#service",
+            "name": "Software development for GCC businesses",
+            "serviceType": "Custom Software Development",
+            "description": "Offshore software development for companies in Qatar, Kuwait, Bahrain, Oman, the UAE and Saudi Arabia. Indian engineering teams aligned with Gulf working hours.",
+            "url": "https://www.ladder7.in/software-development-gcc",
+            "provider": {
+              "@id": "https://www.ladder7.in/#organization"
+            },
+            "areaServed": [
+              {
+                "@type": "Country",
+                "name": "Qatar"
+              },
+              {
+                "@type": "Country",
+                "name": "Kuwait"
+              },
+              {
+                "@type": "Country",
+                "name": "Bahrain"
+              },
+              {
+                "@type": "Country",
+                "name": "Oman"
+              },
+              {
+                "@type": "Country",
+                "name": "United Arab Emirates"
+              },
+              {
+                "@type": "Country",
+                "name": "Saudi Arabia"
+              }
+            ],
+            "availableChannel": {
+              "@type": "ServiceChannel",
+              "serviceUrl": "https://www.ladder7.in/contact"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://www.ladder7.in/software-development-gcc#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Which GCC countries do you work with?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ladder7 has active clients in the UAE and takes on projects in Saudi Arabia, Qatar, Kuwait, Bahrain and Oman."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why outsource software development from the GCC to India?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Lower cost than local hiring, a large engineering talent pool, a 1.5 to 2.5 hour time difference and short direct flights make India a practical development base for Gulf companies."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do you travel to the Gulf for workshops?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, for discovery workshops and key milestones when the project needs in-person time."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "viewport": "width=device-width, initial-scale=1",
+    "theme_color": "#101416",
+    "hreflang": [],
+    "image_optimization": {
+      "total_img_elements": 1,
+      "in_main": 0,
+      "missing_alt_attribute": 0,
+      "empty_alt_decorative": 0,
+      "with_width_and_height": 1,
+      "lazy_loaded": 0,
+      "eager_or_high_priority": 1,
+      "with_srcset": 1,
+      "in_picture_element": 0,
+      "formats": {
+        "webp": 1
+      }
+    },
+    "internal_linking": {
+      "total_links_in_document": 70,
+      "links_in_main": 6,
+      "internal_in_main": 6,
+      "anchor_in_main": 0,
+      "external_in_main": 0,
+      "unique_internal_targets_in_main": [
+        "/custom-software-development-company-india",
+        "/engagement-models-pricing",
+        "/hire-dedicated-developers-india",
+        "/software-development-company-saudi-arabia",
+        "/software-development-company-uae",
+        "/software-development-gcc"
+      ],
+      "unresolved_internal_targets": []
+    },
+    "issues": []
+  },
+  "components_used": [
+    "src/components/common/Icons.tsx",
+    "src/components/common/Lines.tsx",
+    "src/components/common/Seo.tsx",
+    "src/components/common/SmartLink.tsx",
+    "src/components/forms/EnquiryForm.tsx",
+    "src/components/layout/Footer.tsx",
+    "src/components/layout/Header.tsx",
+    "src/components/navigation/MegaMenu.tsx",
+    "src/components/sections/Contact/ContactSection.tsx",
+    "src/components/sections/Hero/ParticleField.tsx",
+    "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx",
+    "src/components/ui/Button.tsx"
+  ],
+  "data_files_used": [
+    "src/data/blog.ts",
+    "src/data/company.ts",
+    "src/data/images.generated.ts",
+    "src/data/navigation.ts",
+    "src/data/services.ts",
+    "src/data/site.ts",
+    "src/data/landing/regionGCC.ts  (PROPOSED - create)"
+  ],
+  "section_count": 6,
+  "sections": [
+    {
+      "section_id": "regiongcc_01_hero",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "css_classes": [
+        "inner-service-hero"
+      ],
+      "aria_labelledby": "service-hero-title",
+      "aria_label": null,
+      "section_name": "Hero",
+      "name_basis": "humanised from the section's HTML id / aria-labelledby / first specific CSS class (the site does not display section names)",
+      "section_heading": "Software development partner for the GCC.",
+      "heading_level": "h1",
+      "heading_other": [],
+      "eyebrow": "Regions / Gulf Cooperation Council",
+      "subheading": "",
+      "description": "Kerala and the Gulf have been closely connected for decades, and that connection now runs through software too. Ladder7 already serves clients in the UAE and builds custom software, websites, mobile apps and AI solutions for companies across the GCC, including Saudi Arabia, Qatar, Kuwait, Bahrain and Oman, from our teams in Kochi and Trivandrum.",
+      "paragraphs": [
+        "Regions / Gulf Cooperation Council",
+        "Kerala and the Gulf have been closely connected for decades, and that connection now runs through software too. Ladder7 already serves clients in the UAE and builds custom software, websites, mobile apps and AI solutions for companies across the GCC, including Saudi Arabia, Qatar, Kuwait, Bahrain and Oman, from our teams in Kochi and Trivandrum."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Regions / Gulf Cooperation Council"
+        },
+        {
+          "type": "h1",
+          "text": "Software development partner for the GCC."
+        },
+        {
+          "type": "p",
+          "text": "Kerala and the Gulf have been closely connected for decades, and that connection now runs through software too. Ladder7 already serves clients in the UAE and builds custom software, websites, mobile apps and AI solutions for companies across the GCC, including Saudi Arabia, Qatar, Kuwait, Bahrain and Oman, from our teams in Kochi and Trivandrum."
+        },
+        {
+          "type": "cta-link",
+          "text": "Get a project estimate"
+        },
+        {
+          "type": "cta-link",
+          "text": "See engagement models"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Delivery base",
+          "detail": "Kochi · Trivandrum, India",
+          "source": "dl"
+        },
+        {
+          "term": "Clients in",
+          "detail": "UAE · UK · Germany · Ireland · USA · Singapore · Australia",
+          "source": "dl"
+        },
+        {
+          "term": "Time difference",
+          "detail": "+1.5h UAE · +2.5h KSA · +4.5h UK (summer)",
+          "source": "dl"
+        }
+      ],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Get a project estimate",
+          "url": "/software-development-gcc#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "See engagement models",
+          "url": "/engagement-models-pricing",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Get a project estimate",
+          "href": "/software-development-gcc#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "See engagement models",
+          "href": "/engagement-models-pricing",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Get a project estimate",
+          "href": "/software-development-gcc#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "See engagement models",
+          "href": "/engagement-models-pricing",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "background": "animated canvas present (particle-field)",
+      "layout": {
+        "descriptors": [
+          "row"
+        ],
+        "notable_elements": [
+          "dl"
+        ],
+        "direct_child_elements": 5
+      },
+      "layout_basis": "CSS class tokens and element types (not computed styles)",
+      "purpose": "Page introduction / primary headline and calls to action",
+      "purpose_basis": "proposed by SEO audit (new section, not yet in source)",
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "forms_in_section": 0,
+      "hidden_or_conditional_content": [],
+      "screen_reader_only_text": [],
+      "child_sections": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      },
+      "seo": {
+        "headings_in_section": [
+          "h1"
+        ],
+        "has_h1": true,
+        "image_count": 0,
+        "images_missing_alt": 0,
+        "images_with_empty_alt": 0,
+        "link_count": 2
+      },
+      "flags": []
+    },
+    {
+      "section_id": "regiongcc_02_section",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "css_classes": [
+        "inner-about"
+      ],
+      "aria_labelledby": "inner-about-title",
+      "aria_label": null,
+      "section_name": "Content Section",
+      "name_basis": "humanised from the section's HTML id / aria-labelledby / first specific CSS class (the site does not display section names)",
+      "section_heading": "Working with Ladder7 across the Gulf",
+      "heading_level": "h2",
+      "heading_other": [],
+      "eyebrow": "Hours, languages and travel",
+      "subheading": "",
+      "description": "India is 1.5 hours ahead of the UAE and Oman, and 2.5 hours ahead of Qatar, Kuwait, Bahrain and Saudi Arabia. We plan meetings in your hours and cover a Sunday to Thursday week for clients who need it.",
+      "paragraphs": [
+        "Hours, languages and travel",
+        "India is 1.5 hours ahead of the UAE and Oman, and 2.5 hours ahead of Qatar, Kuwait, Bahrain and Saudi Arabia. We plan meetings in your hours and cover a Sunday to Thursday week for clients who need it."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Hours, languages and travel"
+        },
+        {
+          "type": "h2",
+          "text": "Working with Ladder7 across the Gulf"
+        },
+        {
+          "type": "p",
+          "text": "India is 1.5 hours ahead of the UAE and Oman, and 2.5 hours ahead of Qatar, Kuwait, Bahrain and Saudi Arabia. We plan meetings in your hours and cover a Sunday to Thursday week for clients who need it."
+        },
+        {
+          "type": "li",
+          "text": "Arabic and English interfaces, right-to-left layouts."
+        },
+        {
+          "type": "li",
+          "text": "Hosting in Gulf cloud regions (for example in Bahrain, Qatar, the UAE and Saudi Arabia) where data residency matters."
+        },
+        {
+          "type": "li",
+          "text": "Short direct flights between Kerala and every GCC capital."
+        }
+      ],
+      "bullet_points": [
+        "Arabic and English interfaces, right-to-left layouts.",
+        "Hosting in Gulf cloud regions (for example in Bahrain, Qatar, the UAE and Saudi Arabia) where data residency matters.",
+        "Short direct flights between Kerala and every GCC capital."
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "background": "not determinable from markup (see section stylesheet); no theme/video/canvas class found",
+      "layout": {
+        "descriptors": [
+          "row"
+        ],
+        "notable_elements": [],
+        "direct_child_elements": 4
+      },
+      "layout_basis": "CSS class tokens and element types (not computed styles)",
+      "purpose": "Answers a search-intent question with self-contained, citable copy (AEO/GEO)",
+      "purpose_basis": "proposed by SEO audit (new section, not yet in source)",
+      "interactive_elements": [],
+      "forms_in_section": 0,
+      "hidden_or_conditional_content": [],
+      "screen_reader_only_text": [],
+      "child_sections": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      },
+      "seo": {
+        "headings_in_section": [
+          "h2"
+        ],
+        "has_h1": false,
+        "image_count": 0,
+        "images_missing_alt": 0,
+        "images_with_empty_alt": 0,
+        "link_count": 0
+      },
+      "flags": []
+    },
+    {
+      "section_id": "regiongcc_03_section",
+      "section_order": 3,
+      "html_id": null,
+      "element": "section",
+      "css_classes": [
+        "inner-about"
+      ],
+      "aria_labelledby": "inner-about-title",
+      "aria_label": null,
+      "section_name": "Content Section",
+      "name_basis": "humanised from the section's HTML id / aria-labelledby / first specific CSS class (the site does not display section names)",
+      "section_heading": "Country pages",
+      "heading_level": "h2",
+      "heading_other": [],
+      "eyebrow": "Explore by market",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "Explore by market"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Explore by market"
+        },
+        {
+          "type": "h2",
+          "text": "Country pages"
+        },
+        {
+          "type": "h3",
+          "text": "United Arab Emirates"
+        },
+        {
+          "type": "p",
+          "text": "Dubai and Abu Dhabi software projects."
+        },
+        {
+          "type": "h3",
+          "text": "Saudi Arabia"
+        },
+        {
+          "type": "p",
+          "text": "Riyadh, Jeddah and Dammam projects planned around Saudi PDPL and e-invoicing requirements."
+        },
+        {
+          "type": "h3",
+          "text": "Qatar, Kuwait, Bahrain and Oman"
+        },
+        {
+          "type": "p",
+          "text": "Custom software, websites and apps delivered remotely with in-person visits when needed."
+        },
+        {
+          "type": "a",
+          "text": "UAE"
+        },
+        {
+          "type": "a",
+          "text": "Saudi Arabia"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [
+        {
+          "element": "article.card",
+          "heading": "United Arab Emirates",
+          "text": [
+            "Dubai and Abu Dhabi software projects."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.card",
+          "heading": "Saudi Arabia",
+          "text": [
+            "Riyadh, Jeddah and Dammam projects planned around Saudi PDPL and e-invoicing requirements."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.card",
+          "heading": "Qatar, Kuwait, Bahrain and Oman",
+          "text": [
+            "Custom software, websites and apps delivered remotely with in-person visits when needed."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [
+        {
+          "text": "UAE",
+          "href": "/software-development-company-uae",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Saudi Arabia",
+          "href": "/software-development-company-saudi-arabia",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "UAE",
+          "href": "/software-development-company-uae",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Saudi Arabia",
+          "href": "/software-development-company-saudi-arabia",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "background": "not determinable from markup (see section stylesheet); no theme/video/canvas class found",
+      "layout": {
+        "descriptors": [
+          "row"
+        ],
+        "notable_elements": [],
+        "direct_child_elements": 4
+      },
+      "layout_basis": "CSS class tokens and element types (not computed styles)",
+      "purpose": "Answers a search-intent question with self-contained, citable copy (AEO/GEO)",
+      "purpose_basis": "proposed by SEO audit (new section, not yet in source)",
+      "interactive_elements": [],
+      "forms_in_section": 0,
+      "hidden_or_conditional_content": [],
+      "screen_reader_only_text": [],
+      "child_sections": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      },
+      "seo": {
+        "headings_in_section": [
+          "h2",
+          "h3",
+          "h3",
+          "h3"
+        ],
+        "has_h1": false,
+        "image_count": 0,
+        "images_missing_alt": 0,
+        "images_with_empty_alt": 0,
+        "link_count": 2
+      },
+      "flags": []
+    },
+    {
+      "section_id": "regiongcc_04_section",
+      "section_order": 4,
+      "html_id": null,
+      "element": "section",
+      "css_classes": [
+        "inner-about"
+      ],
+      "aria_labelledby": "inner-about-title",
+      "aria_label": null,
+      "section_name": "Content Section",
+      "name_basis": "humanised from the section's HTML id / aria-labelledby / first specific CSS class (the site does not display section names)",
+      "section_heading": "What GCC companies hire us for",
+      "heading_level": "h2",
+      "heading_other": [],
+      "eyebrow": "Typical projects",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "Typical projects"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Typical projects"
+        },
+        {
+          "type": "h2",
+          "text": "What GCC companies hire us for"
+        },
+        {
+          "type": "li",
+          "text": "Corporate and government-facing websites with strong performance, accessibility and search visibility."
+        },
+        {
+          "type": "li",
+          "text": "Booking, ordering and customer portals for hospitality, retail and real estate."
+        },
+        {
+          "type": "li",
+          "text": "Workflow automation and AI assistants for operations teams."
+        },
+        {
+          "type": "li",
+          "text": "Dedicated developers who extend an in-house team."
+        },
+        {
+          "type": "a",
+          "text": "Custom software development"
+        },
+        {
+          "type": "a",
+          "text": "Hire developers"
+        }
+      ],
+      "bullet_points": [
+        "Corporate and government-facing websites with strong performance, accessibility and search visibility.",
+        "Booking, ordering and customer portals for hospitality, retail and real estate.",
+        "Workflow automation and AI assistants for operations teams.",
+        "Dedicated developers who extend an in-house team."
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [
+        {
+          "text": "Custom software development",
+          "href": "/custom-software-development-company-india",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Hire developers",
+          "href": "/hire-dedicated-developers-india",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Custom software development",
+          "href": "/custom-software-development-company-india",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Hire developers",
+          "href": "/hire-dedicated-developers-india",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "background": "not determinable from markup (see section stylesheet); no theme/video/canvas class found",
+      "layout": {
+        "descriptors": [
+          "row"
+        ],
+        "notable_elements": [],
+        "direct_child_elements": 4
+      },
+      "layout_basis": "CSS class tokens and element types (not computed styles)",
+      "purpose": "Answers a search-intent question with self-contained, citable copy (AEO/GEO)",
+      "purpose_basis": "proposed by SEO audit (new section, not yet in source)",
+      "interactive_elements": [],
+      "forms_in_section": 0,
+      "hidden_or_conditional_content": [],
+      "screen_reader_only_text": [],
+      "child_sections": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      },
+      "seo": {
+        "headings_in_section": [
+          "h2"
+        ],
+        "has_h1": false,
+        "image_count": 0,
+        "images_missing_alt": 0,
+        "images_with_empty_alt": 0,
+        "link_count": 2
+      },
+      "flags": []
+    },
+    {
+      "section_id": "regiongcc_05_faq",
+      "section_order": 5,
+      "html_id": null,
+      "element": "section",
+      "css_classes": [
+        "section",
+        "section--lined",
+        "split",
+        "faq"
+      ],
+      "aria_labelledby": "faq-title",
+      "aria_label": null,
+      "section_name": "Faq",
+      "name_basis": "humanised from the section's HTML id / aria-labelledby / first specific CSS class (the site does not display section names)",
+      "section_heading": "Frequently asked questions",
+      "heading_level": "h2",
+      "heading_other": [],
+      "eyebrow": "Questions buyers ask",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "Questions buyers ask",
+        "Ladder7 has active clients in the UAE and takes on projects in Saudi Arabia, Qatar, Kuwait, Bahrain and Oman.",
+        "Lower cost than local hiring, a large engineering talent pool, a 1.5 to 2.5 hour time difference and short direct flights make India a practical development base for Gulf companies.",
+        "Yes, for discovery workshops and key milestones when the project needs in-person time."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Questions buyers ask"
+        },
+        {
+          "type": "h2",
+          "text": "Frequently asked questions"
+        },
+        {
+          "type": "summary",
+          "text": "Which GCC countries do you work with?"
+        },
+        {
+          "type": "p",
+          "text": "Ladder7 has active clients in the UAE and takes on projects in Saudi Arabia, Qatar, Kuwait, Bahrain and Oman."
+        },
+        {
+          "type": "summary",
+          "text": "Why outsource software development from the GCC to India?"
+        },
+        {
+          "type": "p",
+          "text": "Lower cost than local hiring, a large engineering talent pool, a 1.5 to 2.5 hour time difference and short direct flights make India a practical development base for Gulf companies."
+        },
+        {
+          "type": "summary",
+          "text": "Do you travel to the Gulf for workshops?"
+        },
+        {
+          "type": "p",
+          "text": "Yes, for discovery workshops and key milestones when the project needs in-person time."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "background": "not determinable from markup (see section stylesheet); no theme/video/canvas class found",
+      "layout": {
+        "descriptors": [
+          "list",
+          "row",
+          "split"
+        ],
+        "notable_elements": [
+          "details"
+        ],
+        "direct_child_elements": 2
+      },
+      "layout_basis": "CSS class tokens and element types (not computed styles)",
+      "purpose": "Answers common buyer questions (FAQPage schema)",
+      "purpose_basis": "proposed by SEO audit (new section, not yet in source)",
+      "interactive_elements": [
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Which GCC countries do you work with?",
+          "open": true
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Why outsource software development from the GCC to India?",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Do you travel to the Gulf for workshops?",
+          "open": false
+        }
+      ],
+      "forms_in_section": 0,
+      "hidden_or_conditional_content": [],
+      "screen_reader_only_text": [],
+      "child_sections": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Faq/FaqSection.css",
+        "component": "src/components/sections/Faq/FaqSection.tsx"
+      },
+      "seo": {
+        "headings_in_section": [
+          "h2"
+        ],
+        "has_h1": false,
+        "image_count": 0,
+        "images_missing_alt": 0,
+        "images_with_empty_alt": 0,
+        "link_count": 0
+      },
+      "flags": []
+    },
+    {
+      "section_id": "regiongcc_06_contact",
+      "section_order": 6,
+      "html_id": "contact",
+      "element": "section",
+      "css_classes": [
+        "section",
+        "section--sheet",
+        "theme-brand",
+        "contact"
+      ],
+      "aria_labelledby": "contact-title",
+      "aria_label": null,
+      "section_name": "Contact",
+      "name_basis": "humanised from the section's HTML id / aria-labelledby / first specific CSS class (the site does not display section names)",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "heading_other": [
+        {
+          "level": "h3",
+          "text": "Tell us what you're working on."
+        }
+      ],
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Continue on WhatsApp (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Continue on WhatsApp (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "background": "color theme (theme-brand); sheet surface (rounded panel) per class section--sheet",
+      "layout": {
+        "descriptors": [
+          "row"
+        ],
+        "notable_elements": [
+          "form"
+        ],
+        "direct_child_elements": 2
+      },
+      "layout_basis": "CSS class tokens and element types (not computed styles)",
+      "purpose": "Lead capture / contact",
+      "purpose_basis": "inferred by auditor from section name/classes; not text from the website",
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Continue on WhatsApp (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "forms_in_section": 1,
+      "hidden_or_conditional_content": [],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "child_sections": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      },
+      "seo": {
+        "headings_in_section": [
+          "h2",
+          "h3"
+        ],
+        "has_h1": false,
+        "image_count": 0,
+        "images_missing_alt": 0,
+        "images_with_empty_alt": 0,
+        "link_count": 2
+      },
+      "flags": []
+    }
+  ]
+}

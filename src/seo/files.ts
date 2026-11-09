@@ -9,7 +9,7 @@ export function buildSitemap(): string {
     .filter((page) => page.indexable)
     .map(
       (page) =>
-        `  <url>\n    <loc>${absoluteUrl(page.path)}</loc>\n    <lastmod>${page.lastModified}</lastmod>\n` +
+        `  <url>\n    <loc>${page.canonicalUrl ?? absoluteUrl(page.path)}</loc>\n    <lastmod>${page.lastModified}</lastmod>\n` +
         `    <changefreq>${page.changeFrequency}</changefreq>\n    <priority>${page.priority.toFixed(1)}</priority>\n  </url>`,
     );
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join("\n")}\n</urlset>\n`;

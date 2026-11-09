@@ -1,0 +1,1733 @@
+{
+  "page_id": "page_069",
+  "page_key": "mobileAppDevelopment",
+  "page_name": "Mobile App Development Company in India",
+  "page_url": "/mobile-app-development-company-india",
+  "page_type": "route",
+  "prerendered_file": "dist/client/mobile-app-development-company-india/index.html",
+  "source_page_component": "src/pages/Landing/MobileAppDevelopmentPage.tsx  (PROPOSED - create)",
+  "html_lang": "en",
+  "document_title": "Mobile App Development Company in India | Ladder7",
+  "seo": {
+    "meta_title": "Mobile App Development Company in India | Ladder7",
+    "meta_description": "Android, iOS and Flutter app development from India. Ladder7 builds affordable, scalable apps with secure backends for clients in the GCC, Europe and Africa.",
+    "meta_keywords": null,
+    "canonical_url": "https://www.ladder7.in/mobile-app-development-company-india",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1",
+    "h1": "Mobile app development from India.",
+    "headings": {
+      "h1": [
+        "Mobile app development from India."
+      ],
+      "h2": [
+        "Mobile app development services",
+        "Built for your market",
+        "Our app development process",
+        "Frequently asked questions",
+        "Let's build\nwhat's next."
+      ],
+      "h3": [
+        "Cross-platform apps",
+        "Native Android apps",
+        "App backends and admin panels",
+        "Payments and integrations",
+        "AI inside apps",
+        "App maintenance",
+        "Tell us what you're working on."
+      ],
+      "h4_to_h6": []
+    },
+    "heading_hierarchy": [
+      {
+        "level": 2,
+        "text": "What comes next for you?",
+        "region": "overlay-menu"
+      },
+      {
+        "level": 3,
+        "text": "Navigation",
+        "region": "overlay-menu"
+      },
+      {
+        "level": 3,
+        "text": "Technology",
+        "region": "overlay-menu"
+      },
+      {
+        "level": 3,
+        "text": "Learning",
+        "region": "overlay-menu"
+      },
+      {
+        "level": 3,
+        "text": "Products",
+        "region": "overlay-menu"
+      },
+      {
+        "level": 3,
+        "text": "Explore",
+        "region": "overlay-menu"
+      },
+      {
+        "level": 1,
+        "text": "Mobile app development from India.",
+        "region": "main"
+      },
+      {
+        "level": 2,
+        "text": "Mobile app development services",
+        "region": "main"
+      },
+      {
+        "level": 3,
+        "text": "Cross-platform apps",
+        "region": "main"
+      },
+      {
+        "level": 3,
+        "text": "Native Android apps",
+        "region": "main"
+      },
+      {
+        "level": 3,
+        "text": "App backends and admin panels",
+        "region": "main"
+      },
+      {
+        "level": 3,
+        "text": "Payments and integrations",
+        "region": "main"
+      },
+      {
+        "level": 3,
+        "text": "AI inside apps",
+        "region": "main"
+      },
+      {
+        "level": 3,
+        "text": "App maintenance",
+        "region": "main"
+      },
+      {
+        "level": 2,
+        "text": "Built for your market",
+        "region": "main"
+      },
+      {
+        "level": 2,
+        "text": "Our app development process",
+        "region": "main"
+      },
+      {
+        "level": 2,
+        "text": "Frequently asked questions",
+        "region": "main"
+      },
+      {
+        "level": 2,
+        "text": "Let's build\nwhat's next.",
+        "region": "main"
+      },
+      {
+        "level": 3,
+        "text": "Tell us what you're working on.",
+        "region": "main"
+      },
+      {
+        "level": 2,
+        "text": "Explore",
+        "region": "footer"
+      },
+      {
+        "level": 2,
+        "text": "Learn & grow",
+        "region": "footer"
+      },
+      {
+        "level": 2,
+        "text": "Connect",
+        "region": "footer"
+      }
+    ],
+    "heading_hierarchy_issues": [],
+    "open_graph": {
+      "og:type": "website",
+      "og:site_name": "Ladder7 NextStep Solutions",
+      "og:locale": "en_IN",
+      "og:title": "Mobile App Development Company in India | Ladder7",
+      "og:description": "Android, iOS and Flutter app development from India. Ladder7 builds affordable, scalable apps with secure backends for clients in the GCC, Europe and Africa.",
+      "og:image": "https://www.ladder7.in/og/ladder7-og.jpg",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:alt": "Mobile app development from India.",
+      "og:url": "https://www.ladder7.in/mobile-app-development-company-india"
+    },
+    "twitter_card": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Mobile App Development Company in India | Ladder7",
+      "twitter:description": "Android, iOS and Flutter app development from India. Ladder7 builds affordable, scalable apps with secure backends for clients in the GCC, Europe and Africa.",
+      "twitter:image": "https://www.ladder7.in/og/ladder7-og.jpg",
+      "twitter:image:alt": "Mobile app development from India."
+    },
+    "structured_data_types": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "BreadcrumbList",
+      "Service",
+      "FAQPage"
+    ],
+    "structured_data": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.ladder7.in/#organization",
+            "name": "Ladder7 NextStep Solutions",
+            "alternateName": [
+              "Ladder7",
+              "Ladder7 IT",
+              "Ladder7 NextStep Solutions LLP",
+              "Ladder 7"
+            ],
+            "url": "https://www.ladder7.in/",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://www.ladder7.in/icons/ladder7-logo-512.png",
+              "width": 512,
+              "height": 512
+            },
+            "description": "Ladder7 NextStep Solutions is a custom software development company in Kochi and Trivandrum, India, building web applications, mobile apps, AI solutions and dedicated engineering teams for clients in the GCC, Europe and Africa.",
+            "slogan": "Build. Connect. Grow.",
+            "email": "info@ladder7.in",
+            "telephone": "+918137979401",
+            "address": [
+              {
+                "@type": "PostalAddress",
+                "name": "Kochi (Cochin)",
+                "streetAddress": "WEE SPACES, Ernakulam",
+                "addressLocality": "Kochi",
+                "addressRegion": "Kerala",
+                "addressCountry": "IN"
+              },
+              {
+                "@type": "PostalAddress",
+                "name": "Trivandrum",
+                "streetAddress": "Kinfra Film and IT Park",
+                "addressLocality": "Trivandrum",
+                "addressRegion": "Kerala",
+                "addressCountry": "IN"
+              }
+            ],
+            "contactPoint": [
+              {
+                "@type": "ContactPoint",
+                "contactType": "sales",
+                "email": "info@ladder7.in",
+                "telephone": "+918137979401",
+                "availableLanguage": [
+                  "English",
+                  "Hindi",
+                  "Malayalam"
+                ],
+                "areaServed": [
+                  "United Arab Emirates",
+                  "Saudi Arabia",
+                  "Qatar",
+                  "Kuwait",
+                  "Bahrain",
+                  "Oman",
+                  "United Kingdom",
+                  "Ireland",
+                  "Germany",
+                  "Netherlands",
+                  "France",
+                  "Belgium",
+                  "Sweden",
+                  "Norway",
+                  "Denmark",
+                  "Finland",
+                  "Switzerland",
+                  "Spain",
+                  "Italy",
+                  "Poland",
+                  "Nigeria",
+                  "Kenya",
+                  "South Africa",
+                  "Ghana",
+                  "Egypt",
+                  "Morocco",
+                  "Tanzania",
+                  "Uganda",
+                  "Rwanda",
+                  "India",
+                  "United States",
+                  "Singapore",
+                  "Australia",
+                  "Vietnam"
+                ]
+              }
+            ],
+            "sameAs": [
+              "https://www.linkedin.com/company/ladder7-nextstep-solutions-llp/",
+              "https://www.instagram.com/ladder7_nextstep_solutions_/"
+            ],
+            "areaServed": [
+              {
+                "@type": "Country",
+                "name": "United Arab Emirates"
+              },
+              {
+                "@type": "Country",
+                "name": "Saudi Arabia"
+              },
+              {
+                "@type": "Country",
+                "name": "Qatar"
+              },
+              {
+                "@type": "Country",
+                "name": "Kuwait"
+              },
+              {
+                "@type": "Country",
+                "name": "Bahrain"
+              },
+              {
+                "@type": "Country",
+                "name": "Oman"
+              },
+              {
+                "@type": "Country",
+                "name": "United Kingdom"
+              },
+              {
+                "@type": "Country",
+                "name": "Ireland"
+              },
+              {
+                "@type": "Country",
+                "name": "Germany"
+              },
+              {
+                "@type": "Country",
+                "name": "Netherlands"
+              },
+              {
+                "@type": "Country",
+                "name": "France"
+              },
+              {
+                "@type": "Country",
+                "name": "Belgium"
+              },
+              {
+                "@type": "Country",
+                "name": "Sweden"
+              },
+              {
+                "@type": "Country",
+                "name": "Norway"
+              },
+              {
+                "@type": "Country",
+                "name": "Denmark"
+              },
+              {
+                "@type": "Country",
+                "name": "Finland"
+              },
+              {
+                "@type": "Country",
+                "name": "Switzerland"
+              },
+              {
+                "@type": "Country",
+                "name": "Spain"
+              },
+              {
+                "@type": "Country",
+                "name": "Italy"
+              },
+              {
+                "@type": "Country",
+                "name": "Poland"
+              },
+              {
+                "@type": "Country",
+                "name": "Nigeria"
+              },
+              {
+                "@type": "Country",
+                "name": "Kenya"
+              },
+              {
+                "@type": "Country",
+                "name": "South Africa"
+              },
+              {
+                "@type": "Country",
+                "name": "Ghana"
+              },
+              {
+                "@type": "Country",
+                "name": "Egypt"
+              },
+              {
+                "@type": "Country",
+                "name": "Morocco"
+              },
+              {
+                "@type": "Country",
+                "name": "Tanzania"
+              },
+              {
+                "@type": "Country",
+                "name": "Uganda"
+              },
+              {
+                "@type": "Country",
+                "name": "Rwanda"
+              },
+              {
+                "@type": "Country",
+                "name": "India"
+              },
+              {
+                "@type": "Country",
+                "name": "United States"
+              },
+              {
+                "@type": "Country",
+                "name": "Singapore"
+              },
+              {
+                "@type": "Country",
+                "name": "Australia"
+              },
+              {
+                "@type": "Country",
+                "name": "Vietnam"
+              }
+            ],
+            "knowsAbout": [
+              "Custom software development",
+              "Web application development",
+              "Mobile app development",
+              "Offshore software development",
+              "IT staff augmentation",
+              "Adobe Experience Manager",
+              "Headless CMS",
+              "Conversational AI",
+              "Agentic AI",
+              "Hyperautomation",
+              "React",
+              "Next.js",
+              "Node.js",
+              "Python",
+              "Flutter",
+              "Search engine optimisation",
+              "Answer engine optimisation"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.ladder7.in/#website",
+            "url": "https://www.ladder7.in/",
+            "name": "Ladder7 IT",
+            "alternateName": "Ladder7 NextStep Solutions",
+            "description": "Ladder7 NextStep Solutions is a custom software development company in Kochi and Trivandrum, India, building web applications, mobile apps, AI solutions and dedicated engineering teams for clients in the GCC, Europe and Africa.",
+            "publisher": {
+              "@id": "https://www.ladder7.in/#organization"
+            },
+            "inLanguage": "en"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.ladder7.in/mobile-app-development-company-india#webpage",
+            "url": "https://www.ladder7.in/mobile-app-development-company-india",
+            "name": "Mobile App Development Company in India | Ladder7",
+            "description": "Android, iOS and Flutter app development from India. Ladder7 builds affordable, scalable apps with secure backends for clients in the GCC, Europe and Africa.",
+            "isPartOf": {
+              "@id": "https://www.ladder7.in/#website"
+            },
+            "about": {
+              "@id": "https://www.ladder7.in/#organization"
+            },
+            "inLanguage": "en",
+            "primaryImageOfPage": {
+              "@type": "ImageObject",
+              "url": "https://www.ladder7.in/og/ladder7-og.jpg"
+            },
+            "breadcrumb": {
+              "@id": "https://www.ladder7.in/mobile-app-development-company-india#breadcrumb"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.ladder7.in/mobile-app-development-company-india#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.ladder7.in/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Mobile App Development Company in India",
+                "item": "https://www.ladder7.in/mobile-app-development-company-india"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://www.ladder7.in/mobile-app-development-company-india#service",
+            "name": "Mobile app development",
+            "serviceType": "Mobile Application Development",
+            "description": "Android, iOS and Flutter app development from India. Ladder7 builds affordable, scalable apps with secure backends for clients in the GCC, Europe and Africa.",
+            "url": "https://www.ladder7.in/mobile-app-development-company-india",
+            "provider": {
+              "@id": "https://www.ladder7.in/#organization"
+            },
+            "areaServed": [
+              {
+                "@type": "Country",
+                "name": "United Arab Emirates"
+              },
+              {
+                "@type": "Country",
+                "name": "Saudi Arabia"
+              },
+              {
+                "@type": "Country",
+                "name": "Qatar"
+              },
+              {
+                "@type": "Country",
+                "name": "Kuwait"
+              },
+              {
+                "@type": "Country",
+                "name": "Bahrain"
+              },
+              {
+                "@type": "Country",
+                "name": "Oman"
+              },
+              {
+                "@type": "Country",
+                "name": "United Kingdom"
+              },
+              {
+                "@type": "Country",
+                "name": "Ireland"
+              },
+              {
+                "@type": "Country",
+                "name": "Germany"
+              },
+              {
+                "@type": "Country",
+                "name": "Netherlands"
+              },
+              {
+                "@type": "Country",
+                "name": "France"
+              },
+              {
+                "@type": "Country",
+                "name": "Belgium"
+              },
+              {
+                "@type": "Country",
+                "name": "Sweden"
+              },
+              {
+                "@type": "Country",
+                "name": "Norway"
+              },
+              {
+                "@type": "Country",
+                "name": "Denmark"
+              },
+              {
+                "@type": "Country",
+                "name": "Finland"
+              },
+              {
+                "@type": "Country",
+                "name": "Switzerland"
+              },
+              {
+                "@type": "Country",
+                "name": "Spain"
+              },
+              {
+                "@type": "Country",
+                "name": "Italy"
+              },
+              {
+                "@type": "Country",
+                "name": "Poland"
+              },
+              {
+                "@type": "Country",
+                "name": "Nigeria"
+              },
+              {
+                "@type": "Country",
+                "name": "Kenya"
+              },
+              {
+                "@type": "Country",
+                "name": "South Africa"
+              },
+              {
+                "@type": "Country",
+                "name": "Ghana"
+              },
+              {
+                "@type": "Country",
+                "name": "Egypt"
+              },
+              {
+                "@type": "Country",
+                "name": "Morocco"
+              },
+              {
+                "@type": "Country",
+                "name": "Tanzania"
+              },
+              {
+                "@type": "Country",
+                "name": "Uganda"
+              },
+              {
+                "@type": "Country",
+                "name": "Rwanda"
+              },
+              {
+                "@type": "Country",
+                "name": "India"
+              },
+              {
+                "@type": "Country",
+                "name": "United States"
+              },
+              {
+                "@type": "Country",
+                "name": "Singapore"
+              },
+              {
+                "@type": "Country",
+                "name": "Australia"
+              },
+              {
+                "@type": "Country",
+                "name": "Vietnam"
+              }
+            ],
+            "availableChannel": {
+              "@type": "ServiceChannel",
+              "serviceUrl": "https://www.ladder7.in/contact"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://www.ladder7.in/mobile-app-development-company-india#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "How much does it cost to build an app in India?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A simple app costs far less than a complex marketplace or fintech app. Ladder7 builds enterprise-grade apps at affordable, flexible pricing and provides a fixed estimate after a short discovery session."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Flutter or native: which should we choose?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Flutter suits most business apps because one codebase serves Android and iOS. Native is better for heavy device integration, complex animation or very high performance."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long does it take to build a mobile app?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A focused first version usually takes 10 to 16 weeks including design, build, testing and store submission."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do you publish the app to the stores?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. We handle App Store and Google Play submission under your developer accounts, so you own the listings."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "viewport": "width=device-width, initial-scale=1",
+    "theme_color": "#101416",
+    "hreflang": [],
+    "image_optimization": {
+      "total_img_elements": 1,
+      "in_main": 0,
+      "missing_alt_attribute": 0,
+      "empty_alt_decorative": 0,
+      "with_width_and_height": 1,
+      "lazy_loaded": 0,
+      "eager_or_high_priority": 1,
+      "with_srcset": 1,
+      "in_picture_element": 0,
+      "formats": {
+        "webp": 1
+      }
+    },
+    "internal_linking": {
+      "total_links_in_document": 71,
+      "links_in_main": 7,
+      "internal_in_main": 7,
+      "anchor_in_main": 0,
+      "external_in_main": 0,
+      "unique_internal_targets_in_main": [
+        "/custom-software-development-company-india",
+        "/engagement-models-pricing",
+        "/mobile-app-development-company-india",
+        "/offshore-software-development-uk-europe",
+        "/services/localization-uiux",
+        "/software-development-gcc",
+        "/software-development-outsourcing-africa"
+      ],
+      "unresolved_internal_targets": []
+    },
+    "issues": []
+  },
+  "components_used": [
+    "src/components/common/Icons.tsx",
+    "src/components/common/Lines.tsx",
+    "src/components/common/Seo.tsx",
+    "src/components/common/SmartLink.tsx",
+    "src/components/forms/EnquiryForm.tsx",
+    "src/components/layout/Footer.tsx",
+    "src/components/layout/Header.tsx",
+    "src/components/navigation/MegaMenu.tsx",
+    "src/components/sections/Contact/ContactSection.tsx",
+    "src/components/sections/Hero/ParticleField.tsx",
+    "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx",
+    "src/components/ui/Button.tsx"
+  ],
+  "data_files_used": [
+    "src/data/blog.ts",
+    "src/data/company.ts",
+    "src/data/images.generated.ts",
+    "src/data/navigation.ts",
+    "src/data/services.ts",
+    "src/data/site.ts",
+    "src/data/landing/mobileAppDevelopment.ts  (PROPOSED - create)"
+  ],
+  "section_count": 6,
+  "sections": [
+    {
+      "section_id": "mobileappdevelopment_01_hero",
+      "section_order": 1,
+      "html_id": null,
+      "element": "section",
+      "css_classes": [
+        "inner-service-hero"
+      ],
+      "aria_labelledby": "service-hero-title",
+      "aria_label": null,
+      "section_name": "Hero",
+      "name_basis": "humanised from the section's HTML id / aria-labelledby / first specific CSS class (the site does not display section names)",
+      "section_heading": "Mobile app development from India.",
+      "heading_level": "h1",
+      "heading_other": [],
+      "eyebrow": "Mobile app development / India",
+      "subheading": "",
+      "description": "Ladder7 designs and builds Android, iOS and cross-platform Flutter apps, together with the APIs, admin panels and cloud backends behind them. We work with startups launching a first app and with businesses adding a mobile channel to existing systems.",
+      "paragraphs": [
+        "Mobile app development / India",
+        "Ladder7 designs and builds Android, iOS and cross-platform Flutter apps, together with the APIs, admin panels and cloud backends behind them. We work with startups launching a first app and with businesses adding a mobile channel to existing systems."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Mobile app development / India"
+        },
+        {
+          "type": "h1",
+          "text": "Mobile app development from India."
+        },
+        {
+          "type": "p",
+          "text": "Ladder7 designs and builds Android, iOS and cross-platform Flutter apps, together with the APIs, admin panels and cloud backends behind them. We work with startups launching a first app and with businesses adding a mobile channel to existing systems."
+        },
+        {
+          "type": "cta-link",
+          "text": "Get a project estimate"
+        },
+        {
+          "type": "cta-link",
+          "text": "See engagement models"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Delivery base",
+          "detail": "Kochi · Trivandrum, India",
+          "source": "dl"
+        },
+        {
+          "term": "Clients in",
+          "detail": "UAE · UK · Germany · Ireland · USA · Singapore · Australia",
+          "source": "dl"
+        },
+        {
+          "term": "Time difference",
+          "detail": "+1.5h UAE · +2.5h KSA · +4.5h UK (summer)",
+          "source": "dl"
+        }
+      ],
+      "cards": [],
+      "cta_buttons": [
+        {
+          "text": "Get a project estimate",
+          "url": "/mobile-app-development-company-india#contact",
+          "element": "a",
+          "kind": "internal"
+        },
+        {
+          "text": "See engagement models",
+          "url": "/engagement-models-pricing",
+          "element": "a",
+          "kind": "internal"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 2
+        }
+      ],
+      "links": [
+        {
+          "text": "Get a project estimate",
+          "href": "/mobile-app-development-company-india#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "See engagement models",
+          "href": "/engagement-models-pricing",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Get a project estimate",
+          "href": "/mobile-app-development-company-india#contact",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "See engagement models",
+          "href": "/engagement-models-pricing",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "background": "animated canvas present (particle-field)",
+      "layout": {
+        "descriptors": [
+          "row"
+        ],
+        "notable_elements": [
+          "dl"
+        ],
+        "direct_child_elements": 5
+      },
+      "layout_basis": "CSS class tokens and element types (not computed styles)",
+      "purpose": "Page introduction / primary headline and calls to action",
+      "purpose_basis": "proposed by SEO audit (new section, not yet in source)",
+      "interactive_elements": [
+        {
+          "element": "canvas",
+          "class": "particle-field"
+        }
+      ],
+      "forms_in_section": 0,
+      "hidden_or_conditional_content": [],
+      "screen_reader_only_text": [],
+      "child_sections": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      },
+      "seo": {
+        "headings_in_section": [
+          "h1"
+        ],
+        "has_h1": true,
+        "image_count": 0,
+        "images_missing_alt": 0,
+        "images_with_empty_alt": 0,
+        "link_count": 2
+      },
+      "flags": []
+    },
+    {
+      "section_id": "mobileappdevelopment_02_section",
+      "section_order": 2,
+      "html_id": null,
+      "element": "section",
+      "css_classes": [
+        "inner-about"
+      ],
+      "aria_labelledby": "inner-about-title",
+      "aria_label": null,
+      "section_name": "Content Section",
+      "name_basis": "humanised from the section's HTML id / aria-labelledby / first specific CSS class (the site does not display section names)",
+      "section_heading": "Mobile app development services",
+      "heading_level": "h2",
+      "heading_other": [],
+      "eyebrow": "What we build",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "What we build"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "What we build"
+        },
+        {
+          "type": "h2",
+          "text": "Mobile app development services"
+        },
+        {
+          "type": "h3",
+          "text": "Cross-platform apps"
+        },
+        {
+          "type": "p",
+          "text": "One Flutter codebase for Android and iOS, to cut cost and launch faster."
+        },
+        {
+          "type": "h3",
+          "text": "Native Android apps"
+        },
+        {
+          "type": "p",
+          "text": "Kotlin and Java apps where device features or performance matter most."
+        },
+        {
+          "type": "h3",
+          "text": "App backends and admin panels"
+        },
+        {
+          "type": "p",
+          "text": "Node.js or Python APIs, dashboards and cloud hosting."
+        },
+        {
+          "type": "h3",
+          "text": "Payments and integrations"
+        },
+        {
+          "type": "p",
+          "text": "Stripe and PayPal payments, maps, notifications, CRM and ERP connections."
+        },
+        {
+          "type": "h3",
+          "text": "AI inside apps"
+        },
+        {
+          "type": "p",
+          "text": "Chat assistants, search and personalisation powered by large language models."
+        },
+        {
+          "type": "h3",
+          "text": "App maintenance"
+        },
+        {
+          "type": "p",
+          "text": "OS updates, store releases, crash monitoring and new features."
+        },
+        {
+          "type": "a",
+          "text": "Custom software development"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [
+        {
+          "element": "article.card",
+          "heading": "Cross-platform apps",
+          "text": [
+            "One Flutter codebase for Android and iOS, to cut cost and launch faster."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.card",
+          "heading": "Native Android apps",
+          "text": [
+            "Kotlin and Java apps where device features or performance matter most."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.card",
+          "heading": "App backends and admin panels",
+          "text": [
+            "Node.js or Python APIs, dashboards and cloud hosting."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.card",
+          "heading": "Payments and integrations",
+          "text": [
+            "Stripe and PayPal payments, maps, notifications, CRM and ERP connections."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.card",
+          "heading": "AI inside apps",
+          "text": [
+            "Chat assistants, search and personalisation powered by large language models."
+          ],
+          "links": [],
+          "images": []
+        },
+        {
+          "element": "article.card",
+          "heading": "App maintenance",
+          "text": [
+            "OS updates, store releases, crash monitoring and new features."
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [
+        {
+          "text": "Custom software development",
+          "href": "/custom-software-development-company-india",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Custom software development",
+          "href": "/custom-software-development-company-india",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "background": "not determinable from markup (see section stylesheet); no theme/video/canvas class found",
+      "layout": {
+        "descriptors": [
+          "row"
+        ],
+        "notable_elements": [],
+        "direct_child_elements": 4
+      },
+      "layout_basis": "CSS class tokens and element types (not computed styles)",
+      "purpose": "Answers a search-intent question with self-contained, citable copy (AEO/GEO)",
+      "purpose_basis": "proposed by SEO audit (new section, not yet in source)",
+      "interactive_elements": [],
+      "forms_in_section": 0,
+      "hidden_or_conditional_content": [],
+      "screen_reader_only_text": [],
+      "child_sections": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      },
+      "seo": {
+        "headings_in_section": [
+          "h2",
+          "h3",
+          "h3",
+          "h3",
+          "h3",
+          "h3",
+          "h3"
+        ],
+        "has_h1": false,
+        "image_count": 0,
+        "images_missing_alt": 0,
+        "images_with_empty_alt": 0,
+        "link_count": 1
+      },
+      "flags": []
+    },
+    {
+      "section_id": "mobileappdevelopment_03_section",
+      "section_order": 3,
+      "html_id": null,
+      "element": "section",
+      "css_classes": [
+        "inner-about"
+      ],
+      "aria_labelledby": "inner-about-title",
+      "aria_label": null,
+      "section_name": "Content Section",
+      "name_basis": "humanised from the section's HTML id / aria-labelledby / first specific CSS class (the site does not display section names)",
+      "section_heading": "Built for your market",
+      "heading_level": "h2",
+      "heading_other": [],
+      "eyebrow": "Regional requirements",
+      "subheading": "",
+      "description": "Apps for the Gulf often need Arabic and English interfaces and local payment methods. Apps for African markets need to work on mid-range Android phones and patchy connections, and often integrate mobile money. European apps need GDPR-ready consent and data handling. We plan these requirements in discovery, not after launch.",
+      "paragraphs": [
+        "Regional requirements",
+        "Apps for the Gulf often need Arabic and English interfaces and local payment methods. Apps for African markets need to work on mid-range Android phones and patchy connections, and often integrate mobile money. European apps need GDPR-ready consent and data handling. We plan these requirements in discovery, not after launch."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Regional requirements"
+        },
+        {
+          "type": "h2",
+          "text": "Built for your market"
+        },
+        {
+          "type": "p",
+          "text": "Apps for the Gulf often need Arabic and English interfaces and local payment methods. Apps for African markets need to work on mid-range Android phones and patchy connections, and often integrate mobile money. European apps need GDPR-ready consent and data handling. We plan these requirements in discovery, not after launch."
+        },
+        {
+          "type": "a",
+          "text": "GCC"
+        },
+        {
+          "type": "a",
+          "text": "Africa"
+        },
+        {
+          "type": "a",
+          "text": "Europe"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [
+        {
+          "text": "GCC",
+          "href": "/software-development-gcc",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Africa",
+          "href": "/software-development-outsourcing-africa",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Europe",
+          "href": "/offshore-software-development-uk-europe",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "GCC",
+          "href": "/software-development-gcc",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Africa",
+          "href": "/software-development-outsourcing-africa",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        },
+        {
+          "text": "Europe",
+          "href": "/offshore-software-development-uk-europe",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "background": "not determinable from markup (see section stylesheet); no theme/video/canvas class found",
+      "layout": {
+        "descriptors": [
+          "row"
+        ],
+        "notable_elements": [],
+        "direct_child_elements": 4
+      },
+      "layout_basis": "CSS class tokens and element types (not computed styles)",
+      "purpose": "Answers a search-intent question with self-contained, citable copy (AEO/GEO)",
+      "purpose_basis": "proposed by SEO audit (new section, not yet in source)",
+      "interactive_elements": [],
+      "forms_in_section": 0,
+      "hidden_or_conditional_content": [],
+      "screen_reader_only_text": [],
+      "child_sections": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      },
+      "seo": {
+        "headings_in_section": [
+          "h2"
+        ],
+        "has_h1": false,
+        "image_count": 0,
+        "images_missing_alt": 0,
+        "images_with_empty_alt": 0,
+        "link_count": 3
+      },
+      "flags": []
+    },
+    {
+      "section_id": "mobileappdevelopment_04_section",
+      "section_order": 4,
+      "html_id": null,
+      "element": "section",
+      "css_classes": [
+        "inner-about"
+      ],
+      "aria_labelledby": "inner-about-title",
+      "aria_label": null,
+      "section_name": "Content Section",
+      "name_basis": "humanised from the section's HTML id / aria-labelledby / first specific CSS class (the site does not display section names)",
+      "section_heading": "Our app development process",
+      "heading_level": "h2",
+      "heading_other": [],
+      "eyebrow": "Steps",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "Steps"
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Steps"
+        },
+        {
+          "type": "h2",
+          "text": "Our app development process"
+        },
+        {
+          "type": "li",
+          "text": "Discovery and feature prioritisation for a lean first release."
+        },
+        {
+          "type": "li",
+          "text": "UX/UI design and clickable prototype."
+        },
+        {
+          "type": "li",
+          "text": "Sprint-based build with test builds on your phone every two weeks."
+        },
+        {
+          "type": "li",
+          "text": "App Store and Google Play submission, launch and monitoring."
+        },
+        {
+          "type": "a",
+          "text": "UI/UX and QA services"
+        }
+      ],
+      "bullet_points": [
+        "Discovery and feature prioritisation for a lean first release.",
+        "UX/UI design and clickable prototype.",
+        "Sprint-based build with test builds on your phone every two weeks.",
+        "App Store and Google Play submission, launch and monitoring."
+      ],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [
+        {
+          "text": "UI/UX and QA services",
+          "href": "/services/localization-uiux",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "UI/UX and QA services",
+          "href": "/services/localization-uiux",
+          "type": "internal",
+          "resolves_to_documented_page": true
+        }
+      ],
+      "external_links": [],
+      "contact_links": [],
+      "background": "not determinable from markup (see section stylesheet); no theme/video/canvas class found",
+      "layout": {
+        "descriptors": [
+          "row"
+        ],
+        "notable_elements": [],
+        "direct_child_elements": 4
+      },
+      "layout_basis": "CSS class tokens and element types (not computed styles)",
+      "purpose": "Answers a search-intent question with self-contained, citable copy (AEO/GEO)",
+      "purpose_basis": "proposed by SEO audit (new section, not yet in source)",
+      "interactive_elements": [],
+      "forms_in_section": 0,
+      "hidden_or_conditional_content": [],
+      "screen_reader_only_text": [],
+      "child_sections": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.css",
+        "component": "src/components/sections/ServiceDetailTemplate/ServiceDetailTemplate.tsx"
+      },
+      "seo": {
+        "headings_in_section": [
+          "h2"
+        ],
+        "has_h1": false,
+        "image_count": 0,
+        "images_missing_alt": 0,
+        "images_with_empty_alt": 0,
+        "link_count": 1
+      },
+      "flags": []
+    },
+    {
+      "section_id": "mobileappdevelopment_05_faq",
+      "section_order": 5,
+      "html_id": null,
+      "element": "section",
+      "css_classes": [
+        "section",
+        "section--lined",
+        "split",
+        "faq"
+      ],
+      "aria_labelledby": "faq-title",
+      "aria_label": null,
+      "section_name": "Faq",
+      "name_basis": "humanised from the section's HTML id / aria-labelledby / first specific CSS class (the site does not display section names)",
+      "section_heading": "Frequently asked questions",
+      "heading_level": "h2",
+      "heading_other": [],
+      "eyebrow": "Questions buyers ask",
+      "subheading": "",
+      "description": "",
+      "paragraphs": [
+        "Questions buyers ask",
+        "A simple app costs far less than a complex marketplace or fintech app. Ladder7 builds enterprise-grade apps at affordable, flexible pricing and provides a fixed estimate after a short discovery session.",
+        "Flutter suits most business apps because one codebase serves Android and iOS. Native is better for heavy device integration, complex animation or very high performance.",
+        "A focused first version usually takes 10 to 16 weeks including design, build, testing and store submission.",
+        "Yes. We handle App Store and Google Play submission under your developer accounts, so you own the listings."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Questions buyers ask"
+        },
+        {
+          "type": "h2",
+          "text": "Frequently asked questions"
+        },
+        {
+          "type": "summary",
+          "text": "How much does it cost to build an app in India?"
+        },
+        {
+          "type": "p",
+          "text": "A simple app costs far less than a complex marketplace or fintech app. Ladder7 builds enterprise-grade apps at affordable, flexible pricing and provides a fixed estimate after a short discovery session."
+        },
+        {
+          "type": "summary",
+          "text": "Flutter or native: which should we choose?"
+        },
+        {
+          "type": "p",
+          "text": "Flutter suits most business apps because one codebase serves Android and iOS. Native is better for heavy device integration, complex animation or very high performance."
+        },
+        {
+          "type": "summary",
+          "text": "How long does it take to build a mobile app?"
+        },
+        {
+          "type": "p",
+          "text": "A focused first version usually takes 10 to 16 weeks including design, build, testing and store submission."
+        },
+        {
+          "type": "summary",
+          "text": "Do you publish the app to the stores?"
+        },
+        {
+          "type": "p",
+          "text": "Yes. We handle App Store and Google Play submission under your developer accounts, so you own the listings."
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [],
+      "cards": [],
+      "cta_buttons": [],
+      "images": [],
+      "icons": [],
+      "links": [],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [],
+      "background": "not determinable from markup (see section stylesheet); no theme/video/canvas class found",
+      "layout": {
+        "descriptors": [
+          "list",
+          "row",
+          "split"
+        ],
+        "notable_elements": [
+          "details"
+        ],
+        "direct_child_elements": 2
+      },
+      "layout_basis": "CSS class tokens and element types (not computed styles)",
+      "purpose": "Answers common buyer questions (FAQPage schema)",
+      "purpose_basis": "proposed by SEO audit (new section, not yet in source)",
+      "interactive_elements": [
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "How much does it cost to build an app in India?",
+          "open": true
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Flutter or native: which should we choose?",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "How long does it take to build a mobile app?",
+          "open": false
+        },
+        {
+          "element": "details/summary (native disclosure)",
+          "text": "Do you publish the app to the stores?",
+          "open": false
+        }
+      ],
+      "forms_in_section": 0,
+      "hidden_or_conditional_content": [],
+      "screen_reader_only_text": [],
+      "child_sections": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Faq/FaqSection.css",
+        "component": "src/components/sections/Faq/FaqSection.tsx"
+      },
+      "seo": {
+        "headings_in_section": [
+          "h2"
+        ],
+        "has_h1": false,
+        "image_count": 0,
+        "images_missing_alt": 0,
+        "images_with_empty_alt": 0,
+        "link_count": 0
+      },
+      "flags": []
+    },
+    {
+      "section_id": "mobileappdevelopment_06_contact",
+      "section_order": 6,
+      "html_id": "contact",
+      "element": "section",
+      "css_classes": [
+        "section",
+        "section--sheet",
+        "theme-brand",
+        "contact"
+      ],
+      "aria_labelledby": "contact-title",
+      "aria_label": null,
+      "section_name": "Contact",
+      "name_basis": "humanised from the section's HTML id / aria-labelledby / first specific CSS class (the site does not display section names)",
+      "section_heading": "Let's build\nwhat's next.",
+      "heading_level": "h2",
+      "heading_other": [
+        {
+          "level": "h3",
+          "text": "Tell us what you're working on."
+        }
+      ],
+      "eyebrow": "Take the right next step",
+      "subheading": "A business goal. A technology challenge.\nStart with a conversation.",
+      "description": "A business goal. A technology challenge.\nStart with a conversation.",
+      "paragraphs": [
+        "Take the right next step",
+        "A business goal. A technology challenge.\nStart with a conversation.",
+        "A few details will help us understand your next step.",
+        "Your enquiry opens in WhatsApp for you to review and send."
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Take the right next step"
+        },
+        {
+          "type": "h2",
+          "text": "Let's build\nwhat's next."
+        },
+        {
+          "type": "p",
+          "text": "A business goal. A technology challenge.\nStart with a conversation."
+        },
+        {
+          "type": "div",
+          "text": "Write to us info@ladder7.in Prefer a call? +91 8137979401"
+        },
+        {
+          "type": "h3",
+          "text": "Tell us what you're working on."
+        },
+        {
+          "type": "p",
+          "text": "A few details will help us understand your next step."
+        },
+        {
+          "type": "legend",
+          "text": "I'm interested in"
+        },
+        {
+          "type": "label",
+          "text": "Digital experience"
+        },
+        {
+          "type": "label",
+          "text": "AI & automation"
+        },
+        {
+          "type": "label",
+          "text": "Training & internships"
+        },
+        {
+          "type": "label",
+          "text": "Corporate training"
+        },
+        {
+          "type": "label",
+          "text": "Career guidance"
+        },
+        {
+          "type": "label",
+          "text": "Personal growth"
+        },
+        {
+          "type": "label",
+          "text": "Your name*"
+        },
+        {
+          "type": "label",
+          "text": "Work email*"
+        },
+        {
+          "type": "label",
+          "text": "What would you like to achieve?*"
+        },
+        {
+          "type": "p",
+          "text": "Your enquiry opens in WhatsApp for you to review and send."
+        },
+        {
+          "type": "button",
+          "text": "Continue on WhatsApp (opens WhatsApp in a new tab)"
+        }
+      ],
+      "bullet_points": [],
+      "key_highlights": [
+        {
+          "term": "Digital experience",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "AI & automation",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Training & internships",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Corporate training",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Career guidance",
+          "detail": "",
+          "source": ".chip"
+        },
+        {
+          "term": "Personal growth",
+          "detail": "",
+          "source": ".chip"
+        }
+      ],
+      "cards": [
+        {
+          "element": "div.enquiry__row",
+          "heading": "",
+          "text": [
+            "Your name*",
+            "Work email*"
+          ],
+          "links": [],
+          "images": []
+        }
+      ],
+      "cta_buttons": [
+        {
+          "text": "Continue on WhatsApp (opens WhatsApp in a new tab)",
+          "url": null,
+          "element": "button",
+          "kind": "button",
+          "button_type": "submit",
+          "action_note": "behaviour defined in source (React handler); not executed during extraction"
+        }
+      ],
+      "images": [],
+      "icons": [
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "a",
+          "count": 2
+        },
+        {
+          "kind": "inline-svg",
+          "decorative": true,
+          "aria_label": null,
+          "title": null,
+          "role": null,
+          "parent_context": "span.btn__disc",
+          "count": 1
+        }
+      ],
+      "links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "internal_links": [],
+      "external_links": [],
+      "contact_links": [
+        {
+          "text": "info@ladder7.in",
+          "href": "mailto:info@ladder7.in",
+          "type": "mailto"
+        },
+        {
+          "text": "+91 8137979401",
+          "href": "tel:+918137979401",
+          "type": "tel"
+        }
+      ],
+      "background": "color theme (theme-brand); sheet surface (rounded panel) per class section--sheet",
+      "layout": {
+        "descriptors": [
+          "row"
+        ],
+        "notable_elements": [
+          "form"
+        ],
+        "direct_child_elements": 2
+      },
+      "layout_basis": "CSS class tokens and element types (not computed styles)",
+      "purpose": "Lead capture / contact",
+      "purpose_basis": "inferred by auditor from section name/classes; not text from the website",
+      "interactive_elements": [
+        {
+          "element": "button",
+          "text": "Continue on WhatsApp (opens WhatsApp in a new tab)",
+          "attrs": {
+            "type": "submit"
+          }
+        },
+        {
+          "element": "form",
+          "class": "enquiry__form"
+        }
+      ],
+      "forms_in_section": 1,
+      "hidden_or_conditional_content": [],
+      "screen_reader_only_text": [
+        "(opens WhatsApp in a new tab)"
+      ],
+      "child_sections": [],
+      "source_component": {
+        "stylesheet": "src/components/sections/Contact/ContactSection.css",
+        "component": "src/components/sections/Contact/ContactSection.tsx"
+      },
+      "seo": {
+        "headings_in_section": [
+          "h2",
+          "h3"
+        ],
+        "has_h1": false,
+        "image_count": 0,
+        "images_missing_alt": 0,
+        "images_with_empty_alt": 0,
+        "link_count": 2
+      },
+      "flags": []
+    }
+  ]
+}

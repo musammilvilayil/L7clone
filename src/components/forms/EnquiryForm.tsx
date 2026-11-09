@@ -6,6 +6,7 @@ import {
   type ChangeEvent,
   type FocusEvent,
   type FormEvent,
+  type MouseEvent,
   type ReactNode,
 } from "react";
 import { useLocation } from "react-router";
@@ -25,6 +26,16 @@ import {
 import { cn } from "../../utils/cn";
 import { ArrowUpRight } from "../common/Icons";
 import "./EnquiryForm.css";
+
+declare global {
+  interface Window {
+    gtag?: (
+      command: "event",
+      eventName: "generate_lead",
+      parameters: { method: "whatsapp" | "email"; form_name: string; page_path: string },
+    ) => void;
+  }
+}
 
 export interface EnquiryFormProps {
   variant: "contact" | "menu" | "page";
@@ -147,6 +158,7 @@ export function EnquiryForm({
       return;
     }
     setSummary("");
+    window.gtag?.("event", "generate_lead", { method: "whatsapp", form_name: source, page_path: pathname });
     const url = whatsappUrl(values, division);
     // Must run synchronously inside the submit handler or pop-up blockers stop it.
     window.open(url, "_blank", "noopener,noreferrer");
@@ -173,6 +185,20 @@ export function EnquiryForm({
     : "Your enquiry opens in WhatsApp for you to review and send.";
 
   const mailto = `mailto:${COMPANY.email}?subject=${encodeURIComponent(`Enquiry: ${values.interest}`)}&body=${encodeURIComponent(composeMessage(values, division))}`;
+
+  const onEmailClick = (event: MouseEvent<HTMLAnchorElement>) => {
+    setAttempted(true);
+    const invalid = (["name", "email", "message"] as const).filter((field) => errors[field]);
+    if (invalid.length) {
+      event.preventDefault();
+      setSummary(`Please check ${invalid.length === 1 ? "1 field" : `${invalid.length} fields`}: ${invalid.map((f) => labels[f]).join(", ")}.`);
+      const first = { name: nameRef, email: emailRef, message: messageRef }[invalid[0]!];
+      first.current?.focus();
+      return;
+    }
+    setSummary("");
+    window.gtag?.("event", "generate_lead", { method: "email", form_name: source, page_path: pathname });
+  };
 
   const describedBy = (field: FieldName) => (visibleError(field) ? id(`${field}-error`) : undefined);
 
@@ -318,7 +344,7 @@ export function EnquiryForm({
             )}
           </div>
 
-          <p className="enquiry__note">{note}</p>
+          <p className="enquiry__note">{note} You can also send your enquiry by email.</p>
           <p className="sr-only" role="alert">
             {summary}
           </p>
@@ -337,6 +363,9 @@ export function EnquiryForm({
             </span>
             <span className="sr-only"> (opens WhatsApp in a new tab)</span>
           </button>
+          <a className="enquiry__alt" href={mailto} onClick={onEmailClick}>
+            Prefer email? Send your enquiry
+          </a>
         </form>
       )}
     </div>
