@@ -702,6 +702,11 @@
     gap: 30px;
   }
 
+  .product-suite__note {
+    font-size: clamp(1.75rem, 3.8vw, 2.8125rem);
+    white-space: normal;
+  }
+
   .product-art {
     height: 310px;
     padding-left: 25px;

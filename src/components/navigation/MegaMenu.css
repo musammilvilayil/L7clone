@@ -152,7 +152,7 @@
   }
 
   .mega-menu__link {
-    font-size: 1rem;
+    font-size: 1.0625rem;
     letter-spacing: -0.5px;
   }
 }
@@ -212,7 +212,7 @@
   }
 
   .mega-menu__link {
-    font-size: 1.0625rem;
+    font-size: 1.125rem;
     letter-spacing: -0.45px;
   }
 

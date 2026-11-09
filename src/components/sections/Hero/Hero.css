@@ -274,7 +274,7 @@
 
   .hero__stats dd {
     gap: 6px;
-    font-size: 0.9375rem;
+    font-size: 1rem;
   }
 
   .hero__stats dd .icon {
@@ -311,7 +311,7 @@
   }
 
   .hero[data-variant="education"] .hero__stats dt {
-    font-size: 0.5rem; /* 8px */
+    font-size: var(--font-size-micro);
   }
 
   .hero[data-variant="education"] .hero__stats dd {

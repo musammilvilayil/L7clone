@@ -40,7 +40,7 @@
 .detail-section__body > p {
   margin: 0 0 22px;
   font-size: var(--font-size-body);
-  line-height: 1.9;
+  line-height: 1.6;
   color: #acbbc3;
 }
 
@@ -65,7 +65,7 @@
   position: relative;
   padding: 13px 0 13px 24px;
   font-size: var(--font-size-body-lg);
-  line-height: 1.8;
+  line-height: 1.6;
   border-bottom: 1px solid #71818a44;
 }
 
@@ -102,7 +102,7 @@
 .detail-cards p {
   margin-bottom: 18px;
   font-size: var(--font-size-body-sm);
-  line-height: 1.9;
+  line-height: 1.6;
   color: #aabac2;
 }
 
@@ -139,7 +139,7 @@
 .empty-state p {
   margin-bottom: 29px;
   font-size: var(--font-size-body);
-  line-height: 1.9;
+  line-height: 1.6;
   color: #52676f;
 }
 
@@ -191,7 +191,7 @@
   margin: 0;
   padding-bottom: 24px;
   font-size: var(--font-size-body);
-  line-height: 1.9;
+  line-height: 1.6;
   color: #acbcc4;
 }
 
@@ -202,7 +202,7 @@
 /* Numbered module accordion (design: .curriculum) — DetailFaq's styling plus
    a small index and an h3 title. */
 .detail-curriculum summary .detail-curriculum__number {
-  font-size: 0.625rem;
+  font-size: var(--font-size-micro);
   color: #a2b3bb;
 }
 

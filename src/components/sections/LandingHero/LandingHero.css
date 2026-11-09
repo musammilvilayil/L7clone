@@ -143,7 +143,7 @@
 
   .landing-hero__copy > p:not(.eyebrow) {
     font-size: var(--font-size-body-sm);
-    line-height: 1.9;
+    line-height: 1.6;
   }
 
   .landing-hero__actions {
@@ -176,6 +176,6 @@
     right: 20px;
     bottom: 19px;
     left: 20px;
-    font-size: 8px;
+    font-size: var(--font-size-label);
   }
 }

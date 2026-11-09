@@ -53,7 +53,7 @@
   max-width: 260px;
   margin: 0;
   font-size: var(--font-size-body-sm);
-  line-height: 1.8;
+  line-height: 1.6;
   color: #556167;
 }
 
@@ -203,7 +203,7 @@
 
   .service-row__copy > p {
     font-size: var(--font-size-caption);
-    line-height: 1.8;
+    line-height: 1.6;
   }
 
   .service-row__number {

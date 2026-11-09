@@ -37,7 +37,7 @@
   max-width: 470px;
   margin: 0 0 39px;
   font-size: var(--font-size-body);
-  line-height: 1.9;
+  line-height: 1.6;
   color: #b5c4cc;
 }
 
@@ -97,7 +97,7 @@
 
   .contact-intro > p:not(.eyebrow) {
     font-size: var(--font-size-body-sm);
-    line-height: 1.9;
+    line-height: 1.6;
   }
 
   .contact-direct {

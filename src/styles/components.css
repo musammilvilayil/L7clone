@@ -27,7 +27,7 @@
    ========================================================================== */
 .btn {
   --btn-height: 56px;
-  --btn-font: 1rem;
+  --btn-font: 1.0625rem;
   --btn-disc: 41px;
   --btn-pad-start: 23px;
   --btn-gap: 22px;
@@ -161,7 +161,7 @@
 
 .btn--md {
   --btn-height: 48px;
-  --btn-font: 0.875rem;
+  --btn-font: 0.9375rem;
   --btn-disc: 34px;
   --btn-pad-start: 19px;
   --btn-gap: 16px;
@@ -169,7 +169,7 @@
 
 .btn--sm {
   --btn-height: 40px;
-  --btn-font: 0.75rem;
+  --btn-font: 0.8125rem;
   --btn-disc: 32px;
   --btn-pad-start: 18px;
   --btn-gap: 14px;

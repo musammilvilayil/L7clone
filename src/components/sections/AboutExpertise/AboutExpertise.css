@@ -41,14 +41,14 @@
   z-index: 1;
   bottom: 27px;
   left: 27px;
-  font-size: 0.4375rem;
+  font-size: var(--font-size-label);
   letter-spacing: 1.3px;
   color: #e7eeee;
 }
 
 .about-expertise__copy > .eyebrow {
   margin-bottom: 27px;
-  font-size: 0.5rem;
+  font-size: var(--font-size-label);
   letter-spacing: 1.1px;
 }
 
@@ -62,7 +62,7 @@
   max-width: 480px;
   margin: 28px 0 35px;
   font-size: var(--font-size-body);
-  line-height: 1.8;
+  line-height: 1.6;
   color: #93a3ac;
 }
 
@@ -75,7 +75,7 @@
 
 .about-expertise__points article > span {
   padding-top: 4px;
-  font-size: 0.5625rem;
+  font-size: var(--font-size-micro);
   color: var(--color-brand);
 }
 
@@ -90,7 +90,7 @@
   max-width: 400px;
   margin: 0;
   font-size: var(--font-size-caption);
-  line-height: 1.8;
+  line-height: 1.6;
   color: #93a3ac;
 }
 
@@ -115,7 +115,7 @@
 }
 
 .about-expertise__metrics dt {
-  font-size: 0.5625rem;
+  font-size: var(--font-size-label);
   letter-spacing: 1.2px;
   color: #a7b7bf;
 }
@@ -164,7 +164,7 @@
   }
 
   .about-expertise__metrics dt {
-    font-size: 0.375rem;
+    font-size: var(--font-size-label);
     letter-spacing: 0.7px;
   }
 
@@ -192,12 +192,12 @@
   .about-expertise__image figcaption {
     bottom: 22px;
     left: 20px;
-    font-size: 0.375rem;
+    font-size: var(--font-size-label);
   }
 
   .about-expertise__copy > .eyebrow {
     margin-bottom: 23px;
-    font-size: 0.375rem;
+    font-size: var(--font-size-label);
     letter-spacing: 0.7px;
   }
 

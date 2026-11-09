@@ -36,12 +36,12 @@
   }
 
   .btn {
-    --btn-font: 0.9375rem;
+    --btn-font: 1rem;
     --btn-gap: 16px;
   }
 
   .btn--sm {
-    --btn-font: 0.75rem;
+    --btn-font: 0.8125rem;
   }
 }
 
@@ -51,11 +51,13 @@
     --gutter: 5%;
     --section-padding-y: 68px;
     --section-heading-gap: 35px;
-    --header-height: 66px;
-    --scroll-offset: 74px;
+    --topbar-height: 38px;
+    --header-nav-height: 66px;
+    --header-height: calc(var(--topbar-height) + var(--header-nav-height));
+    --scroll-offset: calc(var(--header-height) + 12px);
     --radius-section: 28px;
     --font-size-h2: 2.6875rem; /* 43px */
-    --font-size-lead: 0.875rem;
+    --font-size-lead: 1rem;
     --icon-size: 16px;
   }
 
@@ -96,7 +98,7 @@
 
   .btn {
     --btn-height: 52px;
-    --btn-font: 0.875rem;
+    --btn-font: 0.9375rem;
     --btn-gap: 14px;
     --btn-pad-start: 19px;
     --btn-disc: 34px;

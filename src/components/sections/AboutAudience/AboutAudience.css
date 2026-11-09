@@ -24,7 +24,7 @@
   max-width: 300px;
   margin: 0 0 5px;
   font-size: var(--font-size-caption);
-  line-height: 1.9;
+  line-height: 1.7;
   color: #8799a1;
 }
 
@@ -63,7 +63,7 @@
 .about-audience__grid li::before {
   content: "↗";
   margin-right: 13px;
-  font-size: 0.8125rem;
+  font-size: var(--font-size-body-sm);
   color: var(--color-brand);
 }
 

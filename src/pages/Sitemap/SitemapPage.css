@@ -13,7 +13,7 @@
   display: block;
   padding: 20px 0;
   border-top: 1px solid #b7c3c8;
-  font-size: 0.9375rem;
+  font-size: 1rem;
   line-height: 1.5;
   color: inherit;
   transition: color 0.2s;
@@ -35,6 +35,6 @@
   }
 
   .site-directory a {
-    font-size: 0.875rem;
+    font-size: 0.9375rem;
   }
 }

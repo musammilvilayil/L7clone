@@ -76,22 +76,22 @@
   --font-size-h3: clamp(1.75rem, 3.5vw, 3.25rem);           /* 28 → 52   phase / product titles */
   --font-size-h4: clamp(1.5rem, 2.8vw, 2.5rem);             /* 24 → 40   card titles */
   --font-size-h5: 1.1875rem;                                 /* 19 */
-  --font-size-h6: 1.0625rem;                                 /* 17 */
-  --font-size-lead: 1.0625rem;                               /* 17  hero description */
-  --font-size-body-lg: 0.9375rem;                            /* 15 */
-  --font-size-body: 0.875rem;                                /* 14 */
-  --font-size-body-sm: 0.8125rem;                            /* 13 */
-  --font-size-caption: 0.75rem;                              /* 12 */
-  --font-size-label: 0.6875rem;                              /* 11  eyebrows */
-  --font-size-micro: 0.625rem;                               /* 10  floor for meaningful text */
-  --font-size-art: 0.5rem;                                   /* 8   floor for decorative art text */
+  --font-size-h6: 1.125rem;                                  /* 18 */
+  --font-size-lead: 1.125rem;                                /* 18  hero description */
+  --font-size-body-lg: 1rem;                                 /* 16 */
+  --font-size-body: 1rem;                                    /* 16 */
+  --font-size-body-sm: 0.875rem;                              /* 14 */
+  --font-size-caption: 0.8125rem;                             /* 13 */
+  --font-size-label: 0.75rem;                                 /* 12  eyebrows */
+  --font-size-micro: 0.75rem;                                 /* 12  smallest meaningful text */
+  --font-size-art: 0.625rem;                                 /* 10  decorative art text */
 
   --line-height-display: 1.08;
   --line-height-heading: 1.06;
   --line-height-title: 1.1;
   --line-height-snug: 1.35;
-  --line-height-body: 1.7;
-  --line-height-relaxed: 1.8;
+  --line-height-body: 1.5;
+  --line-height-relaxed: 1.6;
 
   --tracking-display: -0.068em;
   --tracking-heading: -0.055em;
@@ -126,8 +126,10 @@
   /* ── Layout ─────────────────────────────────────────────────────────── */
   --container-max: 1500px;         /* content width on ≥1600px screens */
   --page-min-width: 320px;
-  --header-height: 72px;
-  --scroll-offset: 92px;           /* anchor offset below the fixed header */
+  --topbar-height: 42px;
+  --header-nav-height: 72px;
+  --header-height: calc(var(--topbar-height) + var(--header-nav-height));
+  --scroll-offset: calc(var(--header-height) + 20px);
 
   /* ── Shape ──────────────────────────────────────────────────────────── */
   --radius-xs: 3px;

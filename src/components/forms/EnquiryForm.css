@@ -239,7 +239,7 @@
 
 .enquiry--page .chip span {
   padding: 8px 12px;
-  font-size: 0.6875rem;
+  font-size: var(--font-size-label);
 }
 
 .enquiry--page :focus-visible {

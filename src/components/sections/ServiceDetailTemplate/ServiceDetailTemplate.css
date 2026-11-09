@@ -209,7 +209,7 @@
   max-width: 360px;
   margin: 0 0 4px;
   font-size: var(--font-size-body-sm);
-  line-height: 1.8;
+  line-height: 1.6;
   color: #b3c2ca;
 }
 
@@ -275,7 +275,7 @@
   max-width: 240px;
   margin: auto;
   font-size: var(--font-size-caption);
-  line-height: 1.8;
+  line-height: 1.6;
   color: #acbec8;
 }
 
@@ -350,7 +350,7 @@
 .inner-process__caption {
   margin: 25px 0 0;
   font-size: var(--font-size-body-sm);
-  line-height: 1.8;
+  line-height: 1.6;
   color: #afc0ca;
 }
 
@@ -445,7 +445,7 @@
 .inner-editorial-row > div > p {
   margin: 0 0 16px;
   font-size: var(--font-size-body);
-  line-height: 1.9;
+  line-height: 1.6;
   color: #52616a;
 }
 
@@ -500,7 +500,7 @@
 .inner-deliverable-grid p {
   margin: 0;
   font-size: var(--font-size-body-sm);
-  line-height: 1.8;
+  line-height: 1.6;
   color: #adbec8;
 }
 
@@ -663,7 +663,7 @@
     margin-bottom: 28px;
     font-size: var(--font-size-micro);
     letter-spacing: 1px;
-    line-height: 1.9;
+    line-height: 1.6;
   }
 
   .inner-service-hero h1 {
@@ -683,7 +683,7 @@
     width: auto;
     margin: 0 0 29px;
     font-size: var(--font-size-body-sm);
-    line-height: 1.9;
+    line-height: 1.6;
   }
 
   .inner-hero-actions {
